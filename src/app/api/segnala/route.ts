@@ -3,7 +3,9 @@ import type { NextRequest } from "next/server";
 // Crea una issue pubblica su GitHub con la segnalazione di un utente, come fa DoveVannoINostriSoldi.
 // Il token resta sul server: l'utente non ha bisogno di un account GitHub.
 // Variabili d'ambiente (su Vercel):
-//   GITHUB_TOKEN_SEGNALAZIONI  token con permesso "Issues: read and write" sul solo repository delle segnalazioni
+//   GITHUB_TOKEN_SEGNALAZIONI  token "classic" dell'account macchina (bot) con il solo permesso public_repo.
+//                              Il bot NON è collaboratore del repository: può aprire issue (come chiunque su un
+//                              repository pubblico) ma non modificare il codice. Le etichette vengono ignorate.
 //   GITHUB_REPO_SEGNALAZIONI   "proprietario/repository"
 
 export const dynamic = "force-dynamic";
@@ -74,9 +76,14 @@ export async function POST(request: NextRequest) {
       "Content-Type": "application/json",
       "User-Agent": "chi-mi-rappresenta",
     },
-    body: JSON.stringify({ title: titolo, body: corpo, labels: ["segnalazione"] }),
+    // niente etichette: il bot non è collaboratore e non può assegnarle
+    body: JSON.stringify({ title: titolo, body: corpo }),
   });
-  if (!r.ok) return Response.json({ errore: "Invio non riuscito" }, { status: 502 });
+  if (!r.ok) {
+    // nei log di Vercel: stato e messaggio di GitHub (mai il token)
+    console.error(`Segnalazione rifiutata da GitHub: ${r.status} ${(await r.text()).slice(0, 300)}`);
+    return Response.json({ errore: "Invio non riuscito" }, { status: 502 });
+  }
   const issue = (await r.json()) as { html_url?: string };
   return Response.json({ ok: true, url: issue.html_url });
 }
