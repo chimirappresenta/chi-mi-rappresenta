@@ -75,7 +75,7 @@
   --font-serif: var(--font-instrument);
 }
 
-/* Testo di base un po' più grande del solito (17px): il sito è pensato anche per chi ha più di 60 anni.
+/* Testo di base un po' più grande del solito (17px): per una lettura più comoda.
    Per ingrandire ancora si usa lo zoom del browser (Ctrl +), che il layout regge. */
 html {
   font-size: 106.25%;

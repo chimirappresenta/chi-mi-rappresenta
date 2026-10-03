@@ -43,7 +43,7 @@ I file in `data/manual/` sono curati a mano: la pipeline li confronta con le fon
 - **Scrivi al tuo consigliere**: nella scheda di ogni consigliere (pannello dell'emiciclo e pagina completa) c'è un modulo che prepara un'email con oggetto e traccia del messaggio e la apre nel programma di posta dell'utente. Il sito non invia e non salva nulla.
 - **Immagini di anteprima**: ogni comune e ogni consigliere ha un'immagine generata al build (`opengraph-image.tsx`, 1200×630) con i dati principali e l'emiciclo. Usano i font Instrument Serif e Geist in `assets/fonts/` (licenza OFL). In produzione va impostata la variabile `SITE_URL` (es. `https://chi-mi-rappresenta.it`); su Vercel si usa il dominio di produzione. 
 
-## Pensato per tutti, anche per chi ha più di 60 anni
+## Pensato per tutti
 
 - **Strade chiare**: in home e in ogni pagina comune c'è "Cosa vuoi fare?" con pochi pulsanti grandi (chi mi rappresenta, ho un problema, contatta il Comune, scrivi a un eletto).
 - **"A chi mi rivolgo?"** (`/a-chi-rivolgersi/` e in ogni pagina comune): per i problemi più comuni dice chi decide, il primo passo e a chi scrivere. Contenuti in `src/lib/guida.ts`.
