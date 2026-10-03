@@ -1040,7 +1040,61 @@ const meta = {
 };
 
 const write = (name, data) => fs.writeFileSync(path.join(OUT, name), JSON.stringify(data, null, 1));
-write("comuni.json", schede);
+
+// Numeri sulla squadra di governo del Comune (età, donne, laureati), calcolati qui una volta sola
+// invece che a ogni pagina: così la pagina di un comune non ha bisogno dei dati di tutti gli altri.
+function numeriAmministrazione(a) {
+  if (!a || a.tipo !== "ordinaria") return null;
+  const tutte = new Map();
+  for (const p of [a.sindaco, ...a.giunta, ...a.consiglio]) if (p) tutte.set(p.nome, p);
+  const persone = [...tutte.values()];
+  const perc = (n, d) => (d ? Math.round((100 * n) / d) : undefined);
+  const conEta = persone.filter((p) => p.eta);
+  const conSesso = persone.filter((p) => p.sesso);
+  const conStudio = persone.filter((p) => p.studio);
+  return persona({
+    persone: persone.length,
+    etaMedia: conEta.length ? Math.round(conEta.reduce((s, p) => s + p.eta, 0) / conEta.length) : undefined,
+    donne: perc(conSesso.filter((p) => p.sesso === "F").length, conSesso.length),
+    laureati: perc(conStudio.filter((p) => p.studio === "Laurea" || p.studio === "Post-laurea").length, conStudio.length),
+    under40: perc(conEta.filter((p) => p.eta < 40).length, conEta.length),
+  });
+}
+for (const s of schede) s.numeri = numeriAmministrazione(s.amministrazione);
+const tuttiNumeri = schede.map((s) => s.numeri).filter(Boolean);
+const mediaDi = (k) => {
+  const v = tuttiNumeri.map((x) => x[k]).filter((x) => typeof x === "number");
+  return v.length ? Math.round(v.reduce((a, b) => a + b, 0) / v.length) : undefined;
+};
+const mediaRegione = persona({
+  persone: mediaDi("persone") ?? 0,
+  etaMedia: mediaDi("etaMedia"),
+  donne: mediaDi("donne"),
+  laureati: mediaDi("laureati"),
+  under40: mediaDi("under40"),
+});
+
+// Un file per comune (letto solo quando serve quella pagina) e un elenco leggero per home, ricerca e build.
+const DIR_COMUNI = path.join(OUT, "comuni");
+fs.rmSync(DIR_COMUNI, { recursive: true, force: true });
+fs.mkdirSync(DIR_COMUNI, { recursive: true });
+for (const s of schede) fs.writeFileSync(path.join(DIR_COMUNI, `${s.istat}.json`), JSON.stringify(s));
+fs.rmSync(path.join(OUT, "comuni.json"), { force: true });
+write(
+  "comuni-elenco.json",
+  schede.map((s) =>
+    persona({
+      istat: s.istat,
+      nome: s.nome,
+      provincia: s.provincia,
+      sigla: s.sigla,
+      capoluogo: s.capoluogo || undefined,
+      abitanti: s.amministrazione?.popolazione,
+      sindaco: s.amministrazione?.sindaco ? true : undefined,
+    }),
+  ),
+);
+write("statistiche.json", { mediaRegione });
 // PEC della Regione e del Consiglio regionale (per "Chiedi un documento"), dall'IPA.
 const ipaTutti = csvObjects(await download("ipa-enti.csv", IPA_URL), 0, ",");
 const contattiEnte = (codice) => {

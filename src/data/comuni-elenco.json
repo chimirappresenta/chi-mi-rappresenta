@@ -1,0 +1,4360 @@
+[
+ {
+  "istat": "065001",
+  "nome": "Acerno",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 2872,
+  "sindaco": true
+ },
+ {
+  "istat": "063001",
+  "nome": "Acerra",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 56465,
+  "sindaco": true
+ },
+ {
+  "istat": "063002",
+  "nome": "Afragola",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 62198,
+  "sindaco": true
+ },
+ {
+  "istat": "063003",
+  "nome": "Agerola",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 7373,
+  "sindaco": true
+ },
+ {
+  "istat": "065002",
+  "nome": "Agropoli",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 20610,
+  "sindaco": true
+ },
+ {
+  "istat": "064001",
+  "nome": "Aiello del Sabato",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 3971,
+  "sindaco": true
+ },
+ {
+  "istat": "061001",
+  "nome": "Ailano",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 1225,
+  "sindaco": true
+ },
+ {
+  "istat": "062001",
+  "nome": "Airola",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 8062,
+  "sindaco": true
+ },
+ {
+  "istat": "065003",
+  "nome": "Albanella",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 6503,
+  "sindaco": true
+ },
+ {
+  "istat": "065004",
+  "nome": "Alfano",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1097,
+  "sindaco": true
+ },
+ {
+  "istat": "061002",
+  "nome": "Alife",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 7390,
+  "sindaco": true
+ },
+ {
+  "istat": "064002",
+  "nome": "Altavilla Irpina",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 4004,
+  "sindaco": true
+ },
+ {
+  "istat": "065005",
+  "nome": "Altavilla Silentina",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 6997,
+  "sindaco": true
+ },
+ {
+  "istat": "061003",
+  "nome": "Alvignano",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 4914,
+  "sindaco": true
+ },
+ {
+  "istat": "065006",
+  "nome": "Amalfi",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 4830,
+  "sindaco": true
+ },
+ {
+  "istat": "062002",
+  "nome": "Amorosi",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 2641,
+  "sindaco": true
+ },
+ {
+  "istat": "063004",
+  "nome": "Anacapri",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 6882,
+  "sindaco": true
+ },
+ {
+  "istat": "064003",
+  "nome": "Andretta",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1688,
+  "sindaco": true
+ },
+ {
+  "istat": "065007",
+  "nome": "Angri",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 33963,
+  "sindaco": true
+ },
+ {
+  "istat": "062003",
+  "nome": "Apice",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 5349,
+  "sindaco": true
+ },
+ {
+  "istat": "062004",
+  "nome": "Apollosa",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 2697,
+  "sindaco": true
+ },
+ {
+  "istat": "065008",
+  "nome": "Aquara",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1362,
+  "sindaco": true
+ },
+ {
+  "istat": "064004",
+  "nome": "Aquilonia",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1507,
+  "sindaco": true
+ },
+ {
+  "istat": "064005",
+  "nome": "Ariano Irpino",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 21240,
+  "sindaco": true
+ },
+ {
+  "istat": "061004",
+  "nome": "Arienzo",
+  "provincia": "Caserta",
+  "sigla": "CE"
+ },
+ {
+  "istat": "062005",
+  "nome": "Arpaia",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 2016,
+  "sindaco": true
+ },
+ {
+  "istat": "062006",
+  "nome": "Arpaise",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 727,
+  "sindaco": true
+ },
+ {
+  "istat": "063005",
+  "nome": "Arzano",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 32465,
+  "sindaco": true
+ },
+ {
+  "istat": "065009",
+  "nome": "Ascea",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 5808,
+  "sindaco": true
+ },
+ {
+  "istat": "065010",
+  "nome": "Atena Lucana",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 2396,
+  "sindaco": true
+ },
+ {
+  "istat": "065011",
+  "nome": "Atrani",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 802,
+  "sindaco": true
+ },
+ {
+  "istat": "064006",
+  "nome": "Atripalda",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 10926,
+  "sindaco": true
+ },
+ {
+  "istat": "065012",
+  "nome": "Auletta",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 2150,
+  "sindaco": true
+ },
+ {
+  "istat": "064007",
+  "nome": "Avella",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 7788,
+  "sindaco": true
+ },
+ {
+  "istat": "064008",
+  "nome": "Avellino",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "capoluogo": true,
+  "abitanti": 52498,
+  "sindaco": true
+ },
+ {
+  "istat": "061005",
+  "nome": "Aversa",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 50194,
+  "sindaco": true
+ },
+ {
+  "istat": "063006",
+  "nome": "Bacoli",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 25410,
+  "sindaco": true
+ },
+ {
+  "istat": "064009",
+  "nome": "Bagnoli Irpino",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 3274,
+  "sindaco": true
+ },
+ {
+  "istat": "061006",
+  "nome": "Baia e Latina",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 2251,
+  "sindaco": true
+ },
+ {
+  "istat": "064010",
+  "nome": "Baiano",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 4730,
+  "sindaco": true
+ },
+ {
+  "istat": "063007",
+  "nome": "Barano d'Ischia",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 9882,
+  "sindaco": true
+ },
+ {
+  "istat": "065013",
+  "nome": "Baronissi",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 16798,
+  "sindaco": true
+ },
+ {
+  "istat": "062007",
+  "nome": "Baselice",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 2121,
+  "sindaco": true
+ },
+ {
+  "istat": "065014",
+  "nome": "Battipaglia",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 50464,
+  "sindaco": true
+ },
+ {
+  "istat": "065158",
+  "nome": "Bellizzi",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 13295,
+  "sindaco": true
+ },
+ {
+  "istat": "061007",
+  "nome": "Bellona",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 5705,
+  "sindaco": true
+ },
+ {
+  "istat": "065015",
+  "nome": "Bellosguardo",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 705,
+  "sindaco": true
+ },
+ {
+  "istat": "062008",
+  "nome": "Benevento",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "capoluogo": true,
+  "abitanti": 61489,
+  "sindaco": true
+ },
+ {
+  "istat": "064011",
+  "nome": "Bisaccia",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 3554,
+  "sindaco": true
+ },
+ {
+  "istat": "062009",
+  "nome": "Bonea",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 1383,
+  "sindaco": true
+ },
+ {
+  "istat": "064012",
+  "nome": "Bonito",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 2242,
+  "sindaco": true
+ },
+ {
+  "istat": "063008",
+  "nome": "Boscoreale",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 26317,
+  "sindaco": true
+ },
+ {
+  "istat": "063009",
+  "nome": "Boscotrecase",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 10416,
+  "sindaco": true
+ },
+ {
+  "istat": "065016",
+  "nome": "Bracigliano",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 5439,
+  "sindaco": true
+ },
+ {
+  "istat": "063010",
+  "nome": "Brusciano",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 16010,
+  "sindaco": true
+ },
+ {
+  "istat": "062010",
+  "nome": "Bucciano",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 2000,
+  "sindaco": true
+ },
+ {
+  "istat": "065017",
+  "nome": "Buccino",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 5248,
+  "sindaco": true
+ },
+ {
+  "istat": "065018",
+  "nome": "Buonabitacolo",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 2571,
+  "sindaco": true
+ },
+ {
+  "istat": "062011",
+  "nome": "Buonalbergo",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 1824,
+  "sindaco": true
+ },
+ {
+  "istat": "065019",
+  "nome": "Caggiano",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 2548,
+  "sindaco": true
+ },
+ {
+  "istat": "061008",
+  "nome": "Caianello",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 1761,
+  "sindaco": true
+ },
+ {
+  "istat": "061009",
+  "nome": "Caiazzo",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 5224,
+  "sindaco": true
+ },
+ {
+  "istat": "064013",
+  "nome": "Cairano",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 275,
+  "sindaco": true
+ },
+ {
+  "istat": "063011",
+  "nome": "Caivano",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 36048,
+  "sindaco": true
+ },
+ {
+  "istat": "064014",
+  "nome": "Calabritto",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 2500,
+  "sindaco": true
+ },
+ {
+  "istat": "064015",
+  "nome": "Calitri",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 4278,
+  "sindaco": true
+ },
+ {
+  "istat": "065020",
+  "nome": "Calvanico",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1397,
+  "sindaco": true
+ },
+ {
+  "istat": "062012",
+  "nome": "Calvi",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 2515,
+  "sindaco": true
+ },
+ {
+  "istat": "061010",
+  "nome": "Calvi Risorta",
+  "provincia": "Caserta",
+  "sigla": "CE"
+ },
+ {
+  "istat": "063012",
+  "nome": "Calvizzano",
+  "provincia": "Napoli",
+  "sigla": "NA"
+ },
+ {
+  "istat": "065021",
+  "nome": "Camerota",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 6751,
+  "sindaco": true
+ },
+ {
+  "istat": "061011",
+  "nome": "Camigliano",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 1902,
+  "sindaco": true
+ },
+ {
+  "istat": "065022",
+  "nome": "Campagna",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 16562,
+  "sindaco": true
+ },
+ {
+  "istat": "062013",
+  "nome": "Campolattaro",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 1084,
+  "sindaco": true
+ },
+ {
+  "istat": "062014",
+  "nome": "Campoli del Monte Taburno",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 1594,
+  "sindaco": true
+ },
+ {
+  "istat": "065023",
+  "nome": "Campora",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 325,
+  "sindaco": true
+ },
+ {
+  "istat": "063013",
+  "nome": "Camposano",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 5365,
+  "sindaco": true
+ },
+ {
+  "istat": "061012",
+  "nome": "Cancello ed Arnone",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 5511,
+  "sindaco": true
+ },
+ {
+  "istat": "064016",
+  "nome": "Candida",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1104,
+  "sindaco": true
+ },
+ {
+  "istat": "065024",
+  "nome": "Cannalonga",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1081,
+  "sindaco": true
+ },
+ {
+  "istat": "065025",
+  "nome": "Capaccio Paestum",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 22331,
+  "sindaco": true
+ },
+ {
+  "istat": "061013",
+  "nome": "Capodrise",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 10065,
+  "sindaco": true
+ },
+ {
+  "istat": "064017",
+  "nome": "Caposele",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 3271,
+  "sindaco": true
+ },
+ {
+  "istat": "063014",
+  "nome": "Capri",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 6827,
+  "sindaco": true
+ },
+ {
+  "istat": "061014",
+  "nome": "Capriati a Volturno",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 1594,
+  "sindaco": true
+ },
+ {
+  "istat": "064018",
+  "nome": "Capriglia Irpina",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 2417,
+  "sindaco": true
+ },
+ {
+  "istat": "061015",
+  "nome": "Capua",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 19036,
+  "sindaco": true
+ },
+ {
+  "istat": "063015",
+  "nome": "Carbonara di Nola",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 2303,
+  "sindaco": true
+ },
+ {
+  "istat": "063016",
+  "nome": "Cardito",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 22322,
+  "sindaco": true
+ },
+ {
+  "istat": "064019",
+  "nome": "Carife",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1289,
+  "sindaco": true
+ },
+ {
+  "istat": "061016",
+  "nome": "Carinaro",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 7121,
+  "sindaco": true
+ },
+ {
+  "istat": "061017",
+  "nome": "Carinola",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 8056,
+  "sindaco": true
+ },
+ {
+  "istat": "061018",
+  "nome": "Casagiove",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 13116,
+  "sindaco": true
+ },
+ {
+  "istat": "061019",
+  "nome": "Casal di Principe",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 21244,
+  "sindaco": true
+ },
+ {
+  "istat": "065028",
+  "nome": "Casal Velino",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 5343,
+  "sindaco": true
+ },
+ {
+  "istat": "064020",
+  "nome": "Casalbore",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1608,
+  "sindaco": true
+ },
+ {
+  "istat": "065026",
+  "nome": "Casalbuono",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1065,
+  "sindaco": true
+ },
+ {
+  "istat": "062015",
+  "nome": "Casalduni",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 1238,
+  "sindaco": true
+ },
+ {
+  "istat": "065027",
+  "nome": "Casaletto Spartano",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1303,
+  "sindaco": true
+ },
+ {
+  "istat": "063017",
+  "nome": "Casalnuovo di Napoli",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 47428,
+  "sindaco": true
+ },
+ {
+  "istat": "061020",
+  "nome": "Casaluce",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 10001,
+  "sindaco": true
+ },
+ {
+  "istat": "063018",
+  "nome": "Casamarciano",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 3272,
+  "sindaco": true
+ },
+ {
+  "istat": "063019",
+  "nome": "Casamicciola Terme",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 7715,
+  "sindaco": true
+ },
+ {
+  "istat": "063020",
+  "nome": "Casandrino",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 13363,
+  "sindaco": true
+ },
+ {
+  "istat": "061103",
+  "nome": "Casapesenna",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 6869,
+  "sindaco": true
+ },
+ {
+  "istat": "061021",
+  "nome": "Casapulla",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 8374,
+  "sindaco": true
+ },
+ {
+  "istat": "063021",
+  "nome": "Casavatore",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 18282,
+  "sindaco": true
+ },
+ {
+  "istat": "065029",
+  "nome": "Caselle in Pittari",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1864,
+  "sindaco": true
+ },
+ {
+  "istat": "061022",
+  "nome": "Caserta",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "capoluogo": true
+ },
+ {
+  "istat": "063022",
+  "nome": "Casola di Napoli",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 3663,
+  "sindaco": true
+ },
+ {
+  "istat": "063023",
+  "nome": "Casoria",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 74394,
+  "sindaco": true
+ },
+ {
+  "istat": "064021",
+  "nome": "Cassano Irpino",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 930,
+  "sindaco": true
+ },
+ {
+  "istat": "064022",
+  "nome": "Castel Baronia",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1069,
+  "sindaco": true
+ },
+ {
+  "istat": "061023",
+  "nome": "Castel Campagnano",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 1473,
+  "sindaco": true
+ },
+ {
+  "istat": "061024",
+  "nome": "Castel di Sasso",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 1076,
+  "sindaco": true
+ },
+ {
+  "istat": "061026",
+  "nome": "Castel Morrone",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 3934,
+  "sindaco": true
+ },
+ {
+  "istat": "065034",
+  "nome": "Castel San Giorgio",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 13411,
+  "sindaco": true
+ },
+ {
+  "istat": "065035",
+  "nome": "Castel San Lorenzo",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 2632,
+  "sindaco": true
+ },
+ {
+  "istat": "061027",
+  "nome": "Castel Volturno",
+  "provincia": "Caserta",
+  "sigla": "CE"
+ },
+ {
+  "istat": "065030",
+  "nome": "Castelcivita",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1470,
+  "sindaco": true
+ },
+ {
+  "istat": "064023",
+  "nome": "Castelfranci",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1821,
+  "sindaco": true
+ },
+ {
+  "istat": "062016",
+  "nome": "Castelfranco in Miscano",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 819,
+  "sindaco": true
+ },
+ {
+  "istat": "065031",
+  "nome": "Castellabate",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 8209,
+  "sindaco": true
+ },
+ {
+  "istat": "063024",
+  "nome": "Castellammare di Stabia",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 63330,
+  "sindaco": true
+ },
+ {
+  "istat": "061025",
+  "nome": "Castello del Matese",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 1410,
+  "sindaco": true
+ },
+ {
+  "istat": "063025",
+  "nome": "Castello di Cisterna",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 7452,
+  "sindaco": true
+ },
+ {
+  "istat": "065032",
+  "nome": "Castelnuovo Cilento",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 2802,
+  "sindaco": true
+ },
+ {
+  "istat": "065033",
+  "nome": "Castelnuovo di Conza",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 595,
+  "sindaco": true
+ },
+ {
+  "istat": "062017",
+  "nome": "Castelpagano",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 1350,
+  "sindaco": true
+ },
+ {
+  "istat": "062018",
+  "nome": "Castelpoto",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 1114,
+  "sindaco": true
+ },
+ {
+  "istat": "062019",
+  "nome": "Castelvenere",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 2620,
+  "sindaco": true
+ },
+ {
+  "istat": "062020",
+  "nome": "Castelvetere in Val Fortore",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 1389,
+  "sindaco": true
+ },
+ {
+  "istat": "064024",
+  "nome": "Castelvetere sul Calore",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1511,
+  "sindaco": true
+ },
+ {
+  "istat": "065036",
+  "nome": "Castiglione del Genovesi",
+  "provincia": "Salerno",
+  "sigla": "SA"
+ },
+ {
+  "istat": "062021",
+  "nome": "Cautano",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 1950,
+  "sindaco": true
+ },
+ {
+  "istat": "065037",
+  "nome": "Cava de' Tirreni",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 51067,
+  "sindaco": true
+ },
+ {
+  "istat": "065038",
+  "nome": "Celle di Bulgheria",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1773,
+  "sindaco": true
+ },
+ {
+  "istat": "061102",
+  "nome": "Cellole",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 8086,
+  "sindaco": true
+ },
+ {
+  "istat": "065039",
+  "nome": "Centola",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 5073,
+  "sindaco": true
+ },
+ {
+  "istat": "062022",
+  "nome": "Ceppaloni",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 3231,
+  "sindaco": true
+ },
+ {
+  "istat": "065040",
+  "nome": "Ceraso",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 2508,
+  "sindaco": true
+ },
+ {
+  "istat": "063026",
+  "nome": "Cercola",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 17124,
+  "sindaco": true
+ },
+ {
+  "istat": "062023",
+  "nome": "Cerreto Sannita",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 4083,
+  "sindaco": true
+ },
+ {
+  "istat": "064025",
+  "nome": "Cervinara",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 8796,
+  "sindaco": true
+ },
+ {
+  "istat": "061028",
+  "nome": "Cervino",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 5024,
+  "sindaco": true
+ },
+ {
+  "istat": "061029",
+  "nome": "Cesa",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 8496,
+  "sindaco": true
+ },
+ {
+  "istat": "064026",
+  "nome": "Cesinali",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 2565,
+  "sindaco": true
+ },
+ {
+  "istat": "065041",
+  "nome": "Cetara",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 2302,
+  "sindaco": true
+ },
+ {
+  "istat": "064027",
+  "nome": "Chianche",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 551,
+  "sindaco": true
+ },
+ {
+  "istat": "064028",
+  "nome": "Chiusano di San Domenico",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 2110,
+  "sindaco": true
+ },
+ {
+  "istat": "063027",
+  "nome": "Cicciano",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 12311,
+  "sindaco": true
+ },
+ {
+  "istat": "065042",
+  "nome": "Cicerale",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1233,
+  "sindaco": true
+ },
+ {
+  "istat": "063028",
+  "nome": "Cimitile",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 6940,
+  "sindaco": true
+ },
+ {
+  "istat": "061030",
+  "nome": "Ciorlano",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 372,
+  "sindaco": true
+ },
+ {
+  "istat": "062024",
+  "nome": "Circello",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 2183,
+  "sindaco": true
+ },
+ {
+  "istat": "062025",
+  "nome": "Colle Sannita",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 2209,
+  "sindaco": true
+ },
+ {
+  "istat": "065043",
+  "nome": "Colliano",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 3764,
+  "sindaco": true
+ },
+ {
+  "istat": "063029",
+  "nome": "Comiziano",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 1698,
+  "sindaco": true
+ },
+ {
+  "istat": "065044",
+  "nome": "Conca dei Marini",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 730,
+  "sindaco": true
+ },
+ {
+  "istat": "061031",
+  "nome": "Conca della Campania",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 1165,
+  "sindaco": true
+ },
+ {
+  "istat": "064029",
+  "nome": "Contrada",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 2961,
+  "sindaco": true
+ },
+ {
+  "istat": "065045",
+  "nome": "Controne",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 872,
+  "sindaco": true
+ },
+ {
+  "istat": "065046",
+  "nome": "Contursi Terme",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 3337,
+  "sindaco": true
+ },
+ {
+  "istat": "064030",
+  "nome": "Conza della Campania",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1286,
+  "sindaco": true
+ },
+ {
+  "istat": "065047",
+  "nome": "Corbara",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 2521,
+  "sindaco": true
+ },
+ {
+  "istat": "065048",
+  "nome": "Corleto Monforte",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 643,
+  "sindaco": true
+ },
+ {
+  "istat": "063030",
+  "nome": "Crispano",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 11884,
+  "sindaco": true
+ },
+ {
+  "istat": "065049",
+  "nome": "Cuccaro Vetere",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 538,
+  "sindaco": true
+ },
+ {
+  "istat": "061032",
+  "nome": "Curti",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 6698,
+  "sindaco": true
+ },
+ {
+  "istat": "062026",
+  "nome": "Cusano Mutri",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 3822,
+  "sindaco": true
+ },
+ {
+  "istat": "064031",
+  "nome": "Domicella",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1838,
+  "sindaco": true
+ },
+ {
+  "istat": "061033",
+  "nome": "Dragoni",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 2167,
+  "sindaco": true
+ },
+ {
+  "istat": "062027",
+  "nome": "Dugenta",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 2752,
+  "sindaco": true
+ },
+ {
+  "istat": "062028",
+  "nome": "Durazzano",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 2132,
+  "sindaco": true
+ },
+ {
+  "istat": "065050",
+  "nome": "Eboli",
+  "provincia": "Salerno",
+  "sigla": "SA"
+ },
+ {
+  "istat": "063064",
+  "nome": "Ercolano",
+  "provincia": "Napoli",
+  "sigla": "NA"
+ },
+ {
+  "istat": "062029",
+  "nome": "Faicchio",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 3370,
+  "sindaco": true
+ },
+ {
+  "istat": "061101",
+  "nome": "Falciano del Massico",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 3673,
+  "sindaco": true
+ },
+ {
+  "istat": "065051",
+  "nome": "Felitto",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1163,
+  "sindaco": true
+ },
+ {
+  "istat": "065052",
+  "nome": "Fisciano",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 13677,
+  "sindaco": true
+ },
+ {
+  "istat": "064032",
+  "nome": "Flumeri",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 3045,
+  "sindaco": true
+ },
+ {
+  "istat": "062030",
+  "nome": "Foglianise",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 3509,
+  "sindaco": true
+ },
+ {
+  "istat": "062031",
+  "nome": "Foiano di Val Fortore",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 1477,
+  "sindaco": true
+ },
+ {
+  "istat": "064033",
+  "nome": "Fontanarosa",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 3301,
+  "sindaco": true
+ },
+ {
+  "istat": "061034",
+  "nome": "Fontegreca",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 760,
+  "sindaco": true
+ },
+ {
+  "istat": "062032",
+  "nome": "Forchia",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 1200,
+  "sindaco": true
+ },
+ {
+  "istat": "064034",
+  "nome": "Forino",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 5397,
+  "sindaco": true
+ },
+ {
+  "istat": "063031",
+  "nome": "Forio",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 17456,
+  "sindaco": true
+ },
+ {
+  "istat": "061035",
+  "nome": "Formicola",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 1405,
+  "sindaco": true
+ },
+ {
+  "istat": "062033",
+  "nome": "Fragneto l'Abate",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 1116,
+  "sindaco": true
+ },
+ {
+  "istat": "062034",
+  "nome": "Fragneto Monforte",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 1689,
+  "sindaco": true
+ },
+ {
+  "istat": "061036",
+  "nome": "Francolise",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 4623,
+  "sindaco": true
+ },
+ {
+  "istat": "062035",
+  "nome": "Frasso Telesino",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 2047,
+  "sindaco": true
+ },
+ {
+  "istat": "063032",
+  "nome": "Frattamaggiore",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 28721,
+  "sindaco": true
+ },
+ {
+  "istat": "063033",
+  "nome": "Frattaminore",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 15708,
+  "sindaco": true
+ },
+ {
+  "istat": "064035",
+  "nome": "Frigento",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 3965,
+  "sindaco": true
+ },
+ {
+  "istat": "061037",
+  "nome": "Frignano",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 8733
+ },
+ {
+  "istat": "065053",
+  "nome": "Furore",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 700,
+  "sindaco": true
+ },
+ {
+  "istat": "065054",
+  "nome": "Futani",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1100,
+  "sindaco": true
+ },
+ {
+  "istat": "061038",
+  "nome": "Gallo Matese",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 648,
+  "sindaco": true
+ },
+ {
+  "istat": "061039",
+  "nome": "Galluccio",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 2041,
+  "sindaco": true
+ },
+ {
+  "istat": "064036",
+  "nome": "Gesualdo",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 3603,
+  "sindaco": true
+ },
+ {
+  "istat": "061040",
+  "nome": "Giano Vetusto",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 663,
+  "sindaco": true
+ },
+ {
+  "istat": "065055",
+  "nome": "Giffoni Sei Casali",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 5262,
+  "sindaco": true
+ },
+ {
+  "istat": "065056",
+  "nome": "Giffoni Valle Piana",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 12024,
+  "sindaco": true
+ },
+ {
+  "istat": "062036",
+  "nome": "Ginestra degli Schiavoni",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 532,
+  "sindaco": true
+ },
+ {
+  "istat": "065057",
+  "nome": "Gioi",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1127,
+  "sindaco": true
+ },
+ {
+  "istat": "061041",
+  "nome": "Gioia Sannitica",
+  "provincia": "Caserta",
+  "sigla": "CE"
+ },
+ {
+  "istat": "063034",
+  "nome": "Giugliano in Campania",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 123758,
+  "sindaco": true
+ },
+ {
+  "istat": "065058",
+  "nome": "Giungano",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1300,
+  "sindaco": true
+ },
+ {
+  "istat": "063035",
+  "nome": "Gragnano",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 29509,
+  "sindaco": true
+ },
+ {
+  "istat": "061042",
+  "nome": "Grazzanise",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 7085,
+  "sindaco": true
+ },
+ {
+  "istat": "064037",
+  "nome": "Greci",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 591,
+  "sindaco": true
+ },
+ {
+  "istat": "061043",
+  "nome": "Gricignano di Aversa",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 12628,
+  "sindaco": true
+ },
+ {
+  "istat": "064038",
+  "nome": "Grottaminarda",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 8297,
+  "sindaco": true
+ },
+ {
+  "istat": "064039",
+  "nome": "Grottolella",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1816,
+  "sindaco": true
+ },
+ {
+  "istat": "063036",
+  "nome": "Grumo Nevano",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 17203,
+  "sindaco": true
+ },
+ {
+  "istat": "064040",
+  "nome": "Guardia Lombardi",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1526,
+  "sindaco": true
+ },
+ {
+  "istat": "062037",
+  "nome": "Guardia Sanframondi",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 5246,
+  "sindaco": true
+ },
+ {
+  "istat": "063037",
+  "nome": "Ischia",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 18688,
+  "sindaco": true
+ },
+ {
+  "istat": "065059",
+  "nome": "Ispani",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 988,
+  "sindaco": true
+ },
+ {
+  "istat": "063038",
+  "nome": "Lacco Ameno",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 4642,
+  "sindaco": true
+ },
+ {
+  "istat": "064041",
+  "nome": "Lacedonia",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 2465,
+  "sindaco": true
+ },
+ {
+  "istat": "064042",
+  "nome": "Lapio",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1446,
+  "sindaco": true
+ },
+ {
+  "istat": "065060",
+  "nome": "Laureana Cilento",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1225,
+  "sindaco": true
+ },
+ {
+  "istat": "065061",
+  "nome": "Laurino",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1309,
+  "sindaco": true
+ },
+ {
+  "istat": "065062",
+  "nome": "Laurito",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 712,
+  "sindaco": true
+ },
+ {
+  "istat": "064043",
+  "nome": "Lauro",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 3608,
+  "sindaco": true
+ },
+ {
+  "istat": "065063",
+  "nome": "Laviano",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1338,
+  "sindaco": true
+ },
+ {
+  "istat": "061044",
+  "nome": "Letino",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 640,
+  "sindaco": true
+ },
+ {
+  "istat": "063039",
+  "nome": "Lettere",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 6153,
+  "sindaco": true
+ },
+ {
+  "istat": "061045",
+  "nome": "Liberi",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 1157,
+  "sindaco": true
+ },
+ {
+  "istat": "062038",
+  "nome": "Limatola",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 4077,
+  "sindaco": true
+ },
+ {
+  "istat": "064044",
+  "nome": "Lioni",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 6335,
+  "sindaco": true
+ },
+ {
+  "istat": "063040",
+  "nome": "Liveri",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 1504,
+  "sindaco": true
+ },
+ {
+  "istat": "064045",
+  "nome": "Luogosano",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1097,
+  "sindaco": true
+ },
+ {
+  "istat": "061046",
+  "nome": "Lusciano",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 15842,
+  "sindaco": true
+ },
+ {
+  "istat": "065064",
+  "nome": "Lustra",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 994,
+  "sindaco": true
+ },
+ {
+  "istat": "061047",
+  "nome": "Macerata Campania",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 10048,
+  "sindaco": true
+ },
+ {
+  "istat": "061048",
+  "nome": "Maddaloni",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 37146,
+  "sindaco": true
+ },
+ {
+  "istat": "065065",
+  "nome": "Magliano Vetere",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 739,
+  "sindaco": true
+ },
+ {
+  "istat": "065066",
+  "nome": "Maiori",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 5397,
+  "sindaco": true
+ },
+ {
+  "istat": "064046",
+  "nome": "Manocalzati",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 3234,
+  "sindaco": true
+ },
+ {
+  "istat": "063041",
+  "nome": "Marano di Napoli",
+  "provincia": "Napoli",
+  "sigla": "NA"
+ },
+ {
+  "istat": "061049",
+  "nome": "Marcianise",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 38523,
+  "sindaco": true
+ },
+ {
+  "istat": "063042",
+  "nome": "Mariglianella",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 7832,
+  "sindaco": true
+ },
+ {
+  "istat": "063043",
+  "nome": "Marigliano",
+  "provincia": "Napoli",
+  "sigla": "NA"
+ },
+ {
+  "istat": "061050",
+  "nome": "Marzano Appio",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 2013,
+  "sindaco": true
+ },
+ {
+  "istat": "064047",
+  "nome": "Marzano di Nola",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1624,
+  "sindaco": true
+ },
+ {
+  "istat": "063092",
+  "nome": "Massa di Somma",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 5587,
+  "sindaco": true
+ },
+ {
+  "istat": "063044",
+  "nome": "Massa Lubrense",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 14146,
+  "sindaco": true
+ },
+ {
+  "istat": "063045",
+  "nome": "Melito di Napoli",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 36456,
+  "sindaco": true
+ },
+ {
+  "istat": "064048",
+  "nome": "Melito Irpino",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1797,
+  "sindaco": true
+ },
+ {
+  "istat": "062039",
+  "nome": "Melizzano",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 1712,
+  "sindaco": true
+ },
+ {
+  "istat": "065067",
+  "nome": "Mercato San Severino",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 22036,
+  "sindaco": true
+ },
+ {
+  "istat": "064049",
+  "nome": "Mercogliano",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 11635,
+  "sindaco": true
+ },
+ {
+  "istat": "063046",
+  "nome": "Meta",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 7862,
+  "sindaco": true
+ },
+ {
+  "istat": "061051",
+  "nome": "Mignano Monte Lungo",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 3258,
+  "sindaco": true
+ },
+ {
+  "istat": "065068",
+  "nome": "Minori",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 2596,
+  "sindaco": true
+ },
+ {
+  "istat": "064050",
+  "nome": "Mirabella Eclano",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 6732,
+  "sindaco": true
+ },
+ {
+  "istat": "062040",
+  "nome": "Moiano",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 4052,
+  "sindaco": true
+ },
+ {
+  "istat": "065069",
+  "nome": "Moio della Civitella",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1856,
+  "sindaco": true
+ },
+ {
+  "istat": "062041",
+  "nome": "Molinara",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 1662,
+  "sindaco": true
+ },
+ {
+  "istat": "061052",
+  "nome": "Mondragone",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 27070,
+  "sindaco": true
+ },
+ {
+  "istat": "064051",
+  "nome": "Montaguto",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 451,
+  "sindaco": true
+ },
+ {
+  "istat": "065070",
+  "nome": "Montano Antilia",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1731,
+  "sindaco": true
+ },
+ {
+  "istat": "063047",
+  "nome": "Monte di Procida",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 11929,
+  "sindaco": true
+ },
+ {
+  "istat": "065075",
+  "nome": "Monte San Giacomo",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1630,
+  "sindaco": true
+ },
+ {
+  "istat": "064052",
+  "nome": "Montecalvo Irpino",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 3380,
+  "sindaco": true
+ },
+ {
+  "istat": "065071",
+  "nome": "Montecorice",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 2545,
+  "sindaco": true
+ },
+ {
+  "istat": "065072",
+  "nome": "Montecorvino Pugliano",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 11108,
+  "sindaco": true
+ },
+ {
+  "istat": "065073",
+  "nome": "Montecorvino Rovella",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 12318,
+  "sindaco": true
+ },
+ {
+  "istat": "064053",
+  "nome": "Montefalcione",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 3442,
+  "sindaco": true
+ },
+ {
+  "istat": "062042",
+  "nome": "Montefalcone di Val Fortore",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 1335,
+  "sindaco": true
+ },
+ {
+  "istat": "065074",
+  "nome": "Monteforte Cilento",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 565,
+  "sindaco": true
+ },
+ {
+  "istat": "064054",
+  "nome": "Monteforte Irpino",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 11428,
+  "sindaco": true
+ },
+ {
+  "istat": "064055",
+  "nome": "Montefredane",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 2308,
+  "sindaco": true
+ },
+ {
+  "istat": "064056",
+  "nome": "Montefusco",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1212,
+  "sindaco": true
+ },
+ {
+  "istat": "064057",
+  "nome": "Montella",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 7367,
+  "sindaco": true
+ },
+ {
+  "istat": "064058",
+  "nome": "Montemarano",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 3005,
+  "sindaco": true
+ },
+ {
+  "istat": "064059",
+  "nome": "Montemiletto",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 5361,
+  "sindaco": true
+ },
+ {
+  "istat": "065076",
+  "nome": "Montesano sulla Marcellana",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 6781,
+  "sindaco": true
+ },
+ {
+  "istat": "062043",
+  "nome": "Montesarchio",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 13001,
+  "sindaco": true
+ },
+ {
+  "istat": "064060",
+  "nome": "Monteverde",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 831,
+  "sindaco": true
+ },
+ {
+  "istat": "064121",
+  "nome": "Montoro",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 19396,
+  "sindaco": true
+ },
+ {
+  "istat": "062044",
+  "nome": "Morcone",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 4548,
+  "sindaco": true
+ },
+ {
+  "istat": "065077",
+  "nome": "Morigerati",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 610,
+  "sindaco": true
+ },
+ {
+  "istat": "064063",
+  "nome": "Morra De Sanctis",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1133,
+  "sindaco": true
+ },
+ {
+  "istat": "064064",
+  "nome": "Moschiano",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1553,
+  "sindaco": true
+ },
+ {
+  "istat": "064065",
+  "nome": "Mugnano del Cardinale",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 5145,
+  "sindaco": true
+ },
+ {
+  "istat": "063048",
+  "nome": "Mugnano di Napoli",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 34578,
+  "sindaco": true
+ },
+ {
+  "istat": "063049",
+  "nome": "Napoli",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "capoluogo": true,
+  "abitanti": 962003,
+  "sindaco": true
+ },
+ {
+  "istat": "065078",
+  "nome": "Nocera Inferiore",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 46563,
+  "sindaco": true
+ },
+ {
+  "istat": "065079",
+  "nome": "Nocera Superiore",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 23842,
+  "sindaco": true
+ },
+ {
+  "istat": "063050",
+  "nome": "Nola",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 33619,
+  "sindaco": true
+ },
+ {
+  "istat": "065080",
+  "nome": "Novi Velia",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 2312,
+  "sindaco": true
+ },
+ {
+  "istat": "064066",
+  "nome": "Nusco",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 3918,
+  "sindaco": true
+ },
+ {
+  "istat": "065081",
+  "nome": "Ogliastro Cilento",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 2263,
+  "sindaco": true
+ },
+ {
+  "istat": "065082",
+  "nome": "Olevano sul Tusciano",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 6536,
+  "sindaco": true
+ },
+ {
+  "istat": "065083",
+  "nome": "Oliveto Citra",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 3650,
+  "sindaco": true
+ },
+ {
+  "istat": "065084",
+  "nome": "Omignano",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1632,
+  "sindaco": true
+ },
+ {
+  "istat": "065085",
+  "nome": "Orria",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1161,
+  "sindaco": true
+ },
+ {
+  "istat": "061053",
+  "nome": "Orta di Atella",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 27118,
+  "sindaco": true
+ },
+ {
+  "istat": "064067",
+  "nome": "Ospedaletto d'Alpinolo",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1970,
+  "sindaco": true
+ },
+ {
+  "istat": "065086",
+  "nome": "Ottati",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 631,
+  "sindaco": true
+ },
+ {
+  "istat": "063051",
+  "nome": "Ottaviano",
+  "provincia": "Napoli",
+  "sigla": "NA"
+ },
+ {
+  "istat": "065087",
+  "nome": "Padula",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 5279,
+  "sindaco": true
+ },
+ {
+  "istat": "062045",
+  "nome": "Paduli",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 4085,
+  "sindaco": true
+ },
+ {
+  "istat": "065088",
+  "nome": "Pagani",
+  "provincia": "Salerno",
+  "sigla": "SA"
+ },
+ {
+  "istat": "064068",
+  "nome": "Pago del Vallo di Lauro",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1851,
+  "sindaco": true
+ },
+ {
+  "istat": "062046",
+  "nome": "Pago Veiano",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 2545,
+  "sindaco": true
+ },
+ {
+  "istat": "063052",
+  "nome": "Palma Campania",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 16223,
+  "sindaco": true
+ },
+ {
+  "istat": "065089",
+  "nome": "Palomonte",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 4049,
+  "sindaco": true
+ },
+ {
+  "istat": "062047",
+  "nome": "Pannarano",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 1989,
+  "sindaco": true
+ },
+ {
+  "istat": "062048",
+  "nome": "Paolisi",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 2007,
+  "sindaco": true
+ },
+ {
+  "istat": "061054",
+  "nome": "Parete",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 11012,
+  "sindaco": true
+ },
+ {
+  "istat": "064069",
+  "nome": "Parolise",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 638,
+  "sindaco": true
+ },
+ {
+  "istat": "061055",
+  "nome": "Pastorano",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 2920,
+  "sindaco": true
+ },
+ {
+  "istat": "064070",
+  "nome": "Paternopoli",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 2158,
+  "sindaco": true
+ },
+ {
+  "istat": "062049",
+  "nome": "Paupisi",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 1432,
+  "sindaco": true
+ },
+ {
+  "istat": "065090",
+  "nome": "Pellezzano",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 10951,
+  "sindaco": true
+ },
+ {
+  "istat": "065091",
+  "nome": "Perdifumo",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1758,
+  "sindaco": true
+ },
+ {
+  "istat": "065092",
+  "nome": "Perito",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 829,
+  "sindaco": true
+ },
+ {
+  "istat": "065093",
+  "nome": "Pertosa",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 652,
+  "sindaco": true
+ },
+ {
+  "istat": "062050",
+  "nome": "Pesco Sannita",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 2081,
+  "sindaco": true
+ },
+ {
+  "istat": "065094",
+  "nome": "Petina",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1214,
+  "sindaco": true
+ },
+ {
+  "istat": "064071",
+  "nome": "Petruro Irpino",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 341,
+  "sindaco": true
+ },
+ {
+  "istat": "065095",
+  "nome": "Piaggine",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1447,
+  "sindaco": true
+ },
+ {
+  "istat": "061056",
+  "nome": "Piana di Monte Verna",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 2095,
+  "sindaco": true
+ },
+ {
+  "istat": "063053",
+  "nome": "Piano di Sorrento",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 12991,
+  "sindaco": true
+ },
+ {
+  "istat": "061057",
+  "nome": "Piedimonte Matese",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 11504,
+  "sindaco": true
+ },
+ {
+  "istat": "064072",
+  "nome": "Pietradefusi",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 2375,
+  "sindaco": true
+ },
+ {
+  "istat": "061058",
+  "nome": "Pietramelara",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 4657,
+  "sindaco": true
+ },
+ {
+  "istat": "062051",
+  "nome": "Pietraroja",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 512,
+  "sindaco": true
+ },
+ {
+  "istat": "064073",
+  "nome": "Pietrastornina",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1568,
+  "sindaco": true
+ },
+ {
+  "istat": "061059",
+  "nome": "Pietravairano",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 2833,
+  "sindaco": true
+ },
+ {
+  "istat": "062052",
+  "nome": "Pietrelcina",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 3081,
+  "sindaco": true
+ },
+ {
+  "istat": "061060",
+  "nome": "Pignataro Maggiore",
+  "provincia": "Caserta",
+  "sigla": "CE"
+ },
+ {
+  "istat": "063054",
+  "nome": "Pimonte",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 6000,
+  "sindaco": true
+ },
+ {
+  "istat": "065096",
+  "nome": "Pisciotta",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 2748,
+  "sindaco": true
+ },
+ {
+  "istat": "063055",
+  "nome": "Poggiomarino",
+  "provincia": "Napoli",
+  "sigla": "NA"
+ },
+ {
+  "istat": "065097",
+  "nome": "Polla",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 5174,
+  "sindaco": true
+ },
+ {
+  "istat": "063056",
+  "nome": "Pollena Trocchia",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 12976,
+  "sindaco": true
+ },
+ {
+  "istat": "065098",
+  "nome": "Pollica",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 2393,
+  "sindaco": true
+ },
+ {
+  "istat": "063057",
+  "nome": "Pomigliano d'Arco",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 39762,
+  "sindaco": true
+ },
+ {
+  "istat": "063058",
+  "nome": "Pompei",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 24098,
+  "sindaco": true
+ },
+ {
+  "istat": "062053",
+  "nome": "Ponte",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 2438,
+  "sindaco": true
+ },
+ {
+  "istat": "065099",
+  "nome": "Pontecagnano Faiano",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 25839,
+  "sindaco": true
+ },
+ {
+  "istat": "062054",
+  "nome": "Pontelandolfo",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 2021,
+  "sindaco": true
+ },
+ {
+  "istat": "061061",
+  "nome": "Pontelatone",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 1758,
+  "sindaco": true
+ },
+ {
+  "istat": "063059",
+  "nome": "Portici",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 52500,
+  "sindaco": true
+ },
+ {
+  "istat": "061062",
+  "nome": "Portico di Caserta",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 7768,
+  "sindaco": true
+ },
+ {
+  "istat": "065100",
+  "nome": "Positano",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 3772,
+  "sindaco": true
+ },
+ {
+  "istat": "065101",
+  "nome": "Postiglione",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1998,
+  "sindaco": true
+ },
+ {
+  "istat": "063060",
+  "nome": "Pozzuoli",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 80357,
+  "sindaco": true
+ },
+ {
+  "istat": "065102",
+  "nome": "Praiano",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 2087,
+  "sindaco": true
+ },
+ {
+  "istat": "064074",
+  "nome": "Prata di Principato Ultra",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 2781,
+  "sindaco": true
+ },
+ {
+  "istat": "061063",
+  "nome": "Prata Sannita",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 1571,
+  "sindaco": true
+ },
+ {
+  "istat": "061064",
+  "nome": "Pratella",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 1457,
+  "sindaco": true
+ },
+ {
+  "istat": "064075",
+  "nome": "Pratola Serra",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 3708,
+  "sindaco": true
+ },
+ {
+  "istat": "061065",
+  "nome": "Presenzano",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 1658,
+  "sindaco": true
+ },
+ {
+  "istat": "065103",
+  "nome": "Prignano Cilento",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 997,
+  "sindaco": true
+ },
+ {
+  "istat": "063061",
+  "nome": "Procida",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 10160,
+  "sindaco": true
+ },
+ {
+  "istat": "062055",
+  "nome": "Puglianello",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 1304,
+  "sindaco": true
+ },
+ {
+  "istat": "064076",
+  "nome": "Quadrelle",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1802,
+  "sindaco": true
+ },
+ {
+  "istat": "063062",
+  "nome": "Qualiano",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 24723,
+  "sindaco": true
+ },
+ {
+  "istat": "063063",
+  "nome": "Quarto",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 41290,
+  "sindaco": true
+ },
+ {
+  "istat": "064077",
+  "nome": "Quindici",
+  "provincia": "Avellino",
+  "sigla": "AV"
+ },
+ {
+  "istat": "065104",
+  "nome": "Ravello",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 2462,
+  "sindaco": true
+ },
+ {
+  "istat": "061066",
+  "nome": "Raviscanina",
+  "provincia": "Caserta",
+  "sigla": "CE"
+ },
+ {
+  "istat": "061067",
+  "nome": "Recale",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 7611,
+  "sindaco": true
+ },
+ {
+  "istat": "062056",
+  "nome": "Reino",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 1112,
+  "sindaco": true
+ },
+ {
+  "istat": "061068",
+  "nome": "Riardo",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 2245,
+  "sindaco": true
+ },
+ {
+  "istat": "065105",
+  "nome": "Ricigliano",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1073,
+  "sindaco": true
+ },
+ {
+  "istat": "061069",
+  "nome": "Rocca d'Evandro",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 3042,
+  "sindaco": true
+ },
+ {
+  "istat": "064079",
+  "nome": "Rocca San Felice",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 797,
+  "sindaco": true
+ },
+ {
+  "istat": "064078",
+  "nome": "Roccabascerana",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 2366,
+  "sindaco": true
+ },
+ {
+  "istat": "065106",
+  "nome": "Roccadaspide",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 7354,
+  "sindaco": true
+ },
+ {
+  "istat": "065107",
+  "nome": "Roccagloriosa",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1563,
+  "sindaco": true
+ },
+ {
+  "istat": "061070",
+  "nome": "Roccamonfina",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 3206,
+  "sindaco": true
+ },
+ {
+  "istat": "065108",
+  "nome": "Roccapiemonte",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 9124,
+  "sindaco": true
+ },
+ {
+  "istat": "063065",
+  "nome": "Roccarainola",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 7164,
+  "sindaco": true
+ },
+ {
+  "istat": "061071",
+  "nome": "Roccaromana",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 839,
+  "sindaco": true
+ },
+ {
+  "istat": "061072",
+  "nome": "Rocchetta e Croce",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 451,
+  "sindaco": true
+ },
+ {
+  "istat": "065109",
+  "nome": "Rofrano",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1293,
+  "sindaco": true
+ },
+ {
+  "istat": "065110",
+  "nome": "Romagnano al Monte",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 375,
+  "sindaco": true
+ },
+ {
+  "istat": "065111",
+  "nome": "Roscigno",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 827,
+  "sindaco": true
+ },
+ {
+  "istat": "064080",
+  "nome": "Rotondi",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 3424,
+  "sindaco": true
+ },
+ {
+  "istat": "065112",
+  "nome": "Rutino",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 889,
+  "sindaco": true
+ },
+ {
+  "istat": "061073",
+  "nome": "Ruviano",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 1822,
+  "sindaco": true
+ },
+ {
+  "istat": "065113",
+  "nome": "Sacco",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 559,
+  "sindaco": true
+ },
+ {
+  "istat": "065114",
+  "nome": "Sala Consilina",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 12258,
+  "sindaco": true
+ },
+ {
+  "istat": "065115",
+  "nome": "Salento",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1802,
+  "sindaco": true
+ },
+ {
+  "istat": "065116",
+  "nome": "Salerno",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "capoluogo": true,
+  "abitanti": 128136,
+  "sindaco": true
+ },
+ {
+  "istat": "065117",
+  "nome": "Salvitelle",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 496,
+  "sindaco": true
+ },
+ {
+  "istat": "064081",
+  "nome": "Salza Irpina",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 723,
+  "sindaco": true
+ },
+ {
+  "istat": "062057",
+  "nome": "San Bartolomeo in Galdo",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 5090,
+  "sindaco": true
+ },
+ {
+  "istat": "061074",
+  "nome": "San Cipriano d'Aversa",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 13130,
+  "sindaco": true
+ },
+ {
+  "istat": "065118",
+  "nome": "San Cipriano Picentino",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 6516,
+  "sindaco": true
+ },
+ {
+  "istat": "061075",
+  "nome": "San Felice a Cancello",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 16963,
+  "sindaco": true
+ },
+ {
+  "istat": "063066",
+  "nome": "San Gennaro Vesuviano",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 12031,
+  "sindaco": true
+ },
+ {
+  "istat": "063067",
+  "nome": "San Giorgio a Cremano",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 43057,
+  "sindaco": true
+ },
+ {
+  "istat": "062058",
+  "nome": "San Giorgio del Sannio",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 9815,
+  "sindaco": true
+ },
+ {
+  "istat": "062059",
+  "nome": "San Giorgio La Molara",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 3050,
+  "sindaco": true
+ },
+ {
+  "istat": "065119",
+  "nome": "San Giovanni a Piro",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 3648,
+  "sindaco": true
+ },
+ {
+  "istat": "063068",
+  "nome": "San Giuseppe Vesuviano",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 30045,
+  "sindaco": true
+ },
+ {
+  "istat": "065120",
+  "nome": "San Gregorio Magno",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 3990,
+  "sindaco": true
+ },
+ {
+  "istat": "061076",
+  "nome": "San Gregorio Matese",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 1022,
+  "sindaco": true
+ },
+ {
+  "istat": "062060",
+  "nome": "San Leucio del Sannio",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 2949,
+  "sindaco": true
+ },
+ {
+  "istat": "062061",
+  "nome": "San Lorenzello",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 2125,
+  "sindaco": true
+ },
+ {
+  "istat": "062062",
+  "nome": "San Lorenzo Maggiore",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 1918,
+  "sindaco": true
+ },
+ {
+  "istat": "062063",
+  "nome": "San Lupo",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 723,
+  "sindaco": true
+ },
+ {
+  "istat": "065121",
+  "nome": "San Mango Piemonte",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 2610,
+  "sindaco": true
+ },
+ {
+  "istat": "064082",
+  "nome": "San Mango sul Calore",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1094,
+  "sindaco": true
+ },
+ {
+  "istat": "061077",
+  "nome": "San Marcellino",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 12643,
+  "sindaco": true
+ },
+ {
+  "istat": "062064",
+  "nome": "San Marco dei Cavoti",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 3544,
+  "sindaco": true
+ },
+ {
+  "istat": "061104",
+  "nome": "San Marco Evangelista",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 6456,
+  "sindaco": true
+ },
+ {
+  "istat": "062065",
+  "nome": "San Martino Sannita",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 1277,
+  "sindaco": true
+ },
+ {
+  "istat": "064083",
+  "nome": "San Martino Valle Caudina",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 4745,
+  "sindaco": true
+ },
+ {
+  "istat": "065122",
+  "nome": "San Marzano sul Sarno",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 10325,
+  "sindaco": true
+ },
+ {
+  "istat": "065123",
+  "nome": "San Mauro Cilento",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 863,
+  "sindaco": true
+ },
+ {
+  "istat": "065124",
+  "nome": "San Mauro la Bruca",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 653,
+  "sindaco": true
+ },
+ {
+  "istat": "064084",
+  "nome": "San Michele di Serino",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 2435,
+  "sindaco": true
+ },
+ {
+  "istat": "062066",
+  "nome": "San Nazzaro",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 914,
+  "sindaco": true
+ },
+ {
+  "istat": "064085",
+  "nome": "San Nicola Baronia",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 757,
+  "sindaco": true
+ },
+ {
+  "istat": "061078",
+  "nome": "San Nicola la Strada",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 22232,
+  "sindaco": true
+ },
+ {
+  "istat": "062067",
+  "nome": "San Nicola Manfredi",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 3624,
+  "sindaco": true
+ },
+ {
+  "istat": "063069",
+  "nome": "San Paolo Bel Sito",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 3370,
+  "sindaco": true
+ },
+ {
+  "istat": "065125",
+  "nome": "San Pietro al Tanagro",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1659,
+  "sindaco": true
+ },
+ {
+  "istat": "061079",
+  "nome": "San Pietro Infine",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 949,
+  "sindaco": true
+ },
+ {
+  "istat": "061080",
+  "nome": "San Potito Sannitico",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 2000,
+  "sindaco": true
+ },
+ {
+  "istat": "064086",
+  "nome": "San Potito Ultra",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1477,
+  "sindaco": true
+ },
+ {
+  "istat": "061081",
+  "nome": "San Prisco",
+  "provincia": "Caserta",
+  "sigla": "CE"
+ },
+ {
+  "istat": "065126",
+  "nome": "San Rufo",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1637,
+  "sindaco": true
+ },
+ {
+  "istat": "062068",
+  "nome": "San Salvatore Telesino",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 3842,
+  "sindaco": true
+ },
+ {
+  "istat": "063070",
+  "nome": "San Sebastiano al Vesuvio",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 9167,
+  "sindaco": true
+ },
+ {
+  "istat": "064087",
+  "nome": "San Sossio Baronia",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1523,
+  "sindaco": true
+ },
+ {
+  "istat": "061085",
+  "nome": "San Tammaro",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 5064,
+  "sindaco": true
+ },
+ {
+  "istat": "065132",
+  "nome": "San Valentino Torio",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 10844,
+  "sindaco": true
+ },
+ {
+  "istat": "063075",
+  "nome": "San Vitaliano",
+  "provincia": "Napoli",
+  "sigla": "NA"
+ },
+ {
+  "istat": "062070",
+  "nome": "Sant'Agata de' Goti",
+  "provincia": "Benevento",
+  "sigla": "BN"
+ },
+ {
+  "istat": "063071",
+  "nome": "Sant'Agnello",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 8729,
+  "sindaco": true
+ },
+ {
+  "istat": "063072",
+  "nome": "Sant'Anastasia",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 26460,
+  "sindaco": true
+ },
+ {
+  "istat": "064089",
+  "nome": "Sant'Andrea di Conza",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1368,
+  "sindaco": true
+ },
+ {
+  "istat": "062071",
+  "nome": "Sant'Angelo a Cupolo",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 4117,
+  "sindaco": true
+ },
+ {
+  "istat": "065128",
+  "nome": "Sant'Angelo a Fasanella",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 514,
+  "sindaco": true
+ },
+ {
+  "istat": "064091",
+  "nome": "Sant'Angelo a Scala",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 755,
+  "sindaco": true
+ },
+ {
+  "istat": "064090",
+  "nome": "Sant'Angelo all'Esca",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 836,
+  "sindaco": true
+ },
+ {
+  "istat": "061086",
+  "nome": "Sant'Angelo d'Alife",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 2089,
+  "sindaco": true
+ },
+ {
+  "istat": "064092",
+  "nome": "Sant'Angelo dei Lombardi",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 3913,
+  "sindaco": true
+ },
+ {
+  "istat": "063073",
+  "nome": "Sant'Antimo",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 32576,
+  "sindaco": true
+ },
+ {
+  "istat": "063074",
+  "nome": "Sant'Antonio Abate",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 19169,
+  "sindaco": true
+ },
+ {
+  "istat": "062078",
+  "nome": "Sant'Arcangelo Trimonte",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 480,
+  "sindaco": true
+ },
+ {
+  "istat": "061087",
+  "nome": "Sant'Arpino",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 14076,
+  "sindaco": true
+ },
+ {
+  "istat": "065129",
+  "nome": "Sant'Arsenio",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 2747,
+  "sindaco": true
+ },
+ {
+  "istat": "065130",
+  "nome": "Sant'Egidio del Monte Albino",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 8715,
+  "sindaco": true
+ },
+ {
+  "istat": "062069",
+  "nome": "Santa Croce del Sannio",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 985,
+  "sindaco": true
+ },
+ {
+  "istat": "064088",
+  "nome": "Santa Lucia di Serino",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1405,
+  "sindaco": true
+ },
+ {
+  "istat": "061082",
+  "nome": "Santa Maria a Vico",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 14249,
+  "sindaco": true
+ },
+ {
+  "istat": "061083",
+  "nome": "Santa Maria Capua Vetere",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 32503,
+  "sindaco": true
+ },
+ {
+  "istat": "063090",
+  "nome": "Santa Maria la Carità",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 11689,
+  "sindaco": true
+ },
+ {
+  "istat": "061084",
+  "nome": "Santa Maria la Fossa",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 2682,
+  "sindaco": true
+ },
+ {
+  "istat": "065127",
+  "nome": "Santa Marina",
+  "provincia": "Salerno",
+  "sigla": "SA"
+ },
+ {
+  "istat": "064093",
+  "nome": "Santa Paolina",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1175,
+  "sindaco": true
+ },
+ {
+  "istat": "064095",
+  "nome": "Santo Stefano del Sole",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 2189,
+  "sindaco": true
+ },
+ {
+  "istat": "065131",
+  "nome": "Santomenna",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 473,
+  "sindaco": true
+ },
+ {
+  "istat": "065133",
+  "nome": "Sanza",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 2697,
+  "sindaco": true
+ },
+ {
+  "istat": "065134",
+  "nome": "Sapri",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 6809,
+  "sindaco": true
+ },
+ {
+  "istat": "065135",
+  "nome": "Sarno",
+  "provincia": "Salerno",
+  "sigla": "SA"
+ },
+ {
+  "istat": "065136",
+  "nome": "Sassano",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 4634,
+  "sindaco": true
+ },
+ {
+  "istat": "062072",
+  "nome": "Sassinoro",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 659,
+  "sindaco": true
+ },
+ {
+  "istat": "063076",
+  "nome": "Saviano",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 15933,
+  "sindaco": true
+ },
+ {
+  "istat": "064096",
+  "nome": "Savignano Irpino",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1026,
+  "sindaco": true
+ },
+ {
+  "istat": "065137",
+  "nome": "Scafati",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 48421,
+  "sindaco": true
+ },
+ {
+  "istat": "065138",
+  "nome": "Scala",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1504,
+  "sindaco": true
+ },
+ {
+  "istat": "064097",
+  "nome": "Scampitella",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1344,
+  "sindaco": true
+ },
+ {
+  "istat": "063077",
+  "nome": "Scisciano",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 6150,
+  "sindaco": true
+ },
+ {
+  "istat": "064098",
+  "nome": "Senerchia",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 751,
+  "sindaco": true
+ },
+ {
+  "istat": "064099",
+  "nome": "Serino",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 7129,
+  "sindaco": true
+ },
+ {
+  "istat": "065139",
+  "nome": "Serramezzana",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 347,
+  "sindaco": true
+ },
+ {
+  "istat": "063078",
+  "nome": "Serrara Fontana",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 3164,
+  "sindaco": true
+ },
+ {
+  "istat": "065140",
+  "nome": "Serre",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 3956,
+  "sindaco": true
+ },
+ {
+  "istat": "061088",
+  "nome": "Sessa Aurunca",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 22216,
+  "sindaco": true
+ },
+ {
+  "istat": "065141",
+  "nome": "Sessa Cilento",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1366,
+  "sindaco": true
+ },
+ {
+  "istat": "065142",
+  "nome": "Siano",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 10074,
+  "sindaco": true
+ },
+ {
+  "istat": "065143",
+  "nome": "Sicignano degli Alburni",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 3101,
+  "sindaco": true
+ },
+ {
+  "istat": "064100",
+  "nome": "Sirignano",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 2878,
+  "sindaco": true
+ },
+ {
+  "istat": "064101",
+  "nome": "Solofra",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 12419,
+  "sindaco": true
+ },
+ {
+  "istat": "062073",
+  "nome": "Solopaca",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 3956,
+  "sindaco": true
+ },
+ {
+  "istat": "063079",
+  "nome": "Somma Vesuviana",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 33935,
+  "sindaco": true
+ },
+ {
+  "istat": "064102",
+  "nome": "Sorbo Serpico",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 534,
+  "sindaco": true
+ },
+ {
+  "istat": "063080",
+  "nome": "Sorrento",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 15600,
+  "sindaco": true
+ },
+ {
+  "istat": "061089",
+  "nome": "Sparanise",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 7220,
+  "sindaco": true
+ },
+ {
+  "istat": "064103",
+  "nome": "Sperone",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 3655,
+  "sindaco": true
+ },
+ {
+  "istat": "065144",
+  "nome": "Stella Cilento",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 774,
+  "sindaco": true
+ },
+ {
+  "istat": "065145",
+  "nome": "Stio",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 942,
+  "sindaco": true
+ },
+ {
+  "istat": "063081",
+  "nome": "Striano",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 8709,
+  "sindaco": true
+ },
+ {
+  "istat": "064104",
+  "nome": "Sturno",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 3139,
+  "sindaco": true
+ },
+ {
+  "istat": "061090",
+  "nome": "Succivo",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 8148,
+  "sindaco": true
+ },
+ {
+  "istat": "064105",
+  "nome": "Summonte",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1512,
+  "sindaco": true
+ },
+ {
+  "istat": "064106",
+  "nome": "Taurano",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1486,
+  "sindaco": true
+ },
+ {
+  "istat": "064107",
+  "nome": "Taurasi",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 2191,
+  "sindaco": true
+ },
+ {
+  "istat": "061091",
+  "nome": "Teano",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 12587,
+  "sindaco": true
+ },
+ {
+  "istat": "065146",
+  "nome": "Teggiano",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 8182,
+  "sindaco": true
+ },
+ {
+  "istat": "062074",
+  "nome": "Telese Terme",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 7645,
+  "sindaco": true
+ },
+ {
+  "istat": "064108",
+  "nome": "Teora",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1543,
+  "sindaco": true
+ },
+ {
+  "istat": "063082",
+  "nome": "Terzigno",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 17367,
+  "sindaco": true
+ },
+ {
+  "istat": "061092",
+  "nome": "Teverola",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 14651,
+  "sindaco": true
+ },
+ {
+  "istat": "062075",
+  "nome": "Tocco Caudio",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 1440,
+  "sindaco": true
+ },
+ {
+  "istat": "061093",
+  "nome": "Tora e Piccilli",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 792,
+  "sindaco": true
+ },
+ {
+  "istat": "065147",
+  "nome": "Torchiara",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1824,
+  "sindaco": true
+ },
+ {
+  "istat": "064109",
+  "nome": "Torella dei Lombardi",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 2225,
+  "sindaco": true
+ },
+ {
+  "istat": "065148",
+  "nome": "Torraca",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1185,
+  "sindaco": true
+ },
+ {
+  "istat": "063083",
+  "nome": "Torre Annunziata",
+  "provincia": "Napoli",
+  "sigla": "NA"
+ },
+ {
+  "istat": "063084",
+  "nome": "Torre del Greco",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 81289,
+  "sindaco": true
+ },
+ {
+  "istat": "064110",
+  "nome": "Torre Le Nocelle",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1202,
+  "sindaco": true
+ },
+ {
+  "istat": "065149",
+  "nome": "Torre Orsaia",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1982,
+  "sindaco": true
+ },
+ {
+  "istat": "062076",
+  "nome": "Torrecuso",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 3260,
+  "sindaco": true
+ },
+ {
+  "istat": "064111",
+  "nome": "Torrioni",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 456,
+  "sindaco": true
+ },
+ {
+  "istat": "065150",
+  "nome": "Tortorella",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 563,
+  "sindaco": true
+ },
+ {
+  "istat": "065151",
+  "nome": "Tramonti",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 4092,
+  "sindaco": true
+ },
+ {
+  "istat": "063091",
+  "nome": "Trecase",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 8594,
+  "sindaco": true
+ },
+ {
+  "istat": "065152",
+  "nome": "Trentinara",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1683,
+  "sindaco": true
+ },
+ {
+  "istat": "061094",
+  "nome": "Trentola Ducenta",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 17797,
+  "sindaco": true
+ },
+ {
+  "istat": "064112",
+  "nome": "Trevico",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 867,
+  "sindaco": true
+ },
+ {
+  "istat": "063085",
+  "nome": "Tufino",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 3785,
+  "sindaco": true
+ },
+ {
+  "istat": "064113",
+  "nome": "Tufo",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 795,
+  "sindaco": true
+ },
+ {
+  "istat": "061095",
+  "nome": "Vairano Patenora",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 6658,
+  "sindaco": true
+ },
+ {
+  "istat": "064114",
+  "nome": "Vallata",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 2540,
+  "sindaco": true
+ },
+ {
+  "istat": "061096",
+  "nome": "Valle Agricola",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 766,
+  "sindaco": true
+ },
+ {
+  "istat": "065153",
+  "nome": "Valle dell'Angelo",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 220,
+  "sindaco": true
+ },
+ {
+  "istat": "061097",
+  "nome": "Valle di Maddaloni",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 2807,
+  "sindaco": true
+ },
+ {
+  "istat": "064115",
+  "nome": "Vallesaccarda",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1250,
+  "sindaco": true
+ },
+ {
+  "istat": "065154",
+  "nome": "Vallo della Lucania",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 8680,
+  "sindaco": true
+ },
+ {
+  "istat": "065155",
+  "nome": "Valva",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 1551,
+  "sindaco": true
+ },
+ {
+  "istat": "064116",
+  "nome": "Venticano",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 2289,
+  "sindaco": true
+ },
+ {
+  "istat": "065156",
+  "nome": "Vibonati",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 3237,
+  "sindaco": true
+ },
+ {
+  "istat": "063086",
+  "nome": "Vico Equense",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 20839,
+  "sindaco": true
+ },
+ {
+  "istat": "065157",
+  "nome": "Vietri sul Mare",
+  "provincia": "Salerno",
+  "sigla": "SA",
+  "abitanti": 7318,
+  "sindaco": true
+ },
+ {
+  "istat": "061098",
+  "nome": "Villa di Briano",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 6066,
+  "sindaco": true
+ },
+ {
+  "istat": "061099",
+  "nome": "Villa Literno",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 10715,
+  "sindaco": true
+ },
+ {
+  "istat": "064117",
+  "nome": "Villamaina",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1018,
+  "sindaco": true
+ },
+ {
+  "istat": "064118",
+  "nome": "Villanova del Battista",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 1478,
+  "sindaco": true
+ },
+ {
+  "istat": "063087",
+  "nome": "Villaricca",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 31284,
+  "sindaco": true
+ },
+ {
+  "istat": "063088",
+  "nome": "Visciano",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 4550,
+  "sindaco": true
+ },
+ {
+  "istat": "062077",
+  "nome": "Vitulano",
+  "provincia": "Benevento",
+  "sigla": "BN",
+  "abitanti": 2734,
+  "sindaco": true
+ },
+ {
+  "istat": "061100",
+  "nome": "Vitulazio",
+  "provincia": "Caserta",
+  "sigla": "CE",
+  "abitanti": 7560,
+  "sindaco": true
+ },
+ {
+  "istat": "063089",
+  "nome": "Volla",
+  "provincia": "Napoli",
+  "sigla": "NA",
+  "abitanti": 25369,
+  "sindaco": true
+ },
+ {
+  "istat": "064119",
+  "nome": "Volturara Irpina",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 3021,
+  "sindaco": true
+ },
+ {
+  "istat": "064120",
+  "nome": "Zungoli",
+  "provincia": "Avellino",
+  "sigla": "AV",
+  "abitanti": 976,
+  "sindaco": true
+ }
+]

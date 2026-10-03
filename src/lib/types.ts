@@ -69,6 +69,8 @@ export type Comune = {
   uffici: Record<string, Ufficio>;
   /** Risultati delle ultime elezioni nel comune (comunali, regionali, politiche, europee). */
   elezioni: Elezione[];
+  /** Numeri sulla squadra di governo del Comune, calcolati dalla pipeline. */
+  numeri: NumeriComune | null;
   /** ASL competente per il comune. */
   asl: { nome: string; sito?: string; pec?: string } | null;
   /** Frazioni e località abitate (ISTAT 2021), dalla più popolosa. */
@@ -176,4 +178,25 @@ export type Elezione = {
   candidatiAltri?: number;
   liste?: VotoVoce[];
   listeAltre?: number;
+};
+
+export type NumeriComune = {
+  /** Persone elette diverse (sindaco, giunta, consiglio: chi ha più ruoli conta una volta). */
+  persone: number;
+  etaMedia?: number;
+  /** Percentuali 0-100, sul totale di chi ha il dato. */
+  donne?: number;
+  laureati?: number;
+  under40?: number;
+};
+
+/** Voce leggera dell'elenco dei comuni (home, build): la scheda completa si legge solo quando serve. */
+export type ComuneElenco = {
+  istat: string;
+  nome: string;
+  provincia: string;
+  sigla: string;
+  capoluogo?: boolean;
+  abitanti?: number;
+  sindaco?: boolean;
 };

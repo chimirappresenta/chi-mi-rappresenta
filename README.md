@@ -6,13 +6,13 @@ Il pilota copre la **Campania** (550 comuni). Si ispira a *Find your representat
 
 ## Come funziona
 
-Tutte le pagine sono generate al build (Next.js, niente database): i dati vengono preparati prima, con uno script. L'unica parte dinamica è `/api/segnala`, la funzione che crea le segnalazioni degli utenti su GitHub.
+Niente database: i dati vengono preparati prima, con uno script, e salvati come file JSON (`src/data/`, un file per comune in `src/data/comuni/`). Le pagine dei comuni più grandi (capoluoghi e comuni sopra i 15.000 abitanti) sono generate alla pubblicazione; le altre, le immagini di anteprima e i feed vengono creati alla prima visita e poi restano in cache fino alla pubblicazione successiva. Le funzioni girano a Francoforte (`vercel.json`). L'unica parte sempre dinamica è `/api/segnala`, la funzione che crea le segnalazioni degli utenti su GitHub.
 
 ```
 npm run data          # scarica le fonti (con cache in data/raw/) e genera src/data/*.json
 npm run data:refresh  # come sopra, ma riscarica tutto ignorando la cache
 npm run riassunti     # riassume con Claude le leggi nuove (serve ANTHROPIC_API_KEY), poi rilanciare `npm run data`
-npm run build         # genera il sito (pagine prerenderizzate + funzione /api/segnala)
+npm run build         # genera il sito (pagine dei comuni più grandi + funzioni per le altre e per /api/segnala)
 npm run dev           # sviluppo locale
 ```
 

@@ -5,7 +5,7 @@ import type { ReactNode } from "react";
 import { assegnaSeggi, CX, CY, H, R_DOT, W } from "./emiciclo";
 import type { ConsigliereRegionale, GruppoConsiliare } from "./types";
 
-// Elementi condivisi delle immagini di anteprima (Open Graph) generate al build.
+// Elementi condivisi delle immagini di anteprima (Open Graph), generate alla prima richiesta e poi in cache.
 
 export const OG_SIZE = { width: 1200, height: 630 };
 

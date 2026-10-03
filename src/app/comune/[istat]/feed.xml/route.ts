@@ -1,14 +1,14 @@
-import { citazioniDi, comuni, getComune } from "@/lib/data";
+import { citazioniDi, getComune } from "@/lib/data";
 import { rss, vociLeggi, vocePerAtto, vocePerLegge } from "@/lib/feed";
 import { SITE_URL } from "@/lib/sito";
 
-// Feed RSS di ogni comune, generato al build: gli atti e le leggi del Consiglio regionale che citano il comune,
+// Feed RSS di ogni comune, generato alla prima richiesta e poi in cache: gli atti e le leggi del Consiglio regionale che citano il comune,
 // più tutte le nuove leggi regionali. Si aggiorna a ogni ricostruzione dei dati.
 export const dynamic = "force-static";
-export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return comuni.map((c) => ({ istat: c.istat }));
+  // nessuna alla build: si generano alla prima richiesta (social, lettori di feed) e restano in cache
+  return [];
 }
 
 export async function GET(_req: Request, { params }: { params: Promise<{ istat: string }> }) {

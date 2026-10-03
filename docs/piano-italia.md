@@ -47,7 +47,7 @@ Inoltre il file unico dei dati passerebbe da 3 a circa 50 MB.
 
 ## Ordine di lavoro proposto
 
-1. Dati divisi per comune e pagine su richiesta (ancora solo Campania): nessun cambiamento visibile, verifica che tutto funzioni.
+1. ✅ Dati divisi per comune e pagine su richiesta (ancora solo Campania), funzioni a Francoforte: fatto il 2026-10-03, contenuto delle pagine identico.
 2. Pipeline nazionale: comuni, amministratori, contatti, ASL, collegi, deputati, risultati elettorali.
 3. Senatori e eurodeputati per tutta Italia.
 4. Guida e pagine regionali generalizzate.

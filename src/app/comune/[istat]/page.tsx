@@ -3,13 +3,12 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
   citazioniDi,
-  comuni,
   consiglio,
   europa,
   fonte,
+  comuniDaPreparare,
   getComune,
-  mediaCampania,
-  numeriAmministrazione,
+  mediaRegione,
   parlamento,
   prossimeElezioni,
   regione,
@@ -29,10 +28,10 @@ import { AccessoCivicoInfo } from "@/components/AccessoCivicoInfo";
 import { Segui } from "@/components/Segui";
 import { SITE_URL } from "@/lib/sito";
 
-export const dynamicParams = false;
-
+// Pagine preparate alla build solo per i comuni più grandi; le altre si creano alla prima visita
+// e poi restano in cache fino alla pubblicazione successiva (dynamicParams = true, il valore predefinito).
 export function generateStaticParams() {
-  return comuni.map((c) => ({ istat: c.istat }));
+  return comuniDaPreparare().map((c) => ({ istat: c.istat }));
 }
 
 export async function generateMetadata({ params }: PageProps<"/comune/[istat]">): Promise<Metadata> {
@@ -74,7 +73,7 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
   const consiglieriCirc = regione.consiglieri.filter((x) => x.circoscrizione === circ);
   const col = c.collegi;
   const citazioni = citazioniDi(c);
-  const numeri = numeriAmministrazione(a);
+  const numeri = c.numeri;
   const prossime = a?.tipo === "ordinaria" ? prossimeElezioni(a.dataElezione) : undefined;
 
   const deputatiU = (col?.cameraU ?? []).flatMap((k) => parlamento.camera[k] ?? []);
@@ -351,21 +350,21 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
                         <div className="rounded-2xl bg-[var(--lv-bg)] p-3">
                           <dt className="text-sm text-ink-2">Età media degli eletti</dt>
                           <dd className="display text-4xl">{numeri.etaMedia} anni</dd>
-                          <dd className="text-xs text-ink-3">{confronto(numeri.etaMedia, mediaCampania.etaMedia)}</dd>
+                          <dd className="text-xs text-ink-3">{confronto(numeri.etaMedia, mediaRegione.etaMedia)}</dd>
                         </div>
                       )}
                       {numeri.donne !== undefined && (
                         <div className="rounded-2xl bg-[var(--lv-bg)] p-3">
                           <dt className="text-sm text-ink-2">Donne tra gli eletti</dt>
                           <dd className="display text-4xl">{numeri.donne}%</dd>
-                          <dd className="text-xs text-ink-3">{confronto(numeri.donne, mediaCampania.donne, "%")}</dd>
+                          <dd className="text-xs text-ink-3">{confronto(numeri.donne, mediaRegione.donne, "%")}</dd>
                         </div>
                       )}
                       {numeri.laureati !== undefined && (
                         <div className="rounded-2xl bg-[var(--lv-bg)] p-3">
                           <dt className="text-sm text-ink-2">Laureati</dt>
                           <dd className="display text-4xl">{numeri.laureati}%</dd>
-                          <dd className="text-xs text-ink-3">{confronto(numeri.laureati, mediaCampania.laureati, "%")}</dd>
+                          <dd className="text-xs text-ink-3">{confronto(numeri.laureati, mediaRegione.laureati, "%")}</dd>
                         </div>
                       )}
                     </dl>

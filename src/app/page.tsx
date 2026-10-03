@@ -37,7 +37,7 @@ export default function Home() {
   const capoluoghi = comuni.filter((c) => c.capoluogo);
   const deputati = Object.values(parlamento.camera).flat().length;
   const senatori = Object.keys(parlamento.senato.uninominali).length + parlamento.senato.proporzionale.length;
-  const sindaci = comuni.filter((c) => c.amministrazione?.sindaco).length;
+  const sindaci = comuni.filter((c) => c.sindaco).length;
 
   const livelli: { id: LivelloId; titolo: string; testo: string; numero: string; unita: string }[] = [
     { id: "comune", titolo: "Comune", testo: "Sindaco, giunta e consiglio comunale. E se il Comune è commissariato, chi lo guida.", numero: String(sindaci), unita: "sindaci" },

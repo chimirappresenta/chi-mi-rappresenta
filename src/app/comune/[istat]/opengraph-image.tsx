@@ -1,5 +1,6 @@
 import { ImageResponse } from "next/og";
-import { comuni, getComune, parlamento, regione } from "@/lib/data";
+import { notFound } from "next/navigation";
+import { getComune, parlamento, regione } from "@/lib/data";
 import { OG_COLORI as C, OG_SIZE, OgEmiciclo, OgFrame, ogFonts } from "@/lib/og";
 
 export const size = OG_SIZE;
@@ -8,11 +9,13 @@ export const dynamic = "force-static";
 export const alt = "Chi rappresenta questo comune, dal sindaco al Parlamento europeo";
 
 export function generateStaticParams() {
-  return comuni.map((c) => ({ istat: c.istat }));
+  // nessuna alla build: si generano alla prima richiesta (social, lettori di feed) e restano in cache
+  return [];
 }
 
 export default async function Image({ params }: { params: Promise<{ istat: string }> }) {
-  const c = getComune((await params).istat)!;
+  const c = getComune((await params).istat);
+  if (!c) notFound();
   const a = c.amministrazione;
   const circ = c.circoscrizioneRegionale;
   const nCirc = regione.consiglieri.filter((x) => x.circoscrizione === circ).length;
