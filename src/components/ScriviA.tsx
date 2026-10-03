@@ -76,6 +76,8 @@ export function ScriviA({ nome, tipo, email, pec, modulo, allaCortese, comune: c
       <button
         type="button"
         onClick={() => setAperto(true)}
+        data-umami-event="scrivi-apri"
+        data-umami-event-a={tipo}
         className="inline-flex min-h-11 items-center justify-center gap-2 rounded-full border border-accent bg-accent-soft px-4 py-2 text-base font-semibold text-accent hover:opacity-90"
       >
         <span aria-hidden>✉</span> {etichetta ?? `Scrivi a ${nome}`}
@@ -131,7 +133,7 @@ export function ScriviA({ nome, tipo, email, pec, modulo, allaCortese, comune: c
 
       {href ? (
         <>
-          <a href={href} className="mt-5 flex min-h-12 items-center justify-center rounded-full bg-accent px-5 text-base font-semibold text-accent-ink hover:opacity-90">
+          <a href={href} data-umami-event="scrivi-invia" data-umami-event-a={tipo} className="mt-5 flex min-h-12 items-center justify-center rounded-full bg-accent px-5 text-base font-semibold text-accent-ink hover:opacity-90">
             Apri il messaggio nella tua email
           </a>
           {!email && pec && (
@@ -160,7 +162,7 @@ export function ScriviA({ nome, tipo, email, pec, modulo, allaCortese, comune: c
             >
               {copiato ? "✓ Testo copiato" : "1. Copia il testo"}
             </button>
-            <a href={modulo} target="_blank" rel="noreferrer" className="flex min-h-12 items-center rounded-full bg-accent px-5 text-base font-semibold text-accent-ink hover:opacity-90">
+            <a href={modulo} target="_blank" rel="noreferrer" data-umami-event="scrivi-invia" data-umami-event-a={tipo} className="flex min-h-12 items-center rounded-full bg-accent px-5 text-base font-semibold text-accent-ink hover:opacity-90">
               2. Apri il modulo ufficiale ↗
             </a>
           </div>

@@ -176,6 +176,8 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
             <a
               key={x.href}
               href={x.href}
+              data-umami-event="cosa-vuoi-fare"
+              data-umami-event-scelta={x.href.slice(1)}
               className="group flex min-h-20 items-center gap-4 rounded-3xl border-2 border-line bg-surface p-4 hover:border-accent focus-visible:border-accent"
             >
               <span className="grid size-14 shrink-0 place-items-center rounded-2xl bg-accent-soft text-3xl" aria-hidden>

@@ -60,6 +60,7 @@ export function SegnalaUfficio({
       <button
         type="button"
         onClick={() => setAperto(true)}
+        data-umami-event="segnalazione-ufficio-apri"
         className="inline-flex min-h-12 items-center gap-2 rounded-full bg-accent px-5 text-base font-semibold text-accent-ink hover:opacity-90"
       >
         <span aria-hidden>📝</span> Prepara la segnalazione all&apos;ufficio
@@ -123,7 +124,7 @@ export function SegnalaUfficio({
           <strong>Allega una foto</strong> al messaggio prima di inviarlo: aiuta l&apos;ufficio a capire subito il problema.
         </span>
       </p>
-      <a href={href} className="mt-4 flex min-h-12 items-center justify-center rounded-full bg-accent px-5 text-base font-semibold text-accent-ink hover:opacity-90">
+      <a href={href} data-umami-event="segnalazione-ufficio-invia" className="mt-4 flex min-h-12 items-center justify-center rounded-full bg-accent px-5 text-base font-semibold text-accent-ink hover:opacity-90">
         Apri il messaggio nella tua email
       </a>
       <p className="mt-2 text-sm text-ink-3">

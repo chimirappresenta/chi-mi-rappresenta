@@ -104,6 +104,26 @@ export default function FontiPage() {
         </section>
       </div>
 
+      <section id="privacy" aria-labelledby="titolo-privacy" className="mt-14 max-w-3xl scroll-mt-24">
+        <h2 id="titolo-privacy" className="display text-4xl sm:text-5xl">
+          Privacy e statistiche
+        </h2>
+        <p className="mt-3 text-lg text-ink-2">
+          Contiamo le visite in forma <strong>anonima</strong> con{" "}
+          <a href="https://umami.is" target="_blank" rel="noreferrer" className="text-accent underline">
+            Umami
+          </a>
+          , senza cookie e senza raccogliere dati personali: sappiamo quante persone visitano le pagine, da quale sito arrivano e
+          quali pulsanti usano (per esempio &quot;Scrivi a…&quot; o &quot;Condividi&quot;), mai chi sono. Se il tuo browser chiede di
+          non essere tracciato (&quot;Do Not Track&quot;), non contiamo nemmeno la tua visita.
+        </p>
+        <p className="mt-3 text-lg text-ink-2">
+          I messaggi che prepari con &quot;Scrivi a…&quot;, &quot;Chiedi un documento&quot; e &quot;Prepara la segnalazione&quot;
+          restano sul tuo dispositivo: li invii tu dalla tua email. Le segnalazioni di errori diventano pubbliche su GitHub e non
+          contengono dati personali.
+        </p>
+      </section>
+
       <section id="ispirazioni" aria-labelledby="titolo-ispirazioni" className="mt-14 scroll-mt-24">
         <h2 id="titolo-ispirazioni" className="display text-4xl sm:text-5xl">
           Ringraziamenti e ispirazioni

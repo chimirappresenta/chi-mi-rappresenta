@@ -73,18 +73,20 @@ export function Condividi({ path, testo, titolo, compatto = false }: Props) {
         <button
           type="button"
           onClick={() => navigator.share({ title: titolo, text: testo, url }).catch(() => {})}
+          data-umami-event="condividi"
+          data-umami-event-canale="telefono"
           className={`${btn} border-accent bg-accent text-accent-ink hover:text-accent-ink`}
         >
           <Icona d={ICONE.share} /> Condividi
         </button>
       )}
       {reti.map((r) => (
-        <a key={r.id} href={r.href} target="_blank" rel="noreferrer" className={btn} aria-label={`Condividi su ${r.label}`} title={r.label}>
+        <a key={r.id} href={r.href} target="_blank" rel="noreferrer" data-umami-event="condividi" data-umami-event-canale={r.id} className={btn} aria-label={`Condividi su ${r.label}`} title={r.label}>
           <Icona d={ICONE[r.id]} />
           {!compatto && <span className="hidden sm:inline">{r.label}</span>}
         </a>
       ))}
-      <button type="button" onClick={copia} className={btn} aria-live="polite">
+      <button type="button" onClick={copia} data-umami-event="condividi" data-umami-event-canale="link" className={btn} aria-live="polite">
         <Icona d={ICONE.link} /> {copiato ? "Link copiato!" : "Copia link"}
       </button>
     </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import { useId, useMemo, useState } from "react";
+import { traccia } from "@/lib/traccia";
 import { useRouter } from "next/navigation";
 import type { ComuneIndice } from "@/lib/types";
 
@@ -71,7 +72,10 @@ export function ComuneSearch({
     return [...inizio, ...contiene, ...frazioni.slice(0, 6)].slice(0, 8);
   }, [indexed, query]);
 
-  const go = (c: ComuneIndice) => router.push(`/comune/${c.istat}/${sezione ? `#${sezione}` : ""}`);
+  const go = (c: ComuneIndice) => {
+    traccia("cerca-comune", { comune: c.nome });
+    router.push(`/comune/${c.istat}/${sezione ? `#${sezione}` : ""}`);
+  };
 
   return (
     <div className="relative">

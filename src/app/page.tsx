@@ -128,6 +128,8 @@ export default function Home() {
             <Link
               key={x.titolo}
               href={x.href}
+              data-umami-event="home-cosa-vuoi-fare"
+              data-umami-event-scelta={x.titolo}
               className="group flex gap-4 rounded-[28px] border-2 border-line bg-surface p-5 hover:border-accent sm:p-6"
             >
               <span className="grid size-16 shrink-0 place-items-center rounded-2xl bg-accent-soft text-3xl" aria-hidden>

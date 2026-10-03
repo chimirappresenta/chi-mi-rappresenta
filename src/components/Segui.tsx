@@ -22,18 +22,20 @@ export function Segui({ feed, titolo, testo }: { feed: string; titolo: string; t
         </p>
       </details>
       <div className="mt-2 flex flex-wrap items-center gap-2">
-        <a href={`https://feedly.com/i/subscription/feed%2F${enc}`} target="_blank" rel="noreferrer" className={`${btn} bg-[var(--lv)] text-white hover:opacity-90`}>
+        <a href={`https://feedly.com/i/subscription/feed%2F${enc}`} target="_blank" rel="noreferrer" data-umami-event="segui" data-umami-event-canale="feedly" className={`${btn} bg-[var(--lv)] text-white hover:opacity-90`}>
           Segui con Feedly ↗
         </a>
         <a
           href={`https://www.inoreader.com/?add_feed=${enc}`}
+          data-umami-event="segui"
+          data-umami-event-canale="inoreader"
           target="_blank"
           rel="noreferrer"
           className={`${btn} border-2 border-[var(--lv)] bg-surface text-[var(--lv)] hover:opacity-90`}
         >
           Segui con Inoreader ↗
         </a>
-        <CopiaTesto testo={feed} etichetta="Copia l'indirizzo del feed" />
+        <CopiaTesto testo={feed} etichetta="Copia l'indirizzo del feed" evento="segui-copia" />
       </div>
     </div>
   );

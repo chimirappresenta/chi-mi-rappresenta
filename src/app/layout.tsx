@@ -3,7 +3,9 @@ import Link from "next/link";
 import { Geist, Instrument_Serif } from "next/font/google";
 import { Logo } from "@/components/Logo";
 import { MenuMobile } from "@/components/MenuMobile";
+import Script from "next/script";
 import { SITE_URL } from "@/lib/sito";
+import { UMAMI_DOMINI, UMAMI_WEBSITE_ID } from "@/lib/traccia";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -126,6 +128,14 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             </div>
           </div>
         </footer>
+        {/* statistiche anonime, senza cookie; contano solo sul sito pubblicato */}
+        <Script
+          src="https://cloud.umami.is/script.js"
+          data-website-id={UMAMI_WEBSITE_ID}
+          data-domains={UMAMI_DOMINI}
+          data-do-not-track="true"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );

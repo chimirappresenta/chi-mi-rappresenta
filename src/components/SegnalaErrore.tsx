@@ -1,6 +1,7 @@
 "use client";
 
 import { useId, useRef, useState } from "react";
+import { traccia } from "@/lib/traccia";
 
 const TIPI = [
   { id: "dato", label: "Un dato è sbagliato o vecchio" },
@@ -54,6 +55,7 @@ export function SegnalaErrore({ sezione, compatto = false }: { sezione: string; 
       if (r.ok) {
         const j = (await r.json()) as { url?: string };
         setStato({ fase: "ok", url: j.url });
+        traccia("segnala-errore-inviata", { sezione });
         setCosa("");
         setAtteso("");
         setFonte("");

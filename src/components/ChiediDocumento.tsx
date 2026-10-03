@@ -182,10 +182,10 @@ export function ChiediDocumento({ enti, luogo }: { enti: EnteAccesso[]; luogo?: 
             </span>
           </p>
           <div className="mt-4 flex flex-col gap-2 sm:flex-row sm:flex-wrap">
-            <a href={href} className="flex min-h-12 flex-1 items-center justify-center rounded-full bg-accent px-5 text-base font-semibold text-accent-ink hover:opacity-90">
+            <a href={href} data-umami-event="documento-invia" data-umami-event-ente={ente.id} className="flex min-h-12 flex-1 items-center justify-center rounded-full bg-accent px-5 text-base font-semibold text-accent-ink hover:opacity-90">
               Apri nella tua email
             </a>
-            <CopiaTesto testo={corpo} etichetta="Copia il testo" />
+            <CopiaTesto testo={corpo} etichetta="Copia il testo" evento="documento-copia" />
           </div>
           <p className="mt-2 text-sm text-ink-3">
             L&apos;indirizzo è una PEC: alcune accettano solo messaggi da altre PEC. Se il messaggio torna indietro, usa il modulo per

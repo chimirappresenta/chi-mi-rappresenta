@@ -110,7 +110,7 @@ function ContattiVoce({ v, ctx }: { v: VoceGuida; ctx?: ContestoComune }) {
               <p className="mt-1 text-lg font-semibold">{uff.nome}</p>
               <div className="mt-3 flex flex-wrap gap-2">
                 {uff.tel && (
-                  <a href={`tel:${uff.tel}`} className={`${btn} bg-[var(--lv)] text-white hover:opacity-90`}>
+                  <a href={`tel:${uff.tel}`} data-umami-event="chiama" data-umami-event-chi="ufficio-comune" className={`${btn} bg-[var(--lv)] text-white hover:opacity-90`}>
                     <span aria-hidden>📞</span> Chiama {leggibile(uff.tel)}
                   </a>
                 )}
@@ -159,7 +159,7 @@ function ContattiVoce({ v, ctx }: { v: VoceGuida; ctx?: ContestoComune }) {
           <p className="mt-1 text-ink-2">Sul sito trovi il distretto sanitario più vicino, gli orari e l&apos;URP per i reclami.</p>
           <div className="mt-3 flex flex-wrap gap-2">
             {asl.sito && (
-              <a href={asl.sito} target="_blank" rel="noreferrer" className={`${btn} bg-[var(--lv)] text-white hover:opacity-90`}>
+              <a href={asl.sito} target="_blank" rel="noreferrer" data-umami-event="asl-sito" className={`${btn} bg-[var(--lv)] text-white hover:opacity-90`}>
                 Sito della {asl.nome} ↗
               </a>
             )}
@@ -181,7 +181,7 @@ function ContattiVoce({ v, ctx }: { v: VoceGuida; ctx?: ContestoComune }) {
           <ul className="mt-2 grid gap-2">
             {v.servizi.map((s) => (
               <li key={s.url}>
-                <a href={s.url} target="_blank" rel="noreferrer" className="block rounded-xl border border-line bg-surface p-3 hover:border-[var(--lv)]">
+                <a href={s.url} target="_blank" rel="noreferrer" data-umami-event="servizio-online" data-umami-event-servizio={s.label} className="block rounded-xl border border-line bg-surface p-3 hover:border-[var(--lv)]">
                   <span className="block font-semibold text-[var(--lv)]">{s.label} ↗</span>
                   <span className="block text-sm text-ink-2">{s.descrizione}</span>
                 </a>
@@ -196,7 +196,7 @@ function ContattiVoce({ v, ctx }: { v: VoceGuida; ctx?: ContestoComune }) {
           <ul className="mt-2 grid gap-2">
             {v.numeri.map((n) => (
               <li key={n.numero} className="flex flex-wrap items-center gap-x-3 gap-y-1">
-                <a href={`tel:${n.numero.replace(/\s/g, "")}`} className={`${btn} bg-surface-2 text-lg text-ink hover:bg-[var(--lv-bg)]`}>
+                <a href={`tel:${n.numero.replace(/\s/g, "")}`} data-umami-event="chiama" data-umami-event-chi={n.numero} className={`${btn} bg-surface-2 text-lg text-ink hover:bg-[var(--lv-bg)]`}>
                   <span aria-hidden>📞</span> {n.numero}
                 </a>
                 <span className="min-w-0 text-ink-2">
@@ -241,7 +241,7 @@ export function GuidaProblemi({ ctx }: { ctx?: ContestoComune }) {
               const sito = v.linkComune && ctx?.comune.contatti?.sito;
               return (
                 <details key={v.id} id={`problema-${v.id}`} className="group rounded-2xl border-2 border-line bg-surface open:border-[var(--lv)]">
-                  <summary className="flex min-h-16 items-center gap-4 px-4 py-3">
+                  <summary data-umami-event="guida-voce" data-umami-event-voce={v.id} className="flex min-h-16 items-center gap-4 px-4 py-3">
                     <span className="grid size-12 shrink-0 place-items-center rounded-2xl bg-[var(--lv-bg)] text-2xl" aria-hidden>
                       {v.icona}
                     </span>
