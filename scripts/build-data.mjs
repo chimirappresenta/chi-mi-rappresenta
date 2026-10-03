@@ -13,14 +13,28 @@ const MANUAL = path.join(ROOT, "data", "manual");
 const OUT = path.join(ROOT, "src", "data");
 const REFRESH = process.argv.includes("--refresh");
 
-// Filtro territoriale: codice ISTAT della regione. Per estendere all'Italia, rendere configurabile.
+// Tutta Italia per comuni, Parlamento ed Europa. La regione "in chiaro" (Consiglio regionale con atti, leggi,
+// emiciclo) per ora è solo la Campania: per aggiungerne altre serve un adattatore del loro Consiglio regionale.
 const REGIONE = { codice: "15", nome: "Campania" };
+/** Codice IPA dell'ente Regione, per codice ISTAT della regione. */
+const IPA_REGIONE = {
+  "01": "r_piemon", "02": "r_vda", "03": "r_lombar", "04": "r_trenti", "05": "r_veneto", "06": "r_friuve", "07": "r_liguri",
+  "08": "r_emiro", "09": "r_toscan", "10": "r_umbria", "11": "r_marche", "12": "r_lazio", "13": "r_abruzz", "14": "r_molise",
+  "15": "r_campan", "16": "r_puglia", "17": "r_basili", "18": "regcal", "19": "r_sicili", "20": "r_sardeg",
+};
 
 const UA = "chi-mi-rappresenta/0.1 (progetto civico open source)";
 const warnings = [];
 const warn = (msg) => {
   warnings.push(msg);
   console.warn("  ! " + msg);
+};
+/** Avvisi dello stesso tipo raccolti e scritti una volta sola, con il conteggio (con 7.900 comuni sarebbero troppi). */
+const gruppiAvvisi = new Map();
+const warnGruppo = (tipo, chi) => (gruppiAvvisi.get(tipo) ?? gruppiAvvisi.set(tipo, []).get(tipo)).push(chi);
+const chiudiAvvisi = () => {
+  for (const [tipo, chi] of gruppiAvvisi) warn(`${tipo}: ${chi.length} (${chi.slice(0, 8).join(", ")}${chi.length > 8 ? ", …" : ""})`);
+  gruppiAvvisi.clear();
 };
 
 fs.mkdirSync(RAW, { recursive: true });
@@ -188,18 +202,34 @@ const istatBuf = await download(
   { binary: true },
 );
 const istatRows = parseCsv(istatBuf.toString("latin1")).slice(1);
+/** "Valle d'Aosta/Vallée d'Aoste" → "Valle d'Aosta" (il nome bilingue resta solo nelle fonti). */
+const nomeRegione = (s) => s.split("/")[0].trim();
+const slugRegione = (nome) => norm(nome).toLowerCase().replace(/ /g, "-");
 const comuni = istatRows
-  .filter((r) => r[0] === REGIONE.codice)
+  .filter((r) => /^\d{6}$/.test(r[4]))
   .map((r) => ({
     istat: r[4],
     nome: r[6],
-    provincia: r[11],
+    provincia: nomeRegione(r[11]),
     sigla: r[14],
     capoluogo: r[13] === "1",
+    codiceRegione: r[0],
+    regione: nomeRegione(r[10]),
+    regioneSlug: slugRegione(nomeRegione(r[10])),
   }))
   .sort((a, b) => a.nome.localeCompare(b.nome, "it"));
+const REGIONI = new Map(comuni.map((c) => [c.codiceRegione, { codice: c.codiceRegione, nome: c.regione, slug: c.regioneSlug }]));
 const comuneByNameProv = new Map(comuni.map((c) => [`${norm(c.nome)}|${c.sigla}`, c]));
-console.log(`  ${comuni.length} comuni in ${REGIONE.nome}`);
+// Ripiego per nome nella stessa regione: le fonti a volte usano le sigle delle vecchie province (es. Sardegna).
+const comuneByNameReg = new Map();
+for (const c of comuni) {
+  const k = `${norm(c.nome)}|${c.codiceRegione}`;
+  comuneByNameReg.set(k, comuneByNameReg.has(k) ? null : c); // null = ambiguo
+}
+// Codice catastale → codice ISTAT: l'IPA usa già i nuovi codici dei comuni sardi, l'ISTAT ancora quelli statistici.
+const istatByCatastale = new Map(istatRows.filter((r) => /^\d{6}$/.test(r[4]) && r[19]).map((r) => [r[19], r[4]]));
+const istatDaIpa = (r) => istatByCatastale.get(r.Codice_catastale_comune) ?? r.Codice_comune_ISTAT;
+console.log(`  ${comuni.length} comuni in ${REGIONI.size} regioni`);
 
 // ---------------------------------------------------------------- 2. Amministratori comunali (Viminale)
 
@@ -208,14 +238,18 @@ const AMM_URL = "https://dait.interno.gov.it/documenti/ammcom.csv";
 const COMM_URL = "https://dait.interno.gov.it/documenti/organistraordinariincarica.csv";
 const ammText = await download("ammcom.csv", AMM_URL);
 const ammAggiornato = ammText.match(/Aggiornato al (\d{2}\/\d{2}\/\d{4})/)?.[1];
-const amm = csvObjects(ammText, 2).filter((r) => r.codice_regione === REGIONE.codice);
+const amm = csvObjects(ammText, 2);
 const commText = await download("organistraordinari.csv", COMM_URL);
-const comm = csvObjects(commText, 2).filter((r) => r.codice_regione === REGIONE.codice);
+const comm = csvObjects(commText, 2);
 
-function findComune(nome, sigla) {
-  const c = comuneByNameProv.get(`${norm(nome)}|${sigla}`);
-  if (!c) warn(`Comune Viminale non trovato in ISTAT: ${nome} (${sigla})`);
-  return c;
+const nonTrovatiViminale = new Set();
+function findComune(nome, sigla, codiceRegione) {
+  const c = comuneByNameProv.get(`${norm(nome)}|${sigla}`) ?? comuneByNameReg.get(`${norm(nome)}|${codiceRegione}`);
+  if (!c && !nonTrovatiViminale.has(`${nome}|${sigla}`)) {
+    nonTrovatiViminale.add(`${nome}|${sigla}`);
+    warnGruppo("Comuni del Ministero dell'Interno non trovati nell'elenco ISTAT (fusioni recenti?)", `${nome} (${sigla})`);
+  }
+  return c ?? undefined;
 }
 
 
@@ -266,7 +300,7 @@ const amministrazioni = new Map();
 for (const r of amm) {
   // I commissari compaiono anche in ammcom: li prendiamo dal file degli organi straordinari.
   if (r.descrizione_carica.startsWith("Commiss")) continue;
-  const c = findComune(r.denominazione_comune, r.sigla_provincia);
+  const c = findComune(r.denominazione_comune, r.sigla_provincia, r.codice_regione);
   if (!c) continue;
   const a = amministrazioni.get(c.istat) ?? {
     tipo: "ordinaria",
@@ -295,7 +329,7 @@ for (const r of amm) {
   amministrazioni.set(c.istat, a);
 }
 for (const r of comm) {
-  const c = findComune(r.denominazione_comune, r.sigla_provincia);
+  const c = findComune(r.denominazione_comune, r.sigla_provincia, r.codice_regione);
   if (!c) continue;
   const a = amministrazioni.get(c.istat) ?? { sindaco: null, giunta: [], consiglio: [], commissari: [] };
   // La fonte a volte conserva commissioni già concluse: se c'è un sindaco entrato in carica dopo, vale il sindaco.
@@ -312,19 +346,21 @@ for (const a of amministrazioni.values()) {
   a.giunta.sort((x, y) => rankGiunta(x) - rankGiunta(y) || x.nome.localeCompare(y.nome, "it"));
   a.consiglio.sort((x, y) => rankConsiglio(x) - rankConsiglio(y) || x.nome.localeCompare(y.nome, "it"));
 }
+chiudiAvvisi();
 console.log(`  ${amministrazioni.size} amministrazioni (aggiornate al ${ammAggiornato})`);
 
 // ---------------------------------------------------------------- 2b. Contatti dei Comuni, frazioni e CAP
 
 console.log("2b/7 Contatti dei Comuni (IPA), frazioni (ISTAT) e CAP (Wikidata)");
-const istatCampania = new Set(comuni.map((c) => c.istat));
+const istatTutti = new Set(comuni.map((c) => c.istat));
 
 // Indice delle Pubbliche Amministrazioni: PEC e sito istituzionale di ogni Comune.
 // Pubblichiamo solo la PEC e il sito: gli altri indirizzi email a volte sono di singoli dipendenti.
 const IPA_URL = "https://indicepa.gov.it/ipa-dati/datastore/dump/d09adf99-dc10-4349-8c53-27b1e5aa97b6?format=csv";
 const ipa = csvObjects(await download("ipa-enti.csv", IPA_URL), 0, ",").filter(
-  (r) => r.Codice_Categoria === "L6" && istatCampania.has(r.Codice_comune_ISTAT),
+  (r) => r.Codice_Categoria === "L6" && istatTutti.has(istatDaIpa(r)),
 );
+for (const r of ipa) r.Codice_comune_ISTAT = istatDaIpa(r);
 const contattiByIstat = new Map();
 for (const r of ipa) {
   const pec = [1, 2, 3, 4, 5].map((i) => (r[`Tipo_Mail${i}`] === "Pec" ? r[`Mail${i}`] : "")).find(Boolean);
@@ -342,7 +378,8 @@ for (const r of ipa) {
     }),
   );
 }
-for (const c of comuni) if (!contattiByIstat.has(c.istat)) warn(`Contatti IPA mancanti per ${c.nome} (${c.istat})`);
+for (const c of comuni) if (!contattiByIstat.has(c.istat)) warnGruppo("Comuni senza contatti nell'IPA", `${c.nome} (${c.istat})`);
+chiudiAvvisi();
 
 // Uffici dei Comuni (unità organizzative IPA): per ogni tipo di problema, l'ufficio giusto con telefono ed email.
 // Pubblichiamo solo contatti d'ufficio: niente nomi dei responsabili, niente email personali o per le fatture.
@@ -416,23 +453,75 @@ for (const r of csvObjects(ouText.replace(/^\uFEFF/, ""), 0, "\t")) {
 for (const voci of ufficiByIstat.values()) for (const v of Object.values(voci)) delete v._punti;
 console.log(`  Uffici specifici per ${[...ufficiByIstat.values()].filter((v) => Object.keys(v).length).length} comuni`);
 
-// ASL di ogni comune: una per provincia, tranne Napoli (tre ASL, abbinamento verificato sui siti delle ASL).
-const aslNapoli = JSON.parse(fs.readFileSync(path.join(MANUAL, "asl-napoli.json"), "utf8")).asl;
-const ASL_PROVINCIA = { AV: "asl_av", BN: "asl1_bn", CE: "as_CE", SA: "asl_sa" };
-const aslIpa = new Map(
-  csvObjects(await download("ipa-enti.csv", IPA_URL), 0, ",")
-    .filter((r) => r.Codice_Categoria === "L7")
-    .map((r) => [r.Codice_IPA, r]),
-);
+// ASL di ogni comune: abbinamento ufficiale del Ministero della Salute ("Corrispondenze ASL-Comuni"), tutta Italia.
+// PEC e sito vengono dall'ente ASL nell'IPA: abbinamento automatico per nome, più i casi scritti a mano.
+const SALUTE_URL = "https://www.dati.salute.gov.it/sites/default/files/2026-05/ASL_comuni_popolazione_2024.csv";
+const saluteRows = parseCsv(new TextDecoder("windows-1252").decode(await download("salute-asl-comuni.csv", SALUTE_URL, { binary: true }))).slice(1);
+const aslPerComune = new Map(); // istat → ["reg|NOME ASL", ...] (Roma ne ha più di una)
+for (const r of saluteRows) {
+  if (!/^\d{6}$/.test(r[5] ?? "")) continue;
+  const reg = r[1].slice(0, 2) === "04" ? "04" : r[1].slice(0, 2); // 041 e 042: province autonome
+  const k = `${reg}|${r[4].trim()}`;
+  const l = aslPerComune.get(r[5]) ?? [];
+  if (!l.includes(k)) l.push(k);
+  aslPerComune.set(r[5], l);
+}
+const aslManuali = JSON.parse(fs.readFileSync(path.join(MANUAL, "asl-ipa.json"), "utf8")).asl;
+const ipaAsl = csvObjects(await download("ipa-enti.csv", IPA_URL), 0, ",").filter((r) => r.Codice_Categoria === "L7");
+const ipaAslByCod = new Map(ipaAsl.map((r) => [r.Codice_IPA, r]));
+const regioneDiIstat = new Map(comuni.map((c) => [c.istat, c.codiceRegione]));
+const PAROLE_ASL = new Set("AZIENDA SANITARIA LOCALE LOCALI ASL USL AUSL ULSS ASP ATS AST ASU AS ASM A S L P DI DELLA DEL DELL N UNITA PROVINCIALE TERRITORIALE REGIONALE SOCIO DEI DEGLI E UNICA".split(" "));
+const paroleAsl = (t) => norm(t).split(" ").filter((w) => w && !PAROLE_ASL.has(w));
+function enteAsl(chiave) {
+  if (aslManuali[chiave]) return ipaAslByCod.get(aslManuali[chiave]);
+  const [reg, nome] = chiave.split("|");
+  const cerca = paroleAsl(nome);
+  let migliore;
+  for (const r of ipaAsl) {
+    const regEnte = regioneDiIstat.get(istatDaIpa(r));
+    if (regEnte !== reg && !(reg === "04" && regEnte === "04")) continue;
+    const parole = new Set(paroleAsl(r.Denominazione_ente));
+    if (cerca.length && cerca.every((w) => parole.has(w))) migliore ??= r;
+  }
+  return migliore;
+}
+/** "Azienda Sanitaria Locale Napoli 2 Nord" → "ASL Napoli 2 Nord" */
+const nomeBreveAsl = (n) => {
+  const t = n === n.toUpperCase() ? titleCase(n, { minori: true }) : n;
+  return t
+    .replace(/^Azienda Socio[ -]Sanitaria Locale (di |della |dell')?/i, "ASL ")
+    .replace(/^Azienda Sanitaria Locale (di |della )?/i, "ASL ")
+    .replace(/^Azienda Sanitaria Provinciale (di )?/i, "ASP ")
+    .replace(/^Azienda Unita' Sanitaria Locale (di )?/i, "AUSL ")
+    .replace(/^Agenzia di Tutela della Salute (di |della |dell')?/i, "ATS ")
+    .replace(/\s+-\s+Suedtiroler Sanitaetsbetrieb$/i, "")
+    .trim();
+};
+const schedaAsl = new Map();
+function aslDaChiave(chiave) {
+  if (schedaAsl.has(chiave)) return schedaAsl.get(chiave);
+  const r = enteAsl(chiave);
+  if (!r) warnGruppo("ASL senza ente IPA (solo il nome, senza PEC e sito)", chiave);
+  const pec = r && [1, 2, 3, 4, 5].map((i) => (r[`Tipo_Mail${i}`] === "Pec" ? r[`Mail${i}`] : "")).find(Boolean);
+  const sito = r?.Sito_istituzionale?.trim();
+  const out = persona({
+    nome: r ? nomeBreveAsl(r.Denominazione_ente) : titleCase(chiave.split("|")[1], { minori: true }),
+    sito: sito ? `https://${sito.replace(/^https?:\/\//, "")}` : undefined,
+    pec: pec?.toLowerCase(),
+  });
+  schedaAsl.set(chiave, out);
+  return out;
+}
 const aslDiComune = (c) => {
-  const cod = ASL_PROVINCIA[c.sigla] ?? Object.entries(aslNapoli).find(([, lista]) => lista.includes(c.istat))?.[0];
-  const r = cod && aslIpa.get(cod);
-  if (!r) {
-    warn(`ASL non trovata per ${c.nome}`);
+  const chiavi = aslPerComune.get(c.istat);
+  if (!chiavi?.length) {
+    warnGruppo("Comuni senza ASL nel file del Ministero della Salute", `${c.nome} (${c.istat})`);
     return null;
   }
-  const pec = [1, 2, 3, 4, 5].map((i) => (r[`Tipo_Mail${i}`] === "Pec" ? r[`Mail${i}`] : "")).find(Boolean);
-  return persona({ nome: r.Denominazione_ente.replace(/^Azienda Sanitaria Locale (di )?/i, "ASL "), sito: `https://${r.Sito_istituzionale.replace(/^https?:\/\//, "")}`, pec: pec?.toLowerCase() });
+  if (chiavi.length === 1) return aslDaChiave(chiavi[0]);
+  // comuni divisi tra più ASL (Roma): l'ASL dipende dal quartiere
+  const nomi = chiavi.map((k) => aslDaChiave(k).nome);
+  return { nome: `${nomi.slice(0, -1).join(", ")} o ${nomi.at(-1)}, secondo il quartiere` };
 };
 console.log(`  ${contattiByIstat.size} Comuni con contatti ufficiali`);
 
@@ -447,11 +536,10 @@ if (REFRESH || !fs.existsSync(locFile)) {
 const frazioniByIstat = new Map();
 const nomeComune = new Map(comuni.map((c) => [c.istat, norm(c.nome)]));
 for (const r of csvObjects(fs.readFileSync(locFile, "utf8"), 0, "\t")) {
-  if (r.COD_REG !== String(Number(REGIONE.codice))) continue;
   // 1 = centro abitato, 2 = nucleo abitato; escludiamo le case sparse e le località minuscole.
   if (!["1", "2"].includes(r.TIPO_LOC) || Number(r.POP21) < 100) continue;
   const istat = r.PRO_COM.padStart(6, "0");
-  if (!istatCampania.has(istat) || norm(r.NOME) === nomeComune.get(istat)) continue;
+  if (!istatTutti.has(istat) || norm(r.NOME) === nomeComune.get(istat)) continue;
   (frazioniByIstat.get(istat) ?? frazioniByIstat.set(istat, []).get(istat)).push({ nome: r.NOME, pop: Number(r.POP21) });
 }
 for (const [k, v] of frazioniByIstat)
@@ -459,15 +547,15 @@ for (const [k, v] of frazioniByIstat)
 console.log(`  ${[...frazioniByIstat.values()].flat().length} frazioni e località in ${frazioniByIstat.size} comuni`);
 
 // CAP da Wikidata (CC0): l'ISTAT non li pubblica. Le grandi città ne hanno più di uno.
-const capQuery = `SELECT ?istat ?cap WHERE { ?c wdt:P635 ?istat; wdt:P281 ?cap. FILTER(STRSTARTS(?istat, "06")) }`;
+const capQuery = `SELECT ?istat ?cap WHERE { ?c wdt:P635 ?istat; wdt:P281 ?cap. }`;
 const capText = await download(
-  "wikidata-cap.csv",
+  "wikidata-cap-italia.csv",
   `https://query.wikidata.org/sparql?${new URLSearchParams({ query: capQuery })}`,
   { headers: { Accept: "text/csv" } },
 );
 const capByIstat = new Map();
 for (const r of csvObjects(capText, 0, ",")) {
-  if (!istatCampania.has(r.istat)) continue;
+  if (!istatTutti.has(r.istat)) continue;
   for (const cap of r.cap.match(/\d{5}/g) ?? []) (capByIstat.get(r.istat) ?? capByIstat.set(r.istat, new Set()).get(r.istat)).add(cap);
 }
 // Il CAP della sede comunale (IPA) completa i comuni che su Wikidata non lo hanno.
@@ -477,6 +565,12 @@ console.log(`  CAP per ${capByIstat.size} comuni`);
 // ---------------------------------------------------------------- 3. Collegi elettorali (ISTAT)
 
 console.log("3/7 Collegi elettorali ISTAT");
+/** Circoscrizione senza la parte bilingue: "TRENTINO-ALTO ADIGE/SÜDTIROL" → "TRENTINO-ALTO ADIGE". */
+const chiaveCirc = (s) => s.split("/")[0].trim().toUpperCase();
+const chiaveCollegio = (s) => {
+  const [circ, cod] = s.split(" - ");
+  return `${chiaveCirc(circ)} - ${cod.trim()}`;
+};
 const COLLEGI_URL =
   "https://www.istat.it/storage/Basi%20Geografiche%202022/Collegi_Elettorali_BasiGeografiche.zip";
 const dbfFile = path.join(RAW, "UT_Collegi2020.dbf");
@@ -485,11 +579,13 @@ if (REFRESH || !fs.existsSync(dbfFile)) {
   const entry = new AdmZip(zipBuf).getEntries().find((e) => e.entryName.endsWith("UT_Collegi2020.dbf"));
   fs.writeFileSync(dbfFile, entry.getData());
 }
-const ut = readDbf(fs.readFileSync(dbfFile)).filter((r) => r.COD_REG === String(Number(REGIONE.codice)));
+// Il DBF dei collegi è in UTF-8 (nomi bilingui come "Trentino-Alto Adige/Südtirol").
+const ut = readDbf(fs.readFileSync(dbfFile), "utf8");
 const collegiByComune = new Map();
 for (const r of ut) {
   const istat = r.PRO_COM.padStart(6, "0");
-  const circ = r.CIRC_DEN.toUpperCase();
+  const circ = chiaveCirc(r.CIRC_DEN);
+  const reg = REGIONI.get(String(r.COD_REG).padStart(2, "0"))?.nome.toUpperCase() ?? circ;
   const k = collegiByComune.get(istat) ?? {
     cameraU: new Set(),
     cameraP: new Set(),
@@ -500,11 +596,12 @@ for (const r of ut) {
   const cameraU = `${circ} - ${r.CU20_C1}`;
   k.cameraU.add(cameraU);
   k.cameraP.add(`${circ} - ${r.CP20_C1}`);
-  k.senatoU.add(r.SU20_C1);
-  k.senatoP.add(r.SP20_C1);
+  // i codici dei collegi del Senato si ripetono in ogni regione: li prefissiamo con la regione
+  k.senatoU.add(`${reg} - ${r.SU20_C1}`);
+  k.senatoP.add(`${reg} - ${r.SP20_C1}`);
   // Nei comuni grandi l'ISTAT divide il territorio in quartieri/aree sub-comunali: ci dicono quale collegio è di chi.
   if (r.ASC_NOME) {
-    for (const key of [cameraU, r.SU20_C1]) (k.quartieri[key] ??= []).push(r.ASC_NOME);
+    for (const key of [cameraU, `${reg} - ${r.SU20_C1}`]) (k.quartieri[key] ??= []).push(r.ASC_NOME);
   }
   collegiByComune.set(istat, k);
 }
@@ -514,7 +611,7 @@ console.log(`  ${collegiByComune.size} comuni con collegi`);
 
 console.log("4/7 Deputati (dati.camera.it) e senatori (dati.senato.it)");
 const deputatiRows = await sparql(
-  "camera-deputati.json",
+  "camera-deputati-italia.json",
   "https://dati.camera.it/sparql",
   `PREFIX ocd: <http://dati.camera.it/ocd/>
    PREFIX dc: <http://purl.org/dc/elements/1.1/>
@@ -526,18 +623,18 @@ const deputatiRows = await sparql(
      FILTER NOT EXISTS { ?m ocd:endDate ?fine }
      ?d foaf:firstName ?nome; foaf:surname ?cognome. OPTIONAL { ?d foaf:gender ?genere }
      ?e rdfs:label ?label. OPTIONAL { ?e ocd:lista ?lista } OPTIONAL { ?e ocd:tipoElezione ?tipo }
-     FILTER(CONTAINS(UCASE(?label), "${REGIONE.nome.toUpperCase()}"))
    }`,
 );
 const deputatiPerCollegio = {};
 for (const r of deputatiRows) {
-  // es. "Eletto nel collegio uninominale di CAMPANIA 1 - U02 (CAMPANIA 1 - P01) ..." oppure "...circoscrizione CAMPANIA 1 - P02 ..."
-  const m = r.label.match(/([A-Z' ]+ \d+ - [UP]\d{2})/);
+  // es. "Eletto nel collegio uninominale di CAMPANIA 1 - U02 (CAMPANIA 1 - P01) ..." oppure "...circoscrizione EMILIA-ROMAGNA - P02 ..."
+  const m = r.label.match(/(?:uninominale di|circoscrizione)\s+(.+? - [UP]\d{2})/);
   if (!m) {
-    warn(`Collegio non riconosciuto per ${r.nome} ${r.cognome}: ${r.label}`);
+    // eletti all'estero: non hanno un collegio sul territorio
+    if (!/circoscrizione (EUROPA|AMERICA|AFRICA)/.test(r.label)) warn(`Collegio non riconosciuto per ${r.nome} ${r.cognome}: ${r.label}`);
     continue;
   }
-  const collegio = m[1].trim();
+  const collegio = chiaveCollegio(m[1].trim());
   const id = r.d.match(/d(\d+)_19/)?.[1];
   const uninominale = collegio.includes(" - U");
   (deputatiPerCollegio[collegio] ??= []).push(
@@ -553,7 +650,7 @@ for (const r of deputatiRows) {
   );
 }
 for (const l of Object.values(deputatiPerCollegio)) l.sort((a, b) => a.nome.localeCompare(b.nome, "it"));
-console.log(`  ${deputatiRows.length} deputati eletti in ${REGIONE.nome}`);
+console.log(`  ${deputatiRows.length} deputati in carica, ${Object.keys(deputatiPerCollegio).length} collegi`);
 
 const senatoriRows = await sparql(
   "senato-senatori.json",
@@ -594,7 +691,7 @@ const senatoUninominali = {};
 for (const [collegio, id] of Object.entries(senUni)) {
   const s = senatoreById.get(id);
   if (!s) warn(`Senatore ${id} del collegio ${collegio} non risulta in carica`);
-  else senatoUninominali[collegio] = s;
+  else senatoUninominali[`${REGIONE.nome.toUpperCase()} - ${collegio}`] = s;
 }
 const senatoProporzionale = [...senatoreById.values()]
   .filter((s) => !s._uninominale)
@@ -626,9 +723,9 @@ function campo(lines, label) {
 }
 
 // Sesso dei consiglieri regionali dall'anagrafe del Ministero dell'Interno (per declinare "Consigliera").
-const ammreg = csvObjects(await download("ammreg.csv", "https://dait.interno.gov.it/documenti/ammreg.csv"), 2).filter(
-  (r) => r.codice_regione === REGIONE.codice,
-);
+const ammregTutte = csvObjects(await download("ammreg.csv", "https://dait.interno.gov.it/documenti/ammreg.csv"), 2);
+const ammregAggiornato = ammregTutte.length ? (fs.readFileSync(path.join(RAW, "ammreg.csv"), "utf8").match(/Aggiornato al (\d{2}\/\d{2}\/\d{4})/)?.[1]) : undefined;
+const ammreg = ammregTutte.filter((r) => r.codice_regione === REGIONE.codice);
 const chiaveNomeCons = (s) => norm(s).split(" ").filter(Boolean).sort().join(" ");
 const sessoRegionale = new Map(ammreg.map((r) => [chiaveNomeCons(`${r.nome} ${r.cognome}`), r.sesso]));
 
@@ -864,7 +961,8 @@ console.log(`  ${leggi.length} leggi regionali (${leggi.filter((l) => l.riassunt
 // Quali atti e leggi citano un comune nel titolo. Nomi lunghi prima, così "Monte di Procida" non conta come "Procida".
 // Per i nomi che sono anche parole comuni serve "Comune di ...".
 const AMBIGUI = new Set(["Campagna", "Liberi", "Ponte", "Lettere", "Contrada", "Serre", "Conca", "Prata", "Pietra"]);
-const comuniPerLunghezza = [...comuni].sort((a, b) => b.nome.length - a.nome.length);
+// atti e leggi della Campania: si cercano solo i comuni campani
+const comuniPerLunghezza = comuni.filter((c) => c.codiceRegione === REGIONE.codice).sort((a, b) => b.nome.length - a.nome.length);
 const testoPerMatch = (s) =>
   ` ${s
     .normalize("NFKD")
@@ -967,7 +1065,7 @@ const dataComunali = new Map(
     return a?.tipo === "ordinaria" && a.dataElezione ? [[c.istat, a.dataElezione]] : [];
   }),
 );
-const elezioni = await elezioniPerComune({ RAW, REFRESH, UA, regione: REGIONE.nome, comuni, dataComunali, warn });
+const elezioni = await elezioniPerComune({ RAW, REFRESH, UA, comuni, dataComunali, warn });
 console.log(`  Comunali per ${[...elezioni.values()].filter((e) => e.some((x) => x.id === "comunali")).length} comuni`);
 
 // ---------------------------------------------------------------- 7. Output
@@ -976,12 +1074,12 @@ console.log("7/7 Scrittura JSON");
 const PROV_CIRC = { NA: "Napoli", SA: "Salerno", CE: "Caserta", AV: "Avellino", BN: "Benevento" };
 const schede = comuni.map((c) => {
   const k = collegiByComune.get(c.istat);
-  if (!k) warn(`Nessun collegio ISTAT per ${c.nome} (${c.istat})`);
+  if (!k) warnGruppo("Comuni senza collegio ISTAT", `${c.nome} (${c.istat})`);
   const a = amministrazioni.get(c.istat);
-  if (!a) warn(`Nessun amministratore per ${c.nome} (${c.istat})`);
+  if (!a) warnGruppo("Comuni senza amministratori nell'anagrafe del Ministero", `${c.nome} (${c.istat})`);
   return {
     ...c,
-    circoscrizioneRegionale: PROV_CIRC[c.sigla],
+    circoscrizioneRegionale: c.codiceRegione === REGIONE.codice ? PROV_CIRC[c.sigla] : undefined,
     collegi: k
       ? {
           cameraU: [...k.cameraU].sort(),
@@ -1005,6 +1103,7 @@ const schede = comuni.map((c) => {
     elezioni: elezioni.get(c.istat) ?? [],
   };
 });
+chiudiAvvisi();
 
 const oggi = new Date().toISOString().slice(0, 10);
 /** Quando abbiamo scaricato davvero la fonte: data del file in data/raw (con la cache può essere precedente a oggi). */
@@ -1018,16 +1117,17 @@ const raccolto = (file) => {
 const meta = {
   generato: oggi,
   regione: REGIONE.nome,
+  comuni: comuni.length,
   fonti: [
     { id: "istat-comuni", nome: "Elenco dei comuni italiani", ente: "ISTAT", url: "https://www.istat.it/classificazione/codici-dei-comuni-delle-province-e-delle-regioni/", raccolto: raccolto("istat-comuni.csv") },
     { id: "viminale", nome: "Anagrafe degli amministratori locali e regionali", ente: "Ministero dell'Interno – DAIT", url: "https://dait.interno.gov.it/elezioni/open-data/amministratori-locali-e-regionali-in-carica", aggiornato: ammAggiornato, raccolto: raccolto("ammcom.csv") },
     { id: "ipa", nome: "Indice delle Pubbliche Amministrazioni (PEC e sito dei Comuni)", ente: "AgID – IPA", url: "https://indicepa.gov.it/ipa-portale/consultazione/indirizzo-sede/ricerca-ente", raccolto: raccolto("ipa-enti.csv") },
     { id: "ipa-uffici", nome: "Uffici dei Comuni (unità organizzative)", ente: "AgID – IPA", url: "https://indicepa.gov.it/ipa-dati/dataset/ou", raccolto: raccolto("ipa-uffici.txt") },
-    { id: "asl", nome: "Distretti sanitari delle ASL di Napoli (abbinamento comune → ASL)", ente: "ASL Napoli 1, 2 e 3 (verificato a mano)", url: "https://www.aslnapoli2nord.it/strutture/distretti/" },
+    { id: "asl", nome: "Corrispondenze ASL-Comuni (abbinamento comune → ASL)", ente: "Ministero della Salute", url: "https://www.dati.salute.gov.it/dataset/corrispondenze_asl_comuni_popolazione_residente.jsp", raccolto: raccolto("salute-asl-comuni.csv") },
     { id: "istat-localita", nome: "Località abitate del Censimento 2021 (frazioni)", ente: "ISTAT", url: "https://www.istat.it/notizia/basi-territoriali-e-variabili-censuarie/", raccolto: raccolto("localita-2021.csv") },
-    { id: "wikidata-cap", nome: "Codici di avviamento postale dei comuni", ente: "Wikidata", url: "https://www.wikidata.org/wiki/Property:P281", raccolto: raccolto("wikidata-cap.csv") },
+    { id: "wikidata-cap", nome: "Codici di avviamento postale dei comuni", ente: "Wikidata", url: "https://www.wikidata.org/wiki/Property:P281", raccolto: raccolto("wikidata-cap-italia.csv") },
     { id: "istat-collegi", nome: "Basi geografiche dei collegi elettorali (D.Lgs. 177/2020)", ente: "ISTAT", url: "https://www.istat.it/notizia/le-basi-geografiche-dei-nuovi-collegi-elettorali-2/", raccolto: raccolto("UT_Collegi2020.dbf") },
-    { id: "camera", nome: "Open data della Camera dei deputati", ente: "Camera dei deputati", url: "https://dati.camera.it/", raccolto: raccolto("camera-deputati.json") },
+    { id: "camera", nome: "Open data della Camera dei deputati", ente: "Camera dei deputati", url: "https://dati.camera.it/", raccolto: raccolto("camera-deputati-italia.json") },
     { id: "senato", nome: "Open data del Senato della Repubblica (email dalle schede ufficiali)", ente: "Senato della Repubblica", url: "https://dati.senato.it/", raccolto: raccolto("senato-senatori.json") },
     { id: "cr", nome: "Consiglieri regionali", ente: "Consiglio regionale della Campania", url: `${CR_BASE}/consiglio-regionale/consiglieri`, raccolto: raccolto("cr-consiglieri.html") },
     { id: "giunta", nome: "La Giunta regionale", ente: "Regione Campania", url: GIUNTA_URL, raccolto: raccolto("regione-giunta.html") },
@@ -1061,18 +1161,22 @@ function numeriAmministrazione(a) {
   });
 }
 for (const s of schede) s.numeri = numeriAmministrazione(s.amministrazione);
-const tuttiNumeri = schede.map((s) => s.numeri).filter(Boolean);
-const mediaDi = (k) => {
-  const v = tuttiNumeri.map((x) => x[k]).filter((x) => typeof x === "number");
-  return v.length ? Math.round(v.reduce((a, b) => a + b, 0) / v.length) : undefined;
-};
-const mediaRegione = persona({
-  persone: mediaDi("persone") ?? 0,
-  etaMedia: mediaDi("etaMedia"),
-  donne: mediaDi("donne"),
-  laureati: mediaDi("laureati"),
-  under40: mediaDi("under40"),
-});
+// Media dei Comuni di ogni regione, per il confronto "più alta / più bassa della media regionale".
+const medieRegioni = {};
+for (const reg of REGIONI.keys()) {
+  const tutti = schede.filter((s) => s.codiceRegione === reg && s.numeri).map((s) => s.numeri);
+  const mediaDi = (k) => {
+    const v = tutti.map((x) => x[k]).filter((x) => typeof x === "number");
+    return v.length ? Math.round(v.reduce((a, b) => a + b, 0) / v.length) : undefined;
+  };
+  medieRegioni[reg] = persona({
+    persone: mediaDi("persone") ?? 0,
+    etaMedia: mediaDi("etaMedia"),
+    donne: mediaDi("donne"),
+    laureati: mediaDi("laureati"),
+    under40: mediaDi("under40"),
+  });
+}
 
 // Un file per comune (letto solo quando serve quella pagina) e un elenco leggero per home, ricerca e build.
 const DIR_COMUNI = path.join(OUT, "comuni");
@@ -1089,12 +1193,13 @@ write(
       provincia: s.provincia,
       sigla: s.sigla,
       capoluogo: s.capoluogo || undefined,
+      regione: s.regioneSlug,
       abitanti: s.amministrazione?.popolazione,
       sindaco: s.amministrazione?.sindaco ? true : undefined,
     }),
   ),
 );
-write("statistiche.json", { mediaRegione });
+write("statistiche.json", { medieRegioni });
 // PEC della Regione e del Consiglio regionale (per "Chiedi un documento"), dall'IPA.
 const ipaTutti = csvObjects(await download("ipa-enti.csv", IPA_URL), 0, ",");
 const contattiEnte = (codice) => {
@@ -1107,9 +1212,56 @@ const contattiEnte = (codice) => {
   return persona({ nome: r.Denominazione_ente, pec: pec?.toLowerCase(), sito: `https://${r.Sito_istituzionale.replace(/^https?:\/\//, "")}` });
 };
 write("regione.json", { ...regione, contatti: contattiEnte("r_campan"), contattiConsiglio: contattiEnte("cr_campa") });
+
+// Tutte le regioni, in versione essenziale: presidente, giunta e consiglieri dall'anagrafe del Ministero dell'Interno.
+// (Trentino-Alto Adige e Marche oggi mancano nella fonte: la pagina rimanda al sito del Consiglio regionale.)
+function personaRegionale(r, ruolo) {
+  return persona({
+    nome: titleCase(`${r.nome} ${r.cognome}`),
+    ruolo: declina(ruolo, r.sesso),
+    dettaglio: formatListe(r["lista_appartenenza/collegamento"]),
+    sesso: r.sesso === "F" || r.sesso === "M" ? r.sesso : undefined,
+  });
+}
+const consigliRegionali = JSON.parse(fs.readFileSync(path.join(MANUAL, "consigli-regionali.json"), "utf8")).consigli;
+const regioni = [...REGIONI.values()]
+  .sort((a, b) => a.nome.localeCompare(b.nome, "it"))
+  .map((reg) => {
+    const righe = ammregTutte.filter((r) => r.codice_regione === reg.codice);
+    if (!righe.length) warnGruppo("Regioni assenti nell'anagrafe regionale del Ministero", reg.nome);
+    const pres = righe.find((r) => r.descrizione_carica === "Presidente della regione");
+    const giunta = righe
+      .filter((r) => r.descrizione_carica.startsWith("Assessore"))
+      .map((r) => personaRegionale(r, /Vicepresidente/i.test(r.incarico) ? "Vicepresidente e assessore" : "Assessore"))
+      .sort((a, b) => (a.ruolo.startsWith("Vice") ? -1 : 0) - (b.ruolo.startsWith("Vice") ? -1 : 0) || a.nome.localeCompare(b.nome, "it"));
+    const consiglieri = righe
+      .filter((r) => r.descrizione_carica === "Consigliere" || r.descrizione_carica === "Consigliere candidato presidente")
+      .map((r) =>
+        personaRegionale(
+          r,
+          r.incarico === "Presidente del consiglio" ? "Presidente del consiglio regionale" : r.descrizione_carica === "Consigliere candidato presidente" ? "Consigliere (candidato presidente)" : "Consigliere regionale",
+        ),
+      )
+      .sort((a, b) => (a.ruolo.startsWith("Presidente") ? -1 : 0) - (b.ruolo.startsWith("Presidente") ? -1 : 0) || a.nome.split(" ").pop().localeCompare(b.nome.split(" ").pop(), "it"));
+    return {
+      ...reg,
+      inChiaro: reg.codice === REGIONE.codice,
+      presidente: pres ? personaRegionale(pres, "Presidente della Regione") : null,
+      giunta,
+      consiglieri,
+      contatti: IPA_REGIONE[reg.codice] ? contattiEnte(IPA_REGIONE[reg.codice]) : null,
+      consiglio: consigliRegionali[reg.codice] ?? null,
+    };
+  });
+chiudiAvvisi();
+write("regioni.json", { aggiornato: ammregAggiornato, regioni });
 write("parlamento.json", {
   camera: deputatiPerCollegio,
-  senato: { uninominali: Object.fromEntries(Object.entries(senatoUninominali).map(([k, v]) => [k, strip(v)])), proporzionale: senatoProporzionale.map(strip) },
+  senato: {
+    uninominali: Object.fromEntries(Object.entries(senatoUninominali).map(([k, v]) => [k, strip(v)])),
+    // per regione (il Senato è eletto su base regionale)
+    proporzionale: { [REGIONE.nome.toUpperCase()]: senatoProporzionale.map(strip) },
+  },
 });
 write("europa.json", { circoscrizione: "Italia meridionale", eurodeputati });
 write("meta.json", meta);

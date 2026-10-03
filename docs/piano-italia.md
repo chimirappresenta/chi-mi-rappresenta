@@ -48,7 +48,7 @@ Inoltre il file unico dei dati passerebbe da 3 a circa 50 MB.
 ## Ordine di lavoro proposto
 
 1. ✅ Dati divisi per comune e pagine su richiesta (ancora solo Campania), funzioni a Francoforte: fatto il 2026-10-03, contenuto delle pagine identico.
-2. Pipeline nazionale: comuni, amministratori, contatti, ASL, collegi, deputati, risultati elettorali.
+2. ✅ Pipeline nazionale (2026-10-03): 7.896 comuni, amministratori, contatti (codici sardi via codice catastale), uffici, ASL (Ministero della Salute), frazioni, CAP, collegi, deputati, risultati elettorali; regioni in versione essenziale dall'anagrafe del Ministero (mancano Trentino-Alto Adige e Marche nella fonte).
 3. Senatori e eurodeputati per tutta Italia.
 4. Guida e pagine regionali generalizzate.
 5. Controllo a campione (un capoluogo e un piccolo comune per regione) e pubblicazione.

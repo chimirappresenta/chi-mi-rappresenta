@@ -1,9 +1,144 @@
 {
- "mediaRegione": {
-  "persone": 14,
-  "etaMedia": 49,
-  "donne": 27,
-  "laureati": 46,
-  "under40": 23
+ "medieRegioni": {
+  "10": {
+   "persone": 15,
+   "etaMedia": 50,
+   "donne": 34,
+   "laureati": 37,
+   "under40": 22
+  },
+  "11": {
+   "persone": 14,
+   "etaMedia": 50,
+   "donne": 35,
+   "laureati": 45,
+   "under40": 24
+  },
+  "12": {
+   "persone": 14,
+   "etaMedia": 51,
+   "donne": 31,
+   "laureati": 37,
+   "under40": 20
+  },
+  "13": {
+   "persone": 12,
+   "etaMedia": 50,
+   "donne": 29,
+   "laureati": 37,
+   "under40": 22
+  },
+  "14": {
+   "persone": 12,
+   "etaMedia": 50,
+   "donne": 27,
+   "laureati": 34,
+   "under40": 25
+  },
+  "15": {
+   "persone": 14,
+   "etaMedia": 49,
+   "donne": 27,
+   "laureati": 46,
+   "under40": 23
+  },
+  "16": {
+   "persone": 17,
+   "etaMedia": 50,
+   "donne": 34,
+   "laureati": 52,
+   "under40": 20
+  },
+  "17": {
+   "persone": 13,
+   "etaMedia": 48,
+   "donne": 30,
+   "laureati": 42,
+   "under40": 27
+  },
+  "18": {
+   "persone": 12,
+   "etaMedia": 48,
+   "donne": 29,
+   "laureati": 43,
+   "under40": 27
+  },
+  "19": {
+   "persone": 17,
+   "etaMedia": 48,
+   "donne": 38,
+   "laureati": 43,
+   "under40": 27
+  },
+  "20": {
+   "persone": 13,
+   "etaMedia": 49,
+   "donne": 35,
+   "laureati": 32,
+   "under40": 25
+  },
+  "05": {
+   "persone": 14,
+   "etaMedia": 50,
+   "donne": 37,
+   "laureati": 40,
+   "under40": 24
+  },
+  "03": {
+   "persone": 13,
+   "etaMedia": 51,
+   "donne": 35,
+   "laureati": 36,
+   "under40": 24
+  },
+  "09": {
+   "persone": 16,
+   "etaMedia": 51,
+   "donne": 38,
+   "laureati": 42,
+   "under40": 23
+  },
+  "01": {
+   "persone": 12,
+   "etaMedia": 53,
+   "donne": 33,
+   "laureati": 27,
+   "under40": 20
+  },
+  "08": {
+   "persone": 16,
+   "etaMedia": 50,
+   "donne": 39,
+   "laureati": 42,
+   "under40": 25
+  },
+  "06": {
+   "persone": 15,
+   "etaMedia": 52,
+   "donne": 40,
+   "laureati": 36,
+   "under40": 21
+  },
+  "07": {
+   "persone": 12,
+   "etaMedia": 54,
+   "donne": 31,
+   "laureati": 31,
+   "under40": 18
+  },
+  "04": {
+   "persone": 15,
+   "etaMedia": 47,
+   "donne": 32,
+   "laureati": 29,
+   "under40": 32
+  },
+  "02": {
+   "persone": 12,
+   "etaMedia": 47,
+   "donne": 39,
+   "laureati": 26,
+   "under40": 34
+  }
  }
 }

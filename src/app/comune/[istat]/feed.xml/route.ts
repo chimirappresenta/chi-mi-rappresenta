@@ -1,4 +1,4 @@
-import { citazioniDi, getComune } from "@/lib/data";
+import { citazioniDi, getComune, getRegioneEssenziale } from "@/lib/data";
 import { rss, vociLeggi, vocePerAtto, vocePerLegge } from "@/lib/feed";
 import { SITE_URL } from "@/lib/sito";
 
@@ -13,7 +13,8 @@ export function generateStaticParams() {
 
 export async function GET(_req: Request, { params }: { params: Promise<{ istat: string }> }) {
   const c = getComune((await params).istat);
-  if (!c) return new Response("Comune non trovato", { status: 404 });
+  // il feed segue il Consiglio regionale "in chiaro": per ora solo i comuni campani
+  if (!c || !getRegioneEssenziale(c.codiceRegione)?.inChiaro) return new Response("Feed non disponibile per questo comune", { status: 404 });
   const { atti, leggi } = citazioniDi(c);
   const prefisso = `Parla di ${c.nome} · `;
   return rss({

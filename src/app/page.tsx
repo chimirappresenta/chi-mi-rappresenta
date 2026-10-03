@@ -36,7 +36,7 @@ const FAQ = [
 export default function Home() {
   const capoluoghi = comuni.filter((c) => c.capoluogo);
   const deputati = Object.values(parlamento.camera).flat().length;
-  const senatori = Object.keys(parlamento.senato.uninominali).length + parlamento.senato.proporzionale.length;
+  const senatori = Object.keys(parlamento.senato.uninominali).length + Object.values(parlamento.senato.proporzionale).flat().length;
   const sindaci = comuni.filter((c) => c.sindaco).length;
 
   const livelli: { id: LivelloId; titolo: string; testo: string; numero: string; unita: string }[] = [

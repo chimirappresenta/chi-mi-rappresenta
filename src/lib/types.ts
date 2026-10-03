@@ -53,7 +53,12 @@ export type Comune = {
   provincia: string;
   sigla: string;
   capoluogo: boolean;
-  circoscrizioneRegionale: string;
+  /** Codice ISTAT della regione ("15"), nome ("Campania") e slug per gli indirizzi ("campania"). */
+  codiceRegione: string;
+  regione: string;
+  regioneSlug: string;
+  /** Solo per la regione "in chiaro" (Campania): circoscrizione provinciale delle elezioni regionali. */
+  circoscrizioneRegionale?: string;
   collegi: {
     cameraU: string[];
     cameraP: string[];
@@ -95,7 +100,8 @@ export type Regione = {
 
 export type Parlamento = {
   camera: Record<string, Persona[]>;
-  senato: { uninominali: Record<string, Persona>; proporzionale: Persona[] };
+  /** Chiavi dei collegi uninominali: "CAMPANIA - U03"; proporzionale per regione: "CAMPANIA". */
+  senato: { uninominali: Record<string, Persona>; proporzionale: Record<string, Persona[]> };
 };
 
 export type Europa = { circoscrizione: string; eurodeputati: Persona[] };
@@ -197,6 +203,22 @@ export type ComuneElenco = {
   provincia: string;
   sigla: string;
   capoluogo?: boolean;
+  /** slug della regione */
+  regione?: string;
   abitanti?: number;
   sindaco?: boolean;
+};
+
+/** Regione in versione essenziale (tutte le 20): dati dell'anagrafe regionale del Ministero dell'Interno. */
+export type RegioneEssenziale = {
+  codice: string;
+  nome: string;
+  slug: string;
+  /** true se c'è il Consiglio regionale "in chiaro" (atti, leggi, emiciclo): oggi solo la Campania. */
+  inChiaro: boolean;
+  presidente: Persona | null;
+  giunta: Persona[];
+  consiglieri: Persona[];
+  contatti: ContattiEnte | null;
+  consiglio: { nome: string; sito: string } | null;
 };

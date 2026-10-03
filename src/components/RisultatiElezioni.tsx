@@ -34,11 +34,11 @@ function Barra({ v, max, evidenza }: { v: VotoVoce; max: number; evidenza?: bool
   );
 }
 
-function Affluenza({ e }: { e: Elezione }) {
+function Affluenza({ e, regione }: { e: Elezione; regione: string }) {
   if (e.affluenza === undefined) return null;
   const d = e.affluenzaRegione !== undefined ? e.affluenza - e.affluenzaRegione : undefined;
   const confronto =
-    d === undefined ? null : Math.abs(d) < 1 ? "come la media della Campania" : d > 0 ? "più della media della Campania" : "meno della media della Campania";
+    d === undefined ? null : Math.abs(d) < 1 ? `come la media della regione` : d > 0 ? `più della media della regione` : `meno della media della regione`;
   return (
     <div className="rounded-2xl bg-[var(--lv-bg)] p-4">
       <p className="text-sm font-semibold tracking-wide text-[var(--lv)] uppercase">Quanti sono andati a votare</p>
@@ -64,7 +64,7 @@ function Affluenza({ e }: { e: Elezione }) {
         </div>
         {e.affluenzaRegione !== undefined && (
           <div className="flex items-center gap-2 text-xs text-ink-3">
-            <span className="w-16 shrink-0">Campania</span>
+            <span className="w-16 shrink-0 truncate" title={regione}>{regione}</span>
             <span className="h-2 flex-1 rounded-full bg-surface">
               <span className="block h-full rounded-full bg-ink-3" style={{ width: `${e.affluenzaRegione}%` }} />
             </span>
@@ -75,7 +75,7 @@ function Affluenza({ e }: { e: Elezione }) {
   );
 }
 
-function SchedaElezione({ e, comune }: { e: Elezione; comune: string }) {
+function SchedaElezione({ e, comune, regione }: { e: Elezione; comune: string; regione: string }) {
   const candidati = e.candidati ?? [];
   // alle comunali dei piccoli comuni ogni candidato ha una sola lista: le liste non aggiungono nulla
   const liste = e.liste ?? [];
@@ -92,7 +92,7 @@ function SchedaElezione({ e, comune }: { e: Elezione; comune: string }) {
         </h3>
         <p className="mt-1 text-base text-ink-2">{COSA[e.id]}</p>
       </header>
-      <Affluenza e={e} />
+      <Affluenza e={e} regione={regione} />
       {candidati.length > 0 && (
         <div>
           <h4 className="text-sm font-semibold tracking-wider text-ink-3 uppercase">
@@ -125,7 +125,7 @@ function SchedaElezione({ e, comune }: { e: Elezione; comune: string }) {
 }
 
 /** "Come si è votato": ultime elezioni nel comune, dalla più vicina (comunali) alla più lontana (europee). */
-export function RisultatiElezioni({ elezioni, comune }: { elezioni: Elezione[]; comune: string }) {
+export function RisultatiElezioni({ elezioni, comune, regione }: { elezioni: Elezione[]; comune: string; regione: string }) {
   const ordinate = [...elezioni].sort((a, b) => ORDINE.indexOf(a.id) - ORDINE.indexOf(b.id));
   // il ballottaggio ha sempre meno votanti: non lo confrontiamo con le altre elezioni
   const conAffluenza = ordinate.filter((e) => e.affluenza !== undefined && e.turno !== 2);
@@ -151,7 +151,7 @@ export function RisultatiElezioni({ elezioni, comune }: { elezioni: Elezione[]; 
       )}
       <div className="grid items-start gap-5 xl:grid-cols-2">
         {ordinate.map((e) => (
-          <SchedaElezione key={e.id} e={e} comune={comune} />
+          <SchedaElezione key={e.id} e={e} comune={comune} regione={regione} />
         ))}
       </div>
     </div>

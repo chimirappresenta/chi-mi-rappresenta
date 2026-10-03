@@ -8,7 +8,8 @@ import { stileLivello } from "./ui";
 export type ContestoComune = {
   comune: Comune;
   sindaco?: Persona | null;
-  consiglieriProvincia: number;
+  /** Consiglieri regionali da proporre: quanti e "dove" (es. "eletti in provincia di Napoli"). */
+  consiglieriRegionali: { numero: number; dove: string };
   deputati: Persona[];
   senatori: Persona[];
 };
@@ -46,7 +47,7 @@ function ChiScrivere({ dest, ctx }: { dest: Destinatari; ctx?: ContestoComune })
   if (dest === "consiglieri-regionali")
     return (
       <p className="text-ink-2">
-        Se non risolvi: scrivi a uno dei <strong>{ctx.consiglieriProvincia} consiglieri regionali</strong> eletti in provincia di {comune.provincia}.{" "}
+        Se non risolvi: scrivi a uno dei <strong>{ctx.consiglieriRegionali.numero} consiglieri regionali</strong> {ctx.consiglieriRegionali.dove}.{" "}
         <a href="#regione" className="font-semibold text-accent underline">
           Scegli a chi scrivere →
         </a>

@@ -1,5 +1,107 @@
 {
  "camera": {
+  "VENETO 2 - P03": [
+   {
+    "nome": "Maddalena Morgante",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308863",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308863",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308863_19"
+   },
+   {
+    "nome": "Marco Padovani",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308864",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308864",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308864_19"
+   },
+   {
+    "nome": "Maria Paola Boscaini",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Forza Italia",
+    "url": "https://www.camera.it/deputati/elenco/19-309161",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=309161",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d309161_19"
+   }
+  ],
+  "VENETO 2 - P01": [
+   {
+    "nome": "Arianna Lazzarini",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Lega per Salvini Premier",
+    "url": "https://www.camera.it/deputati/elenco/19-307570",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307570",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307570_19"
+   },
+   {
+    "nome": "Enrico Cappelletti",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-306352",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=306352",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d306352_19"
+   },
+   {
+    "nome": "Gianmarco Mazzi",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308860",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308860",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308860_19"
+   },
+   {
+    "nome": "Nadia Romeo",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-309160",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=309160",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d309160_19"
+   }
+  ],
+  "LAZIO 1 - P01": [
+   {
+    "nome": "Andrea Casu",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-308600",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308600",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308600_19"
+   },
+   {
+    "nome": "Federico Mollicone",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-307424",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307424",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307424_19"
+   },
+   {
+    "nome": "Filiberto Zaratti",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Alleanza Verdi e Sinistra",
+    "url": "https://www.camera.it/deputati/elenco/19-306521",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=306521",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d306521_19"
+   },
+   {
+    "nome": "Patrizia Prestipino",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-307430",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307430",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307430_19"
+   },
+   {
+    "nome": "Roberto Giachetti",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Azione - Italia Viva - Calenda",
+    "url": "https://www.camera.it/deputati/elenco/19-300480",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=300480",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d300480_19"
+   }
+  ],
   "CAMPANIA 2 - P02": [
    {
     "nome": "Antonio D'Alessio",
@@ -48,6 +150,422 @@
     "url": "https://www.camera.it/deputati/elenco/19-308876",
     "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308876",
     "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308876_19"
+   }
+  ],
+  "CALABRIA - P01": [
+   {
+    "nome": "Alfredo Antoniozzi",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308909",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308909",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308909_19"
+   },
+   {
+    "nome": "Anna Laura Orrico",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-307564",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307564",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307564_19"
+   },
+   {
+    "nome": "Eugenia Maria Roccella",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-302748",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=302748",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d302748_19"
+   },
+   {
+    "nome": "Giuseppe Tommaso Vincenzo Mangialavori",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Forza Italia",
+    "url": "https://www.camera.it/deputati/elenco/19-307837",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307837",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307837_19"
+   },
+   {
+    "nome": "Nicola Stumpo",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-306139",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=306139",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d306139_19"
+   },
+   {
+    "nome": "Riccardo Tucci",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-307726",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307726",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307726_19"
+   },
+   {
+    "nome": "Simona Loizzo",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Lega per Salvini Premier",
+    "url": "https://www.camera.it/deputati/elenco/19-308911",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308911",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308911_19"
+   },
+   {
+    "nome": "Vittoria Baldino",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-307435",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307435",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307435_19"
+   }
+  ],
+  "FRIULI-VENEZIA GIULIA - P01": [
+   {
+    "nome": "Debora Serracchiani",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-307374",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307374",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307374_19"
+   },
+   {
+    "nome": "Emanuele Loperfido",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308940",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308940",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308940_19"
+   },
+   {
+    "nome": "Graziano Pizzimenti",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Lega per Salvini Premier",
+    "url": "https://www.camera.it/deputati/elenco/19-308942",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308942",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308942_19"
+   },
+   {
+    "nome": "Isabella De Monte",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Azione - Italia Viva - Calenda",
+    "url": "https://www.camera.it/deputati/elenco/19-306379",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=306379",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d306379_19"
+   },
+   {
+    "nome": "Nicole Matteoni",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308941",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308941",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308941_19"
+   }
+  ],
+  "LOMBARDIA 4 - P01": [
+   {
+    "nome": "Andrea Giorgio Felice Maria Orsini",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Forza Italia",
+    "url": "https://www.camera.it/deputati/elenco/19-300299",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=300299",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d300299_19"
+   },
+   {
+    "nome": "Antonella Forattini",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-308916",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308916",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308916_19"
+   },
+   {
+    "nome": "Carlo Maccari",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308914",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308914",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308914_19"
+   },
+   {
+    "nome": "Lorenzo Guerini",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-305624",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=305624",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d305624_19"
+   },
+   {
+    "nome": "Luca Toccalini",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Lega per Salvini Premier",
+    "url": "https://www.camera.it/deputati/elenco/19-307983",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307983",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307983_19"
+   },
+   {
+    "nome": "Mauro Del Barba",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Azione - Italia Viva - Calenda",
+    "url": "https://www.camera.it/deputati/elenco/19-306382",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=306382",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d306382_19"
+   },
+   {
+    "nome": "Paola Maria Chiesa",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308915",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308915",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308915_19"
+   },
+   {
+    "nome": "Valentina Barzotti",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-308001",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308001",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308001_19"
+   }
+  ],
+  "SICILIA 2 - P02": [
+   {
+    "nome": "Anastasio Carrà",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Lega per Salvini Premier",
+    "url": "https://www.camera.it/deputati/elenco/19-308900",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308900",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308900_19"
+   },
+   {
+    "nome": "Giuseppe Castiglione",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Azione - Italia Viva - Calenda",
+    "url": "https://www.camera.it/deputati/elenco/19-306158",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=306158",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d306158_19"
+   },
+   {
+    "nome": "Luciano Cantone",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-307416",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307416",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307416_19"
+   },
+   {
+    "nome": "Manlio Messina",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308897",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308897",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308897_19"
+   },
+   {
+    "nome": "Paolo Emilio Russo",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Forza Italia",
+    "url": "https://www.camera.it/deputati/elenco/19-308899",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308899",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308899_19"
+   }
+  ],
+  "EMILIA-ROMAGNA - P03": [
+   {
+    "nome": "Andrea Gnassi",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-308932",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308932",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308932_19"
+   },
+   {
+    "nome": "Davide Bergamini",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Lega per Salvini Premier",
+    "url": "https://www.camera.it/deputati/elenco/19-308928",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308928",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308928_19"
+   },
+   {
+    "nome": "Federico Cafiero De Raho",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-308933",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308933",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308933_19"
+   },
+   {
+    "nome": "Ouidad Bakkali",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-308931",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308931",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308931_19"
+   },
+   {
+    "nome": "Rosaria Tassinari",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Forza Italia",
+    "url": "https://www.camera.it/deputati/elenco/19-308925",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308925",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308925_19"
+   }
+  ],
+  "LOMBARDIA 1 - P01": [
+   {
+    "nome": "Eleonora Evi",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Alleanza Verdi e Sinistra",
+    "url": "https://www.camera.it/deputati/elenco/19-308893",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308893",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308893_19"
+   },
+   {
+    "nome": "Giovanni Cuperlo",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-302422",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=302422",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d302422_19"
+   },
+   {
+    "nome": "Giulia Pastorella",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Azione - Italia Viva - Calenda",
+    "url": "https://www.camera.it/deputati/elenco/19-308895",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308895",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308895_19"
+   },
+   {
+    "nome": "Igor Giancarlo Iezzi",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Lega per Salvini Premier",
+    "url": "https://www.camera.it/deputati/elenco/19-307641",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307641",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307641_19"
+   },
+   {
+    "nome": "Lia Quartapelle Procopio",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-306189",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=306189",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d306189_19"
+   },
+   {
+    "nome": "Lorenzo Malagola",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308886",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308886",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308886_19"
+   },
+   {
+    "nome": "Stefano Giovanni Maullu",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308885",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308885",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308885_19"
+   }
+  ],
+  "LOMBARDIA 3 - P02": [
+   {
+    "nome": "Cristina Almici",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308910",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308910",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308910_19"
+   },
+   {
+    "nome": "Fabrizio Benzoni",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Azione - Italia Viva - Calenda",
+    "url": "https://www.camera.it/deputati/elenco/19-308913",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308913",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308913_19"
+   },
+   {
+    "nome": "Gian Antonio Girelli",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-308912",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308912",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308912_19"
+   },
+   {
+    "nome": "Luca Sbardella",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308908",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308908",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308908_19"
+   },
+   {
+    "nome": "Luca Squeri",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Forza Italia",
+    "url": "https://www.camera.it/deputati/elenco/19-306214",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=306214",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d306214_19"
+   },
+   {
+    "nome": "Paolo Formentini",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Lega per Salvini Premier",
+    "url": "https://www.camera.it/deputati/elenco/19-307602",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307602",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307602_19"
+   }
+  ],
+  "LAZIO 2 - P02": [
+   {
+    "nome": "Francesco Lollobrigida",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-307463",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307463",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307463_19"
+   },
+   {
+    "nome": "Giovanna Miele",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Lega per Salvini Premier",
+    "url": "https://www.camera.it/deputati/elenco/19-308921",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308921",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308921_19"
+   },
+   {
+    "nome": "Ilaria Fontana",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-307459",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307459",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307459_19"
+   },
+   {
+    "nome": "Matteo Orfini",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-305815",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=305815",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d305815_19"
+   },
+   {
+    "nome": "Paolo Pulciani",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308923",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308923",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308923_19"
+   },
+   {
+    "nome": "Patrizia Marrocco",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Forza Italia",
+    "url": "https://www.camera.it/deputati/elenco/19-307466",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307466",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307466_19"
    }
   ],
   "CAMPANIA 1 - P02": [
@@ -100,6 +618,366 @@
     "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308851_19"
    }
   ],
+  "TOSCANA - P02": [
+   {
+    "nome": "Francesco Michelotti",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308887",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308887",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308887_19"
+   },
+   {
+    "nome": "Laura Boldrini",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-305757",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=305757",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d305757_19"
+   },
+   {
+    "nome": "Marco Simiani",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-308894",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308894",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308894_19"
+   },
+   {
+    "nome": "Riccardo Ricciardi",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-307250",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307250",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307250_19"
+   }
+  ],
+  "VENETO 2 - P02": [
+   {
+    "nome": "Alessandro Urzì",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308862",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308862",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308862_19"
+   },
+   {
+    "nome": "Elena Bonetti",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Azione - Italia Viva - Calenda",
+    "url": "https://www.camera.it/deputati/elenco/19-308244",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308244",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308244_19"
+   },
+   {
+    "nome": "Erik Umberto Pretto",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Lega per Salvini Premier",
+    "url": "https://www.camera.it/deputati/elenco/19-307585",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307585",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307585_19"
+   },
+   {
+    "nome": "Luana Zanella",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Alleanza Verdi e Sinistra",
+    "url": "https://www.camera.it/deputati/elenco/19-300469",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=300469",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d300469_19"
+   },
+   {
+    "nome": "Rosanna Filippin",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-306395",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=306395",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d306395_19"
+   }
+  ],
+  "ABRUZZO - P01": [
+   {
+    "nome": "Daniela Torto",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-307234",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307234",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307234_19"
+   },
+   {
+    "nome": "Fabio Roscani",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308867",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308867",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308867_19"
+   },
+   {
+    "nome": "Giulio Cesare Sottanelli",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Azione - Italia Viva - Calenda",
+    "url": "https://www.camera.it/deputati/elenco/19-306064",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=306064",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d306064_19"
+   },
+   {
+    "nome": "Luciano D'Alfonso",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-307782",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307782",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307782_19"
+   },
+   {
+    "nome": "Nazario Pagano",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Forza Italia",
+    "url": "https://www.camera.it/deputati/elenco/19-307857",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307857",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307857_19"
+   },
+   {
+    "nome": "Rachele Silvestri",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-307175",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307175",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307175_19"
+   }
+  ],
+  "EMILIA-ROMAGNA - P02": [
+   {
+    "nome": "Aboubakar Soumahoro",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Alleanza Verdi e Sinistra",
+    "url": "https://www.camera.it/deputati/elenco/19-308929",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308929",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308929_19"
+   },
+   {
+    "nome": "Beatriz Colombo",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308926",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308926",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308926_19"
+   },
+   {
+    "nome": "Elena Ethel Schlein",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-308930",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308930",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308930_19"
+   },
+   {
+    "nome": "Galeazzo Bignami",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-307298",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307298",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307298_19"
+   },
+   {
+    "nome": "Gianluca Vinci",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-307334",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307334",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307334_19"
+   },
+   {
+    "nome": "Naike Gruppioni",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Azione - Italia Viva - Calenda",
+    "url": "https://www.camera.it/deputati/elenco/19-308924",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308924",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308924_19"
+   },
+   {
+    "nome": "Stefania Ascari",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-307302",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307302",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307302_19"
+   },
+   {
+    "nome": "Stefano Vaccari",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-306497",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=306497",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d306497_19"
+   }
+  ],
+  "PIEMONTE 1 - P01": [
+   {
+    "nome": "Antonino Iaria",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-308809",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308809",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308809_19"
+   },
+   {
+    "nome": "Daniela Ruffino",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Azione - Italia Viva - Calenda",
+    "url": "https://www.camera.it/deputati/elenco/19-307478",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307478",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307478_19"
+   },
+   {
+    "nome": "Marco Grimaldi",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Alleanza Verdi e Sinistra",
+    "url": "https://www.camera.it/deputati/elenco/19-308810",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308810",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308810_19"
+   },
+   {
+    "nome": "Marco Perissa",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308812",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308812",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308812_19"
+   },
+   {
+    "nome": "Maria Cecilia Guerra",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-306412",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=306412",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d306412_19"
+   },
+   {
+    "nome": "Mauro Antonio Donato Laus",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-307826",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307826",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307826_19"
+   }
+  ],
+  "LAZIO 1 - P03": [
+   {
+    "nome": "Angelo Rossi",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308848",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308848",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308848_19"
+   },
+   {
+    "nome": "Claudio Mancini",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-307481",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307481",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307481_19"
+   },
+   {
+    "nome": "Francesco Silvestri",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-307447",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307447",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307447_19"
+   },
+   {
+    "nome": "Maria Elena Boschi",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Azione - Italia Viva - Calenda",
+    "url": "https://www.camera.it/deputati/elenco/19-306160",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=306160",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d306160_19"
+   }
+  ],
+  "PUGLIA - P04": [
+   {
+    "nome": "Andrea Caroppo",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Forza Italia",
+    "url": "https://www.camera.it/deputati/elenco/19-308807",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308807",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308807_19"
+   },
+   {
+    "nome": "Antonio Maria Gabellone",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-309200",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=309200",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d309200_19"
+   },
+   {
+    "nome": "Claudio Michele Stefanazzi",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-308817",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308817",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308817_19"
+   },
+   {
+    "nome": "Elisabetta Piccolotti",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Alleanza Verdi e Sinistra",
+    "url": "https://www.camera.it/deputati/elenco/19-308816",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308816",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308816_19"
+   },
+   {
+    "nome": "Leonardo Donno",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-307348",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307348",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307348_19"
+   },
+   {
+    "nome": "Maria Rosaria Carfagna",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Azione - Italia Viva - Calenda",
+    "url": "https://www.camera.it/deputati/elenco/19-301531",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=301531",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d301531_19"
+   },
+   {
+    "nome": "Salvatore Marcello Di Mattina",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Lega per Salvini Premier",
+    "url": "https://www.camera.it/deputati/elenco/19-308808",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308808",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308808_19"
+   }
+  ],
+  "PUGLIA - P02": [
+   {
+    "nome": "Gianmauro Dell'Olio",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-307790",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307790",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307790_19"
+   },
+   {
+    "nome": "Marcello Gemmato",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-307332",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307332",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307332_19"
+   },
+   {
+    "nome": "Marco Lacarra",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-307308",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307308",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307308_19"
+   }
+  ],
   "CAMPANIA 2 - P01": [
    {
     "nome": "Agostino Santillo",
@@ -140,6 +1018,922 @@
     "url": "https://www.camera.it/deputati/elenco/19-302818",
     "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=302818",
     "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d302818_19"
+   }
+  ],
+  "SICILIA 1 - P01": [
+   {
+    "nome": "Daniela Morfino",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-308818",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308818",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308818_19"
+   },
+   {
+    "nome": "Gianluca Caramanna",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308819",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308819",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308819_19"
+   },
+   {
+    "nome": "Giorgio Mulè",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Forza Italia",
+    "url": "https://www.camera.it/deputati/elenco/19-307130",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307130",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307130_19"
+   },
+   {
+    "nome": "Giuseppe Luciano Calogero Provenzano",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-308243",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308243",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308243_19"
+   },
+   {
+    "nome": "Valentina D'Orso",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-307388",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307388",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307388_19"
+   }
+  ],
+  "EMILIA-ROMAGNA - P01": [
+   {
+    "nome": "Andrea Rossi",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-307306",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307306",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307306_19"
+   },
+   {
+    "nome": "Gaetana Russo",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308927",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308927",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308927_19"
+   },
+   {
+    "nome": "Matteo Richetti",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Azione - Italia Viva - Calenda",
+    "url": "https://www.camera.it/deputati/elenco/19-305708",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=305708",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d305708_19"
+   },
+   {
+    "nome": "Paola De Micheli",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-302856",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=302856",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d302856_19"
+   },
+   {
+    "nome": "Ylenja Lucaselli",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-307340",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307340",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307340_19"
+   }
+  ],
+  "BASILICATA - P01": [
+   {
+    "nome": "Aldo Mattia",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308939",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308939",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308939_19"
+   },
+   {
+    "nome": "Arnaldo Lomuti",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-307829",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307829",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307829_19"
+   },
+   {
+    "nome": "Vincenzo Amendola",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-305931",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=305931",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d305931_19"
+   }
+  ],
+  "UMBRIA - P01": [
+   {
+    "nome": "Anna Ascani",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-305704",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=305704",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d305704_19"
+   },
+   {
+    "nome": "Catia Polidori",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Forza Italia",
+    "url": "https://www.camera.it/deputati/elenco/19-302968",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=302968",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d302968_19"
+   },
+   {
+    "nome": "Emanuele Prisco",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-307452",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307452",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307452_19"
+   },
+   {
+    "nome": "Emma Pavanelli",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-308221",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308221",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308221_19"
+   }
+  ],
+  "LOMBARDIA 2 - P02": [
+   {
+    "nome": "Chiara Braga",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-302754",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=302754",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d302754_19"
+   },
+   {
+    "nome": "Devis Dori",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Alleanza Verdi e Sinistra",
+    "url": "https://www.camera.it/deputati/elenco/19-307634",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307634",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307634_19"
+   },
+   {
+    "nome": "Eugenio Zoffili",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Lega per Salvini Premier",
+    "url": "https://www.camera.it/deputati/elenco/19-307616",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307616",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307616_19"
+   },
+   {
+    "nome": "Maria Chiara Gadda",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Azione - Italia Viva - Calenda",
+    "url": "https://www.camera.it/deputati/elenco/19-305553",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=305553",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d305553_19"
+   },
+   {
+    "nome": "Novo Umberto Maerna",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308905",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308905",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308905_19"
+   },
+   {
+    "nome": "Sara Kelany",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308904",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308904",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308904_19"
+   },
+   {
+    "nome": "Stefano Benigni",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Forza Italia",
+    "url": "https://www.camera.it/deputati/elenco/19-307604",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307604",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307604_19"
+   }
+  ],
+  "SICILIA 1 - P02": [
+   {
+    "nome": "Antonio Giordano",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308823",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308823",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308823_19"
+   },
+   {
+    "nome": "Davide Faraone",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Azione - Italia Viva - Calenda",
+    "url": "https://www.camera.it/deputati/elenco/19-306005",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=306005",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d306005_19"
+   },
+   {
+    "nome": "Giovanna Iacono",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-308821",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308821",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308821_19"
+   },
+   {
+    "nome": "Ida Carmina",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-308820",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308820",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308820_19"
+   }
+  ],
+  "LIGURIA - P01": [
+   {
+    "nome": "Alberto Pandolfo",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-309220",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=309220",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d309220_19"
+   },
+   {
+    "nome": "Francesco Bruzzone",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Lega per Salvini Premier",
+    "url": "https://www.camera.it/deputati/elenco/19-307762",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307762",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307762_19"
+   },
+   {
+    "nome": "Maria Grazia Frijia",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308870",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308870",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308870_19"
+   },
+   {
+    "nome": "Matteo Rosso",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308868",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308868",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308868_19"
+   },
+   {
+    "nome": "Roberto Traversi",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-307132",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307132",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307132_19"
+   },
+   {
+    "nome": "Valentina Ghio",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-308871",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308871",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308871_19"
+   }
+  ],
+  "LOMBARDIA 1 - P02": [
+   {
+    "nome": "Enrico Costa",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Azione - Italia Viva - Calenda",
+    "url": "https://www.camera.it/deputati/elenco/19-301541",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=301541",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d301541_19"
+   },
+   {
+    "nome": "Fabio Pietrella",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308889",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308889",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308889_19"
+   },
+   {
+    "nome": "Fabrizio Cecchetti",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Lega per Salvini Premier",
+    "url": "https://www.camera.it/deputati/elenco/19-307680",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307680",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307680_19"
+   },
+   {
+    "nome": "Fabrizio Sala",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Forza Italia",
+    "url": "https://www.camera.it/deputati/elenco/19-308882",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308882",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308882_19"
+   },
+   {
+    "nome": "Giulio Carlo Danilo Tremonti",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-39130",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=39130",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d39130_19"
+   },
+   {
+    "nome": "Giuseppe Conte",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-307926",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307926",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307926_19"
+   },
+   {
+    "nome": "Grazia Di Maggio",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308888",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308888",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308888_19"
+   },
+   {
+    "nome": "Matteo Mauri",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-306176",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=306176",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d306176_19"
+   },
+   {
+    "nome": "Silvia Roggiani",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-308891",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308891",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308891_19"
+   }
+  ],
+  "PIEMONTE 1 - P02": [
+   {
+    "nome": "Alessandro Manuel Benvenuto",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Lega per Salvini Premier",
+    "url": "https://www.camera.it/deputati/elenco/19-307471",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307471",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307471_19"
+   },
+   {
+    "nome": "Gilberto Pichetto Fratin",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Forza Italia",
+    "url": "https://www.camera.it/deputati/elenco/19-303089",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=303089",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d303089_19"
+   },
+   {
+    "nome": "Immacolata Zurzolo",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308813",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308813",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308813_19"
+   },
+   {
+    "nome": "Mauro Berruto",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-308815",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308815",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308815_19"
+   }
+  ],
+  "PUGLIA - P03": [
+   {
+    "nome": "Francesca Viggiano",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-309280",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=309280",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d309280_19"
+   },
+   {
+    "nome": "Luigi Giovanni Maiorano",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308814",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308814",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308814_19"
+   },
+   {
+    "nome": "Pasqua L'Abbate",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-307822",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307822",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307822_19"
+   },
+   {
+    "nome": "Vito De Palma",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Forza Italia",
+    "url": "https://www.camera.it/deputati/elenco/19-308806",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308806",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308806_19"
+   }
+  ],
+  "TOSCANA - P03": [
+   {
+    "nome": "Andrea Quartini",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-308896",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308896",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308896_19"
+   },
+   {
+    "nome": "Arturo Scotto",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-302069",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=302069",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d302069_19"
+   },
+   {
+    "nome": "Francesco Bonifazi",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Azione - Italia Viva - Calenda",
+    "url": "https://www.camera.it/deputati/elenco/19-306003",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=306003",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d306003_19"
+   },
+   {
+    "nome": "Giovanni Donzelli",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-307246",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307246",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307246_19"
+   },
+   {
+    "nome": "Nicola Fratoianni",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Alleanza Verdi e Sinistra",
+    "url": "https://www.camera.it/deputati/elenco/19-305880",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=305880",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d305880_19"
+   },
+   {
+    "nome": "Simona Bonafè",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-305549",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=305549",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d305549_19"
+   }
+  ],
+  "VENETO 1 - P01": [
+   {
+    "nome": "Francesco Filini",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308799",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308799",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308799_19"
+   },
+   {
+    "nome": "Gianangelo Bof",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Lega per Salvini Premier",
+    "url": "https://www.camera.it/deputati/elenco/19-308801",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308801",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308801_19"
+   },
+   {
+    "nome": "Marina Marchetto",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308800",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308800",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308800_19"
+   },
+   {
+    "nome": "Piergiorgio Cortelazzo",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Forza Italia",
+    "url": "https://www.camera.it/deputati/elenco/19-307580",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307580",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307580_19"
+   },
+   {
+    "nome": "Piero Franco Fassino",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-36500",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=36500",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d36500_19"
+   },
+   {
+    "nome": "Rachele Scarpa",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-308803",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308803",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308803_19"
+   },
+   {
+    "nome": "Valentina Grippo",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Azione - Italia Viva - Calenda",
+    "url": "https://www.camera.it/deputati/elenco/19-308802",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308802",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308802_19"
+   }
+  ],
+  "PIEMONTE 2 - P02": [
+   {
+    "nome": "Andrea Giaccone",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Lega per Salvini Premier",
+    "url": "https://www.camera.it/deputati/elenco/19-307508",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307508",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307508_19"
+   },
+   {
+    "nome": "Chiara Appendino",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-308824",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308824",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308824_19"
+   },
+   {
+    "nome": "Chiara Gribaudo",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-306008",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=306008",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d306008_19"
+   },
+   {
+    "nome": "Fabrizio Comba",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308826",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308826",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308826_19"
+   },
+   {
+    "nome": "Luigi Marattin",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Azione - Italia Viva - Calenda",
+    "url": "https://www.camera.it/deputati/elenco/19-307328",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307328",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307328_19"
+   },
+   {
+    "nome": "Matilde Siracusano",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Forza Italia",
+    "url": "https://www.camera.it/deputati/elenco/19-307402",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307402",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307402_19"
+   },
+   {
+    "nome": "Vincenzo Amich",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308825",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308825",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308825_19"
+   }
+  ],
+  "LOMBARDIA 3 - P01": [
+   {
+    "nome": "Andrea Tremaglia",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308907",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308907",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308907_19"
+   },
+   {
+    "nome": "Giulio Centemero",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Lega per Salvini Premier",
+    "url": "https://www.camera.it/deputati/elenco/19-307632",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307632",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307632_19"
+   },
+   {
+    "nome": "Vinicio Giuseppe Guido Peluffo",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-302746",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=302746",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d302746_19"
+   }
+  ],
+  "MARCHE - P01": [
+   {
+    "nome": "Antonio Baldelli",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308805",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308805",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308805_19"
+   },
+   {
+    "nome": "Augusto Curti",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-308804",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308804",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308804_19"
+   },
+   {
+    "nome": "Giorgio Fede",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-307803",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307803",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307803_19"
+   },
+   {
+    "nome": "Irene Manzi",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-305771",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=305771",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d305771_19"
+   },
+   {
+    "nome": "Lucia Albano",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308421",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308421",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308421_19"
+   },
+   {
+    "nome": "Riccardo Augusto Marchetti",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Lega per Salvini Premier",
+    "url": "https://www.camera.it/deputati/elenco/19-307453",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307453",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307453_19"
+   }
+  ],
+  "TRENTINO-ALTO ADIGE - P01": [
+   {
+    "nome": "Alessia Ambrosi",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308832",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308832",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308832_19"
+   },
+   {
+    "nome": "Dieter Steger",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Südtiroler Volkspartei (Svp) - Patt",
+    "url": "https://www.camera.it/deputati/elenco/19-307902",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307902",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307902_19"
+   },
+   {
+    "nome": "Sara Ferrari",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-308834",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308834",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308834_19"
+   }
+  ],
+  "LAZIO 1 - P02": [
+   {
+    "nome": "Alfonso Colucci",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-308841",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308841",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308841_19"
+   },
+   {
+    "nome": "Andrea Volpi",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308847",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308847",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308847_19"
+   },
+   {
+    "nome": "Antonio Angelucci",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Lega per Salvini Premier",
+    "url": "https://www.camera.it/deputati/elenco/19-302942",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=302942",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d302942_19"
+   },
+   {
+    "nome": "Maria Teresa Bellucci",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-307426",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307426",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307426_19"
+   },
+   {
+    "nome": "Michela Di Biase",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-308843",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308843",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308843_19"
+   },
+   {
+    "nome": "Paolo Barelli",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Forza Italia",
+    "url": "https://www.camera.it/deputati/elenco/19-300497",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=300497",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d300497_19"
+   }
+  ],
+  "TOSCANA - P01": [
+   {
+    "nome": "Alessandro Amorese",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308884",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308884",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308884_19"
+   },
+   {
+    "nome": "Andrea Barabotti",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Lega per Salvini Premier",
+    "url": "https://www.camera.it/deputati/elenco/19-308890",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308890",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308890_19"
+   },
+   {
+    "nome": "Deborah Bergamini",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Forza Italia",
+    "url": "https://www.camera.it/deputati/elenco/19-302867",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=302867",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d302867_19"
+   },
+   {
+    "nome": "Irene Gori",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-309260",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=309260",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d309260_19"
+   },
+   {
+    "nome": "Marco Furfaro",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-308892",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308892",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308892_19"
+   }
+  ],
+  "SICILIA 2 - P01": [
+   {
+    "nome": "Angela Raffa",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-307406",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307406",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307406_19"
+   },
+   {
+    "nome": "Maria Stefania Marino",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-308901",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308901",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308901_19"
+   },
+   {
+    "nome": "Maurizio Leo",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-300444",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=300444",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d300444_19"
+   }
+  ],
+  "SICILIA 2 - P03": [
+   {
+    "nome": "Anthony Emanuele Barbagallo",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-308902",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308902",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308902_19"
+   },
+   {
+    "nome": "Eliana Longi",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308898",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308898",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308898_19"
+   },
+   {
+    "nome": "Filippo Scerra",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-307418",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307418",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307418_19"
+   }
+  ],
+  "SARDEGNA - P01": [
+   {
+    "nome": "Bachisio Silvio Lai",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-306417",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=306417",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d306417_19"
+   },
+   {
+    "nome": "Francesca Ghirra",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Alleanza Verdi e Sinistra",
+    "url": "https://www.camera.it/deputati/elenco/19-308861",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308861",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308861_19"
+   },
+   {
+    "nome": "Francesco Mura",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308859",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308859",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308859_19"
+   },
+   {
+    "nome": "Mario Perantoni",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-307109",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307109",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307109_19"
+   },
+   {
+    "nome": "Pietro Pittalis",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Forza Italia",
+    "url": "https://www.camera.it/deputati/elenco/19-307223",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307223",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307223_19"
+   },
+   {
+    "nome": "Salvatore Deidda",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-307219",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307219",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307219_19"
+   },
+   {
+    "nome": "Susanna Cherchi",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-308858",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308858",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308858_19"
+   }
+  ],
+  "PIEMONTE 2 - P01": [
+   {
+    "nome": "Emanuele Pozzolo",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308822",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308822",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308822_19"
+   },
+   {
+    "nome": "Federico Fornaro",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-306398",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=306398",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d306398_19"
    }
   ],
   "CAMPANIA 1 - P01": [
@@ -184,6 +1978,239 @@
     "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d305974_19"
    }
   ],
+  "LOMBARDIA 2 - P01": [
+   {
+    "nome": "Andrea Mascaretti",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308903",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308903",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308903_19"
+   },
+   {
+    "nome": "Antonio Ferrara",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-309140",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=309140",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d309140_19"
+   },
+   {
+    "nome": "Manuela Maffioli",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Lega per Salvini Premier",
+    "url": "https://www.camera.it/deputati/elenco/19-309300",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=309300",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d309300_19"
+   }
+  ],
+  "MOLISE - P01": [
+   {
+    "nome": "Elisabetta Christiana Lancellotta",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308920",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308920",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308920_19"
+   }
+  ],
+  "LAZIO 2 - P01": [
+   {
+    "nome": "Maria Anna Madia",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-302789",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=302789",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d302789_19"
+   },
+   {
+    "nome": "Massimo Milani",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308922",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308922",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308922_19"
+   }
+  ],
+  "PUGLIA - P01": [
+   {
+    "nome": "Carla Giuliano",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-307370",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307370",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307370_19"
+   },
+   {
+    "nome": "Giandonato La Salandra",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308811",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308811",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308811_19"
+   },
+   {
+    "nome": "Giorgio Lovecchio",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-307356",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307356",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307356_19"
+   }
+  ],
+  "SICILIA 1 - U02": [
+   {
+    "nome": "Maria Carolina Varchi",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307400",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307400",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307400_19"
+   }
+  ],
+  "SICILIA 1 - U04": [
+   {
+    "nome": "Michela Vittoria Brambilla",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-302838",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=302838",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d302838_19"
+   }
+  ],
+  "LIGURIA - U03": [
+   {
+    "nome": "Luca Pastorino",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-305733",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=305733",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d305733_19"
+   }
+  ],
+  "LAZIO 1 - U08": [
+   {
+    "nome": "Antonio Tajani",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308838",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308838",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308838_19"
+   }
+  ],
+  "PUGLIA - U09": [
+   {
+    "nome": "Saverio Congedo",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308833",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308833",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308833_19"
+   }
+  ],
+  "VENETO 1 - U03": [
+   {
+    "nome": "Carlo Nordio",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308798",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308798",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308798_19"
+   }
+  ],
+  "PUGLIA - U06": [
+   {
+    "nome": "Rossano Sasso",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307360",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307360",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307360_19"
+   }
+  ],
+  "EMILIA-ROMAGNA - U02": [
+   {
+    "nome": "Laura Cavandoli",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307285",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307285",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307285_19"
+   }
+  ],
+  "SICILIA 1 - U05": [
+   {
+    "nome": "Calogero Pisano",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308761",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308761",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308761_19"
+   }
+  ],
+  "TOSCANA - U07": [
+   {
+    "nome": "Federico Gianassi",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308880",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308880",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308880_19"
+   }
+  ],
+  "VENETO 2 - U06": [
+   {
+    "nome": "Lorenzo Fontana",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307591",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307591",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307591_19"
+   }
+  ],
+  "SARDEGNA - U03": [
+   {
+    "nome": "Barbara Polo",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308769",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308769",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308769_19"
+   }
+  ],
+  "PIEMONTE 1 - U05": [
+   {
+    "nome": "Roberto Pella",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307496",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307496",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307496_19"
+   }
+  ],
+  "LAZIO 1 - U03": [
+   {
+    "nome": "Fabio Rampelli",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-301436",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=301436",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d301436_19"
+   }
+  ],
+  "LOMBARDIA 4 - U04": [
+   {
+    "nome": "Andrea Dara",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307683",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307683",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307683_19"
+   }
+  ],
+  "EMILIA-ROMAGNA - U07": [
+   {
+    "nome": "Andrea De Maria",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-305698",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=305698",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d305698_19"
+   }
+  ],
+  "LOMBARDIA 1 - U03": [
+   {
+    "nome": "Lucrezia Maria Benedetta Mantovani",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308101",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308101",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308101_19"
+   }
+  ],
   "CAMPANIA 1 - U02": [
    {
     "nome": "Sergio Costa",
@@ -191,6 +2218,222 @@
     "url": "https://www.camera.it/deputati/elenco/19-307922",
     "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307922",
     "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307922_19"
+   }
+  ],
+  "MARCHE - U03": [
+   {
+    "nome": "Stefano Maria Benvenuti Gostoli",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308762",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308762",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308762_19"
+   }
+  ],
+  "LAZIO 1 - U01": [
+   {
+    "nome": "Paolo Ciani",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308835",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308835",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308835_19"
+   }
+  ],
+  "LOMBARDIA 1 - U08": [
+   {
+    "nome": "Cristina Rossello",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307678",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307678",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307678_19"
+   }
+  ],
+  "BASILICATA - U01": [
+   {
+    "nome": "Salvatore Caiata",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307162",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307162",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307162_19"
+   }
+  ],
+  "SICILIA 2 - U04": [
+   {
+    "nome": "Giovanni Luca Cannata",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308765",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308765",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308765_19"
+   }
+  ],
+  "EMILIA-ROMAGNA - U05": [
+   {
+    "nome": "Angelo Bonelli",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-302080",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=302080",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d302080_19"
+   }
+  ],
+  "PIEMONTE 2 - U02": [
+   {
+    "nome": "Alberto Luigi Gusmeroli",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307475",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307475",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307475_19"
+   }
+  ],
+  "VALLE D'AOSTA - U01": [
+   {
+    "nome": "Franco Manes",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308760",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308760",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308760_19"
+   }
+  ],
+  "PUGLIA - U07": [
+   {
+    "nome": "Mauro D'Attis",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307312",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307312",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307312_19"
+   }
+  ],
+  "VENETO 2 - U07": [
+   {
+    "nome": "Ciro Maschio",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307575",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307575",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307575_19"
+   }
+  ],
+  "SICILIA 2 - U06": [
+   {
+    "nome": "Francesco Gallo",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308767",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308767",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308767_19"
+   }
+  ],
+  "PIEMONTE 2 - U03": [
+   {
+    "nome": "Andrea Delmastro Delle Vedove",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307479",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307479",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307479_19"
+   }
+  ],
+  "VENETO 1 - U04": [
+   {
+    "nome": "Dimitri Coin",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307688",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307688",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307688_19"
+   }
+  ],
+  "ABRUZZO - U03": [
+   {
+    "nome": "Giorgia Meloni",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-302103",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=302103",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d302103_19"
+   }
+  ],
+  "PUGLIA - U01": [
+   {
+    "nome": "Marco Pellegrini",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307863",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307863",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307863_19"
+   }
+  ],
+  "LIGURIA - U02": [
+   {
+    "nome": "Ilaria Cavo",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308785",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308785",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308785_19"
+   }
+  ],
+  "TRENTINO-ALTO ADIGE - U02": [
+   {
+    "nome": "Vanessa Cattoi",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307716",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307716",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307716_19"
+   }
+  ],
+  "SICILIA 2 - U05": [
+   {
+    "nome": "Tommaso Antonino Calderone",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308766",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308766",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308766_19"
+   }
+  ],
+  "LOMBARDIA 3 - U04": [
+   {
+    "nome": "Maurizio Casasco",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308793",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308793",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308793_19"
+   }
+  ],
+  "SICILIA 2 - U01": [
+   {
+    "nome": "Antonino Minardo",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-302913",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=302913",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d302913_19"
+   }
+  ],
+  "EMILIA-ROMAGNA - U01": [
+   {
+    "nome": "Tommaso Foti",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-50204",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=50204",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d50204_19"
+   }
+  ],
+  "VENETO 2 - U05": [
+   {
+    "nome": "Maria Cristina Caretta",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307573",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307573",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307573_19"
+   }
+  ],
+  "PIEMONTE 1 - U02": [
+   {
+    "nome": "Augusta Montaruli",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307464",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307464",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307464_19"
+   }
+  ],
+  "LOMBARDIA 4 - U01": [
+   {
+    "nome": "Alessandro Cattaneo",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307657",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307657",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307657_19"
    }
   ],
   "CAMPANIA 2 - U05": [
@@ -202,6 +2445,69 @@
     "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308789_19"
    }
   ],
+  "LOMBARDIA 1 - U01": [
+   {
+    "nome": "Paola Frassinetti",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-301457",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=301457",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d301457_19"
+   }
+  ],
+  "LOMBARDIA 1 - U04": [
+   {
+    "nome": "Riccardo De Corato",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-200291",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=200291",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d200291_19"
+   }
+  ],
+  "LAZIO 1 - U06": [
+   {
+    "nome": "Luciano Ciocchetti",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-35980",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=35980",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d35980_19"
+   }
+  ],
+  "LOMBARDIA 3 - U01": [
+   {
+    "nome": "Alessandro Sorte",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307608",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307608",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307608_19"
+   }
+  ],
+  "VENETO 2 - U03": [
+   {
+    "nome": "Elisabetta Gardini",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-301558",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=301558",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d301558_19"
+   }
+  ],
+  "EMILIA-ROMAGNA - U03": [
+   {
+    "nome": "Ilenia Malavasi",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308934",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308934",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308934_19"
+   }
+  ],
+  "EMILIA-ROMAGNA - U11": [
+   {
+    "nome": "Jacopo Morrone",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307300",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307300",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307300_19"
+   }
+  ],
   "CAMPANIA 1 - U01": [
    {
     "nome": "Antonio Caso",
@@ -209,6 +2515,33 @@
     "url": "https://www.camera.it/deputati/elenco/19-308840",
     "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308840",
     "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308840_19"
+   }
+  ],
+  "LAZIO 2 - U04": [
+   {
+    "nome": "Massimo Ruspandini",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307889",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307889",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307889_19"
+   }
+  ],
+  "TRENTINO-ALTO ADIGE - U03": [
+   {
+    "nome": "Manfred Schullian",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-305586",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=305586",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d305586_19"
+   }
+  ],
+  "PIEMONTE 1 - U01": [
+   {
+    "nome": "Riccardo Magi",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307436",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307436",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307436_19"
    }
   ],
   "CAMPANIA 2 - U04": [
@@ -220,6 +2553,78 @@
     "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d38560_19"
    }
   ],
+  "TOSCANA - U04": [
+   {
+    "nome": "Edoardo Ziello",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307143",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307143",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307143_19"
+   }
+  ],
+  "PIEMONTE 2 - U05": [
+   {
+    "nome": "Monica Ciaburro",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307511",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307511",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307511_19"
+   }
+  ],
+  "LAZIO 2 - U05": [
+   {
+    "nome": "Nicola Ottaviani",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308918",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308918",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308918_19"
+   }
+  ],
+  "LOMBARDIA 2 - U01": [
+   {
+    "nome": "Andrea Pellicini",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308792",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308792",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308792_19"
+   }
+  ],
+  "SICILIA 1 - U03": [
+   {
+    "nome": "Francesco Saverio Romano",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-300369",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=300369",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d300369_19"
+   }
+  ],
+  "LAZIO 1 - U02": [
+   {
+    "nome": "Simonetta Matone",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308836",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308836",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308836_19"
+   }
+  ],
+  "VENETO 1 - U02": [
+   {
+    "nome": "Giorgia Andreuzza",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307686",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307686",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307686_19"
+   }
+  ],
+  "PUGLIA - U05": [
+   {
+    "nome": "Davide Bellomo",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308830",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308830",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308830_19"
+   }
+  ],
   "CAMPANIA 2 - U01": [
    {
     "nome": "Gerolamo Cangiano",
@@ -227,6 +2632,33 @@
     "url": "https://www.camera.it/deputati/elenco/19-308786",
     "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308786",
     "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308786_19"
+   }
+  ],
+  "LAZIO 2 - U03": [
+   {
+    "nome": "Chiara Colosimo",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308917",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308917",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308917_19"
+   }
+  ],
+  "VENETO 1 - U05": [
+   {
+    "nome": "Ingrid Bisa",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307689",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307689",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307689_19"
+   }
+  ],
+  "CALABRIA - U01": [
+   {
+    "nome": "Domenico Furgiuele",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307718",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307718",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307718_19"
    }
   ],
   "CAMPANIA 2 - U06": [
@@ -238,6 +2670,78 @@
     "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308790_19"
    }
   ],
+  "LOMBARDIA 4 - U02": [
+   {
+    "nome": "Carmine Fabio Raimondo",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308795",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308795",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308795_19"
+   }
+  ],
+  "SICILIA 2 - U02": [
+   {
+    "nome": "Valeria Carmela Maria Sudano",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307903",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307903",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307903_19"
+   }
+  ],
+  "PIEMONTE 1 - U04": [
+   {
+    "nome": "Alessandro Giglio Vigna",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307502",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307502",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307502_19"
+   }
+  ],
+  "TOSCANA - U08": [
+   {
+    "nome": "Emiliano Fossi",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308881",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308881",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308881_19"
+   }
+  ],
+  "TOSCANA - U03": [
+   {
+    "nome": "Riccardo Zucconi",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307142",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307142",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307142_19"
+   }
+  ],
+  "LAZIO 1 - U07": [
+   {
+    "nome": "Federico Freni",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308837",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308837",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308837_19"
+   }
+  ],
+  "PIEMONTE 1 - U03": [
+   {
+    "nome": "Elena Maccanti",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-302980",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=302980",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d302980_19"
+   }
+  ],
+  "LAZIO 1 - U09": [
+   {
+    "nome": "Alessandro Palombi",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308839",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308839",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308839_19"
+   }
+  ],
   "CAMPANIA 2 - U03": [
    {
     "nome": "Francesco Maria Rubano",
@@ -245,6 +2749,123 @@
     "url": "https://www.camera.it/deputati/elenco/19-308788",
     "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308788",
     "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308788_19"
+   }
+  ],
+  "LIGURIA - U01": [
+   {
+    "nome": "Edoardo Rixi",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-304521",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=304521",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d304521_19"
+   }
+  ],
+  "EMILIA-ROMAGNA - U09": [
+   {
+    "nome": "Mauro Malaguti",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308938",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308938",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308938_19"
+   }
+  ],
+  "PIEMONTE 2 - U04": [
+   {
+    "nome": "Marcello Coppo",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308796",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308796",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308796_19"
+   }
+  ],
+  "LAZIO 2 - U01": [
+   {
+    "nome": "Mauro Rotelli",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307455",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307455",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307455_19"
+   }
+  ],
+  "FRIULI-VENEZIA GIULIA - U01": [
+   {
+    "nome": "Vannia Gava",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307138",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307138",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307138_19"
+   }
+  ],
+  "PIEMONTE 2 - U01": [
+   {
+    "nome": "Riccardo Molinari",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307507",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307507",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307507_19"
+   }
+  ],
+  "MOLISE - U01": [
+   {
+    "nome": "Lorenzo Cesa",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-301439",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=301439",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d301439_19"
+   }
+  ],
+  "FRIULI-VENEZIA GIULIA - U02": [
+   {
+    "nome": "Walter Rizzetto",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-305688",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=305688",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d305688_19"
+   }
+  ],
+  "UMBRIA - U02": [
+   {
+    "nome": "Virginio Caparvi",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307420",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307420",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307420_19"
+   }
+  ],
+  "LIGURIA - U04": [
+   {
+    "nome": "Roberto Bagnasco",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307134",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307134",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307134_19"
+   }
+  ],
+  "PUGLIA - U03": [
+   {
+    "nome": "Mariangela Matera",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308828",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308828",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308828_19"
+   }
+  ],
+  "ABRUZZO - U02": [
+   {
+    "nome": "Guerino Testa",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308866",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308866",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308866_19"
+   }
+  ],
+  "TOSCANA - U01": [
+   {
+    "nome": "Fabrizio Rossi",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308877",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308877",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308877_19"
    }
   ],
   "CAMPANIA 2 - U07": [
@@ -256,6 +2877,24 @@
     "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308791_19"
    }
   ],
+  "LOMBARDIA 2 - U04": [
+   {
+    "nome": "Giancarlo Giorgetti",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-50115",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=50115",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d50115_19"
+   }
+  ],
+  "LOMBARDIA 3 - U03": [
+   {
+    "nome": "Simona Bordonali",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307601",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307601",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307601_19"
+   }
+  ],
   "CAMPANIA 1 - U05": [
    {
     "nome": "Carmela Auriemma",
@@ -263,6 +2902,51 @@
     "url": "https://www.camera.it/deputati/elenco/19-308846",
     "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308846",
     "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308846_19"
+   }
+  ],
+  "LOMBARDIA 2 - U03": [
+   {
+    "nome": "Nicola Molteni",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-302762",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=302762",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d302762_19"
+   }
+  ],
+  "SICILIA 1 - U06": [
+   {
+    "nome": "Marta Antonia Fascina",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307185",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307185",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307185_19"
+   }
+  ],
+  "TOSCANA - U02": [
+   {
+    "nome": "Elisa Montemagni",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308878",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308878",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308878_19"
+   }
+  ],
+  "LAZIO 1 - U05": [
+   {
+    "nome": "Alessandro Battilocchio",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307456",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307456",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307456_19"
+   }
+  ],
+  "TRENTINO-ALTO ADIGE - U04": [
+   {
+    "nome": "Renate Gebhard",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-305580",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=305580",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d305580_19"
    }
   ],
   "CAMPANIA 1 - U04": [
@@ -274,6 +2958,60 @@
     "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308845_19"
    }
   ],
+  "TRENTINO-ALTO ADIGE - U01": [
+   {
+    "nome": "Andrea De Bertoldi",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307918",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307918",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307918_19"
+   }
+  ],
+  "TOSCANA - U05": [
+   {
+    "nome": "Chiara Tenerini",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308879",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308879",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308879_19"
+   }
+  ],
+  "MARCHE - U02": [
+   {
+    "nome": "Giorgia Latini",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307173",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307173",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307173_19"
+   }
+  ],
+  "PUGLIA - U10": [
+   {
+    "nome": "Alessandro Colucci",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307603",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307603",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307603_19"
+   }
+  ],
+  "LOMBARDIA 1 - U06": [
+   {
+    "nome": "Marco Osnato",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307612",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307612",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307612_19"
+   }
+  ],
+  "LOMBARDIA 3 - U02": [
+   {
+    "nome": "Rebecca Frassini",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307630",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307630",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307630_19"
+   }
+  ],
   "CAMPANIA 1 - U07": [
    {
     "nome": "Gaetano Amato",
@@ -281,6 +3019,24 @@
     "url": "https://www.camera.it/deputati/elenco/19-308849",
     "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308849",
     "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308849_19"
+   }
+  ],
+  "LOMBARDIA 1 - U09": [
+   {
+    "nome": "Benedetto Della Vedova",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-301577",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=301577",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d301577_19"
+   }
+  ],
+  "LOMBARDIA 1 - U07": [
+   {
+    "nome": "Bruno Tabacci",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-34580",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=34580",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d34580_19"
    }
   ],
   "CAMPANIA 2 - U02": [
@@ -292,6 +3048,78 @@
     "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308787_19"
    }
   ],
+  "EMILIA-ROMAGNA - U06": [
+   {
+    "nome": "Virginio Merola",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308936",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308936",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308936_19"
+   }
+  ],
+  "EMILIA-ROMAGNA - U04": [
+   {
+    "nome": "Daniela Dondi",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308935",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308935",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308935_19"
+   }
+  ],
+  "LOMBARDIA 1 - U02": [
+   {
+    "nome": "Andrea Crippa",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307639",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307639",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307639_19"
+   }
+  ],
+  "LOMBARDIA 4 - U03": [
+   {
+    "nome": "Silvana Andreina Comaroli",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-302764",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=302764",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d302764_19"
+   }
+  ],
+  "EMILIA-ROMAGNA - U08": [
+   {
+    "nome": "Alice Buonguerrieri",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308937",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308937",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308937_19"
+   }
+  ],
+  "UMBRIA - U01": [
+   {
+    "nome": "Raffaele Nevi",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307454",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307454",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307454_19"
+   }
+  ],
+  "PUGLIA - U08": [
+   {
+    "nome": "Dario Iaia",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308831",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308831",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308831_19"
+   }
+  ],
+  "SICILIA 1 - U01": [
+   {
+    "nome": "Davide Aiello",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307394",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307394",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307394_19"
+   }
+  ],
   "CAMPANIA 1 - U06": [
    {
     "nome": "Carmela Di Lauro",
@@ -299,6 +3127,24 @@
     "url": "https://www.camera.it/deputati/elenco/19-307210",
     "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307210",
     "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307210_19"
+   }
+  ],
+  "LOMBARDIA 3 - U05": [
+   {
+    "nome": "Giangiacomo Calovini",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308794",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308794",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308794_19"
+   }
+  ],
+  "VENETO 2 - U04": [
+   {
+    "nome": "Silvio Giovine",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308855",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308855",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308855_19"
    }
   ],
   "CAMPANIA 1 - U03": [
@@ -309,53 +3155,260 @@
     "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308844",
     "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308844_19"
    }
+  ],
+  "SARDEGNA - U01": [
+   {
+    "nome": "Ugo Cappellacci",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307215",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307215",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307215_19"
+   }
+  ],
+  "SICILIA 2 - U03": [
+   {
+    "nome": "Francesco Maria Salvatore Ciancitto",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308764",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308764",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308764_19"
+   }
+  ],
+  "LOMBARDIA 1 - U05": [
+   {
+    "nome": "Laura Ravetto",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-301459",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=301459",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d301459_19"
+   }
+  ],
+  "LOMBARDIA 2 - U02": [
+   {
+    "nome": "Stefano Candiani",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-306349",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=306349",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d306349_19"
+   }
+  ],
+  "MARCHE - U01": [
+   {
+    "nome": "Francesco Battistoni",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307752",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307752",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307752_19"
+   }
+  ],
+  "LAZIO 2 - U02": [
+   {
+    "nome": "Paolo Trancassini",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307457",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307457",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307457_19"
+   }
+  ],
+  "SARDEGNA - U04": [
+   {
+    "nome": "Dario Giagoni",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308770",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308770",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308770_19"
+   }
+  ],
+  "FRIULI-VENEZIA GIULIA - U03": [
+   {
+    "nome": "Massimiliano Panizzut",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307376",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307376",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307376_19"
+   }
+  ],
+  "TOSCANA - U09": [
+   {
+    "nome": "Tiziana Nisini",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307851",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307851",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307851_19"
+   }
+  ],
+  "LOMBARDIA 2 - U05": [
+   {
+    "nome": "Maurizio Enzo Lupi",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-300447",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=300447",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d300447_19"
+   }
+  ],
+  "SARDEGNA - U02": [
+   {
+    "nome": "Gianni Lampis",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308768",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308768",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308768_19"
+   }
+  ],
+  "VENETO 1 - U01": [
+   {
+    "nome": "Martina Semenzato",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308797",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308797",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308797_19"
+   }
+  ],
+  "CALABRIA - U04": [
+   {
+    "nome": "Giovanni Arruzzolo",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308906",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308906",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308906_19"
+   }
+  ],
+  "CALABRIA - U03": [
+   {
+    "nome": "Wanda Ferro",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307567",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307567",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307567_19"
+   }
+  ],
+  "LAZIO 1 - U04": [
+   {
+    "nome": "Roberto Morassut",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-302794",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=302794",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d302794_19"
+   }
+  ],
+  "PUGLIA - U02": [
+   {
+    "nome": "Giacomo Diego Gatta",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308827",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308827",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308827_19"
+   }
+  ],
+  "PUGLIA - U04": [
+   {
+    "nome": "Rita Dalla Chiesa",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308829",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308829",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308829_19"
+   }
+  ],
+  "TOSCANA - U06": [
+   {
+    "nome": "Erica Mazzetti",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307248",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307248",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307248_19"
+   }
+  ],
+  "EMILIA-ROMAGNA - U10": [
+   {
+    "nome": "Gloria Saccani",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307659",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307659",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307659_19"
+   }
+  ],
+  "MARCHE - U04": [
+   {
+    "nome": "Mirco Carloni",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308763",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308763",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308763_19"
+   }
+  ],
+  "CALABRIA - U02": [
+   {
+    "nome": "Andrea Gentile",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308620",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308620",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308620_19"
+   }
+  ],
+  "VENETO 2 - U01": [
+   {
+    "nome": "Alberto Di Rubba",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-309320",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=309320",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d309320_19"
+   }
+  ],
+  "VENETO 2 - U02": [
+   {
+    "nome": "Giulio Centenaro",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-309321",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=309321",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d309321_19"
+   }
   ]
  },
  "senato": {
   "uninominali": {
-   "U01": {
+   "CAMPANIA - U01": {
     "nome": "Giovanna Petrenga",
     "ruolo": "Senatrice eletta nel collegio della tua zona",
     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=25429",
     "email": "giovanna.petrenga@senato.it",
     "fonteUrl": "https://dati.senato.it/senatore/25429"
    },
-   "U02": {
+   "CAMPANIA - U02": {
     "nome": "Giulia Cosenza",
     "ruolo": "Senatrice eletta nel collegio della tua zona",
     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=22910",
     "email": "giulia.cosenza@senato.it",
     "fonteUrl": "https://dati.senato.it/senatore/22910"
    },
-   "U03": {
+   "CAMPANIA - U03": {
     "nome": "Antonio Iannone",
     "ruolo": "Senatore eletto nel collegio della tua zona",
     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32645",
     "email": "antonio.iannone@senato.it",
     "fonteUrl": "https://dati.senato.it/senatore/32645"
    },
-   "U04": {
+   "CAMPANIA - U04": {
     "nome": "Ada Lopreiato",
     "ruolo": "Senatrice eletta nel collegio della tua zona",
     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36404",
     "email": "ada.lopreiato@senato.it",
     "fonteUrl": "https://dati.senato.it/senatore/36404"
    },
-   "U05": {
+   "CAMPANIA - U05": {
     "nome": "Maria Domenica Castellone",
     "ruolo": "Senatrice eletta nel collegio della tua zona",
     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32600",
     "email": "mariadomenica.castellone@senato.it",
     "fonteUrl": "https://dati.senato.it/senatore/32600"
    },
-   "U06": {
+   "CAMPANIA - U06": {
     "nome": "Orfeo Mazzella",
     "ruolo": "Senatore eletto nel collegio della tua zona",
     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36406",
     "email": "orfeo.mazzella@senato.it",
     "fonteUrl": "https://dati.senato.it/senatore/36406"
    },
-   "U07": {
+   "CAMPANIA - U07": {
     "nome": "Raffaele De Rosa",
     "ruolo": "Senatore eletto nel collegio della tua zona",
     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36394",
@@ -363,84 +3416,86 @@
     "fonteUrl": "https://dati.senato.it/senatore/36394"
    }
   },
-  "proporzionale": [
-   {
-    "nome": "Anna Bilotti",
-    "ruolo": "Senatrice eletta con le liste dei partiti",
-    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32851",
-    "email": "anna.bilotti@senato.it",
-    "fonteUrl": "https://dati.senato.it/senatore/32851"
-   },
-   {
-    "nome": "Dario Franceschini",
-    "ruolo": "Senatore eletto con le liste dei partiti",
-    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=5799",
-    "email": "dario.franceschini@senato.it",
-    "fonteUrl": "https://dati.senato.it/senatore/5799"
-   },
-   {
-    "nome": "Domenico Matera",
-    "ruolo": "Senatore eletto con le liste dei partiti",
-    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36440",
-    "email": "domenico.matera@senato.it",
-    "fonteUrl": "https://dati.senato.it/senatore/36440"
-   },
-   {
-    "nome": "Felicia Gaudiano",
-    "ruolo": "Senatrice eletta con le liste dei partiti",
-    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32640",
-    "email": "felicia.gaudiano@senato.it",
-    "fonteUrl": "https://dati.senato.it/senatore/32640"
-   },
-   {
-    "nome": "Francesco Silvestro",
-    "ruolo": "Senatore eletto con le liste dei partiti",
-    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36445",
-    "email": "francesco.silvestro@senato.it",
-    "fonteUrl": "https://dati.senato.it/senatore/36445"
-   },
-   {
-    "nome": "Gianluca Cantalamessa",
-    "ruolo": "Senatore eletto con le liste dei partiti",
-    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32862",
-    "email": "gianluca.cantalamessa@senato.it",
-    "fonteUrl": "https://dati.senato.it/senatore/32862"
-   },
-   {
-    "nome": "Luigi Nave",
-    "ruolo": "Senatore eletto con le liste dei partiti",
-    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36410",
-    "email": "luigi.nave@senato.it",
-    "fonteUrl": "https://dati.senato.it/senatore/36410"
-   },
-   {
-    "nome": "Matteo Renzi",
-    "ruolo": "Senatore eletto con le liste dei partiti",
-    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=30742",
-    "email": "matteo.renzi@senato.it",
-    "fonteUrl": "https://dati.senato.it/senatore/30742"
-   },
-   {
-    "nome": "Sergio Rastrelli",
-    "ruolo": "Senatore eletto con le liste dei partiti",
-    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36442",
-    "email": "sergio.rastrelli@senato.it",
-    "fonteUrl": "https://dati.senato.it/senatore/36442"
-   },
-   {
-    "nome": "Susanna Lina Giulia Camusso",
-    "ruolo": "Senatrice eletta con le liste dei partiti",
-    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36392",
-    "email": "susannalina.camusso@senato.it",
-    "fonteUrl": "https://dati.senato.it/senatore/36392"
-   },
-   {
-    "nome": "Vincenza Aloisio",
-    "ruolo": "Senatrice eletta con le liste dei partiti",
-    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36381",
-    "email": "vincenza.aloisio@senato.it",
-    "fonteUrl": "https://dati.senato.it/senatore/36381"
-   }
-  ]
+  "proporzionale": {
+   "CAMPANIA": [
+    {
+     "nome": "Anna Bilotti",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32851",
+     "email": "anna.bilotti@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/32851"
+    },
+    {
+     "nome": "Dario Franceschini",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=5799",
+     "email": "dario.franceschini@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/5799"
+    },
+    {
+     "nome": "Domenico Matera",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36440",
+     "email": "domenico.matera@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/36440"
+    },
+    {
+     "nome": "Felicia Gaudiano",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32640",
+     "email": "felicia.gaudiano@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/32640"
+    },
+    {
+     "nome": "Francesco Silvestro",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36445",
+     "email": "francesco.silvestro@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/36445"
+    },
+    {
+     "nome": "Gianluca Cantalamessa",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32862",
+     "email": "gianluca.cantalamessa@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/32862"
+    },
+    {
+     "nome": "Luigi Nave",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36410",
+     "email": "luigi.nave@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/36410"
+    },
+    {
+     "nome": "Matteo Renzi",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=30742",
+     "email": "matteo.renzi@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/30742"
+    },
+    {
+     "nome": "Sergio Rastrelli",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36442",
+     "email": "sergio.rastrelli@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/36442"
+    },
+    {
+     "nome": "Susanna Lina Giulia Camusso",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36392",
+     "email": "susannalina.camusso@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/36392"
+    },
+    {
+     "nome": "Vincenza Aloisio",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36381",
+     "email": "vincenza.aloisio@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/36381"
+    }
+   ]
+  }
  }
 }

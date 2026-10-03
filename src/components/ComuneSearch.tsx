@@ -123,7 +123,7 @@ export function ComuneSearch({
         <ul id={listId} role="listbox" className="absolute z-40 mt-2 max-h-96 w-full overflow-auto rounded-2xl border border-line bg-surface py-1.5 text-left shadow-xl">
           {results.length === 0 && (
             <li className="px-5 py-4 text-ink-2">
-              {comuni.length === 0 ? "Caricamento…" : "Nessun comune, frazione o CAP della Campania trovato. Controlla come è scritto."}
+              {comuni.length === 0 ? "Caricamento…" : "Nessun comune, frazione o CAP trovato. Controlla come è scritto."}
             </li>
           )}
           {results.map((r, i) => (

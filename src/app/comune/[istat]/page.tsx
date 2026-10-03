@@ -2,16 +2,20 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import {
+  circoscrizioneEuropea,
   citazioniDi,
   consiglio,
-  europa,
+  eurodeputatiDi,
   fonte,
   comuniDaPreparare,
   getComune,
-  mediaRegione,
+  getRegioneEssenziale,
+  mediaDellaRegione,
   parlamento,
   prossimeElezioni,
   regione,
+  regioniAggiornate,
+  senatoriProporzionaliDi,
 } from "@/lib/data";
 import { ComuneSearch } from "@/components/ComuneSearch";
 import { Avatar, Avviso, Espandibile, Gruppo, Livello, PersonaRow, stileLivello, type LivelloId } from "@/components/ui";
@@ -56,12 +60,15 @@ const NOTA_COLLEGI_MULTIPLI =
 /** Il ruolo dalla fonte è già declinato ("Deputata", "Senatrice"): lo usiamo anche per i titoli delle sezioni. */
 const femminile = (p?: { ruolo: string }) => !!p && /^(Deputata|Senatrice|Sindaca|Eurodeputata|Consigliera)/.test(p.ruolo);
 
-/** Confronto con la media campana, in parole: "più alta della media (52)". */
+/** "CAMPANIA - U03" → "Campania, collegio 3" */
+const etichettaSenato = (k: string, regione: string) => `${regione}, collegio ${Number(k.split(" - ")[1]?.slice(1))}`;
+
+/** Confronto con la media dei comuni della regione, in parole: "più alta della media regionale (52)". */
 function confronto(valore: number | undefined, media: number | undefined, unita = "") {
   if (valore === undefined || media === undefined) return "";
   const d = valore - media;
-  if (Math.abs(d) <= 2) return `in linea con la media campana (${media}${unita})`;
-  return `${d > 0 ? "più alta" : "più bassa"} della media campana (${media}${unita})`;
+  if (Math.abs(d) <= 2) return `in linea con la media regionale (${media}${unita})`;
+  return `${d > 0 ? "più alta" : "più bassa"} della media regionale (${media}${unita})`;
 }
 
 export default async function ComunePage({ params }: PageProps<"/comune/[istat]">) {
@@ -69,8 +76,15 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
   if (!c) notFound();
 
   const a = c.amministrazione;
+  // La Campania ha il Consiglio regionale "in chiaro" (atti, leggi, emiciclo); le altre regioni la versione essenziale.
+  const reg = getRegioneEssenziale(c.codiceRegione);
+  const inChiaro = !!reg?.inChiaro;
   const circ = c.circoscrizioneRegionale;
-  const consiglieriCirc = regione.consiglieri.filter((x) => x.circoscrizione === circ);
+  const consiglieriCirc = inChiaro ? regione.consiglieri.filter((x) => x.circoscrizione === circ) : [];
+  const mediaRegione = mediaDellaRegione(c.codiceRegione);
+  const circEuropea = circoscrizioneEuropea(c.codiceRegione);
+  const eurodeputati = eurodeputatiDi(c.codiceRegione);
+  const senatoriP = senatoriProporzionaliDi(c.regione);
   const col = c.collegi;
   const citazioni = citazioniDi(c);
   const numeri = c.numeri;
@@ -89,9 +103,13 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
     {
       id: "regione",
       etichetta: "Regione",
-      nome: regione.presidente?.nome ?? "Presidente",
-      ruolo: "Presidente della Regione",
-      extra: `${consiglieriCirc.length} consiglieri regionali eletti in provincia di ${c.provincia}`,
+      nome: (inChiaro ? regione.presidente?.nome : reg?.presidente?.nome) ?? "Dati in aggiornamento",
+      ruolo: `Presidente della Regione ${c.regione}`,
+      extra: inChiaro
+        ? `${consiglieriCirc.length} consiglieri regionali eletti in provincia di ${c.provincia}`
+        : reg?.consiglieri.length
+          ? `${reg.consiglieri.length} consiglieri regionali`
+          : "Elenco dei consiglieri sul sito del Consiglio regionale",
     },
     {
       id: "parlamento",
@@ -103,9 +121,9 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
     {
       id: "europa",
       etichetta: "Europa",
-      nome: `${europa.eurodeputati.length} eurodeputati`,
-      ruolo: "Eletti nel Sud Italia",
-      extra: "Abruzzo, Molise, Campania, Puglia, Basilicata e Calabria",
+      nome: eurodeputati.length ? `${eurodeputati.length} eurodeputati` : "Circoscrizione",
+      ruolo: `${circEuropea.nome}`,
+      extra: circEuropea.elenco,
     },
   ];
 
@@ -121,8 +139,9 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
   const enti: EnteAccesso[] = [
     c.contatti?.pec && { id: "comune", nome: `Comune di ${c.nome}`, pec: c.contatti.pec, descrizione: "Lavori, rifiuti, scuole, urbanistica, tributi locali" },
     c.asl?.pec && { id: "asl", nome: c.asl.nome, pec: c.asl.pec, descrizione: "Sanità: servizi, attese, controlli" },
-    regione.contatti?.pec && { id: "regione", nome: "Regione Campania", pec: regione.contatti.pec, descrizione: "Sanità, trasporti, ambiente, fondi europei" },
-    regione.contattiConsiglio?.pec && {
+    reg?.contatti?.pec && { id: "regione", nome: `Regione ${c.regione}`, pec: reg.contatti.pec, descrizione: "Sanità, trasporti, ambiente, fondi europei" },
+    inChiaro &&
+      regione.contattiConsiglio?.pec && {
       id: "consiglio",
       nome: "Consiglio regionale della Campania",
       pec: regione.contattiConsiglio.pec,
@@ -142,7 +161,7 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
       <header className="mt-5 flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
         <div>
           <p className="inline-flex items-center gap-2 rounded-full border border-line bg-surface px-3 py-1 text-sm font-medium text-ink-2">
-            {c.provincia === c.nome ? "Capoluogo di provincia" : `Provincia di ${c.provincia}`} · Campania
+            {c.capoluogo ? "Capoluogo di provincia" : `Provincia di ${c.provincia}`} · {c.regione}
             {c.cap.length > 0 && <> · CAP {c.cap.length > 3 ? `${c.cap[0]}–${c.cap[c.cap.length - 1]}` : c.cap.join(", ")}</>}
           </p>
           <h1 className="display mt-4 text-6xl sm:text-8xl">{c.nome}</h1>
@@ -159,9 +178,11 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
           titolo={`${c.nome}: chi ti rappresenta`}
           testo={`Chi rappresenta chi vive a ${c.nome}? Sindaco, Regione, Parlamento ed Europa in una pagina, con le fonti ufficiali.`}
         />
+          {inChiaro && (
           <a href="#segui" className="inline-flex min-h-11 items-center gap-2 rounded-full border border-line bg-surface px-4 text-base font-medium text-ink-2 hover:border-ink-3">
             <span aria-hidden>🔔</span> Segui le novità su {c.nome}
           </a>
+          )}
         </div>
       </header>
 
@@ -350,21 +371,21 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
                         <div className="rounded-2xl bg-[var(--lv-bg)] p-3">
                           <dt className="text-sm text-ink-2">Età media degli eletti</dt>
                           <dd className="display text-4xl">{numeri.etaMedia} anni</dd>
-                          <dd className="text-xs text-ink-3">{confronto(numeri.etaMedia, mediaRegione.etaMedia)}</dd>
+                          <dd className="text-xs text-ink-3">{confronto(numeri.etaMedia, mediaRegione?.etaMedia)}</dd>
                         </div>
                       )}
                       {numeri.donne !== undefined && (
                         <div className="rounded-2xl bg-[var(--lv-bg)] p-3">
                           <dt className="text-sm text-ink-2">Donne tra gli eletti</dt>
                           <dd className="display text-4xl">{numeri.donne}%</dd>
-                          <dd className="text-xs text-ink-3">{confronto(numeri.donne, mediaRegione.donne, "%")}</dd>
+                          <dd className="text-xs text-ink-3">{confronto(numeri.donne, mediaRegione?.donne, "%")}</dd>
                         </div>
                       )}
                       {numeri.laureati !== undefined && (
                         <div className="rounded-2xl bg-[var(--lv-bg)] p-3">
                           <dt className="text-sm text-ink-2">Laureati</dt>
                           <dd className="display text-4xl">{numeri.laureati}%</dd>
-                          <dd className="text-xs text-ink-3">{confronto(numeri.laureati, mediaRegione.laureati, "%")}</dd>
+                          <dd className="text-xs text-ink-3">{confronto(numeri.laureati, mediaRegione?.laureati, "%")}</dd>
                         </div>
                       )}
                     </dl>
@@ -404,6 +425,7 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
           </Livello>
 
           {/* 2. REGIONE */}
+          {inChiaro ? (
           <Livello
             id="regione"
             numero={2}
@@ -468,6 +490,55 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
               testo={`Ricevi un avviso quando in Consiglio regionale si parla di ${c.nome} e quando esce una nuova legge regionale.`}
             />
           </Livello>
+          ) : (
+          <Livello
+            id="regione"
+            numero={2}
+            titolo={`Regione ${c.regione}`}
+            sottotitolo="Decide su sanità, trasporti regionali, lavoro e formazione, ambiente e fondi europei."
+            fonti={[fonte("viminale")]}
+          >
+            {reg?.presidente && (
+              <Gruppo titolo="Presidente della Regione">
+                <PersonaRow p={reg.presidente} evidenza />
+              </Gruppo>
+            )}
+            {reg && reg.giunta.length > 0 && (
+              <Espandibile titolo="Giunta regionale" conteggio={reg.giunta.length}>
+                {reg.giunta.map((p) => (
+                  <PersonaRow key={p.nome + p.ruolo} p={p} />
+                ))}
+              </Espandibile>
+            )}
+            {reg && reg.consiglieri.length > 0 && (
+              <Espandibile titolo={`Consiglio regionale ${c.regione === "Sicilia" ? "(Assemblea regionale siciliana)" : ""}`.trim()} conteggio={reg.consiglieri.length}>
+                {reg.consiglieri.map((p) => (
+                  <PersonaRow key={p.nome + p.ruolo} p={p} />
+                ))}
+              </Espandibile>
+            )}
+            <Avviso>
+              {reg?.consiglieri.length
+                ? `Elenco dall'anagrafe degli amministratori regionali del Ministero dell'Interno${regioniAggiornate ? `, aggiornata al ${regioniAggiornate}` : ""}: dopo un'elezione recente può essere incompleto.`
+                : `L'anagrafe del Ministero dell'Interno non riporta ancora i consiglieri della Regione ${c.regione}.`}{" "}
+              {reg?.consiglio && (
+                <>
+                  Elenco completo, contatti e attività sul sito del{" "}
+                  <a href={reg.consiglio.sito} target="_blank" rel="noreferrer" className="font-semibold underline">
+                    {reg.consiglio.nome} ↗
+                  </a>
+                  .
+                </>
+              )}
+            </Avviso>
+            <p className="text-base text-ink-3">
+              Atti, leggi spiegate in parole semplici e la mappa dei consiglieri sono disponibili per ora per la Campania:{" "}
+              <Link href="/regione/" className="text-accent underline">
+                vedi l&apos;esempio →
+              </Link>
+            </p>
+          </Livello>
+          )}
 
           {/* 3. PARLAMENTO */}
           <Livello
@@ -489,7 +560,10 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
                       : `${femminile(deputatiU[0]) ? "Eletta" : "Eletto"} direttamente nella zona (collegio) che comprende il tuo comune.`
                   }
                 >
-                  {col.cameraU.flatMap((k) =>
+                  {deputatiU.length === 0 && (
+                  <p className="text-base text-ink-2">Il seggio di questo collegio risulta oggi vacante nei dati della Camera.</p>
+                )}
+                {col.cameraU.flatMap((k) =>
                     (parlamento.camera[k] ?? []).map((p) => (
                       <PersonaRow
                         key={k + p.nome}
@@ -509,12 +583,15 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
                       : `${femminile(senatoriU[0]) ? "Eletta" : "Eletto"} direttamente nella zona che comprende il tuo comune.`
                   }
                 >
+                  {senatoriU.length === 0 && (
+                    <p className="text-base text-ink-2">I senatori eletti nei collegi di questa regione saranno aggiunti a breve.</p>
+                  )}
                   {col.senatoU.map((k) => {
                     const p = parlamento.senato.uninominali[k];
                     return p ? (
                       <PersonaRow
                         key={k}
-                        p={{ ...p, ruolo: `${p.ruolo} · Campania, collegio ${Number(k.slice(1))}` }}
+                        p={{ ...p, ruolo: `${p.ruolo} · ${etichettaSenato(k, c.regione)}` }}
                         evidenza={col.senatoU.length === 1}
                         azione={<ScriviA nome={p.nome} tipo="senatore" email={p.email} comune={c.nome} etichetta={`Scrivi a ${p.nome}`} />}
                       />
@@ -536,8 +613,9 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
                         ))}
                       </Espandibile>
                     ))}
-                    <Espandibile titolo="Senatori eletti con le liste in Campania" conteggio={parlamento.senato.proporzionale.length}>
-                      {parlamento.senato.proporzionale.map((p) => (
+                    {senatoriP.length > 0 && (
+                    <Espandibile titolo={`Senatori eletti con le liste in ${c.regione}`} conteggio={senatoriP.length}>
+                      {senatoriP.map((p) => (
                         <PersonaRow
                           key={p.nome}
                           p={p}
@@ -545,6 +623,7 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
                         />
                       ))}
                     </Espandibile>
+                    )}
                   </div>
                 </div>
               </>
@@ -562,11 +641,15 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
             id="europa"
             numero={4}
             titolo="Parlamento europeo"
-            sottotitolo="La Campania vota insieme ad Abruzzo, Molise, Puglia, Basilicata e Calabria (circoscrizione Sud). Gli eurodeputati votano le leggi e il bilancio dell'Unione europea."
+            sottotitolo={`${c.regione} vota nella circoscrizione ${circEuropea.nome} (${circEuropea.elenco}). Gli eurodeputati votano le leggi e il bilancio dell'Unione europea.`}
             fonti={[fonte("pe")]}
           >
-            <Espandibile titolo="Gli eurodeputati del Sud Italia" conteggio={europa.eurodeputati.length}>
-              {europa.eurodeputati.map((p) => (
+            {eurodeputati.length === 0 && (
+              <p className="text-base text-ink-2">Gli eurodeputati della circoscrizione {circEuropea.nome} saranno aggiunti a breve.</p>
+            )}
+            {eurodeputati.length > 0 && (
+            <Espandibile titolo={`Gli eurodeputati della circoscrizione ${circEuropea.nome}`} conteggio={eurodeputati.length}>
+              {eurodeputati.map((p) => (
                 <PersonaRow
                   key={p.nome}
                   p={p}
@@ -574,6 +657,7 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
                 />
               ))}
             </Espandibile>
+            )}
           </Livello>
         </div>
       </section>
@@ -588,7 +672,15 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
         </p>
         <div className="mt-6">
           <GuidaProblemi
-            ctx={{ comune: c, sindaco: a?.sindaco, consiglieriProvincia: consiglieriCirc.length, deputati: deputatiU, senatori: senatoriU }}
+            ctx={{
+              comune: c,
+              sindaco: a?.sindaco,
+              consiglieriRegionali: inChiaro
+                ? { numero: consiglieriCirc.length, dove: `eletti in provincia di ${c.provincia}` }
+                : { numero: reg?.consiglieri.length ?? 0, dove: `della Regione ${c.regione}` },
+              deputati: deputatiU,
+              senatori: senatoriU,
+            }}
           />
         </div>
       </section>
@@ -620,10 +712,10 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
           Come si è votato a {c.nome}
         </h2>
         <p className="mt-2 max-w-3xl text-lg text-ink-2">
-          I risultati delle ultime elezioni nel comune e quante persone sono andate a votare, confrontate con la media della Campania.
+          I risultati delle ultime elezioni nel comune e quante persone sono andate a votare, confrontate con la media della regione.
         </p>
         <div className="mt-6">
-          <RisultatiElezioni elezioni={c.elezioni} comune={c.nome} />
+          <RisultatiElezioni elezioni={c.elezioni} comune={c.nome} regione={c.regione} />
         </div>
         <div className="mt-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-sm text-ink-2">

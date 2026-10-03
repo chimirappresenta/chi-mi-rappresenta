@@ -1,0 +1,25 @@
+{
+  "_nota": "Sito ufficiale dell'assemblea elettiva di ogni regione (consiglio o assemblea legislativa). Dall'IPA dove presente; Emilia-Romagna, Lazio e Toscana non sono nell'IPA e sono verificati a mano il 2026-10-03.",
+  "consigli": {
+    "01": { "nome": "Consiglio regionale del Piemonte", "sito": "https://www.cr.piemonte.it" },
+    "02": { "nome": "Consiglio della Valle d'Aosta", "sito": "https://www.consiglio.vda.it" },
+    "03": { "nome": "Consiglio regionale della Lombardia", "sito": "https://www.consiglio.regione.lombardia.it" },
+    "04": { "nome": "Consiglio regionale del Trentino-Alto Adige", "sito": "https://www.consiglio.regione.taa.it/it/" },
+    "05": { "nome": "Consiglio regionale del Veneto", "sito": "https://www.consiglioveneto.it" },
+    "06": { "nome": "Consiglio regionale del Friuli Venezia Giulia", "sito": "https://www.consiglio.regione.fvg.it" },
+    "07": { "nome": "Consiglio regionale della Liguria", "sito": "https://www.consiglio.regione.liguria.it" },
+    "08": { "nome": "Assemblea legislativa dell'Emilia-Romagna", "sito": "https://www.assemblea.emr.it" },
+    "09": { "nome": "Consiglio regionale della Toscana", "sito": "https://www.consiglio.regione.toscana.it" },
+    "10": { "nome": "Assemblea legislativa dell'Umbria", "sito": "https://consiglio.regione.umbria.it" },
+    "11": { "nome": "Assemblea legislativa delle Marche", "sito": "https://www.consiglio.marche.it" },
+    "12": { "nome": "Consiglio regionale del Lazio", "sito": "https://www.consiglio.regione.lazio.it" },
+    "13": { "nome": "Consiglio regionale dell'Abruzzo", "sito": "https://www.consiglio.regione.abruzzo.it" },
+    "14": { "nome": "Consiglio regionale del Molise", "sito": "https://consiglio.regione.molise.it" },
+    "15": { "nome": "Consiglio regionale della Campania", "sito": "https://www.cr.campania.it" },
+    "16": { "nome": "Consiglio regionale della Puglia", "sito": "https://www.consiglio.puglia.it" },
+    "17": { "nome": "Consiglio regionale della Basilicata", "sito": "https://www.consiglio.basilicata.it" },
+    "18": { "nome": "Consiglio regionale della Calabria", "sito": "https://www.consiglioregionale.calabria.it" },
+    "19": { "nome": "Assemblea regionale siciliana", "sito": "https://www.ars.sicilia.it" },
+    "20": { "nome": "Consiglio regionale della Sardegna", "sito": "https://www.consregsardegna.it" }
+  }
+}

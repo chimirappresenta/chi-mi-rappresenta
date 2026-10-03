@@ -1,0 +1,5293 @@
+{
+ "aggiornato": "24/08/2026",
+ "regioni": [
+  {
+   "codice": "13",
+   "nome": "Abruzzo",
+   "slug": "abruzzo",
+   "inChiaro": false,
+   "presidente": {
+    "nome": "Marco Marsilio",
+    "ruolo": "Presidente della Regione",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "sesso": "M"
+   },
+   "giunta": [
+    {
+     "nome": "Emanuele Imprudente",
+     "ruolo": "Vicepresidente e assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Mario Quaglieri",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Nicoletta Verì",
+     "ruolo": "Assessora",
+     "sesso": "F"
+    },
+    {
+     "nome": "Roberto Santangelo",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Tiziana Magnacca",
+     "ruolo": "Assessora",
+     "sesso": "F"
+    },
+    {
+     "nome": "Umberto D'Annuntiis",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    }
+   ],
+   "consiglieri": [
+    {
+     "nome": "Erika Alessandrini",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "F"
+    },
+    {
+     "nome": "Antonio Blasioli",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico D'Amico Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Nicola Campitelli",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giovanni Cavallari",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Abruzzo Insieme D'Amico Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Leonardo D'Addazio",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Daniele D'Amario",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Luciano D'Amico",
+     "ruolo": "Consigliere (candidato presidente)",
+     "dettaglio": "Partito Democratico D'Amico Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Vincenzo D'Incecco",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega Salvini Abruzzo",
+     "sesso": "M"
+    },
+    {
+     "nome": "Paolo Gatti",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Gianpaolo Lugini",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Marsilio Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Carla Mannetti",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Lega Salvini Abruzzo",
+     "sesso": "F"
+    },
+    {
+     "nome": "Antonio Di Marco",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico D'Amico Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Sandro Mariani",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico D'Amico Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Luciano Marinucci",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Marsilio Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Emiliano Di Matteo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Vincenzo Menna",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Abruzzo Insieme D'Amico Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alessio Monaco",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Alleanza Verdi e Sinistra",
+     "sesso": "M"
+    },
+    {
+     "nome": "Silvio Paolucci",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico D'Amico Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Enio Pavone",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Azione D'Amico Socialisti Popolari Riformatori",
+     "sesso": "M"
+    },
+    {
+     "nome": "Dino Pepe",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico D'Amico Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Pierpaolo Pietrucci",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico D'Amico Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Antonietta La Porta",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "F"
+    },
+    {
+     "nome": "Francesco Prospero",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Luca De Renzis",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Maria Assunta Rossi",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+     "sesso": "F"
+    },
+    {
+     "nome": "Marilena Rossi",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+     "sesso": "F"
+    },
+    {
+     "nome": "Francesco Taglieri Sclocchi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "M"
+    },
+    {
+     "nome": "Marianna Scoccia",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Noi Moderati",
+     "sesso": "F"
+    },
+    {
+     "nome": "Lorenzo Sospiri",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Massimo Verrecchia",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+     "sesso": "M"
+    }
+   ],
+   "contatti": {
+    "nome": "Regione Abruzzo",
+    "pec": "drg@pec.regione.abruzzo.it",
+    "sito": "https://www.regione.abruzzo.it"
+   },
+   "consiglio": {
+    "nome": "Consiglio regionale dell'Abruzzo",
+    "sito": "https://www.consiglio.regione.abruzzo.it"
+   }
+  },
+  {
+   "codice": "17",
+   "nome": "Basilicata",
+   "slug": "basilicata",
+   "inChiaro": false,
+   "presidente": {
+    "nome": "Vito Bardi",
+    "ruolo": "Presidente della Regione",
+    "dettaglio": "Azione con Calenda · Forza Italia · Fratelli D'Italia · La Vera Basilicata · Lega Salvini Basilicata · Orgoglio Lucano · Unione di Centro - Democrazia Cristiana - Popolari Uniti",
+    "sesso": "M"
+   },
+   "giunta": [
+    {
+     "nome": "Pasquale Pepe",
+     "ruolo": "Vicepresidente e assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Carmine Cicala",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Cosimo Latronico",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Francesco Cupparo",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Laura Mongiello",
+     "ruolo": "Assessora",
+     "sesso": "F"
+    }
+   ],
+   "consiglieri": [
+    {
+     "nome": "Maurizio Marcello Claudio Pittella",
+     "ruolo": "Presidente del consiglio regionale",
+     "dettaglio": "Alleanza Verdi Sinistra - Psi - la Basilicata Possibile",
+     "sesso": "M"
+    },
+    {
+     "nome": "Gianuario Aliandro",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alessia Araneo",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Movimento Cinque Stelle",
+     "sesso": "F"
+    },
+    {
+     "nome": "Antonio Bochicchio",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Alleanza Verdi Sinistra - Psi - la Basilicata Possibile",
+     "sesso": "M"
+    },
+    {
+     "nome": "Michele Casino",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Angelo Chiorazzo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Basilicata Casa Comune",
+     "sesso": "M"
+    },
+    {
+     "nome": "Carmine Cicala",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Roberto Cifarelli",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Francesco Cupparo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Maddalena Fazzari",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "F"
+    },
+    {
+     "nome": "Piero Lacorazza",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Cosimo Latronico",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Piero Marrese",
+     "ruolo": "Consigliere (candidato presidente)",
+     "dettaglio": "Alleanza Verdi Sinistra - Psi - la Basilicata Possibile · Basilicata Casa Comune · Basilicata Unita · Movimento Cinque Stelle · Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Nicola Massimo Morea",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Azione con Calenda",
+     "sesso": "M"
+    },
+    {
+     "nome": "Michele Napoli",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Pasquale Pepe",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega Salvini Basilicata",
+     "sesso": "M"
+    },
+    {
+     "nome": "Mario Polese",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Orgoglio Lucano",
+     "sesso": "M"
+    },
+    {
+     "nome": "Domenico Raffaele Tataranno",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega Salvini Basilicata",
+     "sesso": "M"
+    },
+    {
+     "nome": "Viviana Verri",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Movimento Cinque Stelle",
+     "sesso": "F"
+    },
+    {
+     "nome": "Giovanni Vizziello",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Basilicata Casa Comune",
+     "sesso": "M"
+    }
+   ],
+   "contatti": {
+    "nome": "Regione Basilicata",
+    "pec": "aoo-giunta@cert.regione.basilicata.it",
+    "sito": "https://www.regione.basilicata.it"
+   },
+   "consiglio": {
+    "nome": "Consiglio regionale della Basilicata",
+    "sito": "https://www.consiglio.basilicata.it"
+   }
+  },
+  {
+   "codice": "18",
+   "nome": "Calabria",
+   "slug": "calabria",
+   "inChiaro": false,
+   "presidente": {
+    "nome": "Roberto Occhiuto",
+    "ruolo": "Presidente della Regione",
+    "dettaglio": "Democrazia Cristiana Unione di Centro · Democrazia Cristiana Unione di Centro · Forza Azzurri · Forza Italia · Fratelli D'Italia - Giorgia Meloni · Lega per Salvini Calabria · Noi Moderati · Occhiuto Presidente · Sud Chiama Nord - per le Autonomie - Partito Animalista",
+    "sesso": "M"
+   },
+   "giunta": [
+    {
+     "nome": "Filippo Mancuso",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Gianluca Gallo",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giovanni Calabrese",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    }
+   ],
+   "consiglieri": [
+    {
+     "nome": "Ernesto Francesco Alecci",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Vincenzo Bruno",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Tridico Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Angelo Brutto",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giovanni Calabrese",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Pierluigi Caputo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Occhiuto Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Francesco De Cicco",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Democratici Progressisti",
+     "sesso": "M"
+    },
+    {
+     "nome": "Salvatore Cirillo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giacomo Pietro Crinò",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Occhiuto Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Sergio Ferrari",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Luciana De Francesco",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "F"
+    },
+    {
+     "nome": "Gianluca Gallo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Domenico Giannetta",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Filomena Greco",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Casa Riformista - per la Calabria - Italia Viva",
+     "sesso": "F"
+    },
+    {
+     "nome": "Orlandino Greco",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega per Salvini Calabria",
+     "sesso": "M"
+    },
+    {
+     "nome": "Ferdinando Laghi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Tridico Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Rosellina Madeo",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "F"
+    },
+    {
+     "nome": "Filippo Mancuso",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega per Salvini Calabria",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giuseppe Mattiani",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega per Salvini Calabria",
+     "sesso": "M"
+    },
+    {
+     "nome": "Antonio Montuoro",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Vito Pitaro",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Noi Moderati",
+     "sesso": "M"
+    },
+    {
+     "nome": "Marco Polimeni",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giuseppe Ranuccio",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Riccardo Rosa",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Noi Moderati",
+     "sesso": "M"
+    },
+    {
+     "nome": "Elisabetta Santoianni",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "F"
+    },
+    {
+     "nome": "Pasqualina Straface",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "F"
+    },
+    {
+     "nome": "Rosaria Succurro",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Occhiuto Presidente",
+     "sesso": "F"
+    }
+   ],
+   "contatti": {
+    "nome": "Regione Calabria",
+    "pec": "capogabinettopresidenza@pec.regione.calabria.it",
+    "sito": "https://www.regione.calabria.it"
+   },
+   "consiglio": {
+    "nome": "Consiglio regionale della Calabria",
+    "sito": "https://www.consiglioregionale.calabria.it"
+   }
+  },
+  {
+   "codice": "15",
+   "nome": "Campania",
+   "slug": "campania",
+   "inChiaro": true,
+   "presidente": null,
+   "giunta": [],
+   "consiglieri": [
+    {
+     "nome": "Vincenzo Alaia",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Casa Riformista per la Campania",
+     "sesso": "M"
+    },
+    {
+     "nome": "Francesca Amirante",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "F"
+    },
+    {
+     "nome": "Rosario Andreozzi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Alleanza Verdi e Sinistra",
+     "sesso": "M"
+    },
+    {
+     "nome": "Raffaele Aveta",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Movimento 5 Stelle 2050",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giuseppe Barra",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Mastella Noi di Centro Noi Sud",
+     "sesso": "M"
+    },
+    {
+     "nome": "Ciro Buonajuto",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Casa Riformista per la Campania",
+     "sesso": "M"
+    },
+    {
+     "nome": "Luca Cascone",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "A Testa Alta",
+     "sesso": "M"
+    },
+    {
+     "nome": "Roberto Celano",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Ppe Forza Italia Berlusconi",
+     "sesso": "M"
+    },
+    {
+     "nome": "Carlo Ceparano",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Alleanza Verdi e Sinistra",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giovanni Maria Cuofano",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Roberto Fico Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Fernando Errico",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Ppe Forza Italia Berlusconi",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giuseppe Fabbricatore",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Giorgia Meloni per Cirielli - Fratelli D’Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Carmela Fiola",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "F"
+    },
+    {
+     "nome": "Salvatore Flocco",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Movimento 5 Stelle 2050",
+     "sesso": "M"
+    },
+    {
+     "nome": "Lucia Fortini",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "A Testa Alta",
+     "sesso": "F"
+    },
+    {
+     "nome": "Massimo Grimaldi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega - Cirielli Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Francesco Iovino",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Cirielli Presidente per la Campania - Moderati e Riformisti",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giovanni Iovino",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Avanti Campania",
+     "sesso": "M"
+    },
+    {
+     "nome": "Salvatore Madonna",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Massimiliano Manfredi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Corrado Matera",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giovanni Mensorio",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Avanti Campania",
+     "sesso": "M"
+    },
+    {
+     "nome": "Mimì Minella",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega - Cirielli Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Sebastiano Odierna",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Cirielli Presidente per la Campania - Moderati e Riformisti",
+     "sesso": "M"
+    },
+    {
+     "nome": "Gennaro Oliviero",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "A Testa Alta",
+     "sesso": "M"
+    },
+    {
+     "nome": "Massimo Pelliccia",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Ppe Forza Italia Berlusconi",
+     "sesso": "M"
+    },
+    {
+     "nome": "Livio Petitto",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Ppe Forza Italia Berlusconi",
+     "sesso": "M"
+    },
+    {
+     "nome": "Maurizio Petracca",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Francesco Picarone",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Raffaele Maria Pisacane",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Giorgia Meloni per Cirielli - Fratelli D’Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giovanni Porcelli",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "A Testa Alta",
+     "sesso": "M"
+    },
+    {
+     "nome": "Loredana Raia",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "F"
+    },
+    {
+     "nome": "Gennaro Saiello",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Movimento 5 Stelle 2050",
+     "sesso": "M"
+    },
+    {
+     "nome": "Vincenzo Santangelo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Giorgia Meloni per Cirielli - Fratelli D’Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Gaetano Simeone",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Roberto Fico Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Luca Fella Trapanese",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Movimento 5 Stelle 2050",
+     "sesso": "M"
+    },
+    {
+     "nome": "Elena Vignati",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Movimento 5 Stelle 2050",
+     "sesso": "F"
+    },
+    {
+     "nome": "Marco Villano",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Andrea Volpe",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Avanti Campania",
+     "sesso": "M"
+    },
+    {
+     "nome": "Ettore Zecchino",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Giorgia Meloni per Cirielli - Fratelli D’Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giorgio Zinno",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    }
+   ],
+   "contatti": {
+    "nome": "Regione Campania",
+    "pec": "urp@pec.regione.campania.it",
+    "sito": "https://www.regione.campania.it"
+   },
+   "consiglio": {
+    "nome": "Consiglio regionale della Campania",
+    "sito": "https://www.cr.campania.it"
+   }
+  },
+  {
+   "codice": "08",
+   "nome": "Emilia-Romagna",
+   "slug": "emilia-romagna",
+   "inChiaro": false,
+   "presidente": {
+    "nome": "Michele De Pascale",
+    "ruolo": "Presidente della Regione",
+    "dettaglio": "Alleanza Verdi e Sinistra - Coalizioni Civiche - Possibile · Civici, con de Pascale Presidente · Movimento 5 Stelle · Partito Democratico - de Pascale Presidente · Riformisti Emilia-Romagna Futura - de Pascale Presidente",
+    "sesso": "M"
+   },
+   "giunta": [],
+   "consiglieri": [],
+   "contatti": {
+    "nome": "Regione Emilia-Romagna",
+    "pec": "urp@postacert.regione.emilia-romagna.it",
+    "sito": "https://www.regione.emilia-romagna.it"
+   },
+   "consiglio": {
+    "nome": "Assemblea legislativa dell'Emilia-Romagna",
+    "sito": "https://www.assemblea.emr.it"
+   }
+  },
+  {
+   "codice": "06",
+   "nome": "Friuli-Venezia Giulia",
+   "slug": "friuli-venezia-giulia",
+   "inChiaro": false,
+   "presidente": {
+    "nome": "Massimiliano Fedriga",
+    "ruolo": "Presidente della Regione",
+    "sesso": "M"
+   },
+   "giunta": [
+    {
+     "nome": "Alessia Rosolen",
+     "ruolo": "Assessora",
+     "sesso": "F"
+    },
+    {
+     "nome": "Barbara Zilli",
+     "ruolo": "Assessora",
+     "sesso": "F"
+    },
+    {
+     "nome": "Cristina Amirante",
+     "ruolo": "Assessora",
+     "sesso": "F"
+    },
+    {
+     "nome": "Fabio Scoccimarro",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Mario Anzil",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Pierpaolo Roberti",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Riccardo Riccardi",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Sebastiano Callari",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Sergio Emidio Bini",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Stefano Zannier",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    }
+   ],
+   "consiglieri": [
+    {
+     "nome": "Cristina Amirante",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "F"
+    },
+    {
+     "nome": "Mario Anzil",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Stefano Balloch",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Diego Bernardis",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fedriga Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Mauro Di Bert",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fedriga Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Carlo Bolzonello",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fedriga Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Mauro Bordin",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega Salvini Premier",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alberto Budai",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega Salvini Premier",
+     "sesso": "M"
+    },
+    {
+     "nome": "Enrico Bullian",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Casa Civica. Fvg Regione D'Europa.",
+     "sesso": "M"
+    },
+    {
+     "nome": "Lucia Buna",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Lega Salvini Premier",
+     "sesso": "F"
+    },
+    {
+     "nome": "Andrea Cabibbo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Antonio Calligaris",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega Salvini Premier",
+     "sesso": "M"
+    },
+    {
+     "nome": "Pompea Maria Rosaria Capozzi",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "F"
+    },
+    {
+     "nome": "Andrea Carli",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Manuela Celotti",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "F"
+    },
+    {
+     "nome": "Nicola Conficoni",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Roberto Cosolini",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Orsola Costanza",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "F"
+    },
+    {
+     "nome": "Laura Fasiolo",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "F"
+    },
+    {
+     "nome": "Massimiliano Fedriga",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega Salvini Premier",
+     "sesso": "M"
+    },
+    {
+     "nome": "Manuele Ferrari",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega Salvini Premier",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giuseppe Ghersinich",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega Salvini Premier",
+     "sesso": "M"
+    },
+    {
+     "nome": "Claudio Giacomelli",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Carlo Grilli",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fedriga Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Furio Honsell",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Open Fvg Sinistra con Honsell",
+     "sesso": "M"
+    },
+    {
+     "nome": "Simona Liguori",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Patto per L'Autonomia",
+     "sesso": "F"
+    },
+    {
+     "nome": "Moreno Lirutti",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fedriga Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Michele Lobianco",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Francesco Martines",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giulia Massolino",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Patto per L'Autonomia",
+     "sesso": "F"
+    },
+    {
+     "nome": "Markus Maurmair",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Stefano Mazzolini",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega Salvini Premier",
+     "sesso": "M"
+    },
+    {
+     "nome": "Massimo Mentil",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Elia Miani",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega Salvini Premier",
+     "sesso": "M"
+    },
+    {
+     "nome": "Edy Morandini",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fedriga Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Diego Moretti",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Massimo Moretuzzo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Patto per L'Autonomia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Roberto Novelli",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Serena Pellegrino",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Alleanza Verdi e Sinistra",
+     "sesso": "F"
+    },
+    {
+     "nome": "Marko Pisani",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Unione Slovena",
+     "sesso": "M"
+    },
+    {
+     "nome": "Simone Polesello",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fedriga Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Massimiliano Pozzo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Marco Putto",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Patto per L'Autonomia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Francesco Russo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Fabio Scoccimarro",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Maddalena Spagnolo",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Lega Salvini Premier",
+     "sesso": "F"
+    },
+    {
+     "nome": "Igor Treleani",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Stefano Zannier",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega Salvini Premier",
+     "sesso": "M"
+    }
+   ],
+   "contatti": {
+    "nome": "Regione Autonoma Friuli-Venezia Giulia",
+    "pec": "regione.friuliveneziagiulia@certregione.fvg.it",
+    "sito": "https://www.regione.fvg.it"
+   },
+   "consiglio": {
+    "nome": "Consiglio regionale del Friuli Venezia Giulia",
+    "sito": "https://www.consiglio.regione.fvg.it"
+   }
+  },
+  {
+   "codice": "12",
+   "nome": "Lazio",
+   "slug": "lazio",
+   "inChiaro": false,
+   "presidente": {
+    "nome": "Francesco Rocca",
+    "ruolo": "Presidente della Regione",
+    "dettaglio": "Lista Civica Francesco Rocca Presidente",
+    "sesso": "M"
+   },
+   "giunta": [
+    {
+     "nome": "Elena Palazzo",
+     "ruolo": "Assessora",
+     "sesso": "F"
+    },
+    {
+     "nome": "Fabrizio Ghera",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giancarlo Righini",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giuseppe Schiboni",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Luisa Regimenti",
+     "ruolo": "Assessora",
+     "sesso": "F"
+    },
+    {
+     "nome": "Manuela Rinaldi",
+     "ruolo": "Assessora",
+     "sesso": "F"
+    },
+    {
+     "nome": "Massimiliano Maselli",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Pasquale Ciacciarelli",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Roberta Angelilli",
+     "ruolo": "Assessora",
+     "sesso": "F"
+    },
+    {
+     "nome": "Simona Renata Baldassarre",
+     "ruolo": "Assessora",
+     "sesso": "F"
+    }
+   ],
+   "consiglieri": [
+    {
+     "nome": "Roberta Angelilli",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "F"
+    },
+    {
+     "nome": "Antonio Aurigemma",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Sara Battisti",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "F"
+    },
+    {
+     "nome": "Eleonora Berni",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "F"
+    },
+    {
+     "nome": "Marco Bertucci",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Marta Bonafoni",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "F"
+    },
+    {
+     "nome": "Michela Califano",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "F"
+    },
+    {
+     "nome": "Giuseppe Emanuele Cangemi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega",
+     "sesso": "M"
+    },
+    {
+     "nome": "Fabio Capolei",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Laura Cartaginese",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Lega",
+     "sesso": "F"
+    },
+    {
+     "nome": "Roberta Della Casa",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "F"
+    },
+    {
+     "nome": "Flavio Cera",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Mario Ciarla",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Marco Colarossi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "M"
+    },
+    {
+     "nome": "Laura Corrotti",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "F"
+    },
+    {
+     "nome": "Mario Luciano Crea",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lista Civica Francesco Rocca Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alessio D'Amato",
+     "ruolo": "Consigliere (candidato presidente)",
+     "sesso": "M"
+    },
+    {
+     "nome": "Emanuela Droghei",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "F"
+    },
+    {
+     "nome": "Fabrizio Ghera",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Micol Grasselli",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "F"
+    },
+    {
+     "nome": "Giulio Menegali Zelli Iacobuzzi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Maria Chiara Iannarelli",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "F"
+    },
+    {
+     "nome": "Rodolfo Lena",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Daniele Leodori",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Emanuela Mari",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "F"
+    },
+    {
+     "nome": "Claudio Marotta",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Verdi e Sinistra - Europa Verde - Possibile",
+     "sesso": "M"
+    },
+    {
+     "nome": "Massimiliano Maselli",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Eleonora Mattia",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "F"
+    },
+    {
+     "nome": "Daniele Maura",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Cosmo Mitrano",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Nazareno Neri",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Unione di Centro",
+     "sesso": "M"
+    },
+    {
+     "nome": "Michele Pasquale Nicolai",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Luciano Nobili",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Azione - Italia Viva",
+     "sesso": "M"
+    },
+    {
+     "nome": "Valerio Novelli",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "M"
+    },
+    {
+     "nome": "Edy Palazzi",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "F"
+    },
+    {
+     "nome": "Elena Palazzo",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "F"
+    },
+    {
+     "nome": "Enrico Panunzi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Salvatore La Penna",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giancarlo Righini",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Francesco Rocca",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lista Civica Francesco Rocca Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Marika Rotondi",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "F"
+    },
+    {
+     "nome": "Daniele Sabatini",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Vittorio Sambucci",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alessia Savo",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "F"
+    },
+    {
+     "nome": "Giorgio Simeoni",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Marietta Tidei",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Azione - Italia Viva",
+     "sesso": "F"
+    },
+    {
+     "nome": "Enrico Tiero",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Orlando Tripodi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega",
+     "sesso": "M"
+    },
+    {
+     "nome": "Massimiliano Valeriani",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alessandra Zeppieri",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Polo Progressista di Sinistra & Ecologista",
+     "sesso": "F"
+    },
+    {
+     "nome": "Adriano Zuccalà",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "M"
+    }
+   ],
+   "contatti": {
+    "nome": "Regione Lazio",
+    "pec": "protocollo@pec.regione.lazio.it",
+    "sito": "https://www.regione.lazio.it"
+   },
+   "consiglio": {
+    "nome": "Consiglio regionale del Lazio",
+    "sito": "https://www.consiglio.regione.lazio.it"
+   }
+  },
+  {
+   "codice": "07",
+   "nome": "Liguria",
+   "slug": "liguria",
+   "inChiaro": false,
+   "presidente": {
+    "nome": "Marco Bucci",
+    "ruolo": "Presidente della Regione",
+    "dettaglio": "Alternativa Popolare con Bandecchi per Bucci Ppe · Bucci Libertas Udc · Bucci Presidente Vince Liguria · Forza Italia Berlusconi Bucci Presidente Ppe · Giorgia Meloni per Bucci Presidente Fratelli D'Italia · Lega Liguria Bucci Presidente · Orgoglio Liguria Bucci Presidente",
+    "sesso": "M"
+   },
+   "giunta": [
+    {
+     "nome": "Alessandro Piana",
+     "ruolo": "Vicepresidente e assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Simona Ferro",
+     "ruolo": "Vicepresidente e assessore",
+     "sesso": "F"
+    },
+    {
+     "nome": "Alessio Piana",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Claudia Morich",
+     "ruolo": "Assessora",
+     "sesso": "F"
+    },
+    {
+     "nome": "Giacomo Raul Giampedrone",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Luca Lombardi",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Marco Scajola",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Massimo Nicolò",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Paolo Ripamonti",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    }
+   ],
+   "consiglieri": [
+    {
+     "nome": "Roberto Arboscello",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico Andrea Orlando Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Carlo Bagnasco",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia Berlusconi Bucci Presidente Ppe",
+     "sesso": "M"
+    },
+    {
+     "nome": "Stefano Balleari",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Giorgia Meloni per Bucci Presidente Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Carola Baruzzo",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico Andrea Orlando Presidente",
+     "sesso": "F"
+    },
+    {
+     "nome": "Armando Biasi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega Liguria Bucci Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Federico Bogliolo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Bucci Presidente Vince Liguria",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giovanni Boitano",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Orgoglio Liguria Bucci Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alessandro Bozzano",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Bucci Presidente Vince Liguria",
+     "sesso": "M"
+    },
+    {
+     "nome": "Matteo Campora",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Bucci Presidente Vince Liguria",
+     "sesso": "M"
+    },
+    {
+     "nome": "Selena Candia",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Alleanza Verdi e Sinistra - Lista Sansa - Possibile - Europa Verde - Sinistra Italiana",
+     "sesso": "F"
+    },
+    {
+     "nome": "Jan Casella",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Alleanza Verdi e Sinistra - Lista Sansa - Possibile - Europa Verde - Sinistra Italiana",
+     "sesso": "M"
+    },
+    {
+     "nome": "Chiara Cerri",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Forza Italia Berlusconi Bucci Presidente Ppe",
+     "sesso": "F"
+    },
+    {
+     "nome": "Simone D'Angelo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico Andrea Orlando Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Sara Foscolo",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Lega Liguria Bucci Presidente",
+     "sesso": "F"
+    },
+    {
+     "nome": "Marco Frascatore",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Orgoglio Liguria Bucci Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Sandro Garibaldi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega Liguria Bucci Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Stefano Giordano",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Movimento 5 Stelle 2050",
+     "sesso": "M"
+    },
+    {
+     "nome": "Rocco Invernizzi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Giorgia Meloni per Bucci Presidente Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Enrico Ioculano",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico Andrea Orlando Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Laura Lauro",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Giorgia Meloni per Bucci Presidente Fratelli D'Italia",
+     "sesso": "F"
+    },
+    {
+     "nome": "Gianmarco Medusei",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Giorgia Meloni per Bucci Presidente Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Davide Natale",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico Andrea Orlando Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Andrea Orlando",
+     "ruolo": "Consigliere (candidato presidente)",
+     "dettaglio": "Alleanza Verdi e Sinistra - Lista Sansa - Possibile - Europa Verde - Sinistra Italiana · Liguri a Testa Alta Orlando Presidente · Lista Andrea Orlando Presidente · Movimento 5 Stelle 2050 · Partito Democratico Andrea Orlando Presidente · Patto Civico e Riformista per Orlando - Azione con Calenda - Pri - Repubblicani Europei - per - Alleanza Civica Liguria",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giovanni Battista Pastorino",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lista Andrea Orlando Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Katia Piccardo",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico Andrea Orlando Presidente",
+     "sesso": "F"
+    },
+    {
+     "nome": "Federico Romeo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico Andrea Orlando Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Veronica Russo",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Giorgia Meloni per Bucci Presidente Fratelli D'Italia",
+     "sesso": "F"
+    },
+    {
+     "nome": "Armando Sanna",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico Andrea Orlando Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Walter Sorriento",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Orgoglio Liguria Bucci Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Angelo Vaccarezza",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia Berlusconi Bucci Presidente Ppe",
+     "sesso": "M"
+    }
+   ],
+   "contatti": {
+    "nome": "Regione Liguria",
+    "pec": "protocollo@pec.regione.liguria.it",
+    "sito": "https://www.regione.liguria.it"
+   },
+   "consiglio": {
+    "nome": "Consiglio regionale della Liguria",
+    "sito": "https://www.consiglio.regione.liguria.it"
+   }
+  },
+  {
+   "codice": "03",
+   "nome": "Lombardia",
+   "slug": "lombardia",
+   "inChiaro": false,
+   "presidente": {
+    "nome": "Attilio Fontana",
+    "ruolo": "Presidente della Regione",
+    "dettaglio": "Forza Italia - Berlusconi per Fontana - Partito Popolare Europeo · Fratelli D'Italia - Giorgia Meloni · Lega - Salvini per Fontana - Lega Lombarda · Lombardia Ideale - Fontana Presidente · Noi Moderati - Rinascimento Sgarbi - Fontana Presidente",
+    "sesso": "M"
+   },
+   "giunta": [
+    {
+     "nome": "Alessandro Beduschi",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alessandro Fermi",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Claudia Maria Terzi",
+     "ruolo": "Assessora",
+     "sesso": "F"
+    },
+    {
+     "nome": "Debora Massari",
+     "ruolo": "Assessora",
+     "sesso": "F"
+    },
+    {
+     "nome": "Elena Lucchini",
+     "ruolo": "Assessora",
+     "sesso": "F"
+    },
+    {
+     "nome": "Franco Lucente",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Gianluca Marco Comazzi",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giorgio Maione",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Guido Bertolaso",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Guido Guidesi",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Marco Alparone",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Massimo Sertori",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Romano Maria La Russa",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Simona Tironi",
+     "ruolo": "Assessora",
+     "sesso": "F"
+    }
+   ],
+   "consiglieri": [
+    {
+     "nome": "Marco Alparone",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Roberto Anelli",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega - Salvini per Fontana - Lega Lombarda",
+     "sesso": "M"
+    },
+    {
+     "nome": "Samuele Astuti",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico - Lombardia Democratica e Progressista - Majorino",
+     "sesso": "M"
+    },
+    {
+     "nome": "Patrizia Baffi",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "F"
+    },
+    {
+     "nome": "Alessandro Beduschi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Paola Bocci",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico - Lombardia Democratica e Progressista - Majorino",
+     "sesso": "F"
+    },
+    {
+     "nome": "Emilio Del Bono",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico - Lombardia Democratica e Progressista - Majorino",
+     "sesso": "M"
+    },
+    {
+     "nome": "Carlo Borghetti",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico - Lombardia Democratica e Progressista - Majorino",
+     "sesso": "M"
+    },
+    {
+     "nome": "Carlo Bravo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Pietro Bussolati",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico - Lombardia Democratica e Progressista - Majorino",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alessandro Cantoni",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lombardia Ideale - Fontana Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Davide Carlo Caparini",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega - Salvini per Fontana - Lega Lombarda",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alessandra Cappellari",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Lega - Salvini per Fontana - Lega Lombarda",
+     "sesso": "F"
+    },
+    {
+     "nome": "Marco Carra",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico - Lombardia Democratica e Progressista - Majorino",
+     "sesso": "M"
+    },
+    {
+     "nome": "Davide Casati",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico - Lombardia Democratica e Progressista - Majorino",
+     "sesso": "M"
+    },
+    {
+     "nome": "Marisa Cesana",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Lombardia Ideale - Fontana Presidente",
+     "sesso": "F"
+    },
+    {
+     "nome": "Gianluca Marco Comazzi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia - Berlusconi per Fontana - Partito Popolare Europeo",
+     "sesso": "M"
+    },
+    {
+     "nome": "Miriam Cominelli",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico - Lombardia Democratica e Progressista - Majorino",
+     "sesso": "F"
+    },
+    {
+     "nome": "Alessandro Corbetta",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega - Salvini per Fontana - Lega Lombarda",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giacomo Basaglia Cosentino",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lombardia Ideale - Fontana Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Romana Dell'Erba",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "F"
+    },
+    {
+     "nome": "Anna Dotti",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "F"
+    },
+    {
+     "nome": "Jacopo Dozio",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lombardia Ideale - Fontana Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Vittorio Feltri",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alessandro Fermi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega - Salvini per Fontana - Lega Lombarda",
+     "sesso": "M"
+    },
+    {
+     "nome": "Luca Daniel Ferrazzi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Letizia Moratti Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Fabrizio Figini",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia - Berlusconi per Fontana - Partito Popolare Europeo",
+     "sesso": "M"
+    },
+    {
+     "nome": "Attilio Fontana",
+     "ruolo": "Consigliere (candidato presidente)",
+     "dettaglio": "Forza Italia - Berlusconi per Fontana - Partito Popolare Europeo · Fratelli D'Italia - Giorgia Meloni · Lega - Salvini per Fontana - Lega Lombarda · Lombardia Ideale - Fontana Presidente · Noi Moderati - Rinascimento Sgarbi - Fontana Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Matteo Forte",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Gian Mario Fragomeli",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico - Lombardia Democratica e Progressista - Majorino",
+     "sesso": "M"
+    },
+    {
+     "nome": "Sergio Gaddi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia - Berlusconi per Fontana - Partito Popolare Europeo",
+     "sesso": "M"
+    },
+    {
+     "nome": "Nicolas Gallizzi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Noi Moderati - Rinascimento Sgarbi - Fontana Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Christian Garavaglia",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Diego Invernici",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia - Berlusconi per Fontana - Partito Popolare Europeo",
+     "sesso": "M"
+    },
+    {
+     "nome": "Ruggero Armando Invernizzi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia - Berlusconi per Fontana - Partito Popolare Europeo",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giuseppe Licata",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Azione - Italia Viva",
+     "sesso": "M"
+    },
+    {
+     "nome": "Jonathan Lobati",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia - Berlusconi per Fontana - Partito Popolare Europeo",
+     "sesso": "M"
+    },
+    {
+     "nome": "Elena Lucchini",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Lega - Salvini per Fontana - Lega Lombarda",
+     "sesso": "F"
+    },
+    {
+     "nome": "Franco Lucente",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Pietro Macconi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Pierfrancesco Majorino",
+     "ruolo": "Consigliere (candidato presidente)",
+     "dettaglio": "Alleanza Verdi e Sinistra · Movimento 5 Stelle · Partito Democratico - Lombardia Democratica e Progressista - Majorino · Patto Civico - Majorino Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giovanni Francesco Malanchini",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega - Salvini per Fontana - Lega Lombarda",
+     "sesso": "M"
+    },
+    {
+     "nome": "Claudio Mangiarotti",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Nicola Di Marco",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "M"
+    },
+    {
+     "nome": "Luca Marrelli",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lombardia Ideale - Fontana Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Floriano Massardi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega - Salvini per Fontana - Lega Lombarda",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alberto Mazzoleni",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Emanuele Monti",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega - Salvini per Fontana - Lega Lombarda",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alfredo Simone Negri",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico - Lombardia Democratica e Progressista - Majorino",
+     "sesso": "M"
+    },
+    {
+     "nome": "Lisa Noja",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Azione - Italia Viva",
+     "sesso": "F"
+    },
+    {
+     "nome": "Angelo Clemente Orsenigo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Azione - Italia Viva",
+     "sesso": "M"
+    },
+    {
+     "nome": "Luca Paladini",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Patto Civico - Majorino Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Michela Palestra",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Patto Civico - Majorino Presidente",
+     "sesso": "F"
+    },
+    {
+     "nome": "Manfredi Palmeri",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Letizia Moratti Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Riccardo Pase",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega - Salvini per Fontana - Lega Lombarda",
+     "sesso": "M"
+    },
+    {
+     "nome": "Mauro Piazza",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega - Salvini per Fontana - Lega Lombarda",
+     "sesso": "M"
+    },
+    {
+     "nome": "Matteo Piloni",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico - Lombardia Democratica e Progressista - Majorino",
+     "sesso": "M"
+    },
+    {
+     "nome": "Paola Pizzighini",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "F"
+    },
+    {
+     "nome": "Paola Pollini",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "F"
+    },
+    {
+     "nome": "Pietro Luigi Ponti",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico - Lombardia Democratica e Progressista - Majorino",
+     "sesso": "M"
+    },
+    {
+     "nome": "Federico Romani",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Paolo Romano",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico - Lombardia Democratica e Progressista - Majorino",
+     "sesso": "M"
+    },
+    {
+     "nome": "Onorio Rosati",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Alleanza Verdi e Sinistra",
+     "sesso": "M"
+    },
+    {
+     "nome": "Ivan Rota",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Letizia Moratti Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Maria Rozza",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico - Lombardia Democratica e Progressista - Majorino",
+     "sesso": "F"
+    },
+    {
+     "nome": "Martina Sassoli",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Letizia Moratti Presidente",
+     "sesso": "F"
+    },
+    {
+     "nome": "Jacopo Scandella",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico - Lombardia Democratica e Progressista - Majorino",
+     "sesso": "M"
+    },
+    {
+     "nome": "Michele Schiavi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Silvia Scurati",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Lega - Salvini per Fontana - Lega Lombarda",
+     "sesso": "F"
+    },
+    {
+     "nome": "Massimo Sertori",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega - Salvini per Fontana - Lega Lombarda",
+     "sesso": "M"
+    },
+    {
+     "nome": "Simona Tironi",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Forza Italia - Berlusconi per Fontana - Partito Popolare Europeo",
+     "sesso": "F"
+    },
+    {
+     "nome": "Chiara Valcepina",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "F"
+    },
+    {
+     "nome": "Roberta Vallacchi",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico - Lombardia Democratica e Progressista - Majorino",
+     "sesso": "F"
+    },
+    {
+     "nome": "Marcello Maria Ventura",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alessia Villa",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "F"
+    },
+    {
+     "nome": "Riccardo Vitari",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega - Salvini per Fontana - Lega Lombarda",
+     "sesso": "M"
+    },
+    {
+     "nome": "Massimo Vizzardi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Azione - Italia Viva",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giacomo Zamperini",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Luigi Zocchi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    }
+   ],
+   "contatti": {
+    "nome": "Regione Lombardia",
+    "pec": "presidenza@pec.regione.lombardia.it",
+    "sito": "https://www.regione.lombardia.it"
+   },
+   "consiglio": {
+    "nome": "Consiglio regionale della Lombardia",
+    "sito": "https://www.consiglio.regione.lombardia.it"
+   }
+  },
+  {
+   "codice": "11",
+   "nome": "Marche",
+   "slug": "marche",
+   "inChiaro": false,
+   "presidente": null,
+   "giunta": [],
+   "consiglieri": [],
+   "contatti": {
+    "nome": "Regione Marche",
+    "pec": "regione.marche.protocollogiunta@emarche.it",
+    "sito": "https://www.regione.marche.it"
+   },
+   "consiglio": {
+    "nome": "Assemblea legislativa delle Marche",
+    "sito": "https://www.consiglio.marche.it"
+   }
+  },
+  {
+   "codice": "14",
+   "nome": "Molise",
+   "slug": "molise",
+   "inChiaro": false,
+   "presidente": {
+    "nome": "Francesco Roberti",
+    "ruolo": "Presidente della Regione",
+    "dettaglio": "Forza Italia · Fratelli D'Italia Giorgia Meloni · Il Molise Che Vogliamo · Lega Salvini Premier · Noi Moderati · Popolari per L'Italia · Udc Unione di Centro",
+    "sesso": "M"
+   },
+   "giunta": [
+    {
+     "nome": "Andrea Di Lucente",
+     "ruolo": "Vicepresidente e assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Angelo Michele Iorio",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Gianluca Cefaratti",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Michele Marone",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Salvatore Micone",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    }
+   ],
+   "consiglieri": [
+    {
+     "nome": "Quintino Pallante",
+     "ruolo": "Presidente del consiglio regionale",
+     "dettaglio": "Fratelli D'Italia Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Roberto Di Baggio",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Nicola Cavaliere",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Gianluca Cefaratti",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Il Molise Che Vogliamo",
+     "sesso": "M"
+    },
+    {
+     "nome": "Fabio Cofelice",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Noi Moderati",
+     "sesso": "M"
+    },
+    {
+     "nome": "Armandino D'Egidio",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Vittorino Facciolla",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Micaela Fanelli",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "F"
+    },
+    {
+     "nome": "Roberto Gravina",
+     "ruolo": "Consigliere (candidato presidente)",
+     "dettaglio": "Alleanza Verdi e Sinistra · Costruire Democrazia · Molise Democratico e Socialista- Molise Democratico Solidale- Psi · Movimento 5 Stelle · Partito Democratico · Progresso Molise Gravina Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Andrea Greco",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "M"
+    },
+    {
+     "nome": "Angelo Michele Iorio",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Andrea Di Lucente",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Salvatore Micone",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Vincenzo Niro",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Popolari per L'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Roberto Di Pardo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Noi Moderati",
+     "sesso": "M"
+    },
+    {
+     "nome": "Stefania Passarelli",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Il Molise Che Vogliamo",
+     "sesso": "F"
+    },
+    {
+     "nome": "Angelo Primiani",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "M"
+    },
+    {
+     "nome": "Massimo Romano",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Costruire Democrazia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Guido Massimo Sabusco",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega Salvini Premier",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alessandra Salvatore",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "F"
+    }
+   ],
+   "contatti": {
+    "nome": "Regione Molise",
+    "pec": "regionemolise@cert.regione.molise.it",
+    "sito": "https://www.regione.molise.it"
+   },
+   "consiglio": {
+    "nome": "Consiglio regionale del Molise",
+    "sito": "https://consiglio.regione.molise.it"
+   }
+  },
+  {
+   "codice": "01",
+   "nome": "Piemonte",
+   "slug": "piemonte",
+   "inChiaro": false,
+   "presidente": {
+    "nome": "Alberto Cirio",
+    "ruolo": "Presidente della Regione",
+    "dettaglio": "Forza Italia Ppe - Udc - Pli · Fratelli D'Italia · Lega Salvini Piemonte · Lista Civica Cirio Presidente · Noi Moderati · Per il Piemonte",
+    "sesso": "M"
+   },
+   "giunta": [
+    {
+     "nome": "Maurizio Raffaello Vincenzo Marrone",
+     "ruolo": "Vicepresidente e assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Andrea Tronzano",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Daniela Cameroni",
+     "ruolo": "Assessora",
+     "sesso": "F"
+    },
+    {
+     "nome": "Enrico Bussalino",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Federico Riboldi",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Gian Luca Vignale",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Marco Gabusi",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Marco Gallo",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Marina Chiarelli",
+     "ruolo": "Assessora",
+     "sesso": "F"
+    },
+    {
+     "nome": "Matteo Marnati",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Paolo Bongioanni",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    }
+   ],
+   "consiglieri": [
+    {
+     "nome": "Davide Nicco",
+     "ruolo": "Presidente del consiglio regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Paola Antonetto",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "F"
+    },
+    {
+     "nome": "Alberto Avetta",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Sergio Bartoli",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lista Civica Cirio Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Annalisa Beccaria",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Per il Piemonte",
+     "sesso": "F"
+    },
+    {
+     "nome": "Debora Biglia",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Forza Italia Ppe - Udc - Pli",
+     "sesso": "F"
+    },
+    {
+     "nome": "Alessandra Binzoni",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "F"
+    },
+    {
+     "nome": "Paolo Bongioanni",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Marina Bordese",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "F"
+    },
+    {
+     "nome": "Enrico Bussalino",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega Salvini Piemonte",
+     "sesso": "M"
+    },
+    {
+     "nome": "Mauro Calderoni",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Monica Canalis",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "F"
+    },
+    {
+     "nome": "Fabio Carosso",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Per il Piemonte",
+     "sesso": "M"
+    },
+    {
+     "nome": "Mario Salvatore Castello",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lista Civica Cirio Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Valentina Cera",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Alleanza Verdi e Sinistra",
+     "sesso": "F"
+    },
+    {
+     "nome": "Andrea Cerutti",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega Salvini Piemonte",
+     "sesso": "M"
+    },
+    {
+     "nome": "Marina Chiarelli",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "F"
+    },
+    {
+     "nome": "Elena Chiorino",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Per il Piemonte",
+     "sesso": "F"
+    },
+    {
+     "nome": "Pasquale Coluccio",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "M"
+    },
+    {
+     "nome": "Nadia Conticelli",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "F"
+    },
+    {
+     "nome": "Sarah Disabato",
+     "ruolo": "Consigliera (candidato presidente)",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "F"
+    },
+    {
+     "nome": "Sergio Ebarnabo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Marco Gabusi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Per il Piemonte",
+     "sesso": "M"
+    },
+    {
+     "nome": "Marco Gallo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lista Civica Cirio Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Gianna Gancia",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Per il Piemonte",
+     "sesso": "F"
+    },
+    {
+     "nome": "Francesco Graglia",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia Ppe - Udc - Pli",
+     "sesso": "M"
+    },
+    {
+     "nome": "Luigi Genesio Icardi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega Salvini Piemonte",
+     "sesso": "M"
+    },
+    {
+     "nome": "Fabio Isnardi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Silvio Magliano",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lista Civica Cirio Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giulia Marro",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Alleanza Verdi e Sinistra",
+     "sesso": "F"
+    },
+    {
+     "nome": "Maurizio Raffaello Vincenzo Marrone",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Per il Piemonte",
+     "sesso": "M"
+    },
+    {
+     "nome": "Vittoria Nallo",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Stati Uniti D'Europa per il Piemonte",
+     "sesso": "F"
+    },
+    {
+     "nome": "Simona Paonessa",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "F"
+    },
+    {
+     "nome": "Giovanna Pentenero",
+     "ruolo": "Consigliera (candidato presidente)",
+     "dettaglio": "Gianna Pentenero Presidente",
+     "sesso": "F"
+    },
+    {
+     "nome": "Laura Pompeo",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "F"
+    },
+    {
+     "nome": "Roberto Sergio Ravello",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Domenico Ravetti",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alice Ravinale",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Alleanza Verdi e Sinistra",
+     "sesso": "F"
+    },
+    {
+     "nome": "Federico Riboldi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Fabrizio Ricca",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega Salvini Piemonte",
+     "sesso": "M"
+    },
+    {
+     "nome": "Elena Rocchi",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Lista Civica Cirio Presidente",
+     "sesso": "F"
+    },
+    {
+     "nome": "Domenico Rossi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Paolo Ruzzola",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia Ppe - Udc - Pli",
+     "sesso": "M"
+    },
+    {
+     "nome": "Mauro Salizzoni",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Andrea Tronzano",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia Ppe - Udc - Pli",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alberto Unia",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "M"
+    },
+    {
+     "nome": "Daniele Valle",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Carlo Riva Vercellotti",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Emanuela Verzella",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "F"
+    },
+    {
+     "nome": "Davide Eugenio Zappalà",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    }
+   ],
+   "contatti": {
+    "nome": "Regione Piemonte",
+    "pec": "gabinettopresidenza-giunta@cert.regione.piemonte.it",
+    "sito": "https://www.regione.piemonte.it"
+   },
+   "consiglio": {
+    "nome": "Consiglio regionale del Piemonte",
+    "sito": "https://www.cr.piemonte.it"
+   }
+  },
+  {
+   "codice": "16",
+   "nome": "Puglia",
+   "slug": "puglia",
+   "inChiaro": false,
+   "presidente": {
+    "nome": "Antonio Decaro",
+    "ruolo": "Presidente della Regione",
+    "dettaglio": "Alleanza Verdi e Sinistra · Avanti Popolari con Decaro Candidato Presidente · Decaro Presidente · Movimento 5 Stelle · Partito Democratico - Candidato Presidente Decaro · Per la Puglia Decaro Candidato Presidente",
+    "sesso": "M"
+   },
+   "giunta": [],
+   "consiglieri": [
+    {
+     "nome": "Annagrazia Angolano",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "F"
+    },
+    {
+     "nome": "Rosa Barone",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "F"
+    },
+    {
+     "nome": "Cataldo Basile",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Gianfranco De Blasi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega Puglia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Cosimo Borraccino",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico - Candidato Presidente Decaro",
+     "sesso": "M"
+    },
+    {
+     "nome": "Loredana Capone",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico - Candidato Presidente Decaro",
+     "sesso": "F"
+    },
+    {
+     "nome": "Luigi Caroli",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Cristian Casili",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "M"
+    },
+    {
+     "nome": "Napoleone Cera",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega Puglia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Debora Ciliento",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico - Candidato Presidente Decaro",
+     "sesso": "F"
+    },
+    {
+     "nome": "Massimiliano Di Cuia",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia - Berlusconi - Ppe - Lobuono Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Paolo Soccorso Dell'Erba",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia - Berlusconi - Ppe - Lobuono Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Rossella Falcone",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico - Candidato Presidente Decaro",
+     "sesso": "F"
+    },
+    {
+     "nome": "Andrea Ferri",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giuseppe Fischetti",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Decaro Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Nicola Gatta",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Maria La Ghezza",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "F"
+    },
+    {
+     "nome": "Tommaso Gioia",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Decaro Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Marcello Lanotte",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia - Berlusconi - Ppe - Lobuono Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Sebastiano Giuseppe Leo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Per la Puglia Decaro Candidato Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giovanni De Leonardis",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Antonio Matarrelli",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico - Candidato Presidente Decaro",
+     "sesso": "M"
+    },
+    {
+     "nome": "Paride Mazzotta",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia - Berlusconi - Ppe - Lobuono Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Silvia Miglietta",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Decaro Presidente",
+     "sesso": "F"
+    },
+    {
+     "nome": "Stefano Minerva",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico - Candidato Presidente Decaro",
+     "sesso": "M"
+    },
+    {
+     "nome": "Anna Carmela Minuto",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Forza Italia - Berlusconi - Ppe - Lobuono Presidente",
+     "sesso": "F"
+    },
+    {
+     "nome": "Ubaldo Pagano",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico - Candidato Presidente Decaro",
+     "sesso": "M"
+    },
+    {
+     "nome": "Paolo Pagliaro",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Francesco Paolicelli",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico - Candidato Presidente Decaro",
+     "sesso": "M"
+    },
+    {
+     "nome": "Ruggiero Passero",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Per la Puglia Decaro Candidato Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Donato Pentassuglia",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico - Candidato Presidente Decaro",
+     "sesso": "M"
+    },
+    {
+     "nome": "Renato Perrini",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Raffaele Piemontese",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico - Candidato Presidente Decaro",
+     "sesso": "M"
+    },
+    {
+     "nome": "Fabio Saverio Romito",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega Puglia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Nicola Rutigliano",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Decaro Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Domenico De Santis",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico - Candidato Presidente Decaro",
+     "sesso": "M"
+    },
+    {
+     "nome": "Antonio Paolo Scalera",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega Puglia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giulio Scapato",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Decaro Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Tommaso Scatigna",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Antonio Scianaro",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Felice Antonio Spaccavento",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Decaro Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Antonia Spina",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "F"
+    },
+    {
+     "nome": "Grazia Maria Starace",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Decaro Presidente",
+     "sesso": "F"
+    },
+    {
+     "nome": "Saverio Tammacco",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Per la Puglia Decaro Candidato Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Antonio Tutolo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Per la Puglia Decaro Candidato Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Elisabetta Vaccarella",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico - Candidato Presidente Decaro",
+     "sesso": "F"
+    },
+    {
+     "nome": "Gianpaolo Vietri",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giovanni Vurchio",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico - Candidato Presidente Decaro",
+     "sesso": "M"
+    }
+   ],
+   "contatti": {
+    "nome": "Regione Puglia",
+    "pec": "protocollogeneralepresidenza@pec.rupar.puglia.it",
+    "sito": "https://www.regione.puglia.it"
+   },
+   "consiglio": {
+    "nome": "Consiglio regionale della Puglia",
+    "sito": "https://www.consiglio.puglia.it"
+   }
+  },
+  {
+   "codice": "20",
+   "nome": "Sardegna",
+   "slug": "sardegna",
+   "inChiaro": false,
+   "presidente": {
+    "nome": "Alessandra Todde",
+    "ruolo": "Presidente della Regione",
+    "dettaglio": "Alleanza Verdi e Sinistra · Movimento 5 Stelle · Orizzonte Comune · Partito Democratico della Sardegna · Partito Socialista Italiano Sardi in Europa · Sinistra Futura",
+    "sesso": "F"
+   },
+   "giunta": [],
+   "consiglieri": [
+    {
+     "nome": "Giampietro Comandini",
+     "ruolo": "Presidente del consiglio regionale",
+     "dettaglio": "Partito Democratico della Sardegna",
+     "sesso": "M"
+    },
+    {
+     "nome": "Francesco Agus",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Progressista",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alice Aroni",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Udc",
+     "sesso": "F"
+    },
+    {
+     "nome": "Giuseppino Canu",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Sinistra Futura",
+     "sesso": "M"
+    },
+    {
+     "nome": "Paola Casula",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Sinistra Futura",
+     "sesso": "F"
+    },
+    {
+     "nome": "Salvatore Cau",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Orizzonte Comune",
+     "sesso": "M"
+    },
+    {
+     "nome": "Emanuele Cera",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giovanni Chessa",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Sardo D'Azione",
+     "sesso": "M"
+    },
+    {
+     "nome": "Michele Ciusa",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "M"
+    },
+    {
+     "nome": "Angelo Cocciu",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia Berlusconi Ppe",
+     "sesso": "M"
+    },
+    {
+     "nome": "Sebastiano Cocco",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Uniti per Alessandra Todde",
+     "sesso": "M"
+    },
+    {
+     "nome": "Salvatore Corrias",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico della Sardegna",
+     "sesso": "M"
+    },
+    {
+     "nome": "Lorenzo Cozzolino",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Socialista Italiano Sardi in Europa",
+     "sesso": "M"
+    },
+    {
+     "nome": "Angelo Franco Cuccureddu",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Orizzonte Comune",
+     "sesso": "M"
+    },
+    {
+     "nome": "Roberto Deriu",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico della Sardegna",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giuseppe Marco Dessena",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Alleanza Verdi e Sinistra",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giuseppe Fasolino",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Riformatori Sardi",
+     "sesso": "M"
+    },
+    {
+     "nome": "Antonello Floris",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giuseppe Frau",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Uniti per Alessandra Todde",
+     "sesso": "M"
+    },
+    {
+     "nome": "Carla Fundoni",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico della Sardegna",
+     "sesso": "F"
+    },
+    {
+     "nome": "Roberto Franco Michele Li Gioi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "M"
+    },
+    {
+     "nome": "Diego Loi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Alleanza Verdi e Sinistra",
+     "sesso": "M"
+    },
+    {
+     "nome": "Piero Maieli",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Sardo D'Azione",
+     "sesso": "M"
+    },
+    {
+     "nome": "Desirè Alma Manca",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "F"
+    },
+    {
+     "nome": "Gianluca Mandas",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alfonso Marras",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Sardo D'Azione",
+     "sesso": "M"
+    },
+    {
+     "nome": "Maria Francesca Masala",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+     "sesso": "F"
+    },
+    {
+     "nome": "Emanuele Matta",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "M"
+    },
+    {
+     "nome": "Corrado Meloni",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giuseppe Meloni",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico della Sardegna",
+     "sesso": "M"
+    },
+    {
+     "nome": "Francesco Paolo Mula",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Alleanza Sardegna Pli",
+     "sesso": "M"
+    },
+    {
+     "nome": "Valdo Di Nolfo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Uniti per Alessandra Todde",
+     "sesso": "M"
+    },
+    {
+     "nome": "Maria Laura Orrù",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Alleanza Verdi e Sinistra",
+     "sesso": "F"
+    },
+    {
+     "nome": "Antonello Peru",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Sardegna al Centro 20venti",
+     "sesso": "M"
+    },
+    {
+     "nome": "Gianluigi Piano",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico della Sardegna",
+     "sesso": "M"
+    },
+    {
+     "nome": "Fausto Piga",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alessandro Pilursu",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico della Sardegna",
+     "sesso": "M"
+    },
+    {
+     "nome": "Ivan Pintus",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Progressista",
+     "sesso": "M"
+    },
+    {
+     "nome": "Ivan Piras",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia Berlusconi Ppe",
+     "sesso": "M"
+    },
+    {
+     "nome": "Valter Piscedda",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico della Sardegna",
+     "sesso": "M"
+    },
+    {
+     "nome": "Antonio Piu",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Alleanza Verdi e Sinistra",
+     "sesso": "M"
+    },
+    {
+     "nome": "Luca Pizzuto",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Sinistra Futura",
+     "sesso": "M"
+    },
+    {
+     "nome": "Sandro Porcu",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Orizzonte Comune",
+     "sesso": "M"
+    },
+    {
+     "nome": "Gianluigi Rubiu",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Aldo Salaris",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Riformatori Sardi",
+     "sesso": "M"
+    },
+    {
+     "nome": "Gian Franco Satta",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Progressista",
+     "sesso": "M"
+    },
+    {
+     "nome": "Antonio Sau",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico della Sardegna",
+     "sesso": "M"
+    },
+    {
+     "nome": "Stefano Schirru",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Alleanza Sardegna Pli",
+     "sesso": "M"
+    },
+    {
+     "nome": "Lara Serra",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "F"
+    },
+    {
+     "nome": "Alessandro Solinas",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "M"
+    },
+    {
+     "nome": "Antonio Solinas",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico della Sardegna",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alessandro Sorgia",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega Salvini Sardegna",
+     "sesso": "M"
+    },
+    {
+     "nome": "Camilla Gerolama Soru",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico della Sardegna",
+     "sesso": "F"
+    },
+    {
+     "nome": "Giuseppe Talanas",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia Berlusconi Ppe",
+     "sesso": "M"
+    },
+    {
+     "nome": "Umberto Ticca",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Riformatori Sardi",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alessandra Todde",
+     "ruolo": "Consigliera (candidato presidente)",
+     "dettaglio": "Alleanza Verdi e Sinistra · Movimento 5 Stelle · Orizzonte Comune · Partito Democratico della Sardegna · Partito Socialista Italiano Sardi in Europa · Sinistra Futura",
+     "sesso": "F"
+    },
+    {
+     "nome": "Paolo Truzzu",
+     "ruolo": "Consigliere (candidato presidente)",
+     "dettaglio": "Alleanza Sardegna Pli · Forza Italia Berlusconi Ppe · Fratelli D'Italia con Giorgia Meloni · Lega Salvini Sardegna · Partito Sardo D'Azione · Riformatori Sardi · Sardegna al Centro 20venti · Udc",
+     "sesso": "M"
+    },
+    {
+     "nome": "Stefano Tunis",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Sardegna al Centro 20venti",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alberto Urpi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Sardegna al Centro 20venti",
+     "sesso": "M"
+    },
+    {
+     "nome": "Cristina Usai",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+     "sesso": "F"
+    }
+   ],
+   "contatti": {
+    "nome": "Regione Autonoma della Sardegna",
+    "pec": "presidenza@pec.regione.sardegna.it",
+    "sito": "https://www.regione.sardegna.it"
+   },
+   "consiglio": {
+    "nome": "Consiglio regionale della Sardegna",
+    "sito": "https://www.consregsardegna.it"
+   }
+  },
+  {
+   "codice": "19",
+   "nome": "Sicilia",
+   "slug": "sicilia",
+   "inChiaro": false,
+   "presidente": {
+    "nome": "Renato Schifani",
+    "ruolo": "Presidente della Regione",
+    "dettaglio": "In Sicilia-Renato Schifani Presidente",
+    "sesso": "M"
+   },
+   "giunta": [
+    {
+     "nome": "Alessandro Aricò",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alessandro Dagnino",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Edmondo Tamajo",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Elisa Maria Lucia Ingala",
+     "ruolo": "Assessora",
+     "sesso": "F"
+    },
+    {
+     "nome": "Elvira Amata",
+     "ruolo": "Assessora",
+     "sesso": "F"
+    },
+    {
+     "nome": "Francesco Colianni",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Francesco Paolo Scarpinato",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Girolamo Turano",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giuseppa Savarino",
+     "ruolo": "Assessora",
+     "sesso": "F"
+    },
+    {
+     "nome": "Luca Rosario Luigi Sammartino",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Marcello Caruso",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Nunzia Albano",
+     "ruolo": "Assessora",
+     "sesso": "F"
+    },
+    {
+     "nome": "Renato Schifani",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    }
+   ],
+   "consiglieri": [
+    {
+     "nome": "Ignazio Abbate",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Democrazia Cristiana",
+     "sesso": "M"
+    },
+    {
+     "nome": "Erminia Lidia Adorno",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "F"
+    },
+    {
+     "nome": "Riccardo Antonio Gallo Afflitto",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "In Sicilia-Renato Schifani Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Nunzia Albano",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Democrazia Cristiana",
+     "sesso": "F"
+    },
+    {
+     "nome": "Elvira Amata",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "In Sicilia-Renato Schifani Presidente",
+     "sesso": "F"
+    },
+    {
+     "nome": "Alessandro Aricò",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giorgio Assenza",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Carlo Auteri",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Ludovico Balsamo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Sud Chiama Nord",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giovanni Burtone",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Angelo Cambiano",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "M"
+    },
+    {
+     "nome": "Stefania Campo",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "F"
+    },
+    {
+     "nome": "Anna Maria Caronia",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "In Sicilia-Renato Schifani Presidente",
+     "sesso": "F"
+    },
+    {
+     "nome": "Giuseppe Carta",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Popolari e Autonomisti",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giuseppe Castiglione",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Popolari e Autonomisti",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giuseppe Sebastiano Catania",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Michele Catanzaro",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Valentina Chinnici",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "F"
+    },
+    {
+     "nome": "Cristina Ciminnisi",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "F"
+    },
+    {
+     "nome": "Antonino Cracolici",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Nicola D'Agostino",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Emanuele Dipasquale",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Fabrizio Ferrara",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Vincenzo Figuccia",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Prima L'Italia-Lega Salvini Premier",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giuseppe Galluzzo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Gaetano Galvagno",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "In Sicilia-Renato Schifani Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Riccardo Gennuso",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Salvatore Geraci",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Sud Chiama Nord",
+     "sesso": "M"
+    },
+    {
+     "nome": "Mario Giambona",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Carlo Gilistro",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "M"
+    },
+    {
+     "nome": "Bernardette Felice Grasso",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "F"
+    },
+    {
+     "nome": "Marco Intravaia",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giuseppe Laccoto",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Prima L'Italia-Lega Salvini Premier",
+     "sesso": "M"
+    },
+    {
+     "nome": "Annunziata Luisa Lantieri",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "F"
+    },
+    {
+     "nome": "Calogero Leanza",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alessandro De Leo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Sud Chiama Nord",
+     "sesso": "M"
+    },
+    {
+     "nome": "Dario Daidone Letterio",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giuseppe Lombardo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Sud Chiama Nord",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giuseppe Lombardo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "In Sicilia-Renato Schifani Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Antonio De Luca",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "M"
+    },
+    {
+     "nome": "Cateno De Luca",
+     "ruolo": "Consigliere (candidato presidente)",
+     "dettaglio": "Sud Chiama Nord",
+     "sesso": "M"
+    },
+    {
+     "nome": "Michele Mancuso",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Jose Marano",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "M"
+    },
+    {
+     "nome": "Serafina Marchetta",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "In Sicilia-Renato Schifani Presidente",
+     "sesso": "F"
+    },
+    {
+     "nome": "Giovanni Roberto Di Mauro",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Popolari e Autonomisti",
+     "sesso": "M"
+    },
+    {
+     "nome": "Andrea Barbaro Messina",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Democrazia Cristiana",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giovanni Miccichè",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Carmelo Pace",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Democrazia Cristiana",
+     "sesso": "M"
+    },
+    {
+     "nome": "Nunzio Di Paola",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "M"
+    },
+    {
+     "nome": "Stefano Pellegrino",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Santo Primavera",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Popolari e Autonomisti",
+     "sesso": "M"
+    },
+    {
+     "nome": "Margherita La Rocca Ruvolo",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "F"
+    },
+    {
+     "nome": "Dario Safina",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Luca Rosario Luigi Sammartino",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Prima L'Italia-Lega Salvini Premier",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giuseppa Savarino",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+     "sesso": "F"
+    },
+    {
+     "nome": "Ersilia Saverino",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "F"
+    },
+    {
+     "nome": "Renato Schifani",
+     "ruolo": "Consigliere (candidato presidente)",
+     "dettaglio": "In Sicilia-Renato Schifani Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Roberta Schillaci",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "F"
+    },
+    {
+     "nome": "Matteo Sciotto",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Sud Chiama Nord",
+     "sesso": "M"
+    },
+    {
+     "nome": "Tiziano Fabio Spada",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Luigi Sunseri",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "M"
+    },
+    {
+     "nome": "Edmondo Tamajo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Girolamo Turano",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Prima L'Italia-Lega Salvini Premier",
+     "sesso": "M"
+    },
+    {
+     "nome": "Ismaele La Vardera",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Sud Chiama Nord",
+     "sesso": "M"
+    },
+    {
+     "nome": "Adriano Varrica",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "M"
+    },
+    {
+     "nome": "Davide Maria Vasta",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Sud Chiama Nord",
+     "sesso": "M"
+    },
+    {
+     "nome": "Sebastiano Venezia",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Gaspare Vitrano",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giuseppe Zitelli",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+     "sesso": "M"
+    }
+   ],
+   "contatti": {
+    "nome": "Regione Siciliana",
+    "pec": "segreteria.generale@certmail.regione.sicilia.it",
+    "sito": "https://www.regione.sicilia.it"
+   },
+   "consiglio": {
+    "nome": "Assemblea regionale siciliana",
+    "sito": "https://www.ars.sicilia.it"
+   }
+  },
+  {
+   "codice": "09",
+   "nome": "Toscana",
+   "slug": "toscana",
+   "inChiaro": false,
+   "presidente": {
+    "nome": "Eugenio Giani",
+    "ruolo": "Presidente della Regione",
+    "dettaglio": "Alleanza Verdi e Sinistra · Alleanza Verdi e Sinistra · Eugenio Giani Presidente Casa Riformista · Eugenio Giani Presidente Casa Riformista · Movimento 5 Stelle · Partito Democratico · Partito Democratico",
+    "sesso": "M"
+   },
+   "giunta": [],
+   "consiglieri": [
+    {
+     "nome": "Marcella Amadio",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "F"
+    },
+    {
+     "nome": "Brenda Barnini",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "F"
+    },
+    {
+     "nome": "Simone Bezzini",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Matteo Biffoni",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Filippo Boni",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alessandro Capecchi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Francesco Casini",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Eugenio Giani Presidente Casa Riformista",
+     "sesso": "M"
+    },
+    {
+     "nome": "Jacopo Cellai",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Federico Eligi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Eugenio Giani Presidente Casa Riformista",
+     "sesso": "M"
+    },
+    {
+     "nome": "Lorenzo Falchi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Alleanza Verdi e Sinistra",
+     "sesso": "M"
+    },
+    {
+     "nome": "Vittorio Fantozzi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Jacopo Maria Ferri",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia-Udc-Tomasi Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alessandro Franchi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Irene Galletti",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "F"
+    },
+    {
+     "nome": "Claudio Gemelli",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Massimiliano Ghimenti",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Alleanza Verdi e Sinistra",
+     "sesso": "M"
+    },
+    {
+     "nome": "Marco Guidi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Gianni Lorenzetti",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Leonardo Marras",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Antonio Mazzeo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Luca Minucci",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alessandra Nardini",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "F"
+    },
+    {
+     "nome": "Mario Puppa",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Simona Querci",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "F"
+    },
+    {
+     "nome": "Stefania Saccardi",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Eugenio Giani Presidente Casa Riformista",
+     "sesso": "F"
+    },
+    {
+     "nome": "Vittorio Salotti",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Eugenio Giani Presidente Casa Riformista",
+     "sesso": "M"
+    },
+    {
+     "nome": "Serena Spinelli",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "F"
+    },
+    {
+     "nome": "Marco Stella",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia-Udc-Tomasi Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alessandro Tomasi",
+     "ruolo": "Consigliere (candidato presidente)",
+     "dettaglio": "È Ora! Lista Civica Tomasi Presidente · Forza Italia-Udc-Tomasi Presidente · Fratelli D'Italia · Lega Toscana per Salvini Premier · Noi Moderati Civici per Tomasi · Noi Moderati Civici per Tomasi",
+     "sesso": "M"
+    },
+    {
+     "nome": "Enrico Tucci",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Andrea Vannucci",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Gabriele Veneri",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Matteo Zoppini",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    }
+   ],
+   "contatti": {
+    "nome": "Regione Toscana",
+    "pec": "regionetoscana@postacert.toscana.it",
+    "sito": "https://www.regione.toscana.it"
+   },
+   "consiglio": {
+    "nome": "Consiglio regionale della Toscana",
+    "sito": "https://www.consiglio.regione.toscana.it"
+   }
+  },
+  {
+   "codice": "04",
+   "nome": "Trentino-Alto Adige",
+   "slug": "trentino-alto-adige",
+   "inChiaro": false,
+   "presidente": null,
+   "giunta": [],
+   "consiglieri": [],
+   "contatti": {
+    "nome": "Regione Autonoma Trentino-Alto Adige/Suedtirol",
+    "pec": "protocollo@pec.regione.taa.it",
+    "sito": "https://www.regione.taa.it"
+   },
+   "consiglio": {
+    "nome": "Consiglio regionale del Trentino-Alto Adige",
+    "sito": "https://www.consiglio.regione.taa.it/it/"
+   }
+  },
+  {
+   "codice": "10",
+   "nome": "Umbria",
+   "slug": "umbria",
+   "inChiaro": false,
+   "presidente": {
+    "nome": "Stefania Proietti",
+    "ruolo": "Presidente della Regione",
+    "dettaglio": "Alleanza Verdi e Sinistra · Civici Umbri · Movimento 5 Stelle · Partito Democratico · Umbria Domani Proietti Presidente · Umbria Futura - Riformisti e Civici Proietti Presidente · Umbria per la Sanità Pubblica",
+    "sesso": "F"
+   },
+   "giunta": [
+    {
+     "nome": "Tommaso Bori",
+     "ruolo": "Vicepresidente e assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Fabio Barcaioli",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Francesco De Rebotti",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Simona Meloni",
+     "ruolo": "Assessora",
+     "sesso": "F"
+    },
+    {
+     "nome": "Stefania Proietti",
+     "ruolo": "Assessora",
+     "sesso": "F"
+    },
+    {
+     "nome": "Thomas De Luca",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    }
+   ],
+   "consiglieri": [
+    {
+     "nome": "Paola Agabiti",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "F"
+    },
+    {
+     "nome": "Nilo Arcudi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Tesei Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Cristian Betti",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Sarah Bistocchi",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "F"
+    },
+    {
+     "nome": "Tommaso Bori",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Francesco Filipponi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Enrico Melasecche Germini",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega",
+     "sesso": "M"
+    },
+    {
+     "nome": "Matteo Giambartolomei",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Stefano Lisci",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Simona Meloni",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "F"
+    },
+    {
+     "nome": "Letizia Michelini",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "F"
+    },
+    {
+     "nome": "Eleonora Pace",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia",
+     "sesso": "F"
+    },
+    {
+     "nome": "Laura Pernazza",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "F"
+    },
+    {
+     "nome": "Maria Grazia Proietti",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "F"
+    },
+    {
+     "nome": "Francesco De Rebotti",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "sesso": "M"
+    },
+    {
+     "nome": "Fabrizio Ricci",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Alleanza Verdi e Sinistra",
+     "sesso": "M"
+    },
+    {
+     "nome": "Andrea Romizi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia",
+     "sesso": "M"
+    },
+    {
+     "nome": "Luca Simonetti",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "M"
+    },
+    {
+     "nome": "Bianca Maria Tagliaferri",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Umbria Domani Proietti Presidente",
+     "sesso": "F"
+    },
+    {
+     "nome": "Donatella Tesei",
+     "ruolo": "Consigliera (candidato presidente)",
+     "dettaglio": "Alternativa Popolare · Forza Italia · Fratelli D'Italia · Lega · Noi Moderati - Civici per L'Umbria · Tesei Presidente · Unione di Centro",
+     "sesso": "F"
+    }
+   ],
+   "contatti": {
+    "nome": "Regione Umbria",
+    "pec": "regione.giunta@postacert.umbria.it",
+    "sito": "https://www.regione.umbria.it"
+   },
+   "consiglio": {
+    "nome": "Assemblea legislativa dell'Umbria",
+    "sito": "https://consiglio.regione.umbria.it"
+   }
+  },
+  {
+   "codice": "02",
+   "nome": "Valle d'Aosta",
+   "slug": "valle-d-aosta",
+   "inChiaro": false,
+   "presidente": {
+    "nome": "Renzo Testolin",
+    "ruolo": "Presidente della Regione",
+    "dettaglio": "- Lista Non Pervenuta -",
+    "sesso": "M"
+   },
+   "giunta": [
+    {
+     "nome": "Carlo Marzi",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Davide Sapinet",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Erik Lavevaz",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giulio Grosjacques",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Leonardo Lotto",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Luigi Giovanni Bertschy",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Mauro Baccega",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Speranza Girod",
+     "ruolo": "Assessora",
+     "sesso": "F"
+    }
+   ],
+   "consiglieri": [
+    {
+     "nome": "Stefano Aggravi",
+     "ruolo": "Presidente del consiglio regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "M"
+    },
+    {
+     "nome": "Mauro Baccega",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "M"
+    },
+    {
+     "nome": "Eleonora Baccini",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "F"
+    },
+    {
+     "nome": "Corrado Bellora",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "M"
+    },
+    {
+     "nome": "Luigi Giovanni Bertschy",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "M"
+    },
+    {
+     "nome": "Josette Borre",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "F"
+    },
+    {
+     "nome": "Marco Carrel",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "M"
+    },
+    {
+     "nome": "Fulvio Centoz",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "M"
+    },
+    {
+     "nome": "Aldo Domanico",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "M"
+    },
+    {
+     "nome": "Clotilde Forcellati",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "F"
+    },
+    {
+     "nome": "Speranza Girod",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "F"
+    },
+    {
+     "nome": "Giulio Grosjacques",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "M"
+    },
+    {
+     "nome": "Jean Pierre Guichardaz",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "M"
+    },
+    {
+     "nome": "Corrado Jordan",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "M"
+    },
+    {
+     "nome": "Massimo Lattanzi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "M"
+    },
+    {
+     "nome": "Erik Lavevaz",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "M"
+    },
+    {
+     "nome": "Leonardo Lotto",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "M"
+    },
+    {
+     "nome": "Cristina Machet",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "F"
+    },
+    {
+     "nome": "Andrea Fabrizio Manfrin",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "M"
+    },
+    {
+     "nome": "Aurelio Marguerettaz",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "M"
+    },
+    {
+     "nome": "Pierluigi Marquis",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "M"
+    },
+    {
+     "nome": "Michel Martinet",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "M"
+    },
+    {
+     "nome": "Carlo Marzi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "M"
+    },
+    {
+     "nome": "Chiara Minelli",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "F"
+    },
+    {
+     "nome": "Simone Perron",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "M"
+    },
+    {
+     "nome": "Loredana Petey",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "F"
+    },
+    {
+     "nome": "Davide Sapinet",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "M"
+    },
+    {
+     "nome": "Marco Sorbara",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "M"
+    },
+    {
+     "nome": "Renzo Testolin",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "M"
+    },
+    {
+     "nome": "Eugenio Torrione",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "M"
+    },
+    {
+     "nome": "Luisa Anna Trione",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "F"
+    },
+    {
+     "nome": "Massimiliano Tuccari",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "M"
+    },
+    {
+     "nome": "Laurent Dino Stephan Vierin",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "M"
+    },
+    {
+     "nome": "Marco Vierin",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alberto Zucchi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "- Lista Non Pervenuta -",
+     "sesso": "M"
+    }
+   ],
+   "contatti": {
+    "nome": "Regione Autonoma Valle D'Aosta",
+    "pec": "segretario_generale@pec.regione.vda.it",
+    "sito": "https://www.regione.vda.it"
+   },
+   "consiglio": {
+    "nome": "Consiglio della Valle d'Aosta",
+    "sito": "https://www.consiglio.vda.it"
+   }
+  },
+  {
+   "codice": "05",
+   "nome": "Veneto",
+   "slug": "veneto",
+   "inChiaro": false,
+   "presidente": {
+    "nome": "Alberto Stefani",
+    "ruolo": "Presidente della Regione",
+    "dettaglio": "Forza Italia Berlusconi Autonomia per il Veneto · Fratelli D'Italia - Giorgia Meloni · Lega - Liga Veneta Stefani Presidente · Liga Veneta Repubblica V.a. · Noi Moderati Civici per Stefani · Unione di Centro",
+    "sesso": "M"
+   },
+   "giunta": [
+    {
+     "nome": "Lucas Pavanetto",
+     "ruolo": "Vicepresidente e assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Dario Bond",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Diego Ruzza",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Elisa Venturini",
+     "ruolo": "Assessora",
+     "sesso": "F"
+    },
+    {
+     "nome": "Filippo Giacinti",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Gino Gerosa",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Marco Zecchinato",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Massimo Bitonci",
+     "ruolo": "Assessore",
+     "sesso": "M"
+    },
+    {
+     "nome": "Paola Roma",
+     "ruolo": "Assessora",
+     "sesso": "F"
+    },
+    {
+     "nome": "Valeria Mantovan",
+     "ruolo": "Assessora",
+     "sesso": "F"
+    }
+   ],
+   "consiglieri": [
+    {
+     "nome": "Luca Zaia",
+     "ruolo": "Presidente del consiglio regionale",
+     "sesso": "M"
+    },
+    {
+     "nome": "Flavio Baldan",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Movimento 5 Stelle",
+     "sesso": "M"
+    },
+    {
+     "nome": "Riccardo Barbisan",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega - Liga Veneta Stefani Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giorgia Bedin",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Lega - Liga Veneta Stefani Presidente",
+     "sesso": "F"
+    },
+    {
+     "nome": "Elisa De Berti",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Lega - Liga Veneta Stefani Presidente",
+     "sesso": "F"
+    },
+    {
+     "nome": "Laura Besio",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "F"
+    },
+    {
+     "nome": "Alessia Bevilacqua",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Lega - Liga Veneta Stefani Presidente",
+     "sesso": "F"
+    },
+    {
+     "nome": "Alessandro Del Bianco",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico - Manildo Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Anna Maria Bigon",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico - Manildo Presidente",
+     "sesso": "F"
+    },
+    {
+     "nome": "Dario Bond",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Claudio Borgia",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alberto Bozza",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia Berlusconi Autonomia per il Veneto",
+     "sesso": "M"
+    },
+    {
+     "nome": "Sonia Brescacin",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Lega - Liga Veneta Stefani Presidente",
+     "sesso": "F"
+    },
+    {
+     "nome": "Francesco Calzavara",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega - Liga Veneta Stefani Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Rossella Cendron",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Le Civiche Venete per Manildo Presidente",
+     "sesso": "F"
+    },
+    {
+     "nome": "Rosanna Conte",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Lega - Liga Veneta Stefani Presidente",
+     "sesso": "F"
+    },
+    {
+     "nome": "Cristiano Corazzari",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega - Liga Veneta Stefani Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Carlo Cunegato",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Alleanza Verdi e Sinistra",
+     "sesso": "M"
+    },
+    {
+     "nome": "Paolo Galeano",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico - Manildo Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Filippo Giacinti",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Manuela Lanzarin",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Lega - Liga Veneta Stefani Presidente",
+     "sesso": "F"
+    },
+    {
+     "nome": "Anna Leso",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "F"
+    },
+    {
+     "nome": "Davide Lovat",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Szumski Resistere Veneto",
+     "sesso": "M"
+    },
+    {
+     "nome": "Chiara Luisetto",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico - Manildo Presidente",
+     "sesso": "F"
+    },
+    {
+     "nome": "Jacopo Maltauro",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia Berlusconi Autonomia per il Veneto",
+     "sesso": "M"
+    },
+    {
+     "nome": "Giovanni Manildo",
+     "ruolo": "Consigliere (candidato presidente)",
+     "dettaglio": "Alleanza Verdi e Sinistra · Le Civiche Venete per Manildo Presidente · Movimento 5 Stelle · Movimento 5 Stelle · Pace Salute Lavoro - Rifondazione Comunista · Partito Democratico - Manildo Presidente · Uniti per Manildo Presidente · Volt Europa - Manildo Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Valeria Mantovan",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "F"
+    },
+    {
+     "nome": "Roberto Marcato",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega - Liga Veneta Stefani Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Andrea Micalizzi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico - Manildo Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Jonatan Montanariello",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico - Manildo Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Alessio Morosin",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Liga Veneta Repubblica V.a.",
+     "sesso": "M"
+    },
+    {
+     "nome": "Eleonora Mosco",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Lega - Liga Veneta Stefani Presidente",
+     "sesso": "F"
+    },
+    {
+     "nome": "Elena Ostanel",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Alleanza Verdi e Sinistra",
+     "sesso": "F"
+    },
+    {
+     "nome": "Eric Pasqualon",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Unione di Centro",
+     "sesso": "M"
+    },
+    {
+     "nome": "Lucas Pavanetto",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Antonio Marco Dalla Pozza",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico - Manildo Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Matteo Pressi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega - Liga Veneta Stefani Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Filippo Rigo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega - Liga Veneta Stefani Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Nicolò Maria Rocco",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Uniti per Manildo Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Paola Roma",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Lega - Liga Veneta Stefani Presidente",
+     "sesso": "F"
+    },
+    {
+     "nome": "Francesco Rucco",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Diego Ruzza",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli D'Italia - Giorgia Meloni",
+     "sesso": "M"
+    },
+    {
+     "nome": "Monica Sambo",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Partito Democratico - Manildo Presidente",
+     "sesso": "F"
+    },
+    {
+     "nome": "Alberto Stefani",
+     "ruolo": "Consigliere (candidato presidente)",
+     "dettaglio": "Lega - Liga Veneta Stefani Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Riccardo Szumski",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Szumski Resistere Veneto",
+     "sesso": "M"
+    },
+    {
+     "nome": "Andrea Tomaello",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega - Liga Veneta Stefani Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Gianpaolo Trevisi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico - Manildo Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Stefano Valdegamberi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega - Liga Veneta Stefani Presidente",
+     "sesso": "M"
+    },
+    {
+     "nome": "Elisa Venturini",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Forza Italia Berlusconi Autonomia per il Veneto",
+     "sesso": "F"
+    },
+    {
+     "nome": "Roberta Vianello",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Lega - Liga Veneta Stefani Presidente",
+     "sesso": "F"
+    },
+    {
+     "nome": "Marco Zecchinato",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega - Liga Veneta Stefani Presidente",
+     "sesso": "M"
+    }
+   ],
+   "contatti": {
+    "nome": "Regione del Veneto",
+    "pec": "protocollo.generale@pec.regione.veneto.it",
+    "sito": "https://www.regione.veneto.it"
+   },
+   "consiglio": {
+    "nome": "Consiglio regionale del Veneto",
+    "sito": "https://www.consiglioveneto.it"
+   }
+  }
+ ]
+}

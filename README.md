@@ -28,7 +28,7 @@ npm run dev           # sviluppo locale
 | Eurodeputati | API del Parlamento europeo + `data/manual/eurodeputati-sud.json` | email istituzionale dalla scheda di ogni eurodeputato; la pipeline segnala chi non è più in carica |
 | Contatti dei Comuni | Indice delle PA (IPA, AgID) | solo PEC e sito: gli altri indirizzi a volte sono di singoli dipendenti |
 | Uffici dei Comuni ("A chi mi rivolgo?") | IPA, unità organizzative (`ou.txt`) | ufficio scelto per parole chiave in `CATEGORIE_UFFICI`; si pubblicano solo telefono, email d'ufficio e PEC (niente nomi dei responsabili né email personali o per le fatture) |
-| ASL di ogni comune | IPA (enti L7) + `data/manual/asl-napoli.json` | una ASL per provincia; in provincia di Napoli abbinamento verificato sui distretti delle tre ASL |
+| ASL di ogni comune | Ministero della Salute, "Corrispondenze ASL-Comuni" (tutta Italia) + IPA per PEC e sito (`data/manual/asl-ipa.json` per i nomi che non si abbinano da soli) | |
 | Risultati elettorali | open data del Ministero dell'Interno (Eligendo/DAIT), via `scripts/elezioni.mjs` | ultime comunali del comune (la tornata in cui è stata eletta l'amministrazione in carica), regionali 2025, politiche 2022 (Camera, voti alle liste), europee 2024; in `data/raw/` si tengono solo le righe della regione. Alcune tornate sono in Excel: le legge `scripts/xlsx.mjs`, senza dipendenze |
 | PEC di Regione e Consiglio regionale | IPA (`r_campan`, `cr_campa`) | per "Chiedi un documento" |
 | Frazioni e località | ISTAT, località abitate del Censimento 2021 | centri e nuclei abitati con almeno 100 abitanti, per cercare il comune dalla frazione |

@@ -1,6 +1,7 @@
 {
  "generato": "2026-10-03",
  "regione": "Campania",
+ "comuni": 7896,
  "fonti": [
   {
    "id": "istat-comuni",
@@ -33,9 +34,10 @@
   },
   {
    "id": "asl",
-   "nome": "Distretti sanitari delle ASL di Napoli (abbinamento comune → ASL)",
-   "ente": "ASL Napoli 1, 2 e 3 (verificato a mano)",
-   "url": "https://www.aslnapoli2nord.it/strutture/distretti/"
+   "nome": "Corrispondenze ASL-Comuni (abbinamento comune → ASL)",
+   "ente": "Ministero della Salute",
+   "url": "https://www.dati.salute.gov.it/dataset/corrispondenze_asl_comuni_popolazione_residente.jsp",
+   "raccolto": "2026-10-03"
   },
   {
    "id": "istat-localita",
@@ -49,7 +51,7 @@
    "nome": "Codici di avviamento postale dei comuni",
    "ente": "Wikidata",
    "url": "https://www.wikidata.org/wiki/Property:P281",
-   "raccolto": "2026-10-02"
+   "raccolto": "2026-10-03"
   },
   {
    "id": "istat-collegi",
@@ -63,7 +65,7 @@
    "nome": "Open data della Camera dei deputati",
    "ente": "Camera dei deputati",
    "url": "https://dati.camera.it/",
-   "raccolto": "2026-10-02"
+   "raccolto": "2026-10-03"
   },
   {
    "id": "senato",
@@ -115,8 +117,18 @@
   }
  ],
  "avvisi": [
-  "Nessun amministratore per Gioia Sannitica (061041)",
-  "Nessun amministratore per Marigliano (063043)",
-  "Nessun amministratore per Sant'Agata de' Goti (062070)"
+  "Comuni del Ministero dell'Interno non trovati nell'elenco ISTAT (fusioni recenti?): 7 (MURISENGO MONFERRATO (AL), CASTEGNERO NANTO (VI), SAN DORLIGO DELLA VALLE-DOLINA (TS), VALLECROSIA AL MARE (IM), JONADI (VV), MOJO ALCANTARA (ME), TRIPI - ABAKAINON (ME))",
+  "Comuni senza contatti nell'IPA: 4 (Caines (021014), Castegnero (024027), Lirio (018082), Nanto (024071))",
+  "Comunali del 17/05/2026: tornata nuova, aggiungerla a TORNATE in scripts/elezioni.mjs",
+  "Elezioni politiche 2022: nessun dato per 12 comuni (Bardello con Malgesso e Bregano, Calliano Monferrato, Campospinoso Albaredo, Grana Monferrato, Montagna sulla strada del vino, Montemagno Monferrato, Moransengo-Tonengo, Popoli Terme, …)",
+  "Elezioni europee 2024: nessun dato per 2 comuni (Ionadi, San Dorligo della Valle)",
+  "Elezioni comunali 03/10/2021: 3 comuni non riconosciuti (POPOLI (ABRUZZO), CASORZO (PIEMONTE), ALANO DI PIAVE (VENETO))",
+  "Elezioni comunali 12/06/2022: 1 comuni non riconosciuti (BARDELLO (LOMBARDIA))",
+  "Elezioni comunali 24/05/2026: 1 comuni non riconosciuti (CASTEGNERO NANTO (VENETO))",
+  "Elezioni politiche 2022: 20 comuni non riconosciuti (CALLIANO (PIEMONTE 2), GRANA (PIEMONTE 2), MONTEMAGNO (PIEMONTE 2), MORANSENGO (PIEMONTE 2), TONENGO (PIEMONTE 2), BARDELLO (LOMBARDIA 2), …)",
+  "Elezioni europee 2024: 2 comuni non riconosciuti (SAN DORLIGO DELLA VALLE-DOLINA (FRIULI-VENEZIA GIULIA), JONADI (CALABRIA))",
+  "Comuni senza amministratori nell'anagrafe del Ministero: 23 (Aci Catena (087003), Castegnero (024027), Faenza (039010), Gioia Sannitica (061041), Grimacco (030045), Ionadi (102017), Lirio (018082), Marigliano (063043), …)",
+  "Comuni senza collegio ISTAT: 6 (Bardello con Malgesso e Bregano (012144), Moransengo-Tonengo (005122), Santa Caterina d'Este (028108), Setteville (025075), Sovizzo (024128), Uggiate con Ronago (013256))",
+  "Regioni assenti nell'anagrafe regionale del Ministero: 2 (Marche, Trentino-Alto Adige)"
  ]
 }

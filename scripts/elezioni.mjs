@@ -1,6 +1,6 @@
-// Risultati elettorali per comune dagli open data del Ministero dell'Interno (Eligendo / DAIT).
-// Ultime comunali del comune, regionali 2025, politiche 2022 (Camera) ed europee 2024.
-// Gli archivi sono grandi (le europee superano i 100 MB): teniamo in cache solo le righe della regione, già normalizzate.
+// Risultati elettorali per comune dagli open data del Ministero dell'Interno (Eligendo / DAIT), tutta Italia.
+// Ultime comunali del comune, regionali 2025 (dove si è votato), politiche 2022 (Camera) ed europee 2024.
+// Gli archivi sono grandi (le europee superano i 100 MB): in cache teniamo solo le colonne che servono.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -115,7 +115,7 @@ async function caricaZip(url, ua) {
  * Scarica un archivio, legge i file indicati e tiene solo le righe della regione, in un JSON di cache.
  * `file`: elenco di { match: RegExp, come: nome logico }.
  */
-async function righeRegione({ RAW, REFRESH, UA, cache, url, file, filtro }) {
+async function righeRegione({ RAW, REFRESH, UA, cache, url, file, filtro = () => true, tieni }) {
   const p = path.join(RAW, cache);
   if (!REFRESH && fs.existsSync(p)) return JSON.parse(fs.readFileSync(p, "utf8"));
   console.log(`  ↓ ${cache} (da ${url.split("/").pop()})`);
@@ -124,7 +124,8 @@ async function righeRegione({ RAW, REFRESH, UA, cache, url, file, filtro }) {
   for (const { match, come } of file) {
     const e = zip.getEntries().find((x) => match.test(x.entryName));
     if (!e) throw new Error(`${url}: file ${match} non trovato`);
-    out[come] = oggetti(e.entryName, e.getData()).filter(filtro);
+    const righe = oggetti(e.entryName, e.getData()).filter(filtro);
+    out[come] = tieni ? righe.map((x) => Object.fromEntries(tieni.filter((k) => x[k] !== undefined && x[k] !== "").map((k) => [k, x[k]]))) : righe;
   }
   fs.writeFileSync(p, JSON.stringify(out));
   return out;
@@ -164,6 +165,13 @@ const TORNATE = {
       { match: /Scrutini_LivComune/i, come: "scrutini" },
     ],
   },
+  "07/06/2026": {
+    zip: "20260607",
+    file: [
+      { match: /Liste&Cand_LivComune/i, come: "liste" },
+      { match: /Scrutini_LivComune/i, come: "scrutini" },
+    ],
+  },
 };
 
 const dataEstesa = (gg) => {
@@ -180,17 +188,24 @@ function classifica(voti, totale, n) {
     .map((x) => ({ ...x, pct: pct(x.voti, totale) }));
 }
 
+/** Chiave regione: "CAMPANIA 1" (circoscrizione), "Trentino-Alto Adige/Südtirol", "EMILIA ROMAGNA" → stessa forma. */
+const chiaveRegione = (s) => normNome((s ?? "").split("/")[0].replace(/\s+\d+$/, ""));
+/** Nome del comune senza la parte in altra lingua ("BOLZANO/BOZEN"). */
+const chiaveComune = (s) => normNome((s ?? "").split("/")[0]);
+
 /**
- * Risultati per comune (chiave: codice ISTAT).
- * comuni: [{ istat, nome }], dataComunali: Map istat → "gg/mm/aaaa" (ultime comunali, dall'anagrafe amministratori).
+ * Risultati per comune (chiave: codice ISTAT), per tutta Italia.
+ * comuni: [{ istat, nome, codiceRegione, regione }], dataComunali: Map istat → "gg/mm/aaaa" (ultime comunali).
+ * Non ci sono due comuni con lo stesso nome nella stessa regione: la chiave regione + nome è univoca.
  */
-export async function elezioniPerComune({ RAW, REFRESH, UA, regione, comuni, dataComunali, warn }) {
-  const REG = regione.toUpperCase();
-  const perNome = new Map(comuni.map((c) => [normNome(c.nome), c.istat]));
+export async function elezioniPerComune({ RAW, REFRESH, UA, comuni, dataComunali, warn }) {
+  const perNome = new Map(comuni.map((c) => [`${chiaveRegione(c.regione)}|${chiaveComune(c.nome)}`, c.istat]));
+  const regioneDi = new Map(comuni.map((c) => [c.istat, c.codiceRegione]));
   const ris = new Map(comuni.map((c) => [c.istat, []]));
-  const istatDi = (nome, contesto) => {
-    const k = perNome.get(normNome(nome));
-    if (!k) warn(`Elezioni ${contesto}: comune "${nome}" non riconosciuto`);
+  const nonTrovati = new Map(); // contesto → nomi
+  const istatDi = (regione, nome, contesto) => {
+    const k = perNome.get(`${chiaveRegione(regione)}|${chiaveComune(nome)}`);
+    if (!k) (nonTrovati.get(contesto) ?? nonTrovati.set(contesto, new Set()).get(contesto)).add(`${nome} (${regione})`);
     return k;
   };
   // I risultati di un'elezione passata non cambiano: non li riscarichiamo a ogni --refresh (sono archivi da oltre 100 MB).
@@ -208,22 +223,22 @@ export async function elezioniPerComune({ RAW, REFRESH, UA, regione, comuni, dat
     if (!servono.has(gg)) continue;
     const d = await righeRegione({
       ...opz,
-      cache: `elezioni-comunali-${t.zip}.json`,
+      cache: `elezioni-comunali-${t.zip}-italia.json`,
       url: `${BASE}/comunali/comunali-${t.zip}.zip`,
       file: t.file,
-      filtro: (r) => campo(r, "REGIONE") === REG,
     });
     const righe = [...(d.liste ?? []).map((r) => ({ ...r, TURNO: campo(r, "TURNO") || "1" })), ...(d.liste2 ?? []).map((r) => ({ ...r, TURNO: "2" }))];
     const scrutini = new Map(); // istat|turno → { elettori, votanti }
     for (const r of [...(d.scrutini ?? []), ...righe]) {
       const e = num(campo(r, "ELETTORITOT", "ELETTORITOTALI", "ELETTORI"));
       const v = num(campo(r, "VOTANTITOT", "VOTANTITOTALI", "NUMVOTANTITOTALI"));
-      const k = `${normNome(campo(r, "COMUNE"))}|${campo(r, "TURNO") || "1"}`;
+      const k = `${chiaveRegione(campo(r, "REGIONE"))}|${chiaveComune(campo(r, "COMUNE"))}|${campo(r, "TURNO") || "1"}`;
       if (e && !scrutini.has(k)) scrutini.set(k, { elettori: e, votanti: v });
     }
-    const perComune = Map.groupBy(righe, (r) => campo(r, "COMUNE"));
-    for (const [nome, rr] of perComune) {
-      const istat = istatDi(nome, `comunali ${gg}`);
+    const perComune = Map.groupBy(righe, (r) => `${campo(r, "REGIONE")}|${campo(r, "COMUNE")}`);
+    for (const [chiave, rr] of perComune) {
+      const [regNome, nome] = chiave.split("|");
+      const istat = istatDi(regNome, nome, `comunali ${gg}`);
       if (!istat || dataComunali.get(istat) !== gg) continue;
       const turno = Math.max(...rr.map((r) => Number(r.TURNO)));
       const delTurno = rr.filter((r) => Number(r.TURNO) === turno);
@@ -239,7 +254,7 @@ export async function elezioniPerComune({ RAW, REFRESH, UA, regione, comuni, dat
         candidati.set(nomeC, c);
       }
       const tot = [...candidati.values()].reduce((s, c) => s + c.voti, 0);
-      const sc = scrutini.get(`${normNome(nome)}|${turno}`);
+      const sc = scrutini.get(`${chiaveRegione(regNome)}|${chiaveComune(nome)}|${turno}`);
       ris.get(istat).push({
         id: "comunali",
         titolo: "Elezioni comunali",
@@ -255,10 +270,10 @@ export async function elezioniPerComune({ RAW, REFRESH, UA, regione, comuni, dat
   }
 
   // --- Elezioni con risultati per lista (e per candidato presidente, alle regionali)
-  const perLista = (righe, { contesto, chiaveComune, chiaveSezione, elettori, votanti, lista, votiLista, candidato, votiCandidato }) => {
+  const perLista = (righe, { contesto, regioneRiga, comuneRiga, chiaveSezione, elettori, votanti, lista, votiLista, candidato, votiCandidato }) => {
     const out = new Map();
     for (const r of righe) {
-      const istat = perNome.get(normNome(chiaveComune(r)));
+      const istat = istatDi(regioneRiga(r), comuneRiga(r), contesto);
       if (!istat) continue;
       const o = out.get(istat) ?? { sezioni: new Map(), liste: new Map(), candidati: new Map() };
       // elettori e votanti si ripetono su ogni riga: li contiamo una volta per "sezione" (es. collegio, per i comuni divisi)
@@ -280,14 +295,15 @@ export async function elezioniPerComune({ RAW, REFRESH, UA, regione, comuni, dat
       for (const x of vals) m.set(x.nome, (m.get(x.nome) ?? 0) + x.voti);
       return [...m].map(([nome, voti]) => ({ nome, voti }));
     };
-    let eTot = 0;
-    let vTot = 0;
+    const totaliRegione = new Map(); // codice regione → { e, v }
     const risultati = new Map();
     for (const [istat, o] of out) {
       const e = [...o.sezioni.values()].reduce((s, x) => s + x.e, 0);
       const v = [...o.sezioni.values()].reduce((s, x) => s + x.v, 0);
-      eTot += e;
-      vTot += v;
+      const t = totaliRegione.get(regioneDi.get(istat)) ?? { e: 0, v: 0 };
+      t.e += e;
+      t.v += v;
+      totaliRegione.set(regioneDi.get(istat), t);
       const liste = somma(o.liste.values());
       const cand = somma(o.candidati.values());
       const totL = liste.reduce((s, x) => s + x.voti, 0);
@@ -301,28 +317,30 @@ export async function elezioniPerComune({ RAW, REFRESH, UA, regione, comuni, dat
         listeAltre: Math.max(0, liste.length - 7),
       });
     }
-    const mancano = comuni.filter((c) => !risultati.has(c.istat)).map((c) => c.nome);
-    if (mancano.length) warn(`Elezioni ${contesto}: nessun dato per ${mancano.join(", ")}`);
-    return { risultati, affluenzaRegione: pct(vTot, eTot) };
+    // comuni delle regioni presenti nel file ma senza risultati
+    const mancano = comuni.filter((c) => totaliRegione.has(c.codiceRegione) && !risultati.has(c.istat)).map((c) => c.nome);
+    if (mancano.length) warn(`Elezioni ${contesto}: nessun dato per ${mancano.length} comuni (${mancano.slice(0, 8).join(", ")}${mancano.length > 8 ? ", …" : ""})`);
+    const affluenzaRegioni = new Map([...totaliRegione].map(([reg, t]) => [reg, pct(t.v, t.e)]));
+    return { risultati, affluenzaRegioni };
   };
 
-  const aggiungi = (base, { risultati, affluenzaRegione }) => {
-    for (const [istat, r] of risultati) ris.get(istat).push({ ...base, ...r, affluenzaRegione });
+  const aggiungi = (base, { risultati, affluenzaRegioni }) => {
+    for (const [istat, r] of risultati) ris.get(istat).push({ ...base, ...r, affluenzaRegione: affluenzaRegioni.get(regioneDi.get(istat)) });
   };
 
   // Regionali 2025
   const reg = await righeRegione({
     ...opz,
-    cache: "elezioni-regionali-20251123.json",
+    cache: "elezioni-regionali-20251123-italia.json",
     url: `${BASE}/regionali/regionali-20251123.zip`,
     file: [{ match: /^20251123_REGIONALI_SCRUTINI\.csv$/i, come: "scrutini" }],
-    filtro: (r) => r.REGIONE === REG,
   });
   aggiungi(
     { id: "regionali", titolo: "Elezioni regionali", data: "23 novembre 2025" },
     perLista(reg.scrutini, {
       contesto: "regionali 2025",
-      chiaveComune: (r) => r.COMUNE,
+      regioneRiga: (r) => r.REGIONE,
+      comuneRiga: (r) => r.COMUNE,
       chiaveSezione: () => "",
       elettori: (r) => r.ELETTORI,
       votanti: (r) => r.VOTANTI,
@@ -336,16 +354,17 @@ export async function elezioniPerComune({ RAW, REFRESH, UA, regione, comuni, dat
   // Politiche 2022, Camera (voti alle liste nella parte proporzionale)
   const cam = await righeRegione({
     ...opz,
-    cache: "elezioni-camera-20220925.json",
+    cache: "elezioni-camera-20220925-italia.json",
     url: `${BASE}/camera/camera-20220925.zip`,
     file: [{ match: /camera2022_Italia_LivComune\.csv$/i, come: "comuni" }],
-    filtro: (r) => r["CIRC-REG"]?.startsWith(REG),
+    tieni: ["CIRC-REG", "COLLUNINOM", "COMUNE", "ELETTORITOT", "VOTANTITOT", "DESCRLISTA", "VOTILISTA"],
   });
   aggiungi(
     { id: "politiche", titolo: "Elezioni politiche (Camera)", data: "25 settembre 2022" },
     perLista(cam.comuni, {
       contesto: "politiche 2022",
-      chiaveComune: (r) => r.COMUNE,
+      regioneRiga: (r) => r["CIRC-REG"],
+      comuneRiga: (r) => r.COMUNE,
       chiaveSezione: (r) => r.COLLUNINOM,
       elettori: (r) => r.ELETTORITOT,
       votanti: (r) => r.VOTANTITOT,
@@ -357,16 +376,17 @@ export async function elezioniPerComune({ RAW, REFRESH, UA, regione, comuni, dat
   // Europee 2024
   const eu = await righeRegione({
     ...opz,
-    cache: "elezioni-europee-20240609.json",
+    cache: "elezioni-europee-20240609-italia.json",
     url: `${BASE}/europee/europee-20240609.zip`,
     file: [{ match: /^EUROPEE_ITALIA_LivComune\.csv$/i, come: "comuni" }],
-    filtro: (r) => r.DESCREGIONE === REG,
+    tieni: ["DESCREGIONE", "DESCCOMUNE", "ELETTORI", "VOTANTI", "DESCLISTA", "NUMVOTI"],
   });
   aggiungi(
     { id: "europee", titolo: "Elezioni europee", data: "9 giugno 2024" },
     perLista(eu.comuni, {
       contesto: "europee 2024",
-      chiaveComune: (r) => r.DESCCOMUNE,
+      regioneRiga: (r) => r.DESCREGIONE,
+      comuneRiga: (r) => r.DESCCOMUNE,
       chiaveSezione: () => "",
       elettori: (r) => r.ELETTORI,
       votanti: (r) => r.VOTANTI,
@@ -375,5 +395,7 @@ export async function elezioniPerComune({ RAW, REFRESH, UA, regione, comuni, dat
     }),
   );
 
+  for (const [contesto, nomi] of nonTrovati)
+    warn(`Elezioni ${contesto}: ${nomi.size} comuni non riconosciuti (${[...nomi].slice(0, 6).join(", ")}${nomi.size > 6 ? ", …" : ""})`);
   return ris;
 }
