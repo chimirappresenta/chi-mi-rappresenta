@@ -1,0 +1,16 @@
+{
+  "_nota": "Gruppi del Consiglio regionale della Campania (XII legislatura), in ordine da sinistra a destra nell'emiciclo. coalizione: maggioranza (centrosinistra, a sostegno del presidente Fico) o opposizione (centrodestra). I nomi devono coincidere con quelli del sito cr.campania.it.",
+  "gruppi": {
+    "Alleanza Verdi e Sinistra": { "sigla": "AVS", "coalizione": "maggioranza", "colore": "#3f9b4f" },
+    "Movimento 5 Stelle": { "sigla": "M5S", "coalizione": "maggioranza", "colore": "#e0b400" },
+    "Roberto Fico Presidente": { "sigla": "Fico Pres.", "coalizione": "maggioranza", "colore": "#f08a3c" },
+    "Partito Democratico": { "sigla": "PD", "coalizione": "maggioranza", "colore": "#d6363b" },
+    "Avanti Campania PSI": { "sigla": "PSI", "coalizione": "maggioranza", "colore": "#e86a8f" },
+    "A Testa Alta": { "sigla": "A Testa Alta", "coalizione": "maggioranza", "colore": "#9b5fc0" },
+    "Casa Riformista (Italia Viva-Noi di Centro)": { "sigla": "Casa Riformista", "coalizione": "maggioranza", "colore": "#c0398a" },
+    "Riformisti e Moderati-Lista Cirielli-ECR (Conservatori, Riformisti,Europei)": { "sigla": "Rif. e Moderati", "coalizione": "opposizione", "colore": "#6b8fbf" },
+    "PPE - Forza Italia": { "sigla": "FI", "coalizione": "opposizione", "colore": "#2f7fd6" },
+    "Lega Cirielli Presidente": { "sigla": "Lega", "coalizione": "opposizione", "colore": "#1f9e9a" },
+    "Fratelli D'Italia": { "sigla": "FdI", "coalizione": "opposizione", "colore": "#2c4f96" }
+  }
+}

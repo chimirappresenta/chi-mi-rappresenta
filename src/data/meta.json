@@ -1,0 +1,122 @@
+{
+ "generato": "2026-10-03",
+ "regione": "Campania",
+ "fonti": [
+  {
+   "id": "istat-comuni",
+   "nome": "Elenco dei comuni italiani",
+   "ente": "ISTAT",
+   "url": "https://www.istat.it/classificazione/codici-dei-comuni-delle-province-e-delle-regioni/",
+   "raccolto": "2026-10-01"
+  },
+  {
+   "id": "viminale",
+   "nome": "Anagrafe degli amministratori locali e regionali",
+   "ente": "Ministero dell'Interno – DAIT",
+   "url": "https://dait.interno.gov.it/elezioni/open-data/amministratori-locali-e-regionali-in-carica",
+   "aggiornato": "24/08/2026",
+   "raccolto": "2026-10-01"
+  },
+  {
+   "id": "ipa",
+   "nome": "Indice delle Pubbliche Amministrazioni (PEC e sito dei Comuni)",
+   "ente": "AgID – IPA",
+   "url": "https://indicepa.gov.it/ipa-portale/consultazione/indirizzo-sede/ricerca-ente",
+   "raccolto": "2026-10-02"
+  },
+  {
+   "id": "ipa-uffici",
+   "nome": "Uffici dei Comuni (unità organizzative)",
+   "ente": "AgID – IPA",
+   "url": "https://indicepa.gov.it/ipa-dati/dataset/ou",
+   "raccolto": "2026-10-02"
+  },
+  {
+   "id": "asl",
+   "nome": "Distretti sanitari delle ASL di Napoli (abbinamento comune → ASL)",
+   "ente": "ASL Napoli 1, 2 e 3 (verificato a mano)",
+   "url": "https://www.aslnapoli2nord.it/strutture/distretti/"
+  },
+  {
+   "id": "istat-localita",
+   "nome": "Località abitate del Censimento 2021 (frazioni)",
+   "ente": "ISTAT",
+   "url": "https://www.istat.it/notizia/basi-territoriali-e-variabili-censuarie/",
+   "raccolto": "2026-10-02"
+  },
+  {
+   "id": "wikidata-cap",
+   "nome": "Codici di avviamento postale dei comuni",
+   "ente": "Wikidata",
+   "url": "https://www.wikidata.org/wiki/Property:P281",
+   "raccolto": "2026-10-02"
+  },
+  {
+   "id": "istat-collegi",
+   "nome": "Basi geografiche dei collegi elettorali (D.Lgs. 177/2020)",
+   "ente": "ISTAT",
+   "url": "https://www.istat.it/notizia/le-basi-geografiche-dei-nuovi-collegi-elettorali-2/",
+   "raccolto": "2026-10-01"
+  },
+  {
+   "id": "camera",
+   "nome": "Open data della Camera dei deputati",
+   "ente": "Camera dei deputati",
+   "url": "https://dati.camera.it/",
+   "raccolto": "2026-10-02"
+  },
+  {
+   "id": "senato",
+   "nome": "Open data del Senato della Repubblica (email dalle schede ufficiali)",
+   "ente": "Senato della Repubblica",
+   "url": "https://dati.senato.it/",
+   "raccolto": "2026-10-02"
+  },
+  {
+   "id": "cr",
+   "nome": "Consiglieri regionali",
+   "ente": "Consiglio regionale della Campania",
+   "url": "https://www.cr.campania.it/consiglio-regionale/consiglieri",
+   "raccolto": "2026-10-01"
+  },
+  {
+   "id": "giunta",
+   "nome": "La Giunta regionale",
+   "ente": "Regione Campania",
+   "url": "https://www.regione.campania.it/regione/la-giunta-regionale",
+   "raccolto": "2026-10-01"
+  },
+  {
+   "id": "pe",
+   "nome": "Open Data Portal – deputati in carica",
+   "ente": "Parlamento europeo",
+   "url": "https://data.europarl.europa.eu/",
+   "raccolto": "2026-10-01"
+  },
+  {
+   "id": "cr-atti",
+   "nome": "Attività dei consiglieri e leggi regionali",
+   "ente": "Consiglio regionale della Campania",
+   "url": "https://www.cr.campania.it/leggi-progetti/leggi-regolamenti",
+   "raccolto": "2026-10-01"
+  },
+  {
+   "id": "eligendo",
+   "nome": "Risultati delle elezioni per comune (open data)",
+   "ente": "Ministero dell'Interno – DAIT (Eligendo)",
+   "url": "https://elezionistorico.interno.gov.it/eligendo/opendata.php",
+   "raccolto": "2026-10-03"
+  },
+  {
+   "id": "wiki-regionali",
+   "nome": "Circoscrizione di elezione dei consiglieri regionali (elezioni 2025)",
+   "ente": "Wikipedia (verificato a mano)",
+   "url": "https://it.wikipedia.org/wiki/Elezioni_regionali_in_Campania_del_2025"
+  }
+ ],
+ "avvisi": [
+  "Nessun amministratore per Gioia Sannitica (061041)",
+  "Nessun amministratore per Marigliano (063043)",
+  "Nessun amministratore per Sant'Agata de' Goti (062070)"
+ ]
+}

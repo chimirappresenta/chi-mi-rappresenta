@@ -1,0 +1,40 @@
+name: Aggiorna dati
+
+on:
+  schedule:
+    - cron: "0 5 * * 1" # ogni lunedì alle 05:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      # Risultati elettorali già estratti: sono storici, li teniamo in cache tra un'esecuzione e l'altra.
+      - uses: actions/cache@v4
+        with:
+          path: data/raw/elezioni-*.json
+          key: elezioni-v1
+      - run: npm run data:refresh
+      # Riassunti delle nuove leggi: solo se nei secrets del repository c'è ANTHROPIC_API_KEY.
+      - name: Riassunti delle leggi
+        if: ${{ env.ANTHROPIC_API_KEY != '' }}
+        run: npm run riassunti && npm run data
+      - run: npm run build
+      - name: Commit dei dati aggiornati
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898733+github-actions[bot]@users.noreply.github.com"
+          git add -A src/data data/manual public/comuni-index.json
+          git diff --cached --quiet || git commit -m "Aggiornamento dati $(date -u +%Y-%m-%d)"
+          git push

@@ -1,0 +1,159 @@
+@import "tailwindcss";
+
+/*
+  Sistema visivo di "Chi mi rappresenta"
+  Fondo carta calda, inchiostro verde-nero, titoli serif grandi, riquadri morbidi su toni pastello:
+  un colore per ciascun livello istituzionale (Comune, Regione, Parlamento, Europa).
+*/
+:root {
+  --bg: #f6f5f1;
+  --surface: #ffffff;
+  --surface-2: #efede7;
+  --ink: #14221f;
+  --ink-2: #44514d;
+  --ink-3: #56615d; /* contrasto ≥ 5:1 sul fondo, leggibile anche per chi vede meno */
+  --line: #dcd8cf;
+  --accent: #1f5a47;
+  --accent-ink: #ffffff;
+  --accent-soft: #e2efe8;
+  --warn: #8a4b12;
+  --warn-soft: #fbeedc;
+  --dots: rgba(20, 34, 31, 0.07);
+
+  /* livelli: tinta forte (testi, bordi) e tinta di fondo pastello */
+  --lv-comune: #1f6b52;
+  --lv-comune-bg: #e3efe7;
+  --lv-regione: #2d5f99;
+  --lv-regione-bg: #e2eaf4;
+  --lv-parlamento: #a0452f;
+  --lv-parlamento-bg: #f5e6dc;
+  --lv-europa: #5b4ba3;
+  --lv-europa-bg: #e9e5f5;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #101514;
+    --surface: #171e1c;
+    --surface-2: #1f2826;
+    --ink: #eef0ec;
+    --ink-2: #b9c2be;
+    --ink-3: #8b9692;
+    --line: #2a3431;
+    --accent: #6fcfa6;
+    --accent-ink: #0d1f18;
+    --accent-soft: #163128;
+    --warn: #f2c27a;
+    --warn-soft: #2e2414;
+    --dots: rgba(238, 240, 236, 0.06);
+
+    --lv-comune: #6fcfa6;
+    --lv-comune-bg: #15291f;
+    --lv-regione: #8db8ee;
+    --lv-regione-bg: #162234;
+    --lv-parlamento: #eb9d84;
+    --lv-parlamento-bg: #2e1d17;
+    --lv-europa: #b4a7ef;
+    --lv-europa-bg: #211c35;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-accent-soft: var(--accent-soft);
+  --color-warn: var(--warn);
+  --color-warn-soft: var(--warn-soft);
+  --font-sans: var(--font-geist-sans);
+  --font-serif: var(--font-instrument);
+}
+
+/* Testo di base un po' più grande del solito (17px): il sito è pensato anche per chi ha più di 60 anni.
+   Per ingrandire ancora si usa lo zoom del browser (Ctrl +), che il layout regge. */
+html {
+  font-size: 106.25%;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.55;
+  /* parole lunghe (indirizzi PEC, nomi di liste) vanno a capo invece di allargare la pagina */
+  overflow-wrap: break-word;
+}
+
+/* Gli elementi di una griglia possono restringersi sotto la larghezza del contenuto:
+   evita che la pagina sbordi su telefono, soprattutto con il testo ingrandito. */
+.grid > * {
+  min-width: 0;
+}
+
+/* Contorno ben visibile per chi naviga con la tastiera */
+:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 8px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* Titoli display: serif grande, peso regolare, lettere ravvicinate */
+.display {
+  font-family: var(--font-instrument), Georgia, serif;
+  font-weight: 400;
+  letter-spacing: -0.035em;
+  line-height: 0.98;
+}
+
+/* Trama a puntini sui riquadri colorati */
+.puntini {
+  background-image: radial-gradient(var(--dots) 1.2px, transparent 1.2px);
+  background-size: 16px 16px;
+}
+
+details > summary {
+  list-style: none;
+  cursor: pointer;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details[open] .chevron {
+  transform: rotate(90deg);
+}
+
+/* Contenitore di pagina: usa tutta la larghezza fino a 1600px, con margini laterali che crescono con lo schermo. */
+.contenitore {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 1600px;
+  padding-inline: 1rem;
+}
+@media (min-width: 640px) {
+  .contenitore {
+    padding-inline: 1.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .contenitore {
+    padding-inline: 2.5rem;
+  }
+}

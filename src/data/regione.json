@@ -1,0 +1,1054 @@
+{
+ "nome": "Campania",
+ "presidente": {
+  "nome": "Roberto Fico",
+  "ruolo": "Presidente della Regione",
+  "dettaglio": "Gruppo: Movimento 5 Stelle",
+  "email": "fico.rob@cr.campania.it",
+  "pec": "fico.rob@pec.cr.campania.it",
+  "tel": "0817783653-3315",
+  "url": "https://www.regione.campania.it/regione/la-giunta-regionale",
+  "username": "FICO.ROB",
+  "gruppo": "Movimento 5 Stelle"
+ },
+ "giunta": [
+  {
+   "nome": "Mario Casillo",
+   "ruolo": "Vicepresidente e assessore",
+   "dettaglio": "Trasporti, Mobilità, Mare",
+   "url": "https://www.regione.campania.it/regione/la-giunta-regionale"
+  },
+  {
+   "nome": "Fulvio Bonavitacola",
+   "ruolo": "Assessore",
+   "dettaglio": "Attività produttive e Sviluppo economico",
+   "url": "https://www.regione.campania.it/regione/la-giunta-regionale"
+  },
+  {
+   "nome": "Vincenzo Cuomo",
+   "ruolo": "Assessore",
+   "dettaglio": "Governo del territorio, Patrimonio",
+   "url": "https://www.regione.campania.it/regione/la-giunta-regionale"
+  },
+  {
+   "nome": "Onofrio Giustino Angelo Cutaia",
+   "ruolo": "Assessore",
+   "dettaglio": "Cultura, Eventi, Personale",
+   "url": "https://www.regione.campania.it/regione/la-giunta-regionale"
+  },
+  {
+   "nome": "Vincenzo Maraio",
+   "ruolo": "Assessore",
+   "dettaglio": "Turismo, Promozione del territorio, Transizione digitale",
+   "url": "https://www.regione.campania.it/regione/la-giunta-regionale"
+  },
+  {
+   "nome": "Andrea Morniroli",
+   "ruolo": "Assessore",
+   "dettaglio": "Politiche sociali, Scuola",
+   "url": "https://www.regione.campania.it/regione/la-giunta-regionale"
+  },
+  {
+   "nome": "Claudia Pecoraro",
+   "ruolo": "Assessore",
+   "dettaglio": "Ambiente, Politiche abitative, Pari opportunità",
+   "url": "https://www.regione.campania.it/regione/la-giunta-regionale"
+  },
+  {
+   "nome": "Angelica Saggese",
+   "ruolo": "Assessore",
+   "dettaglio": "Lavoro, Formazione",
+   "url": "https://www.regione.campania.it/regione/la-giunta-regionale"
+  },
+  {
+   "nome": "Maria Carmela Serluca",
+   "ruolo": "Assessore",
+   "dettaglio": "Agricoltura",
+   "url": "https://www.regione.campania.it/regione/la-giunta-regionale"
+  },
+  {
+   "nome": "Fiorella Zabatta",
+   "ruolo": "Assessore",
+   "dettaglio": "Politiche giovanili, Sport, Protezione civile, Biodiversità, Politiche di riforestazione, Pesca e acquacoltura, Tutela degli animali",
+   "url": "https://www.regione.campania.it/regione/la-giunta-regionale"
+  }
+ ],
+ "consiglieri": [
+  {
+   "nome": "Vincenzo Alaia",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Casa Riformista (Italia Viva-Noi di Centro) (capogruppo) · Partito: Italia Viva",
+   "email": "alaia.vin@cr.campania.it",
+   "pec": "alaia.vin@pec.cr.campania.it",
+   "tel": "0817783479",
+   "commissioni": [
+    "Agricoltura"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Alaia%20Vincenzo?username=ALAIA.VIN&id_tipo_carica=7",
+   "circoscrizione": "Avellino",
+   "username": "ALAIA.VIN",
+   "gruppo": "Casa Riformista (Italia Viva-Noi di Centro)",
+   "ruoloGruppo": "capogruppo"
+  },
+  {
+   "nome": "Francesca Amirante",
+   "ruolo": "Consigliera regionale",
+   "dettaglio": "Gruppo: Partito Democratico",
+   "email": "amirante.fra@cr.campania.it",
+   "pec": "amirante.fra@pec.cr.campania.it",
+   "tel": "0817783999",
+   "commissioni": [
+    "Istruzione e Cultura (vicepresidente)",
+    "Affari istituzionali",
+    "Attività produttive",
+    "Anticamorra e Beni Confiscati"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Amirante%20Francesca?username=AMIRANTE.FRA&id_tipo_carica=7",
+   "circoscrizione": "Napoli",
+   "username": "AMIRANTE.FRA",
+   "gruppo": "Partito Democratico"
+  },
+  {
+   "nome": "Rosario Andreozzi",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Alleanza Verdi e Sinistra (capogruppo)",
+   "email": "andreozzi.ros@cr.campania.it",
+   "pec": "andreozzi.ros@pec.cr.campania.it",
+   "tel": "0817783266",
+   "commissioni": [
+    "Bilancio e Finanza",
+    "Urbanistica",
+    "Istruzione e Cultura",
+    "Ambiente",
+    "Trasparenza",
+    "Condizione della donna"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Andreozzi%20Rosario?username=ANDREOZZI.ROS&id_tipo_carica=7",
+   "circoscrizione": "Napoli",
+   "username": "ANDREOZZI.ROS",
+   "gruppo": "Alleanza Verdi e Sinistra",
+   "ruoloGruppo": "capogruppo"
+  },
+  {
+   "nome": "Raffaele Aveta",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Movimento 5 Stelle",
+   "email": "aveta.raf@cr.campania.it",
+   "pec": "aveta.raf@pec.cr.campania.it",
+   "tel": "0817783718",
+   "commissioni": [
+    "Agricoltura (presidente)",
+    "Anticamorra e Beni Confiscati"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Aveta%20Raffaele?username=AVETA.RAF&id_tipo_carica=7",
+   "circoscrizione": "Caserta",
+   "username": "AVETA.RAF",
+   "gruppo": "Movimento 5 Stelle"
+  },
+  {
+   "nome": "Giuseppe Barra",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Casa Riformista (Italia Viva-Noi di Centro) (vicecapogruppo)",
+   "email": "barra.giu@cr.campania.it",
+   "pec": "barra.giu@pec.cr.campania.it",
+   "tel": "0817783757",
+   "commissioni": [
+    "Sanità e Sicurezza Sociale",
+    "Condizione della donna (vicepresidente)",
+    "Trasparenza",
+    "Anticamorra e Beni Confiscati",
+    "Emergenza Bradisismo"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Barra%20Giuseppe?username=BARRA.GIU&id_tipo_carica=7",
+   "circoscrizione": "Napoli",
+   "username": "BARRA.GIU",
+   "gruppo": "Casa Riformista (Italia Viva-Noi di Centro)",
+   "ruoloGruppo": "vicecapogruppo"
+  },
+  {
+   "nome": "Ciro Buonajuto",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Casa Riformista (Italia Viva-Noi di Centro)",
+   "email": "buonajuto.cir@cr.campania.it",
+   "pec": "buonajuto.cir@pec.cr.campania.it",
+   "tel": "0817783756",
+   "commissioni": [
+    "Affari istituzionali (presidente)"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Buonajuto%20Ciro%20?username=BUONAJUTO.CIR&id_tipo_carica=7",
+   "circoscrizione": "Napoli",
+   "username": "BUONAJUTO.CIR",
+   "gruppo": "Casa Riformista (Italia Viva-Noi di Centro)"
+  },
+  {
+   "nome": "Luca Cascone",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: A Testa Alta · Partito: De Luca Presidente",
+   "email": "cascone.luc@cr.campania.it",
+   "pec": "cascone.luc@pec.cr.campania.it",
+   "tel": "0817783467",
+   "commissioni": [
+    "Urbanistica (presidente)",
+    "Attività produttive",
+    "Emergenza Bradisismo"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Cascone%20Luca?username=CASCONE.LUC&id_tipo_carica=7",
+   "circoscrizione": "Salerno",
+   "username": "CASCONE.LUC",
+   "gruppo": "A Testa Alta"
+  },
+  {
+   "nome": "Roberto Celano",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: PPE - Forza Italia (vicecapogruppo)",
+   "email": "celano.rob@cr.campania.it",
+   "pec": "celano.rob@pec.cr.campania.it",
+   "tel": "0817783445",
+   "commissioni": [
+    "Bilancio e Finanza (segretario)",
+    "Istruzione e Cultura",
+    "Trasparenza"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Celano%20Roberto?username=CELANO.ROB&id_tipo_carica=7",
+   "circoscrizione": "Salerno",
+   "username": "CELANO.ROB",
+   "gruppo": "PPE - Forza Italia",
+   "ruoloGruppo": "vicecapogruppo"
+  },
+  {
+   "nome": "Carlo Ceparano",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Alleanza Verdi e Sinistra (vicecapogruppo)",
+   "email": "ceparano.car@cr.campania.it",
+   "pec": "ceparano.car@pec.cr.campania.it",
+   "tel": "0817783477",
+   "commissioni": [
+    "Sanità e Sicurezza Sociale (vicepresidente)",
+    "Affari istituzionali",
+    "Attività produttive",
+    "Agricoltura",
+    "Anticamorra e Beni Confiscati",
+    "Emergenza Bradisismo"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Ceparano%20Carlo?username=CEPARANO.CAR&id_tipo_carica=7",
+   "circoscrizione": "Napoli",
+   "username": "CEPARANO.CAR",
+   "gruppo": "Alleanza Verdi e Sinistra",
+   "ruoloGruppo": "vicecapogruppo"
+  },
+  {
+   "nome": "Giovanni Maria Cuofano",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Roberto Fico Presidente (vicecapogruppo)",
+   "email": "cuofano.gio@cr.campania.it",
+   "pec": "cuofano.gio@pec.cr.campania.it",
+   "tel": "0817783237",
+   "commissioni": [
+    "Affari istituzionali (vicepresidente)",
+    "Attività produttive",
+    "Sanità e Sicurezza Sociale",
+    "Agricoltura",
+    "Condizione della donna"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Cuofano%20Giovanni%20Maria?username=CUOFANO.GIO&id_tipo_carica=7",
+   "circoscrizione": "Salerno",
+   "username": "CUOFANO.GIO",
+   "gruppo": "Roberto Fico Presidente",
+   "ruoloGruppo": "vicecapogruppo"
+  },
+  {
+   "nome": "Davide D'Errico",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Roberto Fico Presidente",
+   "email": "derrico.dav@cr.campania.it",
+   "pec": "derrico.dav@pec.cr.campania.it",
+   "tel": "0817783866",
+   "commissioni": [
+    "Bilancio e Finanza",
+    "Istruzione e Cultura",
+    "Anticamorra e Beni Confiscati"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/D%27Errico%20Davide?username=DERRICO.DAV&id_tipo_carica=7",
+   "circoscrizione": "Napoli",
+   "username": "DERRICO.DAV",
+   "gruppo": "Roberto Fico Presidente"
+  },
+  {
+   "nome": "Fernando Errico",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: PPE - Forza Italia",
+   "email": "errico.fer@cr.campania.it",
+   "pec": "errico.fer@pec.cr.campania.it",
+   "tel": "0817783866",
+   "commissioni": [
+    "Ambiente (segretario)",
+    "Sanità e Sicurezza Sociale",
+    "Agricoltura",
+    "Emergenza Bradisismo"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Errico%20Fernando?username=ERRICO.FER&id_tipo_carica=7",
+   "circoscrizione": "Benevento",
+   "username": "ERRICO.FER",
+   "gruppo": "PPE - Forza Italia"
+  },
+  {
+   "nome": "Giuseppe Fabbricatore",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Fratelli D'Italia",
+   "email": "fabbricatore.giu@cr.campania.it",
+   "pec": "fabbricatore.giu@pec.cr.campania.it",
+   "tel": "0817783857",
+   "commissioni": [
+    "Attività produttive",
+    "Agricoltura",
+    "Condizione della donna"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Fabbricatore%20Giuseppe%20?username=FABBRICATORE.GIU&id_tipo_carica=7",
+   "circoscrizione": "Salerno",
+   "username": "FABBRICATORE.GIU",
+   "gruppo": "Fratelli D'Italia"
+  },
+  {
+   "nome": "Palmira Fele",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Fratelli D'Italia",
+   "email": "fele.pal@cr.campania.it",
+   "pec": "fele.pal@pec.cr.campania.it",
+   "tel": "0817783960",
+   "commissioni": [
+    "Urbanistica (segretario)",
+    "Sanità e Sicurezza Sociale",
+    "Istruzione e Cultura",
+    "Trasparenza",
+    "Condizione della donna"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Fele%20Palmira%20?username=FELE.PAL&id_tipo_carica=7",
+   "circoscrizione": "Napoli",
+   "username": "FELE.PAL",
+   "gruppo": "Fratelli D'Italia"
+  },
+  {
+   "nome": "Carmela Fiola",
+   "ruolo": "Consigliera regionale",
+   "dettaglio": "Gruppo: Partito Democratico",
+   "email": "fiola.car@cr.campania.it",
+   "pec": "fiola.car@pec.cr.campania.it",
+   "tel": "0817783408",
+   "commissioni": [
+    "Istruzione e Cultura (presidente)",
+    "Affari istituzionali",
+    "Sanità e Sicurezza Sociale",
+    "Anticamorra e Beni Confiscati",
+    "Condizione della donna"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Fiola%20Carmela?username=FIOLA.CAR&id_tipo_carica=7",
+   "circoscrizione": "Napoli",
+   "username": "FIOLA.CAR",
+   "gruppo": "Partito Democratico"
+  },
+  {
+   "nome": "Salvatore Flocco",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Movimento 5 Stelle",
+   "email": "flocco.sal@cr.campania.it",
+   "pec": "flocco.sal@pec.cr.campania.it",
+   "tel": "0817783768",
+   "commissioni": [
+    "Ambiente (presidente)"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Flocco%20Salvatore?username=FLOCCO.SAL&id_tipo_carica=7",
+   "circoscrizione": "Napoli",
+   "username": "FLOCCO.SAL",
+   "gruppo": "Movimento 5 Stelle"
+  },
+  {
+   "nome": "Lucia Fortini",
+   "ruolo": "Consigliera regionale",
+   "dettaglio": "Gruppo: A Testa Alta · Partito: De Luca Presidente",
+   "email": "fortini.luc@cr.campania.it",
+   "pec": "fortini.luc@pec.cr.campania.it",
+   "tel": "0817783750",
+   "commissioni": [
+    "Affari istituzionali",
+    "Istruzione e Cultura",
+    "Condizione della donna"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Fortini%20Lucia?username=FORTINI.LUC&id_tipo_carica=7",
+   "circoscrizione": "Napoli",
+   "username": "FORTINI.LUC",
+   "gruppo": "A Testa Alta"
+  },
+  {
+   "nome": "Massimo Grimaldi",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Lega Cirielli Presidente (capogruppo) · Partito: Forza Italia",
+   "email": "grimaldi.mas@cr.campania.it",
+   "pec": "grimaldi.mas@pec.cr.campania.it",
+   "tel": "0817783262",
+   "commissioni": [
+    "Affari istituzionali",
+    "Bilancio e Finanza",
+    "Attività produttive",
+    "Agricoltura",
+    "Emergenza Bradisismo (presidente)",
+    "Trasparenza"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Grimaldi%20Massimo?username=GRIMALDI.MAS&id_tipo_carica=7",
+   "circoscrizione": "Caserta",
+   "username": "GRIMALDI.MAS",
+   "gruppo": "Lega Cirielli Presidente",
+   "ruoloGruppo": "capogruppo"
+  },
+  {
+   "nome": "Francesco Iovino",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Riformisti e Moderati-Lista Cirielli-ECR (Conservatori, Riformisti,Europei) (vicecapogruppo) · Partito: Italia Viva",
+   "email": "iovino.fra@cr.campania.it",
+   "pec": "iovino.fra@pec.cr.campania.it",
+   "tel": "0817783567",
+   "commissioni": [
+    "Bilancio e Finanza",
+    "Istruzione e Cultura",
+    "Ambiente",
+    "Agricoltura",
+    "Trasparenza (presidente)",
+    "Anticamorra e Beni Confiscati"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Iovino%20Francesco?username=IOVINO.FRA&id_tipo_carica=7",
+   "circoscrizione": "Napoli",
+   "username": "IOVINO.FRA",
+   "gruppo": "Riformisti e Moderati-Lista Cirielli-ECR (Conservatori, Riformisti,Europei)",
+   "ruoloGruppo": "vicecapogruppo"
+  },
+  {
+   "nome": "Giovanni Iovino",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Avanti Campania PSI (vicecapogruppo)",
+   "email": "iovino.gio@cr.campania.it",
+   "pec": "iovino.gio@pec.cr.campania.it",
+   "tel": "0817783268",
+   "commissioni": [
+    "Urbanistica",
+    "Sanità e Sicurezza Sociale",
+    "Ambiente",
+    "Trasparenza"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Iovino%20Giovanni?username=IOVINO.GIO&id_tipo_carica=7",
+   "circoscrizione": "Caserta",
+   "username": "IOVINO.GIO",
+   "gruppo": "Avanti Campania PSI",
+   "ruoloGruppo": "vicecapogruppo"
+  },
+  {
+   "nome": "Salvatore Madonna",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Partito Democratico",
+   "email": "madonna.sal@cr.campania.it",
+   "pec": "madonna.sal@pec.cr.campania.it",
+   "tel": "0817783606",
+   "commissioni": [
+    "Urbanistica",
+    "Ambiente",
+    "Emergenza Bradisismo"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Madonna%20Salvatore?username=MADONNA.SAL&id_tipo_carica=7",
+   "circoscrizione": "Napoli",
+   "username": "MADONNA.SAL",
+   "gruppo": "Partito Democratico"
+  },
+  {
+   "nome": "Massimiliano Manfredi",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Partito Democratico",
+   "email": "manfredi.mas@cr.campania.it",
+   "pec": "manfredi.mas@pec.cr.campania.it",
+   "tel": "0817783500",
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Manfredi%20Massimiliano?username=MANFREDI.MAS&id_tipo_carica=7",
+   "circoscrizione": "Napoli",
+   "username": "MANFREDI.MAS",
+   "gruppo": "Partito Democratico"
+  },
+  {
+   "nome": "Pellegrino Mastella",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Casa Riformista (Italia Viva-Noi di Centro)",
+   "email": "mastella.pel@cr.campania.it",
+   "pec": "mastella.pel@pec.cr.campania.it",
+   "tel": "0817783790",
+   "commissioni": [
+    "Urbanistica (vicepresidente)",
+    "Attività produttive"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Mastella%20Pellegrino?username=MASTELLA.PEL&id_tipo_carica=7",
+   "circoscrizione": "Benevento",
+   "username": "MASTELLA.PEL",
+   "gruppo": "Casa Riformista (Italia Viva-Noi di Centro)"
+  },
+  {
+   "nome": "Corrado Matera",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Partito Democratico · Partito: Fare Democratico - i Popolari",
+   "email": "matera.cor@cr.campania.it",
+   "pec": "matera.cor@pec.cr.campania.it",
+   "tel": "0817783497",
+   "commissioni": [
+    "Bilancio e Finanza (presidente)",
+    "Affari istituzionali",
+    "Attività produttive",
+    "Emergenza Bradisismo"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Matera%20Corrado?username=MATERA.COR&id_tipo_carica=7",
+   "circoscrizione": "Salerno",
+   "username": "MATERA.COR",
+   "gruppo": "Partito Democratico"
+  },
+  {
+   "nome": "Giovanni Mensorio",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Avanti Campania PSI · Partito: Cristiani Democratici Uniti",
+   "email": "mensorio.gio@cr.campania.it",
+   "pec": "mensorio.gio@pec.cr.campania.it",
+   "tel": "0817783395",
+   "commissioni": [
+    "Attività produttive (presidente)",
+    "Istruzione e Cultura",
+    "Anticamorra e Beni Confiscati"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Mensorio%20Giovanni?username=MENSORIO.GIO&id_tipo_carica=7",
+   "circoscrizione": "Napoli",
+   "username": "MENSORIO.GIO",
+   "gruppo": "Avanti Campania PSI"
+  },
+  {
+   "nome": "Mimì Minella",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: PPE - Forza Italia",
+   "email": "minella.mim@cr.campania.it",
+   "pec": "minella.mim@pec.cr.campania.it",
+   "tel": "0817783395",
+   "commissioni": [
+    "Istruzione e Cultura (segretario)",
+    "Agricoltura",
+    "Trasparenza",
+    "Emergenza Bradisismo"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Minella%20Mimi%27%20?username=MINELLA.MIM&id_tipo_carica=7",
+   "circoscrizione": "Salerno",
+   "username": "MINELLA.MIM",
+   "gruppo": "PPE - Forza Italia"
+  },
+  {
+   "nome": "Sebastiano Odierna",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Riformisti e Moderati-Lista Cirielli-ECR (Conservatori, Riformisti,Europei) (capogruppo)",
+   "email": "odierna.seb@cr.campania.it",
+   "pec": "odierna.seb@pec.cr.campania.it",
+   "tel": "0817783546",
+   "commissioni": [
+    "Affari istituzionali (segretario)",
+    "Attività produttive",
+    "Urbanistica",
+    "Sanità e Sicurezza Sociale",
+    "Emergenza Bradisismo",
+    "Condizione della donna"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Odierna%20Sebastiano?username=ODIERNA.SEB&id_tipo_carica=7",
+   "circoscrizione": "Salerno",
+   "username": "ODIERNA.SEB",
+   "gruppo": "Riformisti e Moderati-Lista Cirielli-ECR (Conservatori, Riformisti,Europei)",
+   "ruoloGruppo": "capogruppo"
+  },
+  {
+   "nome": "Gennaro Oliviero",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: A Testa Alta (capogruppo) · Partito: Partito Democratico",
+   "email": "oliviero.gen@cr.campania.it",
+   "pec": "oliviero.gen@pec.cr.campania.it",
+   "tel": "0817783925",
+   "commissioni": [
+    "Bilancio e Finanza",
+    "Agricoltura",
+    "Trasparenza"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Oliviero%20Gennaro?username=OLIVIERO.GEN&id_tipo_carica=7",
+   "circoscrizione": "Caserta",
+   "username": "OLIVIERO.GEN",
+   "gruppo": "A Testa Alta",
+   "ruoloGruppo": "capogruppo"
+  },
+  {
+   "nome": "Assunta Panico",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: PPE - Forza Italia",
+   "email": "panico.ass@cr.campania.it",
+   "pec": "panico.ass@pec.cr.campania.it",
+   "tel": "0817783431",
+   "commissioni": [
+    "Attività produttive",
+    "Urbanistica",
+    "Condizione della donna (presidente)"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Panico%20Assunta%20?username=PANICO.ASS&id_tipo_carica=7",
+   "circoscrizione": "Napoli",
+   "username": "PANICO.ASS",
+   "gruppo": "PPE - Forza Italia"
+  },
+  {
+   "nome": "Angela Parente",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: PPE - Forza Italia",
+   "email": "parente.ang@cr.campania.it",
+   "pec": "parente.ang@pec.cr.campania.it",
+   "tel": "0817783761",
+   "commissioni": [
+    "Attività produttive (segretario)",
+    "Affari istituzionali",
+    "Ambiente",
+    "Condizione della donna"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Parente%20Angela?username=PARENTE.ANG&id_tipo_carica=7",
+   "circoscrizione": null,
+   "username": "PARENTE.ANG",
+   "gruppo": "PPE - Forza Italia"
+  },
+  {
+   "nome": "Massimo Pelliccia",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: PPE - Forza Italia (capogruppo)",
+   "email": "pelliccia.mas@cr.campania.it",
+   "pec": "pelliccia.mas@pec.cr.campania.it",
+   "tel": "0817783554",
+   "commissioni": [
+    "Bilancio e Finanza",
+    "Sanità e Sicurezza Sociale",
+    "Anticamorra e Beni Confiscati"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Pelliccia%20Massimo%20?username=PELLICCIA.MAS&id_tipo_carica=7",
+   "circoscrizione": "Napoli",
+   "username": "PELLICCIA.MAS",
+   "gruppo": "PPE - Forza Italia",
+   "ruoloGruppo": "capogruppo"
+  },
+  {
+   "nome": "Livio Petitto",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: PPE - Forza Italia",
+   "email": "petitto.liv@cr.campania.it",
+   "pec": "petitto.liv@pec.cr.campania.it",
+   "tel": "0817783289",
+   "commissioni": [
+    "Affari istituzionali",
+    "Urbanistica",
+    "Anticamorra e Beni Confiscati"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Petitto%20Livio?username=PETITTO.LIV&id_tipo_carica=7",
+   "circoscrizione": "Avellino",
+   "username": "PETITTO.LIV",
+   "gruppo": "PPE - Forza Italia"
+  },
+  {
+   "nome": "Maurizio Petracca",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Partito Democratico (capogruppo)",
+   "email": "petracca.mau@cr.campania.it",
+   "pec": "petracca.mau@pec.cr.campania.it",
+   "tel": "0817783346",
+   "commissioni": [
+    "Urbanistica",
+    "Agricoltura",
+    "Trasparenza"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Petracca%20Maurizio?username=PETRACCA.MAU&id_tipo_carica=7",
+   "circoscrizione": "Avellino",
+   "username": "PETRACCA.MAU",
+   "gruppo": "Partito Democratico",
+   "ruoloGruppo": "capogruppo"
+  },
+  {
+   "nome": "Francesco Picarone",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Partito Democratico",
+   "email": "picarone.fra@cr.campania.it",
+   "pec": "picarone.fra@pec.cr.campania.it",
+   "tel": "0817783495",
+   "commissioni": [
+    "Agricoltura (vicepresidente)",
+    "Bilancio e Finanza",
+    "Sanità e Sicurezza Sociale",
+    "Trasparenza",
+    "Condizione della donna"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Picarone%20Francesco?username=PICARONE.FRA&id_tipo_carica=7",
+   "circoscrizione": "Salerno",
+   "username": "PICARONE.FRA",
+   "gruppo": "Partito Democratico"
+  },
+  {
+   "nome": "Raffaele Maria Pisacane",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Fratelli D'Italia · Partito: Centro Democratico",
+   "email": "pisacane.raf@cr.campania.it",
+   "pec": "pisacane.raf@pec.cr.campania.it",
+   "tel": "0817783273",
+   "commissioni": [
+    "Sanità e Sicurezza Sociale (segretario)",
+    "Affari istituzionali",
+    "Urbanistica",
+    "Anticamorra e Beni Confiscati",
+    "Emergenza Bradisismo"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Pisacane%20Raffaele%20Maria?username=PISACANE.RAF&id_tipo_carica=7",
+   "circoscrizione": "Napoli",
+   "username": "PISACANE.RAF",
+   "gruppo": "Fratelli D'Italia"
+  },
+  {
+   "nome": "Giovanni Porcelli",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: A Testa Alta (vicecapogruppo) · Partito: Campania Libera",
+   "email": "porcelli.gio@cr.campania.it",
+   "pec": "porcelli.gio@pec.cr.campania.it",
+   "tel": "0817783896",
+   "commissioni": [
+    "Sanità e Sicurezza Sociale",
+    "Ambiente",
+    "Anticamorra e Beni Confiscati"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Porcelli%20Giovanni?username=PORCELLI.GIO&id_tipo_carica=7",
+   "circoscrizione": "Napoli",
+   "username": "PORCELLI.GIO",
+   "gruppo": "A Testa Alta",
+   "ruoloGruppo": "vicecapogruppo"
+  },
+  {
+   "nome": "Loredana Raia",
+   "ruolo": "Consigliera regionale",
+   "dettaglio": "Gruppo: Partito Democratico",
+   "email": "raia.lor@cr.campania.it",
+   "pec": "raia.lor@pec.cr.campania.it",
+   "tel": "0817783372",
+   "commissioni": [
+    "Sanità e Sicurezza Sociale (presidente)",
+    "Attività produttive",
+    "Condizione della donna"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Raia%20Loredana?username=RAIA.LOR&id_tipo_carica=7",
+   "circoscrizione": "Napoli",
+   "username": "RAIA.LOR",
+   "gruppo": "Partito Democratico"
+  },
+  {
+   "nome": "Leonilde Romano",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Fratelli D'Italia",
+   "email": "romano.lea@cr.campania.it",
+   "pec": "romano.lea@pec.cr.campania.it",
+   "tel": "0817783407",
+   "commissioni": [
+    "Attività produttive",
+    "Ambiente"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Romano%20%20Leonilde?username=ROMANO.LEA&id_tipo_carica=7",
+   "circoscrizione": null,
+   "username": "ROMANO.LEA",
+   "gruppo": "Fratelli D'Italia"
+  },
+  {
+   "nome": "Michela Rostan",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Lega Cirielli Presidente (vicecapogruppo)",
+   "email": "rostan.mic@cr.campania.it",
+   "pec": "rostan.mic@pec.cr.campania.it",
+   "tel": "0817783711-3288",
+   "commissioni": [
+    "Urbanistica",
+    "Sanità e Sicurezza Sociale",
+    "Istruzione e Cultura",
+    "Ambiente",
+    "Anticamorra e Beni Confiscati",
+    "Condizione della donna"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Rostan%20Michela%20?username=ROSTAN.MIC&id_tipo_carica=7",
+   "circoscrizione": "Napoli",
+   "username": "ROSTAN.MIC",
+   "gruppo": "Lega Cirielli Presidente",
+   "ruoloGruppo": "vicecapogruppo"
+  },
+  {
+   "nome": "Gennaro Saiello",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Movimento 5 Stelle (capogruppo)",
+   "email": "saiello.gen@cr.campania.it",
+   "pec": "saiello.gen@pec.cr.campania.it",
+   "tel": "0817793963",
+   "commissioni": [
+    "Bilancio e Finanza",
+    "Urbanistica",
+    "Sanità e Sicurezza Sociale",
+    "Condizione della donna (segretario)"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Saiello%20Gennaro?username=SAIELLO.GEN&id_tipo_carica=7",
+   "circoscrizione": "Napoli",
+   "username": "SAIELLO.GEN",
+   "gruppo": "Movimento 5 Stelle",
+   "ruoloGruppo": "capogruppo"
+  },
+  {
+   "nome": "Gennaro Sangiuliano",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Fratelli D'Italia (capogruppo)",
+   "email": "sangiuliano.gen@cr.campania.it",
+   "pec": "sangiuliano.gen@pec.cr.campania.it",
+   "tel": "0817783178",
+   "commissioni": [
+    "Bilancio e Finanza",
+    "Istruzione e Cultura",
+    "Trasparenza"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Sangiuliano%20Gennaro%20?username=SANGIULIANO.GEN&id_tipo_carica=7",
+   "circoscrizione": "Napoli",
+   "username": "SANGIULIANO.GEN",
+   "gruppo": "Fratelli D'Italia",
+   "ruoloGruppo": "capogruppo"
+  },
+  {
+   "nome": "Vincenzo Santangelo",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Fratelli D'Italia",
+   "email": "santangelo.vin@cr.campania.it",
+   "pec": "santangelo.vin@pec.cr.campania.it",
+   "tel": "n.d.",
+   "commissioni": [
+    "Bilancio e Finanza",
+    "Ambiente",
+    "Anticamorra e Beni Confiscati (presidente)"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Santangelo%20Vincenzo?username=SANTANGELO.VIN&id_tipo_carica=7",
+   "circoscrizione": "Caserta",
+   "username": "SANTANGELO.VIN",
+   "gruppo": "Fratelli D'Italia"
+  },
+  {
+   "nome": "Gaetano Simeone",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Roberto Fico Presidente (capogruppo)",
+   "email": "simeone.gae@cr.campania.it",
+   "pec": "simeone.gae@pec.cr.campania.it",
+   "tel": "0817783658",
+   "commissioni": [
+    "Urbanistica",
+    "Ambiente",
+    "Trasparenza",
+    "Emergenza Bradisismo"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Simeone%20Gaetano%20?username=SIMEONE.GAE&id_tipo_carica=7",
+   "circoscrizione": "Napoli",
+   "username": "SIMEONE.GAE",
+   "gruppo": "Roberto Fico Presidente",
+   "ruoloGruppo": "capogruppo"
+  },
+  {
+   "nome": "Pietro Smarrazzo",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Casa Riformista (Italia Viva-Noi di Centro)",
+   "email": "smarrazzo.pie@cr.campania.it",
+   "pec": "smarrazzo.pie@pec.cr.campania.it",
+   "tel": "0817783116",
+   "commissioni": [
+    "Bilancio e Finanza (vicepresidente)",
+    "Ambiente"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Smarrazzo%20Pietro%20?username=SMARRAZZO.PIE&id_tipo_carica=7",
+   "circoscrizione": "Caserta",
+   "username": "SMARRAZZO.PIE",
+   "gruppo": "Casa Riformista (Italia Viva-Noi di Centro)"
+  },
+  {
+   "nome": "Luca Fella Trapanese",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Movimento 5 Stelle",
+   "email": "fella.luc@cr.campania.it",
+   "pec": "fella.luc@pec.cr.campania.it",
+   "tel": "0817783680",
+   "commissioni": [
+    "Istruzione e Cultura",
+    "Trasparenza"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Fella%20Trapanese%20Luca%20?username=FELLA.LUC&id_tipo_carica=7",
+   "circoscrizione": "Napoli",
+   "username": "FELLA.LUC",
+   "gruppo": "Movimento 5 Stelle"
+  },
+  {
+   "nome": "Elena Vignati",
+   "ruolo": "Consigliera regionale",
+   "dettaglio": "Gruppo: Movimento 5 Stelle (vicecapogruppo)",
+   "email": "vignati.ele@cr.campania.it",
+   "pec": "vignati.ele@pec.cr.campania.it",
+   "tel": "0817783535",
+   "commissioni": [
+    "Attività produttive (vicepresidente)",
+    "Affari istituzionali",
+    "Emergenza Bradisismo"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Vignati%20Elena?username=VIGNATI.ELE&id_tipo_carica=7",
+   "circoscrizione": "Napoli",
+   "username": "VIGNATI.ELE",
+   "gruppo": "Movimento 5 Stelle",
+   "ruoloGruppo": "vicecapogruppo"
+  },
+  {
+   "nome": "Marco Villano",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Partito Democratico (vicecapogruppo)",
+   "email": "villano.mar@cr.campania.it",
+   "pec": "villano.mar@pec.cr.campania.it",
+   "tel": "0817783987",
+   "commissioni": [
+    "Ambiente (vicepresidente)",
+    "Urbanistica",
+    "Agricoltura",
+    "Trasparenza"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Villano%20Marco?username=VILLANO.MAR&id_tipo_carica=7",
+   "circoscrizione": "Caserta",
+   "username": "VILLANO.MAR",
+   "gruppo": "Partito Democratico",
+   "ruoloGruppo": "vicecapogruppo"
+  },
+  {
+   "nome": "Andrea Volpe",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Avanti Campania PSI (capogruppo) · Partito: Partito Socialista Italiano",
+   "email": "volpe.and@cr.campania.it",
+   "pec": "volpe.and@pec.cr.campania.it",
+   "tel": "0817783669",
+   "commissioni": [
+    "Affari istituzionali",
+    "Bilancio e Finanza",
+    "Agricoltura",
+    "Emergenza Bradisismo",
+    "Condizione della donna"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Volpe%20Andrea?username=VOLPE.AND&id_tipo_carica=7",
+   "circoscrizione": "Salerno",
+   "username": "VOLPE.AND",
+   "gruppo": "Avanti Campania PSI",
+   "ruoloGruppo": "capogruppo"
+  },
+  {
+   "nome": "Ettore Zecchino",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Fratelli D'Italia",
+   "email": "zecchino.ett@cr.campania.it",
+   "pec": "zecchino.ett@pec.cr.campania.it",
+   "tel": "0817783131",
+   "commissioni": [
+    "Agricoltura (segretario)",
+    "Affari istituzionali",
+    "Emergenza Bradisismo"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Zecchino%20Ettore?username=ZECCHINO.ETT&id_tipo_carica=7",
+   "circoscrizione": "Avellino",
+   "username": "ZECCHINO.ETT",
+   "gruppo": "Fratelli D'Italia"
+  },
+  {
+   "nome": "Giorgio Zinno",
+   "ruolo": "Consigliere regionale",
+   "dettaglio": "Gruppo: Partito Democratico",
+   "email": "zinno.gio@cr.campania.it",
+   "pec": "zinno.gio@pec.cr.campania.it",
+   "tel": "0817783332",
+   "commissioni": [
+    "Bilancio e Finanza",
+    "Istruzione e Cultura",
+    "Ambiente",
+    "Anticamorra e Beni Confiscati",
+    "Emergenza Bradisismo"
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/Zinno%20Giorgio?username=ZINNO.GIO&id_tipo_carica=7",
+   "circoscrizione": "Napoli",
+   "username": "ZINNO.GIO",
+   "gruppo": "Partito Democratico"
+  }
+ ],
+ "gruppi": [
+  {
+   "nome": "Alleanza Verdi e Sinistra",
+   "sigla": "AVS",
+   "coalizione": "maggioranza",
+   "colore": "#3f9b4f"
+  },
+  {
+   "nome": "Movimento 5 Stelle",
+   "sigla": "M5S",
+   "coalizione": "maggioranza",
+   "colore": "#e0b400"
+  },
+  {
+   "nome": "Roberto Fico Presidente",
+   "sigla": "Fico Pres.",
+   "coalizione": "maggioranza",
+   "colore": "#f08a3c"
+  },
+  {
+   "nome": "Partito Democratico",
+   "sigla": "PD",
+   "coalizione": "maggioranza",
+   "colore": "#d6363b"
+  },
+  {
+   "nome": "Avanti Campania PSI",
+   "sigla": "PSI",
+   "coalizione": "maggioranza",
+   "colore": "#e86a8f"
+  },
+  {
+   "nome": "A Testa Alta",
+   "sigla": "A Testa Alta",
+   "coalizione": "maggioranza",
+   "colore": "#9b5fc0"
+  },
+  {
+   "nome": "Casa Riformista (Italia Viva-Noi di Centro)",
+   "sigla": "Casa Riformista",
+   "coalizione": "maggioranza",
+   "colore": "#c0398a"
+  },
+  {
+   "nome": "Riformisti e Moderati-Lista Cirielli-ECR (Conservatori, Riformisti,Europei)",
+   "sigla": "Rif. e Moderati",
+   "coalizione": "opposizione",
+   "colore": "#6b8fbf"
+  },
+  {
+   "nome": "PPE - Forza Italia",
+   "sigla": "FI",
+   "coalizione": "opposizione",
+   "colore": "#2f7fd6"
+  },
+  {
+   "nome": "Lega Cirielli Presidente",
+   "sigla": "Lega",
+   "coalizione": "opposizione",
+   "colore": "#1f9e9a"
+  },
+  {
+   "nome": "Fratelli D'Italia",
+   "sigla": "FdI",
+   "coalizione": "opposizione",
+   "colore": "#2c4f96"
+  }
+ ],
+ "contatti": {
+  "nome": "Regione Campania",
+  "pec": "urp@pec.regione.campania.it",
+  "sito": "https://www.regione.campania.it"
+ },
+ "contattiConsiglio": {
+  "nome": "Consiglio Regionale della Campania",
+  "pec": "protocollo.generale@pec.cr.campania.it",
+  "sito": "https://www.cr.campania.it"
+ }
+}

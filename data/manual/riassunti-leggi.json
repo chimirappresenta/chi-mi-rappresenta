@@ -1,0 +1,60 @@
+{
+  "_nota": "Riassunti generati con Claude (claude-opus-5-5) dal testo ufficiale delle leggi (PDF del Consiglio regionale). I primi 11 sono stati redatti in sessione leggendo il testo estratto dai PDF; i successivi li aggiunge scripts/riassumi-leggi.mjs. Si possono correggere a mano: la pipeline non li sovrascrive.",
+  "leggi": {
+    "2026-11": {
+      "testo": "Stanzia 7 milioni di euro per Pozzuoli, Bacoli, Monte di Procida e le zone di Napoli colpite dallo sciame sismico dei Campi Flegrei del 31 luglio 2026: servono per assistenza alla popolazione, protezione civile e aiuti alle attività economiche danneggiate. Il 30% è diviso in parti uguali tra i quattro Comuni e versato subito, il 70% in base al numero di sfollati indicato dalla Prefettura. Nasce anche un Osservatorio regionale, senza costi, che ogni tre mesi riferisce sugli effetti del bradisismo sull'economia.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-01"
+    },
+    "2026-10": {
+      "testo": "Riconosce come legittimo un debito del Consiglio regionale di 10.693,73 euro, dovuto a provvedimenti di un giudice e non previsto nel bilancio. È un atto tecnico obbligatorio: la legge sposta la somma all'interno del bilancio 2026 del Consiglio per poterla pagare.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-01"
+    },
+    "2026-9": {
+      "testo": "Riconosce come legittimo un debito del Consiglio regionale di 34.081,87 euro, dovuto a provvedimenti di un giudice e non previsto nel bilancio. È un atto tecnico obbligatorio: la legge sposta la somma all'interno del bilancio 2026 del Consiglio per poterla pagare.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-01"
+    },
+    "2026-8": {
+      "testo": "Riconosce come legittimo un debito del Consiglio regionale di 6.912,97 euro, dovuto a provvedimenti di un giudice e non previsto nel bilancio. È un atto tecnico obbligatorio: la legge sposta la somma all'interno del bilancio 2026 del Consiglio per poterla pagare.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-01"
+    },
+    "2026-7": {
+      "testo": "Aggiorna le regole regionali su taxi e noleggio con conducente (NCC). Ogni NCC deve avere sede e rimessa reali nel Comune che lo ha autorizzato ed esporre, entro 180 giorni, un contrassegno regionale uguale per tutti; finché non sarà pronto il registro nazionale, i Comuni possono rilasciare nuove autorizzazioni solo entro un tetto del 20%. Alberghi e strutture ricettive possono offrire ai propri ospiti trasferimenti gratuiti da e per porti, aeroporti e stazioni.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-01"
+    },
+    "2026-6": {
+      "testo": "È la revisione di metà anno del bilancio regionale 2026-2028: aggiorna i conti con i dati definitivi del 2025 e porta il bilancio 2026 a circa 41,6 miliardi di euro. Introduce anche la «rottamazione» dei debiti verso la Regione affidati alla riscossione dal 2000 al 2023: chi aderisce paga quanto dovuto senza interessi e sanzioni, con le regole e le scadenze della legge nazionale.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-01"
+    },
+    "2026-5": {
+      "testo": "Riconosce come legittimo un debito del Consiglio regionale di 3.172,33 euro, dovuto a provvedimenti di un giudice e non previsto nel bilancio. È un atto tecnico obbligatorio: la legge sposta la somma all'interno del bilancio 2026 del Consiglio per poterla pagare.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-01"
+    },
+    "2026-4": {
+      "testo": "Adegua la legge regionale sull'indennità dei consiglieri regionali ai casi di sospensione e decadenza dalla carica previsti dalla «legge Severino» (decreto legislativo 235/2012) per chi ha riportato determinate condanne penali. Proposta dal consigliere Massimiliano Manfredi, non comporta nuove spese.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-01"
+    },
+    "2026-3": {
+      "testo": "È il bilancio di previsione della Regione per il 2026-2028, proposto dalla Giunta: fissa entrate e spese del 2026 in circa 38,5 miliardi di euro (di cui 4,8 miliardi di somme che transitano per conto di altri), poi 35,1 miliardi nel 2027 e 33,8 nel 2028. Autorizza la Giunta a chiedere anticipazioni di cassa fino a 1 miliardo, da restituire entro l'anno. Il dettaglio per settore è nelle tabelle allegate.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-01"
+    },
+    "2026-2": {
+      "testo": "È la legge di stabilità 2026, che accompagna il bilancio con le misure di spesa e fiscali dell'anno. Prevede 60 milioni di euro l'anno per servizi sociali e sociosanitari (anche per persone con disabilità e non autosufficienti), fondi per donne vittime di violenza, emergenza abitativa, lavoro femminile e figli delle vittime di incidenti sul lavoro, e contributi a cultura e spettacolo, tra cui 5 milioni al Teatro di San Carlo. Autorizza nuovo debito per circa 143 milioni, cambia le regole su bollo auto e sanzioni e sopprime l'agenzia regionale per i pagamenti in agricoltura (AGEAC).",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-01"
+    },
+    "2026-1": {
+      "testo": "Approva il rendiconto, cioè il bilancio consuntivo, della Regione per il 2024: nell'anno le entrate accertate sono state circa 31,8 miliardi di euro e le spese impegnate circa 31,4 miliardi. A fine 2024 la Regione aveva ancora da incassare circa 10,6 miliardi e da pagare circa 8,7 miliardi. È un atto contabile obbligatorio, proposto dalla Giunta.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-01"
+    }
+  }
+}

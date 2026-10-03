@@ -1,0 +1,24 @@
+{
+  "_nota": "Email istituzionali dei senatori eletti in Campania, lette dalle schede ufficiali su senato.it (il sito non è leggibile dagli script per una protezione anti-bot). Chiave = id senatore su dati.senato.it. Verificate il 2026-10-02.",
+  "_fonte": "https://www.senato.it/composizione/senatori/elenco-alfabetico",
+  "email": {
+    "5799": "dario.franceschini@senato.it",
+    "22910": "giulia.cosenza@senato.it",
+    "25429": "giovanna.petrenga@senato.it",
+    "30742": "matteo.renzi@senato.it",
+    "32600": "mariadomenica.castellone@senato.it",
+    "32640": "felicia.gaudiano@senato.it",
+    "32645": "antonio.iannone@senato.it",
+    "32851": "anna.bilotti@senato.it",
+    "32862": "gianluca.cantalamessa@senato.it",
+    "36381": "vincenza.aloisio@senato.it",
+    "36392": "susannalina.camusso@senato.it",
+    "36394": "raffaele.derosa@senato.it",
+    "36404": "ada.lopreiato@senato.it",
+    "36406": "orfeo.mazzella@senato.it",
+    "36410": "luigi.nave@senato.it",
+    "36440": "domenico.matera@senato.it",
+    "36442": "sergio.rastrelli@senato.it",
+    "36445": "francesco.silvestro@senato.it"
+  }
+}

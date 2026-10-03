@@ -1,0 +1,446 @@
+{
+ "camera": {
+  "CAMPANIA 2 - P02": [
+   {
+    "nome": "Antonio D'Alessio",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Azione - Italia Viva - Calenda",
+    "url": "https://www.camera.it/deputati/elenco/19-308875",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308875",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308875_19"
+   },
+   {
+    "nome": "Edmondo Cirielli",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-300319",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=300319",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d300319_19"
+   },
+   {
+    "nome": "Francesco Mari",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Alleanza Verdi e Sinistra",
+    "url": "https://www.camera.it/deputati/elenco/19-308869",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308869",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308869_19"
+   },
+   {
+    "nome": "Michele Gubitosa",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-307531",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307531",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307531_19"
+   },
+   {
+    "nome": "Piero De Luca",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-307561",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307561",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307561_19"
+   },
+   {
+    "nome": "Tullio Ferrante",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Forza Italia",
+    "url": "https://www.camera.it/deputati/elenco/19-308876",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308876",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308876_19"
+   }
+  ],
+  "CAMPANIA 1 - P02": [
+   {
+    "nome": "Alessandro Caramiello",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-308854",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308854",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308854_19"
+   },
+   {
+    "nome": "Annarita Patriarca",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Forza Italia",
+    "url": "https://www.camera.it/deputati/elenco/19-308852",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308852",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308852_19"
+   },
+   {
+    "nome": "Ettore Rosato",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Azione - Italia Viva - Calenda",
+    "url": "https://www.camera.it/deputati/elenco/19-300674",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=300674",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d300674_19"
+   },
+   {
+    "nome": "Francesco Emilio Borrelli",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Alleanza Verdi e Sinistra",
+    "url": "https://www.camera.it/deputati/elenco/19-308857",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308857",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308857_19"
+   },
+   {
+    "nome": "Marco Sarracino",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-308856",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308856",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308856_19"
+   },
+   {
+    "nome": "Marta Schifone",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308851",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308851",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308851_19"
+   }
+  ],
+  "CAMPANIA 2 - P01": [
+   {
+    "nome": "Agostino Santillo",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-307892",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307892",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307892_19"
+   },
+   {
+    "nome": "Enrica Alifano",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-308872",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308872",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308872_19"
+   },
+   {
+    "nome": "Gianpiero Zinzi",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Lega per Salvini Premier",
+    "url": "https://www.camera.it/deputati/elenco/19-308873",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308873",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308873_19"
+   },
+   {
+    "nome": "Marco Cerreto",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308874",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308874",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308874_19"
+   },
+   {
+    "nome": "Stefano Graziano",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-302818",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=302818",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d302818_19"
+   }
+  ],
+  "CAMPANIA 1 - P01": [
+   {
+    "nome": "Gilda Sportiello",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-307202",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307202",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307202_19"
+   },
+   {
+    "nome": "Marianna Ricciardi",
+    "ruolo": "Deputata eletta con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-308853",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308853",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308853_19"
+   },
+   {
+    "nome": "Michele Schiano Di Visconti",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Fratelli D'Italia con Giorgia Meloni",
+    "url": "https://www.camera.it/deputati/elenco/19-308850",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308850",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308850_19"
+   },
+   {
+    "nome": "Raffaele Bruno",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Movimento 5 Stelle",
+    "url": "https://www.camera.it/deputati/elenco/19-307193",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307193",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307193_19"
+   },
+   {
+    "nome": "Roberto Speranza",
+    "ruolo": "Deputato eletto con le liste dei partiti",
+    "dettaglio": "Partito Democratico - Italia Democratica e Progressista",
+    "url": "https://www.camera.it/deputati/elenco/19-305974",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=305974",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d305974_19"
+   }
+  ],
+  "CAMPANIA 1 - U02": [
+   {
+    "nome": "Sergio Costa",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307922",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307922",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307922_19"
+   }
+  ],
+  "CAMPANIA 2 - U05": [
+   {
+    "nome": "Maria Immacolata Vietri",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308789",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308789",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308789_19"
+   }
+  ],
+  "CAMPANIA 1 - U01": [
+   {
+    "nome": "Antonio Caso",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308840",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308840",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308840_19"
+   }
+  ],
+  "CAMPANIA 2 - U04": [
+   {
+    "nome": "Gianfranco Rotondi",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-38560",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=38560",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d38560_19"
+   }
+  ],
+  "CAMPANIA 2 - U01": [
+   {
+    "nome": "Gerolamo Cangiano",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308786",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308786",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308786_19"
+   }
+  ],
+  "CAMPANIA 2 - U06": [
+   {
+    "nome": "Giuseppe Bicchielli",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308790",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308790",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308790_19"
+   }
+  ],
+  "CAMPANIA 2 - U03": [
+   {
+    "nome": "Francesco Maria Rubano",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308788",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308788",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308788_19"
+   }
+  ],
+  "CAMPANIA 2 - U07": [
+   {
+    "nome": "Attilio Pierro",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308791",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308791",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308791_19"
+   }
+  ],
+  "CAMPANIA 1 - U05": [
+   {
+    "nome": "Carmela Auriemma",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308846",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308846",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308846_19"
+   }
+  ],
+  "CAMPANIA 1 - U04": [
+   {
+    "nome": "Pasqualino Penza",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308845",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308845",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308845_19"
+   }
+  ],
+  "CAMPANIA 1 - U07": [
+   {
+    "nome": "Gaetano Amato",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308849",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308849",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308849_19"
+   }
+  ],
+  "CAMPANIA 2 - U02": [
+   {
+    "nome": "Carmen Letizia Giorgianni",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308787",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308787",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308787_19"
+   }
+  ],
+  "CAMPANIA 1 - U06": [
+   {
+    "nome": "Carmela Di Lauro",
+    "ruolo": "Deputata eletta nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-307210",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=307210",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d307210_19"
+   }
+  ],
+  "CAMPANIA 1 - U03": [
+   {
+    "nome": "Dario Carotenuto",
+    "ruolo": "Deputato eletto nel collegio della tua zona",
+    "url": "https://www.camera.it/deputati/elenco/19-308844",
+    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=308844",
+    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308844_19"
+   }
+  ]
+ },
+ "senato": {
+  "uninominali": {
+   "U01": {
+    "nome": "Giovanna Petrenga",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=25429",
+    "email": "giovanna.petrenga@senato.it",
+    "fonteUrl": "https://dati.senato.it/senatore/25429"
+   },
+   "U02": {
+    "nome": "Giulia Cosenza",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=22910",
+    "email": "giulia.cosenza@senato.it",
+    "fonteUrl": "https://dati.senato.it/senatore/22910"
+   },
+   "U03": {
+    "nome": "Antonio Iannone",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32645",
+    "email": "antonio.iannone@senato.it",
+    "fonteUrl": "https://dati.senato.it/senatore/32645"
+   },
+   "U04": {
+    "nome": "Ada Lopreiato",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36404",
+    "email": "ada.lopreiato@senato.it",
+    "fonteUrl": "https://dati.senato.it/senatore/36404"
+   },
+   "U05": {
+    "nome": "Maria Domenica Castellone",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32600",
+    "email": "mariadomenica.castellone@senato.it",
+    "fonteUrl": "https://dati.senato.it/senatore/32600"
+   },
+   "U06": {
+    "nome": "Orfeo Mazzella",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36406",
+    "email": "orfeo.mazzella@senato.it",
+    "fonteUrl": "https://dati.senato.it/senatore/36406"
+   },
+   "U07": {
+    "nome": "Raffaele De Rosa",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36394",
+    "email": "raffaele.derosa@senato.it",
+    "fonteUrl": "https://dati.senato.it/senatore/36394"
+   }
+  },
+  "proporzionale": [
+   {
+    "nome": "Anna Bilotti",
+    "ruolo": "Senatrice eletta con le liste dei partiti",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32851",
+    "email": "anna.bilotti@senato.it",
+    "fonteUrl": "https://dati.senato.it/senatore/32851"
+   },
+   {
+    "nome": "Dario Franceschini",
+    "ruolo": "Senatore eletto con le liste dei partiti",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=5799",
+    "email": "dario.franceschini@senato.it",
+    "fonteUrl": "https://dati.senato.it/senatore/5799"
+   },
+   {
+    "nome": "Domenico Matera",
+    "ruolo": "Senatore eletto con le liste dei partiti",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36440",
+    "email": "domenico.matera@senato.it",
+    "fonteUrl": "https://dati.senato.it/senatore/36440"
+   },
+   {
+    "nome": "Felicia Gaudiano",
+    "ruolo": "Senatrice eletta con le liste dei partiti",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32640",
+    "email": "felicia.gaudiano@senato.it",
+    "fonteUrl": "https://dati.senato.it/senatore/32640"
+   },
+   {
+    "nome": "Francesco Silvestro",
+    "ruolo": "Senatore eletto con le liste dei partiti",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36445",
+    "email": "francesco.silvestro@senato.it",
+    "fonteUrl": "https://dati.senato.it/senatore/36445"
+   },
+   {
+    "nome": "Gianluca Cantalamessa",
+    "ruolo": "Senatore eletto con le liste dei partiti",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32862",
+    "email": "gianluca.cantalamessa@senato.it",
+    "fonteUrl": "https://dati.senato.it/senatore/32862"
+   },
+   {
+    "nome": "Luigi Nave",
+    "ruolo": "Senatore eletto con le liste dei partiti",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36410",
+    "email": "luigi.nave@senato.it",
+    "fonteUrl": "https://dati.senato.it/senatore/36410"
+   },
+   {
+    "nome": "Matteo Renzi",
+    "ruolo": "Senatore eletto con le liste dei partiti",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=30742",
+    "email": "matteo.renzi@senato.it",
+    "fonteUrl": "https://dati.senato.it/senatore/30742"
+   },
+   {
+    "nome": "Sergio Rastrelli",
+    "ruolo": "Senatore eletto con le liste dei partiti",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36442",
+    "email": "sergio.rastrelli@senato.it",
+    "fonteUrl": "https://dati.senato.it/senatore/36442"
+   },
+   {
+    "nome": "Susanna Lina Giulia Camusso",
+    "ruolo": "Senatrice eletta con le liste dei partiti",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36392",
+    "email": "susannalina.camusso@senato.it",
+    "fonteUrl": "https://dati.senato.it/senatore/36392"
+   },
+   {
+    "nome": "Vincenza Aloisio",
+    "ruolo": "Senatrice eletta con le liste dei partiti",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36381",
+    "email": "vincenza.aloisio@senato.it",
+    "fonteUrl": "https://dati.senato.it/senatore/36381"
+   }
+  ]
+ }
+}

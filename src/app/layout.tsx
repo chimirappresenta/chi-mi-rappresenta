@@ -1,0 +1,132 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { Geist, Instrument_Serif } from "next/font/google";
+import { Logo } from "@/components/Logo";
+import { MenuMobile } from "@/components/MenuMobile";
+import { SITE_URL } from "@/lib/sito";
+import "./globals.css";
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const instrument = Instrument_Serif({
+  variable: "--font-instrument",
+  weight: "400",
+  style: ["normal", "italic"],
+  subsets: ["latin"],
+});
+
+
+export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
+  openGraph: { siteName: "Chi mi rappresenta", locale: "it_IT", type: "website" },
+  twitter: { card: "summary_large_image" },
+  title: {
+    default: "Chi mi rappresenta · Campania",
+    template: "%s · Chi mi rappresenta",
+  },
+  description:
+    "Scrivi il tuo comune e scopri chi ti rappresenta a ogni livello: sindaco e consiglio comunale, Regione, Parlamento ed Europa. Solo fonti ufficiali.",
+};
+
+// Voci principali, in ordine di importanza per chi visita il sito.
+const MENU = [
+  { href: "/", label: "Cerca il tuo comune", descrizione: "Chi ti rappresenta, dal sindaco all'Europa" },
+  { href: "/a-chi-rivolgersi/", label: "A chi mi rivolgo?", descrizione: "Strade, ASL, pensioni, treni: chi decide e a chi scrivere" },
+  { href: "/chiedi-un-documento/", label: "Chiedi un documento", descrizione: "Contratti, spese, controlli: il diritto di sapere" },
+  { href: "/regione/", label: "Consiglio regionale", descrizione: "I 50 consiglieri, i gruppi e i loro contatti" },
+  { href: "/regione/attivita/", label: "Cosa fanno", descrizione: "Interrogazioni, mozioni e proposte di legge" },
+  { href: "/regione/leggi/", label: "Leggi regionali", descrizione: "Spiegate in parole semplici" },
+  { href: "/fonti/", label: "Fonti e metodo", descrizione: "Da dove vengono i dati e quanto sono aggiornati" },
+];
+
+export default function RootLayout({ children }: LayoutProps<"/">) {
+  return (
+    <html lang="it" className={`${geistSans.variable} ${instrument.variable} h-full antialiased`} suppressHydrationWarning>
+      <body className="flex min-h-full flex-col font-sans">
+        <a
+          href="#contenuto"
+          className="sr-only z-50 rounded-full bg-ink px-5 py-3 font-semibold text-bg focus:not-sr-only focus:fixed focus:top-3 focus:left-3"
+        >
+          Vai al contenuto
+        </a>
+        <p className="border-b border-line bg-surface-2/60 px-4 py-1.5 text-center text-sm text-ink-3">
+          Progetto civico indipendente: non è un sito della Pubblica Amministrazione. Ogni dato rimanda alla fonte ufficiale.
+        </p>
+        <header className="sticky top-0 z-30 border-b border-line/70 bg-bg/85 backdrop-blur">
+          <div className="contenitore flex items-center justify-between gap-4 py-3">
+            <Link href="/" className="flex items-center gap-2.5">
+              <Logo />
+              <span className="display text-xl whitespace-nowrap sm:text-2xl">Chi mi rappresenta</span>
+              <span className="hidden rounded-full bg-accent-soft px-2 py-0.5 text-[11px] font-semibold tracking-wide text-accent uppercase sm:inline">
+                Campania
+              </span>
+            </Link>
+            <div className="flex items-center gap-2">
+              <nav aria-label="Principale" className="hidden items-center gap-1 text-base 2xl:flex">
+                {MENU.slice(1, 5).map((m) => (
+                  <Link key={m.href} href={m.href} className="rounded-full px-3 py-2 whitespace-nowrap text-ink-2 hover:bg-surface hover:text-ink">
+                    {m.label}
+                  </Link>
+                ))}
+              </nav>
+              <Link href="/" className="hidden min-h-11 items-center rounded-full bg-ink px-4 text-base font-semibold whitespace-nowrap text-bg hover:opacity-90 md:flex">
+                Cerca il tuo comune
+              </Link>
+              <div className="2xl:hidden">
+                <MenuMobile voci={MENU} />
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <main id="contenuto" className="flex-1" tabIndex={-1}>
+          {children}
+        </main>
+
+        <footer className="mt-16 border-t border-line bg-surface">
+          <div className="contenitore grid gap-10 py-12 md:grid-cols-[1.4fr_1fr_1fr]">
+            <div>
+              <div className="flex items-center gap-2.5">
+                <Logo />
+                <span className="display text-2xl">Chi mi rappresenta</span>
+              </div>
+              <p className="mt-3 max-w-md text-base text-ink-2">
+                Chi ti rappresenta, dal tuo Comune a Bruxelles. Progetto civico indipendente costruito solo con dati pubblici
+                ufficiali: prima di agire, verifica sempre la fonte.
+              </p>
+            </div>
+            <div>
+              <p className="text-xs font-semibold tracking-wider text-ink-3 uppercase">Esplora</p>
+              <ul className="mt-3 space-y-2 text-base">
+                {MENU.map((m) => (
+                  <li key={m.href}>
+                    <Link href={m.href} className="text-ink-2 hover:text-ink">
+                      {m.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div>
+              <p className="text-xs font-semibold tracking-wider text-ink-3 uppercase">Vedi anche</p>
+              <p className="mt-3 text-sm text-ink-2">
+                Spesa pubblica, conti dei Comuni e attività del Parlamento su{" "}
+                <a className="underline hover:text-ink" href="https://www.dovevannoinostrisoldi.com" target="_blank" rel="noreferrer">
+                  DoveVannoINostriSoldi
+                </a>
+                . Servizi pubblici spiegati su{" "}
+                <a className="underline hover:text-ink" href="https://www.italiaaperta.it" target="_blank" rel="noreferrer">
+                  Italia Aperta
+                </a>
+                .
+              </p>
+            </div>
+          </div>
+        </footer>
+      </body>
+    </html>
+  );
+}
