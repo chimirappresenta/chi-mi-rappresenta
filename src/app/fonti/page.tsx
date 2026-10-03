@@ -103,6 +103,50 @@ export default function FontiPage() {
           )}
         </section>
       </div>
+
+      <section id="ispirazioni" aria-labelledby="titolo-ispirazioni" className="mt-14 scroll-mt-24">
+        <h2 id="titolo-ispirazioni" className="display text-4xl sm:text-5xl">
+          Ringraziamenti e ispirazioni
+        </h2>
+        <p className="mt-2 max-w-3xl text-lg text-ink-2">
+          Chi mi rappresenta non nasce dal nulla: prende spunto da progetti che rendono i dati pubblici più facili da usare, e li
+          completa invece di sostituirli.
+        </p>
+        <ul className="mt-6 grid gap-4 md:grid-cols-2">
+          {ISPIRAZIONI.map((x) => (
+            <li key={x.nome} className="rounded-3xl border border-line bg-surface p-5">
+              <a href={x.url} target="_blank" rel="noreferrer" className="text-xl font-semibold text-accent hover:underline">
+                {x.nome} ↗
+              </a>
+              <p className="mt-1 text-base text-ink-2">{x.testo}</p>
+            </li>
+          ))}
+        </ul>
+      </section>
     </div>
   );
 }
+
+const ISPIRAZIONI = [
+  {
+    nome: "DoveVannoINostriSoldi",
+    url: "https://www.dovevannoinostrisoldi.com",
+    testo:
+      "La nostra ispirazione principale: spesa pubblica, conti dei Comuni e politica nazionale raccontati con i dati ufficiali. Da loro abbiamo ripreso l'idea dell'emiciclo da esplorare e delle segnalazioni pubbliche degli errori. Per soldi pubblici e attività dei parlamentari rimandiamo a loro.",
+  },
+  {
+    nome: "Italia Aperta",
+    url: "https://www.italiaaperta.it",
+    testo: "L'idea di portare in Italia i servizi pubblici spiegati in modo semplice, sul modello di USA.gov, e uno stile chiaro e moderno.",
+  },
+  {
+    nome: "WriteToThem e Find your representative",
+    url: "https://www.writetothem.com",
+    testo: "I servizi del Regno Unito e degli Stati Uniti che, partendo da dove abiti, ti dicono chi sono i tuoi eletti e ti aiutano a scrivergli.",
+  },
+  {
+    nome: "FragDenStaat e WhatDoTheyKnow",
+    url: "https://fragdenstaat.de",
+    testo: "In Germania e nel Regno Unito aiutano chiunque a chiedere documenti alla pubblica amministrazione: da qui nasce \"Chiedi un documento\".",
+  },
+];
