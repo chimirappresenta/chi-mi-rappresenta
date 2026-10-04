@@ -68,8 +68,12 @@ export default function RegioniPage() {
       </ul>
       <p className="mt-8 max-w-3xl text-base text-ink-3">
         Presidenti, giunte e consiglieri vengono dall&apos;anagrafe degli amministratori regionali del Ministero dell&apos;Interno, che dopo
-        un&apos;elezione recente può essere incompleta. Per la Campania usiamo anche il sito del Consiglio regionale, con atti e leggi: è
-        il modello che vorremmo estendere alle altre regioni.
+        un&apos;elezione recente può essere incompleta. Per la Campania ci sono anche atti e leggi del Consiglio regionale: è il modello
+        che porteremo nelle altre regioni (vedi i{" "}
+        <Link href="/consigli-in-chiaro/" className="text-accent underline">
+          Consigli regionali in chiaro
+        </Link>
+        ).
       </p>
     </div>
   );

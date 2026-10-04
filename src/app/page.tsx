@@ -169,6 +169,9 @@ export default function Home() {
               Ogni punto è una persona, colorata per gruppo. Apri la sua scheda: contatti, commissioni, gli atti che ha
               presentato e un modo semplice per scrivergli. È il modello che vogliamo portare in tutte le regioni.
             </p>
+            <Link href="/consigli-in-chiaro/" className="mt-3 inline-block text-base font-semibold text-[var(--lv-regione)] underline">
+              Le regioni in arrivo →
+            </Link>
             <div className="mt-8 grid max-w-lg grid-cols-2 gap-3">
               <Link href="/regione/campania/attivita/" className="group rounded-2xl bg-[var(--lv-regione-bg)] p-4 hover:opacity-90">
                 <span className="block text-sm text-ink-2">Atti presentati</span>

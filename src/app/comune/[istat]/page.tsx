@@ -532,9 +532,10 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
               )}
             </Avviso>
             <p className="text-base text-ink-3">
-              Atti, leggi spiegate in parole semplici e la mappa dei consiglieri sono disponibili per ora per la Campania:{" "}
-              <Link href="/regione/campania/" className="text-accent underline">
-                vedi l&apos;esempio →
+              Atti, leggi spiegate in parole semplici e la mappa dei consiglieri arriveranno anche per la {c.regione}: per ora sono
+              disponibili per la Campania.{" "}
+              <Link href="/consigli-in-chiaro/" className="text-accent underline">
+                Consigli regionali in chiaro →
               </Link>
             </p>
           </Livello>
