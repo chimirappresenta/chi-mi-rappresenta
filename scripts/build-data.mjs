@@ -1186,7 +1186,7 @@ const meta = {
     { id: "giunta", nome: "La Giunta regionale", ente: "Regione Campania", url: GIUNTA_URL, raccolto: raccolto("regione-giunta.html") },
     { id: "pe", nome: "Open Data Portal – deputati in carica", ente: "Parlamento europeo", url: "https://data.europarl.europa.eu/", raccolto: raccolto("ep-meps-it.json") },
     { id: "cr-atti", nome: "Attività dei consiglieri e leggi regionali", ente: "Consiglio regionale della Campania", url: `${CR_BASE}/leggi-progetti/leggi-regolamenti`, raccolto: raccolto("cr-atti-pdl-0.html") },
-    { id: "eligendo", nome: "Risultati delle elezioni per comune (open data)", ente: "Ministero dell'Interno – DAIT (Eligendo)", url: FONTE_ELEZIONI, raccolto: raccolto("elezioni-europee-20240609.json") },
+    { id: "eligendo", nome: "Risultati delle elezioni per comune (open data)", ente: "Ministero dell'Interno – DAIT (Eligendo)", url: FONTE_ELEZIONI, raccolto: raccolto("elezioni-europee-20240609-italia.json") },
     { id: "wiki-regionali", nome: "Circoscrizione di elezione dei consiglieri regionali (elezioni 2025)", ente: "Wikipedia (verificato a mano)", url: "https://it.wikipedia.org/wiki/Elezioni_regionali_in_Campania_del_2025" },
   ],
   avvisi: warnings,
