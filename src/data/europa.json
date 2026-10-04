@@ -1,131 +1,561 @@
 {
- "circoscrizione": "Italia meridionale",
- "eurodeputati": [
-  {
-   "nome": "Lucia Annunziata",
-   "ruolo": "Eurodeputata · circoscrizione Italia meridionale",
-   "dettaglio": "Socialisti e Democratici (S&D)",
-   "url": "https://www.europarl.europa.eu/meps/it/257123",
-   "email": "lucia.annunziata@europarl.europa.eu"
+ "circoscrizioni": {
+  "nord-ovest": {
+   "nome": "Italia nord-occidentale",
+   "eurodeputati": [
+    {
+     "nome": "Brando Benifei",
+     "ruolo": "Eurodeputato · circoscrizione Italia nord-occidentale",
+     "dettaglio": "Socialisti e Democratici (S&D)",
+     "url": "https://www.europarl.europa.eu/meps/it/124867",
+     "email": "brando.benifei@europarl.europa.eu"
+    },
+    {
+     "nome": "Giovanni Crosetto",
+     "ruolo": "Eurodeputato · circoscrizione Italia nord-occidentale",
+     "dettaglio": "Conservatori e Riformisti europei (ECR)",
+     "url": "https://www.europarl.europa.eu/meps/it/257094",
+     "email": "giovanni.crosetto@europarl.europa.eu"
+    },
+    {
+     "nome": "Carlo Fidanza",
+     "ruolo": "Eurodeputato · circoscrizione Italia nord-occidentale",
+     "dettaglio": "Conservatori e Riformisti europei (ECR)",
+     "url": "https://www.europarl.europa.eu/meps/it/96810",
+     "email": "carlo.fidanza@europarl.europa.eu"
+    },
+    {
+     "nome": "Pietro Fiocchi",
+     "ruolo": "Eurodeputato · circoscrizione Italia nord-occidentale",
+     "dettaglio": "Conservatori e Riformisti europei (ECR)",
+     "url": "https://www.europarl.europa.eu/meps/it/197607",
+     "email": "pietro.fiocchi@europarl.europa.eu"
+    },
+    {
+     "nome": "Giorgio Gori",
+     "ruolo": "Eurodeputato · circoscrizione Italia nord-occidentale",
+     "dettaglio": "Socialisti e Democratici (S&D)",
+     "url": "https://www.europarl.europa.eu/meps/it/257102",
+     "email": "giorgio.gori@europarl.europa.eu"
+    },
+    {
+     "nome": "Paolo Inselvini",
+     "ruolo": "Eurodeputato · circoscrizione Italia nord-occidentale",
+     "dettaglio": "Conservatori e Riformisti europei (ECR)",
+     "url": "https://www.europarl.europa.eu/meps/it/257144",
+     "email": "paolo.inselvini@europarl.europa.eu"
+    },
+    {
+     "nome": "Lara Magoni",
+     "ruolo": "Eurodeputata · circoscrizione Italia nord-occidentale",
+     "dettaglio": "Conservatori e Riformisti europei (ECR)",
+     "url": "https://www.europarl.europa.eu/meps/it/257149",
+     "email": "lara.magoni@europarl.europa.eu"
+    },
+    {
+     "nome": "Mario Mantovani",
+     "ruolo": "Eurodeputato · circoscrizione Italia nord-occidentale",
+     "dettaglio": "Conservatori e Riformisti europei (ECR)",
+     "url": "https://www.europarl.europa.eu/meps/it/4395",
+     "email": "mario.mantovani@europarl.europa.eu"
+    },
+    {
+     "nome": "Pierfrancesco Maran",
+     "ruolo": "Eurodeputato · circoscrizione Italia nord-occidentale",
+     "dettaglio": "Socialisti e Democratici (S&D)",
+     "url": "https://www.europarl.europa.eu/meps/it/257727",
+     "email": "pierfrancesco.maran@europarl.europa.eu"
+    },
+    {
+     "nome": "Letizia Moratti",
+     "ruolo": "Eurodeputata · circoscrizione Italia nord-occidentale",
+     "dettaglio": "Partito popolare europeo (PPE)",
+     "url": "https://www.europarl.europa.eu/meps/it/257151",
+     "email": "letizia.moratti@europarl.europa.eu"
+    },
+    {
+     "nome": "Gaetano Pedullà",
+     "ruolo": "Eurodeputato · circoscrizione Italia nord-occidentale",
+     "dettaglio": "La Sinistra (The Left)",
+     "url": "https://www.europarl.europa.eu/meps/it/257126",
+     "email": "gaetano.pedulla@europarl.europa.eu"
+    },
+    {
+     "nome": "Massimiliano Salini",
+     "ruolo": "Eurodeputato · circoscrizione Italia nord-occidentale",
+     "dettaglio": "Partito popolare europeo (PPE)",
+     "url": "https://www.europarl.europa.eu/meps/it/125670",
+     "email": "massimiliano.salini@europarl.europa.eu"
+    },
+    {
+     "nome": "Ilaria Salis",
+     "ruolo": "Eurodeputata · circoscrizione Italia nord-occidentale",
+     "dettaglio": "La Sinistra (The Left)",
+     "url": "https://www.europarl.europa.eu/meps/it/257127",
+     "email": "ilaria.salis@europarl.europa.eu"
+    },
+    {
+     "nome": "Silvia Sardone",
+     "ruolo": "Eurodeputata · circoscrizione Italia nord-occidentale",
+     "dettaglio": "Patrioti per l'Europa (PfE)",
+     "url": "https://www.europarl.europa.eu/meps/it/197578",
+     "email": "silvia.sardone@europarl.europa.eu"
+    },
+    {
+     "nome": "Benedetta Scuderi",
+     "ruolo": "Eurodeputata · circoscrizione Italia nord-occidentale",
+     "dettaglio": "Verdi/Alleanza libera europea",
+     "url": "https://www.europarl.europa.eu/meps/it/257139",
+     "email": "benedetta.scuderi@europarl.europa.eu"
+    },
+    {
+     "nome": "Cecilia Strada",
+     "ruolo": "Eurodeputata · circoscrizione Italia nord-occidentale",
+     "dettaglio": "Socialisti e Democratici (S&D)",
+     "url": "https://www.europarl.europa.eu/meps/it/257101",
+     "email": "cecilia.strada@europarl.europa.eu"
+    },
+    {
+     "nome": "Irene Tinagli",
+     "ruolo": "Eurodeputata · circoscrizione Italia nord-occidentale",
+     "dettaglio": "Socialisti e Democratici (S&D)",
+     "url": "https://www.europarl.europa.eu/meps/it/197591",
+     "email": "irene.tinagli@europarl.europa.eu"
+    },
+    {
+     "nome": "Isabella Tovaglieri",
+     "ruolo": "Eurodeputata · circoscrizione Italia nord-occidentale",
+     "dettaglio": "Patrioti per l'Europa (PfE)",
+     "url": "https://www.europarl.europa.eu/meps/it/197580",
+     "email": "isabella.tovaglieri@europarl.europa.eu"
+    },
+    {
+     "nome": "Roberto Vannacci",
+     "ruolo": "Eurodeputato · circoscrizione Italia nord-occidentale",
+     "dettaglio": "Europa delle Nazioni Sovrane (ESN)",
+     "url": "https://www.europarl.europa.eu/meps/it/257125",
+     "email": "roberto.vannacci@europarl.europa.eu"
+    },
+    {
+     "nome": "Mariateresa Vivaldini",
+     "ruolo": "Eurodeputata · circoscrizione Italia nord-occidentale",
+     "dettaglio": "Conservatori e Riformisti europei (ECR)",
+     "url": "https://www.europarl.europa.eu/meps/it/257143",
+     "email": "mariateresa.vivaldini@europarl.europa.eu"
+    }
+   ]
   },
-  {
-   "nome": "Mario Furore",
-   "ruolo": "Eurodeputato · circoscrizione Italia meridionale",
-   "dettaglio": "La Sinistra (The Left)",
-   "url": "https://www.europarl.europa.eu/meps/it/197795",
-   "email": "mario.furore@europarl.europa.eu"
+  "nord-est": {
+   "nome": "Italia nord-orientale",
+   "eurodeputati": [
+    {
+     "nome": "Sergio Berlato",
+     "ruolo": "Eurodeputato · circoscrizione Italia nord-orientale",
+     "dettaglio": "Conservatori e Riformisti europei (ECR)",
+     "url": "https://www.europarl.europa.eu/meps/it/4746",
+     "email": "sergio.berlato@europarl.europa.eu"
+    },
+    {
+     "nome": "Stefano Bonaccini",
+     "ruolo": "Eurodeputato · circoscrizione Italia nord-orientale",
+     "dettaglio": "Socialisti e Democratici (S&D)",
+     "url": "https://www.europarl.europa.eu/meps/it/257108",
+     "email": "stefano.bonaccini@europarl.europa.eu"
+    },
+    {
+     "nome": "Paolo Borchia",
+     "ruolo": "Eurodeputato · circoscrizione Italia nord-orientale",
+     "dettaglio": "Patrioti per l'Europa (PfE)",
+     "url": "https://www.europarl.europa.eu/meps/it/101039",
+     "email": "paolo.borchia@europarl.europa.eu"
+    },
+    {
+     "nome": "Stefano Cavedagna",
+     "ruolo": "Eurodeputato · circoscrizione Italia nord-orientale",
+     "dettaglio": "Conservatori e Riformisti europei (ECR)",
+     "url": "https://www.europarl.europa.eu/meps/it/257096",
+     "email": "stefano.cavedagna@europarl.europa.eu"
+    },
+    {
+     "nome": "Alessandro Ciriani",
+     "ruolo": "Eurodeputato · circoscrizione Italia nord-orientale",
+     "dettaglio": "Conservatori e Riformisti europei (ECR)",
+     "url": "https://www.europarl.europa.eu/meps/it/257147",
+     "email": "alessandro.ciriani@europarl.europa.eu"
+    },
+    {
+     "nome": "Anna Maria Cisint",
+     "ruolo": "Eurodeputata · circoscrizione Italia nord-orientale",
+     "dettaglio": "Patrioti per l'Europa (PfE)",
+     "url": "https://www.europarl.europa.eu/meps/it/257131",
+     "email": "anna.cisint@europarl.europa.eu"
+    },
+    {
+     "nome": "Annalisa Corrado",
+     "ruolo": "Eurodeputata · circoscrizione Italia nord-orientale",
+     "dettaglio": "Socialisti e Democratici (S&D)",
+     "url": "https://www.europarl.europa.eu/meps/it/257169",
+     "email": "annalisa.corrado@europarl.europa.eu"
+    },
+    {
+     "nome": "Elena Donazzan",
+     "ruolo": "Eurodeputata · circoscrizione Italia nord-orientale",
+     "dettaglio": "Conservatori e Riformisti europei (ECR)",
+     "url": "https://www.europarl.europa.eu/meps/it/257095",
+     "email": "elena.donazzan@europarl.europa.eu"
+    },
+    {
+     "nome": "Herbert Dorfmann",
+     "ruolo": "Eurodeputato · circoscrizione Italia nord-orientale",
+     "dettaglio": "Partito popolare europeo (PPE)",
+     "url": "https://www.europarl.europa.eu/meps/it/96787",
+     "email": "herbert.dorfmann@europarl.europa.eu"
+    },
+    {
+     "nome": "Elisabetta Gualmini",
+     "ruolo": "Eurodeputata · circoscrizione Italia nord-orientale",
+     "dettaglio": "Renew Europe",
+     "url": "https://www.europarl.europa.eu/meps/it/197618",
+     "email": "elisabetta.gualmini@europarl.europa.eu"
+    },
+    {
+     "nome": "Cristina Guarda",
+     "ruolo": "Eurodeputata · circoscrizione Italia nord-orientale",
+     "dettaglio": "Verdi/Alleanza libera europea",
+     "url": "https://www.europarl.europa.eu/meps/it/257130",
+     "email": "cristina.guarda@europarl.europa.eu"
+    },
+    {
+     "nome": "Alessandra Moretti",
+     "ruolo": "Eurodeputata · circoscrizione Italia nord-orientale",
+     "dettaglio": "Socialisti e Democratici (S&D)",
+     "url": "https://www.europarl.europa.eu/meps/it/124799",
+     "email": "alessandra.moretti@europarl.europa.eu"
+    },
+    {
+     "nome": "Daniele Polato",
+     "ruolo": "Eurodeputato · circoscrizione Italia nord-orientale",
+     "dettaglio": "Conservatori e Riformisti europei (ECR)",
+     "url": "https://www.europarl.europa.eu/meps/it/257145",
+     "email": "daniele.polato@europarl.europa.eu"
+    },
+    {
+     "nome": "Flavio Tosi",
+     "ruolo": "Eurodeputato · circoscrizione Italia nord-orientale",
+     "dettaglio": "Partito popolare europeo (PPE)",
+     "url": "https://www.europarl.europa.eu/meps/it/124795",
+     "email": "flavio.tosi@europarl.europa.eu"
+    },
+    {
+     "nome": "Alessandro Zan",
+     "ruolo": "Eurodeputato · circoscrizione Italia nord-orientale",
+     "dettaglio": "Socialisti e Democratici (S&D)",
+     "url": "https://www.europarl.europa.eu/meps/it/257106",
+     "email": "alessandro.zan@europarl.europa.eu"
+    }
+   ]
   },
-  {
-   "nome": "Alberico Gambino",
-   "ruolo": "Eurodeputato · circoscrizione Italia meridionale",
-   "dettaglio": "Conservatori e Riformisti europei (ECR)",
-   "url": "https://www.europarl.europa.eu/meps/it/257097",
-   "email": "alberico.gambino@europarl.europa.eu"
+  "centro": {
+   "nome": "Italia centrale",
+   "eurodeputati": [
+    {
+     "nome": "Susanna Ceccardi",
+     "ruolo": "Eurodeputata · circoscrizione Italia centrale",
+     "dettaglio": "Patrioti per l'Europa (PfE)",
+     "url": "https://www.europarl.europa.eu/meps/it/197786",
+     "email": "susanna.ceccardi@europarl.europa.eu"
+    },
+    {
+     "nome": "Carlo Ciccioli",
+     "ruolo": "Eurodeputato · circoscrizione Italia centrale",
+     "dettaglio": "Conservatori e Riformisti europei (ECR)",
+     "url": "https://www.europarl.europa.eu/meps/it/257093",
+     "email": "carlo.ciccioli@europarl.europa.eu"
+    },
+    {
+     "nome": "Camilla Laureti",
+     "ruolo": "Eurodeputata · circoscrizione Italia centrale",
+     "dettaglio": "Socialisti e Democratici (S&D)",
+     "url": "https://www.europarl.europa.eu/meps/it/230085",
+     "email": "camilla.laureti@europarl.europa.eu"
+    },
+    {
+     "nome": "Ignazio Roberto Marino",
+     "ruolo": "Eurodeputato · circoscrizione Italia centrale",
+     "dettaglio": "Verdi/Alleanza libera europea",
+     "url": "https://www.europarl.europa.eu/meps/it/257132",
+     "email": "ignazio.marino@europarl.europa.eu"
+    },
+    {
+     "nome": "Salvatore De Meo",
+     "ruolo": "Eurodeputato · circoscrizione Italia centrale",
+     "dettaglio": "Partito popolare europeo (PPE)",
+     "url": "https://www.europarl.europa.eu/meps/it/204333",
+     "email": "salvatore.demeo@europarl.europa.eu"
+    },
+    {
+     "nome": "Carolina Morace",
+     "ruolo": "Eurodeputata · circoscrizione Italia centrale",
+     "dettaglio": "La Sinistra (The Left)",
+     "url": "https://www.europarl.europa.eu/meps/it/257140",
+     "email": "carolina.morace@europarl.europa.eu"
+    },
+    {
+     "nome": "Dario Nardella",
+     "ruolo": "Eurodeputato · circoscrizione Italia centrale",
+     "dettaglio": "Socialisti e Democratici (S&D)",
+     "url": "https://www.europarl.europa.eu/meps/it/257111",
+     "email": "dario.nardella@europarl.europa.eu"
+    },
+    {
+     "nome": "Nicola Procaccini",
+     "ruolo": "Eurodeputato · circoscrizione Italia centrale",
+     "dettaglio": "Conservatori e Riformisti europei (ECR)",
+     "url": "https://www.europarl.europa.eu/meps/it/197820",
+     "email": "nicola.procaccini@europarl.europa.eu"
+    },
+    {
+     "nome": "Matteo Ricci",
+     "ruolo": "Eurodeputato · circoscrizione Italia centrale",
+     "dettaglio": "Socialisti e Democratici (S&D)",
+     "url": "https://www.europarl.europa.eu/meps/it/257121",
+     "email": "matteo.ricci@europarl.europa.eu"
+    },
+    {
+     "nome": "Antonella Sberna",
+     "ruolo": "Eurodeputata · circoscrizione Italia centrale",
+     "dettaglio": "Conservatori e Riformisti europei (ECR)",
+     "url": "https://www.europarl.europa.eu/meps/it/257113",
+     "email": "antonella.sberna@europarl.europa.eu"
+    },
+    {
+     "nome": "Marco Squarta",
+     "ruolo": "Eurodeputato · circoscrizione Italia centrale",
+     "dettaglio": "Conservatori e Riformisti europei (ECR)",
+     "url": "https://www.europarl.europa.eu/meps/it/257109",
+     "email": "marco.squarta@europarl.europa.eu"
+    },
+    {
+     "nome": "Dario Tamburrano",
+     "ruolo": "Eurodeputato · circoscrizione Italia centrale",
+     "dettaglio": "La Sinistra (The Left)",
+     "url": "https://www.europarl.europa.eu/meps/it/124813",
+     "email": "dario.tamburrano@europarl.europa.eu"
+    },
+    {
+     "nome": "Marco Tarquinio",
+     "ruolo": "Eurodeputato · circoscrizione Italia centrale",
+     "dettaglio": "Socialisti e Democratici (S&D)",
+     "url": "https://www.europarl.europa.eu/meps/it/257160",
+     "email": "marco.tarquinio@europarl.europa.eu"
+    },
+    {
+     "nome": "Francesco Torselli",
+     "ruolo": "Eurodeputato · circoscrizione Italia centrale",
+     "dettaglio": "Conservatori e Riformisti europei (ECR)",
+     "url": "https://www.europarl.europa.eu/meps/it/257163",
+     "email": "francesco.torselli@europarl.europa.eu"
+    },
+    {
+     "nome": "Nicola Zingaretti",
+     "ruolo": "Eurodeputato · circoscrizione Italia centrale",
+     "dettaglio": "Socialisti e Democratici (S&D)",
+     "url": "https://www.europarl.europa.eu/meps/it/28419",
+     "email": "nicola.zingaretti@europarl.europa.eu"
+    }
+   ]
   },
-  {
-   "nome": "Chiara Gemma",
-   "ruolo": "Eurodeputata · circoscrizione Italia meridionale",
-   "dettaglio": "Conservatori e Riformisti europei (ECR)",
-   "url": "https://www.europarl.europa.eu/meps/it/197794",
-   "email": "chiara.gemma@europarl.europa.eu"
+  "sud": {
+   "nome": "Italia meridionale",
+   "eurodeputati": [
+    {
+     "nome": "Lucia Annunziata",
+     "ruolo": "Eurodeputata · circoscrizione Italia meridionale",
+     "dettaglio": "Socialisti e Democratici (S&D)",
+     "url": "https://www.europarl.europa.eu/meps/it/257123",
+     "email": "lucia.annunziata@europarl.europa.eu"
+    },
+    {
+     "nome": "Mario Furore",
+     "ruolo": "Eurodeputato · circoscrizione Italia meridionale",
+     "dettaglio": "La Sinistra (The Left)",
+     "url": "https://www.europarl.europa.eu/meps/it/197795",
+     "email": "mario.furore@europarl.europa.eu"
+    },
+    {
+     "nome": "Alberico Gambino",
+     "ruolo": "Eurodeputato · circoscrizione Italia meridionale",
+     "dettaglio": "Conservatori e Riformisti europei (ECR)",
+     "url": "https://www.europarl.europa.eu/meps/it/257097",
+     "email": "alberico.gambino@europarl.europa.eu"
+    },
+    {
+     "nome": "Chiara Gemma",
+     "ruolo": "Eurodeputata · circoscrizione Italia meridionale",
+     "dettaglio": "Conservatori e Riformisti europei (ECR)",
+     "url": "https://www.europarl.europa.eu/meps/it/197794",
+     "email": "chiara.gemma@europarl.europa.eu"
+    },
+    {
+     "nome": "Mimmo Lucano",
+     "ruolo": "Eurodeputato · circoscrizione Italia meridionale",
+     "dettaglio": "La Sinistra (The Left)",
+     "url": "https://www.europarl.europa.eu/meps/it/257129",
+     "email": "domenico.lucano@europarl.europa.eu"
+    },
+    {
+     "nome": "Fulvio Martusciello",
+     "ruolo": "Eurodeputato · circoscrizione Italia meridionale",
+     "dettaglio": "Partito popolare europeo (PPE)",
+     "url": "https://www.europarl.europa.eu/meps/it/124828",
+     "email": "fulvio.martusciello@europarl.europa.eu"
+    },
+    {
+     "nome": "Denis Nesci",
+     "ruolo": "Eurodeputato · circoscrizione Italia meridionale",
+     "dettaglio": "Conservatori e Riformisti europei (ECR)",
+     "url": "https://www.europarl.europa.eu/meps/it/239260",
+     "email": "denis.nesci@europarl.europa.eu"
+    },
+    {
+     "nome": "Valentina Palmisano",
+     "ruolo": "Eurodeputata · circoscrizione Italia meridionale",
+     "dettaglio": "La Sinistra (The Left)",
+     "url": "https://www.europarl.europa.eu/meps/it/257135",
+     "email": "valentina.palmisano@europarl.europa.eu"
+    },
+    {
+     "nome": "Aldo Patriciello",
+     "ruolo": "Eurodeputato · circoscrizione Italia meridionale",
+     "dettaglio": "Patrioti per l'Europa (PfE)",
+     "url": "https://www.europarl.europa.eu/meps/it/36392",
+     "email": "aldo.patriciello@europarl.europa.eu"
+    },
+    {
+     "nome": "Michele Picaro",
+     "ruolo": "Eurodeputato · circoscrizione Italia meridionale",
+     "dettaglio": "Conservatori e Riformisti europei (ECR)",
+     "url": "https://www.europarl.europa.eu/meps/it/257150",
+     "email": "michele.picaro@europarl.europa.eu"
+    },
+    {
+     "nome": "Pina Picierno",
+     "ruolo": "Eurodeputata · circoscrizione Italia meridionale",
+     "dettaglio": "Renew Europe",
+     "url": "https://www.europarl.europa.eu/meps/it/124846",
+     "email": "giuseppina.picierno@europarl.europa.eu"
+    },
+    {
+     "nome": "Giusi Princi",
+     "ruolo": "Eurodeputata · circoscrizione Italia meridionale",
+     "dettaglio": "Partito popolare europeo (PPE)",
+     "url": "https://www.europarl.europa.eu/meps/it/257128",
+     "email": "giusi.princi@europarl.europa.eu"
+    },
+    {
+     "nome": "Sandro Ruotolo",
+     "ruolo": "Eurodeputato · circoscrizione Italia meridionale",
+     "dettaglio": "Socialisti e Democratici (S&D)",
+     "url": "https://www.europarl.europa.eu/meps/it/257170",
+     "email": "sandro.ruotolo@europarl.europa.eu"
+    },
+    {
+     "nome": "Raffaele Topo",
+     "ruolo": "Eurodeputato · circoscrizione Italia meridionale",
+     "dettaglio": "Socialisti e Democratici (S&D)",
+     "url": "https://www.europarl.europa.eu/meps/it/257148",
+     "email": "raffaele.topo@europarl.europa.eu"
+    },
+    {
+     "nome": "Georgia Tramacere",
+     "ruolo": "Eurodeputata · circoscrizione Italia meridionale",
+     "dettaglio": "Socialisti e Democratici (S&D)",
+     "url": "https://www.europarl.europa.eu/meps/it/275087",
+     "email": "georgia.tramacere@europarl.europa.eu"
+    },
+    {
+     "nome": "Pasquale Tridico",
+     "ruolo": "Eurodeputato · circoscrizione Italia meridionale",
+     "dettaglio": "La Sinistra (The Left)",
+     "url": "https://www.europarl.europa.eu/meps/it/257133",
+     "email": "pasquale.tridico@europarl.europa.eu"
+    },
+    {
+     "nome": "Danilo Della Valle",
+     "ruolo": "Eurodeputato · circoscrizione Italia meridionale",
+     "dettaglio": "La Sinistra (The Left)",
+     "url": "https://www.europarl.europa.eu/meps/it/257155",
+     "email": "danilo.dellavalle@europarl.europa.eu"
+    },
+    {
+     "nome": "Francesco Ventola",
+     "ruolo": "Eurodeputato · circoscrizione Italia meridionale",
+     "dettaglio": "Conservatori e Riformisti europei (ECR)",
+     "url": "https://www.europarl.europa.eu/meps/it/257099",
+     "email": "francesco.ventola@europarl.europa.eu"
+    }
+   ]
   },
-  {
-   "nome": "Mimmo Lucano",
-   "ruolo": "Eurodeputato · circoscrizione Italia meridionale",
-   "dettaglio": "La Sinistra (The Left)",
-   "url": "https://www.europarl.europa.eu/meps/it/257129",
-   "email": "domenico.lucano@europarl.europa.eu"
-  },
-  {
-   "nome": "Fulvio Martusciello",
-   "ruolo": "Eurodeputato · circoscrizione Italia meridionale",
-   "dettaglio": "Partito popolare europeo (PPE)",
-   "url": "https://www.europarl.europa.eu/meps/it/124828",
-   "email": "fulvio.martusciello@europarl.europa.eu"
-  },
-  {
-   "nome": "Denis Nesci",
-   "ruolo": "Eurodeputato · circoscrizione Italia meridionale",
-   "dettaglio": "Conservatori e Riformisti europei (ECR)",
-   "url": "https://www.europarl.europa.eu/meps/it/239260",
-   "email": "denis.nesci@europarl.europa.eu"
-  },
-  {
-   "nome": "Valentina Palmisano",
-   "ruolo": "Eurodeputata · circoscrizione Italia meridionale",
-   "dettaglio": "La Sinistra (The Left)",
-   "url": "https://www.europarl.europa.eu/meps/it/257135",
-   "email": "valentina.palmisano@europarl.europa.eu"
-  },
-  {
-   "nome": "Aldo Patriciello",
-   "ruolo": "Eurodeputato · circoscrizione Italia meridionale",
-   "dettaglio": "Patrioti per l'Europa (PfE)",
-   "url": "https://www.europarl.europa.eu/meps/it/36392",
-   "email": "aldo.patriciello@europarl.europa.eu"
-  },
-  {
-   "nome": "Michele Picaro",
-   "ruolo": "Eurodeputato · circoscrizione Italia meridionale",
-   "dettaglio": "Conservatori e Riformisti europei (ECR)",
-   "url": "https://www.europarl.europa.eu/meps/it/257150",
-   "email": "michele.picaro@europarl.europa.eu"
-  },
-  {
-   "nome": "Pina Picierno",
-   "ruolo": "Eurodeputata · circoscrizione Italia meridionale",
-   "dettaglio": "Renew Europe",
-   "url": "https://www.europarl.europa.eu/meps/it/124846",
-   "email": "giuseppina.picierno@europarl.europa.eu"
-  },
-  {
-   "nome": "Giusi Princi",
-   "ruolo": "Eurodeputata · circoscrizione Italia meridionale",
-   "dettaglio": "Partito popolare europeo (PPE)",
-   "url": "https://www.europarl.europa.eu/meps/it/257128",
-   "email": "giusi.princi@europarl.europa.eu"
-  },
-  {
-   "nome": "Sandro Ruotolo",
-   "ruolo": "Eurodeputato · circoscrizione Italia meridionale",
-   "dettaglio": "Socialisti e Democratici (S&D)",
-   "url": "https://www.europarl.europa.eu/meps/it/257170",
-   "email": "sandro.ruotolo@europarl.europa.eu"
-  },
-  {
-   "nome": "Raffaele Topo",
-   "ruolo": "Eurodeputato · circoscrizione Italia meridionale",
-   "dettaglio": "Socialisti e Democratici (S&D)",
-   "url": "https://www.europarl.europa.eu/meps/it/257148",
-   "email": "raffaele.topo@europarl.europa.eu"
-  },
-  {
-   "nome": "Georgia Tramacere",
-   "ruolo": "Eurodeputata · circoscrizione Italia meridionale",
-   "dettaglio": "Socialisti e Democratici (S&D)",
-   "url": "https://www.europarl.europa.eu/meps/it/275087",
-   "email": "georgia.tramacere@europarl.europa.eu"
-  },
-  {
-   "nome": "Pasquale Tridico",
-   "ruolo": "Eurodeputato · circoscrizione Italia meridionale",
-   "dettaglio": "La Sinistra (The Left)",
-   "url": "https://www.europarl.europa.eu/meps/it/257133",
-   "email": "pasquale.tridico@europarl.europa.eu"
-  },
-  {
-   "nome": "Danilo Della Valle",
-   "ruolo": "Eurodeputato · circoscrizione Italia meridionale",
-   "dettaglio": "La Sinistra (The Left)",
-   "url": "https://www.europarl.europa.eu/meps/it/257155",
-   "email": "danilo.dellavalle@europarl.europa.eu"
-  },
-  {
-   "nome": "Francesco Ventola",
-   "ruolo": "Eurodeputato · circoscrizione Italia meridionale",
-   "dettaglio": "Conservatori e Riformisti europei (ECR)",
-   "url": "https://www.europarl.europa.eu/meps/it/257099",
-   "email": "francesco.ventola@europarl.europa.eu"
+  "isole": {
+   "nome": "Italia insulare",
+   "eurodeputati": [
+    {
+     "nome": "Giuseppe Antoci",
+     "ruolo": "Eurodeputato · circoscrizione Italia insulare",
+     "dettaglio": "La Sinistra (The Left)",
+     "url": "https://www.europarl.europa.eu/meps/it/257138",
+     "email": "giuseppe.antoci@europarl.europa.eu"
+    },
+    {
+     "nome": "Caterina Chinnici",
+     "ruolo": "Eurodeputata · circoscrizione Italia insulare",
+     "dettaglio": "Partito popolare europeo (PPE)",
+     "url": "https://www.europarl.europa.eu/meps/it/124861",
+     "email": "caterina.chinnici@europarl.europa.eu"
+    },
+    {
+     "nome": "Marco Falcone",
+     "ruolo": "Eurodeputato · circoscrizione Italia insulare",
+     "dettaglio": "Partito popolare europeo (PPE)",
+     "url": "https://www.europarl.europa.eu/meps/it/257137",
+     "email": "marco.falcone@europarl.europa.eu"
+    },
+    {
+     "nome": "Giuseppe Lupo",
+     "ruolo": "Eurodeputato · circoscrizione Italia insulare",
+     "dettaglio": "Socialisti e Democratici (S&D)",
+     "url": "https://www.europarl.europa.eu/meps/it/257124",
+     "email": "giuseppe.lupo@europarl.europa.eu"
+    },
+    {
+     "nome": "Giuseppe Milazzo",
+     "ruolo": "Eurodeputato · circoscrizione Italia insulare",
+     "dettaglio": "Conservatori e Riformisti europei (ECR)",
+     "url": "https://www.europarl.europa.eu/meps/it/197824",
+     "email": "giuseppe.milazzo@europarl.europa.eu"
+    },
+    {
+     "nome": "Leoluca Orlando",
+     "ruolo": "Eurodeputato · circoscrizione Italia insulare",
+     "dettaglio": "Verdi/Alleanza libera europea",
+     "url": "https://www.europarl.europa.eu/meps/it/2152",
+     "email": "leoluca.orlando@europarl.europa.eu"
+    },
+    {
+     "nome": "Ruggero Razza",
+     "ruolo": "Eurodeputato · circoscrizione Italia insulare",
+     "dettaglio": "Conservatori e Riformisti europei (ECR)",
+     "url": "https://www.europarl.europa.eu/meps/it/257104",
+     "email": "ruggero.razza@europarl.europa.eu"
+    },
+    {
+     "nome": "Raffaele Stancanelli",
+     "ruolo": "Eurodeputato · circoscrizione Italia insulare",
+     "dettaglio": "Patrioti per l'Europa (PfE)",
+     "url": "https://www.europarl.europa.eu/meps/it/197825",
+     "email": "raffaele.stancanelli@europarl.europa.eu"
+    }
+   ]
   }
- ]
+ }
 }

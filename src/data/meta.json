@@ -1,5 +1,5 @@
 {
- "generato": "2026-10-03",
+ "generato": "2026-10-04",
  "regione": "Campania",
  "comuni": 7896,
  "fonti": [
@@ -72,7 +72,7 @@
    "nome": "Open data del Senato della Repubblica (email dalle schede ufficiali)",
    "ente": "Senato della Repubblica",
    "url": "https://dati.senato.it/",
-   "raccolto": "2026-10-02"
+   "raccolto": "2026-10-04"
   },
   {
    "id": "cr",
@@ -119,6 +119,8 @@
  "avvisi": [
   "Comuni del Ministero dell'Interno non trovati nell'elenco ISTAT (fusioni recenti?): 7 (MURISENGO MONFERRATO (AL), CASTEGNERO NANTO (VI), SAN DORLIGO DELLA VALLE-DOLINA (TS), VALLECROSIA AL MARE (IM), JONADI (VV), MOJO ALCANTARA (ME), TRIPI - ABAKAINON (ME))",
   "Comuni senza contatti nell'IPA: 4 (Caines (021014), Castegnero (024027), Lirio (018082), Nanto (024071))",
+  "Senato LOMBARDIA - U06: eletto nel 2022 Silvio Berlusconi, oggi Adriano Galliani (elezione suppletiva o subentro)",
+  "Senatori senza email in data/manual/senatori-email.json: 178 (Bruno Marton, Andrea Martella, Andrea Ostellari, Andrea Paganella, Andrea De Priamo, Andrea Giorgis, Franco Mirabelli, Maria Elisabetta Alberti Casellati, …)",
   "Comunali del 17/05/2026: tornata nuova, aggiungerla a TORNATE in scripts/elezioni.mjs",
   "Elezioni politiche 2022: nessun dato per 12 comuni (Bardello con Malgesso e Bregano, Calliano Monferrato, Campospinoso Albaredo, Grana Monferrato, Montagna sulla strada del vino, Montemagno Monferrato, Moransengo-Tonengo, Popoli Terme, …)",
   "Elezioni europee 2024: nessun dato per 2 comuni (Ionadi, San Dorligo della Valle)",

@@ -104,7 +104,8 @@ export type Parlamento = {
   senato: { uninominali: Record<string, Persona>; proporzionale: Record<string, Persona[]> };
 };
 
-export type Europa = { circoscrizione: string; eurodeputati: Persona[] };
+/** Eurodeputati per circoscrizione ("nord-ovest", "nord-est", "centro", "sud", "isole"). */
+export type Europa = { circoscrizioni: Record<string, { nome: string; eurodeputati: Persona[] }> };
 
 export type Fonte = {
   id: string;

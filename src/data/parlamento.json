@@ -3366,26 +3366,263 @@
  },
  "senato": {
   "uninominali": {
-   "CAMPANIA - U01": {
-    "nome": "Giovanna Petrenga",
-    "ruolo": "Senatrice eletta nel collegio della tua zona",
-    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=25429",
-    "email": "giovanna.petrenga@senato.it",
-    "fonteUrl": "https://dati.senato.it/senatore/25429"
-   },
-   "CAMPANIA - U02": {
-    "nome": "Giulia Cosenza",
-    "ruolo": "Senatrice eletta nel collegio della tua zona",
-    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=22910",
-    "email": "giulia.cosenza@senato.it",
-    "fonteUrl": "https://dati.senato.it/senatore/22910"
-   },
-   "CAMPANIA - U03": {
-    "nome": "Antonio Iannone",
+   "PIEMONTE - U01": {
+    "nome": "Andrea Giorgis",
     "ruolo": "Senatore eletto nel collegio della tua zona",
-    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32645",
-    "email": "antonio.iannone@senato.it",
-    "fonteUrl": "https://dati.senato.it/senatore/32645"
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=29425",
+    "fonteUrl": "https://dati.senato.it/senatore/29425"
+   },
+   "PIEMONTE - U02": {
+    "nome": "Paola Ambrogio",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36382",
+    "fonteUrl": "https://dati.senato.it/senatore/36382"
+   },
+   "PIEMONTE - U03": {
+    "nome": "Gaetano Nastri",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=25446",
+    "fonteUrl": "https://dati.senato.it/senatore/25446"
+   },
+   "PIEMONTE - U04": {
+    "nome": "Paolo Zangrillo",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=33038",
+    "fonteUrl": "https://dati.senato.it/senatore/33038"
+   },
+   "PIEMONTE - U05": {
+    "nome": "Giorgio Maria Bergesio",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32586",
+    "fonteUrl": "https://dati.senato.it/senatore/32586"
+   },
+   "LOMBARDIA - U01": {
+    "nome": "Massimiliano Romeo",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32706",
+    "fonteUrl": "https://dati.senato.it/senatore/32706"
+   },
+   "LOMBARDIA - U02": {
+    "nome": "Licia Ronzulli",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32707",
+    "fonteUrl": "https://dati.senato.it/senatore/32707"
+   },
+   "LOMBARDIA - U03": {
+    "nome": "Antonio Misiani",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=23011",
+    "fonteUrl": "https://dati.senato.it/senatore/23011"
+   },
+   "LOMBARDIA - U04": {
+    "nome": "Isabella Rauti",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32699",
+    "fonteUrl": "https://dati.senato.it/senatore/32699"
+   },
+   "LOMBARDIA - U05": {
+    "nome": "Ignazio La Russa",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=1275",
+    "fonteUrl": "https://dati.senato.it/senatore/1275"
+   },
+   "LOMBARDIA - U10": {
+    "nome": "Gian Marco Centinaio",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=29067",
+    "fonteUrl": "https://dati.senato.it/senatore/29067"
+   },
+   "LOMBARDIA - U07": {
+    "nome": "Daisy Pirovano",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=18562",
+    "fonteUrl": "https://dati.senato.it/senatore/18562"
+   },
+   "LOMBARDIA - U08": {
+    "nome": "Stefano Borghesi",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=29292",
+    "fonteUrl": "https://dati.senato.it/senatore/29292"
+   },
+   "LOMBARDIA - U09": {
+    "nome": "Giuliomaria Terzi Di Sant'Agata",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=28550",
+    "fonteUrl": "https://dati.senato.it/senatore/28550"
+   },
+   "LOMBARDIA - U11": {
+    "nome": "Daniela Garnero Santanchè",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=18121",
+    "fonteUrl": "https://dati.senato.it/senatore/18121"
+   },
+   "VENETO - U01": {
+    "nome": "Raffaele Speranzon",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36428",
+    "fonteUrl": "https://dati.senato.it/senatore/36428"
+   },
+   "VENETO - U02": {
+    "nome": "Luca De Carlo",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32898",
+    "fonteUrl": "https://dati.senato.it/senatore/32898"
+   },
+   "VENETO - U03": {
+    "nome": "Anna Maria Bernini",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=25558",
+    "fonteUrl": "https://dati.senato.it/senatore/25558"
+   },
+   "VENETO - U04": {
+    "nome": "Mara Bizzotto",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36386",
+    "fonteUrl": "https://dati.senato.it/senatore/36386"
+   },
+   "VENETO - U05": {
+    "nome": "Paolo Tosato",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=30915",
+    "fonteUrl": "https://dati.senato.it/senatore/30915"
+   },
+   "FRIULI-VENEZIA GIULIA - U01": {
+    "nome": "Luca Ciriani",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32603",
+    "fonteUrl": "https://dati.senato.it/senatore/32603"
+   },
+   "LIGURIA - U01": {
+    "nome": "Gianni Berrino",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36384",
+    "fonteUrl": "https://dati.senato.it/senatore/36384"
+   },
+   "LIGURIA - U02": {
+    "nome": "Stefania Pucciarelli",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32697",
+    "fonteUrl": "https://dati.senato.it/senatore/32697"
+   },
+   "EMILIA-ROMAGNA - U01": {
+    "nome": "Elena Murelli",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=33110",
+    "fonteUrl": "https://dati.senato.it/senatore/33110"
+   },
+   "EMILIA-ROMAGNA - U02": {
+    "nome": "Vincenza Rando",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36418",
+    "fonteUrl": "https://dati.senato.it/senatore/36418"
+   },
+   "EMILIA-ROMAGNA - U03": {
+    "nome": "Pier Ferdinando Casini",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=520",
+    "fonteUrl": "https://dati.senato.it/senatore/520"
+   },
+   "EMILIA-ROMAGNA - U04": {
+    "nome": "Alberto Balboni",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=17542",
+    "fonteUrl": "https://dati.senato.it/senatore/17542"
+   },
+   "EMILIA-ROMAGNA - U05": {
+    "nome": "Marta Farolfi",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36397",
+    "fonteUrl": "https://dati.senato.it/senatore/36397"
+   },
+   "TOSCANA - U01": {
+    "nome": "Simona Petrucci",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36416",
+    "fonteUrl": "https://dati.senato.it/senatore/36416"
+   },
+   "TOSCANA - U02": {
+    "nome": "Manfredi Potenti",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=33022",
+    "fonteUrl": "https://dati.senato.it/senatore/33022"
+   },
+   "TOSCANA - U03": {
+    "nome": "Patrizio Giacomo La Pietra",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32650",
+    "fonteUrl": "https://dati.senato.it/senatore/32650"
+   },
+   "TOSCANA - U04": {
+    "nome": "Ilaria Cucchi",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36390",
+    "fonteUrl": "https://dati.senato.it/senatore/36390"
+   },
+   "UMBRIA - U01": {
+    "nome": "Francesco Zaffini",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32732",
+    "fonteUrl": "https://dati.senato.it/senatore/32732"
+   },
+   "MARCHE - U01": {
+    "nome": "Elena Leonardi",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36402",
+    "fonteUrl": "https://dati.senato.it/senatore/36402"
+   },
+   "MARCHE - U02": {
+    "nome": "Antonio De Poli",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=22814",
+    "fonteUrl": "https://dati.senato.it/senatore/22814"
+   },
+   "LAZIO - U02": {
+    "nome": "Lavinia Mennuni",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=34558",
+    "fonteUrl": "https://dati.senato.it/senatore/34558"
+   },
+   "LAZIO - U03": {
+    "nome": "Giulia Bongiorno",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=22877",
+    "fonteUrl": "https://dati.senato.it/senatore/22877"
+   },
+   "LAZIO - U04": {
+    "nome": "Ester Mieli",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36408",
+    "fonteUrl": "https://dati.senato.it/senatore/36408"
+   },
+   "LAZIO - U01": {
+    "nome": "Claudio Durigon",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=33096",
+    "fonteUrl": "https://dati.senato.it/senatore/33096"
+   },
+   "LAZIO - U05": {
+    "nome": "Marco Silvestroni",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=33137",
+    "fonteUrl": "https://dati.senato.it/senatore/33137"
+   },
+   "LAZIO - U06": {
+    "nome": "Claudio Fazzone",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=4192",
+    "fonteUrl": "https://dati.senato.it/senatore/4192"
+   },
+   "ABRUZZO - U01": {
+    "nome": "Guido Quintino Liris",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36403",
+    "fonteUrl": "https://dati.senato.it/senatore/36403"
+   },
+   "MOLISE - U01": {
+    "nome": "Claudio Lotito",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36405",
+    "fonteUrl": "https://dati.senato.it/senatore/36405"
    },
    "CAMPANIA - U04": {
     "nome": "Ada Lopreiato",
@@ -3414,9 +3651,624 @@
     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36394",
     "email": "raffaele.derosa@senato.it",
     "fonteUrl": "https://dati.senato.it/senatore/36394"
+   },
+   "CAMPANIA - U01": {
+    "nome": "Giovanna Petrenga",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=25429",
+    "email": "giovanna.petrenga@senato.it",
+    "fonteUrl": "https://dati.senato.it/senatore/25429"
+   },
+   "CAMPANIA - U02": {
+    "nome": "Giulia Cosenza",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=22910",
+    "email": "giulia.cosenza@senato.it",
+    "fonteUrl": "https://dati.senato.it/senatore/22910"
+   },
+   "CAMPANIA - U03": {
+    "nome": "Antonio Iannone",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32645",
+    "email": "antonio.iannone@senato.it",
+    "fonteUrl": "https://dati.senato.it/senatore/32645"
+   },
+   "PUGLIA - U01": {
+    "nome": "Anna Maria Fallucchi",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36398",
+    "fonteUrl": "https://dati.senato.it/senatore/36398"
+   },
+   "PUGLIA - U02": {
+    "nome": "Francesco Paolo Sisto",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=22263",
+    "fonteUrl": "https://dati.senato.it/senatore/22263"
+   },
+   "PUGLIA - U03": {
+    "nome": "Filippo Melchiorre",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36407",
+    "fonteUrl": "https://dati.senato.it/senatore/36407"
+   },
+   "PUGLIA - U04": {
+    "nome": "Vita Maria Nocco",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36412",
+    "fonteUrl": "https://dati.senato.it/senatore/36412"
+   },
+   "PUGLIA - U05": {
+    "nome": "Roberto Marti",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=29480",
+    "fonteUrl": "https://dati.senato.it/senatore/29480"
+   },
+   "BASILICATA - U01": {
+    "nome": "Maria Elisabetta Alberti Casellati",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32",
+    "fonteUrl": "https://dati.senato.it/senatore/32"
+   },
+   "CALABRIA - U01": {
+    "nome": "Ernesto Rapani",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36419",
+    "fonteUrl": "https://dati.senato.it/senatore/36419"
+   },
+   "CALABRIA - U02": {
+    "nome": "Tilde Minasi",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36013",
+    "fonteUrl": "https://dati.senato.it/senatore/36013"
+   },
+   "SICILIA - U01": {
+    "nome": "Dolores Bevilacqua",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36385",
+    "fonteUrl": "https://dati.senato.it/senatore/36385"
+   },
+   "SICILIA - U02": {
+    "nome": "Raoul Russo",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36421",
+    "fonteUrl": "https://dati.senato.it/senatore/36421"
+   },
+   "SICILIA - U03": {
+    "nome": "Stefania Gabriella Anastasia Craxi",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=22914",
+    "fonteUrl": "https://dati.senato.it/senatore/22914"
+   },
+   "SICILIA - U04": {
+    "nome": "Nello Musumeci",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=28306",
+    "fonteUrl": "https://dati.senato.it/senatore/28306"
+   },
+   "SICILIA - U05": {
+    "nome": "Salvatore Sallemi",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36422",
+    "fonteUrl": "https://dati.senato.it/senatore/36422"
+   },
+   "SICILIA - U06": {
+    "nome": "Dafne Musolino",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36409",
+    "fonteUrl": "https://dati.senato.it/senatore/36409"
+   },
+   "SARDEGNA - U01": {
+    "nome": "Antonella Zedda",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36430",
+    "fonteUrl": "https://dati.senato.it/senatore/36430"
+   },
+   "SARDEGNA - U02": {
+    "nome": "Marcello Pera",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=3900",
+    "fonteUrl": "https://dati.senato.it/senatore/3900"
+   },
+   "VALLE D'AOSTA - U01": {
+    "nome": "Nicoletta Spelgatti",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36427",
+    "fonteUrl": "https://dati.senato.it/senatore/36427"
+   },
+   "TRENTINO-ALTO ADIGE - U01": {
+    "nome": "Pietro Patton",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36415",
+    "fonteUrl": "https://dati.senato.it/senatore/36415"
+   },
+   "TRENTINO-ALTO ADIGE - U02": {
+    "nome": "Michaela Biancofiore",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=22871",
+    "fonteUrl": "https://dati.senato.it/senatore/22871"
+   },
+   "TRENTINO-ALTO ADIGE - U03": {
+    "nome": "Elena Testor",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32721",
+    "fonteUrl": "https://dati.senato.it/senatore/32721"
+   },
+   "TRENTINO-ALTO ADIGE - U04": {
+    "nome": "Luigi Spagnolli",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36426",
+    "fonteUrl": "https://dati.senato.it/senatore/36426"
+   },
+   "TRENTINO-ALTO ADIGE - U05": {
+    "nome": "Julia Unterberger",
+    "ruolo": "Senatrice eletta nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32727",
+    "fonteUrl": "https://dati.senato.it/senatore/32727"
+   },
+   "TRENTINO-ALTO ADIGE - U06": {
+    "nome": "Meinhard Durnwalder",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32624",
+    "fonteUrl": "https://dati.senato.it/senatore/32624"
+   },
+   "LOMBARDIA - U06": {
+    "nome": "Adriano Galliani",
+    "ruolo": "Senatore eletto nel collegio della tua zona",
+    "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32637",
+    "fonteUrl": "https://dati.senato.it/senatore/32637"
    }
   },
   "proporzionale": {
+   "LOMBARDIA": [
+    {
+     "nome": "Adriano Paroli",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=4512",
+     "fonteUrl": "https://dati.senato.it/senatore/4512"
+    },
+    {
+     "nome": "Alberto Barachini",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32583",
+     "fonteUrl": "https://dati.senato.it/senatore/32583"
+    },
+    {
+     "nome": "Alessandro Alfieri",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32578",
+     "fonteUrl": "https://dati.senato.it/senatore/32578"
+    },
+    {
+     "nome": "Alessandro Morelli",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32988",
+     "fonteUrl": "https://dati.senato.it/senatore/32988"
+    },
+    {
+     "nome": "Alessio Butti",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=407",
+     "fonteUrl": "https://dati.senato.it/senatore/407"
+    },
+    {
+     "nome": "Alfredo Bazoli",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=29273",
+     "fonteUrl": "https://dati.senato.it/senatore/29273"
+    },
+    {
+     "nome": "Bruno Marton",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=29132",
+     "fonteUrl": "https://dati.senato.it/senatore/29132"
+    },
+    {
+     "nome": "Cristina Tajani",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=37739",
+     "fonteUrl": "https://dati.senato.it/senatore/37739"
+    },
+    {
+     "nome": "Elena Sironi",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36425",
+     "fonteUrl": "https://dati.senato.it/senatore/36425"
+    },
+    {
+     "nome": "Franco Mirabelli",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=29138",
+     "fonteUrl": "https://dati.senato.it/senatore/29138"
+    },
+    {
+     "nome": "Gianpietro Maffoni",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=33946",
+     "fonteUrl": "https://dati.senato.it/senatore/33946"
+    },
+    {
+     "nome": "Giusy Versace",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=33027",
+     "fonteUrl": "https://dati.senato.it/senatore/33027"
+    },
+    {
+     "nome": "Marco Lombardo",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36436",
+     "fonteUrl": "https://dati.senato.it/senatore/36436"
+    },
+    {
+     "nome": "Maria Cristina Cantù",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32598",
+     "fonteUrl": "https://dati.senato.it/senatore/32598"
+    },
+    {
+     "nome": "Paola Mancini",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36438",
+     "fonteUrl": "https://dati.senato.it/senatore/36438"
+    },
+    {
+     "nome": "Renato Ancorotti",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36383",
+     "fonteUrl": "https://dati.senato.it/senatore/36383"
+    },
+    {
+     "nome": "Roberto Calderoli",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=422",
+     "fonteUrl": "https://dati.senato.it/senatore/422"
+    },
+    {
+     "nome": "Sandro Sisler",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36446",
+     "fonteUrl": "https://dati.senato.it/senatore/36446"
+    },
+    {
+     "nome": "Simona Flavia Malpezzi",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=29467",
+     "fonteUrl": "https://dati.senato.it/senatore/29467"
+    },
+    {
+     "nome": "Tino Magni",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36437",
+     "fonteUrl": "https://dati.senato.it/senatore/36437"
+    }
+   ],
+   "VENETO": [
+    {
+     "nome": "Adolfo Urso",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=2444",
+     "fonteUrl": "https://dati.senato.it/senatore/2444"
+    },
+    {
+     "nome": "Andrea Martella",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=17924",
+     "fonteUrl": "https://dati.senato.it/senatore/17924"
+    },
+    {
+     "nome": "Andrea Ostellari",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32677",
+     "fonteUrl": "https://dati.senato.it/senatore/32677"
+    },
+    {
+     "nome": "Aurora Floridia",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36399",
+     "fonteUrl": "https://dati.senato.it/senatore/36399"
+    },
+    {
+     "nome": "Barbara Guidolin",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32644",
+     "fonteUrl": "https://dati.senato.it/senatore/32644"
+    },
+    {
+     "nome": "Bartolomeo Amidei",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=31010",
+     "fonteUrl": "https://dati.senato.it/senatore/31010"
+    },
+    {
+     "nome": "Beatrice Lorenzin",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=25474",
+     "fonteUrl": "https://dati.senato.it/senatore/25474"
+    },
+    {
+     "nome": "Daniela Sbrollini",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=25402",
+     "fonteUrl": "https://dati.senato.it/senatore/25402"
+    },
+    {
+     "nome": "Erika Stefani",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=29185",
+     "fonteUrl": "https://dati.senato.it/senatore/29185"
+    },
+    {
+     "nome": "Matteo Gelmetti",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36433",
+     "fonteUrl": "https://dati.senato.it/senatore/36433"
+    },
+    {
+     "nome": "Pierantonio Zanettin",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=17811",
+     "fonteUrl": "https://dati.senato.it/senatore/17811"
+    }
+   ],
+   "LAZIO": [
+    {
+     "nome": "Alessandra Maiorino",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32658",
+     "fonteUrl": "https://dati.senato.it/senatore/32658"
+    },
+    {
+     "nome": "Andrea De Priamo",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36393",
+     "fonteUrl": "https://dati.senato.it/senatore/36393"
+    },
+    {
+     "nome": "Andrea Paganella",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=34243",
+     "fonteUrl": "https://dati.senato.it/senatore/34243"
+    },
+    {
+     "nome": "Cecilia D'Elia",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=31875",
+     "fonteUrl": "https://dati.senato.it/senatore/31875"
+    },
+    {
+     "nome": "Cinzia Pellegrino",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=35489",
+     "fonteUrl": "https://dati.senato.it/senatore/35489"
+    },
+    {
+     "nome": "Filippo Sensi",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=27622",
+     "fonteUrl": "https://dati.senato.it/senatore/27622"
+    },
+    {
+     "nome": "Marco Scurria",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=33863",
+     "fonteUrl": "https://dati.senato.it/senatore/33863"
+    },
+    {
+     "nome": "Maurizio Gasparri",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=1103",
+     "fonteUrl": "https://dati.senato.it/senatore/1103"
+    },
+    {
+     "nome": "Nicola Calandrini",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=34485",
+     "fonteUrl": "https://dati.senato.it/senatore/34485"
+    },
+    {
+     "nome": "Peppe De Cristofaro",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=22918",
+     "fonteUrl": "https://dati.senato.it/senatore/22918"
+    },
+    {
+     "nome": "Raffaella Paita",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=33005",
+     "fonteUrl": "https://dati.senato.it/senatore/33005"
+    },
+    {
+     "nome": "Stefano Patuanelli",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32681",
+     "fonteUrl": "https://dati.senato.it/senatore/32681"
+    }
+   ],
+   "SICILIA": [
+    {
+     "nome": "Annamaria Furlan",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=31725",
+     "fonteUrl": "https://dati.senato.it/senatore/31725"
+    },
+    {
+     "nome": "Antonino Germanà",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=1116",
+     "fonteUrl": "https://dati.senato.it/senatore/1116"
+    },
+    {
+     "nome": "Antonio Nicita",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36411",
+     "fonteUrl": "https://dati.senato.it/senatore/36411"
+    },
+    {
+     "nome": "Barbara Floridia",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32634",
+     "fonteUrl": "https://dati.senato.it/senatore/32634"
+    },
+    {
+     "nome": "Carlo Calenda",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=30110",
+     "fonteUrl": "https://dati.senato.it/senatore/30110"
+    },
+    {
+     "nome": "Carmela Bucalo",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32856",
+     "fonteUrl": "https://dati.senato.it/senatore/32856"
+    },
+    {
+     "nome": "Concetta Damante",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36391",
+     "fonteUrl": "https://dati.senato.it/senatore/36391"
+    },
+    {
+     "nome": "Daniela Ternullo",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=37415",
+     "fonteUrl": "https://dati.senato.it/senatore/37415"
+    },
+    {
+     "nome": "Pietro Lorefice",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32655",
+     "fonteUrl": "https://dati.senato.it/senatore/32655"
+    },
+    {
+     "nome": "Salvo Pogliese",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36441",
+     "fonteUrl": "https://dati.senato.it/senatore/36441"
+    }
+   ],
+   "UMBRIA": [
+    {
+     "nome": "Antonio Guidi",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=1227",
+     "fonteUrl": "https://dati.senato.it/senatore/1227"
+    },
+    {
+     "nome": "Walter Verini",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=25377",
+     "fonteUrl": "https://dati.senato.it/senatore/25377"
+    }
+   ],
+   "TOSCANA": [
+    {
+     "nome": "Claudio Borghi",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=33070",
+     "fonteUrl": "https://dati.senato.it/senatore/33070"
+    },
+    {
+     "nome": "Dario Parrini",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=29521",
+     "fonteUrl": "https://dati.senato.it/senatore/29521"
+    },
+    {
+     "nome": "Ettore Antonio Licheri",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32653",
+     "fonteUrl": "https://dati.senato.it/senatore/32653"
+    },
+    {
+     "nome": "Mariastella Gelmini",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=22966",
+     "fonteUrl": "https://dati.senato.it/senatore/22966"
+    },
+    {
+     "nome": "Paolo Marcheschi",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36439",
+     "fonteUrl": "https://dati.senato.it/senatore/36439"
+    },
+    {
+     "nome": "Silvio Franceschelli",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36400",
+     "fonteUrl": "https://dati.senato.it/senatore/36400"
+    },
+    {
+     "nome": "Susanna Donatella Campione",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36432",
+     "fonteUrl": "https://dati.senato.it/senatore/36432"
+    },
+    {
+     "nome": "Ylenia Zambito",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36429",
+     "fonteUrl": "https://dati.senato.it/senatore/36429"
+    }
+   ],
+   "MARCHE": [
+    {
+     "nome": "Alberto Losacco",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=18055",
+     "fonteUrl": "https://dati.senato.it/senatore/18055"
+    },
+    {
+     "nome": "Guido Castelli",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36388",
+     "fonteUrl": "https://dati.senato.it/senatore/36388"
+    },
+    {
+     "nome": "Roberto Cataldi",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=33065",
+     "fonteUrl": "https://dati.senato.it/senatore/33065"
+    }
+   ],
+   "BASILICATA": [
+    {
+     "nome": "Gianni Rosa",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36420",
+     "fonteUrl": "https://dati.senato.it/senatore/36420"
+    },
+    {
+     "nome": "Mario Turco",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32726",
+     "fonteUrl": "https://dati.senato.it/senatore/32726"
+    }
+   ],
+   "CALABRIA": [
+    {
+     "nome": "Fausto Orsomarso",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36414",
+     "fonteUrl": "https://dati.senato.it/senatore/36414"
+    },
+    {
+     "nome": "Mario Occhiuto",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36413",
+     "fonteUrl": "https://dati.senato.it/senatore/36413"
+    },
+    {
+     "nome": "Nicola Irto",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36401",
+     "fonteUrl": "https://dati.senato.it/senatore/36401"
+    },
+    {
+     "nome": "Roberto Maria Ferdinando Scarpinato",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36423",
+     "fonteUrl": "https://dati.senato.it/senatore/36423"
+    }
+   ],
    "CAMPANIA": [
     {
      "nome": "Anna Bilotti",
@@ -3494,6 +4346,256 @@
      "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36381",
      "email": "vincenza.aloisio@senato.it",
      "fonteUrl": "https://dati.senato.it/senatore/36381"
+    }
+   ],
+   "PUGLIA": [
+    {
+     "nome": "Antonio Salvatore Trevisi",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36448",
+     "fonteUrl": "https://dati.senato.it/senatore/36448"
+    },
+    {
+     "nome": "Dario Damiani",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32747",
+     "fonteUrl": "https://dati.senato.it/senatore/32747"
+    },
+    {
+     "nome": "Francesco Boccia",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=25555",
+     "fonteUrl": "https://dati.senato.it/senatore/25555"
+    },
+    {
+     "nome": "Giovanbattista Fazzolari",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32628",
+     "fonteUrl": "https://dati.senato.it/senatore/32628"
+    },
+    {
+     "nome": "Gisella Naturale",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32673",
+     "fonteUrl": "https://dati.senato.it/senatore/32673"
+    },
+    {
+     "nome": "Ignazio Zullo",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36450",
+     "fonteUrl": "https://dati.senato.it/senatore/36450"
+    },
+    {
+     "nome": "Matteo Salvini",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=25407",
+     "fonteUrl": "https://dati.senato.it/senatore/25407"
+    },
+    {
+     "nome": "Valeria Valente",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=29604",
+     "fonteUrl": "https://dati.senato.it/senatore/29604"
+    }
+   ],
+   "PIEMONTE": [
+    {
+     "nome": "Anna Rossomando",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=25411",
+     "fonteUrl": "https://dati.senato.it/senatore/25411"
+    },
+    {
+     "nome": "Elisa Pirro",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32691",
+     "fonteUrl": "https://dati.senato.it/senatore/32691"
+    },
+    {
+     "nome": "Enrico Borghi",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=29293",
+     "fonteUrl": "https://dati.senato.it/senatore/29293"
+    },
+    {
+     "nome": "Francesco Verducci",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=28924",
+     "fonteUrl": "https://dati.senato.it/senatore/28924"
+    },
+    {
+     "nome": "Giorgio Salvitti",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36443",
+     "fonteUrl": "https://dati.senato.it/senatore/36443"
+    },
+    {
+     "nome": "Ivan Scalfarotto",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=29573",
+     "fonteUrl": "https://dati.senato.it/senatore/29573"
+    },
+    {
+     "nome": "Lucio Malan",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=1407",
+     "fonteUrl": "https://dati.senato.it/senatore/1407"
+    },
+    {
+     "nome": "Massimo Garavaglia",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=22963",
+     "fonteUrl": "https://dati.senato.it/senatore/22963"
+    },
+    {
+     "nome": "Roberto Rosso",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32779",
+     "fonteUrl": "https://dati.senato.it/senatore/32779"
+    }
+   ],
+   "LIGURIA": [
+    {
+     "nome": "Lorenzo Basso",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=29270",
+     "fonteUrl": "https://dati.senato.it/senatore/29270"
+    },
+    {
+     "nome": "Luca Pirondini",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36417",
+     "fonteUrl": "https://dati.senato.it/senatore/36417"
+    },
+    {
+     "nome": "Roberto Menia",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=1558",
+     "fonteUrl": "https://dati.senato.it/senatore/1558"
+    }
+   ],
+   "EMILIA-ROMAGNA": [
+    {
+     "nome": "Daniele Manca",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32660",
+     "fonteUrl": "https://dati.senato.it/senatore/32660"
+    },
+    {
+     "nome": "Domenica Spinelli",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36447",
+     "fonteUrl": "https://dati.senato.it/senatore/36447"
+    },
+    {
+     "nome": "Graziano Delrio",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=28670",
+     "fonteUrl": "https://dati.senato.it/senatore/28670"
+    },
+    {
+     "nome": "Lucia Borgonzoni",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32590",
+     "fonteUrl": "https://dati.senato.it/senatore/32590"
+    },
+    {
+     "nome": "Marco Croatti",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32608",
+     "fonteUrl": "https://dati.senato.it/senatore/32608"
+    },
+    {
+     "nome": "Marco Lisei",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36435",
+     "fonteUrl": "https://dati.senato.it/senatore/36435"
+    },
+    {
+     "nome": "Michele Barcaiuolo",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36431",
+     "fonteUrl": "https://dati.senato.it/senatore/36431"
+    },
+    {
+     "nome": "Sandra Zampa",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=24016",
+     "fonteUrl": "https://dati.senato.it/senatore/24016"
+    },
+    {
+     "nome": "Silvia Fregolent",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=29406",
+     "fonteUrl": "https://dati.senato.it/senatore/29406"
+    }
+   ],
+   "SARDEGNA": [
+    {
+     "nome": "Giovanni Satta",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36444",
+     "fonteUrl": "https://dati.senato.it/senatore/36444"
+    },
+    {
+     "nome": "Marco Meloni",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=29490",
+     "fonteUrl": "https://dati.senato.it/senatore/29490"
+    },
+    {
+     "nome": "Sabrina Licheri",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36434",
+     "fonteUrl": "https://dati.senato.it/senatore/36434"
+    }
+   ],
+   "FRIULI-VENEZIA GIULIA": [
+    {
+     "nome": "Francesca Tubetti",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36449",
+     "fonteUrl": "https://dati.senato.it/senatore/36449"
+    },
+    {
+     "nome": "Marco Dreosto",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36396",
+     "fonteUrl": "https://dati.senato.it/senatore/36396"
+    },
+    {
+     "nome": "Tatjana Rojc",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32703",
+     "fonteUrl": "https://dati.senato.it/senatore/32703"
+    }
+   ],
+   "ABRUZZO": [
+    {
+     "nome": "Etelwardo Sigismondi",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36424",
+     "fonteUrl": "https://dati.senato.it/senatore/36424"
+    },
+    {
+     "nome": "Gabriella Di Girolamo",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32619",
+     "fonteUrl": "https://dati.senato.it/senatore/32619"
+    },
+    {
+     "nome": "Michele Fina",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=30294",
+     "fonteUrl": "https://dati.senato.it/senatore/30294"
+    }
+   ],
+   "MOLISE": [
+    {
+     "nome": "Costanzo Della Porta",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36395",
+     "fonteUrl": "https://dati.senato.it/senatore/36395"
     }
    ]
   }

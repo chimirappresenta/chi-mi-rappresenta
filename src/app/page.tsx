@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { comuni, consiglieriPerEmiciclo, consiglio, europa, meta, parlamento, regione } from "@/lib/data";
+import { comuni, consiglieriPerEmiciclo, consiglio, meta, parlamento, regione, tuttiGliEurodeputati } from "@/lib/data";
 import { ComuneSearch } from "@/components/ComuneSearch";
 import { Condividi } from "@/components/Condividi";
 import { Emiciclo } from "@/components/Emiciclo";
@@ -43,7 +43,7 @@ export default function Home() {
     { id: "comune", titolo: "Comune", testo: "Sindaco, giunta e consiglio comunale. E se il Comune è commissariato, chi lo guida.", numero: String(sindaci), unita: "sindaci" },
     { id: "regione", titolo: "Regione", testo: "Presidente, giunta e i consiglieri eletti nella tua provincia, con contatti e atti.", numero: String(regione.consiglieri.length), unita: "consiglieri" },
     { id: "parlamento", titolo: "Parlamento", testo: "Deputati e senatori dei collegi che comprendono il tuo comune.", numero: String(deputati + senatori), unita: "parlamentari" },
-    { id: "europa", titolo: "Europa", testo: "Gli eurodeputati della circoscrizione Italia meridionale.", numero: String(europa.eurodeputati.length), unita: "eurodeputati" },
+    { id: "europa", titolo: "Europa", testo: "Gli eurodeputati della circoscrizione Italia meridionale.", numero: String(tuttiGliEurodeputati().length), unita: "eurodeputati" },
   ];
 
   return (

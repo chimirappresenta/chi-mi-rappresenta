@@ -64,7 +64,10 @@ export default function FontiPage() {
             <li>
               <strong>Senato:</strong> gli open data indicano la regione di
               elezione ma non il collegio uninominale. L&apos;abbinamento
-              collegio → senatore è stato verificato a mano.
+              collegio → senatore è ricavato dai risultati delle politiche
+              2022 del Ministero dell&apos;Interno e confrontato con i senatori
+              in carica (cambi di nome, elezioni suppletive come quella di
+              Monza). Le email vengono dalle schede ufficiali del Senato.
             </li>
             <li>
               <strong>Atti del Consiglio regionale:</strong> sono quelli
@@ -83,9 +86,11 @@ export default function FontiPage() {
               legge, sempre linkato.
             </li>
             <li>
-              <strong>Eurodeputati:</strong> l&apos;elenco della circoscrizione
-              è curato a mano. Ad ogni aggiornamento controlliamo con l&apos;API
-              del Parlamento europeo che siano ancora in carica.
+              <strong>Eurodeputati:</strong> l&apos;API del Parlamento europeo
+              non indica la circoscrizione: l&apos;abbinamento viene dagli
+              eletti del 2024 (esclusi rinunce e opzioni) e dai subentri. A ogni
+              aggiornamento controlliamo con l&apos;API che siano ancora in
+              carica e che non ne manchi nessuno.
             </li>
           </ul>
 

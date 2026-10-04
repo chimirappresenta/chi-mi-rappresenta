@@ -99,8 +99,10 @@ const CIRCOSCRIZIONI_EUROPEE = [
   { id: "isole", nome: "Italia insulare", regioni: ["19", "20"], elenco: "Sicilia e Sardegna" },
 ];
 export const circoscrizioneEuropea = (codiceRegione: string) => CIRCOSCRIZIONI_EUROPEE.find((c) => c.regioni.includes(codiceRegione))!;
-/** Eurodeputati della circoscrizione del comune (per ora solo il Sud: le altre circoscrizioni arrivano a breve). */
-export const eurodeputatiDi = (codiceRegione: string): Persona[] => (circoscrizioneEuropea(codiceRegione).id === "sud" ? europa.eurodeputati : []);
+/** Eurodeputati della circoscrizione in cui vota il comune. */
+export const eurodeputatiDi = (codiceRegione: string): Persona[] => europa.circoscrizioni[circoscrizioneEuropea(codiceRegione).id]?.eurodeputati ?? [];
+/** Tutti gli eurodeputati italiani. */
+export const tuttiGliEurodeputati = () => Object.values(europa.circoscrizioni).flatMap((c) => c.eurodeputati);
 /** Senatori eletti con le liste nella regione. */
 export const senatoriProporzionaliDi = (nomeRegione: string): Persona[] => parlamento.senato.proporzionale[nomeRegione.toUpperCase()] ?? [];
 

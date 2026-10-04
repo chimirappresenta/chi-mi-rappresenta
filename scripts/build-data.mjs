@@ -6,6 +6,7 @@ import fs from "node:fs";
 import path from "node:path";
 import AdmZip from "adm-zip";
 import { elezioniPerComune, FONTE_ELEZIONI } from "./elezioni.mjs";
+import { vincitoriSenato } from "./senato.mjs";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const RAW = path.join(ROOT, "data", "raw");
@@ -653,51 +654,89 @@ for (const l of Object.values(deputatiPerCollegio)) l.sort((a, b) => a.nome.loca
 console.log(`  ${deputatiRows.length} deputati in carica, ${Object.keys(deputatiPerCollegio).length} collegi`);
 
 const senatoriRows = await sparql(
-  "senato-senatori.json",
+  "senato-senatori-italia.json",
   "https://dati.senato.it/sparql",
   `PREFIX osr: <http://dati.senato.it/osr/>
    PREFIX foaf: <http://xmlns.com/foaf/0.1/>
-   SELECT DISTINCT ?s ?nome ?cognome ?tipo ?genere WHERE {
+   SELECT DISTINCT ?s ?nome ?cognome ?tipo ?reg ?genere WHERE {
      ?s a osr:Senatore; foaf:firstName ?nome; foaf:lastName ?cognome; osr:mandato ?m.
      OPTIONAL { ?s foaf:gender ?genere }
-     ?m osr:legislatura 19; osr:regioneElezione ?reg; osr:tipoElezione ?tipo.
+     ?m osr:legislatura 19. OPTIONAL { ?m osr:regioneElezione ?reg } OPTIONAL { ?m osr:tipoElezione ?tipo }
      FILTER NOT EXISTS { ?m osr:fine ?fine }
-     FILTER(CONTAINS(STR(?reg), "${REGIONE.nome}"))
    }`,
 );
-const senUni = JSON.parse(fs.readFileSync(path.join(MANUAL, "senato-uninominali.json"), "utf8")).collegi;
+// Email dalle schede ufficiali del Senato (il sito non è leggibile dagli script: raccolte dal browser, vedi il file).
 const senatoriEmail = JSON.parse(fs.readFileSync(path.join(MANUAL, "senatori-email.json"), "utf8")).email;
-const senatoreById = new Map();
-for (const r of senatoriRows) {
+const codiceRegioneDaNome = new Map([...REGIONI.values()].map((r) => [norm(r.nome), r.codice]));
+const regioneDaTesto = (t) => codiceRegioneDaNome.get(norm((t ?? "").split("/")[0]));
+const senatori = senatoriRows.map((r) => {
   const id = r.s.split("/").pop();
-  senatoreById.set(
+  const uninominale = /uninominale/i.test(r.tipo ?? "");
+  return {
     id,
-    persona({
-      nome: `${r.nome} ${r.cognome}`,
-      ruolo: declina(
-        r.tipo.toLowerCase().includes("uninominale") ? "Senatore eletto nel collegio della tua zona" : "Senatore eletto con le liste dei partiti",
-        /^f/i.test(r.genere ?? "") ? "F" : "M",
-      ),
+    nome: titleCase(`${r.nome} ${r.cognome}`),
+    cognome: r.cognome,
+    codiceRegione: regioneDaTesto(r.reg),
+    uninominale,
+    persona: persona({
+      nome: titleCase(`${r.nome} ${r.cognome}`),
+      ruolo: declina(uninominale ? "Senatore eletto nel collegio della tua zona" : "Senatore eletto con le liste dei partiti", /^f/i.test(r.genere ?? "") ? "F" : "M"),
       url: `https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=${id}`,
       email: senatoriEmail[id],
       fonteUrl: r.s.replace("http://", "https://"),
-      _id: id,
-      _uninominale: r.tipo.toLowerCase().includes("uninominale"),
     }),
-  );
-}
-for (const id of senatoreById.keys()) if (!senatoriEmail[id]) warn(`Email mancante per il senatore ${id} in data/manual/senatori-email.json`);
+  };
+});
+for (const s of senatori) if (s.codiceRegione && !senatoriEmail[s.id]) warnGruppo("Senatori senza email in data/manual/senatori-email.json", s.nome);
+
+// Collegi uninominali: vincitore 2022 per collegio (Ministero dell'Interno) → senatore in carica.
+// 1) stesso nome e cognome; 2) stesso cognome nella regione (nomi scritti diversamente: "Gianni"/"Giovanni");
+// 3) elezioni suppletive: se in una regione restano un collegio e un senatore uninominale, li abbiniamo.
+const vincitori = await vincitoriSenato({ RAW, UA });
+const chiaveNomeCompleto = (s) => norm(s).split(" ").filter(Boolean).sort().join(" ");
 const senatoUninominali = {};
-for (const [collegio, id] of Object.entries(senUni)) {
-  const s = senatoreById.get(id);
-  if (!s) warn(`Senatore ${id} del collegio ${collegio} non risulta in carica`);
-  else senatoUninominali[`${REGIONE.nome.toUpperCase()} - ${collegio}`] = s;
+const usati = new Set();
+const daAbbinare = [];
+for (const [collegio, v] of vincitori) {
+  const [regTesto, cod] = collegio.split(" - ");
+  const codReg = regioneDaTesto(regTesto);
+  if (!codReg) {
+    warn(`Collegio del Senato con regione non riconosciuta: ${collegio}`);
+    continue;
+  }
+  const chiave = `${REGIONI.get(codReg).nome.toUpperCase()} - ${cod.trim()}`;
+  const candidati = senatori.filter((s) => s.uninominale && s.codiceRegione === codReg && !usati.has(s.id));
+  const s =
+    candidati.find((x) => chiaveNomeCompleto(x.nome) === chiaveNomeCompleto(`${v.nome} ${v.cognome}`)) ??
+    (() => {
+      const stessoCognome = candidati.filter((x) => norm(x.cognome) === norm(v.cognome));
+      return stessoCognome.length === 1 ? stessoCognome[0] : undefined;
+    })();
+  if (s) {
+    usati.add(s.id);
+    senatoUninominali[chiave] = s.persona;
+  } else daAbbinare.push({ chiave, codReg, vincitore: titleCase(`${v.nome} ${v.cognome}`) });
 }
-const senatoProporzionale = [...senatoreById.values()]
-  .filter((s) => !s._uninominale)
-  .sort((a, b) => a.nome.localeCompare(b.nome, "it"));
-const strip = ({ _id, _uninominale, ...p }) => (void _id, void _uninominale, p);
-console.log(`  ${senatoriRows.length} senatori eletti in ${REGIONE.nome}`);
+for (const d of daAbbinare) {
+  const restanti = senatori.filter((s) => s.uninominale && s.codiceRegione === d.codReg && !usati.has(s.id));
+  const collegiRestanti = daAbbinare.filter((x) => x.codReg === d.codReg && !senatoUninominali[x.chiave]);
+  if (restanti.length === 1 && collegiRestanti.length === 1) {
+    usati.add(restanti[0].id);
+    senatoUninominali[d.chiave] = restanti[0].persona;
+    warn(`Senato ${d.chiave}: eletto nel 2022 ${d.vincitore}, oggi ${restanti[0].nome} (elezione suppletiva o subentro)`);
+  } else warn(`Senato ${d.chiave}: senatore in carica non individuato (vincitore 2022: ${d.vincitore})`);
+}
+// Eletti con le liste, per regione. Chi non ha una regione nei dati (senatori a vita, alcuni subentrati) resta fuori.
+const senatoProporzionale = {};
+for (const s of senatori) {
+  if (s.uninominale || !s.codiceRegione) continue;
+  (senatoProporzionale[REGIONI.get(s.codiceRegione).nome.toUpperCase()] ??= []).push(s.persona);
+}
+for (const l of Object.values(senatoProporzionale)) l.sort((a, b) => a.nome.localeCompare(b.nome, "it"));
+const senzaRegione = senatori.filter((s) => !s.codiceRegione && !s.uninominale).length;
+chiudiAvvisi();
+// Senza regione: senatori a vita, eletti all'estero e alcune righe di ex senatori che la fonte restituisce per la XIX.
+console.log(`  ${senatori.filter((x) => x.codiceRegione).length} senatori eletti in Italia, ${Object.keys(senatoUninominali).length} collegi uninominali abbinati (${senzaRegione} righe senza regione escluse)`);
 
 // ---------------------------------------------------------------- 5. Regione (Consiglio + Giunta)
 
@@ -1007,7 +1046,8 @@ const epText = await download(
   { headers: { Accept: "application/ld+json" } },
 );
 const epById = new Map(JSON.parse(epText).data.map((m) => [m.identifier, m]));
-const epManual = JSON.parse(fs.readFileSync(path.join(MANUAL, "eurodeputati-sud.json"), "utf8"));
+const epManual = JSON.parse(fs.readFileSync(path.join(MANUAL, "eurodeputati.json"), "utf8")).circoscrizioni;
+const NOMI_CIRC_EU = { "nord-ovest": "Italia nord-occidentale", "nord-est": "Italia nord-orientale", centro: "Italia centrale", sud: "Italia meridionale", isole: "Italia insulare" };
 const GRUPPI_PE = {
   ECR: "Conservatori e Riformisti europei (ECR)",
   "S&D": "Socialisti e Democratici (S&D)",
@@ -1032,28 +1072,33 @@ async function schedaEurodeputato(id) {
     return {};
   }
 }
-const eurodeputati = (
-  await Promise.all(
-    epManual.ids.map(async (id) => {
-      const m = epById.get(id);
-      if (!m) {
-        warn(`Eurodeputato ${id} non più in carica secondo l'API del PE: aggiornare data/manual/eurodeputati-sud.json`);
-        return null;
-      }
-      const scheda = await schedaEurodeputato(id);
-      return persona({
-        nome: titleCase(`${m.givenName} ${m.familyName}`),
-        ruolo: declina("Eurodeputato · circoscrizione Italia meridionale", scheda.sesso),
-        dettaglio: GRUPPI_PE[m["api:political-group"]] ?? m["api:political-group"],
-        url: `https://www.europarl.europa.eu/meps/it/${id}`,
-        email: scheda.email,
-      });
-    }),
+const eurodeputatiPerCirc = {};
+for (const [circ, ids] of Object.entries(epManual)) {
+  eurodeputatiPerCirc[circ] = (
+    await Promise.all(
+      ids.map(async (id) => {
+        const m = epById.get(id);
+        if (!m) {
+          warn(`Eurodeputato ${id} (${circ}) non più in carica secondo l'API del PE: aggiornare data/manual/eurodeputati.json`);
+          return null;
+        }
+        const scheda = await schedaEurodeputato(id);
+        return persona({
+          nome: titleCase(`${m.givenName} ${m.familyName}`),
+          ruolo: declina(`Eurodeputato · circoscrizione ${NOMI_CIRC_EU[circ]}`, scheda.sesso),
+          dettaglio: GRUPPI_PE[m["api:political-group"]] ?? m["api:political-group"],
+          url: `https://www.europarl.europa.eu/meps/it/${id}`,
+          email: scheda.email,
+        });
+      }),
+    )
   )
-)
-  .filter(Boolean)
-  .sort((a, b) => a.nome.split(" ").pop().localeCompare(b.nome.split(" ").pop(), "it"));
-console.log(`  ${eurodeputati.length} eurodeputati Italia meridionale`);
+    .filter(Boolean)
+    .sort((a, b) => a.nome.split(" ").pop().localeCompare(b.nome.split(" ").pop(), "it"));
+}
+const idsManuali = new Set(Object.values(epManual).flat());
+for (const m of epById.values()) if (!idsManuali.has(m.identifier)) warn(`Eurodeputato in carica non presente in data/manual/eurodeputati.json: ${m.givenName} ${m.familyName} (${m.identifier})`);
+console.log(`  ${Object.values(eurodeputatiPerCirc).flat().length} eurodeputati in 5 circoscrizioni`);
 
 // ---------------------------------------------------------------- 6b. Risultati elettorali
 
@@ -1128,7 +1173,7 @@ const meta = {
     { id: "wikidata-cap", nome: "Codici di avviamento postale dei comuni", ente: "Wikidata", url: "https://www.wikidata.org/wiki/Property:P281", raccolto: raccolto("wikidata-cap-italia.csv") },
     { id: "istat-collegi", nome: "Basi geografiche dei collegi elettorali (D.Lgs. 177/2020)", ente: "ISTAT", url: "https://www.istat.it/notizia/le-basi-geografiche-dei-nuovi-collegi-elettorali-2/", raccolto: raccolto("UT_Collegi2020.dbf") },
     { id: "camera", nome: "Open data della Camera dei deputati", ente: "Camera dei deputati", url: "https://dati.camera.it/", raccolto: raccolto("camera-deputati-italia.json") },
-    { id: "senato", nome: "Open data del Senato della Repubblica (email dalle schede ufficiali)", ente: "Senato della Repubblica", url: "https://dati.senato.it/", raccolto: raccolto("senato-senatori.json") },
+    { id: "senato", nome: "Open data del Senato della Repubblica (email dalle schede ufficiali)", ente: "Senato della Repubblica", url: "https://dati.senato.it/", raccolto: raccolto("senato-senatori-italia.json") },
     { id: "cr", nome: "Consiglieri regionali", ente: "Consiglio regionale della Campania", url: `${CR_BASE}/consiglio-regionale/consiglieri`, raccolto: raccolto("cr-consiglieri.html") },
     { id: "giunta", nome: "La Giunta regionale", ente: "Regione Campania", url: GIUNTA_URL, raccolto: raccolto("regione-giunta.html") },
     { id: "pe", nome: "Open Data Portal – deputati in carica", ente: "Parlamento europeo", url: "https://data.europarl.europa.eu/", raccolto: raccolto("ep-meps-it.json") },
@@ -1257,13 +1302,10 @@ chiudiAvvisi();
 write("regioni.json", { aggiornato: ammregAggiornato, regioni });
 write("parlamento.json", {
   camera: deputatiPerCollegio,
-  senato: {
-    uninominali: Object.fromEntries(Object.entries(senatoUninominali).map(([k, v]) => [k, strip(v)])),
-    // per regione (il Senato è eletto su base regionale)
-    proporzionale: { [REGIONE.nome.toUpperCase()]: senatoProporzionale.map(strip) },
-  },
+  // uninominali per collegio ("CAMPANIA - U03"); proporzionale per regione (il Senato è eletto su base regionale)
+  senato: { uninominali: senatoUninominali, proporzionale: senatoProporzionale },
 });
-write("europa.json", { circoscrizione: "Italia meridionale", eurodeputati });
+write("europa.json", { circoscrizioni: Object.fromEntries(Object.entries(eurodeputatiPerCirc).map(([id, l]) => [id, { nome: NOMI_CIRC_EU[id], eurodeputati: l }])) });
 write("meta.json", meta);
 write("consiglio.json", {
   legislatura: LEGISLATURA,

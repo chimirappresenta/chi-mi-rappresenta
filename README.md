@@ -22,10 +22,9 @@ npm run dev           # sviluppo locale
 | Sindaco, giunta, consiglio, commissari | Ministero dell'Interno – Anagrafe amministratori (`ammcom.csv`, `organistraordinariincarica.csv`) | i commissariamenti già conclusi vengono scartati se c'è un sindaco eletto dopo |
 | Comune → collegi Camera/Senato | ISTAT, basi geografiche dei collegi 2020 (`UT_Collegi2020.dbf`) | per Napoli anche i quartieri di ogni collegio |
 | Deputati | dati.camera.it (SPARQL) | solo i mandati in corso |
-| Senatori | dati.senato.it (SPARQL) + `data/manual/senato-uninominali.json` | gli open data non riportano il collegio uninominale |
 | Consiglio regionale | cr.campania.it (schede consiglieri) + `data/manual/consiglieri-regionali-circoscrizione.json` | circoscrizione dai risultati delle regionali 2025 |
 | Giunta regionale | regione.campania.it | |
-| Eurodeputati | API del Parlamento europeo + `data/manual/eurodeputati-sud.json` | email istituzionale dalla scheda di ogni eurodeputato; la pipeline segnala chi non è più in carica |
+| Eurodeputati | API del Parlamento europeo + `data/manual/eurodeputati.json` (id per circoscrizione, dagli eletti 2024) | email dalla scheda di ogni eurodeputato; la pipeline segnala chi non è più in carica e chi manca nel file |
 | Contatti dei Comuni | Indice delle PA (IPA, AgID) | solo PEC e sito: gli altri indirizzi a volte sono di singoli dipendenti |
 | Uffici dei Comuni ("A chi mi rivolgo?") | IPA, unità organizzative (`ou.txt`) | ufficio scelto per parole chiave in `CATEGORIE_UFFICI`; si pubblicano solo telefono, email d'ufficio e PEC (niente nomi dei responsabili né email personali o per le fatture) |
 | ASL di ogni comune | Ministero della Salute, "Corrispondenze ASL-Comuni" (tutta Italia) + IPA per PEC e sito (`data/manual/asl-ipa.json` per i nomi che non si abbinano da soli) | |
@@ -33,7 +32,7 @@ npm run dev           # sviluppo locale
 | PEC di Regione e Consiglio regionale | IPA (`r_campan`, `cr_campa`) | per "Chiedi un documento" |
 | Frazioni e località | ISTAT, località abitate del Censimento 2021 | centri e nuclei abitati con almeno 100 abitanti, per cercare il comune dalla frazione |
 | CAP | Wikidata (CC0), più il CAP della sede dall'IPA | |
-| Email dei senatori | schede ufficiali su senato.it → `data/manual/senatori-email.json` | il sito del Senato non è leggibile dagli script |
+| Senatori | dati.senato.it (SPARQL) + collegio dal vincitore 2022 per collegio (`scripts/senato.mjs`, Eligendo) | email in `data/manual/senatori-email.json`, raccolte dalle schede ufficiali (il sito del Senato non è leggibile dagli script) |
 | Modulo per i deputati | `scrivi.camera.it` | la Camera non pubblica le email |
 
 I file in `data/manual/` sono curati a mano: la pipeline li confronta con le fonti ufficiali e stampa un avviso se qualcosa non torna. Gli avvisi sono visibili anche nella pagina `/fonti`.
