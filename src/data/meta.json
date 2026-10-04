@@ -117,19 +117,17 @@
   }
  ],
  "avvisi": [
-  "Comuni del Ministero dell'Interno non trovati nell'elenco ISTAT (fusioni recenti?): 7 (MURISENGO MONFERRATO (AL), CASTEGNERO NANTO (VI), SAN DORLIGO DELLA VALLE-DOLINA (TS), VALLECROSIA AL MARE (IM), JONADI (VV), MOJO ALCANTARA (ME), TRIPI - ABAKAINON (ME))",
+  "Comuni del Ministero dell'Interno non trovati nell'elenco ISTAT (fusioni recenti?): 3 (MURISENGO MONFERRATO (AL), CASTEGNERO NANTO (VI), VALLECROSIA AL MARE (IM))",
   "Comuni senza contatti nell'IPA: 4 (Caines (021014), Castegnero (024027), Lirio (018082), Nanto (024071))",
   "Senato LOMBARDIA - U06: eletto nel 2022 Silvio Berlusconi, oggi Adriano Galliani (elezione suppletiva o subentro)",
-  "Senatori senza email in data/manual/senatori-email.json: 178 (Bruno Marton, Andrea Martella, Andrea Ostellari, Andrea Paganella, Andrea De Priamo, Andrea Giorgis, Franco Mirabelli, Maria Elisabetta Alberti Casellati, …)",
+  "Senatori senza email in data/manual/senatori-email.json: 4 (Maurizio Gasparri, Ignazio Zullo, Dario Parrini, Roberto Maria Ferdinando Scarpinato)",
   "Comunali del 17/05/2026: tornata nuova, aggiungerla a TORNATE in scripts/elezioni.mjs",
-  "Elezioni politiche 2022: nessun dato per 12 comuni (Bardello con Malgesso e Bregano, Calliano Monferrato, Campospinoso Albaredo, Grana Monferrato, Montagna sulla strada del vino, Montemagno Monferrato, Moransengo-Tonengo, Popoli Terme, …)",
-  "Elezioni europee 2024: nessun dato per 2 comuni (Ionadi, San Dorligo della Valle)",
+  "Elezioni politiche 2022: nessun dato per 11 comuni (Bardello con Malgesso e Bregano, Calliano Monferrato, Campospinoso Albaredo, Grana Monferrato, Montagna sulla strada del vino, Montemagno Monferrato, Moransengo-Tonengo, Popoli Terme, …)",
   "Elezioni comunali 03/10/2021: 3 comuni non riconosciuti (POPOLI (ABRUZZO), CASORZO (PIEMONTE), ALANO DI PIAVE (VENETO))",
   "Elezioni comunali 12/06/2022: 1 comuni non riconosciuti (BARDELLO (LOMBARDIA))",
   "Elezioni comunali 24/05/2026: 1 comuni non riconosciuti (CASTEGNERO NANTO (VENETO))",
-  "Elezioni politiche 2022: 20 comuni non riconosciuti (CALLIANO (PIEMONTE 2), GRANA (PIEMONTE 2), MONTEMAGNO (PIEMONTE 2), MORANSENGO (PIEMONTE 2), TONENGO (PIEMONTE 2), BARDELLO (LOMBARDIA 2), …)",
-  "Elezioni europee 2024: 2 comuni non riconosciuti (SAN DORLIGO DELLA VALLE-DOLINA (FRIULI-VENEZIA GIULIA), JONADI (CALABRIA))",
-  "Comuni senza amministratori nell'anagrafe del Ministero: 23 (Aci Catena (087003), Castegnero (024027), Faenza (039010), Gioia Sannitica (061041), Grimacco (030045), Ionadi (102017), Lirio (018082), Marigliano (063043), …)",
+  "Elezioni politiche 2022: 19 comuni non riconosciuti (CALLIANO (PIEMONTE 2), GRANA (PIEMONTE 2), MONTEMAGNO (PIEMONTE 2), MORANSENGO (PIEMONTE 2), TONENGO (PIEMONTE 2), BARDELLO (LOMBARDIA 2), …)",
+  "Comuni senza amministratori nell'anagrafe del Ministero: 19 (Aci Catena (087003), Castegnero (024027), Faenza (039010), Gioia Sannitica (061041), Grimacco (030045), Lirio (018082), Marigliano (063043), Mazzarino (085009), …)",
   "Comuni senza collegio ISTAT: 6 (Bardello con Malgesso e Bregano (012144), Moransengo-Tonengo (005122), Santa Caterina d'Este (028108), Setteville (025075), Sovizzo (024128), Uggiate con Ronago (013256))",
   "Regioni assenti nell'anagrafe regionale del Ministero: 2 (Marche, Trentino-Alto Adige)"
  ]

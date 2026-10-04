@@ -203,8 +203,12 @@ export async function elezioniPerComune({ RAW, REFRESH, UA, comuni, dataComunali
   const regioneDi = new Map(comuni.map((c) => [c.istat, c.codiceRegione]));
   const ris = new Map(comuni.map((c) => [c.istat, []]));
   const nonTrovati = new Map(); // contesto → nomi
+  // varianti di grafia: "JONADI"/"IONADI", "SAN DORLIGO DELLA VALLE-DOLINA" (nome bilingue)
+  const varianti = (n) => [...new Set([n, n.replace(/J/gi, "I"), n.split(/\s*-\s*/)[0], n.replace(/J/gi, "I").split(/\s*-\s*/)[0]])];
   const istatDi = (regione, nome, contesto) => {
-    const k = perNome.get(`${chiaveRegione(regione)}|${chiaveComune(nome)}`);
+    const k = varianti(nome)
+      .map((v) => perNome.get(`${chiaveRegione(regione)}|${chiaveComune(v)}`))
+      .find(Boolean);
     if (!k) (nonTrovati.get(contesto) ?? nonTrovati.set(contesto, new Set()).get(contesto)).add(`${nome} (${regione})`);
     return k;
   };

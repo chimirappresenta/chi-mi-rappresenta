@@ -29565,7 +29565,9 @@
   "nome": "Ionadi",
   "provincia": "Vibo Valentia",
   "sigla": "VV",
-  "regione": "calabria"
+  "regione": "calabria",
+  "abitanti": 3822,
+  "sindaco": true
  },
  {
   "istat": "091033",
@@ -36253,7 +36255,9 @@
   "nome": "Moio Alcantara",
   "provincia": "Messina",
   "sigla": "ME",
-  "regione": "sicilia"
+  "regione": "sicilia",
+  "abitanti": 685,
+  "sindaco": true
  },
  {
   "istat": "016136",
@@ -54105,7 +54109,9 @@
   "nome": "San Dorligo della Valle",
   "provincia": "Trieste",
   "sigla": "TS",
-  "regione": "friuli-venezia-giulia"
+  "regione": "friuli-venezia-giulia",
+  "abitanti": 5693,
+  "sindaco": true
  },
  {
   "istat": "076076",
@@ -65487,7 +65493,9 @@
   "nome": "Tripi",
   "provincia": "Messina",
   "sigla": "ME",
-  "regione": "sicilia"
+  "regione": "sicilia",
+  "abitanti": 755,
+  "sindaco": true
  },
  {
   "istat": "006176",

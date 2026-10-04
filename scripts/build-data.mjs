@@ -244,8 +244,12 @@ const commText = await download("organistraordinari.csv", COMM_URL);
 const comm = csvObjects(commText, 2);
 
 const nonTrovatiViminale = new Set();
+/** Varianti di grafia tra le fonti: "Jonadi"/"Ionadi", "Mojo"/"Moio", nomi bilingui o con l'antico nome ("Tripi - Abakainon"). */
+const varianti = (nome) => [...new Set([nome, nome.replace(/J/gi, "I"), nome.split(/\s*-\s*/)[0], nome.replace(/J/gi, "I").split(/\s*-\s*/)[0]])];
 function findComune(nome, sigla, codiceRegione) {
-  const c = comuneByNameProv.get(`${norm(nome)}|${sigla}`) ?? comuneByNameReg.get(`${norm(nome)}|${codiceRegione}`);
+  const c = varianti(nome)
+    .map((v) => comuneByNameProv.get(`${norm(v)}|${sigla}`) ?? comuneByNameReg.get(`${norm(v)}|${codiceRegione}`))
+    .find(Boolean);
   if (!c && !nonTrovatiViminale.has(`${nome}|${sigla}`)) {
     nonTrovatiViminale.add(`${nome}|${sigla}`);
     warnGruppo("Comuni del Ministero dell'Interno non trovati nell'elenco ISTAT (fusioni recenti?)", `${nome} (${sigla})`);
