@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  issues: write # per la segnalazione "Leggi regionali da riassumere"
 
 jobs:
   aggiorna:
@@ -31,6 +32,21 @@ jobs:
         if: ${{ env.ANTHROPIC_API_KEY != '' }}
         run: npm run riassunti && npm run data
       - run: npm run build
+      # Leggi nuove senza spiegazione: una segnalazione su GitHub (se non ce n'è già una aperta), così arriva un'email.
+      - name: Avviso leggi da riassumere
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node -e "const m=require('./src/data/meta.json'); const l=m.leggiSenzaRiassunto||[]; require('fs').writeFileSync('leggi-da-riassumere.md', l.map(x=>'- ['+x.intestazione+']('+x.url+')'+(x.oggetto?': '+x.oggetto:'')).join(String.fromCharCode(10)))"
+          if [ -s leggi-da-riassumere.md ]; then
+            TITOLO="Leggi regionali da riassumere"
+            APERTE=$(gh issue list --state open --search "\"$TITOLO\" in:title" --json number --jq 'length')
+            if [ "$APERTE" = "0" ]; then
+              { echo "Ci sono leggi regionali nuove senza spiegazione in parole semplici:"; echo; cat leggi-da-riassumere.md; echo; echo "Scrivere i riassunti in data/manual/riassunti-leggi.json (vedi il README), poi chiudere questa segnalazione."; } > corpo.md
+              gh issue create --title "$TITOLO" --body-file corpo.md
+            fi
+          fi
+          rm -f leggi-da-riassumere.md corpo.md
       - name: Commit dei dati aggiornati
         run: |
           git config user.name "github-actions[bot]"

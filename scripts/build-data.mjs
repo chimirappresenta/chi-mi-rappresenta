@@ -1186,6 +1186,8 @@ const meta = {
     { id: "wiki-regionali", nome: "Circoscrizione di elezione dei consiglieri regionali (elezioni 2025)", ente: "Wikipedia (verificato a mano)", url: "https://it.wikipedia.org/wiki/Elezioni_regionali_in_Campania_del_2025" },
   ],
   avvisi: warnings,
+  // leggi ancora senza spiegazione in parole semplici: l'aggiornamento automatico apre una segnalazione su GitHub
+  leggiSenzaRiassunto: leggi.filter((l) => !l.riassunto).map((l) => persona({ id: l.id, intestazione: l.intestazione, oggetto: l.oggetto, url: l.url })),
 };
 
 const write = (name, data) => fs.writeFileSync(path.join(OUT, name), JSON.stringify(data, null, 1));
