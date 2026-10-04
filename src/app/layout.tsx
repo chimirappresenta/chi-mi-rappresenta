@@ -85,67 +85,43 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         </main>
 
         <footer className="mt-16 border-t border-line bg-surface">
-          <div className="contenitore grid gap-10 py-12 md:grid-cols-[1.4fr_1fr_1fr]">
-            <div>
+          <div className="contenitore grid grid-cols-2 gap-x-6 gap-y-8 py-10 lg:grid-cols-[1.3fr_1fr_1fr_1fr]">
+            <div className="col-span-2 lg:col-span-1">
               <div className="flex items-center gap-2.5">
                 <Logo />
-                <span className="display text-2xl">Chi mi rappresenta</span>
+                <span className="display text-xl">Chi mi rappresenta</span>
               </div>
-              <p className="mt-3 max-w-md text-base text-ink-2">
-                Chi ti rappresenta, dal tuo Comune a Bruxelles. Progetto civico indipendente costruito solo con dati pubblici
-                ufficiali: prima di agire, verifica sempre la fonte.
-              </p>
-              <p className="mt-3 max-w-md text-sm text-ink-2">
-                Un progetto di{" "}
-                <a href="https://www.linkedin.com/in/gerardodellaquila/" target="_blank" rel="noreferrer" className="font-semibold underline hover:text-ink">
-                  Gerardo Dell&apos;Aquila
-                </a>
-                . Contatti:{" "}
-                <a href="mailto:infochimirappresenta@gmail.com" className="underline hover:text-ink">
-                  infochimirappresenta@gmail.com
-                </a>
-              </p>
-              <p className="mt-3 max-w-md text-sm text-ink-3">
-                Usiamo anche l&apos;intelligenza artificiale per costruire il sito e spiegare le leggi in parole semplici. Sono possibili
-                errori: prima di decidere, verifica sempre la fonte ufficiale. Il sito non fornisce consulenza.
-              </p>
-              <p className="mt-3 flex gap-4 text-sm text-ink-2">
-                <Link href="/privacy/" className="underline hover:text-ink">
-                  Privacy
-                </Link>
-                <Link href="/termini/" className="underline hover:text-ink">
-                  Termini d&apos;uso
-                </Link>
-              </p>
-              <p className="mt-3 max-w-md text-sm text-ink-3">
-                Sito ufficiale: <strong className="font-semibold text-ink-2">chi-mi-rappresenta.vercel.app</strong>. Il codice è aperto, ma copie
-                pubblicate ad altri indirizzi non sono gestite da noi.
+              <p className="mt-3 max-w-xs text-sm text-ink-2">
+                Chi ti rappresenta, dal tuo Comune a Bruxelles. Progetto civico indipendente, solo con dati pubblici ufficiali.
               </p>
             </div>
-            <div>
-              <p className="text-xs font-semibold tracking-wider text-ink-3 uppercase">Esplora</p>
-              <ul className="mt-3 space-y-2 text-base">
-                {MENU.map((m) => (
-                  <li key={m.href}>
-                    <Link href={m.href} className="text-ink-2 hover:text-ink">
-                      {m.label}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div>
-              <p className="text-xs font-semibold tracking-wider text-ink-3 uppercase">Vedi anche</p>
-              <p className="mt-3 text-sm text-ink-2">
-                Spesa pubblica, conti dei Comuni e attività del Parlamento su{" "}
-                <a className="underline hover:text-ink" href="https://www.dovevannoinostrisoldi.com" target="_blank" rel="noreferrer">
-                  DoveVannoINostriSoldi
-                </a>
-                . Servizi pubblici spiegati su{" "}
-                <a className="underline hover:text-ink" href="https://www.italiaaperta.it" target="_blank" rel="noreferrer">
-                  Italia Aperta
-                </a>
-                .
+            <ColonnaFooter titolo="Esplora" voci={MENU.map((m) => ({ href: m.href, label: m.label }))} />
+            <ColonnaFooter
+              titolo="Il progetto"
+              voci={[
+                { href: "https://www.linkedin.com/in/gerardodellaquila/", label: "Di Gerardo Dell'Aquila", esterno: true },
+                { href: "mailto:infochimirappresenta@gmail.com", label: "Scrivici una email" },
+                { href: "https://github.com/chimirappresenta/chi-mi-rappresenta", label: "Codice su GitHub", esterno: true },
+                { href: "/privacy/", label: "Privacy" },
+                { href: "/termini/", label: "Termini d'uso" },
+              ]}
+            />
+            <ColonnaFooter
+              titolo="Vedi anche"
+              voci={[
+                { href: "https://www.dovevannoinostrisoldi.com", label: "DoveVannoINostriSoldi", nota: "Spesa pubblica e Parlamento", esterno: true },
+                { href: "https://www.italiaaperta.it", label: "Italia Aperta", nota: "Servizi pubblici spiegati", esterno: true },
+              ]}
+            />
+          </div>
+          <div className="border-t border-line">
+            <div className="contenitore flex flex-col gap-2 py-4 text-xs text-ink-3 md:flex-row md:items-start md:justify-between md:gap-8">
+              <p className="max-w-3xl">
+                Usiamo anche l&apos;intelligenza artificiale per costruire il sito e spiegare le leggi in parole semplici: sono possibili
+                errori, verifica sempre la fonte ufficiale. Il sito non fornisce consulenza.
+              </p>
+              <p className="shrink-0">
+                Sito ufficiale: <span className="font-medium text-ink-2">chi-mi-rappresenta.vercel.app</span>
               </p>
             </div>
           </div>
@@ -160,5 +136,32 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         />
       </body>
     </html>
+  );
+}
+
+type VoceFooter = { href: string; label: string; nota?: string; esterno?: boolean };
+
+function ColonnaFooter({ titolo, voci }: { titolo: string; voci: VoceFooter[] }) {
+  return (
+    <div>
+      <p className="text-xs font-semibold tracking-wider text-ink-3 uppercase">{titolo}</p>
+      <ul className="mt-3 space-y-2 text-sm">
+        {voci.map((v) => (
+          <li key={v.href}>
+            {v.esterno || v.href.startsWith("mailto:") ? (
+              <a href={v.href} {...(v.esterno ? { target: "_blank", rel: "noreferrer" } : {})} className="text-ink-2 [overflow-wrap:anywhere] hover:text-ink hover:underline">
+                {v.label}
+                {v.esterno && " ↗"}
+              </a>
+            ) : (
+              <Link href={v.href} className="text-ink-2 hover:text-ink hover:underline">
+                {v.label}
+              </Link>
+            )}
+            {v.nota && <span className="block text-xs text-ink-3">{v.nota}</span>}
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 }
