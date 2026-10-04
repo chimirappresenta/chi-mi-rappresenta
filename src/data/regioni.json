@@ -2456,9 +2456,199 @@
    "nome": "Marche",
    "slug": "marche",
    "inChiaro": false,
-   "presidente": null,
-   "giunta": [],
-   "consiglieri": [],
+   "presidente": {
+    "nome": "Francesco Acquaroli",
+    "ruolo": "Presidente della Regione",
+    "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+   },
+   "giunta": [
+    {
+     "nome": "Francesco Baldelli",
+     "ruolo": "Assessore",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Giacomo Bugaro",
+     "ruolo": "Assessore",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Paolo Calcinaro",
+     "ruolo": "Assessore",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Tiziano Consoli",
+     "ruolo": "Assessore",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Francesca Pantaloni",
+     "ruolo": "Assessore",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Enrico Rossi",
+     "ruolo": "Assessore",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    }
+   ],
+   "consiglieri": [
+    {
+     "nome": "Andrea Maria Antonini",
+     "ruolo": "Consigliere regionale",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Andrea Assenti",
+     "ruolo": "Consigliere regionale",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Marco Ausili",
+     "ruolo": "Consigliere regionale",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Nicola Baiocchi",
+     "ruolo": "Consigliere regionale",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Nicola Barbieri",
+     "ruolo": "Consigliere regionale",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Mirella Battistoni",
+     "ruolo": "Consigliere regionale",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Chiara Biondi",
+     "ruolo": "Consigliere regionale",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Pierpaolo Borroni",
+     "ruolo": "Consigliere regionale",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Corrado Canafoglia",
+     "ruolo": "Consigliere regionale",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Michele Caporossi",
+     "ruolo": "Consigliere regionale",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Andrea Cardilli",
+     "ruolo": "Consigliere regionale",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Leonardo Catena",
+     "ruolo": "Consigliere regionale",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Fabrizio Cesetti",
+     "ruolo": "Consigliere regionale",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Silvia Luconi",
+     "ruolo": "Consigliere regionale",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Valeria Mancinelli",
+     "ruolo": "Consigliere regionale",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Maurizio Mangialardi",
+     "ruolo": "Consigliere regionale",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Luca Marconi",
+     "ruolo": "Consigliere regionale",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Jessica Marcozzi",
+     "ruolo": "Consigliere regionale",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Renzo Marinelli",
+     "ruolo": "Consigliere regionale",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Antonio Mastrovincenzo",
+     "ruolo": "Consigliere regionale",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Andrea Nobili",
+     "ruolo": "Consigliere regionale",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Gianluca Pasqui",
+     "ruolo": "Consigliere regionale",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Enrico Piergallini",
+     "ruolo": "Consigliere regionale",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Nicolò Pierini",
+     "ruolo": "Consigliere regionale",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Andrea Putzu",
+     "ruolo": "Consigliere regionale",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Giacomo Rossi",
+     "ruolo": "Consigliere regionale",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Marta Carmela Raimonda Ruggeri",
+     "ruolo": "Consigliere regionale",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Milena Sebastiani",
+     "ruolo": "Consigliere regionale",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Massimo Seri",
+     "ruolo": "Consigliere regionale",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    },
+    {
+     "nome": "Micaela Vitri",
+     "ruolo": "Consigliere regionale",
+     "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+    }
+   ],
+   "fonte": {
+    "nome": "Consiglio regionale delle Marche",
+    "url": "https://www.consiglio.marche.it/istituzione/consiglieri/"
+   },
    "contatti": {
     "nome": "Regione Marche",
     "pec": "regione.marche.protocollogiunta@emarche.it",
@@ -4446,9 +4636,464 @@
    "nome": "Trentino-Alto Adige",
    "slug": "trentino-alto-adige",
    "inChiaro": false,
-   "presidente": null,
-   "giunta": [],
-   "consiglieri": [],
+   "presidente": {
+    "nome": "Arno Kompatscher",
+    "ruolo": "Presidente della Regione",
+    "url": "https://www.regione.taa.it/Amministrazione/Componenti-della-Giunta"
+   },
+   "giunta": [
+    {
+     "nome": "Giulia Zanotelli",
+     "ruolo": "Vicepresidente e assessore",
+     "url": "https://www.regione.taa.it/Amministrazione/Componenti-della-Giunta"
+    },
+    {
+     "nome": "Franz Thomas Locher",
+     "ruolo": "Vicepresidente e assessore",
+     "url": "https://www.regione.taa.it/Amministrazione/Componenti-della-Giunta"
+    },
+    {
+     "nome": "Angelo Gennaccaro",
+     "ruolo": "Assessore",
+     "url": "https://www.regione.taa.it/Amministrazione/Componenti-della-Giunta"
+    },
+    {
+     "nome": "Carlo Daldoss",
+     "ruolo": "Assessore",
+     "url": "https://www.regione.taa.it/Amministrazione/Componenti-della-Giunta"
+    },
+    {
+     "nome": "Luca Guglielmi",
+     "ruolo": "Assessore",
+     "url": "https://www.regione.taa.it/Amministrazione/Componenti-della-Giunta"
+    }
+   ],
+   "consiglieri": [
+    {
+     "nome": "Philipp Achammer",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "SVP - Südtiroler Volkspartei",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/achammer-philipp-1"
+    },
+    {
+     "nome": "Daniel Alfreider",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "SVP - Südtiroler Volkspartei",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/alfreider-daniel-11"
+    },
+    {
+     "nome": "Magdalena Amhof",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "SVP - Südtiroler Volkspartei",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/amhof-magdalena-10"
+    },
+    {
+     "nome": "Eleonora Angeli",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "PATT - Fassa",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/angeli-eleonora-2"
+    },
+    {
+     "nome": "Myriam Atz",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "SÜD-TIROLER FREIHEIT",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/atz-myriam-9"
+    },
+    {
+     "nome": "Daniele Biada",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli d'Italia",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/biada-daniele-38"
+    },
+    {
+     "nome": "Christian Bianchi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/bianchi-christian-3"
+    },
+    {
+     "nome": "Mirko Bisesti",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega Trentino Alto Adige - Südtirol",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/bisesti-mirko-39"
+    },
+    {
+     "nome": "Maria Bosin",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "PATT - Fassa",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/bosin-maria-40"
+    },
+    {
+     "nome": "Antonella Brunet",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Noi Trentino per Fugatti Presidente",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/brunet-antonella-41"
+    },
+    {
+     "nome": "Peter Brunner",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "SVP - Südtiroler Volkspartei",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/brunner-peter-4"
+    },
+    {
+     "nome": "Michela Calzà",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/calza-michela-42"
+    },
+    {
+     "nome": "Claudio Cia",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Forza Italia",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/cia-claudio-43"
+    },
+    {
+     "nome": "Andreas Colli",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "VITA - WIR BÜRGER / NOI CITTADINI / NEUS ZITADINS",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/colli-andreas-8"
+    },
+    {
+     "nome": "Lucia Coppola",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Grüne Fraktion - Gruppo verde - Grupa vërda",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/coppola-lucia-44"
+    },
+    {
+     "nome": "Carlo Daldoss",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "La Civica",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/daldoss-carlo-45"
+    },
+    {
+     "nome": "Andrea de Bertolini",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/de-bertolini-andrea-37"
+    },
+    {
+     "nome": "Waltraud Deeg",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "SVP - Südtiroler Volkspartei",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/deeg-waltraud-7"
+    },
+    {
+     "nome": "Filippo Degasperi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Gruppo Misto",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/degasperi-filippo-46"
+    },
+    {
+     "nome": "Paola Demagri",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Campobase",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/demagri-paola-47"
+    },
+    {
+     "nome": "Roberto Failoni",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega Trentino Alto Adige - Südtirol",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/failoni-roberto-48"
+    },
+    {
+     "nome": "Brigitte Foppa",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Grüne Fraktion - Gruppo verde - Grupa vërda",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/foppa-brigitte-6"
+    },
+    {
+     "nome": "Mariachiara Franzoia",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/franzoia-mariachiara-49"
+    },
+    {
+     "nome": "Maurizio Fugatti",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega Trentino Alto Adige - Südtirol",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/fugatti-maurizio-50"
+    },
+    {
+     "nome": "Marco Galateo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli d'Italia",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/galateo-marco-5"
+    },
+    {
+     "nome": "Angelo Gennaccaro",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "La Civica Alto Adige/Südtirol – Agire per il Trentino",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/gennaccaro-angelo-12"
+    },
+    {
+     "nome": "Francesca Gerosa",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli d'Italia",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/gerosa-francesca-51"
+    },
+    {
+     "nome": "Christian Girardi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "La Civica",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/girardi-christian-52"
+    },
+    {
+     "nome": "Mattia Gottardi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "La Civica",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/gottardi-mattia-53"
+    },
+    {
+     "nome": "Luca Guglielmi",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "PATT - Fassa",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/guglielmi-luca-54"
+    },
+    {
+     "nome": "Renate Holzeisen",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "VITA - WIR BÜRGER / NOI CITTADINI / NEUS ZITADINS",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/holzeisen-renate-13"
+    },
+    {
+     "nome": "Walter Kaswalder",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "PATT - Fassa",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/kaswalder-walter-55"
+    },
+    {
+     "nome": "Sven Knoll",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "SÜD-TIROLER FREIHEIT",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/knoll-sven-14"
+    },
+    {
+     "nome": "Paul Köllensperger",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Team K",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/kollensperger-paul-15"
+    },
+    {
+     "nome": "Arno Kompatscher",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "SVP - Südtiroler Volkspartei",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/kompatscher-arno-16"
+    },
+    {
+     "nome": "Reber Andreas Leiter",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Gruppo Misto",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/leiter-reber-andreas-17"
+    },
+    {
+     "nome": "Franz Thomas Locher",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "SVP - Südtiroler Volkspartei",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/locher-franz-thomas-18"
+    },
+    {
+     "nome": "Lucia Maestri",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/maestri-lucia-56"
+    },
+    {
+     "nome": "Ulli Mair",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Gruppo Misto",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/mair-ulli-19"
+    },
+    {
+     "nome": "Michele Malfer",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Campobase",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/malfer-michele-57"
+    },
+    {
+     "nome": "Alessio Manica",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/manica-alessio-58"
+    },
+    {
+     "nome": "Vanessa Masè",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "La Civica",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/mase-vanessa-59"
+    },
+    {
+     "nome": "Chiara Maule",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Campobase",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/maule-chiara-60"
+    },
+    {
+     "nome": "Hubert Messner",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "SVP - Südtiroler Volkspartei",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/messner-hubert-20"
+    },
+    {
+     "nome": "Josef Noggler",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "SVP - Südtiroler Volkspartei",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/noggler-josef-21"
+    },
+    {
+     "nome": "Zeno Oberkofler",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Grüne Fraktion - Gruppo verde - Grupa vërda",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/oberkofler-zeno-22"
+    },
+    {
+     "nome": "Roberto Paccher",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega Trentino Alto Adige - Südtirol",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/paccher-roberto-61"
+    },
+    {
+     "nome": "Rosmarie Pamer",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "SVP - Südtiroler Volkspartei",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/pamer-rosmarie-23"
+    },
+    {
+     "nome": "Francesca Parolari",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/parolari-francesca-62"
+    },
+    {
+     "nome": "Alex Ploner",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Team K",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/ploner-alex-24"
+    },
+    {
+     "nome": "Franz Ploner",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Team K",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/ploner-franz-25"
+    },
+    {
+     "nome": "Hannes Rabensteiner",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "SÜD-TIROLER FREIHEIT",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/rabensteiner-hannes-26"
+    },
+    {
+     "nome": "Sandro Repetto",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/repetto-sandro-27"
+    },
+    {
+     "nome": "Maria Elisabeth Rieder",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Team K",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/rieder-maria-elisabeth-28"
+    },
+    {
+     "nome": "Madeleine Rohrer",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Grüne Fraktion - Gruppo verde - Grupa vërda",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/rohrer-madeleine-29"
+    },
+    {
+     "nome": "Anna Scarafoni",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Fratelli d'Italia",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/scarafoni-anna-30"
+    },
+    {
+     "nome": "Arnold Schuler",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "SVP - Südtiroler Volkspartei",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/schuler-arnold-31"
+    },
+    {
+     "nome": "Stefania Segnana",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega Trentino Alto Adige - Südtirol",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/segnana-stefania-63"
+    },
+    {
+     "nome": "Claudio Soini",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Noi Trentino per Fugatti Presidente",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/soini-claudio-64"
+    },
+    {
+     "nome": "Achille Spinelli",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Noi Trentino per Fugatti Presidente",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/spinelli-achille-65"
+    },
+    {
+     "nome": "Roberto Stanchina",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Campobase",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/stanchina-roberto-66"
+    },
+    {
+     "nome": "Harald Stauder",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "SVP - Südtiroler Volkspartei",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/stauder-harald-32"
+    },
+    {
+     "nome": "Mario Tonina",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "PATT - Fassa",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/tonina-mario-67"
+    },
+    {
+     "nome": "Francesco Valduga",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Campobase",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/valduga-francesco-68"
+    },
+    {
+     "nome": "Luis Walcher",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "SVP - Südtiroler Volkspartei",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/walcher-luis-33"
+    },
+    {
+     "nome": "Thomas Widmann",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "La Civica Alto Adige/Südtirol – Agire per il Trentino",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/widmann-thomas-34"
+    },
+    {
+     "nome": "Anderlan J&uuml;rgen Wirth",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Gruppo Misto",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/wirth-anderlan-jurgen-35"
+    },
+    {
+     "nome": "Paolo Zanella",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Partito Democratico",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/zanella-paolo-69"
+    },
+    {
+     "nome": "Giulia Zanotelli",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Lega Trentino Alto Adige - Südtirol",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/zanotelli-giulia-70"
+    },
+    {
+     "nome": "Bernhard Zimmerhofer",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "SÜD-TIROLER FREIHEIT",
+     "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/scheda-consigliere/zimmerhofer-bernhard-36"
+    }
+   ],
+   "fonte": {
+    "nome": "Consiglio regionale e Regione Trentino-Alto Adige",
+    "url": "https://www.consiglio.regione.taa.it/it/consiglio/pagine/consiglieri"
+   },
    "contatti": {
     "nome": "Regione Autonoma Trentino-Alto Adige/Suedtirol",
     "pec": "protocollo@pec.regione.taa.it",

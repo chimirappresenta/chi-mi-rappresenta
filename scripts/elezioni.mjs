@@ -135,7 +135,11 @@ async function righeRegione({ RAW, REFRESH, UA, cache, url, file, filtro = () =>
 
 /** Tornate di elezioni comunali con il loro formato. La chiave è la data come la dà l'anagrafe degli amministratori. */
 const TORNATE = {
+  "26/05/2019": { zip: "20190526", file: [{ match: /\.txt$/i, come: "liste" }] },
+  "20/09/2020": { zip: "20200920", file: [{ match: /\.txt$/i, come: "liste" }] },
   "03/10/2021": { zip: "20211003", file: [{ match: /\.txt$/i, come: "liste" }] },
+  "27/11/2022": { zip: "20221127", file: [{ match: /\.txt$/i, come: "liste" }] },
+  "22/10/2023": { zip: "20231022", file: [{ match: /\.xlsx$/i, come: "liste" }] },
   "12/06/2022": {
     zip: "20220612",
     file: [
@@ -235,7 +239,7 @@ export async function elezioniPerComune({ RAW, REFRESH, UA, comuni, dataComunali
     const scrutini = new Map(); // istat|turno → { elettori, votanti }
     for (const r of [...(d.scrutini ?? []), ...righe]) {
       const e = num(campo(r, "ELETTORITOT", "ELETTORITOTALI", "ELETTORI"));
-      const v = num(campo(r, "VOTANTITOT", "VOTANTITOTALI", "NUMVOTANTITOTALI"));
+      const v = num(campo(r, "VOTANTITOT", "VOTANTITOTALI", "NUMVOTANTITOTALI", "VOTANTI"));
       const k = `${chiaveRegione(campo(r, "REGIONE"))}|${chiaveComune(campo(r, "COMUNE"))}|${campo(r, "TURNO") || "1"}`;
       if (e && !scrutini.has(k)) scrutini.set(k, { elettori: e, votanti: v });
     }
@@ -250,10 +254,10 @@ export async function elezioniPerComune({ RAW, REFRESH, UA, comuni, dataComunali
       for (const r of delTurno) {
         const nomeC = nomePersona(`${campo(r, "NOME")} ${campo(r, "COGNOME")}`);
         const c = candidati.get(nomeC) ?? { nome: nomeC, voti: 0, liste: [], eletto: false };
-        c.voti = Math.max(c.voti, num(campo(r, "VOTICAND", "VOTICANDIDSINDACO", "VOTICANDIDATO")));
+        c.voti = Math.max(c.voti, num(campo(r, "VOTICAND", "VOTICANDIDSINDACO", "VOTICANDIDATO", "VOTI_CANDIDATO", "VOTICANDLEADER")));
         const lista = campo(r, "DESCRLISTA", "LISTA");
         if (lista && !c.liste.includes(nomeLista(lista))) c.liste.push(nomeLista(lista));
-        if (campo(r, "CODTIPOELETTO") === "S") c.eletto = true;
+        if (campo(r, "CODTIPOELETTO", "ELETTO") === "S") c.eletto = true;
         if (campo(r, "SESSO") === "F") c.f = true;
         candidati.set(nomeC, c);
       }
@@ -376,6 +380,42 @@ export async function elezioniPerComune({ RAW, REFRESH, UA, comuni, dataComunali
       votiLista: (r) => r.VOTILISTA,
     }),
   );
+
+  // Politiche 2022 in Valle d'Aosta: un solo collegio, si votano i candidati (file a parte)
+  const vda = await righeRegione({
+    ...opz,
+    cache: "elezioni-camera-20220925-vda.json",
+    url: `${BASE}/camera/camera-20220925.zip`,
+    file: [
+      { match: /camera2022_VAosta_LivComune\.csv$/i, come: "candidati" },
+      { match: /camera2022_VAosta_LivComune_Scrutini\.csv$/i, come: "scrutini" },
+    ],
+  });
+  {
+    const scrutini = new Map(vda.scrutini.map((r) => [chiaveComune(r.DENOMINAZIONE), { e: num(r.ELETTORITOTALI), v: num(r.VOTANTITOTALI) }]));
+    const perComune = Map.groupBy(vda.candidati, (r) => r.COMUNE);
+    const totali = { e: 0, v: 0 };
+    const risultati = [];
+    for (const [nome, rr] of perComune) {
+      const istat = istatDi("VALLE D'AOSTA", nome, "politiche 2022 (Valle d'Aosta)");
+      const sc = scrutini.get(chiaveComune(nome));
+      if (!istat || !sc) continue;
+      const voti = new Map();
+      for (const r of rr) {
+        const n = nomePersona(`${r.NOME} ${r.COGNOME}`);
+        const c = voti.get(n) ?? { nome: n, voti: 0, liste: [] };
+        c.voti += num(r.TOTVOTI);
+        if (r.CONTRASSEGNO && !c.liste.includes(nomeLista(r.CONTRASSEGNO))) c.liste.push(nomeLista(r.CONTRASSEGNO));
+        voti.set(n, c);
+      }
+      const tot = [...voti.values()].reduce((x, c) => x + c.voti, 0);
+      totali.e += sc.e;
+      totali.v += sc.v;
+      risultati.push([istat, { elettori: sc.e, votanti: sc.v, affluenza: pct(sc.v, sc.e), candidati: classifica(voti.values(), tot, 6) }]);
+    }
+    for (const [istat, r] of risultati)
+      ris.get(istat).push({ id: "politiche", titolo: "Elezioni politiche (Camera)", data: "25 settembre 2022", ...r, affluenzaRegione: pct(totali.v, totali.e) });
+  }
 
   // Europee 2024
   const eu = await righeRegione({

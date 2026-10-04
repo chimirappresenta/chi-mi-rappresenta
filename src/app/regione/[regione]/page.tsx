@@ -91,7 +91,9 @@ export default async function RegionePage({ params }: PageProps<"/regione/[regio
             </Espandibile>
           )}
           <Avviso>
-            {r.consiglieri.length
+            {r.fonte
+              ? `Dati letti dal sito ufficiale (${r.fonte.nome}).`
+              : r.consiglieri.length
               ? `Dati dell'anagrafe degli amministratori regionali del Ministero dell'Interno${regioniAggiornate ? `, aggiornata al ${regioniAggiornate}` : ""}: dopo un'elezione recente possono essere incompleti.`
               : `L'anagrafe del Ministero dell'Interno non riporta ancora i consiglieri della Regione ${r.nome}.`}{" "}
             {r.consiglio && (

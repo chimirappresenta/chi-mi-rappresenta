@@ -518,7 +518,9 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
               </Espandibile>
             )}
             <Avviso>
-              {reg?.consiglieri.length
+              {reg?.fonte
+                ? `Elenco dal sito ufficiale (${reg.fonte.nome}).`
+                : reg?.consiglieri.length
                 ? `Elenco dall'anagrafe degli amministratori regionali del Ministero dell'Interno${regioniAggiornate ? `, aggiornata al ${regioniAggiornate}` : ""}: dopo un'elezione recente può essere incompleto.`
                 : `L'anagrafe del Ministero dell'Interno non riporta ancora i consiglieri della Regione ${c.regione}.`}{" "}
               {reg?.consiglio && (

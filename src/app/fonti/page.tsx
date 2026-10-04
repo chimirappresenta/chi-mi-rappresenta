@@ -58,9 +58,9 @@ export default function FontiPage() {
               <strong>Regioni:</strong> presidenti, giunte e consiglieri delle
               altre regioni vengono dall&apos;anagrafe degli amministratori
               regionali del Ministero dell&apos;Interno, che dopo un&apos;elezione
-              recente può essere incompleta e oggi non comprende Trentino-Alto
-              Adige e Marche. Per queste regioni rimandiamo al sito del
-              Consiglio regionale.
+              recente può essere incompleta. Per Trentino-Alto Adige e Marche,
+              che oggi mancano nell&apos;anagrafe, leggiamo i nomi dai siti
+              ufficiali di Consiglio e Regione.
             </li>
             <li>
               <strong>Comuni della Sardegna:</strong> dopo il riordino delle

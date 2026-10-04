@@ -222,4 +222,6 @@ export type RegioneEssenziale = {
   consiglieri: Persona[];
   contatti: ContattiEnte | null;
   consiglio: { nome: string; sito: string } | null;
+  /** Se i nomi non vengono dall'anagrafe del Ministero, il sito ufficiale da cui sono letti (Marche, Trentino-Alto Adige). */
+  fonte?: { nome: string; url: string };
 };

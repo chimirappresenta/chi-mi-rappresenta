@@ -7,6 +7,7 @@ import path from "node:path";
 import AdmZip from "adm-zip";
 import { elezioniPerComune, FONTE_ELEZIONI } from "./elezioni.mjs";
 import { vincitoriSenato } from "./senato.mjs";
+import { integrazioniRegioni } from "./regioni-integrazioni.mjs";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const RAW = path.join(ROOT, "data", "raw");
@@ -1278,11 +1279,14 @@ function personaRegionale(r, ruolo) {
   });
 }
 const consigliRegionali = JSON.parse(fs.readFileSync(path.join(MANUAL, "consigli-regionali.json"), "utf8")).consigli;
+// Regioni assenti nell'anagrafe del Ministero (Marche, Trentino-Alto Adige): dai siti ufficiali.
+const integrazioni = await integrazioniRegioni({ download, persona, warn });
 const regioni = [...REGIONI.values()]
   .sort((a, b) => a.nome.localeCompare(b.nome, "it"))
   .map((reg) => {
     const righe = ammregTutte.filter((r) => r.codice_regione === reg.codice);
-    if (!righe.length) warnGruppo("Regioni assenti nell'anagrafe regionale del Ministero", reg.nome);
+    const integra = !righe.length ? integrazioni[reg.codice] : undefined;
+    if (!righe.length && !integra) warnGruppo("Regioni assenti nell'anagrafe regionale del Ministero", reg.nome);
     const pres = righe.find((r) => r.descrizione_carica === "Presidente della regione");
     const giunta = righe
       .filter((r) => r.descrizione_carica.startsWith("Assessore"))
@@ -1300,9 +1304,11 @@ const regioni = [...REGIONI.values()]
     return {
       ...reg,
       inChiaro: reg.codice === REGIONE.codice,
-      presidente: pres ? personaRegionale(pres, "Presidente della Regione") : null,
-      giunta,
-      consiglieri,
+      presidente: integra ? integra.presidente : pres ? personaRegionale(pres, "Presidente della Regione") : null,
+      giunta: integra ? integra.giunta : giunta,
+      consiglieri: integra ? integra.consiglieri : consiglieri,
+      // da dove vengono i nomi, se non dall'anagrafe del Ministero
+      fonte: integra?.fonte,
       contatti: IPA_REGIONE[reg.codice] ? contattiEnte(IPA_REGIONE[reg.codice]) : null,
       consiglio: consigliRegionali[reg.codice] ?? null,
     };
