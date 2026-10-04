@@ -1,9 +1,9 @@
 import Link from "next/link";
 
 const VOCI = [
-  { href: "/regione/", id: "regione", label: "Giunta e Consiglio" },
-  { href: "/regione/attivita/", id: "attivita", label: "Cosa fanno i consiglieri" },
-  { href: "/regione/leggi/", id: "leggi", label: "Leggi approvate" },
+  { href: "/regione/campania/", id: "regione", label: "Giunta e Consiglio" },
+  { href: "/regione/campania/attivita/", id: "attivita", label: "Cosa fanno i consiglieri" },
+  { href: "/regione/campania/leggi/", id: "leggi", label: "Leggi approvate" },
 ];
 
 export function RegioneNav({ attiva }: { attiva: "regione" | "attivita" | "leggi" | null }) {

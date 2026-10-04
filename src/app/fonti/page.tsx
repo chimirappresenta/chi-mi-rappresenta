@@ -55,7 +55,20 @@ export default function FontiPage() {
               dalla sezione elettorale.
             </li>
             <li>
-              <strong>Consiglieri regionali:</strong> la circoscrizione di
+              <strong>Regioni:</strong> presidenti, giunte e consiglieri delle
+              altre regioni vengono dall&apos;anagrafe degli amministratori
+              regionali del Ministero dell&apos;Interno, che dopo un&apos;elezione
+              recente può essere incompleta e oggi non comprende Trentino-Alto
+              Adige e Marche. Per queste regioni rimandiamo al sito del
+              Consiglio regionale.
+            </li>
+            <li>
+              <strong>Comuni della Sardegna:</strong> dopo il riordino delle
+              province alcune fonti usano i nuovi codici e le nuove sigle;
+              abbiniamo i comuni con il codice catastale, che non cambia.
+            </li>
+            <li>
+              <strong>Consiglieri regionali della Campania:</strong> la circoscrizione di
               elezione non è pubblicata dal Consiglio regionale in formato
               aperto. L&apos;abbiamo ricavata dai risultati delle regionali 2025
               e verificata a mano. Per i consiglieri subentrati dopo le elezioni
@@ -70,7 +83,7 @@ export default function FontiPage() {
               Monza). Le email vengono dalle schede ufficiali del Senato.
             </li>
             <li>
-              <strong>Atti del Consiglio regionale:</strong> sono quelli
+              <strong>Atti del Consiglio regionale (Campania):</strong> sono quelli
               elencati sul sito del Consiglio per la XII legislatura. Contare
               gli atti di un consigliere non misura la qualità del suo lavoro.
               Gli atti &quot;che citano il tuo comune&quot; sono trovati

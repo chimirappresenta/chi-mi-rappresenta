@@ -43,7 +43,7 @@ export function OgFrame({ etichetta, children }: { etichetta: string; children: 
       <div style={{ display: "flex", flex: 1 }}>{children}</div>
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", borderTop: `2px solid ${C.line}`, paddingTop: 20, fontSize: 24, color: C.ink3 }}>
         <span style={{ fontFamily: "Instrument Serif", fontSize: 40, color: C.ink, letterSpacing: -1 }}>Chi mi rappresenta</span>
-        <span>Solo fonti ufficiali · Campania</span>
+        <span>Solo fonti ufficiali</span>
       </div>
     </div>
   );

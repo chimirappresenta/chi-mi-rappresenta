@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { comuni, consiglieriPerEmiciclo, consiglio, meta, parlamento, regione, tuttiGliEurodeputati } from "@/lib/data";
+import { comuni, consiglieriPerEmiciclo, consiglio, meta, parlamento, regione, regioni, tuttiGliEurodeputati } from "@/lib/data";
 import { ComuneSearch } from "@/components/ComuneSearch";
 import { Condividi } from "@/components/Condividi";
 import { Emiciclo } from "@/components/Emiciclo";
@@ -9,19 +9,19 @@ import { stileLivello, type LivelloId } from "@/components/ui";
 const FAQ = [
   {
     d: "È un sito dello Stato?",
-    r: "No. È un progetto civico indipendente. Usa solo dati pubblici ufficiali (Ministero dell'Interno, ISTAT, Camera, Senato, Consiglio regionale, Parlamento europeo) e ogni dato rimanda alla sua fonte.",
+    r: "No. È un progetto civico indipendente. Usa solo dati pubblici ufficiali (Ministero dell'Interno, ISTAT, Ministero della Salute, Camera, Senato, Parlamento europeo e, per la Campania, il Consiglio regionale) e ogni dato rimanda alla sua fonte.",
   },
   {
     d: "Da dove vengono i dati e ogni quanto si aggiornano?",
     r: "Dai siti e dagli open data ufficiali, raccolti in automatico ogni settimana. La pagina Fonti elenca ogni fonte, la data di aggiornamento e i limiti noti.",
   },
   {
-    d: "Perché solo la Campania?",
-    r: "Siamo partiti da qui come progetto pilota. La struttura è pensata per estendersi alle altre regioni.",
+    d: "Perché atti e leggi regionali solo per la Campania?",
+    r: "Comuni, Regioni, Parlamento ed Europa coprono tutta Italia. Il Consiglio regionale «in chiaro» (atti, leggi spiegate, mappa dei consiglieri) richiede di leggere il sito di ogni Consiglio, ognuno fatto in modo diverso: siamo partiti dalla Campania e aggiungeremo le altre regioni.",
   },
   {
     d: "Come scrivo al mio consigliere regionale?",
-    r: "Apri la sua scheda e usa «Scrivi a…»: prepariamo una bozza di email che parte dal tuo programma di posta. Il sito non invia e non salva nulla.",
+    r: "Cerca il tuo comune e apri la sezione Regione: trovi i consiglieri e il link al sito del Consiglio regionale con i loro contatti. Per la Campania c'è anche «Scrivi a…», che prepara una bozza di email dal tuo programma di posta. Il sito non invia e non salva nulla.",
   },
   {
     d: "Mi servono dati personali o un account?",
@@ -34,16 +34,19 @@ const FAQ = [
 ];
 
 export default function Home() {
-  const capoluoghi = comuni.filter((c) => c.capoluogo);
+  // capoluoghi di regione, per una scelta rapida
+  const CAPOLUOGHI_REGIONE = ["001272", "007003", "015146", "022205", "027042", "032006", "010025", "037006", "048017", "054039", "042002", "058091", "066049", "070006", "063049", "072006", "076063", "079023", "082053", "092009"];
+  const capoluoghi = CAPOLUOGHI_REGIONE.map((id) => comuni.find((c) => c.istat === id)).filter((c) => !!c);
+  const consiglieriRegionali = regioni.reduce((n, r) => n + (r.inChiaro ? regione.consiglieri.length : r.consiglieri.length), 0);
   const deputati = Object.values(parlamento.camera).flat().length;
   const senatori = Object.keys(parlamento.senato.uninominali).length + Object.values(parlamento.senato.proporzionale).flat().length;
   const sindaci = comuni.filter((c) => c.sindaco).length;
 
   const livelli: { id: LivelloId; titolo: string; testo: string; numero: string; unita: string }[] = [
-    { id: "comune", titolo: "Comune", testo: "Sindaco, giunta e consiglio comunale. E se il Comune è commissariato, chi lo guida.", numero: String(sindaci), unita: "sindaci" },
-    { id: "regione", titolo: "Regione", testo: "Presidente, giunta e i consiglieri eletti nella tua provincia, con contatti e atti.", numero: String(regione.consiglieri.length), unita: "consiglieri" },
+    { id: "comune", titolo: "Comune", testo: "Sindaco, giunta e consiglio comunale. E se il Comune è commissariato, chi lo guida.", numero: sindaci.toLocaleString("it-IT"), unita: "sindaci" },
+    { id: "regione", titolo: "Regione", testo: "Presidente, giunta e consiglieri della tua regione, con i contatti ufficiali.", numero: consiglieriRegionali.toLocaleString("it-IT"), unita: "consiglieri regionali" },
     { id: "parlamento", titolo: "Parlamento", testo: "Deputati e senatori dei collegi che comprendono il tuo comune.", numero: String(deputati + senatori), unita: "parlamentari" },
-    { id: "europa", titolo: "Europa", testo: "Gli eurodeputati della circoscrizione Italia meridionale.", numero: String(tuttiGliEurodeputati().length), unita: "eurodeputati" },
+    { id: "europa", titolo: "Europa", testo: "Gli eurodeputati della circoscrizione in cui voti.", numero: String(tuttiGliEurodeputati().length), unita: "eurodeputati" },
   ];
 
   return (
@@ -52,7 +55,7 @@ export default function Home() {
       <section className="contenitore pt-14 pb-16 text-center sm:pt-20">
         <p className="inline-flex items-center gap-2 rounded-full border border-line bg-surface px-3 py-1 text-xs font-medium text-ink-2">
           <span className="size-1.5 rounded-full bg-accent" aria-hidden />
-          {comuni.length} comuni della Campania · dati aggiornati al {meta.generato.split("-").reverse().join("/")}
+          {comuni.length.toLocaleString("it-IT")} comuni in tutta Italia · dati aggiornati al {meta.generato.split("-").reverse().join("/")}
         </p>
         <h1 className="display mx-auto mt-6 max-w-5xl text-6xl sm:text-8xl lg:text-[8.5rem]">
           Chi ti <em className="text-accent">rappresenta</em>?
@@ -68,7 +71,7 @@ export default function Home() {
           <ComuneSearch autoFocus />
         </div>
         <p className="mt-5 flex flex-wrap items-center justify-center gap-2 text-base text-ink-3">
-          <span>Oppure scegli un capoluogo:</span>
+          <span>Oppure scegli un capoluogo di regione:</span>
           {capoluoghi.map((c) => (
             <Link
               key={c.istat}
@@ -102,15 +105,15 @@ export default function Home() {
             },
             {
               href: "/regione/",
-              icona: "✉️",
-              titolo: "Scrivere a un consigliere regionale",
-              testo: "Trova il consigliere, apri la scheda e prepariamo insieme il messaggio.",
+              icona: "🏛️",
+              titolo: "Conoscere la mia Regione",
+              testo: "Presidente, giunta e consiglieri delle 20 regioni, con i contatti ufficiali.",
             },
             {
-              href: "/regione/leggi/",
+              href: "/regione/campania/leggi/",
               icona: "📜",
               titolo: "Capire cosa decide la Regione",
-              testo: "Le leggi regionali spiegate in parole semplici e gli atti presentati dai consiglieri.",
+              testo: "Per la Campania: le leggi regionali spiegate in parole semplici e gli atti dei consiglieri. Le altre regioni arriveranno.",
             },
             {
               href: "/chiedi-un-documento/",
@@ -122,7 +125,7 @@ export default function Home() {
               href: "#cerca",
               icona: "🗳️",
               titolo: "Vedere come ha votato il mio comune",
-              testo: "Comunali, regionali, politiche ed europee: risultati e affluenza, confrontati con la Campania.",
+              testo: "Comunali, regionali, politiche ed europee: risultati e affluenza, confrontati con la media della tua regione.",
             },
           ].map((x) => (
             <Link
@@ -162,7 +165,7 @@ export default function Home() {
                   <p className="mt-2 text-sm text-ink-2">{l.testo}</p>
                   <p className="mt-4 flex items-baseline gap-2 border-t border-line pt-3">
                     <span className="display text-4xl text-[var(--lv)]">{l.numero}</span>
-                    <span className="text-sm text-ink-3">{l.unita} in Campania</span>
+                    <span className="text-sm text-ink-3">{l.unita} in Italia</span>
                   </p>
                 </div>
               </div>
@@ -175,19 +178,19 @@ export default function Home() {
       <section className="contenitore mt-20">
         <div className="grid items-center gap-8 rounded-[32px] border border-line bg-surface p-6 sm:p-10 xl:grid-cols-[minmax(0,1fr)_minmax(0,1.3fr)]">
           <div>
-            <p className="text-xs font-semibold tracking-wider text-[var(--lv-regione)] uppercase">Consiglio regionale della Campania</p>
-            <h2 className="display mt-2 text-5xl sm:text-6xl">{regione.consiglieri.length} consiglieri. Tocca un punto.</h2>
+            <p className="text-xs font-semibold tracking-wider text-[var(--lv-regione)] uppercase">Il primo Consiglio regionale in chiaro</p>
+            <h2 className="display mt-2 text-5xl sm:text-6xl">Campania: {regione.consiglieri.length} consiglieri. Tocca un punto.</h2>
             <p className="mt-4 max-w-lg text-lg text-ink-2">
               Ogni punto è una persona, colorata per gruppo. Apri la sua scheda: contatti, commissioni, gli atti che ha
-              presentato e un modo semplice per scrivergli.
+              presentato e un modo semplice per scrivergli. È il modello che vogliamo portare in tutte le regioni.
             </p>
             <div className="mt-8 grid max-w-lg grid-cols-2 gap-3">
-              <Link href="/regione/attivita/" className="group rounded-2xl bg-[var(--lv-regione-bg)] p-4 hover:opacity-90">
+              <Link href="/regione/campania/attivita/" className="group rounded-2xl bg-[var(--lv-regione-bg)] p-4 hover:opacity-90">
                 <span className="block text-sm text-ink-2">Atti presentati</span>
                 <span className="display block text-5xl">{consiglio.atti.length}</span>
                 <span className="text-sm font-medium text-[var(--lv-regione)] group-hover:underline">Cosa fanno →</span>
               </Link>
-              <Link href="/regione/leggi/" className="group rounded-2xl bg-[var(--lv-comune-bg)] p-4 hover:opacity-90">
+              <Link href="/regione/campania/leggi/" className="group rounded-2xl bg-[var(--lv-comune-bg)] p-4 hover:opacity-90">
                 <span className="block text-sm text-ink-2">Leggi approvate</span>
                 <span className="display block text-5xl">{consiglio.leggi.length}</span>
                 <span className="text-sm font-medium text-[var(--lv-comune)] group-hover:underline">Spiegate semplici →</span>

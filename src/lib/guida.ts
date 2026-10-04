@@ -17,6 +17,8 @@ export type VoceGuida = {
   /** Primo passo pratico. "{comune}" viene sostituito con i contatti del Comune quando li conosciamo. */
   primoPasso: string;
   link?: { label: string; url: string };
+  /** Mostra il link al sito della Regione del comune scelto (sanità, lavoro). */
+  linkRegione?: boolean;
   /** Usa il sito del Comune come link del primo passo. */
   linkComune?: boolean;
   nota?: string;
@@ -28,7 +30,8 @@ export type VoceGuida = {
   /** Usa l'ASL del comune come primo contatto. */
   asl?: boolean;
   /** Servizi online ufficiali che risolvono direttamente. */
-  servizi?: { label: string; descrizione: string; url: string }[];
+  /** `regioni`: codici ISTAT delle regioni in cui il servizio vale (es. EAV solo in Campania); senza, vale ovunque. */
+  servizi?: { label: string; descrizione: string; url: string; regioni?: string[] }[];
   /** Numeri utili, verificati sulla pagina indicata in "fonte". */
   numeri?: { label: string; numero: string; nota?: string; fonte?: string }[];
 };
@@ -151,7 +154,7 @@ export const GUIDA: VoceGuida[] = [
     esempi: "Cambio del medico, prenotazioni, tempi di attesa, pronto soccorso",
     chiDecide: "La sanità è organizzata dalla Regione, tramite le ASL e gli ospedali.",
     primoPasso: "Rivolgiti alla tua ASL: al distretto sanitario vicino a casa o all'URP (Ufficio relazioni con il pubblico). Per i reclami su un ospedale, all'URP dell'ospedale.",
-    link: { label: "Regione Campania", url: "https://www.regione.campania.it/" },
+    linkRegione: true,
     scrivi: "consiglieri-regionali",
     asl: true,
     numeri: [N112],
@@ -160,12 +163,20 @@ export const GUIDA: VoceGuida[] = [
     id: "trasporti",
     livello: "regione",
     icona: "🚆",
-    titolo: "Treni regionali, Circumvesuviana, autobus extraurbani",
+    titolo: "Treni regionali, ferrovie locali, autobus extraurbani",
     esempi: "Ritardi, corse soppresse, collegamenti tra comuni",
     chiDecide: "Il trasporto pubblico regionale lo programma e lo finanzia la Regione.",
-    primoPasso: "Fai un reclamo all'azienda che gestisce la linea (per esempio EAV per Circumvesuviana e Cumana): è il primo passo previsto.",
+    primoPasso: "Fai un reclamo all'azienda che gestisce la linea (il nome è sul biglietto o sul sito del servizio: per esempio Trenitalia per i treni regionali): è il primo passo previsto.",
+    linkRegione: true,
     scrivi: "consiglieri-regionali",
-    servizi: [{ label: "EAV – Ente Autonomo Volturno", descrizione: "Circumvesuviana, Cumana, Circumflegrea e bus EAV: orari, avvisi e reclami", url: "https://www.eavsrl.it/" }],
+    servizi: [
+      {
+        label: "EAV – Ente Autonomo Volturno",
+        descrizione: "Circumvesuviana, Cumana, Circumflegrea e bus EAV: orari, avvisi e reclami",
+        url: "https://www.eavsrl.it/",
+        regioni: ["15"],
+      },
+    ],
   },
   {
     id: "lavoro",
@@ -174,8 +185,8 @@ export const GUIDA: VoceGuida[] = [
     titolo: "Centri per l'impiego e formazione",
     esempi: "Cercare lavoro, corsi di formazione professionale, tirocini",
     chiDecide: "Centri per l'impiego e formazione professionale sono gestiti dalla Regione.",
-    primoPasso: "Rivolgiti al Centro per l'impiego più vicino a casa.",
-    link: { label: "Regione Campania", url: "https://www.regione.campania.it/" },
+    primoPasso: "Rivolgiti al Centro per l'impiego più vicino a casa: sul sito della Regione trovi indirizzi e servizi.",
+    linkRegione: true,
     scrivi: "consiglieri-regionali",
   },
   {
@@ -184,9 +195,9 @@ export const GUIDA: VoceGuida[] = [
     icona: "🌊",
     titolo: "Ambiente, inquinamento, acqua e fiumi",
     esempi: "Scarichi, fumi, rifiuti abbandonati in campagna, qualità del mare",
-    chiDecide: "La tutela dell'ambiente è soprattutto regionale, con l'agenzia ARPAC per i controlli.",
-    primoPasso: "Per controlli e misurazioni rivolgiti all'ARPAC; per un'emergenza in corso chiama il 112.",
-    link: { label: "ARPA Campania", url: "https://www.arpacampania.it/" },
+    chiDecide: "La tutela dell'ambiente è soprattutto regionale, con l'ARPA (Agenzia regionale per la protezione ambientale) per i controlli.",
+    primoPasso: "Per controlli e misurazioni rivolgiti all'ARPA della tua regione; per un'emergenza in corso chiama il 112.",
+    link: { label: "Le ARPA di tutte le regioni (SNPA)", url: "https://www.snpambiente.it/" },
     scrivi: "consiglieri-regionali",
     numeri: [N112],
   },

@@ -10,7 +10,7 @@ const rfc822 = (iso: string) => new Date(`${iso}T12:00:00Z`).toUTCString();
 
 export const vocePerAtto = (a: Atto, prefisso = ""): VoceFeed => ({
   titolo: `${prefisso}${nomeTipo(a.tipo)} n. ${a.numero}: ${a.titolo}`,
-  link: a.url ?? `${SITE_URL}/regione/attivita/`,
+  link: a.url ?? `${SITE_URL}/regione/campania/attivita/`,
   data: a.data,
   descrizione: `Presentata da ${a.firmatari.map((f) => f.nome).join(", ")} nel Consiglio regionale della Campania.`,
   guid: `atto-${a.id}`,
@@ -18,7 +18,7 @@ export const vocePerAtto = (a: Atto, prefisso = ""): VoceFeed => ({
 
 export const vocePerLegge = (l: Legge, prefisso = ""): VoceFeed => ({
   titolo: `${prefisso}${l.intestazione}${l.oggetto ? `: ${l.oggetto}` : ""}`,
-  link: `${SITE_URL}/regione/leggi/`,
+  link: `${SITE_URL}/regione/campania/leggi/`,
   data: l.data,
   descrizione: l.riassunto?.testo ?? l.oggetto ?? l.intestazione,
   guid: `legge-${l.id}`,

@@ -9,7 +9,7 @@ export function IntestazioneRegione({
   sottotitolo,
   intro,
   attiva,
-  indietro = { href: "/", label: "Cerca il tuo comune" },
+  indietro = { href: "/regione/", label: "Tutte le regioni" },
   condividi,
 }: {
   titolo: string;

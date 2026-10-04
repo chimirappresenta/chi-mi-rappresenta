@@ -9,8 +9,8 @@ export function GET() {
   return rss({
     titolo: "Consiglio regionale della Campania · Chi mi rappresenta",
     descrizione: "Interrogazioni, mozioni, proposte di legge e nuove leggi regionali della Campania.",
-    link: `${SITE_URL}/regione/`,
-    self: `${SITE_URL}/regione/feed.xml`,
+    link: `${SITE_URL}/regione/campania/`,
+    self: `${SITE_URL}/regione/campania/feed.xml`,
     voci: [...consiglio.atti.map((a) => vocePerAtto(a)), ...vociLeggi()],
   });
 }

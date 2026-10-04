@@ -21,7 +21,7 @@ export default function LeggiPage() {
         }`}
         attiva="leggi"
         condividi={{
-          path: "/regione/leggi/",
+          path: "/regione/campania/leggi/",
           testo: "Le leggi approvate dalla Regione Campania, spiegate in parole semplici e con il testo ufficiale.",
         }}
       />

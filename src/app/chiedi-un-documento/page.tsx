@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { regione } from "@/lib/data";
+import { regione, regioni } from "@/lib/data";
 import { ComuneSearch } from "@/components/ComuneSearch";
 import { Condividi } from "@/components/Condividi";
 import { ChiediDocumento, type EnteAccesso } from "@/components/ChiediDocumento";
@@ -13,15 +13,15 @@ export const metadata: Metadata = {
 };
 
 export default function ChiediUnDocumentoPage() {
+  // Le 20 Regioni (PEC dall'IPA), più il Consiglio regionale della Campania.
   const enti: EnteAccesso[] = [
-    regione.contatti?.pec && { id: "regione", nome: "Regione Campania", pec: regione.contatti.pec, descrizione: "Sanità, trasporti, ambiente, fondi europei" },
-    regione.contattiConsiglio?.pec && {
-      id: "consiglio",
-      nome: "Consiglio regionale della Campania",
-      pec: regione.contattiConsiglio.pec,
-      descrizione: "Atti, leggi e spese del Consiglio",
-    },
-  ].filter((e): e is EnteAccesso => !!e);
+    ...regioni.flatMap((r) =>
+      r.contatti?.pec ? [{ id: r.slug, nome: `Regione ${r.nome}`, pec: r.contatti.pec, descrizione: "Sanità, trasporti, ambiente, fondi europei" }] : [],
+    ),
+    ...(regione.contattiConsiglio?.pec
+      ? [{ id: "consiglio-campania", nome: "Consiglio regionale della Campania", pec: regione.contattiConsiglio.pec, descrizione: "Atti, leggi e spese del Consiglio" }]
+      : []),
+  ];
 
   return (
     <div className="contenitore py-8">
@@ -67,7 +67,7 @@ export default function ChiediUnDocumentoPage() {
         <h2 id="alla-regione" className="display text-4xl sm:text-5xl">
           Prepara la richiesta alla Regione
         </h2>
-        <p className="mt-2 max-w-3xl text-lg text-ink-2">Per la Regione Campania o il Consiglio regionale. Per il Comune o l&apos;ASL, scegli il tuo comune qui sopra.</p>
+        <p className="mt-2 max-w-3xl text-lg text-ink-2">Per una delle 20 Regioni. Per il Comune o l&apos;ASL, scegli il tuo comune qui sopra.</p>
         <div className="mt-6 rounded-[32px] border-2 border-line bg-surface p-4 sm:p-6">
           <ChiediDocumento enti={enti} />
         </div>

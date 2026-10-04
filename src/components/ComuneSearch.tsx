@@ -92,7 +92,7 @@ export function ComuneSearch({
         aria-activedescendant={results[active] ? `${listId}-${results[active].chiave}` : undefined}
         autoComplete="off"
         autoFocus={autoFocus}
-        placeholder="Es. Pozzuoli, Licola, Vomero o 80078"
+        placeholder="Es. Bergamo, Mestre, Trastevere o 80078"
         value={query}
         onChange={(e) => {
           prepara();

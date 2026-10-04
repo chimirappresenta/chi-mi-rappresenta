@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: { siteName: "Chi mi rappresenta", locale: "it_IT", type: "website" },
   twitter: { card: "summary_large_image" },
   title: {
-    default: "Chi mi rappresenta · Campania",
+    default: "Chi mi rappresenta: chi ti rappresenta, dal tuo Comune all'Europa",
     template: "%s · Chi mi rappresenta",
   },
   description:
@@ -38,9 +38,8 @@ const MENU = [
   { href: "/", label: "Cerca il tuo comune", descrizione: "Chi ti rappresenta, dal sindaco all'Europa" },
   { href: "/a-chi-rivolgersi/", label: "A chi mi rivolgo?", descrizione: "Strade, ASL, pensioni, treni: chi decide e a chi scrivere" },
   { href: "/chiedi-un-documento/", label: "Chiedi un documento", descrizione: "Contratti, spese, controlli: il diritto di sapere" },
-  { href: "/regione/", label: "Consiglio regionale", descrizione: "I 50 consiglieri, i gruppi e i loro contatti" },
-  { href: "/regione/attivita/", label: "Cosa fanno", descrizione: "Interrogazioni, mozioni e proposte di legge" },
-  { href: "/regione/leggi/", label: "Leggi regionali", descrizione: "Spiegate in parole semplici" },
+  { href: "/regione/", label: "Regioni", descrizione: "Presidenti, giunte e consiglieri delle 20 regioni" },
+  { href: "/regione/campania/", label: "Campania in chiaro", descrizione: "Atti, leggi e mappa del Consiglio regionale della Campania" },
   { href: "/fonti/", label: "Fonti e metodo", descrizione: "Da dove vengono i dati e quanto sono aggiornati" },
 ];
 
@@ -62,9 +61,6 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <Link href="/" className="flex items-center gap-2.5">
               <Logo />
               <span className="display text-xl whitespace-nowrap sm:text-2xl">Chi mi rappresenta</span>
-              <span className="hidden rounded-full bg-accent-soft px-2 py-0.5 text-[11px] font-semibold tracking-wide text-accent uppercase sm:inline">
-                Campania
-              </span>
             </Link>
             <div className="flex items-center gap-2">
               <nav aria-label="Principale" className="hidden items-center gap-1 text-base 2xl:flex">

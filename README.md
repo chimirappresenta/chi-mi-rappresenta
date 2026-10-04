@@ -54,7 +54,7 @@ I file in `data/manual/` sono curati a mano: la pipeline li confronta con le fon
 
 - **Chiedi un documento** (`/chiedi-un-documento/` e in ogni pagina comune): prepara una richiesta di accesso civico generalizzato (art. 5, comma 2, d.lgs. 33/2013) al Comune, all'ASL, alla Regione o al Consiglio regionale, con esempi pronti e la spiegazione di cosa succede dopo. Il sito non invia e non salva nulla.
 - **Come si è votato** (in ogni pagina comune): risultati e affluenza delle ultime elezioni, confrontati con la media della Campania.
-- **Segui le novità**: feed RSS statici per ogni comune (`/comune/<istat>/feed.xml`: atti e leggi regionali che citano il comune, più tutte le nuove leggi regionali) e per il Consiglio regionale (`/regione/feed.xml`), con pulsanti per Feedly e Inoreader. Niente email né account.
+- **Segui le novità**: feed RSS statici per ogni comune (`/comune/<istat>/feed.xml`: atti e leggi regionali che citano il comune, più tutte le nuove leggi regionali) e per il Consiglio regionale della Campania (`/regione/campania/feed.xml`), con pulsanti per Feedly e Inoreader. Niente email né account.
 
 ## Segnalazioni degli utenti
 
@@ -74,10 +74,11 @@ Senza queste variabili il modulo funziona lo stesso: mostra la segnalazione già
 
 ## Consiglio regionale in chiaro (fase 2)
 
-- `/regione/`: il Consiglio come emiciclo (un punto per consigliere, colorato per gruppo; maggioranza a sinistra, opposizione a destra). Si cerca per nome o gruppo, la legenda filtra per gruppo e un clic su un punto apre la scheda in un pannello laterale. Coalizione, colore e ordine dei gruppi stanno in `data/manual/gruppi-consiliari.json`: la pipeline avvisa se compare un gruppo nuovo.
-- `/regione/attivita/`: tutti gli atti della legislatura (proposte di legge, interrogazioni, question time, mozioni, risoluzioni), con filtri, ricerca ed esito. Sotto, la tabella degli atti per consigliere.
-- `/regione/consiglieri/<slug>/`: scheda di ogni consigliere, con contatti, commissioni e tutti i suoi atti.
-- `/regione/leggi/`: le leggi approvate, con PDF ufficiale, relazione illustrativa e, se disponibile, un riassunto in parole semplici.
+- `/regione/`: le 20 regioni; `/regione/<nome>/`: presidente, giunta e consiglieri (anagrafe del Ministero dell'Interno), contatti di Regione e Consiglio regionale.
+- `/regione/campania/`: il Consiglio come emiciclo (un punto per consigliere, colorato per gruppo; maggioranza a sinistra, opposizione a destra). Si cerca per nome o gruppo, la legenda filtra per gruppo e un clic su un punto apre la scheda in un pannello laterale. Coalizione, colore e ordine dei gruppi stanno in `data/manual/gruppi-consiliari.json`: la pipeline avvisa se compare un gruppo nuovo.
+- `/regione/campania/attivita/`: tutti gli atti della legislatura (proposte di legge, interrogazioni, question time, mozioni, risoluzioni), con filtri, ricerca ed esito. Sotto, la tabella degli atti per consigliere.
+- `/regione/campania/consiglieri/<slug>/`: scheda di ogni consigliere, con contatti, commissioni e tutti i suoi atti.
+- `/regione/campania/leggi/`: le leggi approvate, con PDF ufficiale, relazione illustrativa e, se disponibile, un riassunto in parole semplici.
 - In ogni pagina comune: lo stesso emiciclo con evidenziati gli eletti nella provincia, più gli atti e le leggi che citano il comune nel titolo. Le pagine comune caricano i dati dell'emiciclo da `/dati/emiciclo.json`, generato una sola volta al build, così non li ripetono 550 volte.
 
 Gli atti vengono letti dalle viste del sito del Consiglio, che rispondono HTTP 404 ma con la pagina corretta: la pipeline lo accetta solo per queste pagine. I firmatari sono abbinati ai consiglieri confrontando le parole del nome.

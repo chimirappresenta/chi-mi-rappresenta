@@ -345,7 +345,7 @@ function SchedaConsigliere({
         <div className="mt-3">
           <Condividi
             compatto
-            path={`/regione/consiglieri/${c.slug}/`}
+            path={`/regione/campania/consiglieri/${c.slug}/`}
             titolo={`${c.nome}, consigliere regionale`}
             testo={`${c.nome}, consigliere regionale della Campania${g ? ` (${g.sigla})` : ""}: contatti e atti presentati in Consiglio regionale.`}
           />
@@ -355,7 +355,7 @@ function SchedaConsigliere({
       <div className="mt-3 flex flex-wrap gap-2">
         {c.slug && (
           <Link
-            href={`/regione/consiglieri/${c.slug}/`}
+            href={`/regione/campania/consiglieri/${c.slug}/`}
             className="rounded-xl bg-accent px-4 py-2 text-sm font-medium text-accent-ink hover:opacity-90"
           >
             Tutti gli atti e la scheda completa →

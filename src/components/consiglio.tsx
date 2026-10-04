@@ -54,7 +54,7 @@ export function AttoRow({ atto, tipi, mostraFirmatari = true }: { atto: Atto; ti
       {mostraFirmatari && primo && (
         <p className="mt-1 text-sm text-ink-3">
           {primo.username ? (
-            <Link href={`/regione/consiglieri/${slugConsigliere(primo.username)}/`} className="text-ink-2 hover:text-accent hover:underline">
+            <Link href={`/regione/campania/consiglieri/${slugConsigliere(primo.username)}/`} className="text-ink-2 hover:text-accent hover:underline">
               {primo.nome}
             </Link>
           ) : (

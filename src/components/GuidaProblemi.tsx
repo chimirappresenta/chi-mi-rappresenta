@@ -8,6 +8,8 @@ import { stileLivello } from "./ui";
 export type ContestoComune = {
   comune: Comune;
   sindaco?: Persona | null;
+  /** Regione del comune, per i link al suo sito (sanità, lavoro, trasporti). */
+  regione?: { nome: string; sito?: string };
   /** Consiglieri regionali da proporre: quanti e "dove" (es. "eletti in provincia di Napoli"). */
   consiglieriRegionali: { numero: number; dove: string };
   deputati: Persona[];
@@ -21,7 +23,7 @@ function ChiScrivere({ dest, ctx }: { dest: Destinatari; ctx?: ContestoComune })
       sindaco: "al sindaco del tuo comune",
       "consiglieri-regionali": "ai consiglieri regionali eletti nella tua provincia",
       parlamentari: "al deputato e al senatore della tua zona",
-      eurodeputati: "agli eurodeputati del Sud Italia",
+      eurodeputati: "agli eurodeputati della tua circoscrizione",
     };
     return <p className="text-ink-2">Se non risolvi: scrivi {testo[dest]}. Scegli il tuo comune qui sopra per vedere nomi e contatti.</p>;
   }
@@ -76,7 +78,7 @@ function ChiScrivere({ dest, ctx }: { dest: Destinatari; ctx?: ContestoComune })
   }
   return (
     <p className="text-ink-2">
-      Se il tema riguarda l&apos;Unione europea, scrivi a uno degli eurodeputati del Sud.{" "}
+      Se il tema riguarda l&apos;Unione europea, scrivi a uno degli eurodeputati della tua circoscrizione.{" "}
       <a href="#europa" className="font-semibold text-accent underline">
         Vedi gli eurodeputati →
       </a>
@@ -101,6 +103,8 @@ function ContattiVoce({ v, ctx }: { v: VoceGuida; ctx?: ContestoComune }) {
   const comune = ctx?.comune;
   const uff = v.ufficio && comune ? comune.uffici?.[v.ufficio] : undefined;
   const asl = v.asl && comune ? comune.asl : undefined;
+  // servizi validi ovunque, più quelli della regione del comune (senza comune scelto: solo quelli nazionali)
+  const servizi = (v.servizi ?? []).filter((x) => !x.regioni || (comune && x.regioni.includes(comune.codiceRegione)));
   return (
     <>
       {comune && v.ufficio && (
@@ -176,11 +180,11 @@ function ContattiVoce({ v, ctx }: { v: VoceGuida; ctx?: ContestoComune }) {
       {v.ufficio && !comune && (
         <p className="text-ink-2">Scegli il tuo comune per vedere l&apos;ufficio giusto, con telefono ed email{v.segnalazione ? ", e preparare la segnalazione" : ""}.</p>
       )}
-      {v.servizi && (
+      {servizi.length > 0 && (
         <div>
           <p className="text-sm font-semibold tracking-wide text-ink-3 uppercase">Puoi farlo online</p>
           <ul className="mt-2 grid gap-2">
-            {v.servizi.map((s) => (
+            {servizi.map((s) => (
               <li key={s.url}>
                 <a href={s.url} target="_blank" rel="noreferrer" data-umami-event="servizio-online" data-umami-event-servizio={s.label} className="block rounded-xl border border-line bg-surface p-3 hover:border-[var(--lv)]">
                   <span className="block font-semibold text-[var(--lv)]">{s.label} ↗</span>
@@ -240,6 +244,8 @@ export function GuidaProblemi({ ctx }: { ctx?: ContestoComune }) {
           <div className="mt-3 grid gap-3 lg:grid-cols-2">
             {GUIDA.filter((v) => v.livello === lv).map((v) => {
               const sito = v.linkComune && ctx?.comune.contatti?.sito;
+              const sitoRegione = v.linkRegione && ctx?.regione?.sito ? { label: `Regione ${ctx.regione.nome}`, url: ctx.regione.sito } : undefined;
+              const link = v.link ?? sitoRegione;
               return (
                 <details key={v.id} id={`problema-${v.id}`} className="group rounded-2xl border-2 border-line bg-surface open:border-[var(--lv)]">
                   <summary data-umami-event="guida-voce" data-umami-event-voce={v.id} className="flex min-h-16 items-center gap-4 px-4 py-3">
@@ -262,14 +268,14 @@ export function GuidaProblemi({ ctx }: { ctx?: ContestoComune }) {
                     <div className="rounded-xl bg-[var(--lv-bg)] p-4">
                       <p className="text-sm font-semibold tracking-wide text-[var(--lv)] uppercase">Primo passo</p>
                       <p className="mt-1">{v.primoPasso}</p>
-                      {(sito || v.link) && (
+                      {(sito || link) && (
                         <a
-                          href={sito || v.link!.url}
+                          href={sito || link!.url}
                           target="_blank"
                           rel="noreferrer"
                           className="mt-3 inline-flex min-h-11 items-center rounded-full bg-surface px-4 font-semibold text-[var(--lv)] hover:underline"
                         >
-                          {sito ? `Sito del Comune di ${ctx!.comune.nome}` : v.link!.label} ↗
+                          {sito ? `Sito del Comune di ${ctx!.comune.nome}` : link!.label} ↗
                         </a>
                       )}
                     </div>

@@ -102,6 +102,19 @@ export function ChiediDocumento({ enti, luogo }: { enti: EnteAccesso[]; luogo?: 
           <li>
             <fieldset>
               <legend className="text-lg font-semibold">1. A chi lo chiedi?</legend>
+              {enti.length > 4 ? (
+                <label className="mt-2 block text-base">
+                  <span className="sr-only">Ente</span>
+                  <select value={ente.id} onChange={(e) => setEnteId(e.target.value)} className={campo}>
+                    {enti.map((e) => (
+                      <option key={e.id} value={e.id}>
+                        {e.nome}
+                      </option>
+                    ))}
+                  </select>
+                  <span className="mt-1 block text-sm text-ink-3">{ente.descrizione}</span>
+                </label>
+              ) : (
               <div className="mt-2 grid gap-2 sm:grid-cols-2">
                 {enti.map((e) => (
                   <label key={e.id} className={scelta(e.id === ente.id)}>
@@ -113,6 +126,7 @@ export function ChiediDocumento({ enti, luogo }: { enti: EnteAccesso[]; luogo?: 
                   </label>
                 ))}
               </div>
+              )}
             </fieldset>
           </li>
         )}

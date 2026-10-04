@@ -450,7 +450,7 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
             </div>
             <p className="text-base text-ink-3">
               Assessori regionali e tutti i {regione.consiglieri.length} consiglieri:{" "}
-              <Link href="/regione/" className="text-accent underline">
+              <Link href="/regione/campania/" className="text-accent underline">
                 Giunta e Consiglio regionale →
               </Link>
             </p>
@@ -479,7 +479,7 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
             ) : (
               <p className="text-base text-ink-3">
                 Nessun atto del Consiglio regionale cita {c.nome} nel titolo in questa legislatura.{" "}
-                <Link href="/regione/attivita/" className="text-accent underline">
+                <Link href="/regione/campania/attivita/" className="text-accent underline">
                   Vedi cosa fanno i consiglieri →
                 </Link>
               </p>
@@ -533,7 +533,7 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
             </Avviso>
             <p className="text-base text-ink-3">
               Atti, leggi spiegate in parole semplici e la mappa dei consiglieri sono disponibili per ora per la Campania:{" "}
-              <Link href="/regione/" className="text-accent underline">
+              <Link href="/regione/campania/" className="text-accent underline">
                 vedi l&apos;esempio →
               </Link>
             </p>
@@ -675,6 +675,7 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
             ctx={{
               comune: c,
               sindaco: a?.sindaco,
+              regione: { nome: c.regione, sito: reg?.contatti?.sito },
               consiglieriRegionali: inChiaro
                 ? { numero: consiglieriCirc.length, dove: `eletti in provincia di ${c.provincia}` }
                 : { numero: reg?.consiglieri.length ?? 0, dove: `della Regione ${c.regione}` },
