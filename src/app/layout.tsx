@@ -95,6 +95,20 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                 Chi ti rappresenta, dal tuo Comune a Bruxelles. Progetto civico indipendente costruito solo con dati pubblici
                 ufficiali: prima di agire, verifica sempre la fonte.
               </p>
+              <p className="mt-3 max-w-md text-sm text-ink-2">
+                Un progetto di{" "}
+                <a href="https://www.linkedin.com/in/gerardodellaquila/" target="_blank" rel="noreferrer" className="font-semibold underline hover:text-ink">
+                  Gerardo Dell&apos;Aquila
+                </a>
+                . Contatti:{" "}
+                <a href="mailto:infochimirappresenta@gmail.com" className="underline hover:text-ink">
+                  infochimirappresenta@gmail.com
+                </a>
+              </p>
+              <p className="mt-3 max-w-md text-sm text-ink-3">
+                Usiamo anche l&apos;intelligenza artificiale per costruire il sito e spiegare le leggi in parole semplici. Sono possibili
+                errori: prima di decidere, verifica sempre la fonte ufficiale.
+              </p>
               <p className="mt-3 max-w-md text-sm text-ink-3">
                 Sito ufficiale: <strong className="font-semibold text-ink-2">chi-mi-rappresenta.vercel.app</strong>. Il codice è aperto, ma copie
                 pubblicate ad altri indirizzi non sono gestite da noi.

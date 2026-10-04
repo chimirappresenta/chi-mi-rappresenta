@@ -28,6 +28,14 @@ const FAQ = [
     r: "Cerca il tuo comune e apri la sezione Regione: trovi i consiglieri e il link al sito del Consiglio regionale con i loro contatti. Per la Campania c'è anche «Scrivi a…», che prepara una bozza di email dal tuo programma di posta. Il sito non invia e non salva nulla.",
   },
   {
+    d: "Chi c'è dietro?",
+    r: "È un progetto personale di Gerardo Dell'Aquila, nato dall'idea che i dati pubblici esistono già ma sono sparsi e difficili da leggere: qui li mettiamo insieme e li rendiamo chiari. Per segnalazioni e proposte scrivi a infochimirappresenta@gmail.com o usa «Segnala un errore» accanto a ogni dato.",
+  },
+  {
+    d: "Come usate l'intelligenza artificiale?",
+    r: "Per scrivere il codice del sito e per i riassunti delle leggi regionali, sempre indicati come tali e collegati al testo ufficiale. I dati su eletti, contatti e risultati non sono generati dall'AI: arrivano dalle fonti ufficiali con programmi automatici, e ogni dato rimanda alla sua fonte.",
+  },
+  {
     d: "Mi servono dati personali o un account?",
     r: "No. Basta il nome del comune. Il sito è statico: le ricerche restano nel tuo browser.",
   },

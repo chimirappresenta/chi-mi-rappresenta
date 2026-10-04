@@ -98,6 +98,13 @@ export default function FontiPage() {
               senza nominarlo.
             </li>
             <li>
+              <strong>Intelligenza artificiale:</strong> il sito e i programmi
+              che raccolgono i dati sono stati scritti con l&apos;aiuto
+              dell&apos;AI. I dati invece (eletti, contatti, risultati) non
+              sono generati dall&apos;AI: vengono letti dalle fonti ufficiali
+              elencate qui sopra.
+            </li>
+            <li>
               <strong>Riassunti delle leggi:</strong> sono generati con un
               modello di intelligenza artificiale (Claude) a partire dal PDF
               ufficiale, e indicati come tali. Per le leggi di bilancio, molto
