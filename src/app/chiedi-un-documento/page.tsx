@@ -33,8 +33,8 @@ export default function ChiediUnDocumentoPage() {
       </nav>
       <header className="mt-4 grid gap-8 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)] lg:items-end">
         <div>
-          <h1 className="display text-6xl sm:text-7xl">Chiedi un documento</h1>
-          <p className="mt-4 max-w-2xl text-xl text-ink-2">
+          <h1 className="display text-4xl sm:text-5xl">Chiedi un documento</h1>
+          <p className="mt-4 max-w-2xl text-lg text-ink-2">
             Quanto è costata quella strada? Cosa dice il contratto dei rifiuti? Che esito hanno avuto i controlli? Con l&apos;
             <strong>accesso civico</strong> chiunque può chiederlo a qualsiasi ente pubblico, gratis e senza dire perché.
           </p>
@@ -55,7 +55,7 @@ export default function ChiediUnDocumentoPage() {
       </header>
 
       <section aria-labelledby="come-funziona" className="mt-12">
-        <h2 id="come-funziona" className="display text-4xl sm:text-5xl">
+        <h2 id="come-funziona" className="display text-3xl sm:text-4xl">
           Come funziona
         </h2>
         <div className="mt-5">
@@ -64,14 +64,14 @@ export default function ChiediUnDocumentoPage() {
       </section>
 
       <section aria-labelledby="alla-regione" className="mt-12">
-        <h2 id="alla-regione" className="display text-4xl sm:text-5xl">
+        <h2 id="alla-regione" className="display text-3xl sm:text-4xl">
           Prepara la richiesta a una Regione o a un altro ente
         </h2>
-        <p className="mt-2 max-w-3xl text-lg text-ink-2">
+        <p className="mt-2 max-w-3xl text-base text-ink-2">
           Scegli una delle 20 Regioni oppure &quot;un altro ente pubblico&quot; (INPS, un ministero, una scuola, un&apos;università…) e
           scrivi tu il nome e la PEC. Per il Comune o l&apos;ASL è più comodo partire dal tuo comune, qui sopra.
         </p>
-        <div className="mt-6 rounded-[32px] border-2 border-line bg-surface p-4 sm:p-6">
+        <div className="mt-6 rounded-[28px] border border-line bg-surface p-4 sm:p-6">
           <ChiediDocumento enti={enti} altroEnte />
         </div>
       </section>

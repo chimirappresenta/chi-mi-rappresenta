@@ -15,21 +15,21 @@ export function AccessoCivicoInfo() {
     <div className="space-y-5 text-base">
       <div className="grid gap-3 sm:grid-cols-3">
         <div className="rounded-2xl bg-surface-2 p-4">
-          <p className="text-2xl" aria-hidden>
+          <p className="text-xl" aria-hidden>
             🙋
           </p>
           <p className="mt-1 font-semibold">Chiunque può chiedere</p>
           <p className="text-ink-2">Non serve essere residenti né spiegare il motivo.</p>
         </div>
         <div className="rounded-2xl bg-surface-2 p-4">
-          <p className="text-2xl" aria-hidden>
+          <p className="text-xl" aria-hidden>
             💶
           </p>
           <p className="mt-1 font-semibold">È gratis</p>
           <p className="text-ink-2">Si paga solo l&apos;eventuale costo delle copie su carta.</p>
         </div>
         <div className="rounded-2xl bg-surface-2 p-4">
-          <p className="text-2xl" aria-hidden>
+          <p className="text-xl" aria-hidden>
             📄
           </p>
           <p className="mt-1 font-semibold">Documenti che l&apos;ente ha già</p>
@@ -37,7 +37,7 @@ export function AccessoCivicoInfo() {
         </div>
       </div>
       <div>
-        <h3 className="text-lg font-semibold">Cosa succede dopo</h3>
+        <h3 className="text-base font-semibold">Cosa succede dopo</h3>
         <ol className="mt-2 space-y-3">
           {passi.map((p, i) => (
             <li key={p.t} className="flex gap-3">

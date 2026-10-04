@@ -8,8 +8,8 @@ export function Segui({ feed, titolo, testo }: { feed: string; titolo: string; t
   const enc = encodeURIComponent(feed);
   const btn = "inline-flex min-h-11 items-center gap-2 rounded-full px-4 text-base font-semibold";
   return (
-    <div id="segui" className="scroll-mt-24 rounded-3xl border-2 border-[var(--lv)]/30 bg-[var(--lv-bg)] p-4 sm:p-5">
-      <p className="flex items-center gap-2 text-lg font-semibold">
+    <div id="segui" className="scroll-mt-24 rounded-3xl border border-[var(--lv)]/30 bg-[var(--lv-bg)] p-4 sm:p-5">
+      <p className="flex items-center gap-2 text-base font-semibold">
         <span aria-hidden>🔔</span> {titolo}
       </p>
       <p className="mt-1 text-base text-ink-2">{testo}</p>
@@ -31,7 +31,7 @@ export function Segui({ feed, titolo, testo }: { feed: string; titolo: string; t
           data-umami-event-canale="inoreader"
           target="_blank"
           rel="noreferrer"
-          className={`${btn} border-2 border-[var(--lv)] bg-surface text-[var(--lv)] hover:opacity-90`}
+          className={`${btn} border border-[var(--lv)] bg-surface text-[var(--lv)] hover:opacity-90`}
         >
           Segui con Inoreader ↗
         </a>

@@ -48,8 +48,8 @@ export default async function RegionePage({ params }: PageProps<"/regione/[regio
       </nav>
       <header className="mt-4 flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
         <div>
-          <h1 className="display text-6xl sm:text-8xl">{r.nome}</h1>
-          <p className="mt-3 max-w-2xl text-lg text-ink-2">
+          <h1 className="display text-5xl sm:text-6xl">{r.nome}</h1>
+          <p className="mt-3 max-w-2xl text-base text-ink-2">
             Chi governa la Regione: presidente, giunta e consiglio regionale. Vota per il Parlamento europeo nella circoscrizione{" "}
             {circ.nome}.
           </p>
@@ -110,7 +110,7 @@ export default async function RegionePage({ params }: PageProps<"/regione/[regio
 
         <aside className="space-y-4">
           <section className="rounded-3xl border border-line bg-surface p-5">
-            <h2 className="text-lg font-semibold">Contatti ufficiali</h2>
+            <h2 className="text-base font-semibold">Contatti ufficiali</h2>
             <dl className="mt-3 space-y-3 text-base">
               {r.contatti?.pec && (
                 <div>
@@ -152,7 +152,7 @@ export default async function RegionePage({ params }: PageProps<"/regione/[regio
             </p>
           </section>
           <section className="rounded-3xl border border-line bg-surface p-5">
-            <h2 className="text-lg font-semibold">I tuoi rappresentanti, dal Comune all&apos;Europa</h2>
+            <h2 className="text-base font-semibold">I tuoi rappresentanti, dal Comune all&apos;Europa</h2>
             <p className="mt-1 text-base text-ink-2">Cerca il tuo comune: sindaco, deputati, senatori ed eurodeputati della tua zona.</p>
             <div className="mt-3">
               <ComuneSearch etichetta="Il tuo comune" />

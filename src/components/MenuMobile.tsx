@@ -27,7 +27,7 @@ export function MenuMobile({ voci }: { voci: Voce[] }) {
       >
         <div className="contenitore py-4">
           <div className="flex items-center justify-between">
-            <span className="display text-3xl">Menu</span>
+            <span className="display text-2xl">Menu</span>
             <button type="button" onClick={chiudi} className="flex min-h-11 items-center rounded-full border border-line bg-surface px-4 text-base font-semibold">
               Chiudi ✕
             </button>
@@ -36,8 +36,8 @@ export function MenuMobile({ voci }: { voci: Voce[] }) {
             <ul className="space-y-3">
               {voci.map((v) => (
                 <li key={v.href}>
-                  <Link href={v.href} onClick={chiudi} className="block rounded-3xl border-2 border-line bg-surface p-4 hover:border-accent">
-                    <span className="block text-xl font-semibold">{v.label}</span>
+                  <Link href={v.href} onClick={chiudi} className="block rounded-3xl border border-line bg-surface p-4 hover:border-accent">
+                    <span className="block text-lg font-semibold">{v.label}</span>
                     <span className="block text-base text-ink-3">{v.descrizione}</span>
                   </Link>
                 </li>

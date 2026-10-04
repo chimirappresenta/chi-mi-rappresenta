@@ -28,9 +28,9 @@ export function IntestazioneRegione({
       </nav>
       <header className="mt-4 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
         <div>
-          <h1 className="display text-6xl sm:text-7xl">{titolo}</h1>
+          <h1 className="display text-4xl sm:text-5xl">{titolo}</h1>
           {sottotitolo && <p className="mt-2 text-ink-2">{sottotitolo}</p>}
-          <p className="mt-3 max-w-2xl text-lg text-ink-2">{intro}</p>
+          <p className="mt-3 max-w-2xl text-base text-ink-2">{intro}</p>
         </div>
         <Condividi path={condividi.path} titolo={titolo} testo={condividi.testo} />
       </header>

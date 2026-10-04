@@ -57,18 +57,18 @@ export default async function ConsiglierePage({ params }: PageProps<"/regione/ca
             <dl className="grid grid-cols-2 gap-3">
               <div className="rounded-2xl border border-line bg-surface p-3">
                 <dt className="text-xs text-ink-3">Come primo firmatario</dt>
-                <dd className="display text-5xl tabular-nums">{s.primoFirmatario}</dd>
+                <dd className="display text-4xl tabular-nums">{s.primoFirmatario}</dd>
               </div>
               <div className="rounded-2xl border border-line bg-surface p-3">
                 <dt className="text-xs text-ink-3">Firmati in totale</dt>
-                <dd className="display text-5xl tabular-nums">{s.totale}</dd>
+                <dd className="display text-4xl tabular-nums">{s.totale}</dd>
               </div>
               {consiglio.tipi
                 .filter((t) => s.perTipo[t.id])
                 .map((t) => (
                   <div key={t.id} className="rounded-2xl border border-line bg-surface p-3">
                     <dt className="text-xs text-ink-3">{t.plurale}</dt>
-                    <dd className="display text-4xl tabular-nums">{s.perTipo[t.id]}</dd>
+                    <dd className="display text-3xl tabular-nums">{s.perTipo[t.id]}</dd>
                   </div>
                 ))}
             </dl>
@@ -79,7 +79,7 @@ export default async function ConsiglierePage({ params }: PageProps<"/regione/ca
         </aside>
 
         <section>
-          <h2 className="text-xl font-semibold">Atti firmati</h2>
+          <h2 className="text-lg font-semibold">Atti firmati</h2>
           {atti.length > 0 ? (
             <div className="mt-3">
               <AttiFeed atti={atti} tipi={consiglio.tipi.filter((t) => s?.perTipo[t.id])} />

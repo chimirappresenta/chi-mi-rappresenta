@@ -61,7 +61,7 @@ export function SegnalaUfficio({
         type="button"
         onClick={() => setAperto(true)}
         data-umami-event="segnalazione-ufficio-apri"
-        className="inline-flex min-h-12 items-center gap-2 rounded-full bg-accent px-5 text-base font-semibold text-accent-ink hover:opacity-90"
+        className="inline-flex min-h-11 items-center gap-2 rounded-full bg-accent px-5 text-base font-semibold text-accent-ink hover:opacity-90"
       >
         <span aria-hidden>📝</span> Prepara la segnalazione all&apos;ufficio
       </button>
@@ -70,8 +70,8 @@ export function SegnalaUfficio({
   const campo =
     "mt-1.5 w-full min-h-11 rounded-xl border border-line bg-surface px-3 py-2 text-base outline-none focus:border-accent focus:ring-4 focus:ring-accent/15";
   return (
-    <div className="-mx-1 rounded-3xl border-2 border-accent/40 bg-surface p-3 sm:mx-0 sm:p-5">
-      <h4 className="text-lg font-semibold">La tua segnalazione</h4>
+    <div className="-mx-1 rounded-3xl border border-accent/40 bg-surface p-3 sm:mx-0 sm:p-5">
+      <h4 className="text-base font-semibold">La tua segnalazione</h4>
       <p className="text-base text-ink-2">
         Arriva a: <strong>{destinatario}</strong>
       </p>
@@ -124,7 +124,7 @@ export function SegnalaUfficio({
           <strong>Allega una foto</strong> al messaggio prima di inviarlo: aiuta l&apos;ufficio a capire subito il problema.
         </span>
       </p>
-      <a href={href} data-umami-event="segnalazione-ufficio-invia" className="mt-4 flex min-h-12 items-center justify-center rounded-full bg-accent px-5 text-base font-semibold text-accent-ink hover:opacity-90">
+      <a href={href} data-umami-event="segnalazione-ufficio-invia" className="mt-4 flex min-h-11 items-center justify-center rounded-full bg-accent px-5 text-base font-semibold text-accent-ink hover:opacity-90">
         Apri il messaggio nella tua email
       </a>
       <p className="mt-2 text-sm text-ink-3">

@@ -32,8 +32,8 @@ export default function ConsigliInChiaroPage() {
       </nav>
       <header className="mt-4 flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
         <div>
-          <h1 className="display text-6xl sm:text-7xl">Consigli regionali in chiaro</h1>
-          <p className="mt-4 max-w-3xl text-xl text-ink-2">
+          <h1 className="display text-4xl sm:text-5xl">Consigli regionali in chiaro</h1>
+          <p className="mt-4 max-w-3xl text-lg text-ink-2">
             Cosa fa davvero il Consiglio della tua regione? Lo raccontiamo con i dati ufficiali, in parole semplici. Siamo partiti dalla
             Campania e aggiungeremo le altre regioni una alla volta.
           </p>
@@ -55,7 +55,7 @@ export default function ConsigliInChiaroPage() {
               <span className="text-3xl" aria-hidden>
                 {x.icona}
               </span>
-              <p className="mt-2 text-lg font-semibold">{x.titolo}</p>
+              <p className="mt-2 text-base font-semibold">{x.titolo}</p>
               <p className="text-base text-ink-2">{x.testo}</p>
             </li>
           ))}
@@ -64,33 +64,33 @@ export default function ConsigliInChiaroPage() {
 
       {campania && (
         <section aria-labelledby="disponibile" className="mt-12">
-          <h2 id="disponibile" className="display text-4xl sm:text-5xl">
+          <h2 id="disponibile" className="display text-3xl sm:text-4xl">
             Già in chiaro
           </h2>
           <Link
             href="/regione/campania/"
-            className="group mt-5 grid gap-6 rounded-[32px] border-2 border-[var(--lv)] bg-surface p-6 hover:shadow-[0_20px_60px_-30px_rgba(20,34,31,0.35)] md:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)]"
+            className="group mt-5 grid gap-6 rounded-[28px] border border-[var(--lv)] bg-surface p-6 hover:shadow-[0_20px_60px_-30px_rgba(20,34,31,0.35)] md:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)]"
           >
             <div>
               <span className="inline-flex rounded-full bg-[var(--lv-bg)] px-3 py-1 text-sm font-semibold text-[var(--lv)]">Disponibile</span>
-              <p className="display mt-3 text-5xl group-hover:text-[var(--lv)]">{campania.nome}</p>
-              <p className="mt-2 text-lg text-ink-2">
+              <p className="display mt-3 text-4xl group-hover:text-[var(--lv)]">{campania.nome}</p>
+              <p className="mt-2 text-base text-ink-2">
                 Il Consiglio regionale della Campania: consiglieri, gruppi, atti e leggi della legislatura in corso.
               </p>
-              <span className="mt-4 inline-block text-lg font-semibold text-[var(--lv)] group-hover:underline">Apri il Consiglio regionale →</span>
+              <span className="mt-4 inline-block text-base font-semibold text-[var(--lv)] group-hover:underline">Apri il Consiglio regionale →</span>
             </div>
             <dl className="grid grid-cols-3 gap-3 self-center">
               <div className="rounded-2xl bg-[var(--lv-bg)] p-3 text-center">
                 <dt className="text-sm text-ink-2">Consiglieri</dt>
-                <dd className="display text-4xl">{regione.consiglieri.length}</dd>
+                <dd className="display text-3xl">{regione.consiglieri.length}</dd>
               </div>
               <div className="rounded-2xl bg-[var(--lv-bg)] p-3 text-center">
                 <dt className="text-sm text-ink-2">Atti</dt>
-                <dd className="display text-4xl">{consiglio.atti.length}</dd>
+                <dd className="display text-3xl">{consiglio.atti.length}</dd>
               </div>
               <div className="rounded-2xl bg-[var(--lv-bg)] p-3 text-center">
                 <dt className="text-sm text-ink-2">Leggi</dt>
-                <dd className="display text-4xl">{consiglio.leggi.length}</dd>
+                <dd className="display text-3xl">{consiglio.leggi.length}</dd>
               </div>
             </dl>
           </Link>
@@ -98,10 +98,10 @@ export default function ConsigliInChiaroPage() {
       )}
 
       <section aria-labelledby="in-arrivo" className="mt-12">
-        <h2 id="in-arrivo" className="display text-4xl sm:text-5xl">
+        <h2 id="in-arrivo" className="display text-3xl sm:text-4xl">
           In arrivo
         </h2>
-        <p className="mt-2 max-w-3xl text-lg text-ink-2">
+        <p className="mt-2 max-w-3xl text-base text-ink-2">
           Ogni Consiglio regionale pubblica atti e leggi sul proprio sito, ognuno in modo diverso: per ciascuno serve un lavoro dedicato.
           Nel frattempo, per ogni regione trovi già presidente, giunta, consiglieri e contatti ufficiali.
         </p>
@@ -113,10 +113,10 @@ export default function ConsigliInChiaroPage() {
                 className="flex min-h-16 items-center justify-between gap-3 rounded-2xl border border-line bg-surface px-4 py-3 hover:border-[var(--lv)]"
               >
                 <span>
-                  <span className="block text-lg font-semibold">{r.nome}</span>
+                  <span className="block text-base font-semibold">{r.nome}</span>
                   <span className="block text-sm text-ink-3">In arrivo · intanto: presidente, giunta e consiglieri</span>
                 </span>
-                <span className="text-xl text-ink-3" aria-hidden>
+                <span className="text-lg text-ink-3" aria-hidden>
                   →
                 </span>
               </Link>
@@ -125,9 +125,9 @@ export default function ConsigliInChiaroPage() {
         </ul>
       </section>
 
-      <section className="mt-12 rounded-[32px] bg-[var(--lv-bg)] p-6 sm:p-8">
-        <h2 className="text-2xl font-semibold">Vuoi la tua regione prima delle altre?</h2>
-        <p className="mt-2 max-w-3xl text-lg text-ink-2">
+      <section className="mt-12 rounded-[28px] bg-[var(--lv-bg)] p-6 sm:p-8">
+        <h2 className="text-xl font-semibold">Vuoi la tua regione prima delle altre?</h2>
+        <p className="mt-2 max-w-3xl text-base text-ink-2">
           Diccelo: le regioni più richieste arriveranno per prime. Il progetto è aperto (licenza MIT): se sai programmare puoi anche
           contribuire al &quot;lettore&quot; del Consiglio della tua regione, sul modello di quello della Campania.
         </p>
@@ -138,7 +138,7 @@ export default function ConsigliInChiaroPage() {
               target="_blank"
               rel="noreferrer"
               data-umami-event="richiesta-regione"
-              className="inline-flex min-h-12 items-center rounded-full bg-[var(--lv)] px-5 text-base font-semibold text-white hover:opacity-90"
+              className="inline-flex min-h-11 items-center rounded-full bg-[var(--lv)] px-5 text-base font-semibold text-white hover:opacity-90"
             >
               Chiedi la tua regione ↗
             </a>
@@ -146,7 +146,7 @@ export default function ConsigliInChiaroPage() {
               href={`https://github.com/${REPO}`}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex min-h-12 items-center rounded-full border-2 border-[var(--lv)] bg-surface px-5 text-base font-semibold text-[var(--lv)] hover:opacity-90"
+              className="inline-flex min-h-11 items-center rounded-full border border-[var(--lv)] bg-surface px-5 text-base font-semibold text-[var(--lv)] hover:opacity-90"
             >
               Il codice del progetto ↗
             </a>

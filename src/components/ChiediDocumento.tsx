@@ -114,7 +114,7 @@ export function ChiediDocumento({ enti: entiBase, luogo, altroEnte = false }: { 
         {enti.length > 1 && (
           <li>
             <fieldset>
-              <legend className="text-lg font-semibold">1. A chi lo chiedi?</legend>
+              <legend className="text-base font-semibold">1. A chi lo chiedi?</legend>
               {entiBase.length > 4 ? (
                 <label className="mt-2 block text-base">
                   <span className="sr-only">Ente</span>
@@ -165,7 +165,7 @@ export function ChiediDocumento({ enti: entiBase, luogo, altroEnte = false }: { 
         )}
         <li>
           <fieldset>
-            <legend className="text-lg font-semibold">{enti.length > 1 ? "2." : "1."} Cosa vuoi sapere?</legend>
+            <legend className="text-base font-semibold">{enti.length > 1 ? "2." : "1."} Cosa vuoi sapere?</legend>
             <p className="text-base text-ink-3">Scegli un esempio e completa le parti tra parentesi quadre, oppure scrivi tu.</p>
             <div className="mt-2 flex flex-wrap gap-2">
               {ESEMPI.map((x) => (
@@ -196,7 +196,7 @@ export function ChiediDocumento({ enti: entiBase, luogo, altroEnte = false }: { 
         </li>
         <li>
           <fieldset>
-            <legend className="text-lg font-semibold">{enti.length > 1 ? "3." : "2."} I tuoi dati</legend>
+            <legend className="text-base font-semibold">{enti.length > 1 ? "3." : "2."} I tuoi dati</legend>
             <p className="text-base text-ink-3">Servono per legge: la richiesta deve dire chi la fa. Restano sul tuo dispositivo.</p>
             <div className="mt-2 grid gap-3 sm:grid-cols-2">
               <label className="block text-base font-semibold">
@@ -213,7 +213,7 @@ export function ChiediDocumento({ enti: entiBase, luogo, altroEnte = false }: { 
       </ol>
 
       <div className="space-y-4 lg:sticky lg:top-24 lg:self-start">
-        <div className="rounded-3xl border-2 border-accent/40 bg-surface p-4 sm:p-5">
+        <div className="rounded-3xl border border-accent/40 bg-surface p-4 sm:p-5">
           <p className="text-sm font-semibold tracking-wide text-ink-3 uppercase">La tua richiesta</p>
           <p className="mt-1 text-base">
             Arriva a: <strong>{ente.nome}</strong>
@@ -234,7 +234,7 @@ export function ChiediDocumento({ enti: entiBase, luogo, altroEnte = false }: { 
               aria-disabled={!ente.pec}
               data-umami-event="documento-invia"
               data-umami-event-ente={ente.id}
-              className="flex min-h-12 flex-1 aria-disabled:pointer-events-none aria-disabled:opacity-40 items-center justify-center rounded-full bg-accent px-5 text-base font-semibold text-accent-ink hover:opacity-90">
+              className="flex min-h-11 flex-1 aria-disabled:pointer-events-none aria-disabled:opacity-40 items-center justify-center rounded-full bg-accent px-5 text-base font-semibold text-accent-ink hover:opacity-90">
               Apri nella tua email
             </a>
             <CopiaTesto testo={corpo} etichetta="Copia il testo" evento="documento-copia" />

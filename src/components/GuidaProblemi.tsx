@@ -112,7 +112,7 @@ function ContattiVoce({ v, ctx }: { v: VoceGuida; ctx?: ContestoComune }) {
           {uff ? (
             <>
               <p className="text-sm font-semibold tracking-wide text-ink-3 uppercase">L&apos;ufficio giusto a {comune.nome}</p>
-              <p className="mt-1 text-lg font-semibold">{uff.nome}</p>
+              <p className="mt-1 text-base font-semibold">{uff.nome}</p>
               <div className="mt-3 flex flex-wrap gap-2">
                 {uff.tel && (
                   <a href={`tel:${uff.tel}`} data-umami-event="chiama" data-umami-event-chi="ufficio-comune" className={`${btn} bg-[var(--lv)] text-white hover:opacity-90`}>
@@ -122,7 +122,7 @@ function ContattiVoce({ v, ctx }: { v: VoceGuida; ctx?: ContestoComune }) {
                 {(uff.email || uff.pec) && (
                   <a
                     href={`mailto:${uff.email ?? uff.pec}`}
-                    className={`${btn} border-2 border-[var(--lv)] text-[var(--lv)] hover:bg-[var(--lv-bg)]`}
+                    className={`${btn} border border-[var(--lv)] text-[var(--lv)] hover:bg-[var(--lv-bg)]`}
                   >
                     <span aria-hidden>📧</span> {uff.email ? "Email dell'ufficio" : "PEC dell'ufficio"}
                   </a>
@@ -160,7 +160,7 @@ function ContattiVoce({ v, ctx }: { v: VoceGuida; ctx?: ContestoComune }) {
       {asl && (
         <div className="rounded-xl border border-line bg-surface p-4">
           <p className="text-sm font-semibold tracking-wide text-ink-3 uppercase">La tua ASL</p>
-          <p className="mt-1 text-lg font-semibold">{asl.nome}</p>
+          <p className="mt-1 text-base font-semibold">{asl.nome}</p>
           <p className="mt-1 text-ink-2">Sul sito trovi il distretto sanitario più vicino, gli orari e l&apos;URP per i reclami.</p>
           <div className="mt-3 flex flex-wrap gap-2">
             {asl.sito && (
@@ -169,7 +169,7 @@ function ContattiVoce({ v, ctx }: { v: VoceGuida; ctx?: ContestoComune }) {
               </a>
             )}
             {asl.pec && (
-              <a href={`mailto:${asl.pec}`} className={`${btn} border-2 border-[var(--lv)] text-[var(--lv)] hover:bg-[var(--lv-bg)]`}>
+              <a href={`mailto:${asl.pec}`} className={`${btn} border border-[var(--lv)] text-[var(--lv)] hover:bg-[var(--lv-bg)]`}>
                 <span aria-hidden>📧</span> PEC
               </a>
             )}
@@ -201,7 +201,7 @@ function ContattiVoce({ v, ctx }: { v: VoceGuida; ctx?: ContestoComune }) {
           <ul className="mt-2 grid gap-2">
             {v.numeri.map((n) => (
               <li key={n.numero} className="flex flex-wrap items-center gap-x-3 gap-y-1">
-                <a href={`tel:${n.numero.replace(/\s/g, "")}`} data-umami-event="chiama" data-umami-event-chi={n.numero} className={`${btn} bg-surface-2 text-lg text-ink hover:bg-[var(--lv-bg)]`}>
+                <a href={`tel:${n.numero.replace(/\s/g, "")}`} data-umami-event="chiama" data-umami-event-chi={n.numero} className={`${btn} bg-surface-2 text-base text-ink hover:bg-[var(--lv-bg)]`}>
                   <span aria-hidden>📞</span> {n.numero}
                 </a>
                 <span className="min-w-0 text-ink-2">
@@ -229,34 +229,34 @@ function ContattiVoce({ v, ctx }: { v: VoceGuida; ctx?: ContestoComune }) {
 export function GuidaProblemi({ ctx }: { ctx?: ContestoComune }) {
   const livelli = Object.keys(LIVELLI_GUIDA) as LivelloGuida[];
   return (
-    <div className="space-y-8">
-      <p className="rounded-2xl bg-surface-2 px-4 py-3 text-base text-ink-2">
+    <div className="space-y-6">
+      <p className="rounded-2xl bg-surface-2 px-4 py-3 text-sm text-ink-2">
         <strong className="text-ink">Prima di tutto: </strong>
         {AVVERTENZA_GUIDA}
       </p>
       {livelli.map((lv) => (
         <section key={lv} style={stileLivello(lv)} aria-labelledby={`guida-${lv}`}>
-          <h3 id={`guida-${lv}`} className="flex items-center gap-2 text-xl font-semibold">
+          <h3 id={`guida-${lv}`} className="flex items-center gap-2 font-semibold">
             <span className="size-3 rounded-full bg-[var(--lv)]" aria-hidden />
             {LIVELLI_GUIDA[lv].titolo}
           </h3>
-          <p className="mt-1 text-ink-2">{LIVELLI_GUIDA[lv].descrizione}</p>
+          <p className="mt-0.5 text-sm text-ink-2">{LIVELLI_GUIDA[lv].descrizione}</p>
           <div className="mt-3 grid gap-3 lg:grid-cols-2">
             {GUIDA.filter((v) => v.livello === lv).map((v) => {
               const sito = v.linkComune && ctx?.comune.contatti?.sito;
               const sitoRegione = v.linkRegione && ctx?.regione?.sito ? { label: `Regione ${ctx.regione.nome}`, url: ctx.regione.sito } : undefined;
               const link = v.link ?? sitoRegione;
               return (
-                <details key={v.id} id={`problema-${v.id}`} className="group rounded-2xl border-2 border-line bg-surface open:border-[var(--lv)]">
-                  <summary data-umami-event="guida-voce" data-umami-event-voce={v.id} className="flex min-h-16 items-center gap-4 px-4 py-3">
-                    <span className="grid size-12 shrink-0 place-items-center rounded-2xl bg-[var(--lv-bg)] text-2xl" aria-hidden>
+                <details key={v.id} id={`problema-${v.id}`} className="group rounded-2xl border border-line bg-surface open:border-[var(--lv)]">
+                  <summary data-umami-event="guida-voce" data-umami-event-voce={v.id} className="flex min-h-14 items-center gap-3 px-4 py-2.5">
+                    <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-[var(--lv-bg)] text-lg" aria-hidden>
                       {v.icona}
                     </span>
                     <span className="min-w-0 flex-1">
-                      <span className="block text-lg font-semibold">{v.titolo}</span>
+                      <span className="block font-semibold">{v.titolo}</span>
                       <span className="block text-sm text-ink-3">{v.esempi}</span>
                     </span>
-                    <span className="chevron grid size-9 shrink-0 place-items-center rounded-full bg-surface-2 text-lg transition-transform" aria-hidden>
+                    <span className="chevron grid size-8 shrink-0 place-items-center rounded-full bg-surface-2 text-base transition-transform" aria-hidden>
                       ›
                     </span>
                   </summary>

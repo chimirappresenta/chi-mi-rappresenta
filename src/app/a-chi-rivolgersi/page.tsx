@@ -21,8 +21,8 @@ export default function AChiRivolgersiPage() {
       </nav>
       <header className="mt-4 grid gap-8 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)] lg:items-end">
         <div>
-          <h1 className="display text-6xl sm:text-7xl">Ho un problema: a chi mi rivolgo?</h1>
-          <p className="mt-4 max-w-2xl text-xl text-ink-2">
+          <h1 className="display text-4xl sm:text-5xl">Ho un problema: a chi mi rivolgo?</h1>
+          <p className="mt-4 max-w-2xl text-lg text-ink-2">
             Scegli il tipo di problema: ti diciamo chi decide, qual è il primo passo e, se serve, a quale eletto scrivere.
           </p>
           <div className="mt-5">

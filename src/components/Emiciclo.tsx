@@ -257,7 +257,7 @@ function SchedaConsigliere({
             {g?.sigla ?? c.gruppo}
             {c.ruoloGruppo && <span className="font-normal text-ink-3 normal-case">· {c.ruoloGruppo}</span>}
           </p>
-          <h2 className="display mt-1 text-4xl">{c.nome}</h2>
+          <h2 className="display mt-1 text-3xl">{c.nome}</h2>
           <p className="text-sm text-ink-2">
             Consigliere regionale ·{" "}
             {c.circoscrizione ? `eletto in provincia di ${c.circoscrizione}` : "subentrato dopo le elezioni"}
@@ -268,7 +268,7 @@ function SchedaConsigliere({
           type="button"
           onClick={onClose}
           aria-label="Chiudi la scheda"
-          className="-mt-1 -mr-1 rounded-full p-2 text-xl leading-none text-ink-3 hover:bg-surface-2 hover:text-ink"
+          className="-mt-1 -mr-1 rounded-full p-2 text-lg leading-none text-ink-3 hover:bg-surface-2 hover:text-ink"
         >
           ×
         </button>
@@ -308,11 +308,11 @@ function SchedaConsigliere({
       <div className="mt-4 grid grid-cols-2 gap-2">
         <div className="rounded-xl border border-line p-3">
           <p className="text-xs text-ink-3">Atti presentati</p>
-          <p className="display text-4xl tabular-nums">{c.attivita?.primoFirmatario ?? 0}</p>
+          <p className="display text-3xl tabular-nums">{c.attivita?.primoFirmatario ?? 0}</p>
         </div>
         <div className="rounded-xl border border-line p-3">
           <p className="text-xs text-ink-3">Firmati in totale</p>
-          <p className="display text-4xl tabular-nums">{c.attivita?.totale ?? 0}</p>
+          <p className="display text-3xl tabular-nums">{c.attivita?.totale ?? 0}</p>
         </div>
       </div>
 

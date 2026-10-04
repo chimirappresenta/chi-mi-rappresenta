@@ -35,7 +35,7 @@ export default function AttivitaPage() {
       {/* Su schermi larghi: atti a sinistra, spiegazioni e tabella per consigliere a destra */}
       <div className="mt-6 grid items-start gap-8 xl:grid-cols-[minmax(0,2fr)_minmax(0,1fr)]">
         <section>
-          <h2 className="text-xl font-semibold">Tutti gli atti</h2>
+          <h2 className="text-lg font-semibold">Tutti gli atti</h2>
           <div className="mt-3">
             <AttiFeed atti={consiglio.atti} tipi={consiglio.tipi} />
           </div>
@@ -67,7 +67,7 @@ export default function AttivitaPage() {
           </details>
 
           <section>
-            <h2 className="text-xl font-semibold">Atti per consigliere</h2>
+            <h2 className="text-lg font-semibold">Atti per consigliere</h2>
             <p className="mt-1 text-sm text-ink-3">
               Primo firmatario = chi ha scritto e presentato l&apos;atto; cofirmato = ha aggiunto la propria firma. Contare gli
               atti non misura la qualità del lavoro: chi è presidente di commissione, per esempio, ne presenta meno.

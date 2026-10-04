@@ -38,19 +38,19 @@ export function Livello({
 }) {
   const Illustrazione = ILLUSTRAZIONE[id];
   return (
-    <section id={anchor} style={stileLivello(id)} className="puntini scroll-mt-24 rounded-[32px] bg-[var(--lv-bg)] p-2 sm:p-3">
-      <div className="flex items-start justify-between gap-4 px-4 pt-4 pb-5 sm:px-5">
+    <section id={anchor} style={stileLivello(id)} className="puntini scroll-mt-32 rounded-[28px] bg-[var(--lv-bg)] p-1.5 sm:p-2">
+      <div className="flex items-start justify-between gap-4 px-4 pt-4 pb-4 sm:px-5">
         <div className="min-w-0">
-          <p className="inline-flex items-center gap-2 rounded-full bg-surface/80 px-3 py-1 text-xs font-semibold tracking-wide text-[var(--lv)] uppercase">
-            Livello {numero} · {NOME_LIVELLO[id]}
+          <p className="text-xs font-semibold tracking-wider text-[var(--lv)] uppercase">
+            {numero} · {NOME_LIVELLO[id]}
           </p>
-          <h2 className="display mt-3 text-4xl sm:text-5xl">{titolo}</h2>
-          <p className="mt-2 max-w-xl text-ink-2">{sottotitolo}</p>
+          <h2 className="display mt-1.5 text-3xl">{titolo}</h2>
+          <p className="mt-1.5 max-w-xl text-sm text-ink-2">{sottotitolo}</p>
         </div>
-        <Illustrazione className="hidden w-32 shrink-0 sm:block lg:w-40" />
+        <Illustrazione className="hidden w-24 shrink-0 sm:block" />
       </div>
-      <div className="space-y-6 rounded-[26px] bg-surface p-4 shadow-[0_1px_2px_rgba(0,0,0,0.04)] sm:p-6">{children}</div>
-      <div className="flex flex-col gap-3 px-3 pt-3 pb-1 sm:flex-row sm:items-center sm:justify-between sm:px-4">
+      <div className="space-y-5 rounded-[22px] bg-surface p-4 sm:p-5">{children}</div>
+      <div className="flex flex-col gap-2 px-3 pt-2.5 pb-1 sm:flex-row sm:items-center sm:justify-between sm:px-4">
         <FontiNote fonti={fonti} />
         <SegnalaErrore sezione={titolo} />
       </div>
@@ -63,7 +63,7 @@ const dataFonte = (f: Fonte) => f.aggiornato ?? (f.raccolto ? f.raccolto.split("
 
 export function FontiNote({ fonti }: { fonti: Fonte[] }) {
   return (
-    <p className="text-sm text-ink-2">
+    <p className="text-xs text-ink-2">
       <span className="font-semibold">Dati aggiornati: </span>
       {fonti.map((f, i) => {
         const data = dataFonte(f);
@@ -119,7 +119,7 @@ export function Avatar({ nome, grande = false }: { nome: string; grande?: boolea
     <span
       aria-hidden
       className={`grid shrink-0 place-items-center rounded-full bg-[var(--lv-bg,var(--accent-soft))] font-semibold text-[var(--lv,var(--accent))] ${
-        grande ? "size-14 text-lg" : "size-10 text-sm"
+        grande ? "size-14 text-base" : "size-10 text-sm"
       }`}
     >
       {iniziali(nome)}
@@ -162,7 +162,7 @@ export function PersonaRow({
       <Avatar nome={p.nome} grande={evidenza} />
       <div className="min-w-0 flex-1">
         <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
-          <p className={evidenza ? "display text-3xl" : "font-semibold"}>
+          <p className={evidenza ? "display text-2xl" : "font-semibold"}>
             {href ? (
               <Link href={href} className="hover:text-accent hover:underline">
                 {p.nome}

@@ -117,7 +117,7 @@ export function ComuneSearch({
             go(results[active].c);
           } else if (e.key === "Escape") setOpen(false);
         }}
-        className="min-h-14 w-full rounded-2xl border-2 border-line bg-bg px-5 py-4 text-xl outline-none placeholder:text-ink-3 focus:border-accent focus:bg-surface focus:ring-4 focus:ring-accent/15"
+        className="min-h-12 w-full rounded-2xl border border-line bg-bg px-5 py-4 text-lg outline-none placeholder:text-ink-3 focus:border-accent focus:bg-surface focus:ring-4 focus:ring-accent/15"
       />
       {open && query && (
         <ul id={listId} role="listbox" className="absolute z-40 mt-2 max-h-96 w-full overflow-auto rounded-2xl border border-line bg-surface py-1.5 text-left shadow-xl">
@@ -137,19 +137,19 @@ export function ComuneSearch({
                 go(r.c);
               }}
               onMouseEnter={() => setActive(i)}
-              className={`flex min-h-14 cursor-pointer items-center justify-between gap-3 px-5 py-2.5 ${i === active ? "bg-accent-soft" : ""}`}
+              className={`flex min-h-12 cursor-pointer items-center justify-between gap-3 px-5 py-2.5 ${i === active ? "bg-accent-soft" : ""}`}
             >
               <span>
                 {r.via ? (
                   <>
-                    <span className="block text-lg font-semibold">{r.via}</span>
+                    <span className="block text-base font-semibold">{r.via}</span>
                     <span className="block text-sm text-ink-2">
                       {r.via.startsWith("CAP") ? "" : "si trova nel comune di "}
                       <strong>{r.c.nome}</strong>
                     </span>
                   </>
                 ) : (
-                  <span className="text-lg font-semibold">{r.c.nome}</span>
+                  <span className="text-base font-semibold">{r.c.nome}</span>
                 )}
               </span>
               <span className="shrink-0 text-sm text-ink-3">Prov. di {r.c.provincia}</span>

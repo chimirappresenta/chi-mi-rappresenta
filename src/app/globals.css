@@ -6,6 +6,7 @@
   un colore per ciascun livello istituzionale (Comune, Regione, Parlamento, Europa).
 */
 :root {
+  --altezza-header: 64px;
   --bg: #f6f5f1;
   --surface: #ffffff;
   --surface-2: #efede7;
@@ -75,10 +76,9 @@
   --font-serif: var(--font-instrument);
 }
 
-/* Testo di base un po' più grande del solito (17px): per una lettura più comoda.
-   Per ingrandire ancora si usa lo zoom del browser (Ctrl +), che il layout regge. */
+/* Testo di base a 16px; chi vuole ingrandire usa lo zoom del browser (Ctrl +), che il layout regge. */
 html {
-  font-size: 106.25%;
+  font-size: 100%;
 }
 
 body {
@@ -119,8 +119,8 @@ html {
 .display {
   font-family: var(--font-instrument), Georgia, serif;
   font-weight: 400;
-  letter-spacing: -0.035em;
-  line-height: 0.98;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
 }
 
 /* Trama a puntini sui riquadri colorati */
@@ -144,7 +144,7 @@ details[open] .chevron {
 .contenitore {
   margin-inline: auto;
   width: 100%;
-  max-width: 1600px;
+  max-width: 1480px;
   padding-inline: 1rem;
 }
 @media (min-width: 640px) {

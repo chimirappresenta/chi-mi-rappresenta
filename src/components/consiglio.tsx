@@ -79,7 +79,7 @@ export function LeggeCard({ legge }: { legge: Legge }) {
       {legge.riassunto ? (
         <>
           {/* In primo piano la spiegazione semplice; il titolo ufficiale resta sotto, più piccolo */}
-          <p className="mt-3 text-lg leading-snug">{legge.riassunto.testo}</p>
+          <p className="mt-3 text-base leading-snug">{legge.riassunto.testo}</p>
           <p className="mt-3 text-sm text-ink-3">
             <span className="font-medium text-ink-2">Titolo ufficiale:</span> {titolo}
           </p>
@@ -88,7 +88,7 @@ export function LeggeCard({ legge }: { legge: Legge }) {
           </p>
         </>
       ) : (
-        <h3 className="mt-3 text-lg font-medium">{titolo}</h3>
+        <h3 className="mt-3 text-base font-medium">{titolo}</h3>
       )}
       <p className="mt-auto flex flex-wrap gap-2 pt-4 text-sm">
         {legge.pdf && (

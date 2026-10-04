@@ -6,10 +6,10 @@ export const metadata: Metadata = { title: "Fonti e limiti" };
 export default function FontiPage() {
   return (
     <div className="contenitore py-10">
-      <h1 className="display text-6xl sm:text-7xl">
+      <h1 className="display text-4xl sm:text-5xl">
         Fonti e limiti
       </h1>
-      <p className="mt-3 max-w-3xl text-lg text-ink-2">
+      <p className="mt-3 max-w-3xl text-base text-ink-2">
         Dati raccolti il {meta.generato.split("-").reverse().join("/")}. Ogni
         persona rimanda alla sua scheda ufficiale: se trovi una differenza, vale
         la fonte.
@@ -17,7 +17,7 @@ export default function FontiPage() {
 
       <div className="mt-10 grid items-start gap-10 lg:grid-cols-2">
         <section>
-          <h2 className="text-xl font-semibold">Da dove vengono i dati</h2>
+          <h2 className="text-lg font-semibold">Da dove vengono i dati</h2>
           <ul className="mt-3 divide-y divide-line rounded-2xl border border-line bg-surface">
             {meta.fonti.map((f) => (
               <li key={f.id} className="px-4 py-3">
@@ -40,7 +40,7 @@ export default function FontiPage() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold">Limiti da conoscere</h2>
+          <h2 className="text-lg font-semibold">Limiti da conoscere</h2>
           <ul className="mt-3 list-disc space-y-2 pl-5 text-ink-2">
             <li>
               <strong>Amministratori comunali:</strong> l&apos;anagrafe del
@@ -116,7 +116,7 @@ export default function FontiPage() {
 
           {meta.avvisi.length > 0 && (
             <>
-              <h2 className="mt-10 text-xl font-semibold">
+              <h2 className="mt-10 text-lg font-semibold">
                 Segnalazioni dell&apos;ultimo aggiornamento
               </h2>
               <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-ink-3">
@@ -130,10 +130,10 @@ export default function FontiPage() {
       </div>
 
       <section id="privacy" aria-labelledby="titolo-privacy" className="mt-14 max-w-3xl scroll-mt-24">
-        <h2 id="titolo-privacy" className="display text-4xl sm:text-5xl">
+        <h2 id="titolo-privacy" className="display text-3xl sm:text-4xl">
           Privacy e statistiche
         </h2>
-        <p className="mt-3 text-lg text-ink-2">
+        <p className="mt-3 text-base text-ink-2">
           Contiamo le visite in forma <strong>anonima</strong> con{" "}
           <a href="https://umami.is" target="_blank" rel="noreferrer" className="text-accent underline">
             Umami
@@ -142,7 +142,7 @@ export default function FontiPage() {
           quali pulsanti usano (per esempio &quot;Scrivi a…&quot; o &quot;Condividi&quot;), mai chi sono. Se il tuo browser chiede di
           non essere tracciato (&quot;Do Not Track&quot;), non contiamo nemmeno la tua visita.
         </p>
-        <p className="mt-3 text-lg text-ink-2">
+        <p className="mt-3 text-base text-ink-2">
           I messaggi che prepari con &quot;Scrivi a…&quot;, &quot;Chiedi un documento&quot; e &quot;Prepara la segnalazione&quot;
           restano sul tuo dispositivo: li invii tu dalla tua email. Le segnalazioni di errori diventano pubbliche su GitHub e non
           contengono dati personali.
@@ -150,17 +150,17 @@ export default function FontiPage() {
       </section>
 
       <section id="ispirazioni" aria-labelledby="titolo-ispirazioni" className="mt-14 scroll-mt-24">
-        <h2 id="titolo-ispirazioni" className="display text-4xl sm:text-5xl">
+        <h2 id="titolo-ispirazioni" className="display text-3xl sm:text-4xl">
           Ringraziamenti e ispirazioni
         </h2>
-        <p className="mt-2 max-w-3xl text-lg text-ink-2">
+        <p className="mt-2 max-w-3xl text-base text-ink-2">
           Chi mi rappresenta non nasce dal nulla: prende spunto da progetti che rendono i dati pubblici più facili da usare, e li
           completa invece di sostituirli.
         </p>
         <ul className="mt-6 grid gap-4 md:grid-cols-2">
           {ISPIRAZIONI.map((x) => (
             <li key={x.nome} className="rounded-3xl border border-line bg-surface p-5">
-              <a href={x.url} target="_blank" rel="noreferrer" className="text-xl font-semibold text-accent hover:underline">
+              <a href={x.url} target="_blank" rel="noreferrer" className="text-lg font-semibold text-accent hover:underline">
                 {x.nome} ↗
               </a>
               <p className="mt-1 text-base text-ink-2">{x.testo}</p>

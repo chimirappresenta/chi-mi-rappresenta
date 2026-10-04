@@ -21,7 +21,7 @@ type Stato = { fase: "modulo" } | { fase: "invio" } | { fase: "ok"; url?: string
  * su GitHub, creata dal server del sito (l'utente non ha bisogno di un account). Se il server non è configurato,
  * mostriamo il testo già pronto da copiare.
  */
-export function SegnalaErrore({ sezione, compatto = false }: { sezione: string; compatto?: boolean }) {
+export function SegnalaErrore({ sezione }: { sezione: string }) {
   const id = useId();
   const dialog = useRef<HTMLDialogElement>(null);
   const [stato, setStato] = useState<Stato>({ fase: "modulo" });
@@ -87,7 +87,7 @@ export function SegnalaErrore({ sezione, compatto = false }: { sezione: string; 
       <button
         type="button"
         onClick={apri}
-        className={`inline-flex min-h-11 items-center gap-2 rounded-full border border-line bg-surface px-4 text-sm font-medium text-ink-2 hover:border-ink-3 hover:text-ink ${compatto ? "" : ""}`}
+        className="inline-flex min-h-9 items-center gap-1.5 rounded-full px-2 text-xs font-medium text-ink-3 hover:text-ink hover:underline"
       >
         <span aria-hidden>⚑</span> Segnala un errore
       </button>
@@ -101,26 +101,26 @@ export function SegnalaErrore({ sezione, compatto = false }: { sezione: string; 
         <div className="max-h-[85vh] overflow-y-auto p-5 sm:p-7">
           <div className="flex items-start justify-between gap-4">
             <div>
-              <h2 id={`${id}-titolo`} className="display text-4xl">
+              <h2 id={`${id}-titolo`} className="display text-3xl">
                 Segnala un errore
               </h2>
               <p className="mt-1 text-sm text-ink-3">Sezione: {sezione}</p>
             </div>
-            <button type="button" onClick={chiudi} aria-label="Chiudi" className="grid size-11 place-items-center rounded-full text-2xl text-ink-3 hover:bg-surface-2 hover:text-ink">
+            <button type="button" onClick={chiudi} aria-label="Chiudi" className="grid size-11 place-items-center rounded-full text-xl text-ink-3 hover:bg-surface-2 hover:text-ink">
               ×
             </button>
           </div>
 
           {stato.fase === "ok" ? (
             <div className="mt-6 rounded-2xl bg-accent-soft p-5">
-              <p className="text-lg font-semibold text-accent">Grazie! La segnalazione è arrivata.</p>
+              <p className="text-base font-semibold text-accent">Grazie! La segnalazione è arrivata.</p>
               <p className="mt-1 text-ink-2">La controlleremo sulla fonte ufficiale e, se serve, correggeremo il sito.</p>
               {stato.url && (
                 <a href={stato.url} target="_blank" rel="noreferrer" className="mt-3 inline-block text-accent underline">
                   Segui la segnalazione ↗
                 </a>
               )}
-              <button type="button" onClick={chiudi} className="mt-4 block min-h-12 rounded-full bg-accent px-6 font-semibold text-accent-ink">
+              <button type="button" onClick={chiudi} className="mt-4 block min-h-11 rounded-full bg-accent px-6 font-semibold text-accent-ink">
                 Chiudi
               </button>
             </div>
@@ -142,7 +142,7 @@ export function SegnalaErrore({ sezione, compatto = false }: { sezione: string; 
                       setCopiato(false);
                     }
                   }}
-                  className="min-h-12 rounded-full border border-line px-5 font-semibold hover:border-ink-3"
+                  className="min-h-11 rounded-full border border-line px-5 font-semibold hover:border-ink-3"
                 >
                   {copiato ? "✓ Copiata" : "Copia la segnalazione"}
                 </button>
@@ -151,7 +151,7 @@ export function SegnalaErrore({ sezione, compatto = false }: { sezione: string; 
                     href={`https://github.com/${REPO}/issues/new?title=${encodeURIComponent(`[Segnalazione] ${sezione}`)}&body=${encodeURIComponent(stato.testo)}`}
                     target="_blank"
                     rel="noreferrer"
-                    className="flex min-h-12 items-center rounded-full bg-accent px-5 font-semibold text-accent-ink"
+                    className="flex min-h-11 items-center rounded-full bg-accent px-5 font-semibold text-accent-ink"
                   >
                     Apri su GitHub ↗
                   </a>
@@ -170,7 +170,7 @@ export function SegnalaErrore({ sezione, compatto = false }: { sezione: string; 
                   {TIPI.map((t) => (
                     <label
                       key={t.id}
-                      className={`flex min-h-12 cursor-pointer items-center gap-3 rounded-2xl border px-4 has-[:focus-visible]:ring-4 has-[:focus-visible]:ring-accent/30 ${
+                      className={`flex min-h-11 cursor-pointer items-center gap-3 rounded-2xl border px-4 has-[:focus-visible]:ring-4 has-[:focus-visible]:ring-accent/30 ${
                         tipo === t.id ? "border-accent bg-accent-soft font-semibold" : "border-line"
                       }`}
                     >
@@ -213,11 +213,11 @@ export function SegnalaErrore({ sezione, compatto = false }: { sezione: string; 
                 <button
                   type="submit"
                   disabled={stato.fase === "invio" || !cosa.trim()}
-                  className="min-h-12 rounded-full bg-accent px-6 text-base font-semibold text-accent-ink disabled:opacity-50"
+                  className="min-h-11 rounded-full bg-accent px-6 text-base font-semibold text-accent-ink disabled:opacity-50"
                 >
                   {stato.fase === "invio" ? "Invio in corso…" : "Invia la segnalazione"}
                 </button>
-                <button type="button" onClick={chiudi} className="min-h-12 rounded-full px-5 text-base text-ink-2 hover:bg-surface-2">
+                <button type="button" onClick={chiudi} className="min-h-11 rounded-full px-5 text-base text-ink-2 hover:bg-surface-2">
                   Annulla
                 </button>
               </div>

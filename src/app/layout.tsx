@@ -53,27 +53,27 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         >
           Vai al contenuto
         </a>
-        <p className="border-b border-line bg-surface-2/60 px-4 py-1.5 text-center text-sm text-ink-3">
+        <p className="border-b border-line bg-surface-2/60 px-4 py-1.5 text-center text-xs text-ink-3">
           Progetto civico indipendente: non è un sito della Pubblica Amministrazione. Ogni dato rimanda alla fonte ufficiale.
         </p>
         <header className="sticky top-0 z-30 border-b border-line/70 bg-bg/85 backdrop-blur">
-          <div className="contenitore flex items-center justify-between gap-4 py-3">
+          <div className="contenitore flex h-[var(--altezza-header)] items-center justify-between gap-4">
             <Link href="/" className="flex items-center gap-2.5">
               <Logo />
-              <span className="display text-xl whitespace-nowrap sm:text-2xl">Chi mi rappresenta</span>
+              <span className="display text-xl whitespace-nowrap">Chi mi rappresenta</span>
             </Link>
             <div className="flex items-center gap-2">
-              <nav aria-label="Principale" className="hidden items-center gap-1 text-base 2xl:flex">
+              <nav aria-label="Principale" className="hidden items-center gap-0.5 text-sm xl:flex">
                 {MENU.slice(1, 5).map((m) => (
                   <Link key={m.href} href={m.href} className="rounded-full px-3 py-2 whitespace-nowrap text-ink-2 hover:bg-surface hover:text-ink">
                     {m.label}
                   </Link>
                 ))}
               </nav>
-              <Link href="/" className="hidden min-h-11 items-center rounded-full bg-ink px-4 text-base font-semibold whitespace-nowrap text-bg hover:opacity-90 md:flex">
+              <Link href="/" className="hidden min-h-10 items-center rounded-full bg-ink px-4 text-sm font-semibold whitespace-nowrap text-bg hover:opacity-90 md:flex">
                 Cerca il tuo comune
               </Link>
-              <div className="2xl:hidden">
+              <div className="xl:hidden">
                 <MenuMobile voci={MENU} />
               </div>
             </div>

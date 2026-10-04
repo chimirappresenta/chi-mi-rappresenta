@@ -12,6 +12,10 @@ const FAQ = [
     r: "No. È un progetto civico indipendente. Usa solo dati pubblici ufficiali (Ministero dell'Interno, ISTAT, Ministero della Salute, Camera, Senato, Parlamento europeo e, per la Campania, il Consiglio regionale) e ogni dato rimanda alla sua fonte.",
   },
   {
+    d: "Cosa fa e cosa non fa?",
+    r: "Ti dice chi ti rappresenta a ogni livello, cita sempre la fonte ufficiale, ti aiuta a scrivere ai tuoi eletti e spiega leggi e atti in parole semplici. Non chiede dati personali né account, non dà giudizi politici e non sostituisce la fonte: verifica sempre lì.",
+  },
+  {
     d: "Da dove vengono i dati e ogni quanto si aggiornano?",
     r: "Dai siti e dagli open data ufficiali, raccolti in automatico ogni settimana. La pagina Fonti elenca ogni fonte, la data di aggiornamento e i limiti noti.",
   },
@@ -49,21 +53,21 @@ export default function Home() {
   return (
     <div>
       {/* HERO */}
-      <section className="contenitore pt-14 pb-16 text-center sm:pt-20">
+      <section className="contenitore pt-12 pb-14 text-center sm:pt-16">
         <p className="inline-flex items-center gap-2 rounded-full border border-line bg-surface px-3 py-1 text-xs font-medium text-ink-2">
           <span className="size-1.5 rounded-full bg-accent" aria-hidden />
           {comuni.length.toLocaleString("it-IT")} comuni in tutta Italia · dati aggiornati al {meta.generato.split("-").reverse().join("/")}
         </p>
-        <h1 className="display mx-auto mt-6 max-w-5xl text-6xl sm:text-8xl lg:text-[8.5rem]">
+        <h1 className="display mx-auto mt-5 max-w-4xl text-5xl sm:text-7xl">
           Chi mi <em className="text-accent">rappresenta</em>?
         </h1>
-        <p className="mx-auto mt-6 max-w-2xl text-lg text-ink-2 sm:text-xl">
+        <p className="mx-auto mt-4 max-w-xl text-ink-2 sm:text-lg">
           Dal sindaco al Parlamento europeo: scrivi il tuo comune e trovi tutte le persone elette per te, in una pagina, con le
           fonti ufficiali.
         </p>
         <div
           id="cerca"
-          className="mx-auto mt-10 max-w-2xl scroll-mt-28 rounded-[28px] border border-line bg-surface p-4 text-left shadow-[0_20px_60px_-25px_rgba(20,34,31,0.35)]"
+          className="mx-auto mt-8 max-w-2xl scroll-mt-28 rounded-[24px] border border-line bg-surface p-3 text-left shadow-[0_30px_60px_-40px_rgba(20,34,31,0.45)]"
         >
           <ComuneSearch autoFocus />
         </div>
@@ -71,46 +75,46 @@ export default function Home() {
 
       {/* COSA VUOI FARE: le quattro strade principali, chiare e grandi */}
       <section aria-labelledby="cosa-fare" className="contenitore pb-16">
-        <h2 id="cosa-fare" className="display text-center text-5xl sm:text-6xl">
+        <h2 id="cosa-fare" className="display text-center text-3xl sm:text-4xl">
           Cosa vuoi fare?
         </h2>
-        <div className="mx-auto mt-8 grid max-w-7xl gap-4 sm:grid-cols-2 2xl:grid-cols-3">
+        <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {[
             {
               href: "#cerca",
               icona: "👥",
               titolo: "Sapere chi mi rappresenta",
-              testo: "Scrivi il tuo comune qui sopra: sindaco, consiglieri, parlamentari ed eurodeputati in una pagina.",
+              testo: "Scrivi il tuo comune qui sopra.",
             },
             {
               href: "/a-chi-rivolgersi/",
               icona: "🧭",
               titolo: "Ho un problema: a chi mi rivolgo?",
-              testo: "Una buca, la ASL, la pensione, il treno: chi decide, il primo passo e a chi scrivere.",
+              testo: "Una buca, la ASL, la pensione, il treno.",
             },
             {
               href: "/regione/",
               icona: "🏛️",
               titolo: "Conoscere la mia Regione",
-              testo: "Presidente, giunta e consiglieri delle 20 regioni, con i contatti ufficiali.",
+              testo: "Presidente, giunta e consiglieri delle 20 regioni.",
             },
             {
               href: "/regione/campania/leggi/",
               icona: "📜",
               titolo: "Capire cosa decide la Regione",
-              testo: "Per la Campania: le leggi regionali spiegate in parole semplici e gli atti dei consiglieri. Le altre regioni arriveranno.",
+              testo: "Le leggi spiegate in parole semplici (per ora in Campania).",
             },
             {
               href: "/chiedi-un-documento/",
               icona: "📄",
               titolo: "Chiedere un documento",
-              testo: "Quanto è costato un lavoro, cosa dice un contratto: chiunque può chiederlo. Ti prepariamo la richiesta.",
+              testo: "Spese, contratti, controlli: ti prepariamo la richiesta.",
             },
             {
               href: "#cerca",
               icona: "🗳️",
               titolo: "Vedere come ha votato il mio comune",
-              testo: "Comunali, regionali, politiche ed europee: risultati e affluenza, confrontati con la media della tua regione.",
+              testo: "Risultati e affluenza, confrontati con la tua regione.",
             },
           ].map((x) => (
             <Link
@@ -118,14 +122,17 @@ export default function Home() {
               href={x.href}
               data-umami-event="home-cosa-vuoi-fare"
               data-umami-event-scelta={x.titolo}
-              className="group flex gap-4 rounded-[28px] border-2 border-line bg-surface p-5 hover:border-accent sm:p-6"
+              className="group flex items-center gap-4 rounded-[22px] border border-line bg-surface p-4 transition-colors hover:border-ink-3"
             >
-              <span className="grid size-16 shrink-0 place-items-center rounded-2xl bg-accent-soft text-3xl" aria-hidden>
+              <span className="grid size-12 shrink-0 place-items-center rounded-2xl bg-accent-soft text-2xl" aria-hidden>
                 {x.icona}
               </span>
-              <span>
-                <span className="block text-2xl font-semibold group-hover:text-accent">{x.titolo} →</span>
-                <span className="mt-1 block text-lg text-ink-2">{x.testo}</span>
+              <span className="min-w-0 flex-1">
+                <span className="block font-semibold">{x.titolo}</span>
+                <span className="block text-sm text-ink-3">{x.testo}</span>
+              </span>
+              <span className="grid size-8 shrink-0 place-items-center rounded-full bg-ink text-sm text-bg transition-transform group-hover:translate-x-0.5" aria-hidden>
+                →
               </span>
             </Link>
           ))}
@@ -134,22 +141,22 @@ export default function Home() {
 
       {/* QUATTRO LIVELLI */}
       <section className="contenitore">
-        <h2 className="display text-5xl sm:text-6xl">Quattro livelli, una pagina.</h2>
-        <p className="mt-3 max-w-2xl text-lg text-ink-2">Ogni giorno qualcuno decide per te in Comune, in Regione, a Roma e a Bruxelles. Ecco chi.</p>
-        <div className="mt-8 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+        <h2 className="display text-3xl sm:text-4xl">Quattro livelli, una pagina.</h2>
+        <p className="mt-2 max-w-2xl text-ink-2">Ogni giorno qualcuno decide per te in Comune, in Regione, a Roma e a Bruxelles. Ecco chi.</p>
+        <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {livelli.map((l, i) => {
             const Ill = ILLUSTRAZIONE[l.id];
             return (
-              <div key={l.id} style={stileLivello(l.id)} className="puntini flex flex-col rounded-[32px] bg-[var(--lv-bg)] p-2">
-                <div className="grid h-40 place-items-center">
-                  <Ill className="h-28" />
+              <div key={l.id} style={stileLivello(l.id)} className="puntini flex flex-col rounded-[28px] bg-[var(--lv-bg)] p-1.5">
+                <div className="grid h-28 place-items-center">
+                  <Ill className="h-20" />
                 </div>
-                <div className="flex-1 rounded-[26px] bg-surface p-5">
+                <div className="flex-1 rounded-[22px] bg-surface p-4">
                   <p className="text-xs font-semibold tracking-wider text-[var(--lv)] uppercase">Livello {i + 1}</p>
-                  <h3 className="display mt-1 text-4xl">{l.titolo}</h3>
+                  <h3 className="display mt-1 text-2xl">{l.titolo}</h3>
                   <p className="mt-2 text-sm text-ink-2">{l.testo}</p>
-                  <p className="mt-4 flex items-baseline gap-2 border-t border-line pt-3">
-                    <span className="display text-4xl text-[var(--lv)]">{l.numero}</span>
+                  <p className="mt-3 flex items-baseline gap-2 border-t border-line pt-3">
+                    <span className="display text-2xl text-[var(--lv)]">{l.numero}</span>
                     <span className="text-sm text-ink-3">{l.unita} in Italia</span>
                   </p>
                 </div>
@@ -160,27 +167,27 @@ export default function Home() {
       </section>
 
       {/* CONSIGLIO REGIONALE */}
-      <section className="contenitore mt-20">
-        <div className="grid items-center gap-8 rounded-[32px] border border-line bg-surface p-6 sm:p-10 xl:grid-cols-[minmax(0,1fr)_minmax(0,1.3fr)]">
+      <section className="contenitore mt-16">
+        <div className="grid items-center gap-8 rounded-[28px] border border-line bg-surface p-6 sm:p-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.2fr)]">
           <div>
             <p className="text-xs font-semibold tracking-wider text-[var(--lv-regione)] uppercase">Il primo Consiglio regionale in chiaro</p>
-            <h2 className="display mt-2 text-5xl sm:text-6xl">Campania: {regione.consiglieri.length} consiglieri. Tocca un punto.</h2>
-            <p className="mt-4 max-w-lg text-lg text-ink-2">
-              Ogni punto è una persona, colorata per gruppo. Apri la sua scheda: contatti, commissioni, gli atti che ha
-              presentato e un modo semplice per scrivergli. È il modello che vogliamo portare in tutte le regioni.
+            <h2 className="display mt-2 text-3xl sm:text-4xl">Campania: {regione.consiglieri.length} consiglieri. Tocca un punto.</h2>
+            <p className="mt-3 max-w-lg text-ink-2">
+              Ogni punto è una persona, colorata per gruppo: apri la scheda per contatti, commissioni e atti. È il modello che
+              vogliamo portare in tutte le regioni.
             </p>
-            <Link href="/consigli-in-chiaro/" className="mt-3 inline-block text-base font-semibold text-[var(--lv-regione)] underline">
+            <Link href="/consigli-in-chiaro/" className="mt-2 inline-block text-sm font-semibold text-[var(--lv-regione)] underline">
               Le regioni in arrivo →
             </Link>
-            <div className="mt-8 grid max-w-lg grid-cols-2 gap-3">
+            <div className="mt-6 grid max-w-md grid-cols-2 gap-3">
               <Link href="/regione/campania/attivita/" className="group rounded-2xl bg-[var(--lv-regione-bg)] p-4 hover:opacity-90">
                 <span className="block text-sm text-ink-2">Atti presentati</span>
-                <span className="display block text-5xl">{consiglio.atti.length}</span>
+                <span className="display block text-4xl">{consiglio.atti.length}</span>
                 <span className="text-sm font-medium text-[var(--lv-regione)] group-hover:underline">Cosa fanno →</span>
               </Link>
               <Link href="/regione/campania/leggi/" className="group rounded-2xl bg-[var(--lv-comune-bg)] p-4 hover:opacity-90">
                 <span className="block text-sm text-ink-2">Leggi approvate</span>
-                <span className="display block text-5xl">{consiglio.leggi.length}</span>
+                <span className="display block text-4xl">{consiglio.leggi.length}</span>
                 <span className="text-sm font-medium text-[var(--lv-comune)] group-hover:underline">Spiegate semplici →</span>
               </Link>
             </div>
@@ -189,47 +196,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* COSA FA / NON FA */}
-      <section className="contenitore mt-20">
-        <h2 className="display text-5xl sm:text-6xl">Cosa fa, cosa non fa.</h2>
-        <div className="mt-8 grid gap-4 md:grid-cols-2">
-          {[
-            {
-              lv: "comune",
-              titolo: "Fa",
-              segno: "✓",
-              voci: ["Ti dice chi ti rappresenta, a ogni livello", "Cita sempre la fonte ufficiale", "Ti aiuta a scrivere ai tuoi eletti", "Spiega leggi e atti in parole semplici"],
-            },
-            {
-              lv: "parlamento",
-              titolo: "Non fa",
-              segno: "✕",
-              voci: ["Non è un sito dello Stato", "Non chiede dati personali né account", "Non dà giudizi politici: mostra i fatti", "Non sostituisce la fonte: verifica sempre lì"],
-            },
-          ].map((b) => (
-            <div key={b.titolo} style={stileLivello(b.lv as LivelloId)} className="puntini rounded-[32px] bg-[var(--lv-bg)] p-2">
-              <div className="h-full rounded-[26px] bg-surface p-6">
-                <p className="text-xs font-semibold tracking-wider text-[var(--lv)] uppercase">{b.titolo}</p>
-                <ul className="mt-3 space-y-3 text-lg">
-                  {b.voci.map((x) => (
-                    <li key={x} className="flex gap-3">
-                      <span className="mt-1 grid size-6 shrink-0 place-items-center rounded-full bg-[var(--lv-bg)] text-sm text-[var(--lv)]" aria-hidden>
-                        {b.segno}
-                      </span>
-                      {x}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
       {/* FAQ */}
-      <section className="contenitore mt-20 grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.6fr)]">
+      <section className="contenitore mt-16 grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.6fr)]">
         <div>
-          <h2 className="display text-5xl text-ink-3 sm:text-6xl">Domande frequenti</h2>
+          <h2 className="display text-4xl text-ink-3 sm:text-6xl">Domande frequenti</h2>
           <div className="mt-6">
             <Condividi
               path="/"
@@ -241,13 +211,13 @@ export default function Home() {
         <div className="divide-y divide-line border-y border-line">
           {FAQ.map((f) => (
             <details key={f.d} className="group py-1">
-              <summary className="flex items-center justify-between gap-4 py-4 text-lg font-medium">
+              <summary className="flex items-center justify-between gap-4 py-3.5 font-medium">
                 {f.d}
                 <span className="chevron grid size-8 shrink-0 place-items-center rounded-full bg-surface text-ink-2 transition-transform" aria-hidden>
                   ›
                 </span>
               </summary>
-              <p className="pb-5 text-ink-2">{f.r}</p>
+              <p className="pb-4 text-sm text-ink-2">{f.r}</p>
             </details>
           ))}
           <p className="py-4 text-sm text-ink-3">

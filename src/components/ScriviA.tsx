@@ -89,7 +89,7 @@ export function ScriviA({ nome, tipo, email, pec, modulo, allaCortese, comune: c
   return (
     <div className="w-full rounded-3xl border border-line bg-surface-2 p-4 sm:p-5">
       <div className="flex items-center justify-between gap-3">
-        <h3 className="text-lg font-semibold">{etichetta ?? `Scrivi a ${nome}`}</h3>
+        <h3 className="text-base font-semibold">{etichetta ?? `Scrivi a ${nome}`}</h3>
         <button type="button" onClick={() => setAperto(false)} className="min-h-11 rounded-full px-3 text-sm text-ink-2 hover:bg-surface hover:text-ink">
           Chiudi
         </button>
@@ -133,7 +133,7 @@ export function ScriviA({ nome, tipo, email, pec, modulo, allaCortese, comune: c
 
       {href ? (
         <>
-          <a href={href} data-umami-event="scrivi-invia" data-umami-event-a={tipo} className="mt-5 flex min-h-12 items-center justify-center rounded-full bg-accent px-5 text-base font-semibold text-accent-ink hover:opacity-90">
+          <a href={href} data-umami-event="scrivi-invia" data-umami-event-a={tipo} className="mt-5 flex min-h-11 items-center justify-center rounded-full bg-accent px-5 text-base font-semibold text-accent-ink hover:opacity-90">
             Apri il messaggio nella tua email
           </a>
           {!email && pec && (
@@ -158,11 +158,11 @@ export function ScriviA({ nome, tipo, email, pec, modulo, allaCortese, comune: c
                   setCopiato(false);
                 }
               }}
-              className="min-h-12 rounded-full border border-line bg-surface px-5 text-base font-semibold text-ink hover:border-ink-3"
+              className="min-h-11 rounded-full border border-line bg-surface px-5 text-base font-semibold text-ink hover:border-ink-3"
             >
               {copiato ? "✓ Testo copiato" : "1. Copia il testo"}
             </button>
-            <a href={modulo} target="_blank" rel="noreferrer" data-umami-event="scrivi-invia" data-umami-event-a={tipo} className="flex min-h-12 items-center rounded-full bg-accent px-5 text-base font-semibold text-accent-ink hover:opacity-90">
+            <a href={modulo} target="_blank" rel="noreferrer" data-umami-event="scrivi-invia" data-umami-event-a={tipo} className="flex min-h-11 items-center rounded-full bg-accent px-5 text-base font-semibold text-accent-ink hover:opacity-90">
               2. Apri il modulo ufficiale ↗
             </a>
           </div>

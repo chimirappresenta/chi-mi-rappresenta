@@ -20,8 +20,8 @@ export default function RegioniPage() {
       </nav>
       <header className="mt-4 grid gap-8 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)] lg:items-end">
         <div>
-          <h1 className="display text-6xl sm:text-7xl">Le Regioni</h1>
-          <p className="mt-4 max-w-2xl text-xl text-ink-2">
+          <h1 className="display text-4xl sm:text-5xl">Le Regioni</h1>
+          <p className="mt-4 max-w-2xl text-lg text-ink-2">
             Decidono su sanità, trasporti regionali, formazione, ambiente e fondi europei. Scegli la tua regione per vedere presidente,
             giunta e consiglieri, con i contatti ufficiali.
           </p>
@@ -42,9 +42,9 @@ export default function RegioniPage() {
             <li key={r.codice}>
               <Link
                 href={`/regione/${r.slug}/`}
-                className="group flex h-full flex-col rounded-[28px] border-2 border-line bg-surface p-5 hover:border-[var(--lv)]"
+                className="group flex h-full flex-col rounded-[28px] border border-line bg-surface p-5 hover:border-[var(--lv)]"
               >
-                <span className="display text-4xl group-hover:text-[var(--lv)]">{r.nome}</span>
+                <span className="display text-3xl group-hover:text-[var(--lv)]">{r.nome}</span>
                 <span className="mt-2 text-base text-ink-2">
                   {presidente ? (
                     <>

@@ -127,12 +127,12 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
     },
   ];
 
-  const azioni = [
-    { href: "#contatti", icona: "🏛️", titolo: "Contattare il Comune", testo: "PEC, sito e indirizzo ufficiali" },
-    { href: "#problemi", icona: "🧭", titolo: "Ho un problema", testo: "A chi mi rivolgo? Strade, ASL, pensioni…" },
-    { href: "#chi", icona: "👥", titolo: "Chi mi rappresenta", testo: "Sindaco, Regione, Parlamento, Europa" },
-    { href: "#documento", icona: "📄", titolo: "Chiedi un documento", testo: "Contratti, spese, controlli: hai diritto di sapere" },
-    { href: "#voto", icona: "🗳️", titolo: "Come si è votato", testo: "Risultati e affluenza delle ultime elezioni" },
+  const sezioni = [
+    { href: "#chi", titolo: "Chi ti rappresenta" },
+    { href: "#contatti", titolo: "Contatti" },
+    { href: "#problemi", titolo: "Ho un problema" },
+    { href: "#documento", titolo: "Chiedi un documento" },
+    { href: "#voto", titolo: "Come si è votato" },
   ];
 
   // Enti a cui chiedere un documento: il Comune, la sua ASL, la Regione e il Consiglio regionale (PEC dall'IPA).
@@ -150,23 +150,23 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
   ].filter((e): e is EnteAccesso => !!e);
 
   return (
-    <div className="contenitore py-8">
-      <nav aria-label="Percorso" className="text-base text-ink-3">
+    <div className="contenitore py-6 sm:py-8">
+      <nav aria-label="Percorso" className="text-sm text-ink-3">
         <Link href="/" className="hover:text-ink">
           Home
         </Link>{" "}
         › <span className="text-ink-2">{c.nome}</span>
       </nav>
 
-      <header className="mt-5 flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
+      <header className="mt-4 flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
         <div>
-          <p className="inline-flex items-center gap-2 rounded-full border border-line bg-surface px-3 py-1 text-sm font-medium text-ink-2">
+          <p className="inline-flex items-center gap-2 rounded-full border border-line bg-surface px-3 py-1 text-xs font-medium text-ink-2">
             {c.capoluogo ? "Capoluogo di provincia" : `Provincia di ${c.provincia}`} · {c.regione}
             {c.cap.length > 0 && <> · CAP {c.cap.length > 3 ? `${c.cap[0]}–${c.cap[c.cap.length - 1]}` : c.cap.join(", ")}</>}
           </p>
-          <h1 className="display mt-4 text-6xl sm:text-8xl">{c.nome}</h1>
+          <h1 className="display mt-3 text-5xl sm:text-6xl">{c.nome}</h1>
           {c.frazioni.length > 0 && (
-            <p className="mt-3 max-w-3xl text-base text-ink-3">
+            <p className="mt-2 max-w-3xl text-sm text-ink-3">
               Comprende anche: {c.frazioni.slice(0, 8).join(", ")}
               {c.frazioni.length > 8 && ` e altre ${c.frazioni.length - 8} località`}.
             </p>
@@ -174,60 +174,86 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
         </div>
         <div className="flex flex-col items-start gap-3 lg:items-end">
         <Condividi
+          compatto
           path={`/comune/${c.istat}/`}
           titolo={`${c.nome}: chi ti rappresenta`}
           testo={`Chi rappresenta chi vive a ${c.nome}? Sindaco, Regione, Parlamento ed Europa in una pagina, con le fonti ufficiali.`}
         />
           {inChiaro && (
-          <a href="#segui" className="inline-flex min-h-11 items-center gap-2 rounded-full border border-line bg-surface px-4 text-base font-medium text-ink-2 hover:border-ink-3">
+          <a href="#segui" className="inline-flex min-h-10 items-center gap-2 rounded-full border border-line bg-surface px-4 text-sm font-medium text-ink-2 hover:border-ink-3">
             <span aria-hidden>🔔</span> Segui le novità su {c.nome}
           </a>
           )}
         </div>
       </header>
 
-      {/* COSA VUOI FARE: tre strade chiare, con pulsanti grandi */}
-      <section aria-labelledby="cosa-fare" className="mt-8">
-        <h2 id="cosa-fare" className="text-xl font-semibold">
-          Cosa vuoi fare?
+      {/* NAVIGAZIONE DELLA PAGINA: resta in alto mentre si scorre */}
+      <nav aria-label="Sezioni della pagina" className="sticky top-[calc(var(--altezza-header)+1px)] z-20 -mx-4 mt-6 border-b border-line/70 bg-bg/90 px-4 py-2.5 backdrop-blur sm:-mx-6 sm:px-6 lg:-mx-10 lg:px-10">
+        <ul className="flex gap-2 overflow-x-auto [scrollbar-width:none]">
+          {sezioni.map((x) => (
+            <li key={x.href} className="shrink-0">
+              <a
+                href={x.href}
+                data-umami-event="cosa-vuoi-fare"
+                data-umami-event-scelta={x.href.slice(1)}
+                className="inline-flex min-h-9 items-center rounded-full border border-line bg-surface px-3.5 text-sm font-medium whitespace-nowrap text-ink-2 hover:border-ink-3 hover:text-ink"
+              >
+                {x.titolo}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+
+      {/* CHI TI RAPPRESENTA: in breve, poi i dettagli */}
+      <section id="chi" aria-labelledby="titolo-chi" className="mt-8 scroll-mt-32">
+        <h2 id="titolo-chi" className="display text-3xl sm:text-4xl">
+          Chi ti rappresenta
         </h2>
-        <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-5">
-          {azioni.map((x) => (
+        <p className="mt-1 max-w-2xl text-ink-2">Quattro livelli, dal Comune all&apos;Europa. Tocca un riquadro per vedere tutti i nomi.</p>
+        <nav aria-label="In breve" className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          {sintesi.map((x) => (
             <a
-              key={x.href}
-              href={x.href}
-              data-umami-event="cosa-vuoi-fare"
-              data-umami-event-scelta={x.href.slice(1)}
-              className="group flex min-h-20 items-center gap-4 rounded-3xl border-2 border-line bg-surface p-4 hover:border-accent focus-visible:border-accent"
+              key={x.id}
+              href={`#${x.id}`}
+              style={stileLivello(x.id)}
+              className="group flex flex-col rounded-[22px] bg-[var(--lv-bg)] p-1.5 transition-transform hover:-translate-y-0.5"
             >
-              <span className="grid size-14 shrink-0 place-items-center rounded-2xl bg-accent-soft text-3xl" aria-hidden>
-                {x.icona}
-              </span>
-              <span>
-                <span className="block text-xl font-semibold group-hover:text-accent">{x.titolo}</span>
-                <span className="block text-base text-ink-3">{x.testo}</span>
-              </span>
-              <span className="ml-auto text-2xl text-ink-3 group-hover:text-accent" aria-hidden>
-                ↓
+              <span className="flex flex-1 flex-col rounded-[18px] bg-surface p-4">
+                <span className="text-xs font-semibold tracking-wider text-[var(--lv)] uppercase">{x.etichetta}</span>
+                <span className="mt-3 flex items-center gap-3">
+                  <Avatar nome={x.nome} />
+                  <span className="min-w-0">
+                    <span className="display block text-2xl leading-tight">{x.nome}</span>
+                    <span className="block text-sm text-ink-3">{x.ruolo}</span>
+                  </span>
+                </span>
+                <span className="mt-3 flex flex-1 items-end justify-between gap-3">
+                  <span className="text-sm text-ink-2">{x.extra}</span>
+                  <span className="grid size-8 shrink-0 place-items-center rounded-full bg-ink text-sm text-bg transition-transform group-hover:translate-y-0.5" aria-hidden>
+                    ↓
+                  </span>
+                </span>
               </span>
             </a>
           ))}
-        </div>
+        </nav>
+
       </section>
 
       {/* CONTATTI DEL COMUNE */}
-      <section id="contatti" aria-labelledby="titolo-contatti" className="mt-10 scroll-mt-24">
-        <div style={stileLivello("comune")} className="puntini rounded-[32px] bg-[var(--lv-bg)] p-2 sm:p-3">
-          <div className="grid gap-6 rounded-[26px] bg-surface p-5 sm:p-7 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)]">
+      <section id="contatti" aria-labelledby="titolo-contatti" className="mt-10 scroll-mt-32">
+        <div style={stileLivello("comune")} className="puntini rounded-[28px] bg-[var(--lv-bg)] p-2 sm:p-3">
+          <div className="grid gap-5 rounded-[22px] bg-surface p-5 sm:p-6 lg:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)]">
             <div>
-              <h2 id="titolo-contatti" className="display text-4xl sm:text-5xl">
+              <h2 id="titolo-contatti" className="display text-2xl sm:text-3xl">
                 Contatti del Comune di {c.nome}
               </h2>
               {c.contatti ? (
-                <dl className="mt-5 space-y-4 text-lg">
+                <dl className="mt-4 grid gap-4 text-base sm:grid-cols-2">
                   {c.contatti.pec && (
                     <div>
-                      <dt className="text-sm font-semibold tracking-wide text-ink-3 uppercase">PEC (posta certificata)</dt>
+                      <dt className="text-xs font-semibold tracking-wide text-ink-3 uppercase">PEC (posta certificata)</dt>
                       <dd className="mt-1 flex flex-wrap items-center gap-2">
                         <a href={`mailto:${c.contatti.pec}`} className="break-all font-semibold text-accent underline">
                           {c.contatti.pec}
@@ -238,18 +264,18 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
                   )}
                   {c.contatti.sito && (
                     <div>
-                      <dt className="text-sm font-semibold tracking-wide text-ink-3 uppercase">Sito ufficiale</dt>
+                      <dt className="text-xs font-semibold tracking-wide text-ink-3 uppercase">Sito ufficiale</dt>
                       <dd className="mt-1">
                         <a href={c.contatti.sito} target="_blank" rel="noreferrer" className="break-all font-semibold text-accent underline">
                           {c.contatti.sito.replace(/^https?:\/\//, "")} ↗
                         </a>
-                        <p className="text-base text-ink-3">Orari degli uffici, numeri di telefono e moduli li trovi qui.</p>
+                        <p className="text-sm text-ink-3">Orari, telefoni e moduli.</p>
                       </dd>
                     </div>
                   )}
                   {c.contatti.indirizzo && (
-                    <div>
-                      <dt className="text-sm font-semibold tracking-wide text-ink-3 uppercase">Sede</dt>
+                    <div className="sm:col-span-2">
+                      <dt className="text-xs font-semibold tracking-wide text-ink-3 uppercase">Sede</dt>
                       <dd className="mt-1">{c.contatti.indirizzo}</dd>
                     </div>
                   )}
@@ -258,10 +284,10 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
                 <Avviso>Contatti non disponibili nell&apos;Indice delle Pubbliche Amministrazioni.</Avviso>
               )}
             </div>
-            <div className="flex flex-col justify-between gap-4 rounded-3xl bg-[var(--lv-bg)] p-5">
+            <div className="flex flex-col justify-between gap-4 rounded-2xl bg-[var(--lv-bg)] p-5">
               <div>
-                <p className="text-lg font-semibold">Vuoi scrivere al sindaco?</p>
-                <p className="mt-1 text-base text-ink-2">
+                <p className="font-semibold">Vuoi scrivere al sindaco?</p>
+                <p className="mt-1 text-sm text-ink-2">
                   Prepariamo per te un messaggio chiaro, che arriva alla PEC del Comune all&apos;attenzione del sindaco.
                 </p>
               </div>
@@ -290,37 +316,8 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
         </div>
       </section>
 
-      {/* CHI TI RAPPRESENTA: in breve, poi i dettagli */}
-      <section id="chi" aria-labelledby="titolo-chi" className="mt-12 scroll-mt-24">
-        <h2 id="titolo-chi" className="display text-5xl sm:text-6xl">
-          Chi ti rappresenta
-        </h2>
-        <p className="mt-2 max-w-2xl text-lg text-ink-2">Quattro livelli, dal Comune all&apos;Europa. Tocca un riquadro per vedere tutti i nomi.</p>
-        <nav aria-label="In breve" className="mt-6 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
-          {sintesi.map((x) => (
-            <a
-              key={x.id}
-              href={`#${x.id}`}
-              style={stileLivello(x.id)}
-              className="group puntini flex flex-col rounded-[28px] bg-[var(--lv-bg)] p-1.5 transition-transform hover:-translate-y-0.5"
-            >
-              <span className="flex flex-1 flex-col rounded-[22px] bg-surface p-4">
-                <span className="text-sm font-semibold tracking-wider text-[var(--lv)] uppercase">{x.etichetta}</span>
-                <span className="mt-3 flex items-center gap-3">
-                  <Avatar nome={x.nome} />
-                  <span className="min-w-0">
-                    <span className="display block text-3xl leading-tight">{x.nome}</span>
-                    <span className="block text-base text-ink-3">{x.ruolo}</span>
-                  </span>
-                </span>
-                <span className="mt-3 text-base text-ink-2">{x.extra}</span>
-                <span className="mt-auto pt-3 text-base font-semibold text-[var(--lv)] group-hover:underline">Vedi tutti →</span>
-              </span>
-            </a>
-          ))}
-        </nav>
-
-        <div className="mt-8 grid items-start gap-6 xl:grid-cols-2">
+      <section aria-label="I quattro livelli nel dettaglio" className="mt-10">
+        <div className="grid items-start gap-5 xl:grid-cols-2">
           {/* 1. COMUNE */}
           <Livello
             id="comune"
@@ -357,40 +354,40 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
                   </Gruppo>
                 )}
                 {numeri && (
-                  <div className="rounded-3xl border border-line p-4 sm:p-5">
-                    <h3 className="text-sm font-semibold tracking-wider text-ink-3 uppercase">Il Comune in numeri</h3>
-                    <dl className="mt-3 grid grid-cols-2 gap-3 lg:grid-cols-4">
+                  <div>
+                    <h3 className="text-xs font-semibold tracking-wider text-ink-3 uppercase">Il Comune in numeri</h3>
+                    <dl className="mt-2 grid grid-cols-2 gap-2 sm:grid-cols-4">
                       {a.popolazione && (
                         <div className="rounded-2xl bg-[var(--lv-bg)] p-3">
-                          <dt className="text-sm text-ink-2">Abitanti</dt>
-                          <dd className="display text-4xl">{a.popolazione.toLocaleString("it-IT")}</dd>
+                          <dt className="text-xs text-ink-2">Abitanti</dt>
+                          <dd className="display text-2xl">{a.popolazione.toLocaleString("it-IT")}</dd>
                           <dd className="text-xs text-ink-3">al voto del {a.dataElezione?.slice(-4)}</dd>
                         </div>
                       )}
                       {numeri.etaMedia && (
                         <div className="rounded-2xl bg-[var(--lv-bg)] p-3">
-                          <dt className="text-sm text-ink-2">Età media degli eletti</dt>
-                          <dd className="display text-4xl">{numeri.etaMedia} anni</dd>
+                          <dt className="text-xs text-ink-2">Età media degli eletti</dt>
+                          <dd className="display text-2xl">{numeri.etaMedia} anni</dd>
                           <dd className="text-xs text-ink-3">{confronto(numeri.etaMedia, mediaRegione?.etaMedia)}</dd>
                         </div>
                       )}
                       {numeri.donne !== undefined && (
                         <div className="rounded-2xl bg-[var(--lv-bg)] p-3">
-                          <dt className="text-sm text-ink-2">Donne tra gli eletti</dt>
-                          <dd className="display text-4xl">{numeri.donne}%</dd>
+                          <dt className="text-xs text-ink-2">Donne tra gli eletti</dt>
+                          <dd className="display text-2xl">{numeri.donne}%</dd>
                           <dd className="text-xs text-ink-3">{confronto(numeri.donne, mediaRegione?.donne, "%")}</dd>
                         </div>
                       )}
                       {numeri.laureati !== undefined && (
                         <div className="rounded-2xl bg-[var(--lv-bg)] p-3">
-                          <dt className="text-sm text-ink-2">Laureati</dt>
-                          <dd className="display text-4xl">{numeri.laureati}%</dd>
+                          <dt className="text-xs text-ink-2">Laureati</dt>
+                          <dd className="display text-2xl">{numeri.laureati}%</dd>
                           <dd className="text-xs text-ink-3">{confronto(numeri.laureati, mediaRegione?.laureati, "%")}</dd>
                         </div>
                       )}
                     </dl>
                     {prossime && (
-                      <p className="mt-4 rounded-2xl bg-surface-2 px-4 py-3 text-base">
+                      <p className="mt-2 rounded-2xl bg-surface-2 px-4 py-2.5 text-sm">
                         🗳️ <strong>Prossime elezioni comunali:</strong> previste nel <strong>{prossime}</strong> (il mandato dura 5
                         anni; la data esatta la fissa il Ministero dell&apos;Interno).
                       </p>
@@ -401,11 +398,11 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
                   </div>
                 )}
                 {a.giunta.length > 0 && (
-                  <Gruppo titolo={`Giunta comunale (${a.giunta.length})`} nota="Gli assessori, scelti dal sindaco: ognuno segue un settore.">
+                  <Espandibile titolo="Giunta comunale (assessori)" conteggio={a.giunta.length}>
                     {a.giunta.map((p) => (
                       <PersonaRow key={p.nome + p.ruolo} p={p} />
                     ))}
-                  </Gruppo>
+                  </Espandibile>
                 )}
                 {a.consiglio.length > 0 && (
                   <Espandibile titolo="Consiglio comunale" conteggio={a.consiglio.length}>
@@ -416,7 +413,7 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
                 )}
               </>
             )}
-            <p className="text-base text-ink-3">
+            <p className="text-sm text-ink-3">
               Come spende i soldi il Comune? Vedi la scheda di {c.nome} su{" "}
               <a className="text-accent underline" href="https://www.dovevannoinostrisoldi.com/comuni" target="_blank" rel="noreferrer">
                 DoveVannoINostriSoldi ↗
@@ -439,8 +436,8 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
               </Gruppo>
             )}
             <div>
-              <h3 className="text-sm font-semibold tracking-wider text-ink-3 uppercase">I consiglieri della tua provincia</h3>
-              <p className="mt-1 text-base text-ink-2">
+              <h3 className="text-xs font-semibold tracking-wider text-ink-3 uppercase">I consiglieri della tua provincia</h3>
+              <p className="mt-1 text-sm text-ink-2">
                 In evidenza i <strong>{consiglieriCirc.length} consiglieri eletti in provincia di {c.provincia}</strong>. Tocca un
                 punto o un nome per vedere la scheda e scrivergli.
               </p>
@@ -448,7 +445,7 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
                 <EmicicloRemoto circoscrizione={circ} comune={c.nome} />
               </div>
             </div>
-            <p className="text-base text-ink-3">
+            <p className="text-sm text-ink-3">
               Assessori regionali e tutti i {regione.consiglieri.length} consiglieri:{" "}
               <Link href="/regione/campania/" className="text-accent underline">
                 Giunta e Consiglio regionale →
@@ -456,8 +453,8 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
             </p>
             {citazioni.leggi.length + citazioni.atti.length > 0 ? (
               <div>
-                <h3 className="text-sm font-semibold tracking-wider text-ink-3 uppercase">Di {c.nome} si è parlato in Regione</h3>
-                <p className="mt-1 text-base text-ink-3">Leggi e atti che citano il comune nel titolo, dall&apos;inizio della legislatura.</p>
+                <h3 className="text-xs font-semibold tracking-wider text-ink-3 uppercase">Di {c.nome} si è parlato in Regione</h3>
+                <p className="mt-1 text-sm text-ink-3">Leggi e atti che citano il comune nel titolo, dall&apos;inizio della legislatura.</p>
                 <div className="mt-2 divide-y divide-line rounded-2xl border border-line">
                   {citazioni.leggi.map((l) => (
                     <LeggeCard key={l.id} legge={l} />
@@ -477,7 +474,7 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
                 )}
               </div>
             ) : (
-              <p className="text-base text-ink-3">
+              <p className="text-sm text-ink-3">
                 Nessun atto del Consiglio regionale cita {c.nome} nel titolo in questa legislatura.{" "}
                 <Link href="/regione/campania/attivita/" className="text-accent underline">
                   Vedi cosa fanno i consiglieri →
@@ -533,7 +530,7 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
                 </>
               )}
             </Avviso>
-            <p className="text-base text-ink-3">
+            <p className="text-sm text-ink-3">
               Atti, leggi spiegate in parole semplici e la mappa dei consiglieri arriveranno anche per la {c.regione}: per ora sono
               disponibili per la Campania.{" "}
               <Link href="/consigli-in-chiaro/" className="text-accent underline">
@@ -602,8 +599,8 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
                   })}
                 </Gruppo>
                 <div>
-                  <h3 className="text-sm font-semibold tracking-wider text-ink-3 uppercase">Gli altri eletti della tua area</h3>
-                  <p className="mt-1 mb-2 text-base text-ink-3">Eletti con le liste dei partiti (sistema proporzionale) nella tua area.</p>
+                  <h3 className="text-xs font-semibold tracking-wider text-ink-3 uppercase">Gli altri eletti della tua area</h3>
+                  <p className="mt-1 mb-2 text-sm text-ink-3">Eletti con le liste dei partiti (sistema proporzionale) nella tua area.</p>
                   <div className="space-y-2">
                     {col.cameraP.map((k) => (
                       <Espandibile key={k} titolo={`Deputati · ${etichettaCollegio(k).replace("collegio", "area")}`} conteggio={(parlamento.camera[k] ?? []).length}>
@@ -631,7 +628,7 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
                 </div>
               </>
             )}
-            <p className="text-base text-ink-3">
+            <p className="text-sm text-ink-3">
               Voti, presenze e incarichi dei parlamentari:{" "}
               <a className="text-accent underline" href="https://www.dovevannoinostrisoldi.com/politici" target="_blank" rel="noreferrer">
                 Atlante della politica su DoveVannoINostriSoldi ↗
@@ -666,14 +663,14 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
       </section>
 
       {/* HO UN PROBLEMA */}
-      <section id="problemi" aria-labelledby="titolo-problemi" className="mt-14 scroll-mt-24">
-        <h2 id="titolo-problemi" className="display text-5xl sm:text-6xl">
+      <section id="problemi" aria-labelledby="titolo-problemi" className="mt-14 scroll-mt-32">
+        <h2 id="titolo-problemi" className="display text-3xl sm:text-4xl">
           Ho un problema: a chi mi rivolgo?
         </h2>
-        <p className="mt-2 max-w-2xl text-lg text-ink-2">
+        <p className="mt-1 max-w-2xl text-ink-2">
           Scegli il tipo di problema: ti diciamo chi decide, il primo passo e a chi scrivere a {c.nome}.
         </p>
-        <div className="mt-6">
+        <div className="mt-5">
           <GuidaProblemi
             ctx={{
               comune: c,
@@ -690,35 +687,43 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
       </section>
 
       {/* CHIEDI UN DOCUMENTO (accesso civico) */}
-      <section id="documento" aria-labelledby="titolo-documento" className="mt-14 scroll-mt-24">
-        <h2 id="titolo-documento" className="display text-5xl sm:text-6xl">
+      <section id="documento" aria-labelledby="titolo-documento" className="mt-14 scroll-mt-32">
+        <h2 id="titolo-documento" className="display text-3xl sm:text-4xl">
           Chiedi un documento
         </h2>
-        <p className="mt-2 max-w-3xl text-lg text-ink-2">
+        <p className="mt-1 max-w-3xl text-ink-2">
           Quanto è costata quella strada? Cosa dice il contratto dei rifiuti? Con l&apos;<strong>accesso civico</strong> puoi chiedere al
           Comune, all&apos;ASL o alla Regione documenti e dati che hanno già. Ti prepariamo la richiesta, pronta da inviare.
         </p>
-        <div className="mt-6 rounded-[32px] border-2 border-line bg-surface p-4 sm:p-6">
+        <div className="mt-5 rounded-[22px] border border-line bg-surface p-4 sm:p-6">
           {enti.length > 0 ? (
             <ChiediDocumento enti={enti} luogo={c.nome} altroEnte />
           ) : (
             <Avviso>Indirizzi PEC non disponibili: usa il modulo per l&apos;accesso civico sul sito del Comune.</Avviso>
           )}
         </div>
-        <div className="mt-6">
-          <AccessoCivicoInfo />
-        </div>
+        <details className="group mt-4 rounded-[22px] border border-line bg-surface">
+          <summary className="flex items-center justify-between gap-3 px-5 py-4 font-semibold">
+            Come funziona: chi può chiedere, tempi, cosa fare se non rispondono
+            <span className="chevron grid size-7 shrink-0 place-items-center rounded-full bg-surface-2 text-ink-2 transition-transform" aria-hidden>
+              ›
+            </span>
+          </summary>
+          <div className="border-t border-line p-5">
+            <AccessoCivicoInfo />
+          </div>
+        </details>
       </section>
 
       {/* COME SI È VOTATO */}
-      <section id="voto" aria-labelledby="titolo-voto" className="mt-14 scroll-mt-24">
-        <h2 id="titolo-voto" className="display text-5xl sm:text-6xl">
+      <section id="voto" aria-labelledby="titolo-voto" className="mt-14 scroll-mt-32">
+        <h2 id="titolo-voto" className="display text-3xl sm:text-4xl">
           Come si è votato a {c.nome}
         </h2>
-        <p className="mt-2 max-w-3xl text-lg text-ink-2">
+        <p className="mt-1 max-w-3xl text-ink-2">
           I risultati delle ultime elezioni nel comune e quante persone sono andate a votare, confrontate con la media della regione.
         </p>
-        <div className="mt-6">
+        <div className="mt-5">
           <RisultatiElezioni elezioni={c.elezioni} comune={c.nome} regione={c.regione} />
         </div>
         <div className="mt-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
@@ -733,8 +738,8 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
         </div>
       </section>
 
-      <div className="mt-14 flex flex-col gap-4 rounded-3xl border border-line bg-surface p-5 lg:flex-row lg:items-center">
-        <p className="text-lg font-semibold lg:w-64">Cerca un altro comune</p>
+      <div className="mt-14 flex flex-col gap-4 rounded-[22px] border border-line bg-surface p-5 lg:flex-row lg:items-center">
+        <p className="font-semibold lg:w-56">Cerca un altro comune</p>
         <div className="w-full max-w-2xl">
           <ComuneSearch etichetta="Comune, frazione o CAP" />
         </div>
