@@ -1,0 +1,31 @@
+name: Avvisa nuove segnalazioni
+
+# Avviso su Telegram quando qualcuno apre una segnalazione direttamente su GitHub.
+# Quelle inviate dal sito (aperte dal bot) le avvisa già il sito, quelle automatiche l'aggiornamento del lunedì.
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: read
+
+jobs:
+  avvisa:
+    if: github.event.issue.user.login != 'chimirappresenta-bot' && github.event.issue.user.login != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: scripts
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/avviso-telegram.mjs segnalazione
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          # passati come variabili e non dentro il comando: il testo di una segnalazione non può eseguire nulla
+          ISSUE_TITOLO: ${{ github.event.issue.title }}
+          ISSUE_AUTORE: ${{ github.event.issue.user.login }}
+          ISSUE_TESTO: ${{ github.event.issue.body }}
+          ISSUE_URL: ${{ github.event.issue.html_url }}

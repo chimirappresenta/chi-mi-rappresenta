@@ -1,4 +1,5 @@
 import type { NextRequest } from "next/server";
+import { avvisaTelegram, html } from "@/lib/telegram";
 
 // Crea una issue pubblica su GitHub con la segnalazione di un utente, come fa DoveVannoINostriSoldi.
 // Il token resta sul server: l'utente non ha bisogno di un account GitHub.
@@ -79,11 +80,24 @@ export async function POST(request: NextRequest) {
     // niente etichette: il bot non è collaboratore e non può assegnarle
     body: JSON.stringify({ title: titolo, body: corpo }),
   });
+  // Avviso privato al gestore su Telegram: arriva anche se GitHub rifiuta, così la segnalazione non va persa.
+  const avviso = (stato: string, url?: string) =>
+    [
+      `${stato} <b>${html(tipo)}</b> · ${html(c("sezione", 80) || c("pagina", 80))}`,
+      "",
+      html(cosa.slice(0, 1200)),
+      ...(atteso ? [`<b>Informazione corretta secondo chi segnala:</b> ${html(atteso.slice(0, 600))}`] : []),
+      ...(fonte ? [`<b>Fonte:</b> ${html(fonte)}`] : []),
+      `<b>Pagina:</b> ${html(c("pagina"))}`,
+      ...(url ? ["", `<a href="${html(url)}">Apri la segnalazione su GitHub</a>`] : []),
+    ].join("\n");
   if (!r.ok) {
     // nei log di Vercel: stato e messaggio di GitHub (mai il token)
     console.error(`Segnalazione rifiutata da GitHub: ${r.status} ${(await r.text()).slice(0, 300)}`);
+    await avvisaTelegram(avviso("⚠️ Segnalazione NON salvata su GitHub (errore " + r.status + "):"));
     return Response.json({ errore: "Invio non riuscito" }, { status: 502 });
   }
   const issue = (await r.json()) as { html_url?: string };
+  await avvisaTelegram(avviso("🆕 Nuova segnalazione:", issue.html_url));
   return Response.json({ ok: true, url: issue.html_url });
 }

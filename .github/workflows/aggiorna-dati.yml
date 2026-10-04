@@ -14,8 +14,13 @@ jobs:
     runs-on: ubuntu-latest
     env:
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
     steps:
       - uses: actions/checkout@v4
+      # gli avvisi della settimana scorsa, per segnalare su Telegram solo quelli nuovi
+      - run: git show HEAD:src/data/meta.json > "$RUNNER_TEMP/meta-prima.json" || echo "{}" > "$RUNNER_TEMP/meta-prima.json"
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -48,9 +53,22 @@ jobs:
           fi
           rm -f leggi-da-riassumere.md corpo.md
       - name: Commit dei dati aggiornati
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898733+github-actions[bot]@users.noreply.github.com"
           git add -A src/data data/manual public/comuni-index.json
-          git diff --cached --quiet || git commit -m "Aggiornamento dati $(date -u +%Y-%m-%d)"
-          git push
+          if git diff --cached --quiet; then
+            echo "cambiati=no" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Aggiornamento dati $(date -u +%Y-%m-%d)"
+            git push
+            echo "cambiati=si" >> "$GITHUB_OUTPUT"
+          fi
+      # Avvisi su Telegram: com'è andata, leggi da riassumere e avvisi nuovi; oppure l'errore.
+      - name: Avviso Telegram
+        if: success()
+        run: node scripts/avviso-telegram.mjs aggiornamento-ok "$RUNNER_TEMP/meta-prima.json" "${{ steps.commit.outputs.cambiati }}"
+      - name: Avviso Telegram (errore)
+        if: failure()
+        run: node scripts/avviso-telegram.mjs aggiornamento-errore

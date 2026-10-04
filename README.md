@@ -56,6 +56,15 @@ I file in `data/manual/` sono curati a mano: la pipeline li confronta con le fon
 - **Come si è votato** (in ogni pagina comune): risultati e affluenza delle ultime elezioni, confrontati con la media della Campania.
 - **Segui le novità**: feed RSS statici per ogni comune (`/comune/<istat>/feed.xml`: atti e leggi regionali che citano il comune, più tutte le nuove leggi regionali) e per il Consiglio regionale della Campania (`/regione/campania/feed.xml`), con pulsanti per Feedly e Inoreader. Niente email né account.
 
+## Avvisi su Telegram (per chi gestisce il sito)
+
+Un bot Telegram privato manda al gestore:
+- 🆕 ogni nuova segnalazione inviata dal sito, in tempo reale (`src/lib/telegram.ts`, chiamato da `/api/segnala`), anche se GitHub la rifiuta;
+- 🆕 le segnalazioni aperte direttamente su GitHub (`.github/workflows/avvisa-segnalazioni.yml`);
+- ✅/🟡/🔴 l'esito dell'aggiornamento del lunedì: dati cambiati o no, leggi da riassumere, avvisi **nuovi** rispetto alla settimana prima, oppure l'errore con il link al registro (`scripts/avviso-telegram.mjs`).
+
+Configurazione: `TELEGRAM_BOT_TOKEN` (dal @BotFather) e `TELEGRAM_CHAT_ID` (la chat del gestore) sia nelle variabili di Vercel sia nei secrets del repository GitHub. Il numero di chat non va scritto nel codice (il repository è pubblico). Senza le variabili gli avvisi semplicemente non partono.
+
 ## Segnalazioni degli utenti
 
 Come su DoveVannoINostriSoldi, ogni segnalazione diventa una **issue pubblica su GitHub**, creata dalla funzione `/api/segnala` a nome del progetto: l'utente non ha bisogno di un account. Su Vercel impostare:
