@@ -30,6 +30,16 @@
  ],
  "atti": [
   {
+   "id": "risoluzione-78",
+   "tipo": "risoluzione",
+   "numero": 78,
+   "data": "2026-10-02",
+   "titolo": "Fiume Sarno - accelerazione degli interventi di risanamento ambientale, sicurezza idraulica, manutenzione e messa in sicurezza del bacino idrografico; completamento del sistema fognario-depurativo, dragaggio complessivo, sistema integrato delle vasche di esondazione e laminazione, sistema integrato di sorveglianza ambientale del bacino",
+   "esito": "approvata",
+   "firmatari": [],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/attivita-consigliere/risoluzioni/dettaglio-documento?id=36046"
+  },
+  {
    "id": "question-time-25",
    "tipo": "question-time",
    "numero": 25,
@@ -56,6 +66,38 @@
     }
    ],
    "url": "https://www.cr.campania.it/scheda-personale/consigliere/attivita-consigliere/question_time/dettaglio-documento?id=36039"
+  },
+  {
+   "id": "question-time-23",
+   "tipo": "question-time",
+   "numero": 23,
+   "data": "2026-10-01",
+   "titolo": "Effetti diretti e indiretti sulle attività agricole delle aree ricomprese nella perimetrazione di cui alla D.G.R. n.351 del 30.06.2026",
+   "firmatari": [
+    {
+     "nome": "Massimo Pelliccia",
+     "username": "PELLICCIA.MAS"
+    },
+    {
+     "nome": "Angela Parente",
+     "username": "PARENTE.ANG"
+    }
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/attivita-consigliere/question_time/dettaglio-documento?id=36038"
+  },
+  {
+   "id": "question-time-22",
+   "tipo": "question-time",
+   "numero": 22,
+   "data": "2026-10-01",
+   "titolo": "Variante in galleria sulla SS 163 Maiori-Minori (ANAS NA 286):orientamenti e iniziative dell'Amministrazione regionale in relazione all'impatto ambientale e territoriale dell'opera, alla sua sostenibilità economica e alla possibile riallocazione delle risorse",
+   "firmatari": [
+    {
+     "nome": "Roberto Celano",
+     "username": "CELANO.ROB"
+    }
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/attivita-consigliere/question_time/dettaglio-documento?id=36037"
   },
   {
    "id": "question-time-21",
@@ -774,6 +816,22 @@
    "url": "https://www.cr.campania.it/scheda-personale/consigliere/attivita-consigliere/interrogazioni-presentate/dettaglio-documento?id=35969"
   },
   {
+   "id": "interrogazione-113",
+   "tipo": "interrogazione",
+   "numero": 113,
+   "data": "2026-09-23",
+   "titolo": "Richiesta di promozione dell'utilizzo e dello scorrimento della graduatoria concorsuale vigente per il profilo di \"Operatore Tecnico Specializzato - Ruolo Tecnico CCNL Sanità - Comparto - per le esigenze della Farmacia Ospedaliera\",",
+   "esito": "approvata",
+   "esitoData": "24 settembre 2025",
+   "firmatari": [
+    {
+     "nome": "Giovanni Mensorio",
+     "username": "MENSORIO.GIO"
+    }
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/attivita-consigliere/interrogazioni-presentate/dettaglio-documento?id=35966"
+  },
+  {
    "id": "mozione-69",
    "tipo": "mozione",
    "numero": 69,
@@ -815,6 +873,24 @@
     }
    ],
    "url": "https://www.cr.campania.it/scheda-personale/consigliere/attivita-consigliere/progetti-legge/dettaglio-documento?id=35944"
+  },
+  {
+   "id": "interrogazione-112",
+   "tipo": "interrogazione",
+   "numero": 112,
+   "data": "2026-09-21",
+   "titolo": "Lavori di completamento delle infrastrutture dell'agglomerato industriale di Pianodardine - Area ZES nel Comune di Montefredane - stato della progettazione, copertura finanziaria e cronoprogramma per la realizzazione dell'intervento",
+   "firmatari": [
+    {
+     "nome": "Michela Rostan",
+     "username": "ROSTAN.MIC"
+    },
+    {
+     "nome": "Massimo Grimaldi",
+     "username": "GRIMALDI.MAS"
+    }
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/attivita-consigliere/interrogazioni-presentate/dettaglio-documento?id=35941"
   },
   {
    "id": "pdl-71",
@@ -6645,12 +6721,46 @@
     "pdl": 1
    }
   },
+  "PELLICCIA.MAS": {
+   "totale": 21,
+   "primoFirmatario": 10,
+   "perTipo": {
+    "question-time": 6,
+    "pdl": 3,
+    "mozione": 5,
+    "interrogazione": 5,
+    "risoluzione": 2
+   }
+  },
+  "PARENTE.ANG": {
+   "totale": 21,
+   "primoFirmatario": 0,
+   "perTipo": {
+    "question-time": 5,
+    "pdl": 2,
+    "mozione": 6,
+    "interrogazione": 6,
+    "risoluzione": 2
+   }
+  },
+  "CELANO.ROB": {
+   "totale": 29,
+   "primoFirmatario": 18,
+   "perTipo": {
+    "question-time": 3,
+    "interrogazione": 18,
+    "mozione": 5,
+    "risoluzione": 2,
+    "pdl": 1
+   }
+  },
   "MENSORIO.GIO": {
-   "totale": 5,
-   "primoFirmatario": 3,
+   "totale": 6,
+   "primoFirmatario": 4,
    "perTipo": {
     "question-time": 1,
     "pdl": 1,
+    "interrogazione": 1,
     "mozione": 3
    }
   },
@@ -6754,17 +6864,6 @@
     "pdl": 13
    }
   },
-  "CELANO.ROB": {
-   "totale": 28,
-   "primoFirmatario": 17,
-   "perTipo": {
-    "interrogazione": 18,
-    "mozione": 5,
-    "risoluzione": 2,
-    "pdl": 1,
-    "question-time": 2
-   }
-  },
   "PANICO.ASS": {
    "totale": 21,
    "primoFirmatario": 4,
@@ -6777,10 +6876,10 @@
    }
   },
   "ROSTAN.MIC": {
-   "totale": 26,
-   "primoFirmatario": 13,
+   "totale": 27,
+   "primoFirmatario": 14,
    "perTipo": {
-    "interrogazione": 12,
+    "interrogazione": 13,
     "pdl": 4,
     "mozione": 8,
     "risoluzione": 2
@@ -6970,12 +7069,12 @@
    }
   },
   "GRIMALDI.MAS": {
-   "totale": 16,
+   "totale": 17,
    "primoFirmatario": 3,
    "perTipo": {
     "pdl": 3,
     "mozione": 4,
-    "interrogazione": 7,
+    "interrogazione": 8,
     "risoluzione": 2
    }
   },
@@ -7003,28 +7102,6 @@
     "pdl": 5,
     "mozione": 6,
     "interrogazione": 4
-   }
-  },
-  "PARENTE.ANG": {
-   "totale": 20,
-   "primoFirmatario": 0,
-   "perTipo": {
-    "pdl": 2,
-    "mozione": 6,
-    "question-time": 4,
-    "interrogazione": 6,
-    "risoluzione": 2
-   }
-  },
-  "PELLICCIA.MAS": {
-   "totale": 20,
-   "primoFirmatario": 9,
-   "perTipo": {
-    "pdl": 3,
-    "mozione": 5,
-    "question-time": 5,
-    "interrogazione": 5,
-    "risoluzione": 2
    }
   },
   "PETITTO.LIV": {
