@@ -538,11 +538,14 @@ if (REFRESH || !fs.existsSync(locFile)) {
   const entry = zip.getEntries().find((e) => e.entryName.endsWith(".csv"));
   fs.writeFileSync(locFile, entry.getData().toString("latin1"));
 }
+const NON_FRAZIONI = /casa (di )?reclusione|casa circondariale|penitenziari|campo nomadi|campo rom|centro di accoglienza|cimitero|^caserma$|zona industriale/i;
 const frazioniByIstat = new Map();
 const nomeComune = new Map(comuni.map((c) => [c.istat, norm(c.nome)]));
 for (const r of csvObjects(fs.readFileSync(locFile, "utf8"), 0, "\t")) {
   // 1 = centro abitato, 2 = nucleo abitato; escludiamo le case sparse e le località minuscole.
   if (!["1", "2"].includes(r.TIPO_LOC) || Number(r.POP21) < 100) continue;
+  // non sono frazioni in cui si abita: istituti di pena, campi, cimiteri, caserme, zone industriali
+  if (NON_FRAZIONI.test(r.NOME)) continue;
   const istat = r.PRO_COM.padStart(6, "0");
   if (!istatTutti.has(istat) || norm(r.NOME) === nomeComune.get(istat)) continue;
   (frazioniByIstat.get(istat) ?? frazioniByIstat.set(istat, []).get(istat)).push({ nome: r.NOME, pop: Number(r.POP21) });
