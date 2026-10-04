@@ -138,6 +138,17 @@ const TORNATE = {
   "26/05/2019": { zip: "20190526", file: [{ match: /\.txt$/i, come: "liste" }] },
   "20/09/2020": { zip: "20200920", file: [{ match: /\.txt$/i, come: "liste" }] },
   "03/10/2021": { zip: "20211003", file: [{ match: /\.txt$/i, come: "liste" }] },
+  // Sardegna: tornate proprie, negli stessi archivi del Ministero
+  "25/10/2020": { zip: "20201025", file: [{ match: /\.txt$/i, come: "liste" }] },
+  "10/10/2021": { zip: "20211010", file: [{ match: /\.txt$/i, come: "liste" }] },
+  "28/05/2023": { zip: "20230528", file: [{ match: /\.xlsx$/i, come: "liste" }] },
+  "08/06/2025": {
+    zip: "20250608",
+    file: [
+      { match: /Liste&Cand_LivComune/i, come: "liste" },
+      { match: /Scrutini_LivComune/i, come: "scrutini" },
+    ],
+  },
   "27/11/2022": { zip: "20221127", file: [{ match: /\.txt$/i, come: "liste" }] },
   "22/10/2023": { zip: "20231022", file: [{ match: /\.xlsx$/i, come: "liste" }] },
   "12/06/2022": {
@@ -274,6 +285,68 @@ export async function elezioniPerComune({ RAW, REFRESH, UA, comuni, dataComunali
         candidati: classifica(candidati.values(), tot, 8).map((c) => ({ ...c, liste: c.liste.slice(0, 6) })),
         candidatiAltri: Math.max(0, candidati.size - 8),
       });
+    }
+  }
+
+  // --- Comunali in Friuli-Venezia Giulia: le organizza la Regione, che pubblica i risultati sul suo portale open data.
+  const FVG = {
+    2019: { sindaco: "as7s-6win", affluenza: "af56-5vsc" },
+    2020: { sindaco: "ha2d-ihk4", affluenza: "93g6-kcvv" },
+    2021: { sindaco: "t8jr-umke", affluenza: "y8vc-utct", sindaco2: "nt2k-nexz", affluenza2: "w2bv-sv97" },
+    2022: { sindaco: "3y4x-iyy9", affluenza: "qscy-cr5m", sindaco2: "9jde-r3th", affluenza2: "qaiz-9g7s" },
+    2023: { sindaco: "9zey-sikm", affluenza: "jfzj-qiqf", sindaco2: "dhdi-28me", affluenza2: "6dpn-wzhc" },
+    2024: { sindaco: "62hc-s348", affluenza: "36ju-3ny8" },
+    2025: { sindaco: "a3td-mpdh", affluenza: "9it4-6tfu" },
+    2026: { sindaco: "ivm2-pa4q", affluenza: "ctsg-f96y" },
+  };
+  const datasetFvg = async (id) => {
+    const p = path.join(RAW, `fvg-${id}.json`);
+    if (fs.existsSync(p)) return JSON.parse(fs.readFileSync(p, "utf8"));
+    console.log(`  ↓ fvg-${id}.json (portale open data FVG)`);
+    const res = await fetch(`https://www.dati.friuliveneziagiulia.it/resource/${id}.json?$limit=50000`, { headers: { "User-Agent": UA } });
+    if (!res.ok) throw new Error(`FVG ${id} → HTTP ${res.status}`);
+    const d = await res.json();
+    fs.writeFileSync(p, JSON.stringify(d));
+    return d;
+  };
+  const istatFvg = (r) => String(r.codice_istat_comune ?? r.cod_istat_comune ?? "").padStart(6, "0");
+  const comuniFvg = [...dataComunali].filter(([istat]) => regioneDi.get(istat) === "06" && !ris.get(istat).some((e) => e.id === "comunali"));
+  for (const anno of new Set(comuniFvg.map(([, gg]) => Number(gg.slice(-4))))) {
+    const ds = FVG[anno];
+    if (!ds) {
+      warn(`Comunali FVG ${anno}: dataset non configurato in scripts/elezioni.mjs`);
+      continue;
+    }
+    try {
+      const [s1, a1, s2, a2] = await Promise.all([ds.sindaco, ds.affluenza, ds.sindaco2, ds.affluenza2].map((id) => (id ? datasetFvg(id) : [])));
+      for (const [istat, gg] of comuniFvg.filter(([, g]) => Number(g.slice(-4)) === anno)) {
+        const ballottaggio = s2.some((r) => istatFvg(r) === istat);
+        const voti = (ballottaggio ? s2 : s1).filter((r) => istatFvg(r) === istat);
+        if (!voti.length) continue;
+        const aff = (ballottaggio ? a2 : a1).find((r) => istatFvg(r) === istat);
+        const elettori = num(aff?.elettori_totali ?? aff?.elettori_t ?? 0);
+        const votanti = num(aff?.votanti_totali ?? aff?.votanti_t ?? 0);
+        const candidati = voti.map((r) => ({
+          nome: nomePersona(`${r.nome_candidato ?? r.nome ?? ""} ${r.cognome_candidato ?? r.cognome ?? ""}`),
+          voti: num(r.voti_candidato ?? r.voti),
+        }));
+        const tot = candidati.reduce((x, c) => x + c.voti, 0);
+        const ordinati = classifica(candidati, tot, 8);
+        if (ordinati[0]) ordinati[0].eletto = true; // il più votato del turno decisivo
+        ris.get(istat).push({
+          id: "comunali",
+          titolo: "Elezioni comunali",
+          data: dataEstesa(gg),
+          turno: ballottaggio ? 2 : undefined,
+          elettori: elettori || undefined,
+          votanti: votanti || undefined,
+          affluenza: elettori ? pct(votanti, elettori) : undefined,
+          candidati: ordinati,
+          candidatiAltri: Math.max(0, candidati.length - 8),
+        });
+      }
+    } catch (e) {
+      warn(`Comunali FVG ${anno}: ${e.message}`);
     }
   }
 

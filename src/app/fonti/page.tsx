@@ -63,6 +63,13 @@ export default function FontiPage() {
               ufficiali di Consiglio e Regione.
             </li>
             <li>
+              <strong>Risultati delle comunali:</strong> dal Ministero
+              dell&apos;Interno e, per il Friuli-Venezia Giulia, dal portale open
+              data della Regione. Per Sicilia, Trentino-Alto Adige e Valle
+              d&apos;Aosta le elezioni comunali sono gestite dalle Regioni e non
+              sono ancora disponibili in formato aperto: arriveranno più avanti.
+            </li>
+            <li>
               <strong>Comuni della Sardegna:</strong> dopo il riordino delle
               province alcune fonti usano i nuovi codici e le nuove sigle;
               abbiniamo i comuni con il codice catastale, che non cambia.
