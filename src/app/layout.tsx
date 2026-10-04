@@ -95,6 +95,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                 Chi ti rappresenta, dal tuo Comune a Bruxelles. Progetto civico indipendente costruito solo con dati pubblici
                 ufficiali: prima di agire, verifica sempre la fonte.
               </p>
+              <p className="mt-3 max-w-md text-sm text-ink-3">
+                Sito ufficiale: <strong className="font-semibold text-ink-2">chi-mi-rappresenta.vercel.app</strong>. Il codice è aperto, ma copie
+                pubblicate ad altri indirizzi non sono gestite da noi.
+              </p>
             </div>
             <div>
               <p className="text-xs font-semibold tracking-wider text-ink-3 uppercase">Esplora</p>

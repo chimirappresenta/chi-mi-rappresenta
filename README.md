@@ -2,7 +2,9 @@
 
 Scrivi il tuo comune e scopri chi ti rappresenta a ogni livello: **Comune, Regione, Parlamento, Europa**. Ogni dato ha una fonte ufficiale.
 
-Il pilota copre la **Campania** (550 comuni). Si ispira a *Find your representative* (USA) e *WriteToThem* (UK), ed è complementare a [DoveVannoINostriSoldi](https://www.dovevannoinostrisoldi.com): loro coprono politica nazionale e spesa, noi il percorso *territorio → persone*.
+Copre **tutta Italia** (7.896 comuni); la **Campania** ha in più il Consiglio regionale "in chiaro" (atti, leggi spiegate, mappa dei consiglieri). Si ispira a *Find your representative* (USA) e *WriteToThem* (UK), ed è complementare a [DoveVannoINostriSoldi](https://www.dovevannoinostrisoldi.com): loro coprono politica nazionale e spesa, noi il percorso *territorio → persone*.
+
+> **Sito ufficiale: [chi-mi-rappresenta.vercel.app](https://chi-mi-rappresenta.vercel.app)** (in futuro chi-mi-rappresenta.it). Il codice è libero (licenza MIT) ma il nome e l'identità del progetto no: copie pubblicate ad altri indirizzi non sono gestite da noi e non ne garantiamo i dati. Le modifiche a questo repository le fa solo chi gestisce il progetto; chiunque può proporre correzioni con una segnalazione.
 
 ## Come funziona
 
