@@ -45,17 +45,30 @@ const PERIODI = ["Non importa", "Ultimo anno", "Ultimi 3 anni", "Dal 2020 a oggi
  * "Chiedi un documento": prepara una richiesta di accesso civico generalizzato (art. 5, comma 2, d.lgs. 33/2013),
  * il "FOIA italiano". Il testo si apre nella posta di chi scrive, o si copia: il sito non invia e non salva nulla.
  */
-export function ChiediDocumento({ enti, luogo }: { enti: EnteAccesso[]; luogo?: string }) {
+const ALTRO: EnteAccesso = {
+  id: "altro",
+  nome: "Un altro ente pubblico (scrivi tu nome e PEC)",
+  pec: "",
+  descrizione: "INPS, un ministero, una scuola, un'università, un consorzio…",
+};
+const RICERCA_IPA = "https://www.indicepa.gov.it/ipa-portale/consultazione/indirizzo-sede/ricerca-ente";
+
+/** `altroEnte`: aggiunge la scelta "un altro ente pubblico", con nome e PEC scritti da chi usa il modulo. */
+export function ChiediDocumento({ enti: entiBase, luogo, altroEnte = false }: { enti: EnteAccesso[]; luogo?: string; altroEnte?: boolean }) {
+  const enti = altroEnte ? [...entiBase, ALTRO] : entiBase;
   const id = useId();
   const [enteId, setEnteId] = useState(enti[0]?.id);
+  const [altroNome, setAltroNome] = useState("");
+  const [altroPec, setAltroPec] = useState("");
   const [esempio, setEsempio] = useState<string | null>(null);
   const [cosa, setCosa] = useState("");
   const [periodo, setPeriodo] = useState(PERIODI[0]);
   const [nome, setNome] = useState("");
   const [email, setEmail] = useState("");
   const oggi = useSyncExternalStore(nessunaIscrizione, dataDiOggi, () => "[data]");
-  const ente = enti.find((e) => e.id === enteId) ?? enti[0];
-  if (!ente) return null;
+  const scelto = enti.find((e) => e.id === enteId) ?? enti[0];
+  if (!scelto) return null;
+  const ente = scelto.id === "altro" ? { ...ALTRO, nome: altroNome.trim() || "[nome dell'ente]", pec: altroPec.trim() } : scelto;
 
   const scegliEsempio = (eid: string) => {
     setEsempio(eid);
@@ -102,7 +115,7 @@ export function ChiediDocumento({ enti, luogo }: { enti: EnteAccesso[]; luogo?: 
           <li>
             <fieldset>
               <legend className="text-lg font-semibold">1. A chi lo chiedi?</legend>
-              {enti.length > 4 ? (
+              {entiBase.length > 4 ? (
                 <label className="mt-2 block text-base">
                   <span className="sr-only">Ente</span>
                   <select value={ente.id} onChange={(e) => setEnteId(e.target.value)} className={campo}>
@@ -112,7 +125,7 @@ export function ChiediDocumento({ enti, luogo }: { enti: EnteAccesso[]; luogo?: 
                       </option>
                     ))}
                   </select>
-                  <span className="mt-1 block text-sm text-ink-3">{ente.descrizione}</span>
+                  <span className="mt-1 block text-sm text-ink-3">{scelto.descrizione}</span>
                 </label>
               ) : (
               <div className="mt-2 grid gap-2 sm:grid-cols-2">
@@ -126,6 +139,26 @@ export function ChiediDocumento({ enti, luogo }: { enti: EnteAccesso[]; luogo?: 
                   </label>
                 ))}
               </div>
+              )}
+              {scelto.id === "altro" && (
+                <div className="mt-3 grid gap-3 rounded-2xl bg-surface-2 p-3 sm:grid-cols-2">
+                  <label className="block text-base font-semibold">
+                    Nome dell&apos;ente
+                    <input value={altroNome} onChange={(e) => setAltroNome(e.target.value)} placeholder="Es. INPS – Direzione provinciale di Bari" className={campo} />
+                  </label>
+                  <label className="block text-base font-semibold">
+                    PEC dell&apos;ente
+                    <input type="email" value={altroPec} onChange={(e) => setAltroPec(e.target.value)} placeholder="nome@pec.esempio.it" className={campo} />
+                  </label>
+                  <p className="text-sm text-ink-2 sm:col-span-2">
+                    Trovi la PEC di ogni ente pubblico (anche scuole e università) sull&apos;{" "}
+                    <a href={RICERCA_IPA} target="_blank" rel="noreferrer" className="font-semibold text-accent underline">
+                      Indice ufficiale delle Pubbliche Amministrazioni ↗
+                    </a>
+                    . Molti enti hanno anche un indirizzo dedicato all&apos;accesso civico, nella sezione &quot;Amministrazione trasparente&quot;
+                    del loro sito.
+                  </p>
+                </div>
               )}
             </fieldset>
           </li>
@@ -185,7 +218,7 @@ export function ChiediDocumento({ enti, luogo }: { enti: EnteAccesso[]; luogo?: 
           <p className="mt-1 text-base">
             Arriva a: <strong>{ente.nome}</strong>
             <br />
-            <span className="break-all text-ink-2">{ente.pec}</span>
+            <span className="break-all text-ink-2">{ente.pec || "Scrivi qui sopra la PEC dell'ente"}</span>
           </p>
           <pre className="mt-3 max-h-72 overflow-auto rounded-2xl bg-surface-2 p-3 font-sans text-sm whitespace-pre-wrap">{corpo}</pre>
           <p className="mt-3 flex gap-2 rounded-2xl bg-warn-soft px-4 py-3 text-base text-warn">
@@ -196,7 +229,12 @@ export function ChiediDocumento({ enti, luogo }: { enti: EnteAccesso[]; luogo?: 
             </span>
           </p>
           <div className="mt-4 flex flex-col gap-2 sm:flex-row sm:flex-wrap">
-            <a href={href} data-umami-event="documento-invia" data-umami-event-ente={ente.id} className="flex min-h-12 flex-1 items-center justify-center rounded-full bg-accent px-5 text-base font-semibold text-accent-ink hover:opacity-90">
+            <a
+              href={ente.pec ? href : undefined}
+              aria-disabled={!ente.pec}
+              data-umami-event="documento-invia"
+              data-umami-event-ente={ente.id}
+              className="flex min-h-12 flex-1 aria-disabled:pointer-events-none aria-disabled:opacity-40 items-center justify-center rounded-full bg-accent px-5 text-base font-semibold text-accent-ink hover:opacity-90">
               Apri nella tua email
             </a>
             <CopiaTesto testo={corpo} etichetta="Copia il testo" evento="documento-copia" />

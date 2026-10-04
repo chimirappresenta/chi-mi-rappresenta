@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: { siteName: "Chi mi rappresenta", locale: "it_IT", type: "website" },
   twitter: { card: "summary_large_image" },
   title: {
-    default: "Chi mi rappresenta: chi ti rappresenta, dal tuo Comune all'Europa",
+    default: "Chi mi rappresenta: dal tuo Comune all'Europa",
     template: "%s · Chi mi rappresenta",
   },
   description:

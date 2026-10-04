@@ -697,7 +697,7 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
         </p>
         <div className="mt-6 rounded-[32px] border-2 border-line bg-surface p-4 sm:p-6">
           {enti.length > 0 ? (
-            <ChiediDocumento enti={enti} luogo={c.nome} />
+            <ChiediDocumento enti={enti} luogo={c.nome} altroEnte />
           ) : (
             <Avviso>Indirizzi PEC non disponibili: usa il modulo per l&apos;accesso civico sul sito del Comune.</Avviso>
           )}

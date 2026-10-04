@@ -28,7 +28,7 @@ export default function RegioniPage() {
         </div>
         <div className="rounded-[28px] border border-line bg-surface p-4 shadow-[0_20px_60px_-30px_rgba(20,34,31,0.35)]">
           <p className="mb-3 px-1 text-base text-ink-2">
-            <strong>Non sai in che regione è il tuo comune?</strong> Cercalo: la sua pagina ti mostra anche la Regione.
+            <strong>Parti dal tuo comune.</strong> Trovi la tua Regione insieme a sindaco, parlamentari ed eurodeputati della tua zona.
           </p>
           <ComuneSearch etichetta="Il tuo comune" sezione="regione" />
         </div>

@@ -34,9 +34,6 @@ const FAQ = [
 ];
 
 export default function Home() {
-  // capoluoghi di regione, per una scelta rapida
-  const CAPOLUOGHI_REGIONE = ["001272", "007003", "015146", "022205", "027042", "032006", "010025", "037006", "048017", "054039", "042002", "058091", "066049", "070006", "063049", "072006", "076063", "079023", "082053", "092009"];
-  const capoluoghi = CAPOLUOGHI_REGIONE.map((id) => comuni.find((c) => c.istat === id)).filter((c) => !!c);
   const consiglieriRegionali = regioni.reduce((n, r) => n + (r.inChiaro ? regione.consiglieri.length : r.consiglieri.length), 0);
   const deputati = Object.values(parlamento.camera).flat().length;
   const senatori = Object.keys(parlamento.senato.uninominali).length + Object.values(parlamento.senato.proporzionale).flat().length;
@@ -58,7 +55,7 @@ export default function Home() {
           {comuni.length.toLocaleString("it-IT")} comuni in tutta Italia · dati aggiornati al {meta.generato.split("-").reverse().join("/")}
         </p>
         <h1 className="display mx-auto mt-6 max-w-5xl text-6xl sm:text-8xl lg:text-[8.5rem]">
-          Chi ti <em className="text-accent">rappresenta</em>?
+          Chi mi <em className="text-accent">rappresenta</em>?
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-lg text-ink-2 sm:text-xl">
           Dal sindaco al Parlamento europeo: scrivi il tuo comune e trovi tutte le persone elette per te, in una pagina, con le
@@ -70,18 +67,6 @@ export default function Home() {
         >
           <ComuneSearch autoFocus />
         </div>
-        <p className="mt-5 flex flex-wrap items-center justify-center gap-2 text-base text-ink-3">
-          <span>Oppure scegli un capoluogo di regione:</span>
-          {capoluoghi.map((c) => (
-            <Link
-              key={c.istat}
-              href={`/comune/${c.istat}/`}
-              className="flex min-h-11 items-center rounded-full border border-line bg-surface px-4 text-ink-2 hover:border-ink-3 hover:text-ink"
-            >
-              {c.nome}
-            </Link>
-          ))}
-        </p>
       </section>
 
       {/* COSA VUOI FARE: le quattro strade principali, chiare e grandi */}
