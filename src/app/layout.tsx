@@ -107,7 +107,15 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               </p>
               <p className="mt-3 max-w-md text-sm text-ink-3">
                 Usiamo anche l&apos;intelligenza artificiale per costruire il sito e spiegare le leggi in parole semplici. Sono possibili
-                errori: prima di decidere, verifica sempre la fonte ufficiale.
+                errori: prima di decidere, verifica sempre la fonte ufficiale. Il sito non fornisce consulenza.
+              </p>
+              <p className="mt-3 flex gap-4 text-sm text-ink-2">
+                <Link href="/privacy/" className="underline hover:text-ink">
+                  Privacy
+                </Link>
+                <Link href="/termini/" className="underline hover:text-ink">
+                  Termini d&apos;uso
+                </Link>
               </p>
               <p className="mt-3 max-w-md text-sm text-ink-3">
                 Sito ufficiale: <strong className="font-semibold text-ink-2">chi-mi-rappresenta.vercel.app</strong>. Il codice è aperto, ma copie

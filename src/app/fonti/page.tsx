@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { meta } from "@/lib/data";
 
 export const metadata: Metadata = { title: "Fonti e limiti" };
@@ -152,7 +153,25 @@ export default function FontiPage() {
         <p className="mt-3 text-base text-ink-2">
           I messaggi che prepari con &quot;Scrivi a…&quot;, &quot;Chiedi un documento&quot; e &quot;Prepara la segnalazione&quot;
           restano sul tuo dispositivo: li invii tu dalla tua email. Le segnalazioni di errori diventano pubbliche su GitHub e non
-          contengono dati personali.
+          contengono dati personali. Tutti i dettagli nella pagina{" "}
+          <Link href="/privacy/" className="text-accent underline">
+            Privacy
+          </Link>
+          .
+        </p>
+        <p className="mt-3 text-base text-ink-2">
+          <strong>Licenze:</strong> i dati restano soggetti alle licenze delle fonti. Gli open data di ISTAT, AgID (IPA), Camera e
+          Senato sono rilasciati con licenze Creative Commons Attribuzione; i dati pubblicati dalle amministrazioni senza una licenza
+          esplicita sono riutilizzabili come dati aperti (art. 52 del Codice dell&apos;amministrazione digitale). I CAP vengono da
+          Wikidata (CC0); la circoscrizione dei consiglieri regionali e degli eurodeputati è ricavata da{" "}
+          <a href="https://it.wikipedia.org" target="_blank" rel="noreferrer" className="text-accent underline">
+            Wikipedia
+          </a>{" "}
+          (testi con licenza{" "}
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.it" target="_blank" rel="noreferrer" className="text-accent underline">
+            CC BY-SA 4.0
+          </a>
+          ), verificata a mano.
         </p>
       </section>
 
