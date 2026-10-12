@@ -50,7 +50,19 @@ async function download(name, url, { binary = false, headers = {}, accetta404 = 
   const file = path.join(RAW, name);
   if (!REFRESH && fs.existsSync(file)) return binary ? fs.readFileSync(file) : fs.readFileSync(file, "utf8");
   console.log(`  ↓ ${name}`);
-  const res = await fetch(url, { headers: { "User-Agent": UA, ...headers } });
+  // I siti pubblici a volte sono lenti o sovraccarichi: fino a tre tentativi se la rete cade o il server dà errore (5xx, 429).
+  let res;
+  for (let tentativo = 1; ; tentativo++) {
+    try {
+      res = await fetch(url, { headers: { "User-Agent": UA, ...headers } });
+      if (res.status < 500 && res.status !== 429) break;
+      if (tentativo === 3) break;
+    } catch (e) {
+      if (tentativo === 3) throw new Error(`${url} → ${e.message}`);
+    }
+    console.log(`    nuovo tentativo tra ${10 * tentativo} s`);
+    await sleep(10000 * tentativo);
+  }
   if (!res.ok && !(accetta404 && res.status === 404)) throw new Error(`${url} → HTTP ${res.status}`);
   const buf = Buffer.from(await res.arrayBuffer());
   fs.writeFileSync(file, buf);
