@@ -115,7 +115,7 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
       id: "parlamento",
       etichetta: "Parlamento",
       nome: deputatiU[0]?.nome ?? "—",
-      ruolo: deputatiU.length > 1 ? `e altri ${deputatiU.length - 1} deputati della città` : `${femminile(deputatiU[0]) ? "Deputata" : "Deputato"} della tua zona`,
+      ruolo: deputatiU.length > 2 ? `e altri ${deputatiU.length - 1} deputati della città` : deputatiU.length === 2 ? "e un altro deputato della città" : `${femminile(deputatiU[0]) ? "Deputata" : "Deputato"} della tua zona`,
       extra: senatoriU.length ? `Al Senato: ${senatoriU.map((p) => p.nome).join(", ")}` : "",
     },
     {

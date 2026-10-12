@@ -303,9 +303,19 @@ export async function elezioniPerComune({ RAW, REFRESH, UA, comuni, dataComunali
     const p = path.join(RAW, `fvg-${id}.json`);
     if (fs.existsSync(p)) return JSON.parse(fs.readFileSync(p, "utf8"));
     console.log(`  ↓ fvg-${id}.json (portale open data FVG)`);
-    const res = await fetch(`https://www.dati.friuliveneziagiulia.it/resource/${id}.json?$limit=50000`, { headers: { "User-Agent": UA } });
-    if (!res.ok) throw new Error(`FVG ${id} → HTTP ${res.status}`);
-    const d = await res.json();
+    // il portale a volte non risponde: fino a tre tentativi, a distanza di qualche secondo
+    let d;
+    for (let tentativo = 1; ; tentativo++) {
+      try {
+        const res = await fetch(`https://www.dati.friuliveneziagiulia.it/resource/${id}.json?$limit=50000`, { headers: { "User-Agent": UA } });
+        if (!res.ok) throw new Error(`FVG ${id} → HTTP ${res.status}`);
+        d = await res.json();
+        break;
+      } catch (e) {
+        if (tentativo === 3) throw e;
+        await new Promise((r) => setTimeout(r, 5000 * tentativo));
+      }
+    }
     fs.writeFileSync(p, JSON.stringify(d));
     return d;
   };

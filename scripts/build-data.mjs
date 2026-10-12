@@ -1119,6 +1119,24 @@ const dataComunali = new Map(
   }),
 );
 const elezioni = await elezioniPerComune({ RAW, REFRESH, UA, comuni, dataComunali, warn });
+// Rete di sicurezza: i risultati sono storici. Se questa settimana una fonte non risponde e un'elezione sparisce,
+// teniamo quella della pubblicazione precedente invece di toglierla (per le comunali solo se il comune non ha rivotato).
+for (const c of comuni) {
+  let prima;
+  try {
+    prima = JSON.parse(fs.readFileSync(path.join(OUT, "comuni", `${c.istat}.json`), "utf8")).elezioni ?? [];
+  } catch {
+    continue;
+  }
+  const ora = elezioni.get(c.istat) ?? [];
+  for (const e of prima) {
+    if (ora.some((x) => x.id === e.id)) continue;
+    if (e.id === "comunali" && !e.data?.endsWith(dataComunali.get(c.istat)?.slice(-4) ?? "—")) continue;
+    ora.push(e);
+    warnGruppo("Risultati elettorali della settimana scorsa mantenuti (fonte non raggiungibile)", `${c.nome}: ${e.titolo.toLowerCase()}`);
+  }
+  elezioni.set(c.istat, ora);
+}
 console.log(`  Comunali per ${[...elezioni.values()].filter((e) => e.some((x) => x.id === "comunali")).length} comuni`);
 
 // ---------------------------------------------------------------- 7. Output

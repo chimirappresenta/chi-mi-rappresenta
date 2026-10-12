@@ -26,11 +26,14 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      # Risultati elettorali già estratti: sono storici, li teniamo in cache tra un'esecuzione e l'altra.
+      # Risultati elettorali già estratti (anche quelli del Friuli-Venezia Giulia): sono storici, li teniamo in cache tra un'esecuzione e l'altra.
       - uses: actions/cache@v4
         with:
-          path: data/raw/elezioni-*.json
-          key: elezioni-v1
+          path: |
+            data/raw/elezioni-*.json
+            data/raw/fvg-*.json
+          key: elezioni-v2
+          restore-keys: elezioni-
       - run: npm run data:refresh
       # Riassunti delle nuove leggi: solo se nei secrets del repository c'è ANTHROPIC_API_KEY.
       - name: Riassunti delle leggi
