@@ -107,7 +107,7 @@
    "nome": "Risultati delle elezioni per comune (open data)",
    "ente": "Ministero dell'Interno – DAIT (Eligendo)",
    "url": "https://elezionistorico.interno.gov.it/eligendo/opendata.php",
-   "raccolto": "2026-10-04"
+   "raccolto": "2026-10-12"
   },
   {
    "id": "wiki-regionali",
@@ -122,7 +122,6 @@
   "Senato LOMBARDIA - U06: eletto nel 2022 Silvio Berlusconi, oggi Adriano Galliani (elezione suppletiva o subentro)",
   "Senatori senza email in data/manual/senatori-email.json: 4 (Maurizio Gasparri, Ignazio Zullo, Dario Parrini, Roberto Maria Ferdinando Scarpinato)",
   "Comunali del 17/05/2026: tornata nuova, aggiungerla a TORNATE in scripts/elezioni.mjs",
-  "Comunali FVG 2021: fetch failed",
   "Elezioni politiche 2022: nessun dato per 11 comuni (Bardello con Malgesso e Bregano, Calliano Monferrato, Campospinoso Albaredo, Grana Monferrato, Montagna sulla strada del vino, Montemagno Monferrato, Moransengo-Tonengo, Popoli Terme, …)",
   "Elezioni comunali 26/05/2019: 17 comuni non riconosciuti (CARCERI (VENETO), MONTECOPIOLO (MARCHE), GRANA (PIEMONTE), ALBAREDO ARNABOLDI (LOMBARDIA), CAMPOSPINOSO (LOMBARDIA), MONTEMAGNO (PIEMONTE), …)",
   "Elezioni comunali 20/09/2020: 1 comuni non riconosciuti (VIGHIZZOLO D'ESTE (VENETO))",
