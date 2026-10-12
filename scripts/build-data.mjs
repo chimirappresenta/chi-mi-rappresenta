@@ -977,6 +977,20 @@ for (const tipo of TIPI_ATTO) {
   }
 }
 // La stessa scheda può comparire su più pagine se nel frattempo ne arrivano di nuove: teniamo la prima.
+// Rete di sicurezza: nella legislatura gli atti si aggiungono e non spariscono. Se il sito del Consiglio è sovraccarico
+// e restituisce pagine vuote, recuperiamo dalla pubblicazione precedente gli atti che mancano (quelli nuovi hanno la precedenza).
+try {
+  const attiPrima = JSON.parse(fs.readFileSync(path.join(OUT, "consiglio.json"), "utf8")).atti ?? [];
+  const ids = new Set(atti.map((a) => a.id));
+  const recuperati = attiPrima.filter((a) => !ids.has(a.id));
+  if (recuperati.length) {
+    atti.push(...recuperati);
+    const perTipo = Object.entries(Object.groupBy(recuperati, (a) => a.tipo)).map(([t, l]) => `${t}: ${l.length}`);
+    warn(`Atti del Consiglio non letti dal sito e mantenuti dalla pubblicazione precedente (${perTipo.join(", ")})`);
+  }
+} catch {
+  // prima pubblicazione: niente da recuperare
+}
 const attiUnici = [...new Map(atti.map((a) => [a.id, a])).values()]
   .filter((a) => a.data >= INIZIO_LEGISLATURA)
   .sort((a, b) => b.data.localeCompare(a.data) || b.numero - a.numero);
