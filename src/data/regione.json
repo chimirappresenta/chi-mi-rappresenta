@@ -686,7 +686,7 @@
   {
    "nome": "Raffaele Maria Pisacane",
    "ruolo": "Consigliere regionale",
-   "dettaglio": "Gruppo: Fratelli D'Italia · Partito: Centro Democratico",
+   "dettaglio": "Gruppo: Fratelli D'Italia (capogruppo)",
    "email": "pisacane.raf@cr.campania.it",
    "pec": "pisacane.raf@pec.cr.campania.it",
    "tel": "0817783273",
@@ -700,7 +700,8 @@
    "url": "https://www.cr.campania.it/scheda-personale/consigliere/Pisacane%20Raffaele%20Maria?username=PISACANE.RAF&id_tipo_carica=7",
    "circoscrizione": "Napoli",
    "username": "PISACANE.RAF",
-   "gruppo": "Fratelli D'Italia"
+   "gruppo": "Fratelli D'Italia",
+   "ruoloGruppo": "capogruppo"
   },
   {
    "nome": "Giovanni Porcelli",
@@ -796,7 +797,7 @@
   {
    "nome": "Gennaro Sangiuliano",
    "ruolo": "Consigliere regionale",
-   "dettaglio": "Gruppo: Fratelli D'Italia (capogruppo)",
+   "dettaglio": "Gruppo: Fratelli D'Italia",
    "email": "sangiuliano.gen@cr.campania.it",
    "pec": "sangiuliano.gen@pec.cr.campania.it",
    "tel": "0817783178",
@@ -808,8 +809,7 @@
    "url": "https://www.cr.campania.it/scheda-personale/consigliere/Sangiuliano%20Gennaro%20?username=SANGIULIANO.GEN&id_tipo_carica=7",
    "circoscrizione": "Napoli",
    "username": "SANGIULIANO.GEN",
-   "gruppo": "Fratelli D'Italia",
-   "ruoloGruppo": "capogruppo"
+   "gruppo": "Fratelli D'Italia"
   },
   {
    "nome": "Vincenzo Santangelo",

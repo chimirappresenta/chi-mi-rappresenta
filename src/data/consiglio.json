@@ -30,13 +30,121 @@
  ],
  "atti": [
   {
+   "id": "interrogazione-125",
+   "tipo": "interrogazione",
+   "numero": 125,
+   "data": "2026-10-09",
+   "titolo": "Proroga delle graduatorie concorsuali dirigenziali ex art. 27 L.R. n. 2/2026 e prosecuzione degli incarichi dirigenziali ad interim di cui alla D.G.R. n. 517 del 24 settembre 2026 – contraddittorietà dell’azione amministrativa rispetto alla finalità legislativa, adeguatezza della motivazione e possibili profili di eccesso di potere e sviamento",
+   "firmatari": [
+    {
+     "nome": "Roberto Celano",
+     "username": "CELANO.ROB"
+    }
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/attivita-consigliere/interrogazioni-presentate/dettaglio-documento?id=36091"
+  },
+  {
+   "id": "interrogazione-124",
+   "tipo": "interrogazione",
+   "numero": 124,
+   "data": "2026-10-09",
+   "titolo": "Iniziative per la governance regionale e la logistica del test di biopsia liquida per la mutazione ESR1 nel carcinoma mammario metastatico, a garanzia di equità di accesso, tempestività e qualità",
+   "firmatari": [
+    {
+     "nome": "Michela Rostan",
+     "username": "ROSTAN.MIC"
+    }
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/attivita-consigliere/interrogazioni-presentate/dettaglio-documento?id=36090"
+  },
+  {
+   "id": "pdl-77",
+   "tipo": "pdl",
+   "numero": 77,
+   "data": "2026-10-09",
+   "titolo": "Regolamento di attuazione della legge regionale 16 ottobre 2025, n. 21 (Disposizioni in materia di agricoltura sociale, fattorie sociali, bonifica e in materia di lavoro e formazione professionale). Delibera di Giunta regionale n. 547 del 08/10/2026",
+   "firmatari": [],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/attivita-consigliere/progetti-legge/dettaglio-documento?id=36089"
+  },
+  {
+   "id": "interrogazione-122",
+   "tipo": "interrogazione",
+   "numero": 122,
+   "data": "2026-10-08",
+   "titolo": "Comunità Montana del Partenio Vallo Lauro/ modalità di assunzione degli operai idraulico-forestali",
+   "firmatari": [
+    {
+     "nome": "Livio Petitto",
+     "username": "PETITTO.LIV"
+    }
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/attivita-consigliere/interrogazioni-presentate/dettaglio-documento?id=36076"
+  },
+  {
+   "id": "interrogazione-121",
+   "tipo": "interrogazione",
+   "numero": 121,
+   "data": "2026-10-08",
+   "titolo": "Gestione delle risorse economiche e professionali del Servizio Sanitario Regionale nel territorio casertano (ASL Caserta e AORN Sant’Anna e San Sebastiano) utilizzo del personale sanitario, ricorso a lavoro aggiuntivo, acquisto di servizi sanitari e rapporti con il privato accreditato",
+   "firmatari": [
+    {
+     "nome": "Rosario Andreozzi",
+     "username": "ANDREOZZI.ROS"
+    },
+    {
+     "nome": "Carlo Ceparano",
+     "username": "CEPARANO.CAR"
+    }
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/attivita-consigliere/interrogazioni-presentate/dettaglio-documento?id=36074"
+  },
+  {
+   "id": "interrogazione-120",
+   "tipo": "interrogazione",
+   "numero": 120,
+   "data": "2026-10-08",
+   "titolo": "Ampliamento della fascia d'età per lo screening mammografico regionale (45-74 anni)",
+   "firmatari": [
+    {
+     "nome": "Carlo Ceparano",
+     "username": "CEPARANO.CAR"
+    }
+   ],
+   "url": "https://www.cr.campania.it/scheda-personale/consigliere/attivita-consigliere/interrogazioni-presentate/dettaglio-documento?id=36073"
+  },
+  {
    "id": "risoluzione-78",
    "tipo": "risoluzione",
    "numero": 78,
    "data": "2026-10-02",
    "titolo": "Fiume Sarno - accelerazione degli interventi di risanamento ambientale, sicurezza idraulica, manutenzione e messa in sicurezza del bacino idrografico; completamento del sistema fognario-depurativo, dragaggio complessivo, sistema integrato delle vasche di esondazione e laminazione, sistema integrato di sorveglianza ambientale del bacino",
    "esito": "approvata",
-   "firmatari": [],
+   "firmatari": [
+    {
+     "nome": "Salvatore Flocco",
+     "username": "FLOCCO.SAL"
+    },
+    {
+     "nome": "Vincenzo Alaia",
+     "username": "ALAIA.VIN"
+    },
+    {
+     "nome": "Rosario Andreozzi",
+     "username": "ANDREOZZI.ROS"
+    },
+    {
+     "nome": "Gennaro Saiello",
+     "username": "SAIELLO.GEN"
+    },
+    {
+     "nome": "Andrea Volpe",
+     "username": "VOLPE.AND"
+    },
+    {
+     "nome": "Giovanni Porcelli",
+     "username": "PORCELLI.GIO"
+    }
+   ],
    "url": "https://www.cr.campania.it/scheda-personale/consigliere/attivita-consigliere/risoluzioni/dettaglio-documento?id=36046"
   },
   {
@@ -382,50 +490,64 @@
    "numero": 74,
    "data": "2026-09-24",
    "titolo": "Iniziative urgenti in favore del mantenimento dei Punti Nascita dei Presidi Ospedalieri di Sapri (SA), Sessa Aurunca (CE) e Piedimonte Matese (CE), in piena attuazione della Legge Regionale n. 11/2025, a seguito della sentenza del T.A.R. Campania n. 5279/2026 e in continuità con la Risoluzione della V Commissione Consiliare Permanente \"Sanità e Sicurezza Sociale\" del 21 maggio 2026",
+   "esito": "approvata",
+   "esitoData": "5 ottobre 2026",
    "firmatari": [
     {
      "nome": "Francesco Picarone",
      "username": "PICARONE.FRA"
     },
     {
-     "nome": "Gennaro Oliviero",
-     "username": "OLIVIERO.GEN"
+     "nome": "Giovanni Iovino",
+     "username": "IOVINO.GIO"
     },
     {
-     "nome": "Carmela Fiola",
-     "username": "FIOLA.CAR"
-    },
-    {
-     "nome": "Francesca Amirante",
-     "username": "AMIRANTE.FRA"
-    },
-    {
-     "nome": "Salvatore Madonna",
-     "username": "MADONNA.SAL"
-    },
-    {
-     "nome": "Marco Villano",
-     "username": "VILLANO.MAR"
-    },
-    {
-     "nome": "Loredana Raia",
-     "username": "RAIA.LOR"
-    },
-    {
-     "nome": "Maurizio Petracca",
-     "username": "PETRACCA.MAU"
+     "nome": "Andrea Volpe",
+     "username": "VOLPE.AND"
     },
     {
      "nome": "Corrado Matera",
      "username": "MATERA.COR"
     },
     {
+     "nome": "Maurizio Petracca",
+     "username": "PETRACCA.MAU"
+    },
+    {
      "nome": "Massimiliano Manfredi",
      "username": "MANFREDI.MAS"
     },
     {
+     "nome": "Marco Villano",
+     "username": "VILLANO.MAR"
+    },
+    {
      "nome": "Giorgio Zinno",
      "username": "ZINNO.GIO"
+    },
+    {
+     "nome": "Salvatore Madonna",
+     "username": "MADONNA.SAL"
+    },
+    {
+     "nome": "Francesca Amirante",
+     "username": "AMIRANTE.FRA"
+    },
+    {
+     "nome": "Carmela Fiola",
+     "username": "FIOLA.CAR"
+    },
+    {
+     "nome": "Gennaro Oliviero",
+     "username": "OLIVIERO.GEN"
+    },
+    {
+     "nome": "Raffaele Aveta",
+     "username": "AVETA.RAF"
+    },
+    {
+     "nome": "Loredana Raia",
+     "username": "RAIA.LOR"
     }
    ],
    "url": "https://www.cr.campania.it/scheda-personale/consigliere/attivita-consigliere/mozioni/dettaglio-documento?id=35986"
@@ -725,70 +847,28 @@
    "numero": 70,
    "data": "2026-09-24",
    "titolo": "Divieto all'uso del burqa e del niqab",
+   "esito": "non-approvata",
+   "esitoData": "5 ottobre 2026",
    "firmatari": [
     {
      "nome": "Gennaro Sangiuliano",
      "username": "SANGIULIANO.GEN"
     },
     {
-     "nome": "Assunta Panico",
-     "username": "PANICO.ASS"
-    },
-    {
-     "nome": "Livio Petitto",
-     "username": "PETITTO.LIV"
-    },
-    {
-     "nome": "Raffaele Maria Pisacane",
-     "username": "PISACANE.RAF"
+     "nome": "Michela Rostan",
+     "username": "ROSTAN.MIC"
     },
     {
      "nome": "Leonilde Romano",
      "username": "ROMANO.LEA"
     },
     {
-     "nome": "Michela Rostan",
-     "username": "ROSTAN.MIC"
+     "nome": "Raffaele Maria Pisacane",
+     "username": "PISACANE.RAF"
     },
     {
-     "nome": "Vincenzo Santangelo",
-     "username": "SANTANGELO.VIN"
-    },
-    {
-     "nome": "Ettore Zecchino",
-     "username": "ZECCHINO.ETT"
-    },
-    {
-     "nome": "Roberto Celano",
-     "username": "CELANO.ROB"
-    },
-    {
-     "nome": "Fernando Errico",
-     "username": "ERRICO.FER"
-    },
-    {
-     "nome": "Giuseppe Fabbricatore",
-     "username": "FABBRICATORE.GIU"
-    },
-    {
-     "nome": "Palmira Fele",
-     "username": "FELE.PAL"
-    },
-    {
-     "nome": "Massimo Grimaldi",
-     "username": "GRIMALDI.MAS"
-    },
-    {
-     "nome": "Francesco Iovino",
-     "username": "IOVINO.FRA"
-    },
-    {
-     "nome": "Mimì Minella",
-     "username": "MINELLA.MIM"
-    },
-    {
-     "nome": "Sebastiano Odierna",
-     "username": "ODIERNA.SEB"
+     "nome": "Livio Petitto",
+     "username": "PETITTO.LIV"
     },
     {
      "nome": "Massimo Pelliccia",
@@ -797,6 +877,50 @@
     {
      "nome": "Angela Parente",
      "username": "PARENTE.ANG"
+    },
+    {
+     "nome": "Assunta Panico",
+     "username": "PANICO.ASS"
+    },
+    {
+     "nome": "Sebastiano Odierna",
+     "username": "ODIERNA.SEB"
+    },
+    {
+     "nome": "Mimì Minella",
+     "username": "MINELLA.MIM"
+    },
+    {
+     "nome": "Francesco Iovino",
+     "username": "IOVINO.FRA"
+    },
+    {
+     "nome": "Massimo Grimaldi",
+     "username": "GRIMALDI.MAS"
+    },
+    {
+     "nome": "Palmira Fele",
+     "username": "FELE.PAL"
+    },
+    {
+     "nome": "Giuseppe Fabbricatore",
+     "username": "FABBRICATORE.GIU"
+    },
+    {
+     "nome": "Fernando Errico",
+     "username": "ERRICO.FER"
+    },
+    {
+     "nome": "Roberto Celano",
+     "username": "CELANO.ROB"
+    },
+    {
+     "nome": "Ettore Zecchino",
+     "username": "ZECCHINO.ETT"
+    },
+    {
+     "nome": "Vincenzo Santangelo",
+     "username": "SANTANGELO.VIN"
     }
    ],
    "url": "https://www.cr.campania.it/scheda-personale/consigliere/attivita-consigliere/mozioni/dettaglio-documento?id=35970"
@@ -1802,6 +1926,10 @@
     {
      "nome": "Rosario Andreozzi",
      "username": "ANDREOZZI.ROS"
+    },
+    {
+     "nome": "Andrea Volpe",
+     "username": "VOLPE.AND"
     }
    ],
    "url": "https://www.cr.campania.it/scheda-personale/consigliere/attivita-consigliere/progetti-legge/dettaglio-documento?id=35739"
@@ -6699,6 +6827,102 @@
   }
  ],
  "attivita": {
+  "CELANO.ROB": {
+   "totale": 30,
+   "primoFirmatario": 19,
+   "perTipo": {
+    "interrogazione": 19,
+    "question-time": 3,
+    "mozione": 5,
+    "risoluzione": 2,
+    "pdl": 1
+   }
+  },
+  "ROSTAN.MIC": {
+   "totale": 28,
+   "primoFirmatario": 15,
+   "perTipo": {
+    "interrogazione": 14,
+    "pdl": 4,
+    "mozione": 8,
+    "risoluzione": 2
+   }
+  },
+  "PETITTO.LIV": {
+   "totale": 15,
+   "primoFirmatario": 1,
+   "perTipo": {
+    "interrogazione": 4,
+    "pdl": 3,
+    "mozione": 6,
+    "risoluzione": 2
+   }
+  },
+  "ANDREOZZI.ROS": {
+   "totale": 23,
+   "primoFirmatario": 11,
+   "perTipo": {
+    "interrogazione": 3,
+    "risoluzione": 3,
+    "mozione": 12,
+    "pdl": 5
+   }
+  },
+  "CEPARANO.CAR": {
+   "totale": 30,
+   "primoFirmatario": 16,
+   "perTipo": {
+    "interrogazione": 11,
+    "mozione": 12,
+    "pdl": 6,
+    "question-time": 1
+   }
+  },
+  "FLOCCO.SAL": {
+   "totale": 19,
+   "primoFirmatario": 1,
+   "perTipo": {
+    "risoluzione": 1,
+    "pdl": 10,
+    "mozione": 8
+   }
+  },
+  "ALAIA.VIN": {
+   "totale": 11,
+   "primoFirmatario": 1,
+   "perTipo": {
+    "risoluzione": 3,
+    "pdl": 3,
+    "mozione": 4,
+    "interrogazione": 1
+   }
+  },
+  "SAIELLO.GEN": {
+   "totale": 22,
+   "primoFirmatario": 5,
+   "perTipo": {
+    "risoluzione": 1,
+    "pdl": 12,
+    "mozione": 9
+   }
+  },
+  "VOLPE.AND": {
+   "totale": 7,
+   "primoFirmatario": 0,
+   "perTipo": {
+    "risoluzione": 3,
+    "mozione": 2,
+    "pdl": 2
+   }
+  },
+  "PORCELLI.GIO": {
+   "totale": 14,
+   "primoFirmatario": 10,
+   "perTipo": {
+    "risoluzione": 1,
+    "pdl": 13
+   }
+  },
   "ROMANO.LEA": {
    "totale": 25,
    "primoFirmatario": 1,
@@ -6741,17 +6965,6 @@
     "mozione": 6,
     "interrogazione": 6,
     "risoluzione": 2
-   }
-  },
-  "CELANO.ROB": {
-   "totale": 29,
-   "primoFirmatario": 18,
-   "perTipo": {
-    "question-time": 3,
-    "interrogazione": 18,
-    "mozione": 5,
-    "risoluzione": 2,
-    "pdl": 1
    }
   },
   "MENSORIO.GIO": {
@@ -6857,13 +7070,6 @@
     "interrogazione": 6
    }
   },
-  "PORCELLI.GIO": {
-   "totale": 13,
-   "primoFirmatario": 10,
-   "perTipo": {
-    "pdl": 13
-   }
-  },
   "PANICO.ASS": {
    "totale": 21,
    "primoFirmatario": 4,
@@ -6872,16 +7078,6 @@
     "pdl": 2,
     "mozione": 5,
     "question-time": 4,
-    "risoluzione": 2
-   }
-  },
-  "ROSTAN.MIC": {
-   "totale": 27,
-   "primoFirmatario": 14,
-   "perTipo": {
-    "interrogazione": 13,
-    "pdl": 4,
-    "mozione": 8,
     "risoluzione": 2
    }
   },
@@ -6968,42 +7164,20 @@
     "risoluzione": 1
    }
   },
-  "ANDREOZZI.ROS": {
-   "totale": 21,
-   "primoFirmatario": 10,
+  "IOVINO.GIO": {
+   "totale": 2,
+   "primoFirmatario": 0,
    "perTipo": {
-    "mozione": 12,
-    "pdl": 5,
-    "risoluzione": 2,
-    "interrogazione": 2
-   }
-  },
-  "CEPARANO.CAR": {
-   "totale": 28,
-   "primoFirmatario": 15,
-   "perTipo": {
-    "mozione": 12,
-    "pdl": 6,
-    "interrogazione": 9,
-    "question-time": 1
-   }
-  },
-  "ALAIA.VIN": {
-   "totale": 10,
-   "primoFirmatario": 1,
-   "perTipo": {
-    "pdl": 3,
-    "mozione": 4,
-    "risoluzione": 2,
-    "interrogazione": 1
+    "mozione": 1,
+    "pdl": 1
    }
   },
   "AVETA.RAF": {
-   "totale": 25,
+   "totale": 26,
    "primoFirmatario": 10,
    "perTipo": {
-    "pdl": 14,
-    "mozione": 11
+    "mozione": 12,
+    "pdl": 14
    }
   },
   "BARRA.GIU": {
@@ -7060,14 +7234,6 @@
     "pdl": 1
    }
   },
-  "FLOCCO.SAL": {
-   "totale": 18,
-   "primoFirmatario": 0,
-   "perTipo": {
-    "pdl": 10,
-    "mozione": 8
-   }
-  },
   "GRIMALDI.MAS": {
    "totale": 17,
    "primoFirmatario": 3,
@@ -7088,13 +7254,6 @@
     "interrogazione": 8
    }
   },
-  "IOVINO.GIO": {
-   "totale": 1,
-   "primoFirmatario": 0,
-   "perTipo": {
-    "pdl": 1
-   }
-  },
   "MASTELLA.PEL": {
    "totale": 15,
    "primoFirmatario": 8,
@@ -7102,24 +7261,6 @@
     "pdl": 5,
     "mozione": 6,
     "interrogazione": 4
-   }
-  },
-  "PETITTO.LIV": {
-   "totale": 14,
-   "primoFirmatario": 0,
-   "perTipo": {
-    "pdl": 3,
-    "mozione": 6,
-    "interrogazione": 3,
-    "risoluzione": 2
-   }
-  },
-  "SAIELLO.GEN": {
-   "totale": 21,
-   "primoFirmatario": 5,
-   "perTipo": {
-    "pdl": 12,
-    "mozione": 9
    }
   },
   "SIMEONE.GAE": {
@@ -7166,15 +7307,6 @@
    "perTipo": {
     "pdl": 3,
     "mozione": 3
-   }
-  },
-  "VOLPE.AND": {
-   "totale": 4,
-   "primoFirmatario": 0,
-   "perTipo": {
-    "risoluzione": 2,
-    "mozione": 1,
-    "pdl": 1
    }
   }
  }
