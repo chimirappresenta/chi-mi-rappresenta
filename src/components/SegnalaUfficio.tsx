@@ -2,6 +2,7 @@
 
 import { useId, useState } from "react";
 import type { Ufficio } from "@/lib/types";
+import { InviaEmail } from "./InviaEmail";
 
 const DA_QUANDO = ["Da oggi", "Da qualche giorno", "Da qualche settimana", "Da mesi"];
 
@@ -53,7 +54,6 @@ export function SegnalaUfficio({
   ]
     .filter((r, i, a) => r !== "" || (a[i - 1] !== "" && i < a.length - 1))
     .join("\n");
-  const href = `mailto:${indirizzo}?subject=${encodeURIComponent(oggetto)}&body=${encodeURIComponent(corpo)}`;
 
   if (!aperto)
     return (
@@ -124,14 +124,15 @@ export function SegnalaUfficio({
           <strong>Allega una foto</strong> al messaggio prima di inviarlo: aiuta l&apos;ufficio a capire subito il problema.
         </span>
       </p>
-      <a href={href} data-umami-event="segnalazione-ufficio-invia" className="mt-4 flex min-h-11 items-center justify-center rounded-full bg-accent px-5 text-base font-semibold text-accent-ink hover:opacity-90">
-        Apri il messaggio nella tua email
-      </a>
-      <p className="mt-2 text-sm text-ink-3">
-        Destinatario: {indirizzo}
-        {!ufficio?.email && " (posta certificata: se non accetta email normali, usa il modulo sul sito del Comune)"}. Il messaggio lo invii tu: questo
-        sito non salva nulla.
-      </p>
+      <InviaEmail
+        a={indirizzo}
+        oggetto={oggetto}
+        corpo={corpo}
+        pec={!ufficio?.email}
+        alternativaPec={<>inviala dalla tua PEC oppure usa il modulo per le segnalazioni sul sito del Comune.</>}
+        evento="segnalazione-ufficio-invia"
+      />
+      <p className="mt-2 text-sm text-ink-3">Destinatario: {indirizzo}. Il messaggio lo invii tu: questo sito non salva nulla.</p>
       <button type="button" onClick={() => setAperto(false)} className="mt-2 min-h-11 rounded-full px-3 text-base text-ink-2 underline hover:bg-surface-2">
         Chiudi il modulo
       </button>

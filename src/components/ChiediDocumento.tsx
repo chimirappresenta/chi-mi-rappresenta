@@ -1,7 +1,7 @@
 "use client";
 
 import { useId, useState, useSyncExternalStore } from "react";
-import { CopiaTesto } from "./CopiaTesto";
+import { InviaEmail } from "./InviaEmail";
 
 export type EnteAccesso = { id: string; nome: string; pec: string; descrizione: string };
 
@@ -99,7 +99,6 @@ export function ChiediDocumento({ enti: entiBase, luogo, altroEnte = false }: { 
     "",
     nome || "[Nome e cognome]",
   ].join("\n");
-  const href = `mailto:${ente.pec}?subject=${encodeURIComponent(oggetto)}&body=${encodeURIComponent(corpo)}`;
 
   const campo =
     "mt-1.5 w-full min-h-11 rounded-xl border border-line bg-surface px-3 py-2 text-base outline-none focus:border-accent focus:ring-4 focus:ring-accent/15";
@@ -228,22 +227,21 @@ export function ChiediDocumento({ enti: entiBase, luogo, altroEnte = false }: { 
               personale.
             </span>
           </p>
-          <div className="mt-4 flex flex-col gap-2 sm:flex-row sm:flex-wrap">
-            <a
-              href={ente.pec ? href : undefined}
-              aria-disabled={!ente.pec}
-              data-umami-event="documento-invia"
-              data-umami-event-ente={ente.id}
-              className="flex min-h-11 flex-1 aria-disabled:pointer-events-none aria-disabled:opacity-40 items-center justify-center rounded-full bg-accent px-5 text-base font-semibold text-accent-ink hover:opacity-90">
-              Apri nella tua email
-            </a>
-            <CopiaTesto testo={corpo} etichetta="Copia il testo" evento="documento-copia" />
-          </div>
-          <p className="mt-2 text-sm text-ink-3">
-            L&apos;indirizzo è una PEC: alcune accettano solo messaggi da altre PEC. Se il messaggio torna indietro, usa il modulo per
-            l&apos;accesso civico sul sito dell&apos;ente (sezione &quot;Amministrazione trasparente&quot;) o consegna la richiesta stampata
-            all&apos;ufficio protocollo.
-          </p>
+          <InviaEmail
+            a={ente.pec}
+            oggetto={oggetto}
+            corpo={corpo}
+            pec
+            disattivato={!ente.pec}
+            alternativaPec={
+              <>
+                inviala dalla tua PEC, usa il modulo per l&apos;accesso civico sul sito dell&apos;ente (sezione &quot;Amministrazione
+                trasparente&quot;) oppure consegna la richiesta stampata all&apos;ufficio protocollo.
+              </>
+            }
+            evento="documento-invia"
+            datiEvento={{ ente: ente.id }}
+          />
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import { useId, useState } from "react";
+import { InviaEmail } from "./InviaEmail";
 
 /** Che tipo di eletto: cambia cosa gli si può chiedere di fare. */
 export type TipoDestinatario = "sindaco" | "consigliere-regionale" | "deputato" | "senatore" | "eurodeputato";
@@ -133,15 +134,7 @@ export function ScriviA({ nome, tipo, email, pec, modulo, allaCortese, comune: c
 
       {href ? (
         <>
-          <a href={href} data-umami-event="scrivi-invia" data-umami-event-a={tipo} className="mt-5 flex min-h-11 items-center justify-center rounded-full bg-accent px-5 text-base font-semibold text-accent-ink hover:opacity-90">
-            Apri il messaggio nella tua email
-          </a>
-          {!email && pec && (
-            <p className="mt-2 text-sm text-ink-3">
-              L&apos;indirizzo è una PEC (posta certificata): alcune PEC non accettano email normali. In quel caso usa i contatti sul sito
-              ufficiale.
-            </p>
-          )}
+          <InviaEmail a={indirizzo!} oggetto={oggetto} corpo={corpo} pec={!email && !!pec} evento="scrivi-invia" datiEvento={{ a: tipo }} />
         </>
       ) : (
         <div className="mt-5 space-y-2">
