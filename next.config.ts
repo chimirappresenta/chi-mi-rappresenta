@@ -12,6 +12,13 @@ const nextConfig: NextConfig = {
   // i vecchi indirizzi (già condivisi) portano a quelli nuovi.
   async redirects() {
     return [
+      // Il vecchio indirizzo su Vercel porta al dominio ufficiale (anche i link già condivisi).
+      {
+        source: "/:percorso*",
+        has: [{ type: "host", value: "chi-mi-rappresenta.vercel.app" }],
+        destination: "https://chimirappresenta.com/:percorso*",
+        permanent: true,
+      },
       { source: "/regione/attivita", destination: "/regione/campania/attivita/", permanent: true },
       { source: "/regione/leggi", destination: "/regione/campania/leggi/", permanent: true },
       { source: "/regione/consiglieri/:percorso*", destination: "/regione/campania/consiglieri/:percorso*/", permanent: true },

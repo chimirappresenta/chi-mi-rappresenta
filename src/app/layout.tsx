@@ -121,7 +121,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
                 errori, verifica sempre la fonte ufficiale. Il sito non fornisce consulenza.
               </p>
               <p className="shrink-0">
-                Sito ufficiale: <span className="font-medium text-ink-2">chi-mi-rappresenta.vercel.app</span>
+                Sito ufficiale: <span className="font-medium text-ink-2">chimirappresenta.com</span>
               </p>
             </div>
           </div>

@@ -4,7 +4,7 @@ Scrivi il tuo comune e scopri chi ti rappresenta a ogni livello: **Comune, Regio
 
 Copre **tutta Italia** (7.896 comuni); la **Campania** ha in più il Consiglio regionale "in chiaro" (atti, leggi spiegate, mappa dei consiglieri). Si ispira a *Find your representative* (USA) e *WriteToThem* (UK), ed è complementare a [DoveVannoINostriSoldi](https://www.dovevannoinostrisoldi.com): loro coprono politica nazionale e spesa, noi il percorso *territorio → persone*.
 
-> **Sito ufficiale: [chi-mi-rappresenta.vercel.app](https://chi-mi-rappresenta.vercel.app)** (in futuro chi-mi-rappresenta.it). Il codice è libero (licenza MIT) ma il nome e l'identità del progetto no: copie pubblicate ad altri indirizzi non sono gestite da noi e non ne garantiamo i dati. Le modifiche a questo repository le fa solo chi gestisce il progetto; chiunque può proporre correzioni con una segnalazione.
+> **Sito ufficiale: [chimirappresenta.com](https://chimirappresenta.com)** (il vecchio indirizzo chi-mi-rappresenta.vercel.app rimanda qui). Il codice è libero (licenza MIT) ma il nome e l'identità del progetto no: copie pubblicate ad altri indirizzi non sono gestite da noi e non ne garantiamo i dati. Le modifiche a questo repository le fa solo chi gestisce il progetto; chiunque può proporre correzioni con una segnalazione.
 
 ## Come funziona
 
@@ -42,7 +42,7 @@ I file in `data/manual/` sono curati a mano: la pipeline li confronta con le fon
 ## Condivisione e contatti
 
 - **Scrivi al tuo consigliere**: nella scheda di ogni consigliere (pannello dell'emiciclo e pagina completa) c'è un modulo che prepara un'email con oggetto e traccia del messaggio e la apre nel programma di posta dell'utente. Il sito non invia e non salva nulla.
-- **Immagini di anteprima**: ogni comune e ogni consigliere ha un'immagine generata al build (`opengraph-image.tsx`, 1200×630) con i dati principali e l'emiciclo. Usano i font Instrument Serif e Geist in `assets/fonts/` (licenza OFL). In produzione va impostata la variabile `SITE_URL` (es. `https://chi-mi-rappresenta.it`); su Vercel si usa il dominio di produzione. 
+- **Immagini di anteprima**: ogni comune e ogni consigliere ha un'immagine generata al build (`opengraph-image.tsx`, 1200×630) con i dati principali e l'emiciclo. Usano i font Instrument Serif e Geist in `assets/fonts/` (licenza OFL). In produzione va impostata la variabile `SITE_URL` (es. `https://chimirappresenta.com`); su Vercel si usa il dominio di produzione. 
 
 ## Pensato per tutti
 

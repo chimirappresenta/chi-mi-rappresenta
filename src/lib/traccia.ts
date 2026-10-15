@@ -7,7 +7,7 @@ export const UMAMI_WEBSITE_ID = "a318ecf4-c620-4723-b236-d87174350ba4";
  * Solo il sito pubblicato viene contato: niente statistiche da localhost o dalle anteprime.
  * Il dominio .it è già incluso: quando sarà collegato, le visite si contano da subito nella stessa dashboard.
  */
-export const UMAMI_DOMINI = ["chi-mi-rappresenta.vercel.app", "chi-mi-rappresenta.it", "www.chi-mi-rappresenta.it"].join(",");
+export const UMAMI_DOMINI = ["chimirappresenta.com", "www.chimirappresenta.com", "chi-mi-rappresenta.vercel.app"].join(",");
 
 type Umami = { track: (evento: string, dati?: Record<string, string | number>) => void };
 
