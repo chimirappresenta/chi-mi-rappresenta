@@ -361,7 +361,7 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
                         <div className="rounded-2xl bg-[var(--lv-bg)] p-3">
                           <dt className="text-xs text-ink-2">Abitanti</dt>
                           <dd className="display text-2xl">{a.popolazione.toLocaleString("it-IT")}</dd>
-                          <dd className="text-xs text-ink-3">al voto del {a.dataElezione?.slice(-4)}</dd>
+                          <dd className="text-xs text-ink-3">popolazione ufficiale alle elezioni del {a.dataElezione?.slice(-4)}</dd>
                         </div>
                       )}
                       {numeri.etaMedia && (
