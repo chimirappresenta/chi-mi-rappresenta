@@ -6941,7 +6941,12 @@
    "oggetto": "Riconoscimento di debito fuori bilancio, ai sensi dell’articolo 73, comma 1, lettera a) del decreto legislativo 23 giugno 2011, n.118, come modificato dal decreto legislativo 10 agosto 2014, n. 126 e dal decreto-legge 30 aprile 2019, n. 34 convertito con modificazione dalla legge 28 giugno 2019, n. 58. Importo complessivo di euro 20.592,00. Delibera dell’Ufficio di Presidenza del 16 luglio 2026, n. 38",
    "url": "https://www.cr.campania.it/leggi-progetti/leggi-regolamenti/dettaglio-documento?id=36099",
    "pdf": "https://www.cr.campania.it/crccmsintegrationservices/rest/services/documentale/prendiDocumento?id=292816",
-   "relazione": "https://www.cr.campania.it/crccmsintegrationservices/rest/services/documentale/prendiAllegatoDocumento?id=447789"
+   "relazione": "https://www.cr.campania.it/crccmsintegrationservices/rest/services/documentale/prendiAllegatoDocumento?id=447789",
+   "riassunto": {
+    "testo": "Riconosce come regolare un debito di 20.592 euro del Consiglio regionale: è l'indennità non ancora pagata al Difensore civico per due periodi tra il 2017 e il 2018. I soldi vengono spostati da un fondo già previsto nel bilancio 2026 del Consiglio. È un atto contabile, che serve a poter pagare una spesa arretrata.",
+    "modello": "claude-opus-5-5",
+    "generato": "2026-10-16"
+   }
   },
   {
    "id": "2026-12",
@@ -6951,7 +6956,12 @@
    "oggetto": "Disposizioni per l’iscrizione delle persone senza fissa dimora nelle liste degli assistiti delle Aziende Sanitarie Locali (ASL) regionali",
    "url": "https://www.cr.campania.it/leggi-progetti/leggi-regolamenti/dettaglio-documento?id=36098",
    "pdf": "https://www.cr.campania.it/crccmsintegrationservices/rest/services/documentale/prendiDocumento?id=292804",
-   "relazione": "https://www.cr.campania.it/crccmsintegrationservices/rest/services/documentale/prendiAllegatoDocumento?id=406079"
+   "relazione": "https://www.cr.campania.it/crccmsintegrationservices/rest/services/documentale/prendiAllegatoDocumento?id=406079",
+   "riassunto": {
+    "testo": "Permette alle persone senza dimora che non hanno alcuna assistenza sanitaria di iscriversi a un'ASL della Campania e di scegliere un medico di famiglia. L'iscrizione parte da una segnalazione dei servizi sociali, con regole che la Giunta deve fissare entro 60 giorni. La Regione stanzia 300.000 euro l'anno per il 2026, 2027 e 2028 e può fare accordi con associazioni e Terzo settore per informare e aiutare le persone a iscriversi.",
+    "modello": "claude-opus-5-5",
+    "generato": "2026-10-16"
+   }
   },
   {
    "id": "2026-11",

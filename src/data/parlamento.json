@@ -3895,6 +3895,85 @@
    }
   },
   "proporzionale": {
+   "CAMPANIA": [
+    {
+     "nome": "Anna Bilotti",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32851",
+     "email": "anna.bilotti@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/32851"
+    },
+    {
+     "nome": "Dario Franceschini",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=5799",
+     "email": "dario.franceschini@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/5799"
+    },
+    {
+     "nome": "Domenico Matera",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36440",
+     "email": "domenico.matera@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/36440"
+    },
+    {
+     "nome": "Felicia Gaudiano",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32640",
+     "email": "felicia.gaudiano@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/32640"
+    },
+    {
+     "nome": "Francesco Silvestro",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36445",
+     "email": "francesco.silvestro@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/36445"
+    },
+    {
+     "nome": "Gianluca Cantalamessa",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32862",
+     "email": "gianluca.cantalamessa@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/32862"
+    },
+    {
+     "nome": "Luigi Nave",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36410",
+     "email": "luigi.nave@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/36410"
+    },
+    {
+     "nome": "Matteo Renzi",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=30742",
+     "email": "matteo.renzi@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/30742"
+    },
+    {
+     "nome": "Sergio Rastrelli",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36442",
+     "email": "sergio.rastrelli@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/36442"
+    },
+    {
+     "nome": "Susanna Lina Giulia Camusso",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36392",
+     "email": "susannalina.camusso@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/36392"
+    },
+    {
+     "nome": "Vincenza Aloisio",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36381",
+     "email": "vincenza.aloisio@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/36381"
+    }
+   ],
    "LOMBARDIA": [
     {
      "nome": "Adriano Paroli",
@@ -4037,83 +4116,115 @@
      "fonteUrl": "https://dati.senato.it/senatore/36437"
     }
    ],
-   "VENETO": [
+   "MARCHE": [
     {
-     "nome": "Adolfo Urso",
+     "nome": "Alberto Losacco",
      "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=2444",
-     "email": "adolfo.urso@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/2444"
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=18055",
+     "email": "alberto.losacco@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/18055"
     },
     {
-     "nome": "Andrea Martella",
+     "nome": "Guido Castelli",
      "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=17924",
-     "email": "andrea.martella@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/17924"
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36388",
+     "email": "guido.castelli@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/36388"
     },
     {
-     "nome": "Andrea Ostellari",
+     "nome": "Roberto Cataldi",
      "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32677",
-     "email": "andrea.ostellari@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/32677"
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=33065",
+     "email": "roberto.cataldi@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/33065"
+    }
+   ],
+   "ABRUZZO": [
+    {
+     "nome": "Etelwardo Sigismondi",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36424",
+     "email": "etelwardo.sigismondi@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/36424"
     },
     {
-     "nome": "Aurora Floridia",
+     "nome": "Gabriella Di Girolamo",
      "ruolo": "Senatrice eletta con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36399",
-     "email": "aurora.floridia@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/36399"
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32619",
+     "email": "gabriella.digirolamo@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/32619"
     },
     {
-     "nome": "Barbara Guidolin",
-     "ruolo": "Senatrice eletta con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32644",
-     "email": "barbara.guidolin@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/32644"
-    },
-    {
-     "nome": "Bartolomeo Amidei",
+     "nome": "Michele Fina",
      "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=31010",
-     "email": "bartolomeo.amidei@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/31010"
-    },
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=30294",
+     "email": "michele.fina@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/30294"
+    }
+   ],
+   "PIEMONTE": [
     {
-     "nome": "Beatrice Lorenzin",
+     "nome": "Anna Rossomando",
      "ruolo": "Senatrice eletta con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=25474",
-     "email": "beatrice.lorenzin@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/25474"
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=25411",
+     "email": "anna.rossomando@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/25411"
     },
     {
-     "nome": "Daniela Sbrollini",
+     "nome": "Elisa Pirro",
      "ruolo": "Senatrice eletta con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=25402",
-     "email": "daniela.sbrollini@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/25402"
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32691",
+     "email": "elisa.pirro@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/32691"
     },
     {
-     "nome": "Erika Stefani",
-     "ruolo": "Senatrice eletta con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=29185",
-     "email": "erika.stefani@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/29185"
-    },
-    {
-     "nome": "Matteo Gelmetti",
+     "nome": "Enrico Borghi",
      "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36433",
-     "email": "matteo.gelmetti@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/36433"
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=29293",
+     "email": "enrico.borghi@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/29293"
     },
     {
-     "nome": "Pierantonio Zanettin",
+     "nome": "Francesco Verducci",
      "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=17811",
-     "email": "pierantonio.zanettin@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/17811"
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=28924",
+     "email": "francesco.verducci@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/28924"
+    },
+    {
+     "nome": "Giorgio Salvitti",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36443",
+     "email": "giorgio.salvitti@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/36443"
+    },
+    {
+     "nome": "Ivan Scalfarotto",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=29573",
+     "email": "ivan.scalfarotto@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/29573"
+    },
+    {
+     "nome": "Lucio Malan",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=1407",
+     "email": "lucio.malan@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/1407"
+    },
+    {
+     "nome": "Massimo Garavaglia",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=22963",
+     "email": "massimo.garavaglia@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/22963"
+    },
+    {
+     "nome": "Roberto Rosso",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32779",
+     "email": "roberto.rosso@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/32779"
     }
    ],
    "LAZIO": [
@@ -4201,6 +4312,181 @@
      "fonteUrl": "https://dati.senato.it/senatore/32681"
     }
    ],
+   "PUGLIA": [
+    {
+     "nome": "Antonio Salvatore Trevisi",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36448",
+     "email": "antoniosalvatore.trevisi@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/36448"
+    },
+    {
+     "nome": "Dario Damiani",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32747",
+     "email": "dario.damiani@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/32747"
+    },
+    {
+     "nome": "Francesco Boccia",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=25555",
+     "email": "francesco.boccia@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/25555"
+    },
+    {
+     "nome": "Giovanbattista Fazzolari",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32628",
+     "email": "giovanbattista.fazzolari@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/32628"
+    },
+    {
+     "nome": "Gisella Naturale",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32673",
+     "email": "gisella.naturale@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/32673"
+    },
+    {
+     "nome": "Ignazio Zullo",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36450",
+     "fonteUrl": "https://dati.senato.it/senatore/36450"
+    },
+    {
+     "nome": "Matteo Salvini",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=25407",
+     "email": "matteo.salvini@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/25407"
+    },
+    {
+     "nome": "Valeria Valente",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=29604",
+     "email": "valeria.valente@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/29604"
+    }
+   ],
+   "VENETO": [
+    {
+     "nome": "Adolfo Urso",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=2444",
+     "email": "adolfo.urso@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/2444"
+    },
+    {
+     "nome": "Andrea Martella",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=17924",
+     "email": "andrea.martella@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/17924"
+    },
+    {
+     "nome": "Andrea Ostellari",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32677",
+     "email": "andrea.ostellari@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/32677"
+    },
+    {
+     "nome": "Aurora Floridia",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36399",
+     "email": "aurora.floridia@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/36399"
+    },
+    {
+     "nome": "Barbara Guidolin",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32644",
+     "email": "barbara.guidolin@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/32644"
+    },
+    {
+     "nome": "Bartolomeo Amidei",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=31010",
+     "email": "bartolomeo.amidei@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/31010"
+    },
+    {
+     "nome": "Beatrice Lorenzin",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=25474",
+     "email": "beatrice.lorenzin@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/25474"
+    },
+    {
+     "nome": "Daniela Sbrollini",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=25402",
+     "email": "daniela.sbrollini@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/25402"
+    },
+    {
+     "nome": "Erika Stefani",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=29185",
+     "email": "erika.stefani@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/29185"
+    },
+    {
+     "nome": "Matteo Gelmetti",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36433",
+     "email": "matteo.gelmetti@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/36433"
+    },
+    {
+     "nome": "Pierantonio Zanettin",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=17811",
+     "email": "pierantonio.zanettin@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/17811"
+    }
+   ],
+   "BASILICATA": [
+    {
+     "nome": "Gianni Rosa",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36420",
+     "email": "gianni.rosa@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/36420"
+    },
+    {
+     "nome": "Mario Turco",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32726",
+     "email": "mario.turco@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/32726"
+    }
+   ],
+   "LIGURIA": [
+    {
+     "nome": "Lorenzo Basso",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=29270",
+     "email": "lorenzo.basso@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/29270"
+    },
+    {
+     "nome": "Luca Pirondini",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36417",
+     "email": "luca.pirondini@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/36417"
+    },
+    {
+     "nome": "Roberto Menia",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=1558",
+     "email": "roberto.menia@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/1558"
+    }
+   ],
    "SICILIA": [
     {
      "nome": "Annamaria Furlan",
@@ -4271,371 +4557,6 @@
      "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36441",
      "email": "salvatoredomenico.pogliese@senato.it",
      "fonteUrl": "https://dati.senato.it/senatore/36441"
-    }
-   ],
-   "UMBRIA": [
-    {
-     "nome": "Antonio Guidi",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=1227",
-     "email": "antonio.guidi@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/1227"
-    },
-    {
-     "nome": "Walter Verini",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=25377",
-     "email": "walter.verini@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/25377"
-    }
-   ],
-   "TOSCANA": [
-    {
-     "nome": "Claudio Borghi",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=33070",
-     "email": "claudio.borghi@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/33070"
-    },
-    {
-     "nome": "Dario Parrini",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=29521",
-     "fonteUrl": "https://dati.senato.it/senatore/29521"
-    },
-    {
-     "nome": "Ettore Antonio Licheri",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32653",
-     "email": "ettore.licheri@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/32653"
-    },
-    {
-     "nome": "Mariastella Gelmini",
-     "ruolo": "Senatrice eletta con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=22966",
-     "email": "mariastella.gelmini@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/22966"
-    },
-    {
-     "nome": "Paolo Marcheschi",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36439",
-     "email": "paolo.marcheschi@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/36439"
-    },
-    {
-     "nome": "Silvio Franceschelli",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36400",
-     "email": "silvio.franceschelli@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/36400"
-    },
-    {
-     "nome": "Susanna Donatella Campione",
-     "ruolo": "Senatrice eletta con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36432",
-     "email": "susannadonatella.campione@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/36432"
-    },
-    {
-     "nome": "Ylenia Zambito",
-     "ruolo": "Senatrice eletta con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36429",
-     "email": "ylenia.zambito@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/36429"
-    }
-   ],
-   "MARCHE": [
-    {
-     "nome": "Alberto Losacco",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=18055",
-     "email": "alberto.losacco@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/18055"
-    },
-    {
-     "nome": "Guido Castelli",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36388",
-     "email": "guido.castelli@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/36388"
-    },
-    {
-     "nome": "Roberto Cataldi",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=33065",
-     "email": "roberto.cataldi@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/33065"
-    }
-   ],
-   "BASILICATA": [
-    {
-     "nome": "Gianni Rosa",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36420",
-     "email": "gianni.rosa@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/36420"
-    },
-    {
-     "nome": "Mario Turco",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32726",
-     "email": "mario.turco@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/32726"
-    }
-   ],
-   "CALABRIA": [
-    {
-     "nome": "Fausto Orsomarso",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36414",
-     "email": "fausto.orsomarso@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/36414"
-    },
-    {
-     "nome": "Mario Occhiuto",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36413",
-     "email": "mario.occhiuto@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/36413"
-    },
-    {
-     "nome": "Nicola Irto",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36401",
-     "email": "nicola.irto@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/36401"
-    },
-    {
-     "nome": "Roberto Maria Ferdinando Scarpinato",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36423",
-     "fonteUrl": "https://dati.senato.it/senatore/36423"
-    }
-   ],
-   "CAMPANIA": [
-    {
-     "nome": "Anna Bilotti",
-     "ruolo": "Senatrice eletta con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32851",
-     "email": "anna.bilotti@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/32851"
-    },
-    {
-     "nome": "Dario Franceschini",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=5799",
-     "email": "dario.franceschini@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/5799"
-    },
-    {
-     "nome": "Domenico Matera",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36440",
-     "email": "domenico.matera@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/36440"
-    },
-    {
-     "nome": "Felicia Gaudiano",
-     "ruolo": "Senatrice eletta con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32640",
-     "email": "felicia.gaudiano@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/32640"
-    },
-    {
-     "nome": "Francesco Silvestro",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36445",
-     "email": "francesco.silvestro@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/36445"
-    },
-    {
-     "nome": "Gianluca Cantalamessa",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32862",
-     "email": "gianluca.cantalamessa@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/32862"
-    },
-    {
-     "nome": "Luigi Nave",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36410",
-     "email": "luigi.nave@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/36410"
-    },
-    {
-     "nome": "Matteo Renzi",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=30742",
-     "email": "matteo.renzi@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/30742"
-    },
-    {
-     "nome": "Sergio Rastrelli",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36442",
-     "email": "sergio.rastrelli@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/36442"
-    },
-    {
-     "nome": "Susanna Lina Giulia Camusso",
-     "ruolo": "Senatrice eletta con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36392",
-     "email": "susannalina.camusso@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/36392"
-    },
-    {
-     "nome": "Vincenza Aloisio",
-     "ruolo": "Senatrice eletta con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36381",
-     "email": "vincenza.aloisio@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/36381"
-    }
-   ],
-   "PUGLIA": [
-    {
-     "nome": "Antonio Salvatore Trevisi",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36448",
-     "email": "antoniosalvatore.trevisi@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/36448"
-    },
-    {
-     "nome": "Dario Damiani",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32747",
-     "email": "dario.damiani@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/32747"
-    },
-    {
-     "nome": "Francesco Boccia",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=25555",
-     "email": "francesco.boccia@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/25555"
-    },
-    {
-     "nome": "Giovanbattista Fazzolari",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32628",
-     "email": "giovanbattista.fazzolari@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/32628"
-    },
-    {
-     "nome": "Gisella Naturale",
-     "ruolo": "Senatrice eletta con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32673",
-     "email": "gisella.naturale@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/32673"
-    },
-    {
-     "nome": "Ignazio Zullo",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36450",
-     "fonteUrl": "https://dati.senato.it/senatore/36450"
-    },
-    {
-     "nome": "Matteo Salvini",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=25407",
-     "email": "matteo.salvini@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/25407"
-    },
-    {
-     "nome": "Valeria Valente",
-     "ruolo": "Senatrice eletta con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=29604",
-     "email": "valeria.valente@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/29604"
-    }
-   ],
-   "PIEMONTE": [
-    {
-     "nome": "Anna Rossomando",
-     "ruolo": "Senatrice eletta con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=25411",
-     "email": "anna.rossomando@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/25411"
-    },
-    {
-     "nome": "Elisa Pirro",
-     "ruolo": "Senatrice eletta con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32691",
-     "email": "elisa.pirro@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/32691"
-    },
-    {
-     "nome": "Enrico Borghi",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=29293",
-     "email": "enrico.borghi@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/29293"
-    },
-    {
-     "nome": "Francesco Verducci",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=28924",
-     "email": "francesco.verducci@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/28924"
-    },
-    {
-     "nome": "Giorgio Salvitti",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36443",
-     "email": "giorgio.salvitti@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/36443"
-    },
-    {
-     "nome": "Ivan Scalfarotto",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=29573",
-     "email": "ivan.scalfarotto@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/29573"
-    },
-    {
-     "nome": "Lucio Malan",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=1407",
-     "email": "lucio.malan@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/1407"
-    },
-    {
-     "nome": "Massimo Garavaglia",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=22963",
-     "email": "massimo.garavaglia@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/22963"
-    },
-    {
-     "nome": "Roberto Rosso",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32779",
-     "email": "roberto.rosso@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/32779"
-    }
-   ],
-   "LIGURIA": [
-    {
-     "nome": "Lorenzo Basso",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=29270",
-     "email": "lorenzo.basso@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/29270"
-    },
-    {
-     "nome": "Luca Pirondini",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36417",
-     "email": "luca.pirondini@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/36417"
-    },
-    {
-     "nome": "Roberto Menia",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=1558",
-     "email": "roberto.menia@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/1558"
     }
    ],
    "EMILIA-ROMAGNA": [
@@ -4726,6 +4647,63 @@
      "fonteUrl": "https://dati.senato.it/senatore/36434"
     }
    ],
+   "TOSCANA": [
+    {
+     "nome": "Claudio Borghi",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=33070",
+     "email": "claudio.borghi@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/33070"
+    },
+    {
+     "nome": "Dario Parrini",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=29521",
+     "fonteUrl": "https://dati.senato.it/senatore/29521"
+    },
+    {
+     "nome": "Ettore Antonio Licheri",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32653",
+     "email": "ettore.licheri@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/32653"
+    },
+    {
+     "nome": "Mariastella Gelmini",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=22966",
+     "email": "mariastella.gelmini@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/22966"
+    },
+    {
+     "nome": "Paolo Marcheschi",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36439",
+     "email": "paolo.marcheschi@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/36439"
+    },
+    {
+     "nome": "Silvio Franceschelli",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36400",
+     "email": "silvio.franceschelli@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/36400"
+    },
+    {
+     "nome": "Susanna Donatella Campione",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36432",
+     "email": "susannadonatella.campione@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/36432"
+    },
+    {
+     "nome": "Ylenia Zambito",
+     "ruolo": "Senatrice eletta con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36429",
+     "email": "ylenia.zambito@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/36429"
+    }
+   ],
    "FRIULI-VENEZIA GIULIA": [
     {
      "nome": "Francesca Tubetti",
@@ -4749,29 +4727,6 @@
      "fonteUrl": "https://dati.senato.it/senatore/32703"
     }
    ],
-   "ABRUZZO": [
-    {
-     "nome": "Etelwardo Sigismondi",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36424",
-     "email": "etelwardo.sigismondi@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/36424"
-    },
-    {
-     "nome": "Gabriella Di Girolamo",
-     "ruolo": "Senatrice eletta con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=32619",
-     "email": "gabriella.digirolamo@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/32619"
-    },
-    {
-     "nome": "Michele Fina",
-     "ruolo": "Senatore eletto con le liste dei partiti",
-     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=30294",
-     "email": "michele.fina@senato.it",
-     "fonteUrl": "https://dati.senato.it/senatore/30294"
-    }
-   ],
    "MOLISE": [
     {
      "nome": "Costanzo Della Porta",
@@ -4779,6 +4734,51 @@
      "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36395",
      "email": "costanzo.dellaporta@senato.it",
      "fonteUrl": "https://dati.senato.it/senatore/36395"
+    }
+   ],
+   "UMBRIA": [
+    {
+     "nome": "Antonio Guidi",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=1227",
+     "email": "antonio.guidi@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/1227"
+    },
+    {
+     "nome": "Walter Verini",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=25377",
+     "email": "walter.verini@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/25377"
+    }
+   ],
+   "CALABRIA": [
+    {
+     "nome": "Fausto Orsomarso",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36414",
+     "email": "fausto.orsomarso@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/36414"
+    },
+    {
+     "nome": "Mario Occhiuto",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36413",
+     "email": "mario.occhiuto@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/36413"
+    },
+    {
+     "nome": "Nicola Irto",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36401",
+     "email": "nicola.irto@senato.it",
+     "fonteUrl": "https://dati.senato.it/senatore/36401"
+    },
+    {
+     "nome": "Roberto Maria Ferdinando Scarpinato",
+     "ruolo": "Senatore eletto con le liste dei partiti",
+     "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=36423",
+     "fonteUrl": "https://dati.senato.it/senatore/36423"
     }
    ]
   }
