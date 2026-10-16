@@ -52,18 +52,30 @@ async function download(name, url, { binary = false, headers = {}, accetta404 = 
   console.log(`  ↓ ${name}`);
   // I siti pubblici a volte sono lenti o sovraccarichi: fino a tre tentativi se la rete cade o il server dà errore (5xx, 429).
   let res;
+  let errore;
   for (let tentativo = 1; ; tentativo++) {
     try {
       res = await fetch(url, { headers: { "User-Agent": UA, ...headers } });
       if (res.status < 500 && res.status !== 429) break;
       if (tentativo === 3) break;
     } catch (e) {
-      if (tentativo === 3) throw new Error(`${url} → ${e.message}`);
+      if (tentativo === 3) {
+        errore = e.message;
+        break;
+      }
     }
     console.log(`    nuovo tentativo tra ${10 * tentativo} s`);
     await sleep(10000 * tentativo);
   }
-  if (!res.ok && !(accetta404 && res.status === 404)) throw new Error(`${url} → HTTP ${res.status}`);
+  if (errore || (!res.ok && !(accetta404 && res.status === 404))) {
+    // Se la fonte non risponde ma abbiamo la copia scaricata la volta precedente (cache dell'aggiornamento settimanale),
+    // usiamo quella invece di fermare tutto: il sito resta aggiornato al giro prima e arriva un avviso.
+    if (fs.existsSync(file)) {
+      warnGruppo("Fonti non raggiungibili: usata la copia scaricata in precedenza", name);
+      return binary ? fs.readFileSync(file) : fs.readFileSync(file, "utf8");
+    }
+    throw new Error(`${url} → ${errore ?? `HTTP ${res.status}`}`);
+  }
   const buf = Buffer.from(await res.arrayBuffer());
   fs.writeFileSync(file, buf);
   return binary ? buf : buf.toString("utf8");
