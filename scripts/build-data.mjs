@@ -953,7 +953,7 @@ async function paginaCr(file, url) {
   let html;
   try {
     html = await download(file, url, { accetta404: true });
-  } catch (e) {
+  } catch {
     warnGruppo("Pagine del Consiglio regionale non lette", file);
     return "";
   }

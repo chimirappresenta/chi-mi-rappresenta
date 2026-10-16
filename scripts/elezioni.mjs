@@ -505,7 +505,8 @@ export async function elezioniPerComune({ RAW, REFRESH, UA, comuni, dataComunali
     ...opz,
     cache: "elezioni-europee-20240609-italia.json",
     url: `${BASE}/europee/europee-20240609.zip`,
-    file: [{ match: /^EUROPEE_ITALIA_LivComune\.csv$/i, come: "comuni" }],
+    // il Ministero ha rinominato il file (prima EUROPEE_ITALIA_LivComune.csv): accettiamo entrambi i nomi
+    file: [{ match: /^EUROPEE_(SCRUTINI&LISTE_)?ITALIA_LivComune\.csv$/i, come: "comuni" }],
     tieni: ["DESCREGIONE", "DESCCOMUNE", "ELETTORI", "VOTANTI", "DESCLISTA", "NUMVOTI"],
   });
   aggiungi(
