@@ -379,8 +379,17 @@ const ipa = csvObjects(await download("ipa-enti.csv", IPA_URL), 0, ",").filter(
   (r) => r.Codice_Categoria === "L6" && istatTutti.has(istatDaIpa(r)),
 );
 for (const r of ipa) r.Codice_comune_ISTAT = istatDaIpa(r);
-const contattiByIstat = new Map();
+// Nella categoria L6 ci sono anche consorzi, unioni e associazioni di comuni con lo stesso codice ISTAT
+// (es. Asti: "Comune di Asti" e il consorzio socio-assistenziale Co.Ge.Sa.): per ogni comune teniamo l'ente Comune.
+const punteggioEnte = (nome = "") =>
+  /^(comune|citt[aà] di|roma capitale)/i.test(nome) ? 3 : /consorz|union|associaz|sistema|parco|ambito|\bato\b|agenzia|azienda|istituz|fondaz|comunit/i.test(nome) ? 1 : 2;
+const enteComune = new Map();
 for (const r of ipa) {
+  const prima = enteComune.get(r.Codice_comune_ISTAT);
+  if (!prima || punteggioEnte(r.Denominazione_ente) > punteggioEnte(prima.Denominazione_ente)) enteComune.set(r.Codice_comune_ISTAT, r);
+}
+const contattiByIstat = new Map();
+for (const r of enteComune.values()) {
   const pec = [1, 2, 3, 4, 5].map((i) => (r[`Tipo_Mail${i}`] === "Pec" ? r[`Mail${i}`] : "")).find(Boolean);
   let sito = r.Sito_istituzionale?.trim();
   if (sito && !/^https?:\/\//i.test(sito)) sito = `https://${sito}`;
@@ -403,7 +412,8 @@ chiudiAvvisi();
 // Pubblichiamo solo contatti d'ufficio: niente nomi dei responsabili, niente email personali o per le fatture.
 const OU_URL =
   "https://indicepa.gov.it/ipa-dati/dataset/7a2db7d8-4123-41b4-a1d6-d7b712a193f1/resource/4740588c-eb09-4ce8-92b0-86626508ad49/download/ou.txt";
-const istatByIpa = new Map(ipa.map((r) => [r.Codice_IPA, r.Codice_comune_ISTAT]));
+// solo gli uffici dell'ente Comune, non quelli dei consorzi con lo stesso codice ISTAT
+const istatByIpa = new Map([...enteComune.values()].map((r) => [r.Codice_IPA, r.Codice_comune_ISTAT]));
 // Per ogni voce della guida: parole del nome dell'ufficio in ordine di precisione (il primo livello vince) e parole da escludere.
 const CATEGORIE_UFFICI = [
   { voce: "anagrafe", livelli: [/anagraf|demograf/i, /stato civile|elettoral/i] },
