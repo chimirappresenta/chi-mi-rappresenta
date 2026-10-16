@@ -70,9 +70,12 @@ async function download(name, url, { binary = false, headers = {}, accetta404 = 
   if (errore || (!res.ok && !(accetta404 && res.status === 404))) {
     // Se la fonte non risponde ma abbiamo la copia scaricata la volta precedente (cache dell'aggiornamento settimanale),
     // usiamo quella invece di fermare tutto: il sito resta aggiornato al giro prima e arriva un avviso.
-    if (fs.existsSync(file)) {
+    // In mancanza della cache, alcune fonti delicate hanno una copia di riserva nel repository (data/riserva).
+    const riserva = path.join(ROOT, "data", "riserva", name);
+    const copia = fs.existsSync(file) ? file : fs.existsSync(riserva) ? riserva : null;
+    if (copia) {
       warnGruppo("Fonti non raggiungibili: usata la copia scaricata in precedenza", name);
-      return binary ? fs.readFileSync(file) : fs.readFileSync(file, "utf8");
+      return binary ? fs.readFileSync(copia) : fs.readFileSync(copia, "utf8");
     }
     throw new Error(`${url} → ${errore ?? `HTTP ${res.status}`}`);
   }
