@@ -43,10 +43,11 @@ export function getComune(istat: string): Comune | undefined {
 }
 
 /**
- * Comuni le cui pagine si preparano alla build: capoluoghi e comuni con almeno 15.000 abitanti,
- * dove si concentra la maggior parte delle visite. Gli altri si creano alla prima visita e restano in cache.
+ * Comuni le cui pagine si preparano alla build: solo le 20 città più grandi. Ogni pagina pronta pesa circa 1,5 MB
+ * e ogni pubblicazione su Vercel le conserva tutte (con 700 pagine si superava il limite di spazio del piano gratuito).
+ * Gli altri comuni si creano alla prima visita e restano in cache fino alla pubblicazione successiva.
  */
-export const comuniDaPreparare = () => comuni.filter((c) => c.capoluogo || (c.abitanti ?? 0) >= 15000);
+export const comuniDaPreparare = () => [...comuni].sort((a, b) => (b.abitanti ?? 0) - (a.abitanti ?? 0)).slice(0, 20);
 
 export const fonte = (id: string) => meta.fonti.find((f) => f.id === id)!;
 

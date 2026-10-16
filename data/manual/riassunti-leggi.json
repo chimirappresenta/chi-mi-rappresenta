@@ -1,6 +1,16 @@
 {
   "_nota": "Riassunti generati con Claude (claude-opus-5-5) dal testo ufficiale delle leggi (PDF del Consiglio regionale). I primi 11 sono stati redatti in sessione leggendo il testo estratto dai PDF; i successivi li aggiunge scripts/riassumi-leggi.mjs. Si possono correggere a mano: la pipeline non li sovrascrive.",
   "leggi": {
+    "2026-13": {
+      "testo": "Riconosce come regolare un debito di 20.592 euro del Consiglio regionale: è l'indennità non ancora pagata al Difensore civico per due periodi tra il 2017 e il 2018. I soldi vengono spostati da un fondo già previsto nel bilancio 2026 del Consiglio. È un atto contabile, che serve a poter pagare una spesa arretrata.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-16"
+    },
+    "2026-12": {
+      "testo": "Permette alle persone senza dimora che non hanno alcuna assistenza sanitaria di iscriversi a un'ASL della Campania e di scegliere un medico di famiglia. L'iscrizione parte da una segnalazione dei servizi sociali, con regole che la Giunta deve fissare entro 60 giorni. La Regione stanzia 300.000 euro l'anno per il 2026, 2027 e 2028 e può fare accordi con associazioni e Terzo settore per informare e aiutare le persone a iscriversi.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-16"
+    },
     "2026-11": {
       "testo": "Stanzia 7 milioni di euro per Pozzuoli, Bacoli, Monte di Procida e le zone di Napoli colpite dallo sciame sismico dei Campi Flegrei del 31 luglio 2026: servono per assistenza alla popolazione, protezione civile e aiuti alle attività economiche danneggiate. Il 30% è diviso in parti uguali tra i quattro Comuni e versato subito, il 70% in base al numero di sfollati indicato dalla Prefettura. Nasce anche un Osservatorio regionale, senza costi, che ogni tre mesi riferisce sugli effetti del bradisismo sull'economia.",
       "modello": "claude-opus-5-5",
