@@ -51,12 +51,17 @@ async function download(name, url, { binary = false, headers = {}, accetta404 = 
   if (!REFRESH && fs.existsSync(file)) return binary ? fs.readFileSync(file) : fs.readFileSync(file, "utf8");
   console.log(`  ↓ ${name}`);
   // I siti pubblici a volte sono lenti o sovraccarichi: fino a tre tentativi se la rete cade o il server dà errore (5xx, 429).
+  // Anche la lettura del contenuto è dentro i tentativi: a volte il server chiude la connessione a metà.
   let res;
+  let buf;
   let errore;
   for (let tentativo = 1; ; tentativo++) {
     try {
       res = await fetch(url, { headers: { "User-Agent": UA, ...headers } });
-      if (res.status < 500 && res.status !== 429) break;
+      if (res.status < 500 && res.status !== 429) {
+        buf = Buffer.from(await res.arrayBuffer());
+        break;
+      }
       if (tentativo === 3) break;
     } catch (e) {
       if (tentativo === 3) {
@@ -67,7 +72,7 @@ async function download(name, url, { binary = false, headers = {}, accetta404 = 
     console.log(`    nuovo tentativo tra ${10 * tentativo} s`);
     await sleep(10000 * tentativo);
   }
-  if (errore || (!res.ok && !(accetta404 && res.status === 404))) {
+  if (errore || !buf || (!res.ok && !(accetta404 && res.status === 404))) {
     // Se la fonte non risponde ma abbiamo la copia scaricata la volta precedente (cache dell'aggiornamento settimanale),
     // usiamo quella invece di fermare tutto: il sito resta aggiornato al giro prima e arriva un avviso.
     // In mancanza della cache, alcune fonti delicate hanno una copia di riserva nel repository (data/riserva).
@@ -77,9 +82,8 @@ async function download(name, url, { binary = false, headers = {}, accetta404 = 
       warnGruppo("Fonti non raggiungibili: usata la copia scaricata in precedenza", name);
       return binary ? fs.readFileSync(copia) : fs.readFileSync(copia, "utf8");
     }
-    throw new Error(`${url} → ${errore ?? `HTTP ${res.status}`}`);
+    throw new Error(`${url} → ${errore ?? `HTTP ${res?.status}`}`);
   }
-  const buf = Buffer.from(await res.arrayBuffer());
   fs.writeFileSync(file, buf);
   return binary ? buf : buf.toString("utf8");
 }
@@ -945,7 +949,14 @@ const ultimaPagina = (html) => Math.max(0, ...[...html.matchAll(/[?&;]page=(\d+)
 async function paginaCr(file, url) {
   const cached = fs.existsSync(path.join(RAW, file));
   // Le viste del Consiglio senza alias rispondono 404 ma con la pagina corretta.
-  const html = await download(file, url, { accetta404: true });
+  // Se una pagina proprio non si legge, la saltiamo: gli atti mancanti si recuperano dalla pubblicazione precedente.
+  let html;
+  try {
+    html = await download(file, url, { accetta404: true });
+  } catch (e) {
+    warnGruppo("Pagine del Consiglio regionale non lette", file);
+    return "";
+  }
   if (!cached || REFRESH) await sleep(300);
   return html;
 }
