@@ -1,5 +1,5 @@
 {
- "generato": "2026-10-16",
+ "generato": "2026-10-19",
  "regione": "Campania",
  "comuni": 7896,
  "fonti": [
@@ -8,7 +8,7 @@
    "nome": "Elenco dei comuni italiani",
    "ente": "ISTAT",
    "url": "https://www.istat.it/classificazione/codici-dei-comuni-delle-province-e-delle-regioni/",
-   "raccolto": "2026-10-16"
+   "raccolto": "2026-10-19"
   },
   {
    "id": "viminale",
@@ -16,91 +16,91 @@
    "ente": "Ministero dell'Interno – DAIT",
    "url": "https://dait.interno.gov.it/elezioni/open-data/amministratori-locali-e-regionali-in-carica",
    "aggiornato": "24/08/2026",
-   "raccolto": "2026-10-16"
+   "raccolto": "2026-10-19"
   },
   {
    "id": "ipa",
    "nome": "Indice delle Pubbliche Amministrazioni (PEC e sito dei Comuni)",
    "ente": "AgID – IPA",
    "url": "https://indicepa.gov.it/ipa-portale/consultazione/indirizzo-sede/ricerca-ente",
-   "raccolto": "2026-10-16"
+   "raccolto": "2026-10-19"
   },
   {
    "id": "ipa-uffici",
    "nome": "Uffici dei Comuni (unità organizzative)",
    "ente": "AgID – IPA",
    "url": "https://indicepa.gov.it/ipa-dati/dataset/ou",
-   "raccolto": "2026-10-16"
+   "raccolto": "2026-10-19"
   },
   {
    "id": "asl",
    "nome": "Corrispondenze ASL-Comuni (abbinamento comune → ASL)",
    "ente": "Ministero della Salute",
    "url": "https://www.dati.salute.gov.it/dataset/corrispondenze_asl_comuni_popolazione_residente.jsp",
-   "raccolto": "2026-10-16"
+   "raccolto": "2026-10-19"
   },
   {
    "id": "istat-localita",
    "nome": "Località abitate del Censimento 2021 (frazioni)",
    "ente": "ISTAT",
    "url": "https://www.istat.it/notizia/basi-territoriali-e-variabili-censuarie/",
-   "raccolto": "2026-10-16"
+   "raccolto": "2026-10-19"
   },
   {
    "id": "wikidata-cap",
    "nome": "Codici di avviamento postale dei comuni",
    "ente": "Wikidata",
    "url": "https://www.wikidata.org/wiki/Property:P281",
-   "raccolto": "2026-10-16"
+   "raccolto": "2026-10-19"
   },
   {
    "id": "istat-collegi",
    "nome": "Basi geografiche dei collegi elettorali (D.Lgs. 177/2020)",
    "ente": "ISTAT",
    "url": "https://www.istat.it/notizia/le-basi-geografiche-dei-nuovi-collegi-elettorali-2/",
-   "raccolto": "2026-10-16"
+   "raccolto": "2026-10-19"
   },
   {
    "id": "camera",
    "nome": "Open data della Camera dei deputati",
    "ente": "Camera dei deputati",
    "url": "https://dati.camera.it/",
-   "raccolto": "2026-10-16"
+   "raccolto": "2026-10-19"
   },
   {
    "id": "senato",
    "nome": "Open data del Senato della Repubblica (email dalle schede ufficiali)",
    "ente": "Senato della Repubblica",
    "url": "https://dati.senato.it/",
-   "raccolto": "2026-10-16"
+   "raccolto": "2026-10-19"
   },
   {
    "id": "cr",
    "nome": "Consiglieri regionali",
    "ente": "Consiglio regionale della Campania",
    "url": "https://www.cr.campania.it/consiglio-regionale/consiglieri",
-   "raccolto": "2026-10-16"
+   "raccolto": "2026-10-19"
   },
   {
    "id": "giunta",
    "nome": "La Giunta regionale",
    "ente": "Regione Campania",
    "url": "https://www.regione.campania.it/regione/la-giunta-regionale",
-   "raccolto": "2026-10-16"
+   "raccolto": "2026-10-19"
   },
   {
    "id": "pe",
    "nome": "Open Data Portal – deputati in carica",
    "ente": "Parlamento europeo",
    "url": "https://data.europarl.europa.eu/",
-   "raccolto": "2026-10-16"
+   "raccolto": "2026-10-19"
   },
   {
    "id": "cr-atti",
    "nome": "Attività dei consiglieri e leggi regionali",
    "ente": "Consiglio regionale della Campania",
    "url": "https://www.cr.campania.it/leggi-progetti/leggi-regolamenti",
-   "raccolto": "2026-10-16"
+   "raccolto": "2026-10-19"
   },
   {
    "id": "eligendo",
@@ -129,7 +129,6 @@
   "Elezioni comunali 12/06/2022: 1 comuni non riconosciuti (BARDELLO (LOMBARDIA))",
   "Elezioni comunali 24/05/2026: 1 comuni non riconosciuti (CASTEGNERO NANTO (VENETO))",
   "Elezioni politiche 2022: 19 comuni non riconosciuti (CALLIANO (PIEMONTE 2), GRANA (PIEMONTE 2), MONTEMAGNO (PIEMONTE 2), MORANSENGO (PIEMONTE 2), TONENGO (PIEMONTE 2), BARDELLO (LOMBARDIA 2), …)",
-  "Fonti non raggiungibili: usata la copia scaricata in precedenza: 1 (cr-atti-pdl-5.html)",
   "Comuni senza amministratori nell'anagrafe del Ministero: 19 (Aci Catena (087003), Castegnero (024027), Faenza (039010), Gioia Sannitica (061041), Grimacco (030045), Lirio (018082), Marigliano (063043), Mazzarino (085009), …)",
   "Comuni senza collegio ISTAT: 6 (Bardello con Malgesso e Bregano (012144), Moransengo-Tonengo (005122), Santa Caterina d'Este (028108), Setteville (025075), Sovizzo (024128), Uggiate con Ronago (013256))"
  ],
