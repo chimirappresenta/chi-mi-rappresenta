@@ -9,6 +9,7 @@ import { elezioniPerComune, FONTE_ELEZIONI } from "./elezioni.mjs";
 import { vincitoriSenato } from "./senato.mjs";
 import { integrazioniRegioni } from "./regioni-integrazioni.mjs";
 import { campania } from "./consigli/campania.mjs";
+import { calabria } from "./consigli/calabria.mjs";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const RAW = path.join(ROOT, "data", "raw");
@@ -55,7 +56,11 @@ const raccolto = (file) => {
   }
 };
 
-async function download(name, url, { binary = false, headers = {}, accetta404 = false } = {}) {
+/**
+ * Scarica una fonte in data/raw (o la rilegge da lì). `richiesta`: funzione che prepara una richiesta diversa da un semplice GET
+ * (per esempio un modulo POST con cookie e codice di sicurezza): viene chiamata solo se il file va scaricato davvero.
+ */
+async function download(name, url, { binary = false, headers = {}, accetta404 = false, richiesta } = {}) {
   const file = path.join(RAW, name);
   if (!REFRESH && fs.existsSync(file)) return binary ? fs.readFileSync(file) : fs.readFileSync(file, "utf8");
   console.log(`  ↓ ${name}`);
@@ -66,7 +71,8 @@ async function download(name, url, { binary = false, headers = {}, accetta404 = 
   let errore;
   for (let tentativo = 1; ; tentativo++) {
     try {
-      res = await fetch(url, { headers: { "User-Agent": UA, ...headers } });
+      const extra = richiesta ? await richiesta() : {};
+      res = await fetch(url, { ...extra, headers: { "User-Agent": UA, ...headers, ...extra.headers } });
       if (res.status < 500 && res.status !== 429) {
         buf = Buffer.from(await res.arrayBuffer());
         break;
@@ -806,7 +812,7 @@ console.log("5/7 Consigli regionali in chiaro");
 const ammregTutte = csvObjects(await download("ammreg.csv", "https://dait.interno.gov.it/documenti/ammreg.csv"), 2);
 const ammregAggiornato = ammregTutte.length ? (fs.readFileSync(path.join(RAW, "ammreg.csv"), "utf8").match(/Aggiornato al (\d{2}\/\d{2}\/\d{4})/)?.[1]) : undefined;
 
-const CONSIGLI_IN_CHIARO = [campania];
+const CONSIGLI_IN_CHIARO = [campania, calabria];
 const codiciInChiaro = new Set(CONSIGLI_IN_CHIARO.map((m) => m.codice));
 let consigliPrima = {};
 try {
@@ -861,7 +867,9 @@ for (const modulo of CONSIGLI_IN_CHIARO) {
   const attiUnici = [...new Map(atti.map((a) => [a.id, a])).values()]
     .filter((a) => a.data >= consiglio.inizio)
     .sort((a, b) => b.data.localeCompare(a.data) || b.numero - a.numero);
-  const nonAttribuiti = new Set(attiUnici.flatMap((a) => a.firmatari.filter((f) => !f.username).map((f) => f.nome)));
+  // Le proposte della Giunta, dei cittadini o degli enti locali non hanno un consigliere firmatario: non è un errore.
+  const istituzionale = /^(Giunta regionale|Iniziativa popolare|Consigli? comunal|C\. Comunal|Consiglio delle autonomie)/i;
+  const nonAttribuiti = new Set(attiUnici.flatMap((a) => a.firmatari.filter((f) => !f.username && !istituzionale.test(f.nome)).map((f) => f.nome)));
   if (nonAttribuiti.size) warn(`${modulo.nome}: firmatari non riconosciuti tra i consiglieri: ${[...nonAttribuiti].join(", ")}`);
   console.log(`  ${attiUnici.length} atti della legislatura`);
 
@@ -881,11 +889,14 @@ for (const modulo of CONSIGLI_IN_CHIARO) {
     let t = testoPerMatch(titolo);
     const trovati = [];
     for (const c of comuniPerLunghezza) {
-      const nome = testoPerMatch(c.nome); // " Monte di Procida "
-      const ago = ambigui.has(c.nome) ? ` omune di${nome}` : nome;
-      if (t.includes(ago)) {
-        trovati.push(c.istat);
-        t = t.split(ago).join(" # ");
+      // " Monte di Procida "; più gli eventuali nomi d'uso diversi da quello ISTAT ("Reggio Calabria")
+      for (const variante of [c.nome, ...(modulo.aliasComuni?.[c.nome] ?? [])]) {
+        const nome = testoPerMatch(variante);
+        const ago = ambigui.has(c.nome) ? ` omune di${nome}` : nome;
+        if (t.includes(ago)) {
+          if (!trovati.includes(c.istat)) trovati.push(c.istat);
+          t = t.split(ago).join(" # ");
+        }
       }
     }
     return trovati;

@@ -17,6 +17,7 @@ import {
   regioniAggiornate,
   senatoriProporzionaliDi,
 } from "@/lib/data";
+import { inCircoscrizione, piuProvince } from "@/lib/format";
 import { ComuneSearch } from "@/components/ComuneSearch";
 import { Avatar, Avviso, Espandibile, Gruppo, Livello, PersonaRow, stileLivello, type LivelloId } from "@/components/ui";
 import { EmicicloRemoto } from "@/components/EmicicloRemoto";
@@ -82,6 +83,8 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
   const inChiaro = !!cr;
   const circ = c.circoscrizioneRegionale;
   const consiglieriCirc = cr ? cr.regione.consiglieri.filter((x) => x.circoscrizione === circ) : [];
+  // "in provincia di Napoli", o "nelle province di Catanzaro, Crotone e Vibo Valentia" se la circoscrizione ne comprende più d'una
+  const doveEletti = circ ? inCircoscrizione(circ) : `in provincia di ${c.provincia}`;
   const mediaRegione = mediaDellaRegione(c.codiceRegione);
   const circEuropea = circoscrizioneEuropea(c.codiceRegione);
   const eurodeputati = eurodeputatiDi(c.codiceRegione);
@@ -107,7 +110,7 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
       nome: (cr ? cr.regione.presidente?.nome : reg?.presidente?.nome) ?? "Dati in aggiornamento",
       ruolo: `Presidente della Regione ${c.regione}`,
       extra: inChiaro
-        ? `${consiglieriCirc.length} consiglieri regionali eletti in provincia di ${c.provincia}`
+        ? `${consiglieriCirc.length} consiglieri regionali eletti ${doveEletti}`
         : reg?.consiglieri.length
           ? `${reg.consiglieri.length} consiglieri regionali`
           : "Elenco dei consiglieri sul sito del Consiglio regionale",
@@ -436,9 +439,9 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
               </Gruppo>
             )}
             <div>
-              <h3 className="text-xs font-semibold tracking-wider text-ink-3 uppercase">I consiglieri della tua provincia</h3>
+              <h3 className="text-xs font-semibold tracking-wider text-ink-3 uppercase">I consiglieri della tua {circ && piuProvince(circ) ? "circoscrizione" : "provincia"}</h3>
               <p className="mt-1 text-sm text-ink-2">
-                In evidenza i <strong>{consiglieriCirc.length} consiglieri eletti in provincia di {c.provincia}</strong>. Tocca un
+                In evidenza i <strong>{consiglieriCirc.length} consiglieri eletti {doveEletti}</strong>. Tocca un
                 punto o un nome per vedere la scheda e scrivergli.
               </p>
               <div className="mt-3">
@@ -677,7 +680,7 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
               sindaco: a?.sindaco,
               regione: { nome: c.regione, sito: reg?.contatti?.sito },
               consiglieriRegionali: cr
-                ? { numero: consiglieriCirc.length, dove: `eletti in provincia di ${c.provincia}` }
+                ? { numero: consiglieriCirc.length, dove: `eletti ${doveEletti}` }
                 : { numero: reg?.consiglieri.length ?? 0, dove: `della Regione ${c.regione}` },
               deputati: deputatiU,
               senatori: senatoriU,

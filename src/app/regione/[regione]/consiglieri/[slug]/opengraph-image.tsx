@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 import { consigliInChiaro, getConsigliere, getConsiglio } from "@/lib/data";
-import { slugConsigliere } from "@/lib/format";
+import { inCircoscrizione, slugConsigliere } from "@/lib/format";
 import { OG_COLORI as C, OG_SIZE, OgEmiciclo, OgFrame, ogFonts } from "@/lib/og";
 
 export const size = OG_SIZE;
@@ -31,7 +31,7 @@ export default async function Image({ params }: { params: Promise<{ regione: str
             </div>
             <div style={{ fontFamily: "Instrument Serif", letterSpacing: -2, fontSize: c.nome.length > 20 ? 80 : 100, lineHeight: 1.05, marginTop: 12 }}>{c.nome}</div>
             <div style={{ fontSize: 28, color: C.ink2, marginTop: 8 }}>
-              {c.circoscrizione ? `Eletto in provincia di ${c.circoscrizione}` : "Consigliere regionale"}
+              {c.circoscrizione ? `Eletto ${inCircoscrizione(c.circoscrizione)}` : "Consigliere regionale"}
             </div>
             <div style={{ display: "flex", gap: 40, marginTop: 36 }}>
               {[

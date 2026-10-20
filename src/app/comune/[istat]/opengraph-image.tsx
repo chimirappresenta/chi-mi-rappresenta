@@ -1,5 +1,6 @@
 import { ImageResponse } from "next/og";
 import { notFound } from "next/navigation";
+import { piuProvince } from "@/lib/format";
 import { consiglioDellaRegione, getComune, getRegioneEssenziale, parlamento } from "@/lib/data";
 import { OG_COLORI as C, OG_SIZE, OgEmiciclo, OgFrame, ogFonts } from "@/lib/og";
 
@@ -26,7 +27,7 @@ export default async function Image({ params }: { params: Promise<{ istat: strin
 
   const righe: [string, string][] = [
     ["Comune", a?.tipo === "commissariata" ? "Commissariato" : a?.sindaco ? `Sindaco ${a.sindaco.nome}` : "Dati in aggiornamento"],
-    ["Regione", cr ? `${nCirc} consiglieri eletti in provincia` : reg?.presidente ? `Presidente ${reg.presidente.nome}` : c.regione],
+    ["Regione", cr ? `${nCirc} consiglieri eletti ${circ && piuProvince(circ) ? "nella circoscrizione" : "in provincia"}` : reg?.presidente ? `Presidente ${reg.presidente.nome}` : c.regione],
     ["Camera", deputati.join(", ") || "—"],
     ["Senato", senatori.join(", ") || "—"],
   ];
@@ -52,7 +53,7 @@ export default async function Image({ params }: { params: Promise<{ istat: strin
           {cr && (
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
             <OgEmiciclo consiglieri={cr.regione.consiglieri} gruppi={cr.regione.gruppi} evidenzia={(x) => x.circoscrizione === circ} larghezza={420} />
-            <div style={{ fontSize: 20, color: C.ink3, marginTop: 8 }}>Consiglio regionale · eletti in provincia</div>
+            <div style={{ fontSize: 20, color: C.ink3, marginTop: 8 }}>Consiglio regionale · eletti {circ && piuProvince(circ) ? "nella circoscrizione" : "in provincia"}</div>
           </div>
           )}
         </div>

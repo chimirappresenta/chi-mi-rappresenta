@@ -88,7 +88,7 @@ Tutte le regioni hanno già la versione essenziale (anagrafe del Ministero dell'
 ## Consiglio regionale in chiaro (fase 2)
 
 - `/regione/`: le 20 regioni; `/regione/<nome>/`: presidente, giunta e consiglieri (anagrafe del Ministero dell'Interno), contatti di Regione e Consiglio regionale.
-- `/regione/campania/`: il Consiglio come emiciclo (un punto per consigliere, colorato per gruppo; maggioranza a sinistra, opposizione a destra). Si cerca per nome o gruppo, la legenda filtra per gruppo e un clic su un punto apre la scheda in un pannello laterale. Coalizione, colore e ordine dei gruppi stanno in `data/manual/gruppi-consiliari.json`: la pipeline avvisa se compare un gruppo nuovo.
+- `/regione/campania/`: il Consiglio come emiciclo (un punto per consigliere, colorato per gruppo; maggioranza a sinistra, opposizione a destra). Si cerca per nome o gruppo, la legenda filtra per gruppo e un clic su un punto apre la scheda in un pannello laterale. Coalizione, colore e ordine dei gruppi stanno in `data/manual/gruppi-consiliari/<regione>.json` (la coalizione si omette per i gruppi senza collocazione chiara, come il Misto): la pipeline avvisa se compare un gruppo nuovo.
 - `/regione/campania/attivita/`: tutti gli atti della legislatura (proposte di legge, interrogazioni, question time, mozioni, risoluzioni), con filtri, ricerca ed esito. Sotto, la tabella degli atti per consigliere.
 - `/regione/campania/consiglieri/<slug>/`: scheda di ogni consigliere, con contatti, commissioni e tutti i suoi atti.
 - `/regione/campania/leggi/`: le leggi approvate, con PDF ufficiale, relazione illustrativa e, se disponibile, un riassunto in parole semplici.

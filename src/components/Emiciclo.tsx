@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { dataLunga } from "@/lib/format";
+import { dataLunga, inCircoscrizione } from "@/lib/format";
 import { assegnaSeggi, CX, CY, H, R_DOT, W } from "@/lib/emiciclo";
 import { ScriviA } from "./ScriviA";
 import { Condividi } from "./Condividi";
@@ -72,6 +72,8 @@ export function Emiciclo({ regione, consiglieri, presidente, gruppi, tipi, circo
   const conteggioGruppo = (nome: string) => consiglieri.filter((c) => c.gruppo === nome).length;
   const maggioranza = consiglieri.filter((c) => gruppo.get(c.gruppo ?? "")?.coalizione === "maggioranza").length;
   const hovered = seggi.find((s) => s.c.username === hover);
+  // Esempio per la ricerca, preso dai dati del Consiglio: un cognome, una sigla e il nome di un gruppo.
+  const esempio = [consiglieri[0]?.nome.split(" ").pop(), gruppi[0]?.sigla, gruppi.at(-1)?.nome].filter(Boolean).join(", ");
 
   return (
     <div>
@@ -83,7 +85,7 @@ export function Emiciclo({ regione, consiglieri, presidente, gruppi, tipi, circo
             type="search"
             value={q}
             onChange={(e) => setQ(e.target.value)}
-            placeholder="Cerca per nome o gruppo (es. Sangiuliano, PD, Forza Italia)"
+            placeholder={`Cerca per nome o gruppo${esempio ? ` (es. ${esempio})` : ""}`}
             className="w-full rounded-2xl border border-line bg-surface px-4 py-2.5 outline-none placeholder:text-ink-3 focus:border-accent focus:ring-2 focus:ring-accent/30"
           />
         </label>
@@ -96,7 +98,7 @@ export function Emiciclo({ regione, consiglieri, presidente, gruppi, tipi, circo
               soloCirc ? "border-accent bg-accent-soft text-accent" : "border-line bg-surface text-ink-2"
             }`}
           >
-            {soloCirc ? "✓ " : ""}Solo eletti in provincia di {circoscrizione}
+            {soloCirc ? "✓ " : ""}Solo eletti {inCircoscrizione(circoscrizione)}
           </button>
         )}
       </div>
@@ -264,9 +266,14 @@ function SchedaConsigliere({
           <h2 className="display mt-1 text-3xl">{c.nome}</h2>
           <p className="text-sm text-ink-2">
             Consigliere regionale ·{" "}
-            {c.circoscrizione ? `eletto in provincia di ${c.circoscrizione}` : "subentrato dopo le elezioni"}
+            {c.circoscrizione ? `eletto ${inCircoscrizione(c.circoscrizione)}` : "subentrato dopo le elezioni"}
           </p>
-          {g && <p className="mt-0.5 text-xs text-ink-3">{g.nome} · {g.coalizione}</p>}
+          {g && (
+            <p className="mt-0.5 text-xs text-ink-3">
+              {g.nome}
+              {g.coalizione && ` · ${g.coalizione}`}
+            </p>
+          )}
         </div>
         <button
           type="button"

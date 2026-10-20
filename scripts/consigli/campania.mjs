@@ -110,9 +110,9 @@ async function leggiConsiglio(ctx) {
     );
   }
   // Coalizione e colore di ogni gruppo (file curato a mano): servono per l'emiciclo.
-  const gruppiManual = JSON.parse(fs.readFileSync(path.join(MANUAL, "gruppi-consiliari.json"), "utf8")).gruppi;
+  const gruppiManual = JSON.parse(fs.readFileSync(path.join(MANUAL, "gruppi-consiliari", "campania.json"), "utf8")).gruppi;
   for (const c of consiglieri)
-    if (c.gruppo && !gruppiManual[c.gruppo]) warn(`Gruppo consiliare senza coalizione/colore in data/manual/gruppi-consiliari.json: ${c.gruppo}`);
+    if (c.gruppo && !gruppiManual[c.gruppo]) warn(`Gruppo consiliare senza coalizione/colore in data/manual/gruppi-consiliari/campania.json: ${c.gruppo}`);
   consiglieri.sort((a, b) => a.nome.split(" ").pop().localeCompare(b.nome.split(" ").pop(), "it"));
   console.log(`  ${consiglieri.length} consiglieri regionali`);
 

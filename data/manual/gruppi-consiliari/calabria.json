@@ -1,0 +1,16 @@
+{
+  "_nota": "Gruppi del Consiglio regionale della Calabria (XIII legislatura), in ordine da sinistra a destra nell'emiciclo. coalizione: maggioranza (centrodestra, a sostegno del presidente Occhiuto) o opposizione (centrosinistra e M5S, coalizione di Tridico alle elezioni del 2025). Il gruppo Misto non ha coalizione. I nomi devono coincidere con quelli del sito consiglioregionale.calabria.it.",
+  "gruppi": {
+    "Fratelli d'Italia": { "sigla": "FdI", "coalizione": "maggioranza", "colore": "#2c4f96" },
+    "Lega Salvini Calabria": { "sigla": "Lega", "coalizione": "maggioranza", "colore": "#1f9e9a" },
+    "Forza Italia": { "sigla": "FI", "coalizione": "maggioranza", "colore": "#2f7fd6" },
+    "Occhiuto Presidente": { "sigla": "Occhiuto Pres.", "coalizione": "maggioranza", "colore": "#6b8fbf" },
+    "Noi Moderati": { "sigla": "Noi Moderati", "coalizione": "maggioranza", "colore": "#8e7cc3" },
+    "Misto": { "sigla": "Misto", "colore": "#8a8f98" },
+    "Casa Riformista - Italia Viva": { "sigla": "Casa Riformista", "coalizione": "opposizione", "colore": "#c0398a" },
+    "Democratici Progressisti Meridionalisti": { "sigla": "Dem. Progressisti", "coalizione": "opposizione", "colore": "#e86a8f" },
+    "Partito Democratico": { "sigla": "PD", "coalizione": "opposizione", "colore": "#d6363b" },
+    "Tridico Presidente": { "sigla": "Tridico Pres.", "coalizione": "opposizione", "colore": "#f08a3c" },
+    "Movimento 5 Stelle": { "sigla": "M5S", "coalizione": "opposizione", "colore": "#e0b400" }
+  }
+}

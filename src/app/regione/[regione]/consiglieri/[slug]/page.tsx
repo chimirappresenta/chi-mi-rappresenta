@@ -47,7 +47,7 @@ export default async function ConsiglierePage({ params }: PageProps<"/regione/[r
         regione={cr.slug}
         titolo={c.nome}
         sottotitolo={`Consigliere regionale${c.circoscrizione ? ` · eletto nella circoscrizione di ${c.circoscrizione}` : " · subentrato dopo le elezioni"}`}
-        intro={g ? `${g.nome}${c.ruoloGruppo ? ` (${c.ruoloGruppo})` : ""} · ${g.coalizione}` : (c.gruppo ?? "")}
+        intro={g ? `${g.nome}${c.ruoloGruppo ? ` (${c.ruoloGruppo})` : ""}${g.coalizione ? ` · ${g.coalizione}` : ""}` : (c.gruppo ?? "")}
         attiva={null}
         indietro={{ href: `/regione/${cr.slug}/`, label: "Giunta e Consiglio regionale" }}
         condividi={{

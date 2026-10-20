@@ -5,3 +5,10 @@ export const dataLunga = (iso: string) => fmt.format(new Date(`${iso}T00:00:00Z`
 
 /** Username del sito del Consiglio ("ALAIA.VIN") → slug per gli URL ("alaia-vin"). */
 export const slugConsigliere = (username: string) => username.toLowerCase().replace(/[^a-z0-9]+/g, "-");
+
+/**
+ * Circoscrizione regionale di elezione, come si scrive in una frase. Le circoscrizioni sono indicate con le province che
+ * comprendono: "Napoli" → "in provincia di Napoli"; "Catanzaro, Crotone e Vibo Valentia" → "nelle province di …".
+ */
+export const piuProvince = (circ: string) => circ.includes(", ");
+export const inCircoscrizione = (circ: string) => (piuProvince(circ) ? `nelle province di ${circ}` : `in provincia di ${circ}`);

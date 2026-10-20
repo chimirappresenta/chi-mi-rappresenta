@@ -410,7 +410,7 @@
    "codice": "18",
    "nome": "Calabria",
    "slug": "calabria",
-   "inChiaro": false,
+   "inChiaro": true,
    "presidente": {
     "nome": "Roberto Occhiuto",
     "ruolo": "Presidente della Regione",

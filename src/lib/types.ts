@@ -30,7 +30,8 @@ export type ConsigliereRegionale = Persona & {
 export type GruppoConsiliare = {
   nome: string;
   sigla: string;
-  coalizione: "maggioranza" | "opposizione";
+  /** Assente per i gruppi senza una collocazione chiara (per esempio il Misto). */
+  coalizione?: "maggioranza" | "opposizione";
   colore: string;
 };
 
@@ -147,6 +148,8 @@ export type Legge = {
   url: string;
   pdf?: string;
   relazione?: string;
+  /** Testo semplice della legge, se la fonte lo pubblica. */
+  testo?: string;
   riassunto?: { testo: string; modello: string; generato: string };
 };
 
