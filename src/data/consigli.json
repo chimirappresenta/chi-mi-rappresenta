@@ -37575,7 +37575,12 @@
      "intestazione": "Legge regionale 5 ottobre 2026, n. 21",
      "oggetto": "XII legislatura - 8° provvedimento di riconoscimento di debiti fuori bilancio ai sensi dell’articolo 73, comma 1, lettera a) ed e) del decreto legislativo 23 giugno 2011, n. 118, come modificato dal decreto legislativo 10 agosto 2014, n. 126 e modifica alla legge regionale 1 dicembre 2017, n. 49 (Disciplina della comunicazione dei prezzi e dei servizi delle strutture turistiche ricettive nonchè delle attività turistiche ricettive ad uso pubblico gestite in regime di concessione e della rilevazione dei dati sul movimento turistico a fini statistici)",
      "url": "https://giac.consiglio.puglia.it/web/timeline/2698",
-     "pdf": "https://burp.regione.puglia.it/documents/20135/2844579/LR_21_2026.pdf/6059e27f-1db7-e533-eef7-6fbd179ec555?version=1.0&t=1791219276382"
+     "pdf": "https://burp.regione.puglia.it/documents/20135/2844579/LR_21_2026.pdf/6059e27f-1db7-e533-eef7-6fbd179ec555?version=1.0&t=1791219276382",
+     "riassunto": {
+      "testo": "Ottavo provvedimento sui debiti fuori bilancio: 6 debiti per circa 1,1 milioni di euro, il più grande (circa 1 milione) per una sentenza della Corte di giustizia tributaria. Modifica anche la legge del 2017 sulla comunicazione dei prezzi e dei dati delle strutture turistiche.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-20",
@@ -37584,7 +37589,12 @@
      "intestazione": "Legge regionale 5 ottobre 2026, n. 20",
      "oggetto": "Modifica all’articolo 3 della legge regionale 24 settembre 2012, n. 25 (Regolazione dell’uso dell’energia da fonti rinnovabili)",
      "url": "https://giac.consiglio.puglia.it/web/timeline/2572",
-     "pdf": "https://burp.regione.puglia.it/documents/20135/2844579/LR_20_2026.pdf/f23bc34a-7ffe-4001-2687-0fff15f0c798?version=1.0&t=1791219276287"
+     "pdf": "https://burp.regione.puglia.it/documents/20135/2844579/LR_20_2026.pdf/f23bc34a-7ffe-4001-2687-0fff15f0c798?version=1.0&t=1791219276287",
+     "riassunto": {
+      "testo": "Piccola modifica tecnica alla legge regionale del 2012 sull'energia da fonti rinnovabili: elimina un riferimento a un articolo dello Statuto. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-19",
@@ -37593,7 +37603,12 @@
      "intestazione": "Legge regionale 28 settembre 2026, n. 19",
      "oggetto": "Progetto sperimentale per favorire lo sviluppo della filiera logistica agroalimentare pugliese”",
      "url": "https://giac.consiglio.puglia.it/web/timeline/2624",
-     "pdf": "https://burp.regione.puglia.it/documents/20135/2841461/LR_19_2026.pdf/98e2e106-44bb-79be-8b45-b703ee450ba9?version=1.0&t=1790608483863"
+     "pdf": "https://burp.regione.puglia.it/documents/20135/2841461/LR_19_2026.pdf/98e2e106-44bb-79be-8b45-b703ee450ba9?version=1.0&t=1790608483863",
+     "riassunto": {
+      "testo": "Avvia in via sperimentale un collegamento aereo cargo tra l'aeroporto di Taranto-Grottaglie e Istanbul per esportare prodotti agroalimentari pugliesi. Ad Aeroporti di Puglia va un contributo fino a 655.200 euro nel 2026, 355.000 nel 2027 e 343.200 nel 2028, ridotto se il cargo viaggia più pieno del previsto.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-18",
@@ -37602,7 +37617,12 @@
      "intestazione": "Legge regionale 4 agosto 2026, n. 18",
      "oggetto": "Ratifica del provvedimento di variazione al bilancio di previsione 2026-2028, adottato in via d’urgenza con deliberazione della Giunta regionale del 23 giugno 2026, n. 823, ai sensi dell’articolo 51 bis del decreto legislativo 23 giugno 2011, n. 118 (Disposizioni in materia di armonizzazione dei sistemi contabili e degli schemi di bilancio delle Regioni, degli enti locali e dei loro organismi, a norma degli articoli 1 e 2 della legge 5 maggio 2009, n. 42)",
      "url": "https://giac.consiglio.puglia.it/web/timeline/2672",
-     "pdf": "https://burp.regione.puglia.it/documents/20135/2830735/LR_18_2026.pdf/7934a12b-48e3-2a4d-c4ad-5ed7de3dc2f5?version=1.0&t=1786022828661"
+     "pdf": "https://burp.regione.puglia.it/documents/20135/2830735/LR_18_2026.pdf/7934a12b-48e3-2a4d-c4ad-5ed7de3dc2f5?version=1.0&t=1786022828661",
+     "riassunto": {
+      "testo": "Ratifica la variazione di bilancio decisa d'urgenza dalla Giunta a giugno 2026 per applicare la cancellazione, prevista dalla legge statale, del debito della Regione per le anticipazioni di liquidità ricevute dallo Stato. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-17",
@@ -37611,7 +37631,12 @@
      "intestazione": "Legge regionale 30 luglio 2026, n. 17",
      "oggetto": "Variazione al bilancio di previsione per l’esercizio finanziario 2026 e pluriennale 2026-2028. Recupero delle eccedenze di gettito 2025 di cui al decreto del Presidente della Giunta regionale n. 2/2026 ed ulteriori necessità di spesa",
      "url": "https://giac.consiglio.puglia.it/web/timeline/2679",
-     "pdf": "https://burp.regione.puglia.it/documents/20135/2815387/LR_17_2026.pdf/486fc998-2e2b-32f2-abc1-602fa37169f8?version=1.0&t=1785429256981"
+     "pdf": "https://burp.regione.puglia.it/documents/20135/2815387/LR_17_2026.pdf/486fc998-2e2b-32f2-abc1-602fa37169f8?version=1.0&t=1785429256981",
+     "riassunto": {
+      "testo": "Variazione al bilancio 2026-2028: recupera le maggiori entrate fiscali del 2025 usate per coprire il disavanzo della sanità (circa 25,4 milioni di euro) e contiene altre disposizioni finanziarie e di modifica di leggi regionali.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-16",
@@ -37620,7 +37645,12 @@
      "intestazione": "Legge regionale 30 luglio 2026, n. 16",
      "oggetto": "Definizione agevolata della tassa automobilistica regionale e disposizioni in materia di contrasto all’evasione dei tributi regionali. Recepimento degli articoli 10 quinquies e 14 bis del decreto-legge 27 marzo 2026, n. 38 (Disposizioni urgenti in materia fiscale ed economica) convertito, con modificazioni, dalla legge 22 maggio 2026, n. 88. Modifica alla legge regionale 31 ottobre 2002, n. 18 (Testo unico sulla disciplina del trasporto pubblico locale)",
      "url": "https://giac.consiglio.puglia.it/web/timeline/2650",
-     "pdf": "https://burp.regione.puglia.it/documents/20135/2815387/LR_16_2026.pdf/7fc0be79-a418-5cbb-85d3-58bf0a4bf1d6?version=1.0&t=1785429256799"
+     "pdf": "https://burp.regione.puglia.it/documents/20135/2815387/LR_16_2026.pdf/7fc0be79-a418-5cbb-85d3-58bf0a4bf1d6?version=1.0&t=1785429256799",
+     "riassunto": {
+      "testo": "Permette di chiudere i debiti del bollo auto regionale affidati alla riscossione pagando senza interessi e sanzioni ('rottamazione'): la domanda va presentata all'Agenzia delle entrate-Riscossione tra il 16 ottobre e il 15 dicembre 2026. Crea anche un fondo per potenziare la lotta all'evasione dei tributi regionali.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-15",
@@ -37629,7 +37659,12 @@
      "intestazione": "Legge regionale 13 luglio 2026, n. 15",
      "oggetto": "Agevolazioni fiscali per gli enti del terzo settore. Modifica all’ articolo 48 della legge regionale 21 maggio 2002, n. 7 (Bilancio di previsione per l'esercizio finanziario 2002 e bilancio pluriennale 2002 - 2004)",
      "url": "https://giac.consiglio.puglia.it/web/timeline/2630",
-     "pdf": "https://burp.regione.puglia.it/documents/20135/2814368/LR_15_2026.pdf/ae0c65c5-ca50-fcca-1ac3-1c348ff00179?version=1.0&t=1784232998024"
+     "pdf": "https://burp.regione.puglia.it/documents/20135/2814368/LR_15_2026.pdf/ae0c65c5-ca50-fcca-1ac3-1c348ff00179?version=1.0&t=1784232998024",
+     "riassunto": {
+      "testo": "Mantiene l'esenzione da un tributo regionale per gli enti del Terzo settore già iscritti come ONLUS che entro il 31 marzo 2026 hanno chiesto l'iscrizione al nuovo Registro unico (RUNTS), limitatamente alle attività non commerciali. Nessuna variazione per il bilancio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-14",
@@ -37638,7 +37673,12 @@
      "intestazione": "Legge regionale 13 luglio 2026, n. 14",
      "oggetto": "Valutazione di impatto generazionale e valutazione di impatto di genere nell’ambito dei disegni di legge, delle proposte di legge e dei regolamenti delegati ai sensi del comma 1 dell’articolo 44 dello Statuto regionale. Modifiche alla legge regionale 2 novembre 2011, n. 29 (Semplificazione e qualità della normazione)",
      "url": "https://giac.consiglio.puglia.it/web/timeline/2530",
-     "pdf": "https://burp.regione.puglia.it/documents/20135/2814368/LR_14_2026.pdf/12da3ff6-3d6d-9278-3655-11af1a3c8339?version=1.0&t=1784232997964"
+     "pdf": "https://burp.regione.puglia.it/documents/20135/2814368/LR_14_2026.pdf/12da3ff6-3d6d-9278-3655-11af1a3c8339?version=1.0&t=1784232997964",
+     "riassunto": {
+      "testo": "Aggiorna le regole sull'analisi di impatto delle leggi: le nuove proposte e i regolamenti devono valutare in anticipo gli effetti su cittadini e imprese e, come indica il titolo, anche l'impatto sulle nuove generazioni e sulla parità di genere. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-13",
@@ -37647,7 +37687,12 @@
      "intestazione": "Legge regionale 13 luglio 2026, n. 13",
      "oggetto": "Istituzione della giornata regionale per l’utilizzo sicuro, responsabile e consapevole della rete internet e dei social. Disposizioni in materia di sensibilizzazione digitale",
      "url": "https://giac.consiglio.puglia.it/web/timeline/2437",
-     "pdf": "https://burp.regione.puglia.it/documents/20135/2814368/LR_13_2026.pdf/1062f7e6-397e-b388-2658-650e597b92c7?version=1.0&t=1784232997875"
+     "pdf": "https://burp.regione.puglia.it/documents/20135/2814368/LR_13_2026.pdf/1062f7e6-397e-b388-2658-650e597b92c7?version=1.0&t=1784232997875",
+     "riassunto": {
+      "testo": "Istituisce la 'Giornata regionale per l'utilizzo sicuro, responsabile e consapevole della rete internet e dei social', il secondo martedì di febbraio, con iniziative soprattutto per i giovani sui rischi della rete. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-12",
@@ -37656,7 +37701,12 @@
      "intestazione": "Legge regionale 13 luglio 2026, n. 12",
      "oggetto": "Modifiche alla legge regionale 26 ottobre 2016, n. 29 (Istituzione di una Commissione regionale di studio e di inchiesta sul fenomeno della criminalità organizzata in Puglia)",
      "url": "https://giac.consiglio.puglia.it/web/timeline/2647",
-     "pdf": "https://burp.regione.puglia.it/documents/20135/2814368/LR_12_2026.pdf/ccf88202-67a5-5a92-6c9f-420b6b96f947?version=1.0&t=1784232997815"
+     "pdf": "https://burp.regione.puglia.it/documents/20135/2814368/LR_12_2026.pdf/ccf88202-67a5-5a92-6c9f-420b6b96f947?version=1.0&t=1784232997815",
+     "riassunto": {
+      "testo": "La Commissione regionale di studio e inchiesta sulla criminalità organizzata in Puglia resta attiva fino alla fine dell'attuale legislatura. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-11",
@@ -37665,7 +37715,12 @@
      "intestazione": "Legge regionale 8 luglio 2026, n. 11",
      "oggetto": "Modifiche alla legge regionale 20 aprile 2023, n. 6 (Misure di salvaguardia per la tutela del riccio di mare) e disposizioni per la gestione sostenibile della risorsa Paracentrotus lividus",
      "url": "https://giac.consiglio.puglia.it/web/timeline/2642",
-     "pdf": "https://burp.regione.puglia.it/documents/20135/2734433/LR_11_2026.pdf/6891795a-9987-92ce-2db5-02f7b895f904?version=1.0&t=1784040200174"
+     "pdf": "https://burp.regione.puglia.it/documents/20135/2734433/LR_11_2026.pdf/6891795a-9987-92ce-2db5-02f7b895f904?version=1.0&t=1784040200174",
+     "riassunto": {
+      "testo": "Prolunga fino al 30 giugno 2029 il divieto di pescare, vendere e servire ricci di mare raccolti lungo le coste pugliesi, per far ripopolare la specie. Si possono vendere solo ricci provenienti da altri mari, con documenti sulla provenienza. Previste campagne di informazione contro il consumo illegale.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-10",
@@ -37674,7 +37729,12 @@
      "intestazione": "Legge regionale 8 luglio 2026, n. 10",
      "oggetto": "XII legislatura - 7° provvedimento di riconoscimento di debiti fuori bilancio ai sensi dell’articolo 73, comma 1, lettera a) ed e) del decreto legislativo 23 giugno 2011, n. 118, come modificato dal decreto legislativo 10 agosto 2014, n. 126",
      "url": "https://giac.consiglio.puglia.it/web/timeline/2606",
-     "pdf": "https://burp.regione.puglia.it/documents/20135/2734433/LR_10_2026.pdf/a4b87e81-8ba3-07c7-705d-491f179efbc5?version=1.0&t=1784040200033"
+     "pdf": "https://burp.regione.puglia.it/documents/20135/2734433/LR_10_2026.pdf/a4b87e81-8ba3-07c7-705d-491f179efbc5?version=1.0&t=1784040200033",
+     "riassunto": {
+      "testo": "Settimo provvedimento sui debiti fuori bilancio: 10 debiti per circa 217.000 euro, derivanti da sentenze e spese legali. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-9",
@@ -37683,7 +37743,12 @@
      "intestazione": "Legge regionale 8 luglio 2026, n. 9",
      "oggetto": "Disciplina del sistema integrato di educazione e istruzione per l’infanzia",
      "url": "https://giac.consiglio.puglia.it/web/timeline/2441",
-     "pdf": "https://burp.regione.puglia.it/documents/20135/2734433/LR_09_2026.pdf/c6559577-11f6-6b7a-df80-f1150bf9cb3e?version=1.0&t=1784040199845"
+     "pdf": "https://burp.regione.puglia.it/documents/20135/2734433/LR_09_2026.pdf/c6559577-11f6-6b7a-df80-f1150bf9cb3e?version=1.0&t=1784040199845",
+     "riassunto": {
+      "testo": "Riorganizza i servizi per i bambini da 0 a 6 anni (asili nido, sezioni primavera, scuole dell'infanzia e poli per l'infanzia), applicando la riforma nazionale 'zerosei': regole su autorizzazione e accreditamento, personale, requisiti di spazi, arredi e giochi, coordinamenti pedagogici e comunicazione con le famiglie.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-8",
@@ -37692,7 +37757,12 @@
      "intestazione": "Legge regionale 23 giugno 2026, n. 8",
      "oggetto": "Modifiche alla legge regionale 30 maggio 2025, n. 7 (Disciplina regionale dell’utilizzo delle acque superficiali e sotterranee e disposizioni diverse)",
      "url": "https://giac.consiglio.puglia.it/web/timeline/2402",
-     "pdf": "https://burp.regione.puglia.it/documents/20135/2805586/LR_08_2026.pdf/46b9e7fc-3752-d904-5a6d-e779fa4b8164?version=1.0&t=1782384080229"
+     "pdf": "https://burp.regione.puglia.it/documents/20135/2805586/LR_08_2026.pdf/46b9e7fc-3752-d904-5a6d-e779fa4b8164?version=1.0&t=1782384080229",
+     "riassunto": {
+      "testo": "Modifica la legge del 2025 sull'uso delle acque superficiali e sotterranee: gli agricoltori possono presentare le domande tramite i Centri di assistenza agricola, alcuni controlli diventano ogni cinque anni invece che ogni tre, e diverse multe scendono da 360 a 103 euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-7",
@@ -37701,7 +37771,12 @@
      "intestazione": "Legge regionale 23 giugno 2026, n. 7",
      "oggetto": "XII legislatura - 6° provvedimento di riconoscimento di debiti fuori bilancio ai sensi dell’articolo 73, comma 1, lettera a) del decreto legislativo 23 giugno 2011, n. 118, come modificato dal decreto legislativo 10 agosto 2014, n. 126",
      "url": "https://giac.consiglio.puglia.it/web/timeline/2585",
-     "pdf": "https://burp.regione.puglia.it/documents/20135/2805586/LR_07_2026.pdf/eeb2904a-2c00-10b9-8658-84a076a3947c?version=1.0&t=1782384080075"
+     "pdf": "https://burp.regione.puglia.it/documents/20135/2805586/LR_07_2026.pdf/eeb2904a-2c00-10b9-8658-84a076a3947c?version=1.0&t=1782384080075",
+     "riassunto": {
+      "testo": "Sesto provvedimento sui debiti fuori bilancio: 13 debiti per circa 269.000 euro, il più grande dei quali (circa 230.000 euro) deriva da una sentenza. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-6",
@@ -37710,7 +37785,12 @@
      "intestazione": "Legge regionale 3 giugno 2026, n. 6",
      "oggetto": "XII legislatura - 5° provvedimento di riconoscimento di debiti fuori bilancio ai sensi dell’articolo 73, comma 1, lettera a) del decreto legislativo 23 giugno 2011, n. 118, come modificato dal decreto legislativo 10 agosto 2014, n. 126",
      "url": "https://giac.consiglio.puglia.it/web/timeline/2555",
-     "pdf": "https://burp.regione.puglia.it/documents/20135/2801370/LR_06_2026.pdf/ec8a67ff-e221-3de2-b751-bf502337beca?version=1.0&t=1780575546558"
+     "pdf": "https://burp.regione.puglia.it/documents/20135/2801370/LR_06_2026.pdf/ec8a67ff-e221-3de2-b751-bf502337beca?version=1.0&t=1780575546558",
+     "riassunto": {
+      "testo": "Quinto provvedimento sui debiti fuori bilancio: 17 debiti per circa 1,7 milioni di euro in tutto, tra decreti di liquidazione, precetti e tributi non pagati. È un atto contabile per pagare somme già dovute.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-5",
@@ -37719,7 +37799,12 @@
      "intestazione": "Legge regionale 6 maggio 2026, n. 5",
      "oggetto": "XII legislatura - 4° provvedimento di riconoscimento di debiti fuori bilancio ai sensi dell’articolo 73, comma 1, lettere a) ed e), del decreto legislativo 23 giugno 2011, n. 118, come modificato dal decreto legislativo 10 agosto 2014, n. 126",
      "url": "https://giac.consiglio.puglia.it/web/timeline/2536",
-     "pdf": "https://burp.regione.puglia.it/documents/20135/2789870/LR_5_2026.pdf/86172a22-ebfb-1bad-6ec9-2b23a5a9a3df?version=1.0&t=1778513240560"
+     "pdf": "https://burp.regione.puglia.it/documents/20135/2789870/LR_5_2026.pdf/86172a22-ebfb-1bad-6ec9-2b23a5a9a3df?version=1.0&t=1778513240560",
+     "riassunto": {
+      "testo": "Quarto provvedimento sui debiti fuori bilancio: 16 debiti per circa 110.000 euro, derivanti soprattutto da sentenze di TAR e tribunali. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-4",
@@ -37728,7 +37813,12 @@
      "intestazione": "Legge regionale 8 aprile 2026, n. 4",
      "oggetto": "Norme di interpretazione autentica in materia di proroga delle graduatorie concorsuali e di immobili del patrimonio regionale assegnati alle forze dell’ordine",
      "url": "https://giac.consiglio.puglia.it/web/timeline/2473",
-     "pdf": "https://burp.regione.puglia.it/documents/20135/2725188/LR_04_2026.pdf/921d82d7-5817-a0b8-1b4c-2dd15e12a8bc?version=1.0&t=1776157330966"
+     "pdf": "https://burp.regione.puglia.it/documents/20135/2725188/LR_04_2026.pdf/921d82d7-5817-a0b8-1b4c-2dd15e12a8bc?version=1.0&t=1776157330966",
+     "riassunto": {
+      "testo": "Chiarisce il significato di due norme già in vigore: la proroga delle graduatorie dei concorsi vale per tutte quelle in scadenza nel 2025, anche se già prorogate una volta, e una regola sugli immobili regionali assegnati alle forze dell'ordine vale anche per chi era già in pensione. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-3",
@@ -37737,7 +37827,12 @@
      "intestazione": "Legge regionale 8 aprile 2026, n. 3",
      "oggetto": "XII legislatura - 3° provvedimento di riconoscimento di debiti fuori bilancio ai sensi dell’articolo 73, comma 1, lettere a) ed e), del decreto legislativo 23 giugno 2011, n. 118, come modificato dal decreto legislativo 10 agosto 2014, n. 126",
      "url": "https://giac.consiglio.puglia.it/web/timeline/2456",
-     "pdf": "https://burp.regione.puglia.it/documents/20135/2725188/LR_03_2026.pdf/24f16fe0-3f22-d1c3-b084-8e0f7905b2bf?version=1.0&t=1776157330909"
+     "pdf": "https://burp.regione.puglia.it/documents/20135/2725188/LR_03_2026.pdf/24f16fe0-3f22-d1c3-b084-8e0f7905b2bf?version=1.0&t=1776157330909",
+     "riassunto": {
+      "testo": "Terzo provvedimento sui debiti fuori bilancio: 3 debiti per circa 19.000 euro, derivanti da sentenze e spese per consulenti tecnici dei tribunali. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-2",
@@ -37746,7 +37841,12 @@
      "intestazione": "Legge regionale 25 marzo 2026, n. 2",
      "oggetto": "XII legislatura - 2° provvedimento di riconoscimento di debiti fuori bilancio ai sensi dell’articolo 73, comma 1, lettera a), del decreto legislativo 23 giugno 2011, n. 118, come modificato dal decreto legislativo 10 agosto 2014, n. 126",
      "url": "https://giac.consiglio.puglia.it/web/timeline/2399",
-     "pdf": "https://burp.regione.puglia.it/documents/20135/2755254/LR_2_2026.pdf/19099d32-e243-51ac-2edc-1ed5fffc51c6?version=1.0&t=1774877742201"
+     "pdf": "https://burp.regione.puglia.it/documents/20135/2755254/LR_2_2026.pdf/19099d32-e243-51ac-2edc-1ed5fffc51c6?version=1.0&t=1774877742201",
+     "riassunto": {
+      "testo": "Secondo provvedimento sui debiti fuori bilancio: 18 debiti per circa 224.000 euro in tutto, quasi tutti spese legali e interessi dovuti per sentenze e decreti dei giudici. È un atto contabile per pagare somme già dovute.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-1",
@@ -37755,7 +37855,12 @@
      "intestazione": "Legge regionale 3 marzo 2026, n. 1",
      "oggetto": "XII legislatura - 1° provvedimento di riconoscimento di debiti fuori bilancio ai sensi dell’articolo 73, comma 1, lettera a), del decreto legislativo 23 giugno 2011, n. 118, come modificato dal decreto legislativo 10 agosto 2014, n. 126",
      "url": "https://giac.consiglio.puglia.it/web/timeline/2355",
-     "pdf": "https://burp.regione.puglia.it/documents/20135/2746216/LR_1_2026.pdf/9eff3eb2-8baa-96db-9018-356345f01903?version=1.0&t=1772728171034"
+     "pdf": "https://burp.regione.puglia.it/documents/20135/2746216/LR_1_2026.pdf/9eff3eb2-8baa-96db-9018-356345f01903?version=1.0&t=1772728171034",
+     "riassunto": {
+      "testo": "Primo provvedimento della legislatura per riconoscere debiti fuori bilancio, cioè spese che la Regione deve pagare ma che non erano state previste: 8 debiti per circa 687.000 euro in tutto, soprattutto per sentenze (il più grande, circa 532.000 euro, deriva da una sentenza del Tribunale di Lecce). È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     }
    ],
    "attivita": {

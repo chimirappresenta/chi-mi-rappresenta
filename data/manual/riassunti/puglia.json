@@ -1,0 +1,110 @@
+{
+  "_nota": "Riassunti scritti con Claude (claude-opus-5-5) leggendo il testo ufficiale delle leggi (Bollettino ufficiale della Regione Puglia). Si possono correggere a mano: la pipeline non li sovrascrive.",
+  "leggi": {
+    "2026-21": {
+      "testo": "Ottavo provvedimento sui debiti fuori bilancio: 6 debiti per circa 1,1 milioni di euro, il più grande (circa 1 milione) per una sentenza della Corte di giustizia tributaria. Modifica anche la legge del 2017 sulla comunicazione dei prezzi e dei dati delle strutture turistiche.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-20": {
+      "testo": "Piccola modifica tecnica alla legge regionale del 2012 sull'energia da fonti rinnovabili: elimina un riferimento a un articolo dello Statuto. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-19": {
+      "testo": "Avvia in via sperimentale un collegamento aereo cargo tra l'aeroporto di Taranto-Grottaglie e Istanbul per esportare prodotti agroalimentari pugliesi. Ad Aeroporti di Puglia va un contributo fino a 655.200 euro nel 2026, 355.000 nel 2027 e 343.200 nel 2028, ridotto se il cargo viaggia più pieno del previsto.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-18": {
+      "testo": "Ratifica la variazione di bilancio decisa d'urgenza dalla Giunta a giugno 2026 per applicare la cancellazione, prevista dalla legge statale, del debito della Regione per le anticipazioni di liquidità ricevute dallo Stato. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-17": {
+      "testo": "Variazione al bilancio 2026-2028: recupera le maggiori entrate fiscali del 2025 usate per coprire il disavanzo della sanità (circa 25,4 milioni di euro) e contiene altre disposizioni finanziarie e di modifica di leggi regionali.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-16": {
+      "testo": "Permette di chiudere i debiti del bollo auto regionale affidati alla riscossione pagando senza interessi e sanzioni ('rottamazione'): la domanda va presentata all'Agenzia delle entrate-Riscossione tra il 16 ottobre e il 15 dicembre 2026. Crea anche un fondo per potenziare la lotta all'evasione dei tributi regionali.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-15": {
+      "testo": "Mantiene l'esenzione da un tributo regionale per gli enti del Terzo settore già iscritti come ONLUS che entro il 31 marzo 2026 hanno chiesto l'iscrizione al nuovo Registro unico (RUNTS), limitatamente alle attività non commerciali. Nessuna variazione per il bilancio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-14": {
+      "testo": "Aggiorna le regole sull'analisi di impatto delle leggi: le nuove proposte e i regolamenti devono valutare in anticipo gli effetti su cittadini e imprese e, come indica il titolo, anche l'impatto sulle nuove generazioni e sulla parità di genere. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-13": {
+      "testo": "Istituisce la 'Giornata regionale per l'utilizzo sicuro, responsabile e consapevole della rete internet e dei social', il secondo martedì di febbraio, con iniziative soprattutto per i giovani sui rischi della rete. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-12": {
+      "testo": "La Commissione regionale di studio e inchiesta sulla criminalità organizzata in Puglia resta attiva fino alla fine dell'attuale legislatura. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-11": {
+      "testo": "Prolunga fino al 30 giugno 2029 il divieto di pescare, vendere e servire ricci di mare raccolti lungo le coste pugliesi, per far ripopolare la specie. Si possono vendere solo ricci provenienti da altri mari, con documenti sulla provenienza. Previste campagne di informazione contro il consumo illegale.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-10": {
+      "testo": "Settimo provvedimento sui debiti fuori bilancio: 10 debiti per circa 217.000 euro, derivanti da sentenze e spese legali. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-9": {
+      "testo": "Riorganizza i servizi per i bambini da 0 a 6 anni (asili nido, sezioni primavera, scuole dell'infanzia e poli per l'infanzia), applicando la riforma nazionale 'zerosei': regole su autorizzazione e accreditamento, personale, requisiti di spazi, arredi e giochi, coordinamenti pedagogici e comunicazione con le famiglie.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-8": {
+      "testo": "Modifica la legge del 2025 sull'uso delle acque superficiali e sotterranee: gli agricoltori possono presentare le domande tramite i Centri di assistenza agricola, alcuni controlli diventano ogni cinque anni invece che ogni tre, e diverse multe scendono da 360 a 103 euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-7": {
+      "testo": "Sesto provvedimento sui debiti fuori bilancio: 13 debiti per circa 269.000 euro, il più grande dei quali (circa 230.000 euro) deriva da una sentenza. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-6": {
+      "testo": "Quinto provvedimento sui debiti fuori bilancio: 17 debiti per circa 1,7 milioni di euro in tutto, tra decreti di liquidazione, precetti e tributi non pagati. È un atto contabile per pagare somme già dovute.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-5": {
+      "testo": "Quarto provvedimento sui debiti fuori bilancio: 16 debiti per circa 110.000 euro, derivanti soprattutto da sentenze di TAR e tribunali. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-4": {
+      "testo": "Chiarisce il significato di due norme già in vigore: la proroga delle graduatorie dei concorsi vale per tutte quelle in scadenza nel 2025, anche se già prorogate una volta, e una regola sugli immobili regionali assegnati alle forze dell'ordine vale anche per chi era già in pensione. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-3": {
+      "testo": "Terzo provvedimento sui debiti fuori bilancio: 3 debiti per circa 19.000 euro, derivanti da sentenze e spese per consulenti tecnici dei tribunali. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-2": {
+      "testo": "Secondo provvedimento sui debiti fuori bilancio: 18 debiti per circa 224.000 euro in tutto, quasi tutti spese legali e interessi dovuti per sentenze e decreti dei giudici. È un atto contabile per pagare somme già dovute.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-1": {
+      "testo": "Primo provvedimento della legislatura per riconoscere debiti fuori bilancio, cioè spese che la Regione deve pagare ma che non erano state previste: 8 debiti per circa 687.000 euro in tutto, soprattutto per sentenze (il più grande, circa 532.000 euro, deriva da una sentenza del Tribunale di Lecce). È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    }
+  }
+}
