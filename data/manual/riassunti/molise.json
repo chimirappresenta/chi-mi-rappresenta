@@ -1,0 +1,55 @@
+{
+  "_nota": "Riassunti scritti con Claude (claude-opus-5-5) leggendo il testo ufficiale delle leggi (banca dati delle leggi del Consiglio regionale del Molise). Si possono correggere a mano: la pipeline non li sovrascrive.",
+  "leggi": {
+    "2026-10": {
+      "testo": "Proroga fino al 31 dicembre 2027 la validità delle graduatorie dei concorsi dell'Azienda sanitaria regionale del Molise (ASReM) in scadenza nel 2026, sia per assunzioni a tempo indeterminato sia determinato. Restano valide le stabilizzazioni in corso. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-9": {
+      "testo": "Riconosce un debito fuori bilancio di 41.700 euro per i compensi al personale delle Prefetture di Campobasso e Isernia e alle commissioni degli uffici giudiziari che hanno lavorato alle elezioni regionali del giugno 2023. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-8": {
+      "testo": "Approva il bilancio di previsione della Regione per il 2026-2028: circa 2,3 miliardi di euro di entrate e spese nel 2026, 2,15 miliardi nel 2027 e 2,04 miliardi nel 2028. È l'atto contabile che autorizza la Regione a incassare e spendere.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-7": {
+      "testo": "Legge di stabilità 2026: rifinanzia le leggi regionali di spesa per il 2026-2028 e contiene molte altre misure, tra cui la soppressione dell'Agenzia Molise Lavoro, un piano straordinario di assunzioni in Regione, la delega ai Comuni delle autorizzazioni paesaggistiche, il ritorno degli Istituti autonomi case popolari di Campobasso e Isernia, un fondo per ripulire le spiagge dai detriti delle alluvioni e misure per le edicole.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-6": {
+      "testo": "Riconosce un debito fuori bilancio di circa 456.000 euro, derivante da decisioni del Tribunale di Larino del 2002-2006 e da sentenze del TAR Molise del 2025, a favore dell'Opera Don Uva. Nomina il dirigente del bilancio regionale come commissario per eseguire i pagamenti. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-5": {
+      "testo": "Istituisce la 'Giornata regionale in memoria di Rodolfo de Moulins', il 22 agosto, dedicata alla figura medievale legata alle origini del Molise: studi, rievocazioni storiche, progetti nelle scuole e convegni sulla storia medievale della regione, coordinati da un tutor volontario.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-4": {
+      "testo": "Istituisce la 'Giornata regionale dello studente' il 20 settembre, per premiare studenti che si sono distinti per i risultati scolastici o per comportamenti meritevoli in famiglia e nella società. La organizza la Presidenza del Consiglio regionale, con una spesa massima di 20.000 euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-3": {
+      "testo": "Tutela e valorizza i dialetti del Molise come patrimonio culturale: la Regione sostiene studi e ricerche, progetti nelle scuole, festival, concorsi e pubblicazioni, e può premiare tesi di laurea sui dialetti. Nasce un comitato scientifico consultivo presso il Consiglio regionale.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-2": {
+      "testo": "Valorizza la tradizione dei presepi molisani: il Consiglio regionale patrocina mostre e presepi viventi, crea un registro pubblico di manifestazioni, mostre e musei presepistici, una commissione tecnica (gratuita) e la 'Settimana del Presepe Molisano' durante le feste natalizie, con iniziative nelle scuole e per il turismo.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-1": {
+      "testo": "Istituisce presso il Consiglio regionale il Garante dei diritti delle persone con disabilità: vigila sul rispetto dei loro diritti, riceve segnalazioni e opera in modo indipendente. È eletto dal Consiglio con maggioranza qualificata. Secondo la legge non comporta nuove spese per il bilancio regionale.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    }
+  }
+}
