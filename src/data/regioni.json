@@ -240,7 +240,7 @@
    "codice": "17",
    "nome": "Basilicata",
    "slug": "basilicata",
-   "inChiaro": false,
+   "inChiaro": true,
    "presidente": {
     "nome": "Vito Bardi",
     "ruolo": "Presidente della Regione",

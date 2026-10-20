@@ -209,6 +209,33 @@
    "ente": "Consiglio regionale del Molise",
    "url": "https://consiglioweb.regione.molise.it/atti.php",
    "raccolto": "2026-10-20"
+  },
+  {
+   "id": "basilicata-cr",
+   "nome": "Consiglieri, gruppi e assessori",
+   "ente": "Consiglio regionale della Basilicata",
+   "url": "https://www.consiglio.basilicata.it/pagina_elenco.html?ref_type_id=10010&sub_menu_id=200418&section_id=200424",
+   "raccolto": "2026-10-20"
+  },
+  {
+   "id": "basilicata-giunta",
+   "nome": "Assessori regionali (sito del Consiglio)",
+   "ente": "Consiglio regionale della Basilicata",
+   "url": "https://www.consiglio.basilicata.it/pagina_elenco.html?ref_type_id=10010&sub_menu_id=200418&section_id=200424",
+   "raccolto": "2026-10-20"
+  },
+  {
+   "id": "basilicata-atti",
+   "nome": "Atti dell'Assemblea e leggi regionali",
+   "ente": "Consiglio regionale della Basilicata",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/",
+   "raccolto": "2026-10-20"
+  },
+  {
+   "id": "basilicata-circoscrizioni",
+   "nome": "Circoscrizione di elezione dei consiglieri regionali (elezioni 2024)",
+   "ente": "Wikipedia (verificato a mano)",
+   "url": "https://it.wikipedia.org/wiki/Elezioni_regionali_in_Basilicata_del_2024"
   }
  ],
  "avvisi": [
@@ -1043,6 +1070,958 @@
    "intestazione": "Legge regionale 19 settembre 2023, n. 4",
    "oggetto": "Modifica dell'articolo 12 della legge regionale 30 dicembre 2020, n. 17 (Rendiconto generale della Regione Molise per l'esercizio finanziario 2019) e modifiche della legge regionale 31 dicembre 2022, n. 27 (Rendiconto generale della Regione Molise per l'esercizio finanziario 2021)",
    "url": "https://consiglio.regione.molise.it/node/25123"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-35",
+   "intestazione": "Legge regionale 13 ottobre 2026, n. 35",
+   "oggetto": "Assestamento del bilancio di previsione finanziario per il triennio 2026-2028",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-34",
+   "intestazione": "Legge regionale 17 agosto 2026, n. 34",
+   "oggetto": "Nuove norme per la protezione della fauna selvatica omeoterma e per il prelievo venatorio",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-33",
+   "intestazione": "Legge regionale 17 agosto 2026, n. 33",
+   "oggetto": "Misure per il potenziamento dello screening di popolazione sui tumori eredo-familiari e istituzione del programma di valutazione del rischio per pazienti e famiglie con mutazioni genetiche",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-32",
+   "intestazione": "Legge regionale 17 agosto 2026, n. 32",
+   "oggetto": "Modifiche alla legge regionale 9 aprile 2025, n. 18 recante \"Obbligatorietà dello Screening neonatale per l’atrofia muscolare spinale – SMA”",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-31",
+   "intestazione": "Legge regionale 17 agosto 2026, n. 31",
+   "oggetto": "Rendiconto generale per l’esercizio finanziario 2025 dell’Agenzia Regionale per il Lavoro e l’Apprendimento Basilicata (ARLAB)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-30",
+   "intestazione": "Legge regionale 17 agosto 2026, n. 30",
+   "oggetto": "Disciplina dell’Avvocatura regionale",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-29",
+   "intestazione": "Legge regionale 17 agosto 2026, n. 29",
+   "oggetto": "Valorizzazione e interventi a favore dell’apicoltura regionale",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-28",
+   "intestazione": "Legge regionale 5 agosto 2026, n. 28",
+   "oggetto": "Modifiche alla legge regionale 18 dicembre 2007, n. 24 (Norme per l’assegnazione e la gestione e la determinazione dei canoni di locazione degli alloggi di edilizia residenziale pubblica)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-27",
+   "intestazione": "Legge regionale 5 agosto 2026, n. 27",
+   "oggetto": "Modifiche e integrazioni alla legge regionale 5 febbraio 2010, n. 12 (Istituzione del Parco Urbano delle Cantine di interesse regionale)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-26",
+   "intestazione": "Legge regionale 5 agosto 2026, n. 26",
+   "oggetto": "Rendiconto per l’esercizio finanziario 2025 dell’Azienda regionale per il diritto allo studio universitario (ARDSU)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-25",
+   "intestazione": "Legge regionale 5 agosto 2026, n. 25",
+   "oggetto": "Modifiche e integrazioni alla Legge regionale 2 settembre 1996, n, 43 (Disciplina nella ricerca e coltivazione delle acque minerali e termali)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-24",
+   "intestazione": "Legge regionale 5 agosto 2026, n. 24",
+   "oggetto": "Modifiche alla Legge regionale 5 aprile 2000, n. 28 (Norme in materia di autorizzazione delle strutture sanitarie pubbliche e private)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-23",
+   "intestazione": "Legge regionale 30 luglio 2026, n. 23",
+   "oggetto": "Adesione della Regione Basilicata alla definizione agevolata dei carichi affidati all’agente della riscossione ai sensi dell’articolo 10-quinquies del decreto-legge 27 marzo 2026, n. 38 (Disposizioni urgenti in materia fiscale ed economica), convertito, con modificazioni, dall’articolo 1, comma 1, della legge 22 maggio 2026, n. 88",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-22",
+   "intestazione": "Legge regionale 1 luglio 2026, n. 22",
+   "oggetto": "Bilancio di previsione finanziario per il triennio 2026-2028 dell’Agenzia Lucana di Sviluppo ed Innovazione in Agricoltura (ALSIA)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-21",
+   "intestazione": "Legge regionale 1 luglio 2026, n. 21",
+   "oggetto": "Bilancio di previsione finanziario per il triennio 2026-2028 dell’Agenzia Regionale per la Protezione dell’Ambiente della Basilicata (ARPAB)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-20",
+   "intestazione": "Legge regionale 1 luglio 2026, n. 20",
+   "oggetto": "Rendiconto generale per l’esercizio finanziario 2024 del Parco naturale regionale del Vulture",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-19",
+   "intestazione": "Legge regionale 29 maggio 2026, n. 19",
+   "oggetto": "Modifica della legge regionale 21 aprile 2021, n. 13 - Istituzione del Consiglio per le Autonomie Locali (CAL)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-18",
+   "intestazione": "Legge regionale 29 maggio 2026, n. 18",
+   "oggetto": "Modifica della legge regionale 18 dicembre 2007, n. 24 (Norme per l’assegnazione la gestione e la determinazione dei canoni di locazione degli alloggi di edilizia residenziale pubblica)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-17",
+   "intestazione": "Legge regionale 29 maggio 2026, n. 17",
+   "oggetto": "Indirizzi alle Aziende territoriali di edilizia residenziale (ATER) di Potenza e Matera di recupero del patrimonio edilizio esistente",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-16",
+   "intestazione": "Legge regionale 27 maggio 2026, n. 16",
+   "oggetto": "Bilancio di previsione finanziario per il triennio 2026-2028 dell’Ente di governo per i rifiuti e le risorse idriche della Basilicata (EGRIB)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-15",
+   "intestazione": "Legge regionale 27 maggio 2026, n. 15",
+   "oggetto": "Bilancio di previsione finanziario per il triennio 2026-2028 dell’Ente di gestione del Parco Naturale regionale del Vulture",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-14",
+   "intestazione": "Legge regionale 27 maggio 2026, n. 14",
+   "oggetto": "Bilancio di previsione finanziario per il triennio 2026-2028 dell’Agenzia Regionale per il Lavoro e l’Apprendimento Basilicata (ARLAB)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-13",
+   "intestazione": "Legge regionale 27 maggio 2026, n. 13",
+   "oggetto": "Bilancio di previsione finanziario per il triennio 2026-2028 dell’Ente di Gestione del Parco naturale di Gallipoli Cognato - Piccole Dolomiti Lucane",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-12",
+   "intestazione": "Legge regionale 27 maggio 2026, n. 12",
+   "oggetto": "Bilancio di previsione finanziario per il triennio 2026-2028 dell’Agenzia di Promozione Territoriale (APT)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-11",
+   "intestazione": "Legge regionale 22 maggio 2026, n. 11",
+   "oggetto": "Autorizzazione alla rinegoziazione dei mutui in essere con Cassa Depositi e Prestiti S.p.A., ai sensi della Lettera-Circolare CDP del 29 aprile 2026",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-10",
+   "intestazione": "Legge regionale 6 maggio 2026, n. 10",
+   "oggetto": "Bilancio di previsione finanziario per il triennio 2026-2028 (1)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-9",
+   "intestazione": "Legge regionale 6 maggio 2026, n. 9",
+   "oggetto": "Legge di stabilità regionale 2026 (1)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-8",
+   "intestazione": "Legge regionale 6 maggio 2026, n. 8",
+   "oggetto": "Rendiconto generale della Regione Basilicata per l'esercizio finanziario 2024",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-7",
+   "intestazione": "Legge regionale 28 aprile 2026, n. 7",
+   "oggetto": "Modifica delle leggi regionali n. 47 del 1997, n. 2 del 1998, n. 28 del 2017 (1)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-6",
+   "intestazione": "Legge regionale 24 marzo 2026, n. 6",
+   "oggetto": "Modifiche all’articolo 22 della L.R. 5 aprile 2024, n. 14 (Collegato alla legge di stabilità regionale 2024)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-5",
+   "intestazione": "Legge regionale 24 marzo 2026, n. 5",
+   "oggetto": "Norme di sostegno e promozione degli Enti del Terzo Settore lucano",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-4",
+   "intestazione": "Legge regionale 24 marzo 2026, n. 4",
+   "oggetto": "Modifica all’articolo 8 della legge regionale 20 marzo 2020, n. 12 (Collegato alla legge di stabilità regionale 2020) come sostituito dall’articolo 2 della legge regionale 16 giugno 2021 n. 24 (Disposizioni urgenti in materia di settore turistico e di concessione demaniali marittime)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-3",
+   "intestazione": "Legge regionale 25 febbraio 2026, n. 3",
+   "oggetto": "Modifiche alla legge regionale 29 ottobre 2002, n. 38 (Testo unico in materia di indennità di carica, di funzione, di rimborso spese, di missione, di fine mandato, di assegno vitalizio spettanti ai Consiglieri regionali della Regione Basilicata) e alla legge regionale 21 dicembre 2017, n. 37 (Contenimento dei costi della politica: diminuzione emolumenti Consiglieri regionali della Basilicata. Modifiche alla L.R. 29 ottobre 2002, n. 38 \"Testo unico in materia di indennità di carica, di funzione, di rimborso spese, di missione, di fine mandato, di assegno vitalizio spettanti ai Consiglieri regionali della Regione Basilicata\")",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-2",
+   "intestazione": "Legge regionale 13 gennaio 2026, n. 2",
+   "oggetto": "Disposizioni in materia di sperimentazioni gestionali in sanità",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2026-1",
+   "intestazione": "Legge regionale 13 gennaio 2026, n. 1",
+   "oggetto": "Istituzione del Centro regionale di monitoraggio sugli appalti pubblici",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-57",
+   "intestazione": "Legge regionale 30 dicembre 2025, n. 57",
+   "oggetto": "Collegato alla legge di stabilità regionale 2025",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-56",
+   "intestazione": "Legge regionale 23 dicembre 2025, n. 56",
+   "oggetto": "Riconoscimento della legittimità di debiti fuori bilancio, ai sensi dell’articolo 73, comma 1, lettera e) del Decreto Legislativo 23 giugno 2011, n. 118 (Disposizioni in materia di armonizzazione dei sistemi contabili e degli schemi di bilancio delle Regioni, degli enti locali e dei loro organismi, a norma degli articoli 1 e 2 della legge 5 maggio 2009, n. 42), relativi alle spettanze delle Commissioni Provinciali Espropri istituite, ai sensi dell’art. 41 del D.P.R. 8 giugno 2001, n. 327 (Testo unico delle disposizioni legislative e regolamentari in materia di espropriazione per pubblica utilità) e dell’art. 15 della Legge regionale 22 ottobre 2007 n. 19 (Norme in materia di espropriazione per Pubblica Utilità), presso le due Province di Potenza e Matera",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-55",
+   "intestazione": "Legge regionale 23 dicembre 2025, n. 55",
+   "oggetto": "Rendiconto generale per l’esercizio finanziario 2024 dell’Agenzia Regionale per la Protezione dell’Ambiente della Basilicata (ARPAB) – Controllo ai sensi della L.R. n. 11/2006 e ss.mm.ii",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-54",
+   "intestazione": "Legge regionale 23 dicembre 2025, n. 54",
+   "oggetto": "Modifiche alla legge regionale n. 30/2016 (Norme regionali in materia di esercizio, conduzione, controllo, manutenzione e ispezione degli impianti termici)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-53",
+   "intestazione": "Legge regionale 23 dicembre 2025, n. 53",
+   "oggetto": "Autorizzazione all’esercizio provvisorio del Bilancio della Regione Basilicata e dei suoi organismi ed entri strumentali per l’esercizio finanziario 2026",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-52",
+   "intestazione": "Legge regionale 16 dicembre 2025, n. 52",
+   "oggetto": "Assestamento del bilancio di previsione finanziario per il triennio 2025-2027",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-51",
+   "intestazione": "Legge regionale 16 dicembre 2025, n. 51",
+   "oggetto": "Modifiche alla legge regionale 30 novembre 2018, n. 43 (Disciplina degli interventi regionali in materia di prevenzione e contrasto al fenomeno del bullismo e cyber bullismo)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-50",
+   "intestazione": "Legge regionale 2 dicembre 2025, n. 50",
+   "oggetto": "Riconoscimento della legittimità di debiti fuori bilancio, in favore del Consorzio Trasporti Aziende Basilicata (Co.Tr.A.B.), ai sensi dell’art. 73, comma 1, lettera e) del Decreto Legislativo 23 giugno 2011, n. 118 (Disposizioni in materia di armonizzazione dei sistemi contabili e degli schemi di bilancio delle Regioni, degli enti locali e dei loro organismi, a norma degli articoli 1 e 2 della legge 5 maggio 2009, n. 42)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-49",
+   "intestazione": "Legge regionale 2 dicembre 2025, n. 49",
+   "oggetto": "Rendiconto per l’esercizio finanziario 2024 dell’Ente di governo per i rifiuti e le risorse idriche della Basilicata (EGRIB)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-48",
+   "intestazione": "Legge regionale 20 novembre 2025, n. 48",
+   "oggetto": "Rendiconto generale per l’esercizio finanziario 2024 dell’Azienda regionale per il diritto allo studio universitario (ARDSU)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-47",
+   "intestazione": "Legge regionale 11 novembre 2025, n. 47",
+   "oggetto": "Rendiconto generale per l’esercizio finanziario 2024 dell’Agenzia Regionale per il Lavoro e l’Apprendimento Basilicata (ARLAB)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-46",
+   "intestazione": "Legge regionale 11 novembre 2025, n. 46",
+   "oggetto": "Rendiconto generale per l’esercizio finanziario 2024 dell’Agenzia lucana di sviluppo e innovazione in Agricoltura (ALSIA)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-45",
+   "intestazione": "Legge regionale 11 novembre 2025, n. 45",
+   "oggetto": "Bilancio di previsione finanziario per il triennio 2025-2027 dell’Ente di Governo per i Rifiuti e le Risorse Idriche della Basilicata (EGRIB)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-44",
+   "intestazione": "Legge regionale 29 ottobre 2025, n. 44",
+   "oggetto": "Disposizioni in materia di procedure di stabilizzazione per le Aziende ed Enti del SSR",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-43",
+   "intestazione": "Legge regionale 14 ottobre 2025, n. 43",
+   "oggetto": "Modifiche alla Legge Regionale 13 agosto 2015, n. 30 “Sistema Integrato per l’Apprendimento Permanente ed il Sostegno alle Transizioni nella Vita Attiva”",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-42",
+   "intestazione": "Legge regionale 12 agosto 2025, n. 42",
+   "oggetto": "Rendiconto generale per l’esercizio finanziario 2024 dell’Ente di Gestione del Parco Archeologico Storico Naturale delle Chiese Rupestri del Materano",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-41",
+   "intestazione": "Legge regionale 12 agosto 2025, n. 41",
+   "oggetto": "Rendiconto generale per l’esercizio finanziario 2024 dell’Ente di gestione del Parco Naturale di Gallipoli Cognato – Piccole Dolomiti Lucane",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-40",
+   "intestazione": "Legge regionale 12 agosto 2025, n. 40",
+   "oggetto": "Bilancio di previsione finanziario per il triennio 2025-2027 dell’Azienda regionale per il diritto allo studio universitario (ARDSU)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-39",
+   "intestazione": "Legge regionale 12 agosto 2025, n. 39",
+   "oggetto": "Integrazione all’art. 59 della L.R n. 7/1999 recante \"Conferimento di funzioni e compiti amministrativi al sistema delle autonomie locali e funzionali in attuazione del decreto legislativo 31 marzo 1998, n. 112\"",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-38",
+   "intestazione": "Legge regionale 12 agosto 2025, n. 38",
+   "oggetto": "Rendiconto generale per l'esercizio finanziario 2024 dell’Agenzia di Promozione Territoriale (APT)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-37",
+   "intestazione": "Legge regionale 29 luglio 2025, n. 37",
+   "oggetto": "Modifiche all’articolo 16 della legge regionale 5 giugno 2023, n. 11 (Legge di stabilità regionale 2023)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-36",
+   "intestazione": "Legge regionale 29 luglio 2025, n. 36",
+   "oggetto": "Istituzione dell’Osservatorio regionale sulla desertificazione bancaria",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-35",
+   "intestazione": "Legge regionale 8 luglio 2025, n. 35",
+   "oggetto": "Misure contributive a favore dei Comuni lucani su cui insistono strutture a servizio anche dei Comuni limitrofi regionali ed extraregionali",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-34",
+   "intestazione": "Legge regionale 30 giugno 2025, n. 34",
+   "oggetto": "Modifiche all’articolo 7 della legge regionale 2 settembre 1993, n. 50 (Modifica ed integrazione alla L.R. 4 agosto 1987, n. 20 contenente norme in materia di tutela dei beni culturali, ambientali e paesistici – Snellimento delle procedure)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-33",
+   "intestazione": "Legge regionale 30 giugno 2025, n. 33",
+   "oggetto": "Modifica all'articolo 28 della legge regionale 16 aprile 2013, n. 7",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-32",
+   "intestazione": "Legge regionale 30 giugno 2025, n. 32",
+   "oggetto": "Proroga straordinaria della validità delle graduatorie concorsuali per il personale sanitario del comparto",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-31",
+   "intestazione": "Legge regionale 30 giugno 2025, n. 31",
+   "oggetto": "Bilancio di previsione finanziario per il triennio 2025-2027 dell’Agenzia Lucana di Sviluppo e Innovazione in Agricoltura (ALSIA)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-30",
+   "intestazione": "Legge regionale 10 giugno 2025, n. 30",
+   "oggetto": "Bilancio di previsione finanziario per il triennio 2025-2027 dell’Agenzia Regionale per la Protezione dell’Ambiente della Basilicata (ARPAB)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-29",
+   "intestazione": "Legge regionale 10 giugno 2025, n. 29",
+   "oggetto": "Bilancio di previsione finanziario per il triennio 2025-2027 dell’Agenzia Regionale per il Lavoro e l’Apprendimento Basilicata (ARLAB)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-28",
+   "intestazione": "Legge regionale 4 giugno 2025, n. 28",
+   "oggetto": "Disposizioni per la prevenzione e la cura dei disturbi della nutrizione e dell’alimentazione e il sostegno ai pazienti e alle loro famiglie",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-27",
+   "intestazione": "Legge regionale 27 maggio 2025, n. 27",
+   "oggetto": "Bilancio di previsione finanziario per il triennio 2025-2027 del Parco regionale del Vulture",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-26",
+   "intestazione": "Legge regionale 27 maggio 2025, n. 26",
+   "oggetto": "Bilancio di previsione finanziario per il triennio 2025-2027 dell’Agenzia di Promozione Territoriale (APT)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-25",
+   "intestazione": "Legge regionale 27 maggio 2025, n. 25",
+   "oggetto": "Bilancio di previsione finanziario per il triennio 2025-2027 dell’Ente di Gestione del Parco naturale di Gallipoli Cognato - Piccole Dolomiti Lucane",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-24",
+   "intestazione": "Legge regionale 27 maggio 2025, n. 24",
+   "oggetto": "Bilancio di previsione finanziario per il triennio 2025-2027 dell’Ente di Gestione del Parco archeologico storico naturale delle chiese rupestri del materano",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-23",
+   "intestazione": "Legge regionale 21 maggio 2025, n. 23",
+   "oggetto": "Disposizioni di integrazione e manutenzione del sistema normativo regionale",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-22",
+   "intestazione": "Legge regionale 28 aprile 2025, n. 22",
+   "oggetto": "BILANCIO DI PREVISIONE FINANZIARIO PER IL TRIENNIO 2025-2027 (1)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-21",
+   "intestazione": "Legge regionale 28 aprile 2025, n. 21",
+   "oggetto": "LEGGE DI STABILITÀ REGIONALE 2025",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-20",
+   "intestazione": "Legge regionale 23 aprile 2025, n. 20",
+   "oggetto": "MODIFICHE ALLA LEGGE REGIONALE 15 GENNAIO 2025, N. 11 (INTERVENTI IN FAVORE DEI LUCANI NEL MONDO E DISCIPLINA DELLA COMMISSIONE REGIONALE DEI LUCANI NEL MONDO E DEL FORUM DEI GIOVANI)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-19",
+   "intestazione": "Legge regionale 9 aprile 2025, n. 19",
+   "oggetto": "MODIFICHE ED INTEGRAZIONE ALLA LEGGE REGIONALE 12 SETTEMBRE 2000, N. 57 (USI CIVICI E LORO GESTIONE IN ATTUAZIONE DELLA LEGGE N. 1766/1927 E R.D. N. 322/1928)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-18",
+   "intestazione": "Legge regionale 9 aprile 2025, n. 18",
+   "oggetto": "OBBLIGATORIETÀ DELLO SCREENING NEONATALE PER L’ATROFIA MUSCOLARE SPINALE – SMA",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-17",
+   "intestazione": "Legge regionale 19 marzo 2025, n. 17",
+   "oggetto": "SERVIZIO DI CITTADINANZA ATTIVA PER LA CULTURA E LA COESIONE SOCIALE (S.C.A.C.CO.)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-16",
+   "intestazione": "Legge regionale 11 marzo 2025, n. 16",
+   "oggetto": "RENDICONTO GENERALE DELLA REGIONE BASILICATA PER L'ESERCIZIO FINANZIARIO 2023. ADEGUAMENTO ALLA DECISIONE N. 160/2024/PARI DELLA SEZIONE REGIONALE DI CONTROLLO DELLA CORTE DEI CONTI DELLA BASILICATA DI CUI ALLA D.G.R. N. 816 DEL 30 DICEMBRE 2024",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-15",
+   "intestazione": "Legge regionale 19 febbraio 2025, n. 15",
+   "oggetto": "MISURE DI SOSTEGNO E INCENTIVI ALLE IMPRESE CHE ATTIVANO IL LAVORO AGILE O SMART WORKING DELLA REGIONE BASILICATA",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-14",
+   "intestazione": "Legge regionale 6 febbraio 2025, n. 14",
+   "oggetto": "MODIFICAZIONE ALLA LEGGE REGIONALE 15 GENNAIO 2025 N. 11- INTERVENTI IN FAVORE DEI LUCANI NEL MONDO E DISCIPLINA DELLA COMMISSIONE REGIONALE DEI LUCANI NEL MONDO E DEL FORUM DEI GIOVANI",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-13",
+   "intestazione": "Legge regionale 3 febbraio 2025, n. 13",
+   "oggetto": "ISTITUZIONE DEL DIFENSORE CIVICO, DEL GARANTE DELLE VITTIME DI REATO E DELLE PERSONE SOTTOPOSTE A MISURE RESTRITTIVE DELLA LIBERTÀ PERSONALE, PER IL DIRITTO ALLA SALUTE E DEGLI ANZIANI, DEL GARANTE PER L’INFANZIA E L’ADOLESCENZA, DEL GARANTE DELLE PERSONE CON DISABILITÀ E DEL GARANTE DELLA NATURA",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-12",
+   "intestazione": "Legge regionale 15 gennaio 2025, n. 12",
+   "oggetto": "DESTINAZIONE RISORSE PER LA CONTRATTUALIZZAZIONE DELLE STRUTTURE SOCIOSANITARIE RESIDENZIALI E SEMIRESIDENZIALI ACCREDITATE",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-11",
+   "intestazione": "Legge regionale 15 gennaio 2025, n. 11",
+   "oggetto": "INTERVENTI IN FAVORE DEI LUCANI NEL MONDO E DISCIPLINA DELLA COMMISSIONE REGIONALE DEI LUCANI NEL MONDO E DEL FORUM DEI GIOVANI",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-10",
+   "intestazione": "Legge regionale 7 gennaio 2025, n. 10",
+   "oggetto": "MODIFICHE ALLA LEGGE REGIONALE 6 OTTOBRE 2021, N. 42 “ISTITUZIONE DELL’OSSERVATORIO REGIONALE SULLA LEGALITÀ E SULLA CRIMINALITÀ ORGANIZZATA DI STAMPO MAFIOSO”",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-9",
+   "intestazione": "Legge regionale 7 gennaio 2025, n. 9",
+   "oggetto": "MODIFICA DELL’ARTICOLO 5 DELLA LEGGE REGIONALE 7 AGOSTO 2009, N. 25",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-8",
+   "intestazione": "Legge regionale 7 gennaio 2025, n. 8",
+   "oggetto": "MODIFICHE ALLA LEGGE REGIONALE N. 33 DEL 24 DICEMBRE 2008, RECANTE “CONTRIBUTO AI CITTADINI LUCANI CHE SI AVVALGONO DEI METODI DOMAN, VOJTA, FAY E ABA”",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-7",
+   "intestazione": "Legge regionale 7 gennaio 2025, n. 7",
+   "oggetto": "MODIFICHE ALL’ARTICOLO 10 DELLA LEGGE REGIONALE 6 DICEMBRE 2017, N. 35 – PROMOZIONE DELLE TERAPIE, DELL’EDUCAZIONE E DELLE ATTIVITÀ ASSISTITE CON GLI ANIMALI",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-6",
+   "intestazione": "Legge regionale 7 gennaio 2025, n. 6",
+   "oggetto": "INTEGRAZIONE ALLA LEGGE REGIONALE 16 NOVEMBRE 2018, N. 35 (NORME DI ATTUAZIONE DELLA PARTE IV DEL D. LGS. 3 APRILE 2006, N. 152 IN MATERIA DI GESTIONE DEI RIFIUTI E DI BONIFICA DI SITI INQUINATI – NORME IN MATERIA AMBIENTALE E DELLA LEGGE 27 MARZO 1992, N. 257 – NORME RELATIVE ALLA CESSAZIONE DELL’IMPIEGO DELL’AMIANTO)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-5",
+   "intestazione": "Legge regionale 7 gennaio 2025, n. 5",
+   "oggetto": "SOSTEGNO ALL’UNIVERSITÀ DEGLI STUDI DELLA BASILICATA PER L’AZIONE DI PROMOZIONE DELLA SOSTENIBILITÀ ECONOMICA, AMBIENTALE E SOCIALE NELLE AREE INTERNE",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-4",
+   "intestazione": "Legge regionale 2 gennaio 2025, n. 4",
+   "oggetto": "CONTRIBUTI PER INTERVENTI URGENTI SULLE RETI STRADALI COMUNALI SOVRACCARICATE DA TRANSITO DEI VEICOLI, MEZZI PESANTI E DEL TRASPORTO PUBBLICO CHE PERCORRONO LE STESSE TRATTE AL FINE DI RAGGIUNGERE ULTERIORI DESTINAZIONI",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-3",
+   "intestazione": "Legge regionale 2 gennaio 2025, n. 3",
+   "oggetto": "MODIFICHE ALL’ARTICOLO 4 DELLA L.R. 21 DICEMBRE 2017, N. 37",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-2",
+   "intestazione": "Legge regionale 2 gennaio 2025, n. 2",
+   "oggetto": "MODIFICHE ALL’ARTICOLO 22 DELLA L.R. 5 APRILE 2024, N. 14 “COLLEGATO ALLA LEGGE DI STABILITÀ REGIONALE 2024”",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2025-1",
+   "intestazione": "Legge regionale 2 gennaio 2025, n. 1",
+   "oggetto": "RENDICONTO GENERALE PER L'ESERCIZIO FINANZIARIO 2023 DELL’AGENZIA DI PROMOZIONE TERRITORIALE (APT)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2024-47",
+   "intestazione": "Legge regionale 30 dicembre 2024, n. 47",
+   "oggetto": "GIORNATA REGIONALE PER LA DIFFUSIONE DEI VALORI CULTURALI RELATIVI AL PASTORALISMO E ALLA TRANSUMANZA",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2024-46",
+   "intestazione": "Legge regionale 30 dicembre 2024, n. 46",
+   "oggetto": "PARTECIPAZIONE DELLA REGIONE BASILICATA ALLA FONDAZIONE TEATRO FRANCESCO STABILE",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2024-45",
+   "intestazione": "Legge regionale 30 dicembre 2024, n. 45",
+   "oggetto": "PROROGA DELLE GRADUATORIE DEI CONCORSI PUBBLICI DELLE ASSUNZIONI A TEMPO INDETERMINATO DELLA REGIONE E DEGLI ENTI STRUMENTALI",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2024-44",
+   "intestazione": "Legge regionale 30 dicembre 2024, n. 44",
+   "oggetto": "AUTORIZZAZIONE ALL’ESERCIZIO PROVVISORIO DEL BILANCIO DELLA REGIONE BASILICATA E DEI SUOI ORGANISMI ED ENTI STRUMENTALI PER L’ESERCIZIO FINANZIARIO 2025",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2024-43",
+   "intestazione": "Legge regionale 30 dicembre 2024, n. 43",
+   "oggetto": "DISPOSIZIONI IN VARI SETTORI DI INTERVENTO",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2024-42",
+   "intestazione": "Legge regionale 30 dicembre 2024, n. 42",
+   "oggetto": "MODIFICA ALLA LEGGE REGIONALE 13 FEBBRAIO 2024, N. 6 (RICONOSCIMENTO DELLA LEGITTIMITÀ DEI DEBITI FUORI BILANCIO IN MATERIA DI TPL, AI SENSI DELL’ART. 73, COMMA 1, LETT. E) DEL D. LGS. N. 118/2011 E S.M.I.)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2024-41",
+   "intestazione": "Legge regionale 3 dicembre 2024, n. 41",
+   "oggetto": "RENDICONTO GENERALE PER L’ESERCIZIO FINANZIARIO 2023 DELL’ENTE DI GESTIONE DEL PARCO ARCHEOLOGICO STORICO NATURALE DELLE CHIESE RUPESTRI DEL MATERANO",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2024-40",
+   "intestazione": "Legge regionale 12 novembre 2024, n. 40",
+   "oggetto": "MODIFICA ALLA LEGGE REGIONALE 29 DICEMBRE 2016, N. 30 (NORME REGIONALI IN MATERIA DI ESERCIZIO, CONDUZIONE, CONTROLLO, MANUTENZIONE E ISPEZIONE DEGLI IMPIANTI TERMICI)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2024-39",
+   "intestazione": "Legge regionale 12 novembre 2024, n. 39",
+   "oggetto": "RENDICONTO GENERALE PER L’ESERCIZIO FINANZIARIO 2023 DEL PARCO NATURALE REGIONALE DEL VULTURE",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2024-38",
+   "intestazione": "Legge regionale 12 novembre 2024, n. 38",
+   "oggetto": "RENDICONTO GENERALE PER L’ESERCIZIO FINANZIARIO 2023 DELL’ENTE DI GESTIONE DEL PARCO NATURALE DI GALLIPOLI COGNATO – PICCOLE DOLOMITI LUCANE",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2024-37",
+   "intestazione": "Legge regionale 12 novembre 2024, n. 37",
+   "oggetto": "RENDICONTO GENERALE PER L’ESERCIZIO FINANZIARIO 2023 DELL’AGENZIA REGIONALE PER LA PROTEZIONE DELL’AMBIENTE DELLA BASILICATA (A.R.P.A.B.)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2024-36",
+   "intestazione": "Legge regionale 12 novembre 2024, n. 36",
+   "oggetto": "RENDICONTO GENERALE PER L’ESERCIZIO FINANZIARIO 2023 DELL’AGENZIA REGIONALE PER IL LAVORO E L’APPRENDIMENTO BASILICATA (A.R.L.A.B.)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2024-35",
+   "intestazione": "Legge regionale 12 novembre 2024, n. 35",
+   "oggetto": "RENDICONTO GENERALE PER L’ESERCIZIO FINANZIARIO 2023 DELL’ENTE DI GOVERNO PER I RIFIUTI E LE RISORSE IDRICHE DELLA BASILICATA (E.G.R.I.B.)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2024-34",
+   "intestazione": "Legge regionale 24 ottobre 2024, n. 34",
+   "oggetto": "ASSESTAMENTO DEL BILANCIO DI PREVISIONE FINANZIARIO PER IL TRIENNIO 2024-2026",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2024-33",
+   "intestazione": "Legge regionale 24 ottobre 2024, n. 33",
+   "oggetto": "INTEGRAZIONE ALLA LEGGE REGIONALE 4 AGOSTO 2023, N. 28 (ISTITUZIONE DEL FONDO PER GLI AIUTI ALLE FAMIGLIE E ALLE PERSONE SGOMBERATE A SEGUITO DI DICHIARATA INAGIBILITÀ DELL’UNITÀ IMMOBILIARE, DI RESIDENZA ANAGRAFICA E DIMORA ABITUALE)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2024-32",
+   "intestazione": "Legge regionale 24 ottobre 2024, n. 32",
+   "oggetto": "BILANCIO DI PREVISIONE FINANZIARIO PER IL TRIENNIO 2024-2026 DELL’AGENZIA DI SVILUPPO E DI INNOVAZIONE IN AGRICOLTURA (A.L.S.I.A.)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2024-31",
+   "intestazione": "Legge regionale 14 ottobre 2024, n. 31",
+   "oggetto": "RENDICONTO GENERALE PER L’ESERCIZIO 2023 DELL’AGENZIA LUCANA DI SVILUPPO E DI INNOVAZIONE IN AGRICOLTURA (ALSIA)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2024-30",
+   "intestazione": "Legge regionale 14 ottobre 2024, n. 30",
+   "oggetto": "BILANCIO DI PREVISIONE FINANZIARIO PER IL TRIENNIO 2024-2026 DELL’AZIENDA REGIONALE PER IL DIRITTO ALLO STUDIO UNIVERSITARIO (ARDSU)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2024-29",
+   "intestazione": "Legge regionale 28 settembre 2024, n. 29",
+   "oggetto": "BILANCIO DI PREVISIONE FINANZIARIO PER IL TRIENNIO 2024-2026 DELL’ENTE DI GESTIONE DEL PARCO ARCHEOLOGICO STORICO NATURALE DELLE CHIESE RUPESTRI DEL MATERANO",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2024-28",
+   "intestazione": "Legge regionale 28 settembre 2024, n. 28",
+   "oggetto": "BILANCIO DI PREVISIONE FINANZIARIO PER IL TRIENNIO 2024-2026 DELL’ENTE DI GESTIONE DEL PARCO NATURALE REGIONALE DEL VULTURE",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2024-27",
+   "intestazione": "Legge regionale 28 settembre 2024, n. 27",
+   "oggetto": "BILANCIO DI PREVISIONE FINANZIARIO PER IL TRIENNIO 2024-2026 DELL’AGENZIA REGIONALE PER IL LAVORO E L’APPRENDIMENTO BASILICATA (A.R.LA.B.)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2024-26",
+   "intestazione": "Legge regionale 28 settembre 2024, n. 26",
+   "oggetto": "BILANCIO DI PREVISIONE FINANZIARIO PER IL TRIENNIO 2024-2026 DELL’AGENZIA REGIONALE PER LA PROTEZIONE DELL’AMBIENTE DELLA BASILICATA (A.R.P.A.B.)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2024-25",
+   "intestazione": "Legge regionale 28 settembre 2024, n. 25",
+   "oggetto": "RENDICONTO GENERALE PER L’ESERCIZIO 2023 DELL’AZIENDA REGIONALE PER IL DIRITTO ALLO STUDIO UNIVERSITARIO (A.R.D.S.U.)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2024-24",
+   "intestazione": "Legge regionale 28 settembre 2024, n. 24",
+   "oggetto": "BILANCIO DI PREVISIONE FINANZIARIO PER IL TRIENNIO 2024-2026 DELL’AGENZIA DI PROMOZIONE TERRITORIALE (A.P.T.)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2024-23",
+   "intestazione": "Legge regionale 28 settembre 2024, n. 23",
+   "oggetto": "MODIFICHE ALLA LEGGE REGIONALE 17 AGOSTO 1998, N. 25 (DISCIPLINA DELLE ATTIVITÀ E DEGLI INTERVENTI REGIONALI IN MATERIA DI PROTEZIONE CIVILE - ABROGAZIONE L.R. 19 DICEMBRE 1994, N. 46) E ALLA LEGGE REGIONALE 6 LUGLIO 2016, N. 13 (NORME PER L’ACCOGLIENZA, LA TUTELA E L’INTEGRAZIONE DEI CITTADINI MIGRANTI E DEI RIFUGIATI)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2024-22",
+   "intestazione": "Legge regionale 12 agosto 2024, n. 22",
+   "oggetto": "MODIFICA ALLA LEGGE REGIONALE 29 OTTOBRE 2002, N. 38 (TESTO UNICO IN MATERIA DI INDENNITÀ DI CARICA, DI FUNZIONE, DI RIMBORSO SPESE, DI MISSIONE, DI FINE MANDATO E DI ASSEGNO VITALIZIO SPETTANTI AI CONSIGLIERI REGIONALI DELLA REGIONE BASILICATA) E MODIFICHE ALLA LEGGE REGIONALE 2 FEBBRAIO 1998, N. 8 (NUOVA DISCIPLINA DELLE STRUTTURE DI ASSISTENZA AGLI ORGANI DI DIREZIONE POLITICA ED AI GRUPPI CONSILIARI DELLA REGIONE BASILICATA)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+  },
+  {
+   "regione": "Basilicata",
+   "slug": "basilicata",
+   "id": "2024-21",
+   "intestazione": "Legge regionale 12 agosto 2024, n. 21",
+   "oggetto": "MODIFICA ALLA LEGGE REGIONALE 29 OTTOBRE 2002, N. 38 (TESTO UNICO IN MATERIA DI INDENNITÀ DI CARICA, DI FUNZIONE, DI RIMBORSO SPESE, DI MISSIONE, DI FINE MANDATO E DI ASSEGNO VITALIZIO SPETTANTI AI CONSIGLIERI REGIONALI DELLA REGIONE BASILICATA)",
+   "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
   }
  ]
 }

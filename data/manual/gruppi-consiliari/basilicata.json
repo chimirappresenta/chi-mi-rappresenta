@@ -1,0 +1,29 @@
+{
+  "_nota": "Gruppi del Consiglio regionale della Basilicata (XII legislatura), in ordine da sinistra a destra nell'emiciclo. coalizione: maggioranza (centrodestra, a sostegno del presidente Bardi) o opposizione (centrosinistra e M5S, coalizione di Marrese alle elezioni del 2024). Il Gruppo Misto non ha coalizione. nomiSito: nome del gruppo come scritto (in maiuscolo) nell'API del sito → nome da mostrare.",
+  "nomiSito": {
+    "FRATELLI D’ITALIA": "Fratelli d'Italia",
+    "FORZA ITALIA": "Forza Italia",
+    "LEGA BASILICATA PER SALVINI PREMIER": "Lega",
+    "AZIONE": "Azione",
+    "ORGOGLIO LUCANO": "Orgoglio Lucano",
+    "GRUPPO MISTO": "Gruppo Misto",
+    "BASILICATA DEMOCRATICA": "Basilicata Democratica",
+    "PARTITO DEMOCRATICO": "Partito Democratico",
+    "BASILICATA CASA COMUNE": "Basilicata Casa Comune",
+    "MOVIMENTO 5 STELLE": "Movimento 5 Stelle",
+    "AVS-PSI- LA BASILICATA POSSIBILE": "AVS-PSI - La Basilicata possibile"
+  },
+  "gruppi": {
+    "Fratelli d'Italia": { "sigla": "FdI", "coalizione": "maggioranza", "colore": "#2c4f96" },
+    "Lega": { "sigla": "Lega", "coalizione": "maggioranza", "colore": "#1f9e9a" },
+    "Forza Italia": { "sigla": "FI", "coalizione": "maggioranza", "colore": "#2f7fd6" },
+    "Orgoglio Lucano": { "sigla": "Orgoglio Lucano", "coalizione": "maggioranza", "colore": "#6b8fbf" },
+    "Azione": { "sigla": "Azione", "coalizione": "maggioranza", "colore": "#3b6fd1" },
+    "Gruppo Misto": { "sigla": "Misto", "colore": "#8a8f98" },
+    "Basilicata Democratica": { "sigla": "Bas. Democratica", "coalizione": "opposizione", "colore": "#e86a8f" },
+    "Partito Democratico": { "sigla": "PD", "coalizione": "opposizione", "colore": "#d6363b" },
+    "Basilicata Casa Comune": { "sigla": "Casa Comune", "coalizione": "opposizione", "colore": "#c0398a" },
+    "Movimento 5 Stelle": { "sigla": "M5S", "coalizione": "opposizione", "colore": "#e0b400" },
+    "AVS-PSI - La Basilicata possibile": { "sigla": "AVS-PSI", "coalizione": "opposizione", "colore": "#3f9b4f" }
+  }
+}
