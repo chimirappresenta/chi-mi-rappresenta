@@ -175,6 +175,426 @@
       "testo": "Istituisce il Centro regionale di monitoraggio sugli appalti pubblici, che controlla le gare della Regione, delle aziende sanitarie e degli enti regionali, soprattutto quelle con molta manodopera. Serve a garantire la qualità degli affidamenti, la sicurezza del lavoro e la tutela dei lavoratori quando un appalto passa a una nuova ditta. Nessuna nuova spesa.",
       "modello": "claude-opus-5-5",
       "generato": "2026-10-20"
+    },
+    "2025-57": {
+      "testo": "Collegato alla legge di stabilità 2025: modifica decine di leggi regionali e contiene misure come una casa alloggio per anziani, l'assegnazione temporanea di case popolari in emergenza, la proroga delle graduatorie dei concorsi, l'adeguamento della strada Fondovalle dell'Agri e piazzole per l'elisoccorso utilizzabili anche di notte.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-56": {
+      "testo": "Riconosce un debito fuori bilancio di circa 72.000 euro per i compensi delle Commissioni provinciali espropri di Potenza e Matera, che stabiliscono le indennità di esproprio e il valore agricolo medio dei terreni. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-55": {
+      "testo": "Approva il rendiconto 2024 dell'Agenzia regionale per la protezione dell'ambiente (ARPAB), cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-54": {
+      "testo": "Il personale della ex agenzia per l'energia della Provincia di Potenza (APEA), rimasto senza lavoro, viene assunto a tempo indeterminato dalla società regionale che ora gestisce i controlli sugli impianti termici. La Giunta deve preparare una legge per riportare questi controlli alla Regione.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-53": {
+      "testo": "Autorizza l'esercizio provvisorio del bilancio della Regione e dei suoi enti per l'inizio del 2026, cioè permette di continuare a spendere in attesa del nuovo bilancio. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-52": {
+      "testo": "Assestamento del bilancio 2025-2027: aggiorna i conti con i dati del 2024 e contiene decine di contributi straordinari, tra cui fondi a Comuni per strade e strutture, la partecipazione a fondazioni culturali (Cineteca Lucana, Appella, Nigro, Tricarico, Laurini) e contributi a fondazioni, associazioni e all'Università della Basilicata.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-51": {
+      "testo": "Aggiorna la legge contro bullismo e cyberbullismo: il CoReCom coordina gli interventi, con una consulta regionale e altri soggetti consultivi. Istituisce la Settimana regionale della cittadinanza digitale, a febbraio, in coincidenza con il Safer Internet Day.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-50": {
+      "testo": "Riconosce un debito fuori bilancio di circa 3 milioni di euro verso il Consorzio Trasporti Aziende Basilicata (COTRAB) per servizi di trasporto previsti da contratti del 2021. È un atto contabile per pagare servizi già svolti.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-49": {
+      "testo": "Approva il rendiconto 2024 dell'Ente di governo per i rifiuti e le risorse idriche (EGRIB), cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-48": {
+      "testo": "Approva il rendiconto 2024 dell'Azienda regionale per il diritto allo studio universitario (ARDSU), cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-47": {
+      "testo": "Approva il rendiconto 2024 dell'Agenzia regionale per il lavoro e l'apprendimento (ARLAB), cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-46": {
+      "testo": "Approva il rendiconto 2024 dell'Agenzia lucana di sviluppo e innovazione in agricoltura (ALSIA), cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-45": {
+      "testo": "Approva il bilancio di previsione 2025-2027 dell'Ente di governo per i rifiuti e le risorse idriche (EGRIB) e autorizza la Regione a trasferirgli fino a 1 milione di euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-44": {
+      "testo": "Regole per stabilizzare il personale precario delle aziende sanitarie lucane che ha i requisiti previsti dalle leggi nazionali, anche se nel frattempo è stato assunto in un altro profilo. Gli avvisi e gli esiti vanno pubblicati. Nessuna nuova spesa oltre i limiti di assunzione già previsti.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-43": {
+      "testo": "Orienta la formazione professionale regionale verso le competenze più richieste dal mercato del lavoro (green economy, blue economy, innovazione), con analisi dei fabbisogni, misure per le persone più vulnerabili e il riconoscimento delle competenze acquisite.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-42": {
+      "testo": "Approva il rendiconto 2024 dell'Ente parco archeologico storico naturale delle Chiese rupestri del Materano, cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-41": {
+      "testo": "Approva il rendiconto 2024 dell'Ente parco naturale di Gallipoli Cognato - Piccole Dolomiti Lucane, cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-40": {
+      "testo": "Approva il bilancio di previsione 2025-2027 dell'Azienda regionale per il diritto allo studio universitario (ARDSU) e autorizza la Regione a trasferirle fino a circa 742.000 euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-39": {
+      "testo": "Affida alla Giunta regionale il compito di disciplinare con un regolamento le concessioni per l'uso del suolo del demanio idrico regionale, cioè fiumi, torrenti e loro sponde.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-38": {
+      "testo": "Approva il rendiconto 2024 dell'Agenzia di Promozione Territoriale (APT), cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-37": {
+      "testo": "Per chiudere definitivamente la liquidazione delle Comunità montane soppresse, la Giunta nomina fino a quattro commissari liquidatori, che devono concludere entro il 31 dicembre 2025, con un compenso complessivo non superiore a quello di un direttore generale.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-36": {
+      "testo": "Istituisce l'Osservatorio regionale sulla desertificazione bancaria, che monitora la chiusura degli sportelli bancari e cerca soluzioni per garantire i servizi nelle zone più disagiate, soprattutto per anziani e persone non autosufficienti. Senza compensi e senza nuove spese.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-35": {
+      "testo": "Contributi annuali ai Comuni lucani che ospitano strutture e servizi usati anche dagli abitanti dei paesi vicini, pure di altre regioni, per strade, parcheggi, mobilità e rifiuti. Spesa: inizialmente 150.000 euro nel 2025, poi portata a 600.000 euro con l'assestamento di bilancio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-34": {
+      "testo": "Delega ai Comuni il rilascio delle autorizzazioni paesaggistiche più semplici, come piccoli interventi, proroghe, varianti non sostanziali, manutenzioni e alcune ristrutturazioni, finora di competenza della Regione. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-33": {
+      "testo": "Cambia la composizione dei collegi dei revisori dei conti con almeno tre membri: uno dei componenti effettivi (e uno dei supplenti) va estratto da un elenco speciale di professionisti che non hanno uno dei requisiti ordinari previsti. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-32": {
+      "testo": "Proroga al 31 dicembre 2025 le graduatorie dei concorsi a tempo indeterminato per il personale sanitario delle aziende sanitarie lucane in scadenza nel 2025, per far fronte alla carenza di personale. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-31": {
+      "testo": "Approva il bilancio di previsione 2025-2027 dell'Agenzia lucana di sviluppo e innovazione in agricoltura (ALSIA) e autorizza la Regione a trasferirle fino a 6,18 milioni di euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-30": {
+      "testo": "Approva il bilancio di previsione 2025-2027 dell'Agenzia regionale per la protezione dell'ambiente (ARPAB) e autorizza la Regione a trasferirle fino a 7,55 milioni di euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-29": {
+      "testo": "Approva il bilancio di previsione 2025-2027 dell'Agenzia regionale per il lavoro e l'apprendimento (ARLAB) e autorizza la Regione a trasferirle fino a 4 milioni di euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-28": {
+      "testo": "Misure per prevenire e curare i disturbi dell'alimentazione (anoressia, bulimia e altri): cabina di regia, rete regionale di servizi, formazione degli operatori, campagne di sensibilizzazione e sostegno alle famiglie. Spesa: 650.000 euro l'anno dal fondo sanitario.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-27": {
+      "testo": "Approva il bilancio di previsione 2025-2027 dell'Ente parco naturale regionale del Vulture e autorizza la Regione a trasferirgli fino a 450.000 euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-26": {
+      "testo": "Approva il bilancio di previsione 2025-2027 dell'Agenzia di Promozione Territoriale (APT) e autorizza la Regione a trasferirle fino a 2,6 milioni di euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-25": {
+      "testo": "Approva il bilancio di previsione 2025-2027 dell'Ente parco naturale di Gallipoli Cognato - Piccole Dolomiti Lucane e autorizza la Regione a trasferirgli fino a 450.000 euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-24": {
+      "testo": "Approva il bilancio di previsione 2025-2027 dell'Ente parco archeologico storico naturale delle Chiese rupestri del Materano e autorizza la Regione a trasferirgli fino a 450.000 euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-23": {
+      "testo": "Legge 'omnibus' che modifica molte leggi regionali: rifiuti e tariffe, energia e rinnovabili, royalties del petrolio in Val d'Agri, percorsi formativi per assistenti infermieri, mobilità e stabilizzazione del personale regionale, case popolari, CoReCom e area industriale di Potenza.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-22": {
+      "testo": "Approva il bilancio di previsione della Regione per il 2025-2027: circa 4,8 miliardi di euro di entrate e spese nel 2025. Fissa anche i fondi di riserva e le quote del risultato di amministrazione da usare. È l'atto che permette alla Regione di spendere.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-21": {
+      "testo": "Legge di stabilità 2025: fissa le risorse per le leggi regionali di spesa, gli investimenti e i fondi europei 2025-2027. Rifinanzia con fino a 36 milioni di euro l'anno, per il 2025-2027, le misure di compensazione ambientale per i cittadini lucani legate all'estrazione di idrocarburi (come il bonus gas).",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-20": {
+      "testo": "Modifica la legge sui lucani nel mondo approvata pochi mesi prima: cambia la composizione della Commissione regionale dei lucani nel mondo (consiglieri, ANCI, Province, federazioni e associazioni) e altri aspetti di funzionamento.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-19": {
+      "testo": "Aggiorna la legge sugli usi civici, cioè le terre di proprietà collettiva delle comunità locali: nuova definizione dei beni civici, tutela paesaggistica e ambientale, regole per la vendita delle aree (al valore di mercato) e per quelle che hanno perso la destinazione agricola con i piani regolatori. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-18": {
+      "testo": "Rende obbligatorio per tutti i neonati lo screening per l'atrofia muscolare spinale (SMA), poi esteso alla leucodistrofia metacromatica (MLD), con un laboratorio di riferimento, la presa in carico dei bambini positivi e uno screening volontario in gravidanza. Spesa: 40.000 euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-17": {
+      "testo": "Istituisce il Servizio di cittadinanza attiva per la cultura e la coesione sociale (SCACCO): giovani volontari, anche disoccupati o NEET, svolgono progetti in cultura, beni culturali, ambiente e solidarietà presso enti iscritti in un albo, con un rimborso. Spesa: 200.000 euro l'anno nel 2025 e 2026.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-16": {
+      "testo": "Riapprova il rendiconto 2023 della Regione adeguandolo ai rilievi della Corte dei conti nel giudizio di parificazione: aggiorna i dati su entrate, spese, fondi e risultato di amministrazione e riconosce anche un debito fuori bilancio. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-15": {
+      "testo": "Sostiene il lavoro agile (smart working): contributi alle imprese per computer, software, formazione e riorganizzazione, ai Comuni che creano spazi di coworking e alle strutture ricettive che ospitano chi lavora a distanza, anche contro lo spopolamento. Spesa: 50.000 euro nel 2025 e 100.000 nel 2026.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-14": {
+      "testo": "Riscrive la norma finanziaria della legge sui lucani nel mondo: fino a 200.000 euro l'anno per i contributi dei piani annuale e triennale e fino a 50.000 euro l'anno per il funzionamento degli organismi previsti.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-13": {
+      "testo": "Istituisce il Difensore civico regionale e cinque Garanti: delle vittime di reato e dei detenuti, per la salute e gli anziani, dell'infanzia e adolescenza, delle persone con disabilità e della natura. Sono eletti dal Consiglio regionale e ricevono un compenso pari al 30% dell'indennità di un consigliere.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-12": {
+      "testo": "Le aziende sanitarie ASP e ASM devono riservare almeno l'1,5% dei fondi sanitari ricevuti ai contratti con le strutture sociosanitarie residenziali e semiresidenziali accreditate. Se non lo fanno, il direttore generale decade.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-11": {
+      "testo": "Nuova legge sui lucani nel mondo: contributi per il rientro degli emigrati, Commissione regionale dei lucani nel mondo, Forum dei giovani, albo delle associazioni, piani annuali e triennali di interventi. Prevede fino a 200.000 euro l'anno per i contributi.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-10": {
+      "testo": "Cambia la composizione dell'Osservatorio regionale sulla legalità e la criminalità organizzata: sarà presieduto da una personalità scelta dal Presidente del Consiglio regionale e includerà rappresentanti della magistratura e dell'amministrazione della giustizia.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-9": {
+      "testo": "Elimina la norma del piano casa che permetteva alla Giunta di consentire la trasformazione di alberghi e strutture turistiche in strutture sanitarie o socio-sanitarie.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-8": {
+      "testo": "Il contributo regionale per chi segue i metodi riabilitativi Doman, Vojta, Fay e ABA spetta a tutte le persone con svantaggi psicofisici che ne hanno titolo, senza più limiti di reddito ISEE.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-7": {
+      "testo": "Cambia la composizione della Commissione regionale per gli interventi assistiti con gli animali (pet therapy), aggiungendo esperti come coadiutori di cani, gatti, conigli, cavalli e asini e un neuropsichiatra o psichiatra. La Commissione può funzionare con almeno 7 esperti.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-6": {
+      "testo": "Chi chiede di realizzare un nuovo impianto di smaltimento o recupero di rifiuti deve dimostrare di avere le risorse per farlo, con un piano finanziario certificato da una banca o da una società di revisione.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-5": {
+      "testo": "Crea la Conferenza strategica di Piano, che coinvolge Università della Basilicata, Province, Comuni sede dell'ateneo e rappresentanti degli studenti nel monitoraggio del piano di sviluppo dell'Università. Dal 2028 il contributo regionale all'ateneo sarà adeguato all'inflazione ogni tre anni.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-4": {
+      "testo": "Contributi straordinari ai Comuni per la manutenzione urgente delle strade comunali molto trafficate perché collegano strade provinciali e altri paesi: marciapiedi, attraversamenti pedonali, illuminazione, segnaletica e parcheggi. Spesa: fino a 80.000 euro nel 2025.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-3": {
+      "testo": "I risparmi sulle indennità dei consiglieri regionali e le loro rinunce volontarie confluiscono in un fondo, il cui uso è deciso dall'Ufficio di Presidenza del Consiglio tenendo conto delle richieste di cittadini e associazioni lucane.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-2": {
+      "testo": "Estende a tutto il 2024 la redistribuzione dei risparmi del budget sanitario alle strutture private accreditate, con priorità alle strutture più piccole (budget sotto i 300.000 euro) e alle zone meno servite. Vale anche per la riabilitazione, soprattutto quella ambulatoriale per bambini e ragazzi.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-1": {
+      "testo": "Approva il rendiconto 2023 dell'Agenzia di Promozione Territoriale (APT), cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-47": {
+      "testo": "Istituisce la Giornata regionale del pastoralismo e della transumanza, con convegni, mostre, eventi, attività per le scuole e la valorizzazione della razza podolica. Per il 2024-2025 si svolge a Pescopagano, che riceve un contributo fino a 100.000 euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-46": {
+      "testo": "La Regione partecipa come socio fondatore alla nuova Fondazione 'Teatro Francesco Stabile', che promuove teatro, danza, musica e arti performative, e può darle un contributo annuale fissato con la legge di bilancio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-45": {
+      "testo": "Proroga al 31 dicembre 2025 le graduatorie dei concorsi a tempo indeterminato approvate nel 2022 e nel 2023 dalla Regione, dagli enti strumentali e dalle agenzie regionali: si può assumere chi è in graduatoria senza nuovi concorsi. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-44": {
+      "testo": "Autorizza l'esercizio provvisorio del bilancio della Regione e dei suoi enti per l'inizio del 2025, cioè permette di continuare a spendere in attesa del nuovo bilancio. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-43": {
+      "testo": "Legge 'omnibus' che modifica diverse leggi regionali: definizione degli impianti agrivoltaici avanzati, recupero di sottotetti e seminterrati, reddito di libertà per le donne vittime di violenza, protezione civile, piano casa e consorzi industriali. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-42": {
+      "testo": "Ridistribuisce la copertura di circa 54 milioni di euro di debiti fuori bilancio del trasporto pubblico locale, già riconosciuti a febbraio 2024: circa 3,5 milioni per autobus e altro trasporto locale e circa 50,5 milioni per il trasporto ferroviario. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-41": {
+      "testo": "Approva il rendiconto 2023 dell'Ente parco archeologico storico naturale delle Chiese rupestri del Materano, cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-40": {
+      "testo": "Riorganizza i controlli sugli impianti di riscaldamento e climatizzazione: la Regione li svolge per la provincia di Potenza, mentre il Comune di Potenza e la Provincia di Matera se ne occupano per i propri territori.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-39": {
+      "testo": "Approva il rendiconto 2023 dell'Ente parco naturale regionale del Vulture, cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-38": {
+      "testo": "Approva il rendiconto 2023 dell'Ente parco naturale di Gallipoli Cognato - Piccole Dolomiti Lucane, cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-37": {
+      "testo": "Approva il rendiconto 2023 dell'Agenzia regionale per la protezione dell'ambiente (ARPAB), cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-36": {
+      "testo": "Approva il rendiconto 2023 dell'Agenzia regionale per il lavoro e l'apprendimento (ARLAB), cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-35": {
+      "testo": "Approva il rendiconto 2023 dell'Ente di governo per i rifiuti e le risorse idriche della Basilicata (EGRIB), cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-34": {
+      "testo": "Assestamento del bilancio 2024-2026: aggiorna i conti con i dati definitivi del 2023 e contiene altre misure, tra cui contributi straordinari ai Comuni di Lagonegro e Maratea, fondi per la Fondazione Georges Brassens, l'abrogazione della Fondazione Premio Letterario Basilicata e norme sugli eventi culturali tradizionali.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-33": {
+      "testo": "Le famiglie e le persone sgomberate perché la loro casa è stata dichiarata inagibile possono ricevere dal fondo regionale anche un contributo di solidarietà immediato, secondo criteri fissati da un regolamento. Nessuna nuova spesa: si usano risorse già stanziate.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-32": {
+      "testo": "Approva il bilancio di previsione 2024-2026 dell'Agenzia lucana di sviluppo e innovazione in agricoltura (ALSIA) e autorizza la Regione a trasferirle fino a 6,18 milioni di euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-31": {
+      "testo": "Approva il rendiconto 2023 dell'Agenzia lucana di sviluppo e innovazione in agricoltura (ALSIA), cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-30": {
+      "testo": "Approva il bilancio di previsione 2024-2026 dell'Azienda regionale per il diritto allo studio universitario (ARDSU) e autorizza la Regione a trasferirle fino a circa 742.000 euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-29": {
+      "testo": "Approva il bilancio di previsione 2024-2026 dell'Ente parco archeologico storico naturale delle Chiese rupestri del Materano e autorizza la Regione a trasferirgli fino a 450.000 euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-28": {
+      "testo": "Approva il bilancio di previsione 2024-2026 dell'Ente parco naturale regionale del Vulture e autorizza la Regione a trasferirgli fino a 450.000 euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-27": {
+      "testo": "Approva il bilancio di previsione 2024-2026 dell'Agenzia regionale per il lavoro e l'apprendimento (ARLAB) e autorizza la Regione a trasferirle fino a 4 milioni di euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-26": {
+      "testo": "Approva il bilancio di previsione 2024-2026 dell'Agenzia regionale per la protezione dell'ambiente (ARPAB) e autorizza la Regione a trasferirle fino a 7,55 milioni di euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-25": {
+      "testo": "Approva il rendiconto 2023 dell'Azienda regionale per il diritto allo studio universitario (ARDSU), cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-24": {
+      "testo": "Approva il bilancio di previsione 2024-2026 dell'Agenzia di Promozione Territoriale (APT) e autorizza la Regione a trasferirle fino a 2,6 milioni di euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-23": {
+      "testo": "Introduce lo stato di emergenza regionale: in caso di calamità il Presidente della Regione può dichiararlo per un massimo di sei mesi (prorogabili di altri sei) ed emanare ordinanze di protezione civile. Per il 2024 autorizza anche interventi urgenti di accoglienza dei migranti in strutture regionali (fino a 50.000 euro l'anno).",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-22": {
+      "testo": "Cambia le regole su indennità dei consiglieri e personale dei gruppi consiliari: ogni gruppo riceve fino a 75.000 euro l'anno per consigliere per pagare i collaboratori, che possono appartenere a tutte le categorie contrattuali. Costo massimo: circa 455.000 euro l'anno.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-21": {
+      "testo": "Estende ai consiglieri nominati assessori, che per legge vengono sospesi dal Consiglio regionale, un trattamento economico previsto dal testo unico sulle indennità dei consiglieri. Costo massimo: 135.000 euro l'anno, a carico del bilancio del Consiglio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
     }
   }
 }

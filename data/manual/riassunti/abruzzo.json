@@ -140,6 +140,306 @@
       "testo": "Modifica la legge regionale del 2025 sulla qualità delle leggi: riscrive le regole sull'analisi dell'impatto della regolamentazione (AIR), cioè la valutazione preventiva degli effetti che una nuova legge può avere su cittadini, imprese e amministrazioni, confrontando soluzioni diverse. Nessuna nuova spesa.",
       "modello": "claude-opus-5-5",
       "generato": "2026-10-20"
+    },
+    "2025-36": {
+      "testo": "Riconosce un debito fuori bilancio di piccolo importo e contiene altre disposizioni: modifiche alla legge urbanistica con proroghe di termini, misure per cultura e istruzione e la disciplina della Medicina d'urgenza nelle aziende sanitarie.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-35": {
+      "testo": "Modifica l'articolo della legge di stabilità 2024 che ha ridefinito i confini della Riserva naturale del Borsacchio (Roseto degli Abruzzi), precisando che vale in attesa di stabilire i livelli di tutela in base alle reali caratteristiche ambientali dell'area.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-34": {
+      "testo": "La Regione aderisce al Premio nazionale di cultura 'Benedetto Croce' e lo sostiene con un contributo. La legge contiene anche altre misure, tra cui il riconoscimento di un debito verso la finanziaria regionale FIRA.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-33": {
+      "testo": "Riconosce la 'Corsa degli Zingari' di Pacentro come manifestazione di valore storico, culturale e turistico-religioso e la sostiene con 50.000 euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-32": {
+      "testo": "Valorizza l'area dei Cunicoli di Claudio, l'antico sistema di gallerie romane di Borgo Incile ad Avezzano, con iniziative di tutela e promozione.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-31": {
+      "testo": "Riorganizza i consultori del servizio sanitario regionale, che si occupano della salute di minori, donne, coppie e famiglie: attività, personale, integrazione con i servizi sociali, gratuità delle prestazioni, autorizzazione e controlli.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-30": {
+      "testo": "Finanzia iniziative per far conoscere il Consiglio regionale (visite delle scuole, con contributo alle spese di trasporto), progetti di ricerca e tirocini con le università abruzzesi, iniziative per l'immagine della Regione e i gemellaggi. Modifica anche diverse altre leggi.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-29": {
+      "testo": "Disciplina le cooperative di comunità per il lavoro e la produzione, che coinvolgono i cittadini di un territorio in attività economiche e servizi. La legge contiene anche altre misure, tra cui un contributo straordinario al Consorzio di bonifica Centro e fondi per il Giro d'Italia 2025.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-28": {
+      "testo": "Nuove norme per prevenire e mitigare il rischio valanghe: carte del pericolo, comitato tecnico regionale neve e valanghe, commissioni locali valanghe, opere di difesa, divieti, sgombero degli edifici a rischio e coordinamento con le altre regioni.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-27": {
+      "testo": "Nuova legge sui rapporti con gli abruzzesi nel mondo: Consiglio regionale degli Abruzzesi nel Mondo (CRAM), osservatorio sull'emigrazione, albo delle associazioni, contributi, programmazione degli interventi e Giornata degli emigrati abruzzesi nel mondo.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-26": {
+      "testo": "Riforma i servizi per il lavoro e istituisce l'Agenzia Regionale Abruzzo Lavoro (ARAL), che coordina i Centri per l'impiego e le politiche attive del lavoro, con organi, personale e risorse propri.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-25": {
+      "testo": "Completa il riordino dei Consorzi industriali e rafforza l'ARAP, l'Azienda regionale per le attività produttive: organi, compiti, insediamento delle imprese, servizi, infrastrutture e piani territoriali di sviluppo industriale. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-24": {
+      "testo": "Assestamento del bilancio 2025-2027: aggiorna i conti con i dati definitivi del 2024 (residui, cassa, risultato di amministrazione) e modifica diverse leggi regionali, comprese le leggi di stabilità 2024 e 2025.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-23": {
+      "testo": "Approva il rendiconto 2024 della Regione, cioè i conti definitivi dell'anno: circa 4,78 miliardi di euro di entrate accertate e 4,70 miliardi di spese impegnate. È un atto contabile obbligatorio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-22": {
+      "testo": "Modifica una decina di leggi regionali del 2005-2025 per rispondere ai rilievi del Governo e contiene altre misure, tra cui le tariffe del trasporto pubblico locale e la formazione professionale.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-21": {
+      "testo": "Modifica diverse leggi regionali e contiene disposizioni urgenti, tra cui l'istituzione di un referente territoriale per affido e adozione e la chiusura delle vecchie gestioni liquidatorie delle ex USL.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-20": {
+      "testo": "Istituisce presso il Dipartimento Sanità il Registro regionale degli informatori scientifici del farmaco e un Tavolo permanente sul farmaco, per garantire qualità e trasparenza dell'informazione ai medici. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-19": {
+      "testo": "Applica in Abruzzo le semplificazioni edilizie nazionali del 2024 ('Salva-casa'): recupero degli edifici esistenti, cambi di destinazione d'uso, variazioni essenziali, sicurezza sismica. Favorisce anche il recupero e la riconversione di aree produttive ed edifici dismessi.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-18": {
+      "testo": "Regole generali per fare leggi regionali di qualità: analisi dell'impatto delle nuove norme (AIR e test sulle piccole imprese), consultazioni, valutazione dei risultati, testi unici, una banca dati delle leggi vigenti e un Comitato per la legislazione.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-17": {
+      "testo": "Riforma il testo unico su impianti a fune e piste da sci: definizioni delle aree sciabili, obblighi e responsabilità dei gestori, requisiti tecnici e segnaletica delle piste, snowpark, manutenzione, servizio piste e soccorso.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-16": {
+      "testo": "Copre il disavanzo della sanità regionale emerso dai conti del quarto trimestre 2024, usando anche le maggiori entrate fiscali del 2024, e istituisce un fondo per le finalità della legge regionale n. 9 del 2025.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-15": {
+      "testo": "Valorizza la Pinacoteca 'Teofilo Patini' (Castel di Sangro) e istituisce un premio dedicato al pittore. La legge contiene anche altre disposizioni, tra cui regole sulla rendicontazione dei contributi regionali.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-14": {
+      "testo": "Valorizza l'Area Celestiniana di Sulmona, di grande interesse storico, culturale e religioso, con iniziative di recupero, restauro e promozione turistica.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-13": {
+      "testo": "Misure per prevenire e contrastare le aggressioni al personale sanitario e sociosanitario: linee guida per le aziende, protocolli con le forze di polizia e controlli della Regione. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-12": {
+      "testo": "Ratifica l'intesa di cooperazione tra la Regione Abruzzo e l'amministrazione regionale di Sumy, in Ucraina. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-11": {
+      "testo": "Istituisce la Consulta dei giovani d'Abruzzo, un organo di partecipazione dei giovani alle politiche regionali, con un elenco regionale dei giovani candidati, un forum tematico e un registro delle consulte comunali dei giovani.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-10": {
+      "testo": "Stabilisce che la Regione si costituisca parte civile nei processi per reati contro i propri dipendenti e amministratori, contro la pubblica incolumità o contro la pubblica amministrazione, e destina i risarcimenti ottenuti. Contiene anche altre disposizioni, tra cui un riconoscimento di debito.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-9": {
+      "testo": "Cambia dal 2025 le aliquote dell'addizionale regionale IRPEF, per scaglioni di reddito, e prevede misure organizzative e di contenimento della spesa sanitaria, nell'ambito del risanamento dei conti della sanità regionale.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-8": {
+      "testo": "Misure urgenti per individuare le aree idonee e non idonee a impianti di energia rinnovabile (fotovoltaico, eolico) e per semplificare le autorizzazioni, con un monitoraggio annuale.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-7": {
+      "testo": "La Regione aderisce alla rete europea delle regioni chimiche (European Chemical Regions Network) per sostenere il settore chimico e la ricerca. La legge contiene anche misure per la cultura, la partecipazione all'Expo di Osaka 2025 e il riconoscimento di un debito verso la finanziaria regionale FIRA.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-6": {
+      "testo": "Modifica la legge regionale sullo sport: i contributi regionali possono coprire anche l'acquisto di attrezzature e materiali tecnici per l'attività sportiva dei tesserati. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-5": {
+      "testo": "Dà un contributo annuale di 50.000 euro al Dipartimento di Medicina e Scienze dell'invecchiamento dell'Università 'G. d'Annunzio' di Chieti-Pescara per studi sulle terapie integrate nella cura dei tumori.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-4": {
+      "testo": "Riconosce la manifestazione 'Marsicaland' come evento di valore culturale, turistico ed enogastronomico per la Marsica. Contiene anche altre misure: fondi per la Scuola regionale di polizia locale, il riconoscimento di un debito e l'educazione sperimentale all'aperto nelle scuole.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-3": {
+      "testo": "Legge 'omnibus' che modifica molte leggi regionali e proroga diversi termini: interventi socio-assistenziali per famiglie e maternità, riordino degli enti per l'edilizia residenziale pubblica e degli enti regionali, enti locali e altre materie.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-2": {
+      "testo": "Approva il bilancio di previsione della Regione per il 2025-2027: circa 5,3 miliardi di euro di entrate e spese ogni anno. Fissa anche i fondi di riserva, il fondo per i crediti difficili da riscuotere e quello per i contenziosi. È l'atto che permette alla Regione di spendere.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-1": {
+      "testo": "Legge di stabilità 2025: definisce le spese obbligatorie e i rifinanziamenti delle leggi regionali per il 2025-2027 e contiene molte misure, tra cui eventi sportivi e turistici, la nuova sede unica della Regione a Pescara, la partecipazione alla Fondazione Genti d'Abruzzo, fondi per la cultura e il finanziamento dei progetti di vita indipendente per le persone con disabilità.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-32": {
+      "testo": "Riconosce un debito fuori bilancio di circa 197.000 euro verso Engineering Ingegneria Informatica per servizi informatici al Dipartimento Sanità. È un atto contabile per pagare un servizio già svolto.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-31": {
+      "testo": "Riconosce un debito fuori bilancio verso la Regione Toscana per la gestione della piattaforma informatica sull'edilizia scolastica (ARES 2.0). È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-30": {
+      "testo": "Riconosce debiti fuori bilancio per circa 40.000 euro (tra cui verso l'Istituto Mecenate per attività formative) e modifica una legge regionale del 2024. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-29": {
+      "testo": "Riconosce debiti fuori bilancio per circa 1,53 milioni di euro per i servizi aggiuntivi di trasporto scolastico attivati durante l'emergenza Covid-19. È un atto contabile per pagare servizi già svolti.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-28": {
+      "testo": "Modifica alcune leggi regionali (protezione civile e volontariato, programmazione sociale e altre), riconosce un debito fuori bilancio e aggiorna i rifinanziamenti di diverse leggi regionali.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-27": {
+      "testo": "Istituisce il Premio internazionale 'Sabina Santilli', in memoria della fondatrice della Lega del Filo d'Oro, per chi si distingue nell'assistenza e nell'inclusione delle persone sordocieche e con disabilità. Spesa: 15.000 euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-26": {
+      "testo": "Fissa le spese di istruttoria per le pratiche sul demanio marittimo nei porti di competenza regionale, approva il regolamento per l'esecuzione del Codice della navigazione e contiene altre disposizioni urgenti.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-25": {
+      "testo": "Disposizioni finanziarie urgenti: riconosce alcuni debiti fuori bilancio e stanzia fondi per cultura e turismo (tra cui 10 milioni di euro), per lo spettacolo dal vivo e per l'Istituto di alta formazione musicale 'Gaetano Braga' di Teramo.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-24": {
+      "testo": "Legge 'omnibus' con molte misure: case popolari, sanità (cabina di regia per il servizio sanitario e coordinamento degli acquisti), attività produttive e commercio su area pubblica, trasporti, montagna, cultura e norme istituzionali e finanziarie.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-23": {
+      "testo": "Riconosce un debito fuori bilancio di circa 3.000 euro per computer destinati alla programmazione del trasporto pubblico locale e assegna un contributo straordinario di 400.000 euro all'ATER di Teramo.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-22": {
+      "testo": "Riconosce un debito fuori bilancio per lavori di somma urgenza sul fiume Saline a Montesilvano, sotto l'autostrada A14, e contiene altre disposizioni urgenti, tra cui modifiche a leggi recenti e un'autorizzazione alla finanziaria regionale FIRA.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-21": {
+      "testo": "Modifica la legge sul turismo regionale introducendo le strutture residenziali universitarie, cioè alloggi per studenti che possono ospitare anche turisti, con i relativi requisiti.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-20": {
+      "testo": "Riconosce un debito fuori bilancio di circa 19.800 euro derivante da espropri o occupazioni d'urgenza per opere pubbliche. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-19": {
+      "testo": "Riconosce debiti fuori bilancio per circa 165.000 euro per arredi e computer forniti agli Uffici di prossimità abruzzesi tramite la centrale di committenza AreaCom. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-18": {
+      "testo": "Riconosce un debito fuori bilancio di circa 1,54 milioni di euro verso Formez PA per l'assistenza tecnica al programma PAR FSC Abruzzo 2007-2013. È un atto contabile per pagare un servizio già svolto.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-17": {
+      "testo": "Riconosce un debito fuori bilancio di circa 8.500 euro verso l'Agenzia delle Entrate-Riscossione, legato a un pignoramento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-16": {
+      "testo": "Riconosce un debito fuori bilancio verso la società CRAS per un progetto europeo LIFE e contiene altre misure urgenti: sostegni a servizi ed edilizia scolastica, la partecipazione della Regione all'Expo di Osaka 2025 e risorse per la promozione turistica.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-15": {
+      "testo": "Assestamento del bilancio 2024-2026: aggiorna i conti con i dati definitivi del 2023 e contiene molte altre misure, tra cui la nuova sede unica della Regione a Pescara, interventi per i cimiteri e le piscine, il riconoscimento di un debito e l'istituzione dell'Osservatorio di geologia di Farindola.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-14": {
+      "testo": "Approva il rendiconto 2023 della Regione, cioè i conti definitivi dell'anno: circa 4,53 miliardi di euro di entrate accertate e 4,41 miliardi di spese impegnate. È un atto contabile obbligatorio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-13": {
+      "testo": "Riconosce un debito fuori bilancio di 42.700 euro verso Il Sole 24 Ore per servizi già resi senza un impegno di spesa preventivo. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-12": {
+      "testo": "Riconosce un debito fuori bilancio di 85.400 euro verso la ditta Spray Record per servizi già resi senza un impegno di spesa preventivo. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-11": {
+      "testo": "Legge con molte misure diverse: modifiche alla nuova legge urbanistica (anche sui cambi di destinazione d'uso), al commercio, ai trasporti, alla cultura e all'informazione, sostegni all'istruzione e varie proroghe di termini.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-10": {
+      "testo": "Modifica una decina di leggi regionali del 1989-2024 per rispondere ai rilievi del Governo e aggiunge altre disposizioni e proroghe di termini. Sono soprattutto correzioni tecniche.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-9": {
+      "testo": "Copre il disavanzo della sanità regionale emerso dai conti del quarto trimestre 2023, con circa 68,6 milioni di euro nel 2024. Chiede alle ASL piani per razionalizzare la spesa, prevede poteri sostitutivi della Regione e il potenziamento del Dipartimento Sanità.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
     }
   }
 }

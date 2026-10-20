@@ -50,6 +50,176 @@
       "testo": "Istituisce presso il Consiglio regionale il Garante dei diritti delle persone con disabilità: vigila sul rispetto dei loro diritti, riceve segnalazioni e opera in modo indipendente. È eletto dal Consiglio con maggioranza qualificata. Secondo la legge non comporta nuove spese per il bilancio regionale.",
       "modello": "claude-opus-5-5",
       "generato": "2026-10-20"
+    },
+    "2025-20": {
+      "testo": "Autorizza l'esercizio provvisorio del bilancio per l'inizio del 2026, cioè permette alla Regione di continuare a spendere in attesa del nuovo bilancio. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-19": {
+      "testo": "Approva il rendiconto 2024 della Regione, cioè i conti definitivi dell'anno: circa 1,39 miliardi di euro di entrate accertate. È un atto contabile obbligatorio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-18": {
+      "testo": "Riapprova il rendiconto 2023 della Regione, cioè i conti definitivi dell'anno (circa 1,42 miliardi di euro di entrate accertate). È un atto contabile obbligatorio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-17": {
+      "testo": "Assestamento del bilancio 2025-2027: aggiorna i conti con i dati definitivi del 2024 (residui, cassa, risultato di amministrazione) e apporta variazioni al bilancio. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-16": {
+      "testo": "Riconosce un debito fuori bilancio di circa 61.700 euro per i compensi a un avvocato esterno che ha tutelato la Regione, come parte offesa, in diversi processi penali. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-15": {
+      "testo": "Riconosce un debito fuori bilancio di circa 9.000 euro per il compenso a un avvocato esterno che ha difeso la Regione in una causa davanti al Tribunale di Campobasso. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-14": {
+      "testo": "Riconosce un debito fuori bilancio di circa 9.300 euro per il compenso a un avvocato esterno che ha rappresentato la Regione come parte civile in un processo penale. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-13": {
+      "testo": "Riconosce e sostiene il caregiver familiare, cioè chi si prende cura di un familiare non autosufficiente: una card del caregiver, una rete di sostegno con i servizi sociali, interventi di aiuto e il riconoscimento delle competenze acquisite. Prevede 800.000 euro di fondi europei (400.000 l'anno nel 2026 e 2027).",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-12": {
+      "testo": "Promuove l'invecchiamento attivo: programmazione regionale, una Consulta, iniziative di formazione, prevenzione e salute, volontariato, cultura e turismo sociale, alfabetizzazione digitale e una Giornata regionale dedicata. Spesa: 10.000 euro l'anno nel 2026 e 2027.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-11": {
+      "testo": "Istituisce il Garante regionale dei diritti delle persone anziane, eletto dal Consiglio, che vigila sul rispetto dei loro diritti e interessi. Secondo la legge non comporta nuove spese.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-10": {
+      "testo": "Proroga le graduatorie dei concorsi a tempo indeterminato per le professioni sanitarie dell'Azienda sanitaria regionale del Molise (ASReM), per garantire la continuità dei servizi. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-8": {
+      "testo": "Norme urgenti sulla formazione professionale per attuare il PNRR: percorsi per le competenze verdi e digitali, analisi periodica dei fabbisogni formativi, formazione in azienda e collaborazioni tra pubblico e privato. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-7": {
+      "testo": "Abroga la legge del 2024 che aveva approvato il rendiconto 2023, che viene riapprovato con una nuova legge. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-6": {
+      "testo": "Abolisce in Molise l'obbligo del certificato medico per rientrare a scuola dopo un'assenza per malattia, semplificando la vita alle famiglie. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-5": {
+      "testo": "Modifica il regolamento regionale sui servizi di salute mentale: elimina l'obbligo di 10 posti letto per le comunità di riabilitazione psicosociale e riscrive le tariffe che l'ASReM paga alle cooperative sociali che gestiscono le strutture.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-1": {
+      "testo": "Promuove l'agricoltura sociale: le aziende agricole possono offrire servizi sociali, educativi, socio-sanitari e di inserimento lavorativo come 'fattorie sociali', iscritte in un albo regionale e con un contrassegno. Prevede un osservatorio, controlli e sanzioni. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-14": {
+      "testo": "Autorizza l'esercizio provvisorio del bilancio per l'inizio del 2025, cioè permette alla Regione di continuare a spendere in attesa del nuovo bilancio. Modifica anche una norma sul budget del personale regionale.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-13": {
+      "testo": "Riconosce un debito fuori bilancio di circa 632.000 euro derivante da un decreto ingiuntivo del Tribunale di Campobasso del 2019. È un atto contabile per pagare una somma dovuta.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-12": {
+      "testo": "Riconosce un debito fuori bilancio di circa 31.000 euro per il compenso a un avvocato esterno che ha difeso la Regione in diverse cause davanti a TAR e Consiglio di Stato. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-11": {
+      "testo": "Approva il rendiconto 2023 della Regione (circa 1,42 miliardi di euro di entrate accertate). La legge è stata poi abrogata nel 2025 e il rendiconto riapprovato con la legge n. 18 del 2025. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-10": {
+      "testo": "Assestamento del bilancio 2024-2026: aggiorna i conti con i dati definitivi del 2023 (residui, cassa, risultato di amministrazione) e apporta variazioni al bilancio. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-8": {
+      "testo": "Riconosce un debito fuori bilancio di circa 11.600 euro per il compenso a un avvocato esterno che ha difeso la Regione in alcune cause degli anni Novanta e Duemila. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-7": {
+      "testo": "Riconosce un debito fuori bilancio di circa 10.000 euro per il compenso a un avvocato esterno che ha rappresentato la Regione come parte civile in un processo penale. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-6": {
+      "testo": "Proroga le graduatorie dei concorsi per assunzioni a tempo indeterminato della Regione, degli enti e delle agenzie regionali e dell'Azienda sanitaria regionale (ASReM): si può assumere chi è già in graduatoria senza nuovi concorsi. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-5": {
+      "testo": "Riapprova il rendiconto 2021 della Regione, cioè i conti definitivi dell'anno (circa 1,34 miliardi di euro di entrate accertate), e prevede il ripiano del disavanzo. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-4": {
+      "testo": "Abroga le leggi che avevano approvato i rendiconti 2021 e 2022, e parte di una legge del 2023 che li modificava, perché i conti devono essere riapprovati dopo la sentenza della Corte costituzionale. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-3": {
+      "testo": "Corregge il rendiconto 2020 della Regione per adeguarsi a una sentenza della Corte costituzionale del gennaio 2024: rideterminati residui, risultato di amministrazione e allegati. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-2": {
+      "testo": "Legge di stabilità 2024: rifinanzia le leggi regionali di spesa e contiene altre misure, tra cui l'obbligo per l'ASReM di aggiornare il CUP online in modo che i cittadini vedano in tempo reale i tempi di attesa per visite ed esami, e un contributo legato alle attività estrattive di cava.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2024-1": {
+      "testo": "Approva il bilancio di previsione della Regione per il 2024-2026: circa 2,1 miliardi di euro di entrate e spese nel 2024. Definisce anche le risorse destinate alla sanità regionale. È l'atto che autorizza la Regione a incassare e spendere.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2023-11": {
+      "testo": "Riconosce un debito fuori bilancio di circa 7.500 euro per il compenso a un avvocato esterno che ha difeso la Regione in una causa tributaria davanti alla Corte di Cassazione. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2023-10": {
+      "testo": "Assestamento del bilancio 2023-2025: aggiorna i conti con il risultato di amministrazione di fine 2022 e apporta variazioni al bilancio. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2023-9": {
+      "testo": "Approva il rendiconto 2022 della Regione, cioè i conti definitivi dell'anno (circa 1,38 miliardi di euro di entrate accertate). La legge è stata poi abrogata nel 2024 e i conti riapprovati. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2023-7": {
+      "testo": "Legge di stabilità 2023: rifinanzia le leggi regionali di spesa, fissa le spese per il funzionamento degli enti dipendenti, ristruttura i mutui e completa la soppressione delle Comunità montane. Contiene anche il piano di vendita di beni regionali, norme sui risarcimenti per i danni della fauna selvatica e altre modifiche di leggi.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2023-4": {
+      "testo": "Modifica i rendiconti della Regione per il 2019 e il 2021, correggendo il risultato di amministrazione e alcuni allegati. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
     }
   }
 }

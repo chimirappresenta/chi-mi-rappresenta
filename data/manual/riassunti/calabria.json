@@ -155,6 +155,46 @@
       "testo": "Fino al 31 dicembre 2026 le aziende sanitarie calabresi possono richiamare in servizio medici già in pensione, con incarichi da libero professionista di massimo 12 mesi (rinnovabili una volta). Servono soprattutto per pronto soccorso, anestesia, medicina interna, medicina generale e aree interne con pochi medici. I costi sono a carico dei bilanci delle aziende sanitarie, senza nuove spese per la Regione.",
       "modello": "claude-opus-5-5",
       "generato": "2026-10-20"
+    },
+    "2025-51": {
+      "testo": "Riordina il sistema regionale della formazione professionale: percorsi per giovani, adulti, persone svantaggiate e con disabilità, formazione tecnica superiore e continua, certificazione delle competenze, orientamento, tirocini estivi e controlli sugli enti di formazione, con un piano triennale e funzioni anche per la Città metropolitana di Reggio Calabria.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-50": {
+      "testo": "Approva il bilancio di previsione della Regione per il 2026-2028: circa 7,8 miliardi di euro di entrate e spese nel 2026, 6,7 miliardi nel 2027 e 6,3 miliardi nel 2028, oltre alle partite di giro. È l'atto che autorizza la Regione a incassare e spendere.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-49": {
+      "testo": "Legge di stabilità 2026: rifinanzia le leggi regionali di spesa con circa 315 milioni di euro nel 2026 (e circa 305-308 milioni nel 2027 e 2028), fissa il contributo della Regione agli obiettivi di finanza pubblica e il cofinanziamento del programma europeo FSE+ 2021-2027.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-48": {
+      "testo": "Modifica diverse leggi regionali del 2023-2025 per rispondere ai rilievi del Governo, tra cui quella sulle professioni non organizzate in ordini o collegi, adeguandole alle regole nazionali ed europee sulla concorrenza. Sono soprattutto correzioni tecniche.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-47": {
+      "testo": "Modifica la legge sulla tutela degli ulivi: consente di sostituire gli uliveti vecchi, malati o poco produttivi per rilanciare l'agricoltura, chiarisce i casi in cui gli ulivi si possono espiantare (per esempio quelli usati come frangivento) e autorizza potature straordinarie, mantenendo il divieto generale di espianto. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-46": {
+      "testo": "Assestamento del bilancio 2025-2027: aggiorna i conti con i dati definitivi del 2024 (residui, cassa, risultato di amministrazione), usa la parte del risultato disponibile e apporta variazioni al bilancio. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-45": {
+      "testo": "Stabilisce come si svolge il referendum popolare per approvare un nuovo Statuto regionale o modificarne i principi: chi può chiederlo (consiglieri o elettori), come si verificano le firme, come si vota e quando lo Statuto viene promulgato. Le modifiche solo tecniche dello Statuto seguono invece le regole del referendum abrogativo.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2025-44": {
+      "testo": "Approva il rendiconto 2024 della Regione, cioè i conti definitivi dell'anno: circa 7,78 miliardi di euro di entrate accertate e 7,76 miliardi di spese impegnate. Approva anche il rendiconto consolidato di Giunta e Consiglio. È un atto contabile obbligatorio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
     }
   }
 }

@@ -16738,7 +16738,12 @@
      "oggetto": "Sistema regionale della formazione professionale",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=51&anno=2025",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=51&anno=2025",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=51&anno=2025&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=51&anno=2025&tipo=TXT",
+     "riassunto": {
+      "testo": "Riordina il sistema regionale della formazione professionale: percorsi per giovani, adulti, persone svantaggiate e con disabilità, formazione tecnica superiore e continua, certificazione delle competenze, orientamento, tirocini estivi e controlli sugli enti di formazione, con un piano triennale e funzioni anche per la Città metropolitana di Reggio Calabria.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-50",
@@ -16748,7 +16753,12 @@
      "oggetto": "Bilancio di previsione finanziario della Regione Calabria per gli anni 2026-2028",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=50&anno=2025",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=50&anno=2025",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=50&anno=2025&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=50&anno=2025&tipo=TXT",
+     "riassunto": {
+      "testo": "Approva il bilancio di previsione della Regione per il 2026-2028: circa 7,8 miliardi di euro di entrate e spese nel 2026, 6,7 miliardi nel 2027 e 6,3 miliardi nel 2028, oltre alle partite di giro. È l'atto che autorizza la Regione a incassare e spendere.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-49",
@@ -16758,7 +16768,12 @@
      "oggetto": "Legge di stabilità regionale 2026",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=49&anno=2025",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=49&anno=2025",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=49&anno=2025&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=49&anno=2025&tipo=TXT",
+     "riassunto": {
+      "testo": "Legge di stabilità 2026: rifinanzia le leggi regionali di spesa con circa 315 milioni di euro nel 2026 (e circa 305-308 milioni nel 2027 e 2028), fissa il contributo della Regione agli obiettivi di finanza pubblica e il cofinanziamento del programma europeo FSE+ 2021-2027.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-48",
@@ -16768,7 +16783,12 @@
      "oggetto": "Adempimento degli impegni assunti con il Governo in attuazione del principio di leale collaborazione e modifiche normative",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=48&anno=2025",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=48&anno=2025",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=48&anno=2025&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=48&anno=2025&tipo=TXT",
+     "riassunto": {
+      "testo": "Modifica diverse leggi regionali del 2023-2025 per rispondere ai rilievi del Governo, tra cui quella sulle professioni non organizzate in ordini o collegi, adeguandole alle regole nazionali ed europee sulla concorrenza. Sono soprattutto correzioni tecniche.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-47",
@@ -16778,7 +16798,12 @@
      "oggetto": "Modifiche e integrazioni della legge regionale 30 ottobre 2012, n. 48 (Tutela e valorizzazione del patrimonio olivicolo della Regione Calabria)",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=47&anno=2025",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=47&anno=2025",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=47&anno=2025&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=47&anno=2025&tipo=TXT",
+     "riassunto": {
+      "testo": "Modifica la legge sulla tutela degli ulivi: consente di sostituire gli uliveti vecchi, malati o poco produttivi per rilanciare l'agricoltura, chiarisce i casi in cui gli ulivi si possono espiantare (per esempio quelli usati come frangivento) e autorizza potature straordinarie, mantenendo il divieto generale di espianto. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-46",
@@ -16788,7 +16813,12 @@
      "oggetto": "Assestamento del bilancio di previsione della Regione Calabria per gli anni 2025-2027",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=46&anno=2025",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=46&anno=2025",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=46&anno=2025&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=46&anno=2025&tipo=TXT",
+     "riassunto": {
+      "testo": "Assestamento del bilancio 2025-2027: aggiorna i conti con i dati definitivi del 2024 (residui, cassa, risultato di amministrazione), usa la parte del risultato disponibile e apporta variazioni al bilancio. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-45",
@@ -16798,7 +16828,12 @@
      "oggetto": "Disciplina del referendum popolare per l’approvazione dello Statuto regionale",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=45&anno=2025",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=45&anno=2025",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=45&anno=2025&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=45&anno=2025&tipo=TXT",
+     "riassunto": {
+      "testo": "Stabilisce come si svolge il referendum popolare per approvare un nuovo Statuto regionale o modificarne i principi: chi può chiederlo (consiglieri o elettori), come si verificano le firme, come si vota e quando lo Statuto viene promulgato. Le modifiche solo tecniche dello Statuto seguono invece le regole del referendum abrogativo.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-44",
@@ -16808,7 +16843,12 @@
      "oggetto": "Rendiconto generale e rendiconto consolidato relativi all'esercizio finanziario 2024",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=44&anno=2025",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=44&anno=2025",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=44&anno=2025&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=44&anno=2025&tipo=TXT",
+     "riassunto": {
+      "testo": "Approva il rendiconto 2024 della Regione, cioè i conti definitivi dell'anno: circa 7,78 miliardi di euro di entrate accertate e 7,76 miliardi di spese impegnate. Approva anche il rendiconto consolidato di Giunta e Consiglio. È un atto contabile obbligatorio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     }
    ],
    "attivita": {
@@ -25466,7 +25506,12 @@
      "intestazione": "Legge regionale 29 dicembre 2025, n. 36",
      "oggetto": "Riconoscimento della legittimita' del debito fuori bilancio ai sensi dell'art. 73, comma 1, lett. e) del d.lgs. 23 giugno 2011, n. 118 (Disposizioni in materia di armonizzazione dei sistemi contabili e degli schemi di bilancio delle Regioni, degli Enti Locali e loro Organismi, a norma degli artt. 1 e 2 della Legge 5 maggio 2009, n. 42) per acquisizione di beni e servizi in assenza del preventivo impegno di spesa e ulteriori disposizioni",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25036.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25036.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25036.htm",
+     "riassunto": {
+      "testo": "Riconosce un debito fuori bilancio di piccolo importo e contiene altre disposizioni: modifiche alla legge urbanistica con proroghe di termini, misure per cultura e istruzione e la disciplina della Medicina d'urgenza nelle aziende sanitarie.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-35",
@@ -25475,7 +25520,12 @@
      "intestazione": "Legge regionale 29 dicembre 2025, n. 35",
      "oggetto": "Modifiche ed integrazioni all'art. 25 della legge regionale 25 gennaio 2024, n. 4 (Disposizioni finanziarie per la redazione del Bilancio di previsione finanziario 2024-2026 della Regione Abruzzo (Legge di stabilita' regionale 2024))",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25035.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25035.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25035.htm",
+     "riassunto": {
+      "testo": "Modifica l'articolo della legge di stabilità 2024 che ha ridefinito i confini della Riserva naturale del Borsacchio (Roseto degli Abruzzi), precisando che vale in attesa di stabilire i livelli di tutela in base alle reali caratteristiche ambientali dell'area.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-34",
@@ -25484,7 +25534,12 @@
      "intestazione": "Legge regionale 28 novembre 2025, n. 34",
      "oggetto": "Adesione al Premio nazionale di cultura Benedetto Croce e ulteriori disposizioni",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25034.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25034.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25034.htm",
+     "riassunto": {
+      "testo": "La Regione aderisce al Premio nazionale di cultura 'Benedetto Croce' e lo sostiene con un contributo. La legge contiene anche altre misure, tra cui il riconoscimento di un debito verso la finanziaria regionale FIRA.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-33",
@@ -25493,7 +25548,12 @@
      "intestazione": "Legge regionale 28 novembre 2025, n. 33",
      "oggetto": "Riconoscimento e celebrazione manifestazione \"La Corsa degli Zingari\"",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25033.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25033.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25033.htm",
+     "riassunto": {
+      "testo": "Riconosce la 'Corsa degli Zingari' di Pacentro come manifestazione di valore storico, culturale e turistico-religioso e la sostiene con 50.000 euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-32",
@@ -25502,7 +25562,12 @@
      "intestazione": "Legge regionale 28 novembre 2025, n. 32",
      "oggetto": "Norme per la valorizzazione, conservazione e promozione dell'Area dei Cunicoli di Claudio",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25032.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25032.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25032.htm",
+     "riassunto": {
+      "testo": "Valorizza l'area dei Cunicoli di Claudio, l'antico sistema di gallerie romane di Borgo Incile ad Avezzano, con iniziative di tutela e promozione.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-31",
@@ -25511,7 +25576,12 @@
      "intestazione": "Legge regionale 28 novembre 2025, n. 31",
      "oggetto": "Servizi per la salute dei minori, delle donne, delle coppie e delle famiglie",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25031.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25031.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25031.htm",
+     "riassunto": {
+      "testo": "Riorganizza i consultori del servizio sanitario regionale, che si occupano della salute di minori, donne, coppie e famiglie: attività, personale, integrazione con i servizi sociali, gratuità delle prestazioni, autorizzazione e controlli.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-30",
@@ -25520,7 +25590,12 @@
      "intestazione": "Legge regionale 26 novembre 2025, n. 30",
      "oggetto": "Interventi regionali in favore delle attivita' di partecipazione ed informazione sul funzionamento degli organi regionali, a sostegno del merito e della ricerca in ambito universitario ed in favore di iniziative che promuovono la valorizzazione dell'immagine della Regione Abruzzo ed ulteriori disposizioni",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25030.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25030.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25030.htm",
+     "riassunto": {
+      "testo": "Finanzia iniziative per far conoscere il Consiglio regionale (visite delle scuole, con contributo alle spese di trasporto), progetti di ricerca e tirocini con le università abruzzesi, iniziative per l'immagine della Regione e i gemellaggi. Modifica anche diverse altre leggi.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-29",
@@ -25529,7 +25604,12 @@
      "intestazione": "Legge regionale 13 novembre 2025, n. 29",
      "oggetto": "Disciplina delle Cooperative di Comunita' per il Lavoro e la Produzione ed ulteriori disposizioni",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25029.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25029.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25029.htm",
+     "riassunto": {
+      "testo": "Disciplina le cooperative di comunità per il lavoro e la produzione, che coinvolgono i cittadini di un territorio in attività economiche e servizi. La legge contiene anche altre misure, tra cui un contributo straordinario al Consorzio di bonifica Centro e fondi per il Giro d'Italia 2025.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-28",
@@ -25538,7 +25618,12 @@
      "intestazione": "Legge regionale 13 novembre 2025, n. 28",
      "oggetto": "Nuove norme regionali per la prevenzione e la mitigazione del rischio da valanga",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25028.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25028.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25028.htm",
+     "riassunto": {
+      "testo": "Nuove norme per prevenire e mitigare il rischio valanghe: carte del pericolo, comitato tecnico regionale neve e valanghe, commissioni locali valanghe, opere di difesa, divieti, sgombero degli edifici a rischio e coordinamento con le altre regioni.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-27",
@@ -25547,7 +25632,12 @@
      "intestazione": "Legge regionale 9 ottobre 2025, n. 27",
      "oggetto": "Legge organica in materia di relazioni tra la Regione Abruzzo e le Comunita' di Abruzzesi nel Mondo e ulteriori disposizioni",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25027.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25027.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25027.htm",
+     "riassunto": {
+      "testo": "Nuova legge sui rapporti con gli abruzzesi nel mondo: Consiglio regionale degli Abruzzesi nel Mondo (CRAM), osservatorio sull'emigrazione, albo delle associazioni, contributi, programmazione degli interventi e Giornata degli emigrati abruzzesi nel mondo.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-26",
@@ -25556,7 +25646,12 @@
      "intestazione": "Legge regionale 22 agosto 2025, n. 26",
      "oggetto": "Istituzione dell'Agenzia Regionale Abruzzo Lavoro (ARAL)",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25026.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25026.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25026.htm",
+     "riassunto": {
+      "testo": "Riforma i servizi per il lavoro e istituisce l'Agenzia Regionale Abruzzo Lavoro (ARAL), che coordina i Centri per l'impiego e le politiche attive del lavoro, con organi, personale e risorse propri.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-25",
@@ -25565,7 +25660,12 @@
      "intestazione": "Legge regionale 22 agosto 2025, n. 25",
      "oggetto": "Disposizioni per il completamento della riforma del sistema produttivo abruzzese attraverso la conclusione del processo di riordino dei Consorzi industriali e la riforma ed il potenziamento dell'ARAP",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25025.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25025.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25025.htm",
+     "riassunto": {
+      "testo": "Completa il riordino dei Consorzi industriali e rafforza l'ARAP, l'Azienda regionale per le attività produttive: organi, compiti, insediamento delle imprese, servizi, infrastrutture e piani territoriali di sviluppo industriale. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-24",
@@ -25574,7 +25674,12 @@
      "intestazione": "Legge regionale 13 agosto 2025, n. 24",
      "oggetto": "Assestamento al bilancio di previsione 2025-2027 ex art. 50 del d.lgs. 118/2011 e s.m.i., con modifiche a leggi regionali e ulteriori disposizioni",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25024.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25024.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25024.htm",
+     "riassunto": {
+      "testo": "Assestamento del bilancio 2025-2027: aggiorna i conti con i dati definitivi del 2024 (residui, cassa, risultato di amministrazione) e modifica diverse leggi regionali, comprese le leggi di stabilità 2024 e 2025.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-23",
@@ -25583,7 +25688,12 @@
      "intestazione": "Legge regionale 13 agosto 2025, n. 23",
      "oggetto": "Rendiconto generale per l'esercizio 2024",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25023.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25023.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25023.htm",
+     "riassunto": {
+      "testo": "Approva il rendiconto 2024 della Regione, cioè i conti definitivi dell'anno: circa 4,78 miliardi di euro di entrate accertate e 4,70 miliardi di spese impegnate. È un atto contabile obbligatorio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-22",
@@ -25592,7 +25702,12 @@
      "intestazione": "Legge regionale 1 agosto 2025, n. 22",
      "oggetto": "Disposizioni di modifica delle leggi regionali 24/2005, 4/2009, 36/2013, 1/2025, 3/2025, 4/2025, 8/2025, 10/2025 e 13/2025 in attuazione del principio di leale collaborazione, modifiche a leggi regionali ed ulteriori disposizioni",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25022.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25022.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25022.htm",
+     "riassunto": {
+      "testo": "Modifica una decina di leggi regionali del 2005-2025 per rispondere ai rilievi del Governo e contiene altre misure, tra cui le tariffe del trasporto pubblico locale e la formazione professionale.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-21",
@@ -25601,7 +25716,12 @@
      "intestazione": "Legge regionale 26 giugno 2025, n. 21",
      "oggetto": "Disposizioni di modifica di leggi regionali vigenti e di carattere urgente",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25021.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25021.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25021.htm",
+     "riassunto": {
+      "testo": "Modifica diverse leggi regionali e contiene disposizioni urgenti, tra cui l'istituzione di un referente territoriale per affido e adozione e la chiusura delle vecchie gestioni liquidatorie delle ex USL.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-20",
@@ -25610,7 +25730,12 @@
      "intestazione": "Legge regionale 24 giugno 2025, n. 20",
      "oggetto": "Istituzione del Registro regionale degli informatori scientifici del farmaco",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25020.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25020.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25020.htm",
+     "riassunto": {
+      "testo": "Istituisce presso il Dipartimento Sanità il Registro regionale degli informatori scientifici del farmaco e un Tavolo permanente sul farmaco, per garantire qualità e trasparenza dell'informazione ai medici. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-19",
@@ -25619,7 +25744,12 @@
      "intestazione": "Legge regionale 24 giugno 2025, n. 19",
      "oggetto": "Disposizioni di attuazione del decreto del Presidente della Repubblica 6 giugno 2001, n. 380 (Testo unico delle disposizioni legislative e regolamentari in materia edilizia (TestoA)), come modificato dal decreto legge 29 maggio 2024, n. 69 (Disposizioni urgenti in materia di semplificazione edilizia e urbanistica), convertito, con modificazioni, dalla legge 24 luglio 2024, n. 105. Modifiche a leggi regionali e disposizioni per favorire il recupero, la riconversione e la riqualificazione delle aree produttive",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25019.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25019.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25019.htm",
+     "riassunto": {
+      "testo": "Applica in Abruzzo le semplificazioni edilizie nazionali del 2024 ('Salva-casa'): recupero degli edifici esistenti, cambi di destinazione d'uso, variazioni essenziali, sicurezza sismica. Favorisce anche il recupero e la riconversione di aree produttive ed edifici dismessi.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-18",
@@ -25628,7 +25758,12 @@
      "intestazione": "Legge regionale 29 maggio 2025, n. 18",
      "oggetto": "Disciplina generale sull'attivita' normativa regionale e sulla qualita' della normazione",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25018.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25018.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25018.htm",
+     "riassunto": {
+      "testo": "Regole generali per fare leggi regionali di qualità: analisi dell'impatto delle nuove norme (AIR e test sulle piccole imprese), consultazioni, valutazione dei risultati, testi unici, una banca dati delle leggi vigenti e un Comitato per la legislazione.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-17",
@@ -25637,7 +25772,12 @@
      "intestazione": "Legge regionale 29 maggio 2025, n. 17",
      "oggetto": "Modifiche alla legge regionale 8 marzo 2005, n. 24 (Testo Unico in materia di sistemi di trasporto a mezzo di impianti a fune, o ad essi assimilati, piste da sci ed infrastrutture accessorie) e ulteriori disposizioni",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25017.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25017.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25017.htm",
+     "riassunto": {
+      "testo": "Riforma il testo unico su impianti a fune e piste da sci: definizioni delle aree sciabili, obblighi e responsabilità dei gestori, requisiti tecnici e segnaletica delle piste, snowpark, manutenzione, servizio piste e soccorso.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-16",
@@ -25646,7 +25786,12 @@
      "intestazione": "Legge regionale 22 maggio 2025, n. 16",
      "oggetto": "Disposizioni urgenti per la copertura del disavanzo del servizio sanitario regionale risultante dal conto economico al quarto trimestre 2024",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25016.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25016.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25016.htm",
+     "riassunto": {
+      "testo": "Copre il disavanzo della sanità regionale emerso dai conti del quarto trimestre 2024, usando anche le maggiori entrate fiscali del 2024, e istituisce un fondo per le finalità della legge regionale n. 9 del 2025.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-15",
@@ -25655,7 +25800,12 @@
      "intestazione": "Legge regionale 20 maggio 2025, n. 15",
      "oggetto": "Norme per la valorizzazione della Pinacoteca Teofilo Patini e ulteriori disposizioni",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25015.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25015.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25015.htm",
+     "riassunto": {
+      "testo": "Valorizza la Pinacoteca 'Teofilo Patini' (Castel di Sangro) e istituisce un premio dedicato al pittore. La legge contiene anche altre disposizioni, tra cui regole sulla rendicontazione dei contributi regionali.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-14",
@@ -25664,7 +25814,12 @@
      "intestazione": "Legge regionale 20 maggio 2025, n. 14",
      "oggetto": "Norme per la valorizzazione, conservazione e promozione dell'Area Celestiniana di Sulmona",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25014.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25014.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25014.htm",
+     "riassunto": {
+      "testo": "Valorizza l'Area Celestiniana di Sulmona, di grande interesse storico, culturale e religioso, con iniziative di recupero, restauro e promozione turistica.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-13",
@@ -25673,7 +25828,12 @@
      "intestazione": "Legge regionale 20 maggio 2025, n. 13",
      "oggetto": "Norme in materia di sicurezza del personale sanitario e sociosanitario",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25013.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25013.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25013.htm",
+     "riassunto": {
+      "testo": "Misure per prevenire e contrastare le aggressioni al personale sanitario e sociosanitario: linee guida per le aziende, protocolli con le forze di polizia e controlli della Regione. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-12",
@@ -25682,7 +25842,12 @@
      "intestazione": "Legge regionale 20 maggio 2025, n. 12",
      "oggetto": "Ratifica dell'Intesa tra la Regione Abruzzo e l'Amministrazione Militare regionale di Sumy dell'Ucraina",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25012.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25012.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25012.htm",
+     "riassunto": {
+      "testo": "Ratifica l'intesa di cooperazione tra la Regione Abruzzo e l'amministrazione regionale di Sumy, in Ucraina. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-11",
@@ -25691,7 +25856,12 @@
      "intestazione": "Legge regionale 20 maggio 2025, n. 11",
      "oggetto": "Istituzione della Consulta dei giovani d'Abruzzo",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25011.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25011.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25011.htm",
+     "riassunto": {
+      "testo": "Istituisce la Consulta dei giovani d'Abruzzo, un organo di partecipazione dei giovani alle politiche regionali, con un elenco regionale dei giovani candidati, un forum tematico e un registro delle consulte comunali dei giovani.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-10",
@@ -25700,7 +25870,12 @@
      "intestazione": "Legge regionale 17 aprile 2025, n. 10",
      "oggetto": "Disposizioni in merito alla costituzione di parte civile della Regione nei processi penali aventi ad oggetto fatti delittuosi ai danni dei soggetti di cui agli articoli 357, 358 e 359 del codice penale nonché reati contro la pubblica incolumità e contro la pubblica amministrazione commessi ai danni della Regione o di suoi Enti e ulteriori disposizioni",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25010.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25010.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25010.htm",
+     "riassunto": {
+      "testo": "Stabilisce che la Regione si costituisca parte civile nei processi per reati contro i propri dipendenti e amministratori, contro la pubblica incolumità o contro la pubblica amministrazione, e destina i risarcimenti ottenuti. Contiene anche altre disposizioni, tra cui un riconoscimento di debito.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-9",
@@ -25709,7 +25884,12 @@
      "intestazione": "Legge regionale 4 aprile 2025, n. 9",
      "oggetto": "Disposizioni in materia tributaria e sanitaria",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25009.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25009.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25009.htm",
+     "riassunto": {
+      "testo": "Cambia dal 2025 le aliquote dell'addizionale regionale IRPEF, per scaglioni di reddito, e prevede misure organizzative e di contenimento della spesa sanitaria, nell'ambito del risanamento dei conti della sanità regionale.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-8",
@@ -25718,7 +25898,12 @@
      "intestazione": "Legge regionale 25 marzo 2025, n. 8",
      "oggetto": "Misure urgenti per l'individuazione di aree e superfici idonee e non idonee all'installazione e promozione di impianti a fonti di energia rinnovabile e per la semplificazione dei procedimenti autorizzativi e modifica alla l.r. 46/2019",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25008.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25008.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25008.htm",
+     "riassunto": {
+      "testo": "Misure urgenti per individuare le aree idonee e non idonee a impianti di energia rinnovabile (fotovoltaico, eolico) e per semplificare le autorizzazioni, con un monitoraggio annuale.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-7",
@@ -25727,7 +25912,12 @@
      "intestazione": "Legge regionale 20 marzo 2025, n. 7",
      "oggetto": "Partecipazione all'Associazione ''European Chemical Regions Network'' ed ulteriori disposizioni",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25007.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25007.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25007.htm",
+     "riassunto": {
+      "testo": "La Regione aderisce alla rete europea delle regioni chimiche (European Chemical Regions Network) per sostenere il settore chimico e la ricerca. La legge contiene anche misure per la cultura, la partecipazione all'Expo di Osaka 2025 e il riconoscimento di un debito verso la finanziaria regionale FIRA.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-6",
@@ -25736,7 +25926,12 @@
      "intestazione": "Legge regionale 11 marzo 2025, n. 6",
      "oggetto": "Modifica alla legge regionale 12 gennaio 2018, n. 2 (Legge organica in materia di sport e impiantistica sportiva)",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25006.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25006.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25006.htm",
+     "riassunto": {
+      "testo": "Modifica la legge regionale sullo sport: i contributi regionali possono coprire anche l'acquisto di attrezzature e materiali tecnici per l'attività sportiva dei tesserati. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-5",
@@ -25745,7 +25940,12 @@
      "intestazione": "Legge regionale 11 marzo 2025, n. 5",
      "oggetto": "Disposizioni per il sostegno alle attivita' di studio e ricerca in ambito universitario",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25005.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25005.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25005.htm",
+     "riassunto": {
+      "testo": "Dà un contributo annuale di 50.000 euro al Dipartimento di Medicina e Scienze dell'invecchiamento dell'Università 'G. d'Annunzio' di Chieti-Pescara per studi sulle terapie integrate nella cura dei tumori.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-4",
@@ -25754,7 +25954,12 @@
      "intestazione": "Legge regionale 10 marzo 2025, n. 4",
      "oggetto": "Riconoscimento e celebrazione manifestazione ''Marsicaland'' e ulteriori disposizioni",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25004.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25004.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25004.htm",
+     "riassunto": {
+      "testo": "Riconosce la manifestazione 'Marsicaland' come evento di valore culturale, turistico ed enogastronomico per la Marsica. Contiene anche altre misure: fondi per la Scuola regionale di polizia locale, il riconoscimento di un debito e l'educazione sperimentale all'aperto nelle scuole.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-3",
@@ -25763,7 +25968,12 @@
      "intestazione": "Legge regionale 6 febbraio 2025, n. 3",
      "oggetto": "Modifiche a leggi regionali, proroga di termini previsti da disposizioni legislative e ulteriori disposizioni",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25003.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25003.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25003.htm",
+     "riassunto": {
+      "testo": "Legge 'omnibus' che modifica molte leggi regionali e proroga diversi termini: interventi socio-assistenziali per famiglie e maternità, riordino degli enti per l'edilizia residenziale pubblica e degli enti regionali, enti locali e altre materie.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-2",
@@ -25772,7 +25982,12 @@
      "intestazione": "Legge regionale 6 febbraio 2025, n. 2",
      "oggetto": "Bilancio di previsione finanziario 2025-2027",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25002.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25002.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25002.htm",
+     "riassunto": {
+      "testo": "Approva il bilancio di previsione della Regione per il 2025-2027: circa 5,3 miliardi di euro di entrate e spese ogni anno. Fissa anche i fondi di riserva, il fondo per i crediti difficili da riscuotere e quello per i contenziosi. È l'atto che permette alla Regione di spendere.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-1",
@@ -25781,7 +25996,12 @@
      "intestazione": "Legge regionale 6 febbraio 2025, n. 1",
      "oggetto": "Disposizioni finanziarie per la redazione del Bilancio di previsione finanziario 2025-2027 della Regione Abruzzo (Legge di stabilita' regionale 2025)",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25001.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25001.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25001.htm",
+     "riassunto": {
+      "testo": "Legge di stabilità 2025: definisce le spese obbligatorie e i rifinanziamenti delle leggi regionali per il 2025-2027 e contiene molte misure, tra cui eventi sportivi e turistici, la nuova sede unica della Regione a Pescara, la partecipazione alla Fondazione Genti d'Abruzzo, fondi per la cultura e il finanziamento dei progetti di vita indipendente per le persone con disabilità.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-32",
@@ -25790,7 +26010,12 @@
      "intestazione": "Legge regionale 30 dicembre 2024, n. 32",
      "oggetto": "Riconoscimento della legittimita' del debito fuori bilancio derivante dall'acquisizione di beni e servizi in assenza di preventivo impegno di spesa, in ottemperanza a quanto previsto dall'art. 73, comma 1, lett. e) del d.lgs. 23 giugno 2011, n. 118. Pagamento in favore di Engineering Ingegneria Informatica S.p.A. -Dipartimento Sanita' (DPF)",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24032.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24032.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24032.htm",
+     "riassunto": {
+      "testo": "Riconosce un debito fuori bilancio di circa 197.000 euro verso Engineering Ingegneria Informatica per servizi informatici al Dipartimento Sanità. È un atto contabile per pagare un servizio già svolto.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-31",
@@ -25799,7 +26024,12 @@
      "intestazione": "Legge regionale 30 dicembre 2024, n. 31",
      "oggetto": "Riconoscimento della legittimita' del debito fuori bilancio ai sensi dell'art. 73, comma 1, lett. e) del d.lgs. 23 giugno 2011, n. 118 per acquisizione di beni e servizi in assenza del preventivo impegno di spesa (Erogazione in favore della Regione Toscana per il servizio di gestione della piattaforma Anagrafe Regionale dell'Edilizia Scolastica - A.R.E.S. 2.0). Servizio Edilizia Sociale e Scolastica - DPC022",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24031.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24031.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24031.htm",
+     "riassunto": {
+      "testo": "Riconosce un debito fuori bilancio verso la Regione Toscana per la gestione della piattaforma informatica sull'edilizia scolastica (ARES 2.0). È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-30",
@@ -25808,7 +26038,12 @@
      "intestazione": "Legge regionale 30 dicembre 2024, n. 30",
      "oggetto": "Riconoscimento della legittimita' di debiti fuori bilancio derivanti dall'acquisizione di beni e servizi in assenza di preventivo impegno di spesa, in ottemperanza a quanto previsto dall'art. 73, comma 1, lett. e) del d.lgs. 23 giugno 2011, n. 118, e modifica alla l.r. 17/2024",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24030.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24030.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24030.htm",
+     "riassunto": {
+      "testo": "Riconosce debiti fuori bilancio per circa 40.000 euro (tra cui verso l'Istituto Mecenate per attività formative) e modifica una legge regionale del 2024. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-29",
@@ -25817,7 +26052,12 @@
      "intestazione": "Legge regionale 30 dicembre 2024, n. 29",
      "oggetto": "Riconoscimento della legittimita' dei debiti fuori bilancio ai sensi dell'art. 73, comma 1, lett. e) del d.lgs. 23 giugno 2011, n. 118 per acquisizione di beni e servizi in assenza del preventivo impegno di spesa (Servizi scolastici aggiuntivi per il trasporto pubblico a seguito dell'Emergenza Covid - 19 di cui alla D.G.R. 521/2020). Dipartimento Infrastrutture e Trasporti - DPE",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24029.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24029.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24029.htm",
+     "riassunto": {
+      "testo": "Riconosce debiti fuori bilancio per circa 1,53 milioni di euro per i servizi aggiuntivi di trasporto scolastico attivati durante l'emergenza Covid-19. È un atto contabile per pagare servizi già svolti.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-28",
@@ -25826,7 +26066,12 @@
      "intestazione": "Legge regionale 30 dicembre 2024, n. 28",
      "oggetto": "Modifiche alle leggi regionali 58/1989, 5/2024, 24/2024, 20/2023 e ulteriori disposizioni",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24028.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24028.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24028.htm",
+     "riassunto": {
+      "testo": "Modifica alcune leggi regionali (protezione civile e volontariato, programmazione sociale e altre), riconosce un debito fuori bilancio e aggiorna i rifinanziamenti di diverse leggi regionali.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-27",
@@ -25835,7 +26080,12 @@
      "intestazione": "Legge regionale 16 dicembre 2024, n. 27",
      "oggetto": "Premio Internazionale Sabina Santilli",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24027.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24027.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24027.htm",
+     "riassunto": {
+      "testo": "Istituisce il Premio internazionale 'Sabina Santilli', in memoria della fondatrice della Lega del Filo d'Oro, per chi si distingue nell'assistenza e nell'inclusione delle persone sordocieche e con disabilità. Spesa: 15.000 euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-26",
@@ -25844,7 +26094,12 @@
      "intestazione": "Legge regionale 16 dicembre 2024, n. 26",
      "oggetto": "Disposizioni in materia di istruttoria per i procedimenti amministrativi relativi alla gestione del demanio marittimo nei porti di rilevanza regionale ed interregionale di competenza della Regione Abruzzo, di cui all'art. 105, comma 2, lett. l) del d.lgs. n. 112/1998, e ulteriori disposizioni di carattere urgente",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24026.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24026.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24026.htm",
+     "riassunto": {
+      "testo": "Fissa le spese di istruttoria per le pratiche sul demanio marittimo nei porti di competenza regionale, approva il regolamento per l'esecuzione del Codice della navigazione e contiene altre disposizioni urgenti.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-25",
@@ -25853,7 +26108,12 @@
      "intestazione": "Legge regionale 16 dicembre 2024, n. 25",
      "oggetto": "Disposizioni finanziarie di carattere urgente",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24025.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24025.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24025.htm",
+     "riassunto": {
+      "testo": "Disposizioni finanziarie urgenti: riconosce alcuni debiti fuori bilancio e stanzia fondi per cultura e turismo (tra cui 10 milioni di euro), per lo spettacolo dal vivo e per l'Istituto di alta formazione musicale 'Gaetano Braga' di Teramo.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-24",
@@ -25862,7 +26122,12 @@
      "intestazione": "Legge regionale 9 dicembre 2024, n. 24",
      "oggetto": "Disposizioni in materia sociale, sanitaria, di attivita' produttive, trasporti, politiche della montagna, cultura, di natura istituzionale, ordinamentale e finanziaria",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24024.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24024.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24024.htm",
+     "riassunto": {
+      "testo": "Legge 'omnibus' con molte misure: case popolari, sanità (cabina di regia per il servizio sanitario e coordinamento degli acquisti), attività produttive e commercio su area pubblica, trasporti, montagna, cultura e norme istituzionali e finanziarie.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-23",
@@ -25871,7 +26136,12 @@
      "intestazione": "Legge regionale 19 novembre 2024, n. 23",
      "oggetto": "Riconoscimento della legittimita' del debito fuori bilancio ai sensi dell'art. 73, comma 1, lett. e) del d.lgs. 23 giugno 2011, n. 118, per acquisizione di beni e servizi in assenza del preventivo impegno di spesa (fornitura hardware idoneo a supportare software per programmazione e pianificazione dei servizi di TPL) e ulteriori disposizioni",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24023.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24023.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24023.htm",
+     "riassunto": {
+      "testo": "Riconosce un debito fuori bilancio di circa 3.000 euro per computer destinati alla programmazione del trasporto pubblico locale e assegna un contributo straordinario di 400.000 euro all'ATER di Teramo.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-22",
@@ -25880,7 +26150,12 @@
      "intestazione": "Legge regionale 19 novembre 2024, n. 22",
      "oggetto": "Riconoscimento della legittimita' del debito fuori bilancio ai sensi dell'art. 73, comma 1, lett. e) del d.lgs. 23 giugno 2011, n. 118, per acquisizione di beni e servizi in assenza del preventivo impegno di spesa (interventi per messa in sicurezza fiume Saline a Montesilvano in corrispondenza attraversamento autostradale A14 - lavori in somma urgenza) e ulteriori disposizioni urgenti",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24022.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24022.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24022.htm",
+     "riassunto": {
+      "testo": "Riconosce un debito fuori bilancio per lavori di somma urgenza sul fiume Saline a Montesilvano, sotto l'autostrada A14, e contiene altre disposizioni urgenti, tra cui modifiche a leggi recenti e un'autorizzazione alla finanziaria regionale FIRA.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-21",
@@ -25889,7 +26164,12 @@
      "intestazione": "Legge regionale 19 novembre 2024, n. 21",
      "oggetto": "Modifiche alla legge regionale 15 febbraio 2023 n. 10 (Disciplina del sistema turistico regionale)",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24021.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24021.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24021.htm",
+     "riassunto": {
+      "testo": "Modifica la legge sul turismo regionale introducendo le strutture residenziali universitarie, cioè alloggi per studenti che possono ospitare anche turisti, con i relativi requisiti.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-20",
@@ -25898,7 +26178,12 @@
      "intestazione": "Legge regionale 30 ottobre 2024, n. 20",
      "oggetto": "Riconoscimento del debito fuori bilancio derivante da procedure espropriative o di occupazione d'urgenza per opere di pubblica utilita' ai sensi dell'art. 73, comma 1, lettera d), del d.lgs. 118/2011",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24020.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24020.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24020.htm",
+     "riassunto": {
+      "testo": "Riconosce un debito fuori bilancio di circa 19.800 euro derivante da espropri o occupazioni d'urgenza per opere pubbliche. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-19",
@@ -25907,7 +26192,12 @@
      "intestazione": "Legge regionale 30 ottobre 2024, n. 19",
      "oggetto": "Riconoscimento della legittimita' dei debiti fuori bilancio ai sensi dell'art. 73, comma 1, lett. e) del d.lgs. 23 giugno 2011, n. 118 per affidamento, per il tramite della centrale di committenza AreaCom, della fornitura e installazione di arredi e per la fornitura e installazione delle attrezzature informatiche degli Uffici di Prossimita' abruzzesi, in assenza della prenotazione di spesa",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24019.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24019.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24019.htm",
+     "riassunto": {
+      "testo": "Riconosce debiti fuori bilancio per circa 165.000 euro per arredi e computer forniti agli Uffici di prossimità abruzzesi tramite la centrale di committenza AreaCom. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-18",
@@ -25916,7 +26206,12 @@
      "intestazione": "Legge regionale 30 ottobre 2024, n. 18",
      "oggetto": "Riconoscimento della legittimita' del debito fuori bilancio in favore di Formez PA di euro 1.540.774,76 relativo alla realizzazione dell'intervento ''PAR FSC Abruzzo 2007- 2013 - Progetto Assistenza Tecnica al PAR FSC 2007-2013'', Convenzione tra la Regione Abruzzo e il Formez PA del 16.09.2013, e successive modifiche e integrazioni intervenute, ai sensi dell'art. 73, comma 1, lett. e) del decreto legislativo 23 giugno 2011, n. 118",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24018.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24018.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24018.htm",
+     "riassunto": {
+      "testo": "Riconosce un debito fuori bilancio di circa 1,54 milioni di euro verso Formez PA per l'assistenza tecnica al programma PAR FSC Abruzzo 2007-2013. È un atto contabile per pagare un servizio già svolto.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-17",
@@ -25925,7 +26220,12 @@
      "intestazione": "Legge regionale 30 ottobre 2024, n. 17",
      "oggetto": "Riconoscimento della legittimita' del debito fuori bilancio derivante dall'acquisizione di beni e servizi in assenza del preventivo impegno di spesa, in ottemperanza a quanto previsto dall'art. 73, comma 1, lett. e) del d.lgs. 23 giugno 2011, n. 118. Pagamento in favore di Agenzia Entrate Riscossione per pignoramento di credito verso terzi",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24017.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24017.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24017.htm",
+     "riassunto": {
+      "testo": "Riconosce un debito fuori bilancio di circa 8.500 euro verso l'Agenzia delle Entrate-Riscossione, legato a un pignoramento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-16",
@@ -25934,7 +26234,12 @@
      "intestazione": "Legge regionale 18 ottobre 2024, n. 16",
      "oggetto": "Riconoscimento della legittimita' del debito fuori bilancio derivante da acquisizione di beni e servizi in assenza del preventivo impegno di spesa, in ottemperanza a quanto previsto dall'art. 73, comma 1, lett. e) del d.lgs. 23 giugno 2011, n. 118 - Pagamento a favore di CRAS s.r.l., azione C.1 progetto LIFE + A_GreeNet. - e ulteriori disposizioni urgenti",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24016.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24016.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24016.htm",
+     "riassunto": {
+      "testo": "Riconosce un debito fuori bilancio verso la società CRAS per un progetto europeo LIFE e contiene altre misure urgenti: sostegni a servizi ed edilizia scolastica, la partecipazione della Regione all'Expo di Osaka 2025 e risorse per la promozione turistica.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-15",
@@ -25943,7 +26248,12 @@
      "intestazione": "Legge regionale 17 settembre 2024, n. 15",
      "oggetto": "Assestamento al Bilancio di previsione 2024-2026 ex art. 50, d.lgs. 118/2011 s.m.i., con modifiche a leggi regionali e ulteriori disposizioni",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24015.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24015.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24015.htm",
+     "riassunto": {
+      "testo": "Assestamento del bilancio 2024-2026: aggiorna i conti con i dati definitivi del 2023 e contiene molte altre misure, tra cui la nuova sede unica della Regione a Pescara, interventi per i cimiteri e le piscine, il riconoscimento di un debito e l'istituzione dell'Osservatorio di geologia di Farindola.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-14",
@@ -25952,7 +26262,12 @@
      "intestazione": "Legge regionale 30 agosto 2024, n. 14",
      "oggetto": "Rendiconto generale per l'esercizio 2023 e modifica alla l.r. 9/2000",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24014.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24014.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24014.htm",
+     "riassunto": {
+      "testo": "Approva il rendiconto 2023 della Regione, cioè i conti definitivi dell'anno: circa 4,53 miliardi di euro di entrate accertate e 4,41 miliardi di spese impegnate. È un atto contabile obbligatorio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-13",
@@ -25961,7 +26276,12 @@
      "intestazione": "Legge regionale 30 agosto 2024, n. 13",
      "oggetto": "Riconoscimento della legittimita' del debito fuori bilancio a favore dell'operatore economico Il Sole 24 Ore Spa, ai sensi dell'articolo 73, comma 1, lett. e) del decreto legislativo 23 giugno 2011, n. 118\" (Disposizioni in materia di armonizzazione dei sistemi contabili e degli schemi di bilancio delle Regioni, degli Enti locali e loro Organismi, a norma degli artt. 1 e 2 della Legge 5 maggio 2009, n. 42)",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24013.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24013.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24013.htm",
+     "riassunto": {
+      "testo": "Riconosce un debito fuori bilancio di 42.700 euro verso Il Sole 24 Ore per servizi già resi senza un impegno di spesa preventivo. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-12",
@@ -25970,7 +26290,12 @@
      "intestazione": "Legge regionale 30 agosto 2024, n. 12",
      "oggetto": "Riconoscimento della legittimita' del debito fuori bilancio a favore dell'operatore economico Spray Record Snc, ai sensi dell'articolo 73, comma 1, lett. e) del decreto legislativo 23 giugno 2011, n. 118 (Disposizioni in materia di armonizzazione dei sistemi contabili e degli schemi di bilancio delle Regioni, degli Enti locali e loro Organismi, a norma degli artt. 1 e 2 della Legge 5 maggio 2009, n. 42)",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24012.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24012.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24012.htm",
+     "riassunto": {
+      "testo": "Riconosce un debito fuori bilancio di 85.400 euro verso la ditta Spray Record per servizi già resi senza un impegno di spesa preventivo. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-11",
@@ -25979,7 +26304,12 @@
      "intestazione": "Legge regionale 10 luglio 2024, n. 11",
      "oggetto": "Disposizioni in materia di urbanistica e trasporti, cultura ed informazione: modifiche alle leggi regionali nn. 58/2023, 10/2011, 46/2013, 20/2023. Disposizioni ordinamentali, di proroga e ulteriori disposizioni",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24011.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24011.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24011.htm",
+     "riassunto": {
+      "testo": "Legge con molte misure diverse: modifiche alla nuova legge urbanistica (anche sui cambi di destinazione d'uso), al commercio, ai trasporti, alla cultura e all'informazione, sostegni all'istruzione e varie proroghe di termini.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-10",
@@ -25988,7 +26318,12 @@
      "intestazione": "Legge regionale 5 luglio 2024, n. 10",
      "oggetto": "Modifiche alle leggi regionali 15/1989, 58/1989, 31/2006, 43/2019, 58/2023, 1/2024, 4/2024, 5/2024, 6/2024, 7/2024 in attuazione del principio di leale collaborazione e ulteriori disposizioni",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24010.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24010.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24010.htm",
+     "riassunto": {
+      "testo": "Modifica una decina di leggi regionali del 1989-2024 per rispondere ai rilievi del Governo e aggiunge altre disposizioni e proroghe di termini. Sono soprattutto correzioni tecniche.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-9",
@@ -25997,7 +26332,12 @@
      "intestazione": "Legge regionale 23 maggio 2024, n. 9",
      "oggetto": "Disposizioni urgenti per la copertura del disavanzo del servizio sanitario regionale risultante dal conto economico al quarto trimestre 2023",
      "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24009.htm",
-     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24009.htm"
+     "testo": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24009.htm",
+     "riassunto": {
+      "testo": "Copre il disavanzo della sanità regionale emerso dai conti del quarto trimestre 2023, con circa 68,6 milioni di euro nel 2024. Chiede alle ASL piani per razionalizzare la spesa, prevede poteri sostitutivi della Regione e il potenziamento del Dipartimento Sanità.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     }
    ],
    "attivita": {
@@ -41349,7 +41689,12 @@
      "data": "2025-12-23",
      "intestazione": "Legge regionale 23 dicembre 2025, n. 20",
      "oggetto": "Autorizzazione all'esercizio provvisorio del bilancio di previsione della Regione Molise per l'anno 2026",
-     "url": "https://consiglio.regione.molise.it/node/26569"
+     "url": "https://consiglio.regione.molise.it/node/26569",
+     "riassunto": {
+      "testo": "Autorizza l'esercizio provvisorio del bilancio per l'inizio del 2026, cioè permette alla Regione di continuare a spendere in attesa del nuovo bilancio. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-19",
@@ -41357,7 +41702,12 @@
      "data": "2025-12-23",
      "intestazione": "Legge regionale 23 dicembre 2025, n. 19",
      "oggetto": "Rendiconto generale della Regione Molise per l'esercizio finanziario 2024",
-     "url": "https://consiglio.regione.molise.it/node/26568"
+     "url": "https://consiglio.regione.molise.it/node/26568",
+     "riassunto": {
+      "testo": "Approva il rendiconto 2024 della Regione, cioè i conti definitivi dell'anno: circa 1,39 miliardi di euro di entrate accertate. È un atto contabile obbligatorio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-18",
@@ -41365,7 +41715,12 @@
      "data": "2025-12-23",
      "intestazione": "Legge regionale 23 dicembre 2025, n. 18",
      "oggetto": "Rendiconto generale della Regione Molise per l'esercizio finanziario 2023",
-     "url": "https://consiglio.regione.molise.it/node/26567"
+     "url": "https://consiglio.regione.molise.it/node/26567",
+     "riassunto": {
+      "testo": "Riapprova il rendiconto 2023 della Regione, cioè i conti definitivi dell'anno (circa 1,42 miliardi di euro di entrate accertate). È un atto contabile obbligatorio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-17",
@@ -41373,7 +41728,12 @@
      "data": "2025-12-16",
      "intestazione": "Legge regionale 16 dicembre 2025, n. 17",
      "oggetto": "Assestamento del bilancio di previsione 2025 - 2027",
-     "url": "https://consiglio.regione.molise.it/node/26566"
+     "url": "https://consiglio.regione.molise.it/node/26566",
+     "riassunto": {
+      "testo": "Assestamento del bilancio 2025-2027: aggiorna i conti con i dati definitivi del 2024 (residui, cassa, risultato di amministrazione) e apporta variazioni al bilancio. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-16",
@@ -41381,7 +41741,12 @@
      "data": "2025-12-05",
      "intestazione": "Legge regionale 5 dicembre 2025, n. 16",
      "oggetto": "Riconoscimento della legittimità di debito fuori bilancio ai sensi dell'art. 73, comma 1, lett. e), del D.Lgs 23 giugno 2011, n. 118, per il pagamento di un indennizzo per attività professionale resa da avvocato del libero foro per il patrocinio svolto in vari procedimenti penali a tutela degli interessi civili della Regione Molise quale parte offesa, incarichi conferiti con : DGR 7 agosto 2015, n. 437 (Tribunale di Campobasso, R.G.N.R. n. 3051/2013, n. 3307/2013, n. 2742/2013, n. 4291/2012, n.1724/2013, n. 2743/2013, n. 2851/2013, n. 2337/2013), DGR 12 novembre 2015, n. 619 (Tribunale di Campobasso R.G.N.R. 2854/2013), DGR 14 dicembre 2015, n. 698 (Tribunale di Campobasso R.G.N.R. 4290/2012), DGR 5 maggio 2016, n. 197 (Tribunale di Campobasso R.G.N.R. 4157/2013), DGR 5 maggio 2016, n. 195 (Tribunale di Campobasso R.G.N.R. 2527/2013)",
-     "url": "https://consiglio.regione.molise.it/node/26543"
+     "url": "https://consiglio.regione.molise.it/node/26543",
+     "riassunto": {
+      "testo": "Riconosce un debito fuori bilancio di circa 61.700 euro per i compensi a un avvocato esterno che ha tutelato la Regione, come parte offesa, in diversi processi penali. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-15",
@@ -41389,7 +41754,12 @@
      "data": "2025-12-05",
      "intestazione": "Legge regionale 5 dicembre 2025, n. 15",
      "oggetto": "Riconoscimento della legittimità di debito fuori bilancio ai sensi dell'art. 73, comma 1, lett. e), del D.Lgs 23 giugno 2011, n. 118, per il pagamento di un indennizzo per attività professionale resa da avvocato del libero foro per il patrocinio svolto nel procedimento dinanzi al Tribunale di Campobasso R.G. n. 1017/2019, incarico conferito con deliberazione di Giunta regionale del 2 aprile 2019, n. 103",
-     "url": "https://consiglio.regione.molise.it/node/26542"
+     "url": "https://consiglio.regione.molise.it/node/26542",
+     "riassunto": {
+      "testo": "Riconosce un debito fuori bilancio di circa 9.000 euro per il compenso a un avvocato esterno che ha difeso la Regione in una causa davanti al Tribunale di Campobasso. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-14",
@@ -41397,7 +41767,12 @@
      "data": "2025-12-05",
      "intestazione": "Legge regionale 5 dicembre 2025, n. 14",
      "oggetto": "Riconoscimento della legittimità di debito fuori bilancio ai sensi dell'art. 73, comma 1, lett. e), del D.Lgs 23 giugno 2011, n. 118, per il pagamento di un indennizzo per attività professionale resa da avvocato del libero foro per la costituzione di parte civile nel procedimento penale R.G.N.R. n. 1414/2012, R.G. GIP n. 3299/2012",
-     "url": "https://consiglio.regione.molise.it/node/26541"
+     "url": "https://consiglio.regione.molise.it/node/26541",
+     "riassunto": {
+      "testo": "Riconosce un debito fuori bilancio di circa 9.300 euro per il compenso a un avvocato esterno che ha rappresentato la Regione come parte civile in un processo penale. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-13",
@@ -41405,7 +41780,12 @@
      "data": "2025-11-14",
      "intestazione": "Legge regionale 14 novembre 2025, n. 13",
      "oggetto": "Disposizioni legislative per il riconoscimento e il sostegno del caregiver familiare",
-     "url": "https://consiglio.regione.molise.it/node/26491"
+     "url": "https://consiglio.regione.molise.it/node/26491",
+     "riassunto": {
+      "testo": "Riconosce e sostiene il caregiver familiare, cioè chi si prende cura di un familiare non autosufficiente: una card del caregiver, una rete di sostegno con i servizi sociali, interventi di aiuto e il riconoscimento delle competenze acquisite. Prevede 800.000 euro di fondi europei (400.000 l'anno nel 2026 e 2027).",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-12",
@@ -41413,7 +41793,12 @@
      "data": "2025-11-14",
      "intestazione": "Legge regionale 14 novembre 2025, n. 12",
      "oggetto": "Promozione e valorizzazione dell'invecchiamento attivo e della buona salute",
-     "url": "https://consiglio.regione.molise.it/node/26490"
+     "url": "https://consiglio.regione.molise.it/node/26490",
+     "riassunto": {
+      "testo": "Promuove l'invecchiamento attivo: programmazione regionale, una Consulta, iniziative di formazione, prevenzione e salute, volontariato, cultura e turismo sociale, alfabetizzazione digitale e una Giornata regionale dedicata. Spesa: 10.000 euro l'anno nel 2026 e 2027.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-11",
@@ -41421,7 +41806,12 @@
      "data": "2025-11-14",
      "intestazione": "Legge regionale 14 novembre 2025, n. 11",
      "oggetto": "Istituzione del garante regionale per i diritti delle persone anziane",
-     "url": "https://consiglio.regione.molise.it/node/26489"
+     "url": "https://consiglio.regione.molise.it/node/26489",
+     "riassunto": {
+      "testo": "Istituisce il Garante regionale dei diritti delle persone anziane, eletto dal Consiglio, che vigila sul rispetto dei loro diritti e interessi. Secondo la legge non comporta nuove spese.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-10",
@@ -41429,7 +41819,12 @@
      "data": "2025-10-23",
      "intestazione": "Legge regionale 23 ottobre 2025, n. 10",
      "oggetto": "Ulteriori disposizioni per la proroga delle graduatorie dei concorsi pubblici per assunzioni a tempo indeterminato nell'Azienda sanitaria regionale del Molise",
-     "url": "https://consiglio.regione.molise.it/node/26434"
+     "url": "https://consiglio.regione.molise.it/node/26434",
+     "riassunto": {
+      "testo": "Proroga le graduatorie dei concorsi a tempo indeterminato per le professioni sanitarie dell'Azienda sanitaria regionale del Molise (ASReM), per garantire la continuità dei servizi. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-8",
@@ -41437,7 +41832,12 @@
      "data": "2025-09-24",
      "intestazione": "Legge regionale 24 settembre 2025, n. 8",
      "oggetto": "Disposizioni urgenti in materia di formazione professionale e mercato del lavoro per l’attuazione del Piano Nazionale di Ripresa e Resilienza (PNRR). Modifiche alla legge regionale 30 marzo 1995, n. 10 (Nuovo ordinamento della formazione professionale)",
-     "url": "https://consiglio.regione.molise.it/node/26386"
+     "url": "https://consiglio.regione.molise.it/node/26386",
+     "riassunto": {
+      "testo": "Norme urgenti sulla formazione professionale per attuare il PNRR: percorsi per le competenze verdi e digitali, analisi periodica dei fabbisogni formativi, formazione in azienda e collaborazioni tra pubblico e privato. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-7",
@@ -41445,7 +41845,12 @@
      "data": "2025-09-24",
      "intestazione": "Legge regionale 24 settembre 2025, n. 7",
      "oggetto": "Abrogazione della legge regionale 27 dicembre 2024, n. 11 (Rendiconto generale della Regione Molise per l'esercizio finanziario 2023)",
-     "url": "https://consiglio.regione.molise.it/node/26385"
+     "url": "https://consiglio.regione.molise.it/node/26385",
+     "riassunto": {
+      "testo": "Abroga la legge del 2024 che aveva approvato il rendiconto 2023, che viene riapprovato con una nuova legge. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-6",
@@ -41453,7 +41858,12 @@
      "data": "2025-05-30",
      "intestazione": "Legge regionale 30 maggio 2025, n. 6",
      "oggetto": "Semplificazione amministrativa in materia di sanità pubblica. Abolizione del certificato medico per assenza scolastica",
-     "url": "https://consiglio.regione.molise.it/node/26223"
+     "url": "https://consiglio.regione.molise.it/node/26223",
+     "riassunto": {
+      "testo": "Abolisce in Molise l'obbligo del certificato medico per rientrare a scuola dopo un'assenza per malattia, semplificando la vita alle famiglie. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-5",
@@ -41461,7 +41871,12 @@
      "data": "2025-05-30",
      "intestazione": "Legge regionale 30 maggio 2025, n. 5",
      "oggetto": "Modifiche al regolamento regionale 26 gennaio 2004, n. 1 (Regolamento applicativo della legge regionale n. 30/2002, ai sensi dell'art. 13, comma 1, lett.a))",
-     "url": "https://consiglio.regione.molise.it/node/26222"
+     "url": "https://consiglio.regione.molise.it/node/26222",
+     "riassunto": {
+      "testo": "Modifica il regolamento regionale sui servizi di salute mentale: elimina l'obbligo di 10 posti letto per le comunità di riabilitazione psicosociale e riscrive le tariffe che l'ASReM paga alle cooperative sociali che gestiscono le strutture.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-1",
@@ -41469,7 +41884,12 @@
      "data": "2025-03-18",
      "intestazione": "Legge regionale 18 marzo 2025, n. 1",
      "oggetto": "Disposizioni in materia di agricoltura sociale",
-     "url": "https://consiglio.regione.molise.it/node/26099"
+     "url": "https://consiglio.regione.molise.it/node/26099",
+     "riassunto": {
+      "testo": "Promuove l'agricoltura sociale: le aziende agricole possono offrire servizi sociali, educativi, socio-sanitari e di inserimento lavorativo come 'fattorie sociali', iscritte in un albo regionale e con un contrassegno. Prevede un osservatorio, controlli e sanzioni. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-14",
@@ -41477,7 +41897,12 @@
      "data": "2024-12-27",
      "intestazione": "Legge regionale 27 dicembre 2024, n. 14",
      "oggetto": "Autorizzazione all’esercizio provvisorio del bilancio di previsione della Regione Molise per l’anno 2025",
-     "url": "https://consiglio.regione.molise.it/node/25965"
+     "url": "https://consiglio.regione.molise.it/node/25965",
+     "riassunto": {
+      "testo": "Autorizza l'esercizio provvisorio del bilancio per l'inizio del 2025, cioè permette alla Regione di continuare a spendere in attesa del nuovo bilancio. Modifica anche una norma sul budget del personale regionale.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-13",
@@ -41485,7 +41910,12 @@
      "data": "2024-12-27",
      "intestazione": "Legge regionale 27 dicembre 2024, n. 13",
      "oggetto": "Riconoscimento della legittimità del debito fuori bilancio ai sensi dell’articolo 73, comma 1, lettera a), del decreto legislativo 23 giugno 2011, n. 118 – Decreto ingiuntivo n.385/2019 (n.1330/19 R.G. Tribunale di Campobasso",
-     "url": "https://consiglio.regione.molise.it/node/25964"
+     "url": "https://consiglio.regione.molise.it/node/25964",
+     "riassunto": {
+      "testo": "Riconosce un debito fuori bilancio di circa 632.000 euro derivante da un decreto ingiuntivo del Tribunale di Campobasso del 2019. È un atto contabile per pagare una somma dovuta.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-12",
@@ -41493,7 +41923,12 @@
      "data": "2024-12-27",
      "intestazione": "Legge regionale 27 dicembre 2024, n. 12",
      "oggetto": "Riconoscimento della legittimità di debito fuori bilancio ai sensi dell’articolo 73, comma 1, lett. e), del d.lgs. 23 giugno 2011, n. 118, per il pagamento di un indennizzo per attività professionale resa da avvocato del libero foro per la rappresentanza e difesa della Regione Molise nei procedimenti innanzi a: TAR Molise, rg n. 16/2010, sentenza n. 992/2011; C. Stato, rg n. 4192/2012, sentenza n. 1462/2013; C. Stato rg nn. 6319-6320-6321/2010, ordinanze nn. 371-4197-4901/2010; TAR Molise rg n. 212/2004, sentenza n. 186/2011; C. Stato rg n. 8412/2011, sentenza n. 3867/2017; TAR Lazio rg n. 8693/2012, sentenza n. 9868/2013; TAR Molise rg n. 496/2007, sentenza 603/2013; TAR Molise rg n. 497/2007, sentenza n. 604/2013; Tar Molise rg n. 498/2007, sentenza n. 605/2013",
-     "url": "https://consiglio.regione.molise.it/node/25963"
+     "url": "https://consiglio.regione.molise.it/node/25963",
+     "riassunto": {
+      "testo": "Riconosce un debito fuori bilancio di circa 31.000 euro per il compenso a un avvocato esterno che ha difeso la Regione in diverse cause davanti a TAR e Consiglio di Stato. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-11",
@@ -41501,7 +41936,12 @@
      "data": "2024-12-27",
      "intestazione": "Legge regionale 27 dicembre 2024, n. 11",
      "oggetto": "Rendiconto generale della Regione Molise per l'esercizio finanziario 2023",
-     "url": "https://consiglio.regione.molise.it/node/25962"
+     "url": "https://consiglio.regione.molise.it/node/25962",
+     "riassunto": {
+      "testo": "Approva il rendiconto 2023 della Regione (circa 1,42 miliardi di euro di entrate accertate). La legge è stata poi abrogata nel 2025 e il rendiconto riapprovato con la legge n. 18 del 2025. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-10",
@@ -41509,7 +41949,12 @@
      "data": "2024-12-19",
      "intestazione": "Legge regionale 19 dicembre 2024, n. 10",
      "oggetto": "Assestamento del bilancio di previsione 2024 - 2026",
-     "url": "https://consiglio.regione.molise.it/node/25954"
+     "url": "https://consiglio.regione.molise.it/node/25954",
+     "riassunto": {
+      "testo": "Assestamento del bilancio 2024-2026: aggiorna i conti con i dati definitivi del 2023 (residui, cassa, risultato di amministrazione) e apporta variazioni al bilancio. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-8",
@@ -41517,7 +41962,12 @@
      "data": "2024-12-05",
      "intestazione": "Legge regionale 5 dicembre 2024, n. 8",
      "oggetto": "Riconoscimento della legittimità di debito fuori bilancio ai sensi dell’articolo 73, comma 1, lett. e), del d.lgs. 23 giugno 2011, n. 118, per il pagamento di un indennizzo per attività professionale resa da avvocato del libero foro per la rappresentanza e difesa della Regione Molise nei procedimenti innanzi a: Tribunale di Campobasso r.g. n. 1149/1993, sent. 23 giugno 2000, n. 327; Corte d’appello di Campobasso r.g. 1/2001, sentenza 23 agosto 2005, n. 222; Tribunale di Campobasso r.g. 1154/1993, sentenza (parziale) 10 maggio 2001, n. 298 e sentenza (definitiva) 16 gennaio 2003, n. 22; Tribunale di Campobasso r.g. 1187/1993, sentenza 18 aprile 2002, n. 224; Tribunale di Campobasso r.g. 1153/1993, sentenza 15 aprile 2002, n. 217",
-     "url": "https://consiglio.regione.molise.it/node/25910"
+     "url": "https://consiglio.regione.molise.it/node/25910",
+     "riassunto": {
+      "testo": "Riconosce un debito fuori bilancio di circa 11.600 euro per il compenso a un avvocato esterno che ha difeso la Regione in alcune cause degli anni Novanta e Duemila. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-7",
@@ -41525,7 +41975,12 @@
      "data": "2024-11-07",
      "intestazione": "Legge regionale 7 novembre 2024, n. 7",
      "oggetto": "Riconoscimento della legittimità di debito fuori bilancio ai sensi dell'art. 73, comma 1, lett. e), del d.lgs 23 giugno 2011, n. 118, per il pagamento di un indennizzo per attività professionale resa da avvocato del libero foro per la costituzione di parte civile nel procedimento penale r.g.n.r. 1001/2014 mod. 21, n. 1249/2014 R.G. GIP",
-     "url": "https://consiglio.regione.molise.it/node/25843"
+     "url": "https://consiglio.regione.molise.it/node/25843",
+     "riassunto": {
+      "testo": "Riconosce un debito fuori bilancio di circa 10.000 euro per il compenso a un avvocato esterno che ha rappresentato la Regione come parte civile in un processo penale. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-6",
@@ -41533,7 +41988,12 @@
      "data": "2024-10-24",
      "intestazione": "Legge regionale 24 ottobre 2024, n. 6",
      "oggetto": "Disposizioni per la proroga delle graduatorie dei concorsi pubblici per le assunzioni a tempo indeterminato della Regione Molise, degli enti strumentali ed agenzie regionali e dell'Azienda sanitaria regionale del Molise",
-     "url": "https://consiglio.regione.molise.it/node/25814"
+     "url": "https://consiglio.regione.molise.it/node/25814",
+     "riassunto": {
+      "testo": "Proroga le graduatorie dei concorsi per assunzioni a tempo indeterminato della Regione, degli enti e delle agenzie regionali e dell'Azienda sanitaria regionale (ASReM): si può assumere chi è già in graduatoria senza nuovi concorsi. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-5",
@@ -41541,7 +42001,12 @@
      "data": "2024-07-17",
      "intestazione": "Legge regionale 17 luglio 2024, n. 5",
      "oggetto": "Rendiconto generale della Regione Molise per l'esercizio finanziario 2021",
-     "url": "https://consiglio.regione.molise.it/node/25708"
+     "url": "https://consiglio.regione.molise.it/node/25708",
+     "riassunto": {
+      "testo": "Riapprova il rendiconto 2021 della Regione, cioè i conti definitivi dell'anno (circa 1,34 miliardi di euro di entrate accertate), e prevede il ripiano del disavanzo. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-4",
@@ -41549,7 +42014,12 @@
      "data": "2024-06-14",
      "intestazione": "Legge regionale 14 giugno 2024, n. 4",
      "oggetto": "Abrogazione della legge regionale 31 dicembre 2022, n. 27 (Rendiconto generale della Regione Molise per l'esercizio finanziario 2021) e della legge regionale 28 dicembre 2023, n. 9 (Rendiconto generale della Regione Molise per l'esercizio finanziario 2022). Abrogazione degli articoli 2 e 3 della legge regionale 19 settembre 2023, n. 4 (Modifica dell'articolo 12 della legge regionale 30 dicembre 2020, n. 17 \"Rendiconto generale della Regione Molise per l'esercizio finanziario 2019\" e modifiche della legge regionale 31 dicembre 2022, n. 27 \"Rendiconto generale della Regione Molise per l'esercizio finanziario 2021\")",
-     "url": "https://consiglio.regione.molise.it/node/25589"
+     "url": "https://consiglio.regione.molise.it/node/25589",
+     "riassunto": {
+      "testo": "Abroga le leggi che avevano approvato i rendiconti 2021 e 2022, e parte di una legge del 2023 che li modificava, perché i conti devono essere riapprovati dopo la sentenza della Corte costituzionale. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-3",
@@ -41557,7 +42027,12 @@
      "data": "2024-05-21",
      "intestazione": "Legge regionale 21 maggio 2024, n. 3",
      "oggetto": "Modifiche della legge regionale 29 dicembre 2021, n. 8 (Rendiconto generale della Regione Molise per l'esercizio finanziario 2020) in ottemperanza alla sentenza della Corte costituzionale 24 gennaio 2024, n. 39 pubblicata nella Gazzetta ufficiale 13 marzo 2024, n. 11",
-     "url": "https://consiglio.regione.molise.it/node/25578"
+     "url": "https://consiglio.regione.molise.it/node/25578",
+     "riassunto": {
+      "testo": "Corregge il rendiconto 2020 della Regione per adeguarsi a una sentenza della Corte costituzionale del gennaio 2024: rideterminati residui, risultato di amministrazione e allegati. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-2",
@@ -41565,7 +42040,12 @@
      "data": "2024-04-29",
      "intestazione": "Legge regionale 29 aprile 2024, n. 2",
      "oggetto": "Legge di stabilità regionale anno 2024",
-     "url": "https://consiglio.regione.molise.it/node/25530"
+     "url": "https://consiglio.regione.molise.it/node/25530",
+     "riassunto": {
+      "testo": "Legge di stabilità 2024: rifinanzia le leggi regionali di spesa e contiene altre misure, tra cui l'obbligo per l'ASReM di aggiornare il CUP online in modo che i cittadini vedano in tempo reale i tempi di attesa per visite ed esami, e un contributo legato alle attività estrattive di cava.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-1",
@@ -41573,7 +42053,12 @@
      "data": "2024-04-29",
      "intestazione": "Legge regionale 29 aprile 2024, n. 1",
      "oggetto": "Bilancio di previsione della Regione Molise 2024 - 2026",
-     "url": "https://consiglio.regione.molise.it/node/25529"
+     "url": "https://consiglio.regione.molise.it/node/25529",
+     "riassunto": {
+      "testo": "Approva il bilancio di previsione della Regione per il 2024-2026: circa 2,1 miliardi di euro di entrate e spese nel 2024. Definisce anche le risorse destinate alla sanità regionale. È l'atto che autorizza la Regione a incassare e spendere.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2023-11",
@@ -41581,7 +42066,12 @@
      "data": "2023-12-29",
      "intestazione": "Legge regionale 29 dicembre 2023, n. 11",
      "oggetto": "Riconoscimento della legittimità di debito fuori bilancio ai sensi dell’art. 73, comma 1, lett. e) del d.lgs. 23.06.2011, n. 118, per il pagamento del compenso da attività professionale resa da avvocato del libero foro nella controversia tributaria R.G. n. 14081/2014 dinanzi alla Corte di Cassazione",
-     "url": "https://consiglio.regione.molise.it/node/25344"
+     "url": "https://consiglio.regione.molise.it/node/25344",
+     "riassunto": {
+      "testo": "Riconosce un debito fuori bilancio di circa 7.500 euro per il compenso a un avvocato esterno che ha difeso la Regione in una causa tributaria davanti alla Corte di Cassazione. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2023-10",
@@ -41589,7 +42079,12 @@
      "data": "2023-12-29",
      "intestazione": "Legge regionale 29 dicembre 2023, n. 10",
      "oggetto": "Assestamento del bilancio di previsione della Regione Molise 2023 - 2025",
-     "url": "https://consiglio.regione.molise.it/node/25343"
+     "url": "https://consiglio.regione.molise.it/node/25343",
+     "riassunto": {
+      "testo": "Assestamento del bilancio 2023-2025: aggiorna i conti con il risultato di amministrazione di fine 2022 e apporta variazioni al bilancio. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2023-9",
@@ -41597,7 +42092,12 @@
      "data": "2023-12-28",
      "intestazione": "Legge regionale 28 dicembre 2023, n. 9",
      "oggetto": "Rendiconto generale della Regione Molise per l'esercizio finanziario 2022",
-     "url": "https://consiglio.regione.molise.it/node/25342"
+     "url": "https://consiglio.regione.molise.it/node/25342",
+     "riassunto": {
+      "testo": "Approva il rendiconto 2022 della Regione, cioè i conti definitivi dell'anno (circa 1,38 miliardi di euro di entrate accertate). La legge è stata poi abrogata nel 2024 e i conti riapprovati. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2023-7",
@@ -41605,7 +42105,12 @@
      "data": "2023-12-15",
      "intestazione": "Legge regionale 15 dicembre 2023, n. 7",
      "oggetto": "Legge di stabilità regionale 2023",
-     "url": "https://consiglio.regione.molise.it/node/25332"
+     "url": "https://consiglio.regione.molise.it/node/25332",
+     "riassunto": {
+      "testo": "Legge di stabilità 2023: rifinanzia le leggi regionali di spesa, fissa le spese per il funzionamento degli enti dipendenti, ristruttura i mutui e completa la soppressione delle Comunità montane. Contiene anche il piano di vendita di beni regionali, norme sui risarcimenti per i danni della fauna selvatica e altre modifiche di leggi.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2023-4",
@@ -41613,7 +42118,12 @@
      "data": "2023-09-19",
      "intestazione": "Legge regionale 19 settembre 2023, n. 4",
      "oggetto": "Modifica dell'articolo 12 della legge regionale 30 dicembre 2020, n. 17 (Rendiconto generale della Regione Molise per l'esercizio finanziario 2019) e modifiche della legge regionale 31 dicembre 2022, n. 27 (Rendiconto generale della Regione Molise per l'esercizio finanziario 2021)",
-     "url": "https://consiglio.regione.molise.it/node/25123"
+     "url": "https://consiglio.regione.molise.it/node/25123",
+     "riassunto": {
+      "testo": "Modifica i rendiconti della Regione per il 2019 e il 2021, correggendo il risultato di amministrazione e alcuni allegati. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     }
    ],
    "attivita": {
@@ -55619,7 +56129,12 @@
      "data": "2025-12-30",
      "intestazione": "Legge regionale 30 dicembre 2025, n. 57",
      "oggetto": "Collegato alla legge di stabilità regionale 2025",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Collegato alla legge di stabilità 2025: modifica decine di leggi regionali e contiene misure come una casa alloggio per anziani, l'assegnazione temporanea di case popolari in emergenza, la proroga delle graduatorie dei concorsi, l'adeguamento della strada Fondovalle dell'Agri e piazzole per l'elisoccorso utilizzabili anche di notte.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-56",
@@ -55627,7 +56142,12 @@
      "data": "2025-12-23",
      "intestazione": "Legge regionale 23 dicembre 2025, n. 56",
      "oggetto": "Riconoscimento della legittimità di debiti fuori bilancio, ai sensi dell’articolo 73, comma 1, lettera e) del Decreto Legislativo 23 giugno 2011, n. 118 (Disposizioni in materia di armonizzazione dei sistemi contabili e degli schemi di bilancio delle Regioni, degli enti locali e dei loro organismi, a norma degli articoli 1 e 2 della legge 5 maggio 2009, n. 42), relativi alle spettanze delle Commissioni Provinciali Espropri istituite, ai sensi dell’art. 41 del D.P.R. 8 giugno 2001, n. 327 (Testo unico delle disposizioni legislative e regolamentari in materia di espropriazione per pubblica utilità) e dell’art. 15 della Legge regionale 22 ottobre 2007 n. 19 (Norme in materia di espropriazione per Pubblica Utilità), presso le due Province di Potenza e Matera",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Riconosce un debito fuori bilancio di circa 72.000 euro per i compensi delle Commissioni provinciali espropri di Potenza e Matera, che stabiliscono le indennità di esproprio e il valore agricolo medio dei terreni. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-55",
@@ -55635,7 +56155,12 @@
      "data": "2025-12-23",
      "intestazione": "Legge regionale 23 dicembre 2025, n. 55",
      "oggetto": "Rendiconto generale per l’esercizio finanziario 2024 dell’Agenzia Regionale per la Protezione dell’Ambiente della Basilicata (ARPAB) – Controllo ai sensi della L.R. n. 11/2006 e ss.mm.ii",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il rendiconto 2024 dell'Agenzia regionale per la protezione dell'ambiente (ARPAB), cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-54",
@@ -55643,7 +56168,12 @@
      "data": "2025-12-23",
      "intestazione": "Legge regionale 23 dicembre 2025, n. 54",
      "oggetto": "Modifiche alla legge regionale n. 30/2016 (Norme regionali in materia di esercizio, conduzione, controllo, manutenzione e ispezione degli impianti termici)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Il personale della ex agenzia per l'energia della Provincia di Potenza (APEA), rimasto senza lavoro, viene assunto a tempo indeterminato dalla società regionale che ora gestisce i controlli sugli impianti termici. La Giunta deve preparare una legge per riportare questi controlli alla Regione.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-53",
@@ -55651,7 +56181,12 @@
      "data": "2025-12-23",
      "intestazione": "Legge regionale 23 dicembre 2025, n. 53",
      "oggetto": "Autorizzazione all’esercizio provvisorio del Bilancio della Regione Basilicata e dei suoi organismi ed entri strumentali per l’esercizio finanziario 2026",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Autorizza l'esercizio provvisorio del bilancio della Regione e dei suoi enti per l'inizio del 2026, cioè permette di continuare a spendere in attesa del nuovo bilancio. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-52",
@@ -55659,7 +56194,12 @@
      "data": "2025-12-16",
      "intestazione": "Legge regionale 16 dicembre 2025, n. 52",
      "oggetto": "Assestamento del bilancio di previsione finanziario per il triennio 2025-2027",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Assestamento del bilancio 2025-2027: aggiorna i conti con i dati del 2024 e contiene decine di contributi straordinari, tra cui fondi a Comuni per strade e strutture, la partecipazione a fondazioni culturali (Cineteca Lucana, Appella, Nigro, Tricarico, Laurini) e contributi a fondazioni, associazioni e all'Università della Basilicata.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-51",
@@ -55667,7 +56207,12 @@
      "data": "2025-12-16",
      "intestazione": "Legge regionale 16 dicembre 2025, n. 51",
      "oggetto": "Modifiche alla legge regionale 30 novembre 2018, n. 43 (Disciplina degli interventi regionali in materia di prevenzione e contrasto al fenomeno del bullismo e cyber bullismo)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Aggiorna la legge contro bullismo e cyberbullismo: il CoReCom coordina gli interventi, con una consulta regionale e altri soggetti consultivi. Istituisce la Settimana regionale della cittadinanza digitale, a febbraio, in coincidenza con il Safer Internet Day.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-50",
@@ -55675,7 +56220,12 @@
      "data": "2025-12-02",
      "intestazione": "Legge regionale 2 dicembre 2025, n. 50",
      "oggetto": "Riconoscimento della legittimità di debiti fuori bilancio, in favore del Consorzio Trasporti Aziende Basilicata (Co.Tr.A.B.), ai sensi dell’art. 73, comma 1, lettera e) del Decreto Legislativo 23 giugno 2011, n. 118 (Disposizioni in materia di armonizzazione dei sistemi contabili e degli schemi di bilancio delle Regioni, degli enti locali e dei loro organismi, a norma degli articoli 1 e 2 della legge 5 maggio 2009, n. 42)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Riconosce un debito fuori bilancio di circa 3 milioni di euro verso il Consorzio Trasporti Aziende Basilicata (COTRAB) per servizi di trasporto previsti da contratti del 2021. È un atto contabile per pagare servizi già svolti.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-49",
@@ -55683,7 +56233,12 @@
      "data": "2025-12-02",
      "intestazione": "Legge regionale 2 dicembre 2025, n. 49",
      "oggetto": "Rendiconto per l’esercizio finanziario 2024 dell’Ente di governo per i rifiuti e le risorse idriche della Basilicata (EGRIB)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il rendiconto 2024 dell'Ente di governo per i rifiuti e le risorse idriche (EGRIB), cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-48",
@@ -55691,7 +56246,12 @@
      "data": "2025-11-20",
      "intestazione": "Legge regionale 20 novembre 2025, n. 48",
      "oggetto": "Rendiconto generale per l’esercizio finanziario 2024 dell’Azienda regionale per il diritto allo studio universitario (ARDSU)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il rendiconto 2024 dell'Azienda regionale per il diritto allo studio universitario (ARDSU), cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-47",
@@ -55699,7 +56259,12 @@
      "data": "2025-11-11",
      "intestazione": "Legge regionale 11 novembre 2025, n. 47",
      "oggetto": "Rendiconto generale per l’esercizio finanziario 2024 dell’Agenzia Regionale per il Lavoro e l’Apprendimento Basilicata (ARLAB)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il rendiconto 2024 dell'Agenzia regionale per il lavoro e l'apprendimento (ARLAB), cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-46",
@@ -55707,7 +56272,12 @@
      "data": "2025-11-11",
      "intestazione": "Legge regionale 11 novembre 2025, n. 46",
      "oggetto": "Rendiconto generale per l’esercizio finanziario 2024 dell’Agenzia lucana di sviluppo e innovazione in Agricoltura (ALSIA)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il rendiconto 2024 dell'Agenzia lucana di sviluppo e innovazione in agricoltura (ALSIA), cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-45",
@@ -55715,7 +56285,12 @@
      "data": "2025-11-11",
      "intestazione": "Legge regionale 11 novembre 2025, n. 45",
      "oggetto": "Bilancio di previsione finanziario per il triennio 2025-2027 dell’Ente di Governo per i Rifiuti e le Risorse Idriche della Basilicata (EGRIB)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il bilancio di previsione 2025-2027 dell'Ente di governo per i rifiuti e le risorse idriche (EGRIB) e autorizza la Regione a trasferirgli fino a 1 milione di euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-44",
@@ -55723,7 +56298,12 @@
      "data": "2025-10-29",
      "intestazione": "Legge regionale 29 ottobre 2025, n. 44",
      "oggetto": "Disposizioni in materia di procedure di stabilizzazione per le Aziende ed Enti del SSR",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Regole per stabilizzare il personale precario delle aziende sanitarie lucane che ha i requisiti previsti dalle leggi nazionali, anche se nel frattempo è stato assunto in un altro profilo. Gli avvisi e gli esiti vanno pubblicati. Nessuna nuova spesa oltre i limiti di assunzione già previsti.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-43",
@@ -55731,7 +56311,12 @@
      "data": "2025-10-14",
      "intestazione": "Legge regionale 14 ottobre 2025, n. 43",
      "oggetto": "Modifiche alla Legge Regionale 13 agosto 2015, n. 30 “Sistema Integrato per l’Apprendimento Permanente ed il Sostegno alle Transizioni nella Vita Attiva”",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Orienta la formazione professionale regionale verso le competenze più richieste dal mercato del lavoro (green economy, blue economy, innovazione), con analisi dei fabbisogni, misure per le persone più vulnerabili e il riconoscimento delle competenze acquisite.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-42",
@@ -55739,7 +56324,12 @@
      "data": "2025-08-12",
      "intestazione": "Legge regionale 12 agosto 2025, n. 42",
      "oggetto": "Rendiconto generale per l’esercizio finanziario 2024 dell’Ente di Gestione del Parco Archeologico Storico Naturale delle Chiese Rupestri del Materano",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il rendiconto 2024 dell'Ente parco archeologico storico naturale delle Chiese rupestri del Materano, cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-41",
@@ -55747,7 +56337,12 @@
      "data": "2025-08-12",
      "intestazione": "Legge regionale 12 agosto 2025, n. 41",
      "oggetto": "Rendiconto generale per l’esercizio finanziario 2024 dell’Ente di gestione del Parco Naturale di Gallipoli Cognato – Piccole Dolomiti Lucane",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il rendiconto 2024 dell'Ente parco naturale di Gallipoli Cognato - Piccole Dolomiti Lucane, cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-40",
@@ -55755,7 +56350,12 @@
      "data": "2025-08-12",
      "intestazione": "Legge regionale 12 agosto 2025, n. 40",
      "oggetto": "Bilancio di previsione finanziario per il triennio 2025-2027 dell’Azienda regionale per il diritto allo studio universitario (ARDSU)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il bilancio di previsione 2025-2027 dell'Azienda regionale per il diritto allo studio universitario (ARDSU) e autorizza la Regione a trasferirle fino a circa 742.000 euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-39",
@@ -55763,7 +56363,12 @@
      "data": "2025-08-12",
      "intestazione": "Legge regionale 12 agosto 2025, n. 39",
      "oggetto": "Integrazione all’art. 59 della L.R n. 7/1999 recante \"Conferimento di funzioni e compiti amministrativi al sistema delle autonomie locali e funzionali in attuazione del decreto legislativo 31 marzo 1998, n. 112\"",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Affida alla Giunta regionale il compito di disciplinare con un regolamento le concessioni per l'uso del suolo del demanio idrico regionale, cioè fiumi, torrenti e loro sponde.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-38",
@@ -55771,7 +56376,12 @@
      "data": "2025-08-12",
      "intestazione": "Legge regionale 12 agosto 2025, n. 38",
      "oggetto": "Rendiconto generale per l'esercizio finanziario 2024 dell’Agenzia di Promozione Territoriale (APT)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il rendiconto 2024 dell'Agenzia di Promozione Territoriale (APT), cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-37",
@@ -55779,7 +56389,12 @@
      "data": "2025-07-29",
      "intestazione": "Legge regionale 29 luglio 2025, n. 37",
      "oggetto": "Modifiche all’articolo 16 della legge regionale 5 giugno 2023, n. 11 (Legge di stabilità regionale 2023)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Per chiudere definitivamente la liquidazione delle Comunità montane soppresse, la Giunta nomina fino a quattro commissari liquidatori, che devono concludere entro il 31 dicembre 2025, con un compenso complessivo non superiore a quello di un direttore generale.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-36",
@@ -55787,7 +56402,12 @@
      "data": "2025-07-29",
      "intestazione": "Legge regionale 29 luglio 2025, n. 36",
      "oggetto": "Istituzione dell’Osservatorio regionale sulla desertificazione bancaria",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Istituisce l'Osservatorio regionale sulla desertificazione bancaria, che monitora la chiusura degli sportelli bancari e cerca soluzioni per garantire i servizi nelle zone più disagiate, soprattutto per anziani e persone non autosufficienti. Senza compensi e senza nuove spese.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-35",
@@ -55795,7 +56415,12 @@
      "data": "2025-07-08",
      "intestazione": "Legge regionale 8 luglio 2025, n. 35",
      "oggetto": "Misure contributive a favore dei Comuni lucani su cui insistono strutture a servizio anche dei Comuni limitrofi regionali ed extraregionali",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Contributi annuali ai Comuni lucani che ospitano strutture e servizi usati anche dagli abitanti dei paesi vicini, pure di altre regioni, per strade, parcheggi, mobilità e rifiuti. Spesa: inizialmente 150.000 euro nel 2025, poi portata a 600.000 euro con l'assestamento di bilancio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-34",
@@ -55803,7 +56428,12 @@
      "data": "2025-06-30",
      "intestazione": "Legge regionale 30 giugno 2025, n. 34",
      "oggetto": "Modifiche all’articolo 7 della legge regionale 2 settembre 1993, n. 50 (Modifica ed integrazione alla L.R. 4 agosto 1987, n. 20 contenente norme in materia di tutela dei beni culturali, ambientali e paesistici – Snellimento delle procedure)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Delega ai Comuni il rilascio delle autorizzazioni paesaggistiche più semplici, come piccoli interventi, proroghe, varianti non sostanziali, manutenzioni e alcune ristrutturazioni, finora di competenza della Regione. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-33",
@@ -55811,7 +56441,12 @@
      "data": "2025-06-30",
      "intestazione": "Legge regionale 30 giugno 2025, n. 33",
      "oggetto": "Modifica all'articolo 28 della legge regionale 16 aprile 2013, n. 7",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Cambia la composizione dei collegi dei revisori dei conti con almeno tre membri: uno dei componenti effettivi (e uno dei supplenti) va estratto da un elenco speciale di professionisti che non hanno uno dei requisiti ordinari previsti. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-32",
@@ -55819,7 +56454,12 @@
      "data": "2025-06-30",
      "intestazione": "Legge regionale 30 giugno 2025, n. 32",
      "oggetto": "Proroga straordinaria della validità delle graduatorie concorsuali per il personale sanitario del comparto",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Proroga al 31 dicembre 2025 le graduatorie dei concorsi a tempo indeterminato per il personale sanitario delle aziende sanitarie lucane in scadenza nel 2025, per far fronte alla carenza di personale. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-31",
@@ -55827,7 +56467,12 @@
      "data": "2025-06-30",
      "intestazione": "Legge regionale 30 giugno 2025, n. 31",
      "oggetto": "Bilancio di previsione finanziario per il triennio 2025-2027 dell’Agenzia Lucana di Sviluppo e Innovazione in Agricoltura (ALSIA)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il bilancio di previsione 2025-2027 dell'Agenzia lucana di sviluppo e innovazione in agricoltura (ALSIA) e autorizza la Regione a trasferirle fino a 6,18 milioni di euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-30",
@@ -55835,7 +56480,12 @@
      "data": "2025-06-10",
      "intestazione": "Legge regionale 10 giugno 2025, n. 30",
      "oggetto": "Bilancio di previsione finanziario per il triennio 2025-2027 dell’Agenzia Regionale per la Protezione dell’Ambiente della Basilicata (ARPAB)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il bilancio di previsione 2025-2027 dell'Agenzia regionale per la protezione dell'ambiente (ARPAB) e autorizza la Regione a trasferirle fino a 7,55 milioni di euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-29",
@@ -55843,7 +56493,12 @@
      "data": "2025-06-10",
      "intestazione": "Legge regionale 10 giugno 2025, n. 29",
      "oggetto": "Bilancio di previsione finanziario per il triennio 2025-2027 dell’Agenzia Regionale per il Lavoro e l’Apprendimento Basilicata (ARLAB)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il bilancio di previsione 2025-2027 dell'Agenzia regionale per il lavoro e l'apprendimento (ARLAB) e autorizza la Regione a trasferirle fino a 4 milioni di euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-28",
@@ -55851,7 +56506,12 @@
      "data": "2025-06-04",
      "intestazione": "Legge regionale 4 giugno 2025, n. 28",
      "oggetto": "Disposizioni per la prevenzione e la cura dei disturbi della nutrizione e dell’alimentazione e il sostegno ai pazienti e alle loro famiglie",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Misure per prevenire e curare i disturbi dell'alimentazione (anoressia, bulimia e altri): cabina di regia, rete regionale di servizi, formazione degli operatori, campagne di sensibilizzazione e sostegno alle famiglie. Spesa: 650.000 euro l'anno dal fondo sanitario.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-27",
@@ -55859,7 +56519,12 @@
      "data": "2025-05-27",
      "intestazione": "Legge regionale 27 maggio 2025, n. 27",
      "oggetto": "Bilancio di previsione finanziario per il triennio 2025-2027 del Parco regionale del Vulture",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il bilancio di previsione 2025-2027 dell'Ente parco naturale regionale del Vulture e autorizza la Regione a trasferirgli fino a 450.000 euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-26",
@@ -55867,7 +56532,12 @@
      "data": "2025-05-27",
      "intestazione": "Legge regionale 27 maggio 2025, n. 26",
      "oggetto": "Bilancio di previsione finanziario per il triennio 2025-2027 dell’Agenzia di Promozione Territoriale (APT)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il bilancio di previsione 2025-2027 dell'Agenzia di Promozione Territoriale (APT) e autorizza la Regione a trasferirle fino a 2,6 milioni di euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-25",
@@ -55875,7 +56545,12 @@
      "data": "2025-05-27",
      "intestazione": "Legge regionale 27 maggio 2025, n. 25",
      "oggetto": "Bilancio di previsione finanziario per il triennio 2025-2027 dell’Ente di Gestione del Parco naturale di Gallipoli Cognato - Piccole Dolomiti Lucane",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il bilancio di previsione 2025-2027 dell'Ente parco naturale di Gallipoli Cognato - Piccole Dolomiti Lucane e autorizza la Regione a trasferirgli fino a 450.000 euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-24",
@@ -55883,7 +56558,12 @@
      "data": "2025-05-27",
      "intestazione": "Legge regionale 27 maggio 2025, n. 24",
      "oggetto": "Bilancio di previsione finanziario per il triennio 2025-2027 dell’Ente di Gestione del Parco archeologico storico naturale delle chiese rupestri del materano",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il bilancio di previsione 2025-2027 dell'Ente parco archeologico storico naturale delle Chiese rupestri del Materano e autorizza la Regione a trasferirgli fino a 450.000 euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-23",
@@ -55891,7 +56571,12 @@
      "data": "2025-05-21",
      "intestazione": "Legge regionale 21 maggio 2025, n. 23",
      "oggetto": "Disposizioni di integrazione e manutenzione del sistema normativo regionale",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Legge 'omnibus' che modifica molte leggi regionali: rifiuti e tariffe, energia e rinnovabili, royalties del petrolio in Val d'Agri, percorsi formativi per assistenti infermieri, mobilità e stabilizzazione del personale regionale, case popolari, CoReCom e area industriale di Potenza.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-22",
@@ -55899,7 +56584,12 @@
      "data": "2025-04-28",
      "intestazione": "Legge regionale 28 aprile 2025, n. 22",
      "oggetto": "BILANCIO DI PREVISIONE FINANZIARIO PER IL TRIENNIO 2025-2027 (1)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il bilancio di previsione della Regione per il 2025-2027: circa 4,8 miliardi di euro di entrate e spese nel 2025. Fissa anche i fondi di riserva e le quote del risultato di amministrazione da usare. È l'atto che permette alla Regione di spendere.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-21",
@@ -55907,7 +56597,12 @@
      "data": "2025-04-28",
      "intestazione": "Legge regionale 28 aprile 2025, n. 21",
      "oggetto": "LEGGE DI STABILITÀ REGIONALE 2025",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Legge di stabilità 2025: fissa le risorse per le leggi regionali di spesa, gli investimenti e i fondi europei 2025-2027. Rifinanzia con fino a 36 milioni di euro l'anno, per il 2025-2027, le misure di compensazione ambientale per i cittadini lucani legate all'estrazione di idrocarburi (come il bonus gas).",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-20",
@@ -55915,7 +56610,12 @@
      "data": "2025-04-23",
      "intestazione": "Legge regionale 23 aprile 2025, n. 20",
      "oggetto": "MODIFICHE ALLA LEGGE REGIONALE 15 GENNAIO 2025, N. 11 (INTERVENTI IN FAVORE DEI LUCANI NEL MONDO E DISCIPLINA DELLA COMMISSIONE REGIONALE DEI LUCANI NEL MONDO E DEL FORUM DEI GIOVANI)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Modifica la legge sui lucani nel mondo approvata pochi mesi prima: cambia la composizione della Commissione regionale dei lucani nel mondo (consiglieri, ANCI, Province, federazioni e associazioni) e altri aspetti di funzionamento.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-19",
@@ -55923,7 +56623,12 @@
      "data": "2025-04-09",
      "intestazione": "Legge regionale 9 aprile 2025, n. 19",
      "oggetto": "MODIFICHE ED INTEGRAZIONE ALLA LEGGE REGIONALE 12 SETTEMBRE 2000, N. 57 (USI CIVICI E LORO GESTIONE IN ATTUAZIONE DELLA LEGGE N. 1766/1927 E R.D. N. 322/1928)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Aggiorna la legge sugli usi civici, cioè le terre di proprietà collettiva delle comunità locali: nuova definizione dei beni civici, tutela paesaggistica e ambientale, regole per la vendita delle aree (al valore di mercato) e per quelle che hanno perso la destinazione agricola con i piani regolatori. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-18",
@@ -55931,7 +56636,12 @@
      "data": "2025-04-09",
      "intestazione": "Legge regionale 9 aprile 2025, n. 18",
      "oggetto": "OBBLIGATORIETÀ DELLO SCREENING NEONATALE PER L’ATROFIA MUSCOLARE SPINALE – SMA",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Rende obbligatorio per tutti i neonati lo screening per l'atrofia muscolare spinale (SMA), poi esteso alla leucodistrofia metacromatica (MLD), con un laboratorio di riferimento, la presa in carico dei bambini positivi e uno screening volontario in gravidanza. Spesa: 40.000 euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-17",
@@ -55939,7 +56649,12 @@
      "data": "2025-03-19",
      "intestazione": "Legge regionale 19 marzo 2025, n. 17",
      "oggetto": "SERVIZIO DI CITTADINANZA ATTIVA PER LA CULTURA E LA COESIONE SOCIALE (S.C.A.C.CO.)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Istituisce il Servizio di cittadinanza attiva per la cultura e la coesione sociale (SCACCO): giovani volontari, anche disoccupati o NEET, svolgono progetti in cultura, beni culturali, ambiente e solidarietà presso enti iscritti in un albo, con un rimborso. Spesa: 200.000 euro l'anno nel 2025 e 2026.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-16",
@@ -55947,7 +56662,12 @@
      "data": "2025-03-11",
      "intestazione": "Legge regionale 11 marzo 2025, n. 16",
      "oggetto": "RENDICONTO GENERALE DELLA REGIONE BASILICATA PER L'ESERCIZIO FINANZIARIO 2023. ADEGUAMENTO ALLA DECISIONE N. 160/2024/PARI DELLA SEZIONE REGIONALE DI CONTROLLO DELLA CORTE DEI CONTI DELLA BASILICATA DI CUI ALLA D.G.R. N. 816 DEL 30 DICEMBRE 2024",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Riapprova il rendiconto 2023 della Regione adeguandolo ai rilievi della Corte dei conti nel giudizio di parificazione: aggiorna i dati su entrate, spese, fondi e risultato di amministrazione e riconosce anche un debito fuori bilancio. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-15",
@@ -55955,7 +56675,12 @@
      "data": "2025-02-19",
      "intestazione": "Legge regionale 19 febbraio 2025, n. 15",
      "oggetto": "MISURE DI SOSTEGNO E INCENTIVI ALLE IMPRESE CHE ATTIVANO IL LAVORO AGILE O SMART WORKING DELLA REGIONE BASILICATA",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Sostiene il lavoro agile (smart working): contributi alle imprese per computer, software, formazione e riorganizzazione, ai Comuni che creano spazi di coworking e alle strutture ricettive che ospitano chi lavora a distanza, anche contro lo spopolamento. Spesa: 50.000 euro nel 2025 e 100.000 nel 2026.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-14",
@@ -55963,7 +56688,12 @@
      "data": "2025-02-06",
      "intestazione": "Legge regionale 6 febbraio 2025, n. 14",
      "oggetto": "MODIFICAZIONE ALLA LEGGE REGIONALE 15 GENNAIO 2025 N. 11- INTERVENTI IN FAVORE DEI LUCANI NEL MONDO E DISCIPLINA DELLA COMMISSIONE REGIONALE DEI LUCANI NEL MONDO E DEL FORUM DEI GIOVANI",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Riscrive la norma finanziaria della legge sui lucani nel mondo: fino a 200.000 euro l'anno per i contributi dei piani annuale e triennale e fino a 50.000 euro l'anno per il funzionamento degli organismi previsti.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-13",
@@ -55971,7 +56701,12 @@
      "data": "2025-02-03",
      "intestazione": "Legge regionale 3 febbraio 2025, n. 13",
      "oggetto": "ISTITUZIONE DEL DIFENSORE CIVICO, DEL GARANTE DELLE VITTIME DI REATO E DELLE PERSONE SOTTOPOSTE A MISURE RESTRITTIVE DELLA LIBERTÀ PERSONALE, PER IL DIRITTO ALLA SALUTE E DEGLI ANZIANI, DEL GARANTE PER L’INFANZIA E L’ADOLESCENZA, DEL GARANTE DELLE PERSONE CON DISABILITÀ E DEL GARANTE DELLA NATURA",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Istituisce il Difensore civico regionale e cinque Garanti: delle vittime di reato e dei detenuti, per la salute e gli anziani, dell'infanzia e adolescenza, delle persone con disabilità e della natura. Sono eletti dal Consiglio regionale e ricevono un compenso pari al 30% dell'indennità di un consigliere.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-12",
@@ -55979,7 +56714,12 @@
      "data": "2025-01-15",
      "intestazione": "Legge regionale 15 gennaio 2025, n. 12",
      "oggetto": "DESTINAZIONE RISORSE PER LA CONTRATTUALIZZAZIONE DELLE STRUTTURE SOCIOSANITARIE RESIDENZIALI E SEMIRESIDENZIALI ACCREDITATE",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Le aziende sanitarie ASP e ASM devono riservare almeno l'1,5% dei fondi sanitari ricevuti ai contratti con le strutture sociosanitarie residenziali e semiresidenziali accreditate. Se non lo fanno, il direttore generale decade.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-11",
@@ -55987,7 +56727,12 @@
      "data": "2025-01-15",
      "intestazione": "Legge regionale 15 gennaio 2025, n. 11",
      "oggetto": "INTERVENTI IN FAVORE DEI LUCANI NEL MONDO E DISCIPLINA DELLA COMMISSIONE REGIONALE DEI LUCANI NEL MONDO E DEL FORUM DEI GIOVANI",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Nuova legge sui lucani nel mondo: contributi per il rientro degli emigrati, Commissione regionale dei lucani nel mondo, Forum dei giovani, albo delle associazioni, piani annuali e triennali di interventi. Prevede fino a 200.000 euro l'anno per i contributi.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-10",
@@ -55995,7 +56740,12 @@
      "data": "2025-01-07",
      "intestazione": "Legge regionale 7 gennaio 2025, n. 10",
      "oggetto": "MODIFICHE ALLA LEGGE REGIONALE 6 OTTOBRE 2021, N. 42 “ISTITUZIONE DELL’OSSERVATORIO REGIONALE SULLA LEGALITÀ E SULLA CRIMINALITÀ ORGANIZZATA DI STAMPO MAFIOSO”",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Cambia la composizione dell'Osservatorio regionale sulla legalità e la criminalità organizzata: sarà presieduto da una personalità scelta dal Presidente del Consiglio regionale e includerà rappresentanti della magistratura e dell'amministrazione della giustizia.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-9",
@@ -56003,7 +56753,12 @@
      "data": "2025-01-07",
      "intestazione": "Legge regionale 7 gennaio 2025, n. 9",
      "oggetto": "MODIFICA DELL’ARTICOLO 5 DELLA LEGGE REGIONALE 7 AGOSTO 2009, N. 25",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Elimina la norma del piano casa che permetteva alla Giunta di consentire la trasformazione di alberghi e strutture turistiche in strutture sanitarie o socio-sanitarie.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-8",
@@ -56011,7 +56766,12 @@
      "data": "2025-01-07",
      "intestazione": "Legge regionale 7 gennaio 2025, n. 8",
      "oggetto": "MODIFICHE ALLA LEGGE REGIONALE N. 33 DEL 24 DICEMBRE 2008, RECANTE “CONTRIBUTO AI CITTADINI LUCANI CHE SI AVVALGONO DEI METODI DOMAN, VOJTA, FAY E ABA”",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Il contributo regionale per chi segue i metodi riabilitativi Doman, Vojta, Fay e ABA spetta a tutte le persone con svantaggi psicofisici che ne hanno titolo, senza più limiti di reddito ISEE.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-7",
@@ -56019,7 +56779,12 @@
      "data": "2025-01-07",
      "intestazione": "Legge regionale 7 gennaio 2025, n. 7",
      "oggetto": "MODIFICHE ALL’ARTICOLO 10 DELLA LEGGE REGIONALE 6 DICEMBRE 2017, N. 35 – PROMOZIONE DELLE TERAPIE, DELL’EDUCAZIONE E DELLE ATTIVITÀ ASSISTITE CON GLI ANIMALI",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Cambia la composizione della Commissione regionale per gli interventi assistiti con gli animali (pet therapy), aggiungendo esperti come coadiutori di cani, gatti, conigli, cavalli e asini e un neuropsichiatra o psichiatra. La Commissione può funzionare con almeno 7 esperti.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-6",
@@ -56027,7 +56792,12 @@
      "data": "2025-01-07",
      "intestazione": "Legge regionale 7 gennaio 2025, n. 6",
      "oggetto": "INTEGRAZIONE ALLA LEGGE REGIONALE 16 NOVEMBRE 2018, N. 35 (NORME DI ATTUAZIONE DELLA PARTE IV DEL D. LGS. 3 APRILE 2006, N. 152 IN MATERIA DI GESTIONE DEI RIFIUTI E DI BONIFICA DI SITI INQUINATI – NORME IN MATERIA AMBIENTALE E DELLA LEGGE 27 MARZO 1992, N. 257 – NORME RELATIVE ALLA CESSAZIONE DELL’IMPIEGO DELL’AMIANTO)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Chi chiede di realizzare un nuovo impianto di smaltimento o recupero di rifiuti deve dimostrare di avere le risorse per farlo, con un piano finanziario certificato da una banca o da una società di revisione.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-5",
@@ -56035,7 +56805,12 @@
      "data": "2025-01-07",
      "intestazione": "Legge regionale 7 gennaio 2025, n. 5",
      "oggetto": "SOSTEGNO ALL’UNIVERSITÀ DEGLI STUDI DELLA BASILICATA PER L’AZIONE DI PROMOZIONE DELLA SOSTENIBILITÀ ECONOMICA, AMBIENTALE E SOCIALE NELLE AREE INTERNE",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Crea la Conferenza strategica di Piano, che coinvolge Università della Basilicata, Province, Comuni sede dell'ateneo e rappresentanti degli studenti nel monitoraggio del piano di sviluppo dell'Università. Dal 2028 il contributo regionale all'ateneo sarà adeguato all'inflazione ogni tre anni.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-4",
@@ -56043,7 +56818,12 @@
      "data": "2025-01-02",
      "intestazione": "Legge regionale 2 gennaio 2025, n. 4",
      "oggetto": "CONTRIBUTI PER INTERVENTI URGENTI SULLE RETI STRADALI COMUNALI SOVRACCARICATE DA TRANSITO DEI VEICOLI, MEZZI PESANTI E DEL TRASPORTO PUBBLICO CHE PERCORRONO LE STESSE TRATTE AL FINE DI RAGGIUNGERE ULTERIORI DESTINAZIONI",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Contributi straordinari ai Comuni per la manutenzione urgente delle strade comunali molto trafficate perché collegano strade provinciali e altri paesi: marciapiedi, attraversamenti pedonali, illuminazione, segnaletica e parcheggi. Spesa: fino a 80.000 euro nel 2025.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-3",
@@ -56051,7 +56831,12 @@
      "data": "2025-01-02",
      "intestazione": "Legge regionale 2 gennaio 2025, n. 3",
      "oggetto": "MODIFICHE ALL’ARTICOLO 4 DELLA L.R. 21 DICEMBRE 2017, N. 37",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "I risparmi sulle indennità dei consiglieri regionali e le loro rinunce volontarie confluiscono in un fondo, il cui uso è deciso dall'Ufficio di Presidenza del Consiglio tenendo conto delle richieste di cittadini e associazioni lucane.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-2",
@@ -56059,7 +56844,12 @@
      "data": "2025-01-02",
      "intestazione": "Legge regionale 2 gennaio 2025, n. 2",
      "oggetto": "MODIFICHE ALL’ARTICOLO 22 DELLA L.R. 5 APRILE 2024, N. 14 “COLLEGATO ALLA LEGGE DI STABILITÀ REGIONALE 2024”",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Estende a tutto il 2024 la redistribuzione dei risparmi del budget sanitario alle strutture private accreditate, con priorità alle strutture più piccole (budget sotto i 300.000 euro) e alle zone meno servite. Vale anche per la riabilitazione, soprattutto quella ambulatoriale per bambini e ragazzi.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-1",
@@ -56067,7 +56857,12 @@
      "data": "2025-01-02",
      "intestazione": "Legge regionale 2 gennaio 2025, n. 1",
      "oggetto": "RENDICONTO GENERALE PER L'ESERCIZIO FINANZIARIO 2023 DELL’AGENZIA DI PROMOZIONE TERRITORIALE (APT)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il rendiconto 2023 dell'Agenzia di Promozione Territoriale (APT), cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-47",
@@ -56075,7 +56870,12 @@
      "data": "2024-12-30",
      "intestazione": "Legge regionale 30 dicembre 2024, n. 47",
      "oggetto": "GIORNATA REGIONALE PER LA DIFFUSIONE DEI VALORI CULTURALI RELATIVI AL PASTORALISMO E ALLA TRANSUMANZA",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Istituisce la Giornata regionale del pastoralismo e della transumanza, con convegni, mostre, eventi, attività per le scuole e la valorizzazione della razza podolica. Per il 2024-2025 si svolge a Pescopagano, che riceve un contributo fino a 100.000 euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-46",
@@ -56083,7 +56883,12 @@
      "data": "2024-12-30",
      "intestazione": "Legge regionale 30 dicembre 2024, n. 46",
      "oggetto": "PARTECIPAZIONE DELLA REGIONE BASILICATA ALLA FONDAZIONE TEATRO FRANCESCO STABILE",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "La Regione partecipa come socio fondatore alla nuova Fondazione 'Teatro Francesco Stabile', che promuove teatro, danza, musica e arti performative, e può darle un contributo annuale fissato con la legge di bilancio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-45",
@@ -56091,7 +56896,12 @@
      "data": "2024-12-30",
      "intestazione": "Legge regionale 30 dicembre 2024, n. 45",
      "oggetto": "PROROGA DELLE GRADUATORIE DEI CONCORSI PUBBLICI DELLE ASSUNZIONI A TEMPO INDETERMINATO DELLA REGIONE E DEGLI ENTI STRUMENTALI",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Proroga al 31 dicembre 2025 le graduatorie dei concorsi a tempo indeterminato approvate nel 2022 e nel 2023 dalla Regione, dagli enti strumentali e dalle agenzie regionali: si può assumere chi è in graduatoria senza nuovi concorsi. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-44",
@@ -56099,7 +56909,12 @@
      "data": "2024-12-30",
      "intestazione": "Legge regionale 30 dicembre 2024, n. 44",
      "oggetto": "AUTORIZZAZIONE ALL’ESERCIZIO PROVVISORIO DEL BILANCIO DELLA REGIONE BASILICATA E DEI SUOI ORGANISMI ED ENTI STRUMENTALI PER L’ESERCIZIO FINANZIARIO 2025",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Autorizza l'esercizio provvisorio del bilancio della Regione e dei suoi enti per l'inizio del 2025, cioè permette di continuare a spendere in attesa del nuovo bilancio. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-43",
@@ -56107,7 +56922,12 @@
      "data": "2024-12-30",
      "intestazione": "Legge regionale 30 dicembre 2024, n. 43",
      "oggetto": "DISPOSIZIONI IN VARI SETTORI DI INTERVENTO",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Legge 'omnibus' che modifica diverse leggi regionali: definizione degli impianti agrivoltaici avanzati, recupero di sottotetti e seminterrati, reddito di libertà per le donne vittime di violenza, protezione civile, piano casa e consorzi industriali. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-42",
@@ -56115,7 +56935,12 @@
      "data": "2024-12-30",
      "intestazione": "Legge regionale 30 dicembre 2024, n. 42",
      "oggetto": "MODIFICA ALLA LEGGE REGIONALE 13 FEBBRAIO 2024, N. 6 (RICONOSCIMENTO DELLA LEGITTIMITÀ DEI DEBITI FUORI BILANCIO IN MATERIA DI TPL, AI SENSI DELL’ART. 73, COMMA 1, LETT. E) DEL D. LGS. N. 118/2011 E S.M.I.)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Ridistribuisce la copertura di circa 54 milioni di euro di debiti fuori bilancio del trasporto pubblico locale, già riconosciuti a febbraio 2024: circa 3,5 milioni per autobus e altro trasporto locale e circa 50,5 milioni per il trasporto ferroviario. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-41",
@@ -56123,7 +56948,12 @@
      "data": "2024-12-03",
      "intestazione": "Legge regionale 3 dicembre 2024, n. 41",
      "oggetto": "RENDICONTO GENERALE PER L’ESERCIZIO FINANZIARIO 2023 DELL’ENTE DI GESTIONE DEL PARCO ARCHEOLOGICO STORICO NATURALE DELLE CHIESE RUPESTRI DEL MATERANO",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il rendiconto 2023 dell'Ente parco archeologico storico naturale delle Chiese rupestri del Materano, cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-40",
@@ -56131,7 +56961,12 @@
      "data": "2024-11-12",
      "intestazione": "Legge regionale 12 novembre 2024, n. 40",
      "oggetto": "MODIFICA ALLA LEGGE REGIONALE 29 DICEMBRE 2016, N. 30 (NORME REGIONALI IN MATERIA DI ESERCIZIO, CONDUZIONE, CONTROLLO, MANUTENZIONE E ISPEZIONE DEGLI IMPIANTI TERMICI)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Riorganizza i controlli sugli impianti di riscaldamento e climatizzazione: la Regione li svolge per la provincia di Potenza, mentre il Comune di Potenza e la Provincia di Matera se ne occupano per i propri territori.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-39",
@@ -56139,7 +56974,12 @@
      "data": "2024-11-12",
      "intestazione": "Legge regionale 12 novembre 2024, n. 39",
      "oggetto": "RENDICONTO GENERALE PER L’ESERCIZIO FINANZIARIO 2023 DEL PARCO NATURALE REGIONALE DEL VULTURE",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il rendiconto 2023 dell'Ente parco naturale regionale del Vulture, cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-38",
@@ -56147,7 +56987,12 @@
      "data": "2024-11-12",
      "intestazione": "Legge regionale 12 novembre 2024, n. 38",
      "oggetto": "RENDICONTO GENERALE PER L’ESERCIZIO FINANZIARIO 2023 DELL’ENTE DI GESTIONE DEL PARCO NATURALE DI GALLIPOLI COGNATO – PICCOLE DOLOMITI LUCANE",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il rendiconto 2023 dell'Ente parco naturale di Gallipoli Cognato - Piccole Dolomiti Lucane, cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-37",
@@ -56155,7 +57000,12 @@
      "data": "2024-11-12",
      "intestazione": "Legge regionale 12 novembre 2024, n. 37",
      "oggetto": "RENDICONTO GENERALE PER L’ESERCIZIO FINANZIARIO 2023 DELL’AGENZIA REGIONALE PER LA PROTEZIONE DELL’AMBIENTE DELLA BASILICATA (A.R.P.A.B.)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il rendiconto 2023 dell'Agenzia regionale per la protezione dell'ambiente (ARPAB), cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-36",
@@ -56163,7 +57013,12 @@
      "data": "2024-11-12",
      "intestazione": "Legge regionale 12 novembre 2024, n. 36",
      "oggetto": "RENDICONTO GENERALE PER L’ESERCIZIO FINANZIARIO 2023 DELL’AGENZIA REGIONALE PER IL LAVORO E L’APPRENDIMENTO BASILICATA (A.R.L.A.B.)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il rendiconto 2023 dell'Agenzia regionale per il lavoro e l'apprendimento (ARLAB), cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-35",
@@ -56171,7 +57026,12 @@
      "data": "2024-11-12",
      "intestazione": "Legge regionale 12 novembre 2024, n. 35",
      "oggetto": "RENDICONTO GENERALE PER L’ESERCIZIO FINANZIARIO 2023 DELL’ENTE DI GOVERNO PER I RIFIUTI E LE RISORSE IDRICHE DELLA BASILICATA (E.G.R.I.B.)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il rendiconto 2023 dell'Ente di governo per i rifiuti e le risorse idriche della Basilicata (EGRIB), cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-34",
@@ -56179,7 +57039,12 @@
      "data": "2024-10-24",
      "intestazione": "Legge regionale 24 ottobre 2024, n. 34",
      "oggetto": "ASSESTAMENTO DEL BILANCIO DI PREVISIONE FINANZIARIO PER IL TRIENNIO 2024-2026",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Assestamento del bilancio 2024-2026: aggiorna i conti con i dati definitivi del 2023 e contiene altre misure, tra cui contributi straordinari ai Comuni di Lagonegro e Maratea, fondi per la Fondazione Georges Brassens, l'abrogazione della Fondazione Premio Letterario Basilicata e norme sugli eventi culturali tradizionali.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-33",
@@ -56187,7 +57052,12 @@
      "data": "2024-10-24",
      "intestazione": "Legge regionale 24 ottobre 2024, n. 33",
      "oggetto": "INTEGRAZIONE ALLA LEGGE REGIONALE 4 AGOSTO 2023, N. 28 (ISTITUZIONE DEL FONDO PER GLI AIUTI ALLE FAMIGLIE E ALLE PERSONE SGOMBERATE A SEGUITO DI DICHIARATA INAGIBILITÀ DELL’UNITÀ IMMOBILIARE, DI RESIDENZA ANAGRAFICA E DIMORA ABITUALE)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Le famiglie e le persone sgomberate perché la loro casa è stata dichiarata inagibile possono ricevere dal fondo regionale anche un contributo di solidarietà immediato, secondo criteri fissati da un regolamento. Nessuna nuova spesa: si usano risorse già stanziate.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-32",
@@ -56195,7 +57065,12 @@
      "data": "2024-10-24",
      "intestazione": "Legge regionale 24 ottobre 2024, n. 32",
      "oggetto": "BILANCIO DI PREVISIONE FINANZIARIO PER IL TRIENNIO 2024-2026 DELL’AGENZIA DI SVILUPPO E DI INNOVAZIONE IN AGRICOLTURA (A.L.S.I.A.)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il bilancio di previsione 2024-2026 dell'Agenzia lucana di sviluppo e innovazione in agricoltura (ALSIA) e autorizza la Regione a trasferirle fino a 6,18 milioni di euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-31",
@@ -56203,7 +57078,12 @@
      "data": "2024-10-14",
      "intestazione": "Legge regionale 14 ottobre 2024, n. 31",
      "oggetto": "RENDICONTO GENERALE PER L’ESERCIZIO 2023 DELL’AGENZIA LUCANA DI SVILUPPO E DI INNOVAZIONE IN AGRICOLTURA (ALSIA)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il rendiconto 2023 dell'Agenzia lucana di sviluppo e innovazione in agricoltura (ALSIA), cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-30",
@@ -56211,7 +57091,12 @@
      "data": "2024-10-14",
      "intestazione": "Legge regionale 14 ottobre 2024, n. 30",
      "oggetto": "BILANCIO DI PREVISIONE FINANZIARIO PER IL TRIENNIO 2024-2026 DELL’AZIENDA REGIONALE PER IL DIRITTO ALLO STUDIO UNIVERSITARIO (ARDSU)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il bilancio di previsione 2024-2026 dell'Azienda regionale per il diritto allo studio universitario (ARDSU) e autorizza la Regione a trasferirle fino a circa 742.000 euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-29",
@@ -56219,7 +57104,12 @@
      "data": "2024-09-28",
      "intestazione": "Legge regionale 28 settembre 2024, n. 29",
      "oggetto": "BILANCIO DI PREVISIONE FINANZIARIO PER IL TRIENNIO 2024-2026 DELL’ENTE DI GESTIONE DEL PARCO ARCHEOLOGICO STORICO NATURALE DELLE CHIESE RUPESTRI DEL MATERANO",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il bilancio di previsione 2024-2026 dell'Ente parco archeologico storico naturale delle Chiese rupestri del Materano e autorizza la Regione a trasferirgli fino a 450.000 euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-28",
@@ -56227,7 +57117,12 @@
      "data": "2024-09-28",
      "intestazione": "Legge regionale 28 settembre 2024, n. 28",
      "oggetto": "BILANCIO DI PREVISIONE FINANZIARIO PER IL TRIENNIO 2024-2026 DELL’ENTE DI GESTIONE DEL PARCO NATURALE REGIONALE DEL VULTURE",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il bilancio di previsione 2024-2026 dell'Ente parco naturale regionale del Vulture e autorizza la Regione a trasferirgli fino a 450.000 euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-27",
@@ -56235,7 +57130,12 @@
      "data": "2024-09-28",
      "intestazione": "Legge regionale 28 settembre 2024, n. 27",
      "oggetto": "BILANCIO DI PREVISIONE FINANZIARIO PER IL TRIENNIO 2024-2026 DELL’AGENZIA REGIONALE PER IL LAVORO E L’APPRENDIMENTO BASILICATA (A.R.LA.B.)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il bilancio di previsione 2024-2026 dell'Agenzia regionale per il lavoro e l'apprendimento (ARLAB) e autorizza la Regione a trasferirle fino a 4 milioni di euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-26",
@@ -56243,7 +57143,12 @@
      "data": "2024-09-28",
      "intestazione": "Legge regionale 28 settembre 2024, n. 26",
      "oggetto": "BILANCIO DI PREVISIONE FINANZIARIO PER IL TRIENNIO 2024-2026 DELL’AGENZIA REGIONALE PER LA PROTEZIONE DELL’AMBIENTE DELLA BASILICATA (A.R.P.A.B.)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il bilancio di previsione 2024-2026 dell'Agenzia regionale per la protezione dell'ambiente (ARPAB) e autorizza la Regione a trasferirle fino a 7,55 milioni di euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-25",
@@ -56251,7 +57156,12 @@
      "data": "2024-09-28",
      "intestazione": "Legge regionale 28 settembre 2024, n. 25",
      "oggetto": "RENDICONTO GENERALE PER L’ESERCIZIO 2023 DELL’AZIENDA REGIONALE PER IL DIRITTO ALLO STUDIO UNIVERSITARIO (A.R.D.S.U.)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il rendiconto 2023 dell'Azienda regionale per il diritto allo studio universitario (ARDSU), cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-24",
@@ -56259,7 +57169,12 @@
      "data": "2024-09-28",
      "intestazione": "Legge regionale 28 settembre 2024, n. 24",
      "oggetto": "BILANCIO DI PREVISIONE FINANZIARIO PER IL TRIENNIO 2024-2026 DELL’AGENZIA DI PROMOZIONE TERRITORIALE (A.P.T.)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il bilancio di previsione 2024-2026 dell'Agenzia di Promozione Territoriale (APT) e autorizza la Regione a trasferirle fino a 2,6 milioni di euro l'anno per il funzionamento. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-23",
@@ -56267,7 +57182,12 @@
      "data": "2024-09-28",
      "intestazione": "Legge regionale 28 settembre 2024, n. 23",
      "oggetto": "MODIFICHE ALLA LEGGE REGIONALE 17 AGOSTO 1998, N. 25 (DISCIPLINA DELLE ATTIVITÀ E DEGLI INTERVENTI REGIONALI IN MATERIA DI PROTEZIONE CIVILE - ABROGAZIONE L.R. 19 DICEMBRE 1994, N. 46) E ALLA LEGGE REGIONALE 6 LUGLIO 2016, N. 13 (NORME PER L’ACCOGLIENZA, LA TUTELA E L’INTEGRAZIONE DEI CITTADINI MIGRANTI E DEI RIFUGIATI)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Introduce lo stato di emergenza regionale: in caso di calamità il Presidente della Regione può dichiararlo per un massimo di sei mesi (prorogabili di altri sei) ed emanare ordinanze di protezione civile. Per il 2024 autorizza anche interventi urgenti di accoglienza dei migranti in strutture regionali (fino a 50.000 euro l'anno).",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-22",
@@ -56275,7 +57195,12 @@
      "data": "2024-08-12",
      "intestazione": "Legge regionale 12 agosto 2024, n. 22",
      "oggetto": "MODIFICA ALLA LEGGE REGIONALE 29 OTTOBRE 2002, N. 38 (TESTO UNICO IN MATERIA DI INDENNITÀ DI CARICA, DI FUNZIONE, DI RIMBORSO SPESE, DI MISSIONE, DI FINE MANDATO E DI ASSEGNO VITALIZIO SPETTANTI AI CONSIGLIERI REGIONALI DELLA REGIONE BASILICATA) E MODIFICHE ALLA LEGGE REGIONALE 2 FEBBRAIO 1998, N. 8 (NUOVA DISCIPLINA DELLE STRUTTURE DI ASSISTENZA AGLI ORGANI DI DIREZIONE POLITICA ED AI GRUPPI CONSILIARI DELLA REGIONE BASILICATA)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Cambia le regole su indennità dei consiglieri e personale dei gruppi consiliari: ogni gruppo riceve fino a 75.000 euro l'anno per consigliere per pagare i collaboratori, che possono appartenere a tutte le categorie contrattuali. Costo massimo: circa 455.000 euro l'anno.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2024-21",
@@ -56283,7 +57208,12 @@
      "data": "2024-08-12",
      "intestazione": "Legge regionale 12 agosto 2024, n. 21",
      "oggetto": "MODIFICA ALLA LEGGE REGIONALE 29 OTTOBRE 2002, N. 38 (TESTO UNICO IN MATERIA DI INDENNITÀ DI CARICA, DI FUNZIONE, DI RIMBORSO SPESE, DI MISSIONE, DI FINE MANDATO E DI ASSEGNO VITALIZIO SPETTANTI AI CONSIGLIERI REGIONALI DELLA REGIONE BASILICATA)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Estende ai consiglieri nominati assessori, che per legge vengono sospesi dal Consiglio regionale, un trattamento economico previsto dal testo unico sulle indennità dei consiglieri. Costo massimo: 135.000 euro l'anno, a carico del bilancio del Consiglio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     }
    ],
    "attivita": {
