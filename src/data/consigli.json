@@ -16273,7 +16273,12 @@
      "oggetto": "Disposizioni speciali in materia di referendum confermativo",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=31&anno=2026",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=31&anno=2026",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=31&anno=2026&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=31&anno=2026&tipo=TXT",
+     "riassunto": {
+      "testo": "Il Consiglio ha avviato l'abrogazione della legge n. 9 del 2026 (quella che modifica lo Statuto su assessori e sottosegretari), approvandola in prima lettura. Per questo il referendum confermativo già indetto su quella legge viene sospeso e, se l'abrogazione sarà approvata definitivamente, annullato. Se invece non passa in seconda lettura, il referendum torna valido.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-30",
@@ -16283,7 +16288,12 @@
      "oggetto": "Rendiconto generale e rendiconto consolidato relativi all'esercizio finanziario 2025",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=30&anno=2026",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=30&anno=2026",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=30&anno=2026&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=30&anno=2026&tipo=TXT",
+     "riassunto": {
+      "testo": "Approva il rendiconto 2025 della Regione, cioè i conti dell'anno: 8,73 miliardi di euro di entrate accertate e 8,64 miliardi di spese impegnate. Il risultato di amministrazione a fine 2025 è di circa 2,2 miliardi, di cui circa 1,9 miliardi accantonati o vincolati (per esempio per crediti difficili da riscuotere e contenziosi). È un atto contabile obbligatorio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-29",
@@ -16293,7 +16303,12 @@
      "oggetto": "Modifiche della legge regionale 16 aprile 2002, n. 19 (Norme per la tutela, Governo ed uso del territorio – Legge urbanistica della Calabria)",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=29&anno=2026",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=29&anno=2026",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=29&anno=2026&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=29&anno=2026&tipo=TXT",
+     "riassunto": {
+      "testo": "Modifica la legge urbanistica: i Comuni devono inviare alla Regione i piani urbanistici approvati in un formato digitale standard entro dieci giorni dalla pubblicazione, e l'aggiornamento del quadro territoriale regionale (QTRP) passa dal Consiglio alla Giunta, sentita la commissione consiliare. Semplifica anche alcune procedure regionali.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-28",
@@ -16303,7 +16318,12 @@
      "oggetto": "Modifiche della legge regionale 6 novembre 2012, n. 51 (Sicurezza e salute sui luoghi di lavoro – Norme per l’attuazione del d.lgs. 81/2008 in materia di sanzioni)",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=28&anno=2026",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=28&anno=2026",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=28&anno=2026&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=28&anno=2026&tipo=TXT",
+     "riassunto": {
+      "testo": "Aggiorna le regole sulle sanzioni per la sicurezza sul lavoro: i soldi incassati con le multe vengono interamente ripartiti ogni anno tra le aziende sanitarie (ASP) e usati dai loro servizi di prevenzione per controlli, personale aggiuntivo a tempo determinato, formazione e attrezzature.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-27",
@@ -16313,7 +16333,12 @@
      "oggetto": "Modifiche della legge regionale 14 marzo 1985, n. 9 (Esercizio della navigazione da diporto sui laghi naturali ed artificiali della Calabria)",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=27&anno=2026",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=27&anno=2026",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=27&anno=2026&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=27&anno=2026&tipo=TXT",
+     "riassunto": {
+      "testo": "Piccole modifiche alla legge sulla navigazione da diporto sui laghi: la competenza passa dal dipartimento del turismo a quello dei trasporti, e si chiarisce che il permesso definitivo per navigare lo rilasciano i Comuni (o i loro consorzi), mentre la Regione dà un'autorizzazione preliminare. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-26",
@@ -16323,7 +16348,12 @@
      "oggetto": "Modifiche e integrazioni della legge regionale 26 novembre 2001, n. 30 (Normativa per la regolamentazione della raccolta e commercializzazione dei funghi epigei ed ipogei freschi e conservati)",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=26&anno=2026",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=26&anno=2026",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=26&anno=2026&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=26&anno=2026&tipo=TXT",
+     "riassunto": {
+      "testo": "Testo uguale alla legge n. 19 del 2026 sulla raccolta di funghi e tartufi. La promulgazione di questa legge è stata revocata con decreto del Presidente del 17 agosto 2026: resta in vigore la legge n. 19.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-25",
@@ -16333,7 +16363,12 @@
      "oggetto": "Modifiche della legge regionale 10 agosto 2023, n. 39 (Disciplina in materia di Ordinamento dei consorzi di bonifica e di tutela e bonifica del territorio rurale)",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=25&anno=2026",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=25&anno=2026",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=25&anno=2026&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=25&anno=2026&tipo=TXT",
+     "riassunto": {
+      "testo": "Testo uguale alla legge n. 18 del 2026 sul Consorzio di bonifica della Calabria. La promulgazione di questa legge è stata revocata con decreto del Presidente del 17 agosto 2026: resta in vigore la legge n. 18.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-24",
@@ -16343,7 +16378,12 @@
      "oggetto": "Misure a sostegno del completo svuotamento del bacino regionale dei soggetti individuati dall’articolo 3, comma 3-quater.1, del decreto - legge 22 aprile 2023, n. 44, convertito, con modificazioni, dalla legge 21 giugno 2023, n. 74",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=24&anno=2026",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=24&anno=2026",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=24&anno=2026&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=24&anno=2026&tipo=TXT",
+     "riassunto": {
+      "testo": "Testo uguale alla legge n. 17 del 2026 sul bacino regionale di lavoratori previsto dal decreto-legge 44/2023 (elenco, assunzioni, contributo fino a 40.000 euro per chi esce). La promulgazione di questa legge è stata revocata con decreto del Presidente del 17 agosto 2026: resta in vigore la legge n. 17.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-23",
@@ -16353,7 +16393,12 @@
      "oggetto": "Norme per la promozione della sicurezza e dell’educazione stradale e per la disciplina del sistema regionale di monitoraggio dei dati sull’incidentalità stradale",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=23&anno=2026",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=23&anno=2026",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=23&anno=2026&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=23&anno=2026&tipo=TXT",
+     "riassunto": {
+      "testo": "Promuove la sicurezza e l'educazione stradale: istituisce il Centro regionale di monitoraggio degli incidenti stradali (CRISC), che lavora con la Provincia di Crotone, i centri provinciali per la sicurezza stradale, corsi nelle scuole e una Giornata regionale della sicurezza stradale ogni anno. Spesa: fino a 70.000 euro l'anno dal 2026 al 2028.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-22",
@@ -16363,7 +16408,12 @@
      "oggetto": "Misure per la riduzione dell’inquinamento da sostanze poli-e perfluoroalchiliche (PFAS)",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=22&anno=2026",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=22&anno=2026",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=22&anno=2026&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=22&anno=2026&tipo=TXT",
+     "riassunto": {
+      "testo": "Contro l'inquinamento da PFAS, le sostanze chimiche 'eterne' usate nell'industria: la Calabria fissa limiti per gli scarichi nei fiumi e nelle acque superficiali più severi di quelli nazionali e vieta di scaricare reflui con PFAS sul suolo. Nasce un comitato tecnico-scientifico per il monitoraggio, i cui componenti non sono pagati. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-21",
@@ -16373,7 +16423,12 @@
      "oggetto": "Adempimento degli impegni assunti con il governo in attuazione del principio di leale collaborazione e modifiche normative",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=21&anno=2026",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=21&anno=2026",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=21&anno=2026&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=21&anno=2026&tipo=TXT",
+     "riassunto": {
+      "testo": "Modifica diverse leggi, anche su richiesta del Governo: la possibilità di richiamare medici in pensione vale fino al 31 dicembre 2026; per diventare conducente di taxi o NCC basta, fino a fine 2026, aver guidato mezzi di trasporto pubblico per due anni; le regole sulle case popolari non si applicano agli alloggi del progetto per superare il campo rom di Scordovillo (Lamezia Terme). Dal 2027 abroga una vecchia norma finanziaria del 1995.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-20",
@@ -16383,7 +16438,12 @@
      "oggetto": "Variazione al bilancio di previsione finanziario della Regione Calabria per gli anni 2026-2028",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=20&anno=2026",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=20&anno=2026",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=20&anno=2026&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=20&anno=2026&tipo=TXT",
+     "riassunto": {
+      "testo": "Variazione di bilancio: 5 milioni di euro ai Comuni colpiti dal maltempo del 16-18 marzo 2026 (strade, opere idrauliche, spese di soccorso) e un altro milione per enti locali danneggiati fuori dallo stato di emergenza. Aggiunge circa 3,2 milioni nel 2026-2027 per il reclutamento di personale sanitario e finanzia la sepoltura e l'assistenza ai familiari delle vittime della strage di Amendolara.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-19",
@@ -16393,7 +16453,12 @@
      "oggetto": "Modifiche e integrazioni della legge regionale 26 novembre 2001, n. 30 (Normativa per la regolamentazione della raccolta e commercializzazione dei funghi epigei ed ipogei freschi e conservati)",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=19&anno=2026",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=19&anno=2026",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=19&anno=2026&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=19&anno=2026&tipo=TXT",
+     "riassunto": {
+      "testo": "Semplifica le regole per raccogliere funghi e tartufi: i tesserini durano dieci anni invece di cinque, senza vidimazione annuale (resta la quota annuale), e si possono avere anche in formato digitale. Le Province escono dalla gestione, che passa a Regione, Comuni e Azienda Calabria Verde; metà degli incassi va ai Comuni. Aggiorna anche le regole sulla raccolta dei tartufi.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-18",
@@ -16403,7 +16468,12 @@
      "oggetto": "Modifiche della legge regionale 10 agosto 2023, n. 39 (Disciplina in materia di Ordinamento dei consorzi di bonifica e di tutela e bonifica del territorio rurale)",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=18&anno=2026",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=18&anno=2026",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=18&anno=2026&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=18&anno=2026&tipo=TXT",
+     "riassunto": {
+      "testo": "Riordina la legge del 2023 sul Consorzio di bonifica della Calabria: il Consorzio gestisce direttamente le opere di bonifica, irrigazione e idrauliche, se ne assume il rischio e svolge anche compiti di polizia idraulica, con sanzioni fissate da un suo regolamento. Le sue attività sono riconosciute di interesse pubblico. La legge modifica inoltre organizzazione, piani e controlli del Consorzio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-17",
@@ -16413,7 +16483,12 @@
      "oggetto": "Misure a sostegno del completo svuotamento del bacino regionale dei Soggetti individuati dall’articolo 3, comma 3-quater.1, del decreto - legge 22 aprile 2023, n. 44, convertito, con modificazioni, dalla legge 21 giugno 2023, n. 74",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=17&anno=2026",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=17&anno=2026",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=17&anno=2026&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=17&anno=2026&tipo=TXT",
+     "riassunto": {
+      "testo": "Misure per chiudere il bacino regionale di lavoratori previsto dal decreto-legge 44/2023, in attesa di stabilizzazione: la Regione fa un elenco, promuove assunzioni a tempo indeterminato (anche part-time) e offre a chi esce volontariamente un contributo una tantum fino a 40.000 euro in base all'età. Chi rifiuta tutte le misure esce dal bacino. Spesa: fino a 5 milioni l'anno più 20 milioni di fondi europei.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-16",
@@ -16423,7 +16498,12 @@
      "oggetto": "Integrazioni della legge regionale 21 dicembre 2005, n. 17 (Norme per l’esercizio della delega di funzioni amministrative sulle aree del demanio marittimo)",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=16&anno=2026",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=16&anno=2026",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=16&anno=2026&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=16&anno=2026&tipo=TXT",
+     "riassunto": {
+      "testo": "Solo per la stagione balneare 2026 e nei Comuni con spiagge danneggiate dalle mareggiate di gennaio e febbraio 2026 (tra cui il ciclone Harry), gli stabilimenti possono spostarsi su un'altra area della spiaggia, anche senza piano comunale, purché resti libero almeno il 30% del fronte mare. I Comuni colpiti pubblicano un avviso per raccogliere le richieste. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-15",
@@ -16433,7 +16513,12 @@
      "oggetto": "Disposizioni normative in materia di demanio marittimo",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=15&anno=2026",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=15&anno=2026",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=15&anno=2026&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=15&anno=2026&tipo=TXT",
+     "riassunto": {
+      "testo": "Regole per le concessioni balneari: i Comuni costieri devono prima valutare se le spiagge sono una risorsa scarsa; se lo sono, assegnano le concessioni con gare pubbliche, altrimenti possono prorogare quelle esistenti. Per aiutare gli stabilimenti danneggiati dal maltempo di inizio 2026, le concessioni possono essere prorogate fino a cinque anni. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-14",
@@ -16443,7 +16528,12 @@
      "oggetto": "Modifica dell’articolo 11 della legge regionale 11 maggio 2007, n. 9 (Collegato alla manovra di finanza regionale per l'anno 2007)",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=14&anno=2026",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=14&anno=2026",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=14&anno=2026&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=14&anno=2026&tipo=TXT",
+     "riassunto": {
+      "testo": "Modifica una norma del 2007: alcune risorse destinate in origine alla 'casa dello studente' potranno andare più in generale a strutture e servizi universitari, in particolare per il diritto allo studio. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-13",
@@ -16453,7 +16543,12 @@
      "oggetto": "Modifiche e integrazioni della l.r. n. 2/2017",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=13&anno=2026",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=13&anno=2026",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=13&anno=2026&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=13&anno=2026&tipo=TXT",
+     "riassunto": {
+      "testo": "L'Osservatorio regionale per i minori diventa 'Osservatorio regionale per l'infanzia e l'adolescenza' e si allarga a due rappresentanti delle società di pediatria. Alle riunioni, almeno due l'anno e gratuite, possono partecipare esperti di inclusione, disabilità, sport, cultura e ambiente. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-12",
@@ -16463,7 +16558,12 @@
      "oggetto": "Disposizioni per l’attuazione della legge regionale 3 marzo 2026, n. 9 e manutenzione normativa",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=12&anno=2026",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=12&anno=2026",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=12&anno=2026&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=12&anno=2026&tipo=TXT",
+     "riassunto": {
+      "testo": "Attua la riforma dello Statuto: definisce requisiti e compensi degli assessori esterni al Consiglio e dei due sottosegretari alla Presidenza, che ricevono un'indennità mensile vicina a quella degli assessori (circa 347.000 euro l'anno in tutto). Prevede anche gli uffici di supporto per i sottosegretari, con un limite di spesa fino a circa 625.000 euro l'anno, oltre ad altre correzioni di leggi esistenti.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-11",
@@ -16473,7 +16573,12 @@
      "oggetto": "Modifiche e integrazioni delle leggi regionali n. 9/1985, n. 32/1996, n. 19/2002, n. 8/2003, n. 18/2007, n. 24/2016, n. 47/2011, n. 19/2017, n. 42/2017, n. 57/2017, n. 48/2019, n. 1/2020, n. 10/2022, n. 37/2023, n. 62/2023, n. 23/2024, n. 6/2026, n. 3/2026 e abrogazione della legge regionale n. 18/2025",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=11&anno=2026",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=11&anno=2026",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=11&anno=2026&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=11&anno=2026&tipo=TXT",
+     "riassunto": {
+      "testo": "Legge di 'manutenzione' che ritocca una ventina di leggi regionali. Tra le novità: barche elettriche di piccola potenza ammesse sui laghi; un alloggio temporaneo (fino a sei mesi) per le famiglie fragili sgomberate da case popolari occupate abusivamente; correzioni alle leggi su medici e graduatorie della sanità approvate a inizio 2026. Abroga una legge del 2025. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-10",
@@ -16483,7 +16588,12 @@
      "oggetto": "Interventi in materia di pianificazione e programmazione del sistema di Finanziamento del diritto allo studio universitario mediante modifiche della Legge regionale 10 dicembre 2001, n. 34 (Norme per l’attuazione del diritto allo studio universitario in Calabria)",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=10&anno=2026",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=10&anno=2026",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=10&anno=2026&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=10&anno=2026&tipo=TXT",
+     "riassunto": {
+      "testo": "Cambia le regole per le borse di studio universitarie: la Regione deve trasferire agli atenei calabresi il 70% dei fondi entro il 15 settembre e il saldo entro il 31 gennaio, e le università devono pagare le borse agli studenti idonei entro il 31 ottobre. Ogni anno, entro il 30 aprile, la Regione pubblica tempi e importi pagati. Le università gestiscono anche i prestiti d'onore. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-9",
@@ -16493,7 +16603,12 @@
      "oggetto": "Modifiche ed integrazioni alla legge regionale 19 ottobre 2004, n. 25 (Statuto della Regione Calabria)",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=9&anno=2026",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=9&anno=2026",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=9&anno=2026&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=9&anno=2026&tipo=TXT",
+     "riassunto": {
+      "testo": "Riapprova la modifica dello Statuto già votata a gennaio (legge n. 2, poi revocata): il numero degli assessori segue il massimo consentito dalla legge statale invece del limite di sette, e il Presidente può nominare fino a due sottosegretari che partecipano alla Giunta senza votare. Su questa legge è stato chiesto un referendum confermativo (vedi legge n. 31).",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-8",
@@ -16503,7 +16618,12 @@
      "oggetto": "Modifiche alla legge regionale 26 novembre 2025, n. 45 (Disciplina del referendum popolare per l’approvazione dello Statuto regionale). Adempimento degli impegni assunti con il Governo in attuazione del principio di leale collaborazione",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=8&anno=2026",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=8&anno=2026",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=8&anno=2026&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=8&anno=2026&tipo=TXT",
+     "riassunto": {
+      "testo": "Corregge la legge del 2025 sul referendum per lo Statuto regionale, come chiesto dal Governo: chiarisce quali modifiche dello Statuto sono 'puntuali' e consente di firmare la richiesta di referendum anche ai calabresi iscritti all'anagrafe degli italiani residenti all'estero. Non ci sono nuove spese.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-7",
@@ -16513,7 +16633,12 @@
      "oggetto": "Integrazioni della legge regionale 16 aprile 2002, n. 19 (Norme per la tutela, governo ed uso del territorio – Legge urbanistica della Calabria)",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=7&anno=2026",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=7&anno=2026",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=7&anno=2026&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=7&anno=2026&tipo=TXT",
+     "riassunto": {
+      "testo": "Cambia la legge urbanistica: delega a Province, Città metropolitana ed enti parco le autorizzazioni paesaggistiche, chiarisce che vetrate panoramiche amovibili (VEPA), tende e pergole non creano nuovi volumi, e facilita il cambio di destinazione d'uso di singoli immobili in alcune zone. Il Governo ha impugnato l'articolo 1 davanti alla Corte costituzionale.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-6",
@@ -16523,7 +16648,12 @@
      "oggetto": "Misure per assicurare la continuità assistenziale del servizio sanitario regionale",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=6&anno=2026",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=6&anno=2026",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=6&anno=2026&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=6&anno=2026&tipo=TXT",
+     "riassunto": {
+      "testo": "Per far fronte alla carenza di personale sanitario, Azienda Zero può rivolgersi a operatori anche internazionali per reclutare medici e infermieri da Paesi fuori dall'Unione europea, che le aziende sanitarie assumono a tempo determinato. Spesa: fino a 2.088.000 euro l'anno nel 2026 e 2027, più 4 milioni di fondi europei per progetti di supporto all'accesso ai servizi sanitari.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-5",
@@ -16533,7 +16663,12 @@
      "oggetto": "Adempimento degli impegni assunti con il Governo in attuazione del principio di leale collaborazione",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=5&anno=2026",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=5&anno=2026",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=5&anno=2026&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=5&anno=2026&tipo=TXT",
+     "riassunto": {
+      "testo": "Modifica alcune leggi regionali del 2025 e del 2019 per rispondere ai rilievi del Governo: riserve naturali (fiume Vitravo e grotte di Verzino, Trinchise, Dune di Giovino), tutela dei minori, tracciabilità dei prodotti agroalimentari con blockchain, violenza di genere, norme funerarie e pedagogia scolastica. Sono correzioni tecniche e di linguaggio, non nuovi interventi.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-4",
@@ -16543,7 +16678,12 @@
      "oggetto": "Disposizioni concernenti l’impiego di sistemi di intelligenza artificiale in ambito regionale",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=4&anno=2026",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=4&anno=2026",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=4&anno=2026&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=4&anno=2026&tipo=TXT",
+     "riassunto": {
+      "testo": "Regole per l'uso dell'intelligenza artificiale nell'amministrazione regionale: i sistemi devono rispettare privacy e sicurezza ed essere sempre controllati da una persona. Nasce l'Ufficio regionale per l'IA (senza costi aggiuntivi) e un registro regionale di chi lavora sull'IA. Entro 90 giorni la Giunta deve avviare progetti pilota nella sanità: liste d'attesa, diagnosi e telemedicina.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-3",
@@ -16553,7 +16693,12 @@
      "oggetto": "Disposizioni per la proroga della validità delle graduatorie vigenti dei concorsi pubblici di enti e aziende del Servizio sanitario della Regione Calabria",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=3&anno=2026",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=3&anno=2026",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=3&anno=2026&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=3&anno=2026&tipo=TXT",
+     "riassunto": {
+      "testo": "Allunga di 24 mesi la validità delle graduatorie dei concorsi delle aziende e degli enti del Servizio sanitario regionale che scadono nel 2026. Così le aziende possono assumere chi è già in graduatoria senza fare nuovi concorsi. Non ci sono nuove spese per la Regione.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-2",
@@ -16563,7 +16708,12 @@
      "oggetto": "Modifiche ed integrazioni alla legge regionale 19 ottobre 2004, n. 25 (Statuto della Regione Calabria)",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=2&anno=2026",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=2&anno=2026",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=2&anno=2026&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=2&anno=2026&tipo=TXT",
+     "riassunto": {
+      "testo": "Modifica lo Statuto della Regione: il numero degli assessori non è più fissato a sette ma segue il massimo consentito dalla legge statale, e il Presidente può nominare fino a due sottosegretari che partecipano alla Giunta senza diritto di voto. La promulgazione di questa legge è stata poi revocata con decreto del Presidente del 23 febbraio 2026.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-1",
@@ -16573,7 +16723,12 @@
      "oggetto": "Disposizioni per garantire la continuità dei Servizi sanitari regionali",
      "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=1&anno=2026",
      "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=1&anno=2026",
-     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=1&anno=2026&tipo=TXT"
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=1&anno=2026&tipo=TXT",
+     "riassunto": {
+      "testo": "Fino al 31 dicembre 2026 le aziende sanitarie calabresi possono richiamare in servizio medici già in pensione, con incarichi da libero professionista di massimo 12 mesi (rinnovabili una volta). Servono soprattutto per pronto soccorso, anestesia, medicina interna, medicina generale e aree interne con pochi medici. I costi sono a carico dei bilanci delle aziende sanitarie, senza nuove spese per la Regione.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-51",

@@ -535,7 +535,7 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
             </Avviso>
             <p className="text-sm text-ink-3">
               Atti, leggi spiegate in parole semplici e la mappa dei consiglieri arriveranno anche per la {c.regione}: per ora sono
-              disponibili per {consigliInChiaro.length === 1 ? `la ${consigliInChiaro[0].nome}` : consigliInChiaro.map((x) => x.nome).join(", ")}.{" "}
+              disponibili per {consigliInChiaro.length === 1 ? `la ${consigliInChiaro[0].nome}` : new Intl.ListFormat("it", { type: "conjunction" }).format(consigliInChiaro.map((x) => x.nome))}.{" "}
               <Link href="/consigli-in-chiaro/" className="text-accent underline">
                 Consigli regionali in chiaro →
               </Link>
