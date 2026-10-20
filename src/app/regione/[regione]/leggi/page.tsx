@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { consigliInChiaro, getConsiglio } from "@/lib/data";
-import { dataLunga } from "@/lib/format";
+import { dataLunga, dellaRegione } from "@/lib/format";
 import { LeggeCard } from "@/components/consiglio";
 import { FontiNote } from "@/components/ui";
 import { IntestazioneRegione } from "@/components/IntestazioneRegione";
@@ -16,8 +16,8 @@ export async function generateMetadata({ params }: PageProps<"/regione/[regione]
   const cr = getConsiglio((await params).regione);
   return cr
     ? {
-        title: `Leggi regionali della ${cr.nome}`,
-        description: `Le leggi approvate dal Consiglio regionale della ${cr.nome} nella legislatura in corso, spiegate in parole semplici.`,
+        title: `Leggi regionali ${dellaRegione(cr.nome)}`,
+        description: `Le leggi approvate dal Consiglio regionale ${dellaRegione(cr.nome)} nella legislatura in corso, spiegate in parole semplici.`,
       }
     : {};
 }

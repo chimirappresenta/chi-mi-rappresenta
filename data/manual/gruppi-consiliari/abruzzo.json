@@ -1,0 +1,16 @@
+{
+  "_nota": "Gruppi del Consiglio regionale dell'Abruzzo (XII legislatura), in ordine da sinistra a destra nell'emiciclo. coalizione: maggioranza (centrodestra, a sostegno del presidente Marsilio) o opposizione (centrosinistra, M5S e liste civiche che sostenevano D'Amico alle elezioni del 2024). Il Gruppo Misto è indicato dal sito come 'di minoranza'. I nomi devono coincidere con quelli del sito consiglio.regione.abruzzo.it.",
+  "gruppi": {
+    "Fratelli d'Italia": { "sigla": "FdI", "coalizione": "maggioranza", "colore": "#2c4f96" },
+    "Lega Salvini Abruzzo": { "sigla": "Lega", "coalizione": "maggioranza", "colore": "#1f9e9a" },
+    "Forza Italia": { "sigla": "FI", "coalizione": "maggioranza", "colore": "#2f7fd6" },
+    "Marsilio Presidente": { "sigla": "Marsilio Pres.", "coalizione": "maggioranza", "colore": "#6b8fbf" },
+    "Noi Moderati": { "sigla": "Noi Moderati", "coalizione": "maggioranza", "colore": "#8e7cc3" },
+    "Azione D'Amico - Socialisti Popolari Riformatori": { "sigla": "Azione", "coalizione": "opposizione", "colore": "#3b6fd1" },
+    "Abruzzo Insieme": { "sigla": "Abruzzo Insieme", "coalizione": "opposizione", "colore": "#c0398a" },
+    "Gruppo Misto": { "sigla": "Misto", "coalizione": "opposizione", "colore": "#8a8f98" },
+    "Partito Democratico": { "sigla": "PD", "coalizione": "opposizione", "colore": "#d6363b" },
+    "Movimento 5 Stelle": { "sigla": "M5S", "coalizione": "opposizione", "colore": "#e0b400" },
+    "Alleanza Verdi Sinistra - Abruzzo Progressista e Solidale": { "sigla": "AVS", "coalizione": "opposizione", "colore": "#3f9b4f" }
+  }
+}

@@ -14,6 +14,7 @@ const ESITI: Record<NonNullable<Atto["esito"]>, { label: string; cls: string }> 
 export const SPIEGAZIONE_TIPI: Record<string, string> = {
   pdl: "Testo di una nuova legge regionale proposto da uno o più consiglieri (o dalla Giunta, dai Comuni, dai cittadini).",
   interrogazione: "Domanda scritta alla Giunta su un problema concreto: la Giunta deve rispondere.",
+  interpellanza: "Domanda alla Giunta sui motivi o sulle intenzioni delle sue scelte: la risposta arriva in Aula.",
   "question-time": "Domanda breve con risposta immediata in Aula da parte della Giunta.",
   mozione: "Proposta che impegna la Giunta a fare qualcosa: viene votata dal Consiglio.",
   risoluzione: "Presa di posizione del Consiglio su un tema, votata in Aula o in commissione.",

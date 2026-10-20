@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { dataLunga, inCircoscrizione } from "@/lib/format";
+import { dataLunga, dellaRegione, inCircoscrizione } from "@/lib/format";
 import { assegnaSeggi, CX, CY, H, R_DOT, W } from "@/lib/emiciclo";
 import { ScriviA } from "./ScriviA";
 import { Condividi } from "./Condividi";
@@ -266,7 +266,11 @@ function SchedaConsigliere({
           <h2 className="display mt-1 text-3xl">{c.nome}</h2>
           <p className="text-sm text-ink-2">
             Consigliere regionale ·{" "}
-            {c.circoscrizione ? `eletto ${inCircoscrizione(c.circoscrizione)}` : "subentrato dopo le elezioni"}
+            {c.circoscrizione
+              ? `eletto ${inCircoscrizione(c.circoscrizione)}`
+              : c.circoscrizione === null
+                ? "subentrato dopo le elezioni"
+                : "eletto come candidato alla presidenza della Regione"}
           </p>
           {g && (
             <p className="mt-0.5 text-xs text-ink-3">
@@ -358,7 +362,7 @@ function SchedaConsigliere({
             compatto
             path={`/regione/${regione.slug}/consiglieri/${c.slug}/`}
             titolo={`${c.nome}, consigliere regionale`}
-            testo={`${c.nome}, consigliere regionale della ${regione.nome}${g ? ` (${g.sigla})` : ""}: contatti e atti presentati in Consiglio regionale.`}
+            testo={`${c.nome}, consigliere regionale ${dellaRegione(regione.nome)}${g ? ` (${g.sigla})` : ""}: contatti e atti presentati in Consiglio regionale.`}
           />
         </div>
       )}

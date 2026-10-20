@@ -7,6 +7,7 @@ import { Condividi } from "@/components/Condividi";
 import { CopiaTesto } from "@/components/CopiaTesto";
 import { ComuneSearch } from "@/components/ComuneSearch";
 import { RegioneInChiaro } from "@/components/RegioneInChiaro";
+import { dellaRegione } from "@/lib/format";
 
 // Pagina di ogni regione: "in chiaro" (emiciclo, atti, leggi) se c'è il lettore del suo Consiglio, altrimenti essenziale.
 export const dynamicParams = false;
@@ -25,8 +26,8 @@ export async function generateMetadata({ params }: PageProps<"/regione/[regione]
   const cr = getConsiglio(regione);
   if (cr)
     return {
-      title: `Giunta e Consiglio regionale della ${cr.nome}`,
-      description: `Il Consiglio regionale della ${cr.nome} in un emiciclo: cerca ogni consigliere per nome o gruppo e apri la sua scheda.`,
+      title: `Giunta e Consiglio regionale ${dellaRegione(cr.nome)}`,
+      description: `Il Consiglio regionale ${dellaRegione(cr.nome)} in un emiciclo: cerca ogni consigliere per nome o gruppo e apri la sua scheda.`,
     };
   const r = await trova(params);
   return r

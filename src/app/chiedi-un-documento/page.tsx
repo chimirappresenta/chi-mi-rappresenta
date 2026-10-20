@@ -5,6 +5,7 @@ import { ComuneSearch } from "@/components/ComuneSearch";
 import { Condividi } from "@/components/Condividi";
 import { ChiediDocumento, type EnteAccesso } from "@/components/ChiediDocumento";
 import { AccessoCivicoInfo } from "@/components/AccessoCivicoInfo";
+import { dellaRegione } from "@/lib/format";
 
 export const metadata: Metadata = {
   title: "Chiedi un documento: l'accesso civico in parole semplici",
@@ -20,7 +21,7 @@ export default function ChiediUnDocumentoPage() {
     ),
     ...consigliInChiaro.flatMap(({ slug, nome, regione }) =>
       regione.contattiConsiglio?.pec
-        ? [{ id: `consiglio-${slug}`, nome: `Consiglio regionale della ${nome}`, pec: regione.contattiConsiglio.pec, descrizione: "Atti, leggi e spese del Consiglio" }]
+        ? [{ id: `consiglio-${slug}`, nome: `Consiglio regionale ${dellaRegione(nome)}`, pec: regione.contattiConsiglio.pec, descrizione: "Atti, leggi e spese del Consiglio" }]
         : [],
     ),
   ];

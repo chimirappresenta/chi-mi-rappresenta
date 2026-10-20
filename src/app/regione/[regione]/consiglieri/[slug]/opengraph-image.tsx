@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 import { consigliInChiaro, getConsigliere, getConsiglio } from "@/lib/data";
-import { inCircoscrizione, slugConsigliere } from "@/lib/format";
+import { dellaRegione, inCircoscrizione, slugConsigliere } from "@/lib/format";
 import { OG_COLORI as C, OG_SIZE, OgEmiciclo, OgFrame, ogFonts } from "@/lib/og";
 
 export const size = OG_SIZE;
@@ -21,7 +21,7 @@ export default async function Image({ params }: { params: Promise<{ regione: str
 
   return new ImageResponse(
     (
-      <OgFrame etichetta={`Consiglio regionale della ${nome}`}>
+      <OgFrame etichetta={`Consiglio regionale ${dellaRegione(nome)}`}>
         <div style={{ display: "flex", width: "100%", alignItems: "center", gap: 48 }}>
           <div style={{ display: "flex", flexDirection: "column", flex: 1 }}>
             <div style={{ display: "flex", alignItems: "center", gap: 12, fontSize: 26, fontWeight: 600, color: C.ink2 }}>

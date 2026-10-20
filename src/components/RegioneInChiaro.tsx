@@ -3,6 +3,7 @@ import type { ConsiglioInChiaro } from "@/lib/types";
 import { Gruppo, Livello, PersonaRow } from "@/components/ui";
 import { Emiciclo } from "@/components/Emiciclo";
 import { IntestazioneRegione } from "@/components/IntestazioneRegione";
+import { dellaRegione } from "@/lib/format";
 
 /** Pagina principale di una regione "in chiaro": il Consiglio come emiciclo e la Giunta. */
 export function RegioneInChiaro({ cr }: { cr: ConsiglioInChiaro }) {
@@ -16,7 +17,7 @@ export function RegioneInChiaro({ cr }: { cr: ConsiglioInChiaro }) {
         attiva="regione"
         condividi={{
           path: `/regione/${cr.slug}/`,
-          testo: `Il Consiglio regionale della ${cr.nome} in un colpo d'occhio: tutti i consiglieri, i gruppi e i loro contatti.`,
+          testo: `Il Consiglio regionale ${dellaRegione(cr.nome)} in un colpo d'occhio: tutti i consiglieri, i gruppi e i loro contatti.`,
         }}
       />
 

@@ -17,7 +17,7 @@ import {
   regioniAggiornate,
   senatoriProporzionaliDi,
 } from "@/lib/data";
-import { inCircoscrizione, piuProvince } from "@/lib/format";
+import { dellaRegione, inCircoscrizione, laRegione, piuProvince } from "@/lib/format";
 import { ComuneSearch } from "@/components/ComuneSearch";
 import { Avatar, Avviso, Espandibile, Gruppo, Livello, PersonaRow, stileLivello, type LivelloId } from "@/components/ui";
 import { EmicicloRemoto } from "@/components/EmicicloRemoto";
@@ -146,7 +146,7 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
     reg?.contatti?.pec && { id: "regione", nome: `Regione ${c.regione}`, pec: reg.contatti.pec, descrizione: "Sanità, trasporti, ambiente, fondi europei" },
     cr?.regione.contattiConsiglio?.pec && {
       id: "consiglio",
-      nome: `Consiglio regionale della ${cr.nome}`,
+      nome: `Consiglio regionale ${dellaRegione(cr.nome)}`,
       pec: cr.regione.contattiConsiglio.pec,
       descrizione: "Atti, leggi e spese del Consiglio",
     },
@@ -534,8 +534,8 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
               )}
             </Avviso>
             <p className="text-sm text-ink-3">
-              Atti, leggi spiegate in parole semplici e la mappa dei consiglieri arriveranno anche per la {c.regione}: per ora sono
-              disponibili per {consigliInChiaro.length === 1 ? `la ${consigliInChiaro[0].nome}` : new Intl.ListFormat("it", { type: "conjunction" }).format(consigliInChiaro.map((x) => x.nome))}.{" "}
+              Atti, leggi spiegate in parole semplici e la mappa dei consiglieri arriveranno anche per {laRegione(c.regione)}: per ora sono
+              disponibili per {consigliInChiaro.length === 1 ? laRegione(consigliInChiaro[0].nome) : new Intl.ListFormat("it", { type: "conjunction" }).format(consigliInChiaro.map((x) => x.nome))}.{" "}
               <Link href="/consigli-in-chiaro/" className="text-accent underline">
                 Consigli regionali in chiaro →
               </Link>

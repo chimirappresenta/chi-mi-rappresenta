@@ -5,7 +5,7 @@
    "codice": "13",
    "nome": "Abruzzo",
    "slug": "abruzzo",
-   "inChiaro": false,
+   "inChiaro": true,
    "presidente": {
     "nome": "Marco Marsilio",
     "ruolo": "Presidente della Regione",

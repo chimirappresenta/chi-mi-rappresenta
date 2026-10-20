@@ -140,6 +140,27 @@
    "nome": "Circoscrizione di elezione (biografie dei consiglieri)",
    "ente": "Consiglio regionale della Calabria",
    "url": "https://www.consiglioregionale.calabria.it/portale/Istituzione/Consiglieri/Consiglieri"
+  },
+  {
+   "id": "abruzzo-cr",
+   "nome": "Consiglieri e gruppi consiliari",
+   "ente": "Consiglio regionale dell'Abruzzo",
+   "url": "https://www.consiglio.regione.abruzzo.it/contenuti/consiglieri-xii-legislatura",
+   "raccolto": "2026-10-20"
+  },
+  {
+   "id": "abruzzo-giunta",
+   "nome": "La Giunta regionale",
+   "ente": "Regione Abruzzo",
+   "url": "https://www.regione.abruzzo.it/giunta",
+   "raccolto": "2026-10-20"
+  },
+  {
+   "id": "abruzzo-atti",
+   "nome": "Documenti politici, progetti di legge (IterLegis) e leggi regionali",
+   "ente": "Consiglio regionale dell'Abruzzo",
+   "url": "https://www.consiglio.regione.abruzzo.it/documenti-politici-elenco",
+   "raccolto": "2026-10-20"
   }
  ],
  "avvisi": [
@@ -222,6 +243,710 @@
    "intestazione": "Legge regionale 21 novembre 2025, n. 44",
    "oggetto": "Rendiconto generale e rendiconto consolidato relativi all'esercizio finanziario 2024",
    "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=44&anno=2025"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2026-28",
+   "intestazione": "Legge regionale 16 settembre 2026, n. 28",
+   "oggetto": "Strumenti per la normalizzazione della liquidita' degli enti del Servizio sanitario regionale (SSR)",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2026/lr26028.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2026-27",
+   "intestazione": "Legge regionale 11 settembre 2026, n. 27",
+   "oggetto": "Assestamento al bilancio di previsione 2026-2028 ex art. 50 del d.lgs. 118/2011 e successive modifiche, con modifiche a leggi regionali e ulteriori disposizioni di natura finanziaria",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2026/lr26027.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2026-26",
+   "intestazione": "Legge regionale 7 agosto 2026, n. 26",
+   "oggetto": "Riconoscimento della legittimita' del debito fuori bilancio derivante dall'acquisizione di beni e servizi in assenza di preventivo impegno di spesa in favore di Automobile Club d'Italia, in ottemperanza a quanto previsto dall'art. 73, comma 1, lett. e), del d.lgs. 23 giugno 2011, n. 118 e ulteriori disposizioni",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2026/lr26026.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2026-25",
+   "intestazione": "Legge regionale 7 agosto 2026, n. 25",
+   "oggetto": "Modifiche alla legge regionale 9 giugno 2022, n. 9 (Disciplina modalita' di assegnazione delle concessioni di grandi derivazioni d'acqua a uso idroelettrico in attuazione dell'articolo 12 del decreto legislativo 16 marzo 1999, n. 79 (Attuazione della direttiva 96/92/CE recante norme comuni per il mercato interno dell'energia elettrica)) in attuazione del principio di leale collaborazione",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2026/lr26025.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2026-24",
+   "intestazione": "Legge regionale 7 agosto 2026, n. 24",
+   "oggetto": "Disposizioni per la valorizzazione e il riutilizzo dei beni confiscati alla criminalita' organizzata",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2026/lr26024.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2026-23",
+   "intestazione": "Legge regionale 7 agosto 2026, n. 23",
+   "oggetto": "Rendiconto generale per l'esercizio 2025",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2026/lr26023.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2026-22",
+   "intestazione": "Legge regionale 22 luglio 2026, n. 22",
+   "oggetto": "Istituzione e riconoscimento del ''Premio Buccio di Ranallo'' nella citta' dell'Aquila e ulteriori disposizioni",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2026/lr26022.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2026-21",
+   "intestazione": "Legge regionale 22 luglio 2026, n. 21",
+   "oggetto": "Riconoscimento della legittimita' del debito fuori bilancio derivante dall'acquisizione di beni e servizi in assenza del preventivo impegno di spesa, in ottemperanza a quanto previsto dall'art. 73 comma 1 lett. e) del d.lgs. 23 giugno 2011 n. 118 (Disposizioni in materia di armonizzazione dei sistemi contabili e degli schemi di bilancio delle Regioni, degli enti locali e dei loro organismi, a norma degli articoli 1 e 2 della legge 5 maggio 2009, n. 42). Impegni e liquidazioni di cui alla procedura ad evidenza pubblica per il servizio di ''rimozione, trasporto e avvio al trattamento appropriato dei rifiuti presenti presso l'impianto della Ditta Terraverde Energy S.r.l. sito nel Comune di Citta' Sant'Angelo''",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2026/lr26021.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2026-20",
+   "intestazione": "Legge regionale 22 luglio 2026, n. 20",
+   "oggetto": "Riconoscimento della legittimita' del debito fuori bilancio derivante dall'acquisizione di beni e servizi in assenza del preventivo impegno di spesa, in ottemperanza a quanto previsto dall'art. 73, comma 1, lett. e) del d.lgs. 23 giugno 2011 n. 118 (Disposizioni in materia di armonizzazione dei sistemi contabili e degli schemi di bilancio delle Regioni, degli enti locali e dei loro organismi, a norma degli articoli 1 e 2 della legge 5 maggio 2009, n. 42). Pagamento a favore di ARPA Lombardia per l'utilizzo applicativo O.R.SO. (Osservatorio Rifiuti Sovraregionale) della quota associativa annualita' 2018-2019-2020, e ulteriori disposizioni",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2026/lr26020.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2026-19",
+   "intestazione": "Legge regionale 22 luglio 2026, n. 19",
+   "oggetto": "Riconoscimento della legittimita' del debito fuori bilancio ai sensi dell'art. 73, comma 1, lett. e) del d.lgs. 23 giugno 2011, n. 118 (Disposizioni in materia di armonizzazione dei sistemi contabili e degli schemi di bilancio delle Regioni, degli Enti locali e loro Organismi, a norma degli artt. 1 e 2 della Legge 5 maggio 2009, n. 42) per acquisizione di beni e servizi in assenza del preventivo impegno di spesa relativi al trasporto pubblico ferroviario di Trenitalia S.p.A. nell'anno 2015 (saldo fattura n. 8101008170 del 31/12/2015). Dipartimento Infrastrutture e Trasporti - DPE e ulteriori disposizioni",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2026/lr26019.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2026-18",
+   "intestazione": "Legge regionale 14 luglio 2026, n. 18",
+   "oggetto": "Partecipazione della Regione ai Premi Internazionali Flaiano",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2026/lr26018.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2026-17",
+   "intestazione": "Legge regionale 7 luglio 2026, n. 17",
+   "oggetto": "Istituzione del Premio internazionale ''Celestino Award''",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2026/lr26017.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2026-16",
+   "intestazione": "Legge regionale 7 luglio 2026, n. 16",
+   "oggetto": "Disposizioni in materia di sicurezza urbana integrata, prevenzione dei reati predatori e istituzione del Bonus Sicurezza Abruzzo",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2026/lr26016.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2026-15",
+   "intestazione": "Legge regionale 7 luglio 2026, n. 15",
+   "oggetto": "Interventi a sostegno della partecipazione autonoma delle case editrici abruzzesi a fiere del libro nazionali e internazionali",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2026/lr26015.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2026-14",
+   "intestazione": "Legge regionale 7 luglio 2026, n. 14",
+   "oggetto": "Disposizioni per la valorizzazione e la modernizzazione delle edicole. Modifiche alla legge regionale 31 luglio 2018, n. 23 (Testo unico del Commercio)",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2026/lr26014.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2026-13",
+   "intestazione": "Legge regionale 3 luglio 2026, n. 13",
+   "oggetto": "Disposizioni di modifica delle leggi regionali 2/2003, 42/2013, 20/2016, 13/2018, 23/2018, 4/2024, 25/2024, 26/2024, 20/2025, 22/2025, 27/2025, 28/2025, 29/2025, 30/2025, 31/2025, 32/2025 e 36/2025 in attuazione del principio di leale collaborazione e ulteriori disposizioni",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2026/lr26013.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2026-12",
+   "intestazione": "Legge regionale 15 giugno 2026, n. 12",
+   "oggetto": "Modifiche alla legge regionale 12 aprile 2011, n. 9 (Norme in materia di Servizio Idrico Integrato della Regione Abruzzo)",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2026/lr26012.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2026-11",
+   "intestazione": "Legge regionale 15 giugno 2026, n. 11",
+   "oggetto": "Disposizioni per il riconoscimento, la tutela e la valorizzazione delle dimore storiche e delle residenze d'epoca",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2026/lr26011.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2026-10",
+   "intestazione": "Legge regionale 15 giugno 2026, n. 10",
+   "oggetto": "Adesione della Regione Abruzzo alla Associazione ''Vie e Cammini di Francesco''",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2026/lr26010.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2026-9",
+   "intestazione": "Legge regionale 7 maggio 2026, n. 9",
+   "oggetto": "Nuove disposizioni per l'individuazione di aree idonee all'installazione di impianti da fonti rinnovabili",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2026/lr26009.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2026-8",
+   "intestazione": "Legge regionale 7 maggio 2026, n. 8",
+   "oggetto": "Disposizioni in favore delle persone affette da dolore pelvico cronico e patologie correlate",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2026/lr26008.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2026-7",
+   "intestazione": "Legge regionale 5 maggio 2026, n. 7",
+   "oggetto": "Disposizioni per la promozione della qualita' architettonica e ulteriori disposizioni",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2026/lr26007.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2026-6",
+   "intestazione": "Legge regionale 14 aprile 2026, n. 6",
+   "oggetto": "Istituzione e disciplina dell'Ufficio del Garante regionale dei diritti degli anziani",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2026/lr26006.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2026-5",
+   "intestazione": "Legge regionale 8 aprile 2026, n. 5",
+   "oggetto": "Disposizioni in materia di agricoltura sociale e ulteriori disposizioni",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2026/lr26005.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2026-4",
+   "intestazione": "Legge regionale 3 marzo 2026, n. 4",
+   "oggetto": "Istituzione dell'Onorificenza ''Filomena Delli Castelli'' in memoria di tutte le donne abruzzesi che si sono particolarmente distinte nella storia della Regione Abruzzo e ulteriori disposizioni",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2026/lr26004.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2026-3",
+   "intestazione": "Legge regionale 15 gennaio 2026, n. 3",
+   "oggetto": "Bilancio di previsione finanziario 2026-2028",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2026/lr26003.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2026-2",
+   "intestazione": "Legge regionale 15 gennaio 2026, n. 2",
+   "oggetto": "Disposizioni finanziarie per la redazione del Bilancio di previsione finanziario 2026-2028 della Regione Abruzzo (Legge di stabilita' regionale 2026)",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2026/lr26002.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2026-1",
+   "intestazione": "Legge regionale 15 gennaio 2026, n. 1",
+   "oggetto": "Modifiche e integrazioni alla legge regionale 29 maggio 2025, n. 18 (Disciplina generale sull'attivita' normativa regionale e sulla qualita' della normazione)",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2026/lr26001.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-36",
+   "intestazione": "Legge regionale 29 dicembre 2025, n. 36",
+   "oggetto": "Riconoscimento della legittimita' del debito fuori bilancio ai sensi dell'art. 73, comma 1, lett. e) del d.lgs. 23 giugno 2011, n. 118 (Disposizioni in materia di armonizzazione dei sistemi contabili e degli schemi di bilancio delle Regioni, degli Enti Locali e loro Organismi, a norma degli artt. 1 e 2 della Legge 5 maggio 2009, n. 42) per acquisizione di beni e servizi in assenza del preventivo impegno di spesa e ulteriori disposizioni",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25036.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-35",
+   "intestazione": "Legge regionale 29 dicembre 2025, n. 35",
+   "oggetto": "Modifiche ed integrazioni all'art. 25 della legge regionale 25 gennaio 2024, n. 4 (Disposizioni finanziarie per la redazione del Bilancio di previsione finanziario 2024-2026 della Regione Abruzzo (Legge di stabilita' regionale 2024))",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25035.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-34",
+   "intestazione": "Legge regionale 28 novembre 2025, n. 34",
+   "oggetto": "Adesione al Premio nazionale di cultura Benedetto Croce e ulteriori disposizioni",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25034.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-33",
+   "intestazione": "Legge regionale 28 novembre 2025, n. 33",
+   "oggetto": "Riconoscimento e celebrazione manifestazione \"La Corsa degli Zingari\"",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25033.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-32",
+   "intestazione": "Legge regionale 28 novembre 2025, n. 32",
+   "oggetto": "Norme per la valorizzazione, conservazione e promozione dell'Area dei Cunicoli di Claudio",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25032.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-31",
+   "intestazione": "Legge regionale 28 novembre 2025, n. 31",
+   "oggetto": "Servizi per la salute dei minori, delle donne, delle coppie e delle famiglie",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25031.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-30",
+   "intestazione": "Legge regionale 26 novembre 2025, n. 30",
+   "oggetto": "Interventi regionali in favore delle attivita' di partecipazione ed informazione sul funzionamento degli organi regionali, a sostegno del merito e della ricerca in ambito universitario ed in favore di iniziative che promuovono la valorizzazione dell'immagine della Regione Abruzzo ed ulteriori disposizioni",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25030.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-29",
+   "intestazione": "Legge regionale 13 novembre 2025, n. 29",
+   "oggetto": "Disciplina delle Cooperative di Comunita' per il Lavoro e la Produzione ed ulteriori disposizioni",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25029.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-28",
+   "intestazione": "Legge regionale 13 novembre 2025, n. 28",
+   "oggetto": "Nuove norme regionali per la prevenzione e la mitigazione del rischio da valanga",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25028.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-27",
+   "intestazione": "Legge regionale 9 ottobre 2025, n. 27",
+   "oggetto": "Legge organica in materia di relazioni tra la Regione Abruzzo e le Comunita' di Abruzzesi nel Mondo e ulteriori disposizioni",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25027.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-26",
+   "intestazione": "Legge regionale 22 agosto 2025, n. 26",
+   "oggetto": "Istituzione dell'Agenzia Regionale Abruzzo Lavoro (ARAL)",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25026.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-25",
+   "intestazione": "Legge regionale 22 agosto 2025, n. 25",
+   "oggetto": "Disposizioni per il completamento della riforma del sistema produttivo abruzzese attraverso la conclusione del processo di riordino dei Consorzi industriali e la riforma ed il potenziamento dell'ARAP",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25025.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-24",
+   "intestazione": "Legge regionale 13 agosto 2025, n. 24",
+   "oggetto": "Assestamento al bilancio di previsione 2025-2027 ex art. 50 del d.lgs. 118/2011 e s.m.i., con modifiche a leggi regionali e ulteriori disposizioni",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25024.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-23",
+   "intestazione": "Legge regionale 13 agosto 2025, n. 23",
+   "oggetto": "Rendiconto generale per l'esercizio 2024",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25023.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-22",
+   "intestazione": "Legge regionale 1 agosto 2025, n. 22",
+   "oggetto": "Disposizioni di modifica delle leggi regionali 24/2005, 4/2009, 36/2013, 1/2025, 3/2025, 4/2025, 8/2025, 10/2025 e 13/2025 in attuazione del principio di leale collaborazione, modifiche a leggi regionali ed ulteriori disposizioni",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25022.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-21",
+   "intestazione": "Legge regionale 26 giugno 2025, n. 21",
+   "oggetto": "Disposizioni di modifica di leggi regionali vigenti e di carattere urgente",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25021.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-20",
+   "intestazione": "Legge regionale 24 giugno 2025, n. 20",
+   "oggetto": "Istituzione del Registro regionale degli informatori scientifici del farmaco",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25020.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-19",
+   "intestazione": "Legge regionale 24 giugno 2025, n. 19",
+   "oggetto": "Disposizioni di attuazione del decreto del Presidente della Repubblica 6 giugno 2001, n. 380 (Testo unico delle disposizioni legislative e regolamentari in materia edilizia (TestoA)), come modificato dal decreto legge 29 maggio 2024, n. 69 (Disposizioni urgenti in materia di semplificazione edilizia e urbanistica), convertito, con modificazioni, dalla legge 24 luglio 2024, n. 105. Modifiche a leggi regionali e disposizioni per favorire il recupero, la riconversione e la riqualificazione delle aree produttive",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25019.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-18",
+   "intestazione": "Legge regionale 29 maggio 2025, n. 18",
+   "oggetto": "Disciplina generale sull'attivita' normativa regionale e sulla qualita' della normazione",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25018.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-17",
+   "intestazione": "Legge regionale 29 maggio 2025, n. 17",
+   "oggetto": "Modifiche alla legge regionale 8 marzo 2005, n. 24 (Testo Unico in materia di sistemi di trasporto a mezzo di impianti a fune, o ad essi assimilati, piste da sci ed infrastrutture accessorie) e ulteriori disposizioni",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25017.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-16",
+   "intestazione": "Legge regionale 22 maggio 2025, n. 16",
+   "oggetto": "Disposizioni urgenti per la copertura del disavanzo del servizio sanitario regionale risultante dal conto economico al quarto trimestre 2024",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25016.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-15",
+   "intestazione": "Legge regionale 20 maggio 2025, n. 15",
+   "oggetto": "Norme per la valorizzazione della Pinacoteca Teofilo Patini e ulteriori disposizioni",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25015.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-14",
+   "intestazione": "Legge regionale 20 maggio 2025, n. 14",
+   "oggetto": "Norme per la valorizzazione, conservazione e promozione dell'Area Celestiniana di Sulmona",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25014.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-13",
+   "intestazione": "Legge regionale 20 maggio 2025, n. 13",
+   "oggetto": "Norme in materia di sicurezza del personale sanitario e sociosanitario",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25013.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-12",
+   "intestazione": "Legge regionale 20 maggio 2025, n. 12",
+   "oggetto": "Ratifica dell'Intesa tra la Regione Abruzzo e l'Amministrazione Militare regionale di Sumy dell'Ucraina",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25012.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-11",
+   "intestazione": "Legge regionale 20 maggio 2025, n. 11",
+   "oggetto": "Istituzione della Consulta dei giovani d'Abruzzo",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25011.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-10",
+   "intestazione": "Legge regionale 17 aprile 2025, n. 10",
+   "oggetto": "Disposizioni in merito alla costituzione di parte civile della Regione nei processi penali aventi ad oggetto fatti delittuosi ai danni dei soggetti di cui agli articoli 357, 358 e 359 del codice penale nonché reati contro la pubblica incolumità e contro la pubblica amministrazione commessi ai danni della Regione o di suoi Enti e ulteriori disposizioni",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25010.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-9",
+   "intestazione": "Legge regionale 4 aprile 2025, n. 9",
+   "oggetto": "Disposizioni in materia tributaria e sanitaria",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25009.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-8",
+   "intestazione": "Legge regionale 25 marzo 2025, n. 8",
+   "oggetto": "Misure urgenti per l'individuazione di aree e superfici idonee e non idonee all'installazione e promozione di impianti a fonti di energia rinnovabile e per la semplificazione dei procedimenti autorizzativi e modifica alla l.r. 46/2019",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25008.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-7",
+   "intestazione": "Legge regionale 20 marzo 2025, n. 7",
+   "oggetto": "Partecipazione all'Associazione ''European Chemical Regions Network'' ed ulteriori disposizioni",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25007.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-6",
+   "intestazione": "Legge regionale 11 marzo 2025, n. 6",
+   "oggetto": "Modifica alla legge regionale 12 gennaio 2018, n. 2 (Legge organica in materia di sport e impiantistica sportiva)",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25006.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-5",
+   "intestazione": "Legge regionale 11 marzo 2025, n. 5",
+   "oggetto": "Disposizioni per il sostegno alle attivita' di studio e ricerca in ambito universitario",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25005.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-4",
+   "intestazione": "Legge regionale 10 marzo 2025, n. 4",
+   "oggetto": "Riconoscimento e celebrazione manifestazione ''Marsicaland'' e ulteriori disposizioni",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25004.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-3",
+   "intestazione": "Legge regionale 6 febbraio 2025, n. 3",
+   "oggetto": "Modifiche a leggi regionali, proroga di termini previsti da disposizioni legislative e ulteriori disposizioni",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25003.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-2",
+   "intestazione": "Legge regionale 6 febbraio 2025, n. 2",
+   "oggetto": "Bilancio di previsione finanziario 2025-2027",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25002.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2025-1",
+   "intestazione": "Legge regionale 6 febbraio 2025, n. 1",
+   "oggetto": "Disposizioni finanziarie per la redazione del Bilancio di previsione finanziario 2025-2027 della Regione Abruzzo (Legge di stabilita' regionale 2025)",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2025/lr25001.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2024-32",
+   "intestazione": "Legge regionale 30 dicembre 2024, n. 32",
+   "oggetto": "Riconoscimento della legittimita' del debito fuori bilancio derivante dall'acquisizione di beni e servizi in assenza di preventivo impegno di spesa, in ottemperanza a quanto previsto dall'art. 73, comma 1, lett. e) del d.lgs. 23 giugno 2011, n. 118. Pagamento in favore di Engineering Ingegneria Informatica S.p.A. -Dipartimento Sanita' (DPF)",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24032.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2024-31",
+   "intestazione": "Legge regionale 30 dicembre 2024, n. 31",
+   "oggetto": "Riconoscimento della legittimita' del debito fuori bilancio ai sensi dell'art. 73, comma 1, lett. e) del d.lgs. 23 giugno 2011, n. 118 per acquisizione di beni e servizi in assenza del preventivo impegno di spesa (Erogazione in favore della Regione Toscana per il servizio di gestione della piattaforma Anagrafe Regionale dell'Edilizia Scolastica - A.R.E.S. 2.0). Servizio Edilizia Sociale e Scolastica - DPC022",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24031.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2024-30",
+   "intestazione": "Legge regionale 30 dicembre 2024, n. 30",
+   "oggetto": "Riconoscimento della legittimita' di debiti fuori bilancio derivanti dall'acquisizione di beni e servizi in assenza di preventivo impegno di spesa, in ottemperanza a quanto previsto dall'art. 73, comma 1, lett. e) del d.lgs. 23 giugno 2011, n. 118, e modifica alla l.r. 17/2024",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24030.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2024-29",
+   "intestazione": "Legge regionale 30 dicembre 2024, n. 29",
+   "oggetto": "Riconoscimento della legittimita' dei debiti fuori bilancio ai sensi dell'art. 73, comma 1, lett. e) del d.lgs. 23 giugno 2011, n. 118 per acquisizione di beni e servizi in assenza del preventivo impegno di spesa (Servizi scolastici aggiuntivi per il trasporto pubblico a seguito dell'Emergenza Covid - 19 di cui alla D.G.R. 521/2020). Dipartimento Infrastrutture e Trasporti - DPE",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24029.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2024-28",
+   "intestazione": "Legge regionale 30 dicembre 2024, n. 28",
+   "oggetto": "Modifiche alle leggi regionali 58/1989, 5/2024, 24/2024, 20/2023 e ulteriori disposizioni",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24028.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2024-27",
+   "intestazione": "Legge regionale 16 dicembre 2024, n. 27",
+   "oggetto": "Premio Internazionale Sabina Santilli",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24027.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2024-26",
+   "intestazione": "Legge regionale 16 dicembre 2024, n. 26",
+   "oggetto": "Disposizioni in materia di istruttoria per i procedimenti amministrativi relativi alla gestione del demanio marittimo nei porti di rilevanza regionale ed interregionale di competenza della Regione Abruzzo, di cui all'art. 105, comma 2, lett. l) del d.lgs. n. 112/1998, e ulteriori disposizioni di carattere urgente",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24026.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2024-25",
+   "intestazione": "Legge regionale 16 dicembre 2024, n. 25",
+   "oggetto": "Disposizioni finanziarie di carattere urgente",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24025.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2024-24",
+   "intestazione": "Legge regionale 9 dicembre 2024, n. 24",
+   "oggetto": "Disposizioni in materia sociale, sanitaria, di attivita' produttive, trasporti, politiche della montagna, cultura, di natura istituzionale, ordinamentale e finanziaria",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24024.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2024-23",
+   "intestazione": "Legge regionale 19 novembre 2024, n. 23",
+   "oggetto": "Riconoscimento della legittimita' del debito fuori bilancio ai sensi dell'art. 73, comma 1, lett. e) del d.lgs. 23 giugno 2011, n. 118, per acquisizione di beni e servizi in assenza del preventivo impegno di spesa (fornitura hardware idoneo a supportare software per programmazione e pianificazione dei servizi di TPL) e ulteriori disposizioni",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24023.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2024-22",
+   "intestazione": "Legge regionale 19 novembre 2024, n. 22",
+   "oggetto": "Riconoscimento della legittimita' del debito fuori bilancio ai sensi dell'art. 73, comma 1, lett. e) del d.lgs. 23 giugno 2011, n. 118, per acquisizione di beni e servizi in assenza del preventivo impegno di spesa (interventi per messa in sicurezza fiume Saline a Montesilvano in corrispondenza attraversamento autostradale A14 - lavori in somma urgenza) e ulteriori disposizioni urgenti",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24022.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2024-21",
+   "intestazione": "Legge regionale 19 novembre 2024, n. 21",
+   "oggetto": "Modifiche alla legge regionale 15 febbraio 2023 n. 10 (Disciplina del sistema turistico regionale)",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24021.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2024-20",
+   "intestazione": "Legge regionale 30 ottobre 2024, n. 20",
+   "oggetto": "Riconoscimento del debito fuori bilancio derivante da procedure espropriative o di occupazione d'urgenza per opere di pubblica utilita' ai sensi dell'art. 73, comma 1, lettera d), del d.lgs. 118/2011",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24020.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2024-19",
+   "intestazione": "Legge regionale 30 ottobre 2024, n. 19",
+   "oggetto": "Riconoscimento della legittimita' dei debiti fuori bilancio ai sensi dell'art. 73, comma 1, lett. e) del d.lgs. 23 giugno 2011, n. 118 per affidamento, per il tramite della centrale di committenza AreaCom, della fornitura e installazione di arredi e per la fornitura e installazione delle attrezzature informatiche degli Uffici di Prossimita' abruzzesi, in assenza della prenotazione di spesa",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24019.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2024-18",
+   "intestazione": "Legge regionale 30 ottobre 2024, n. 18",
+   "oggetto": "Riconoscimento della legittimita' del debito fuori bilancio in favore di Formez PA di euro 1.540.774,76 relativo alla realizzazione dell'intervento ''PAR FSC Abruzzo 2007- 2013 - Progetto Assistenza Tecnica al PAR FSC 2007-2013'', Convenzione tra la Regione Abruzzo e il Formez PA del 16.09.2013, e successive modifiche e integrazioni intervenute, ai sensi dell'art. 73, comma 1, lett. e) del decreto legislativo 23 giugno 2011, n. 118",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24018.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2024-17",
+   "intestazione": "Legge regionale 30 ottobre 2024, n. 17",
+   "oggetto": "Riconoscimento della legittimita' del debito fuori bilancio derivante dall'acquisizione di beni e servizi in assenza del preventivo impegno di spesa, in ottemperanza a quanto previsto dall'art. 73, comma 1, lett. e) del d.lgs. 23 giugno 2011, n. 118. Pagamento in favore di Agenzia Entrate Riscossione per pignoramento di credito verso terzi",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24017.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2024-16",
+   "intestazione": "Legge regionale 18 ottobre 2024, n. 16",
+   "oggetto": "Riconoscimento della legittimita' del debito fuori bilancio derivante da acquisizione di beni e servizi in assenza del preventivo impegno di spesa, in ottemperanza a quanto previsto dall'art. 73, comma 1, lett. e) del d.lgs. 23 giugno 2011, n. 118 - Pagamento a favore di CRAS s.r.l., azione C.1 progetto LIFE + A_GreeNet. - e ulteriori disposizioni urgenti",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24016.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2024-15",
+   "intestazione": "Legge regionale 17 settembre 2024, n. 15",
+   "oggetto": "Assestamento al Bilancio di previsione 2024-2026 ex art. 50, d.lgs. 118/2011 s.m.i., con modifiche a leggi regionali e ulteriori disposizioni",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24015.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2024-14",
+   "intestazione": "Legge regionale 30 agosto 2024, n. 14",
+   "oggetto": "Rendiconto generale per l'esercizio 2023 e modifica alla l.r. 9/2000",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24014.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2024-13",
+   "intestazione": "Legge regionale 30 agosto 2024, n. 13",
+   "oggetto": "Riconoscimento della legittimita' del debito fuori bilancio a favore dell'operatore economico Il Sole 24 Ore Spa, ai sensi dell'articolo 73, comma 1, lett. e) del decreto legislativo 23 giugno 2011, n. 118\" (Disposizioni in materia di armonizzazione dei sistemi contabili e degli schemi di bilancio delle Regioni, degli Enti locali e loro Organismi, a norma degli artt. 1 e 2 della Legge 5 maggio 2009, n. 42)",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24013.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2024-12",
+   "intestazione": "Legge regionale 30 agosto 2024, n. 12",
+   "oggetto": "Riconoscimento della legittimita' del debito fuori bilancio a favore dell'operatore economico Spray Record Snc, ai sensi dell'articolo 73, comma 1, lett. e) del decreto legislativo 23 giugno 2011, n. 118 (Disposizioni in materia di armonizzazione dei sistemi contabili e degli schemi di bilancio delle Regioni, degli Enti locali e loro Organismi, a norma degli artt. 1 e 2 della Legge 5 maggio 2009, n. 42)",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24012.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2024-11",
+   "intestazione": "Legge regionale 10 luglio 2024, n. 11",
+   "oggetto": "Disposizioni in materia di urbanistica e trasporti, cultura ed informazione: modifiche alle leggi regionali nn. 58/2023, 10/2011, 46/2013, 20/2023. Disposizioni ordinamentali, di proroga e ulteriori disposizioni",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24011.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2024-10",
+   "intestazione": "Legge regionale 5 luglio 2024, n. 10",
+   "oggetto": "Modifiche alle leggi regionali 15/1989, 58/1989, 31/2006, 43/2019, 58/2023, 1/2024, 4/2024, 5/2024, 6/2024, 7/2024 in attuazione del principio di leale collaborazione e ulteriori disposizioni",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24010.htm"
+  },
+  {
+   "regione": "Abruzzo",
+   "slug": "abruzzo",
+   "id": "2024-9",
+   "intestazione": "Legge regionale 23 maggio 2024, n. 9",
+   "oggetto": "Disposizioni urgenti per la copertura del disavanzo del servizio sanitario regionale risultante dal conto economico al quarto trimestre 2023",
+   "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24009.htm"
   }
  ]
 }

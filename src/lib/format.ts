@@ -12,3 +12,18 @@ export const slugConsigliere = (username: string) => username.toLowerCase().repl
  */
 export const piuProvince = (circ: string) => circ.includes(", ");
 export const inCircoscrizione = (circ: string) => (piuProvince(circ) ? `nelle province di ${circ}` : `in provincia di ${circ}`);
+
+/** Articolo e preposizione per le regioni: "dell'Abruzzo", "del Molise", "della Campania". */
+const ARTICOLO_REGIONE: Record<string, "l'" | "il" | "la"> = {
+  Abruzzo: "l'",
+  "Emilia-Romagna": "l'",
+  Umbria: "l'",
+  Molise: "il",
+  Lazio: "il",
+  Piemonte: "il",
+  Veneto: "il",
+  "Trentino-Alto Adige": "il",
+  "Friuli-Venezia Giulia": "il",
+};
+export const laRegione = (nome: string) => ({ "l'": `l'${nome}`, il: `il ${nome}`, la: `la ${nome}` })[ARTICOLO_REGIONE[nome] ?? "la"];
+export const dellaRegione = (nome: string) => ({ "l'": `dell'${nome}`, il: `del ${nome}`, la: `della ${nome}` })[ARTICOLO_REGIONE[nome] ?? "la"];

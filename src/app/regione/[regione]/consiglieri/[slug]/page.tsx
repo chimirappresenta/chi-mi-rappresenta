@@ -5,7 +5,7 @@ import { AttiFeed } from "@/components/AttiFeed";
 import { Gruppo, FontiNote, PersonaRow } from "@/components/ui";
 import { IntestazioneRegione } from "@/components/IntestazioneRegione";
 import { ScriviA } from "@/components/ScriviA";
-import { slugConsigliere } from "@/lib/format";
+import { dellaRegione, slugConsigliere } from "@/lib/format";
 
 export const dynamicParams = false;
 
@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: PageProps<"/regione/[regione]
   return t
     ? {
         title: `${t.c.nome}, consigliere regionale`,
-        description: `Contatti, commissioni e atti presentati in Consiglio regionale della ${t.cr.nome} da ${t.c.nome}.`,
+        description: `Contatti, commissioni e atti presentati in Consiglio regionale ${dellaRegione(t.cr.nome)} da ${t.c.nome}.`,
       }
     : {};
 }
@@ -46,13 +46,13 @@ export default async function ConsiglierePage({ params }: PageProps<"/regione/[r
       <IntestazioneRegione
         regione={cr.slug}
         titolo={c.nome}
-        sottotitolo={`Consigliere regionale${c.circoscrizione ? ` · eletto nella circoscrizione di ${c.circoscrizione}` : " · subentrato dopo le elezioni"}`}
+        sottotitolo={`Consigliere regionale${c.circoscrizione ? ` · eletto nella circoscrizione di ${c.circoscrizione}` : c.circoscrizione === null ? " · subentrato dopo le elezioni" : " · eletto come candidato alla presidenza della Regione"}`}
         intro={g ? `${g.nome}${c.ruoloGruppo ? ` (${c.ruoloGruppo})` : ""}${g.coalizione ? ` · ${g.coalizione}` : ""}` : (c.gruppo ?? "")}
         attiva={null}
         indietro={{ href: `/regione/${cr.slug}/`, label: "Giunta e Consiglio regionale" }}
         condividi={{
           path: `/regione/${cr.slug}/consiglieri/${slugConsigliere(c.username)}/`,
-          testo: `${c.nome}, consigliere regionale della ${cr.nome}${g ? ` (${g.sigla})` : ""}: contatti e ${s?.primoFirmatario ?? 0} atti presentati in Consiglio regionale.`,
+          testo: `${c.nome}, consigliere regionale ${dellaRegione(cr.nome)}${g ? ` (${g.sigla})` : ""}: contatti e ${s?.primoFirmatario ?? 0} atti presentati in Consiglio regionale.`,
         }}
       />
 

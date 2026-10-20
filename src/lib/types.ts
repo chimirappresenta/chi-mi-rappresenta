@@ -19,8 +19,11 @@ export type Persona = {
 };
 
 export type ConsigliereRegionale = Persona & {
-  /** Circoscrizione provinciale di elezione; null se da verificare. */
-  circoscrizione: string | null;
+  /**
+   * Circoscrizione di elezione (le province che comprende). null: subentrato dopo le elezioni;
+   * assente: eletto come candidato alla presidenza (seggio del secondo classificato).
+   */
+  circoscrizione?: string | null;
   username: string;
   gruppo?: string;
   /** "capogruppo", "vicecapogruppo"… se ha un ruolo nel gruppo. */

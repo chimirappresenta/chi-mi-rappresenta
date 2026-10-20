@@ -10,6 +10,7 @@ import { vincitoriSenato } from "./senato.mjs";
 import { integrazioniRegioni } from "./regioni-integrazioni.mjs";
 import { campania } from "./consigli/campania.mjs";
 import { calabria } from "./consigli/calabria.mjs";
+import { abruzzo } from "./consigli/abruzzo.mjs";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const RAW = path.join(ROOT, "data", "raw");
@@ -812,7 +813,7 @@ console.log("5/7 Consigli regionali in chiaro");
 const ammregTutte = csvObjects(await download("ammreg.csv", "https://dait.interno.gov.it/documenti/ammreg.csv"), 2);
 const ammregAggiornato = ammregTutte.length ? (fs.readFileSync(path.join(RAW, "ammreg.csv"), "utf8").match(/Aggiornato al (\d{2}\/\d{2}\/\d{4})/)?.[1]) : undefined;
 
-const CONSIGLI_IN_CHIARO = [campania, calabria];
+const CONSIGLI_IN_CHIARO = [campania, calabria, abruzzo];
 const codiciInChiaro = new Set(CONSIGLI_IN_CHIARO.map((m) => m.codice));
 let consigliPrima = {};
 try {
@@ -851,6 +852,10 @@ for (const modulo of CONSIGLI_IN_CHIARO) {
     ammreg: ammregTutte,
     raccolto,
   });
+
+  // Ogni consigliere ha una pagina /regione/<regione>/consiglieri/<username>/: gli identificativi devono essere unici.
+  const slugDoppi = regione.consiglieri.map((c) => c.username.toLowerCase().replace(/[^a-z0-9]+/g, "-")).filter((s, i, l) => l.indexOf(s) !== i);
+  if (slugDoppi.length) throw new Error(`${modulo.nome}: consiglieri con lo stesso identificativo: ${slugDoppi.join(", ")}`);
 
   // Rete di sicurezza: nella legislatura gli atti si aggiungono e non spariscono. Se il sito del Consiglio è sovraccarico
   // e restituisce pagine vuote, recuperiamo dalla pubblicazione precedente gli atti che mancano (quelli nuovi hanno la precedenza).

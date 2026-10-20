@@ -3,6 +3,7 @@ import Link from "next/link";
 import { consigliInChiaro, regioni } from "@/lib/data";
 import { Condividi } from "@/components/Condividi";
 import { stileLivello } from "@/components/ui";
+import { dellaRegione } from "@/lib/format";
 
 export const metadata: Metadata = {
   title: "Consigli regionali in chiaro",
@@ -76,7 +77,7 @@ export default function ConsigliInChiaroPage() {
               <span className="inline-flex rounded-full bg-[var(--lv-bg)] px-3 py-1 text-sm font-semibold text-[var(--lv)]">Disponibile</span>
               <p className="display mt-3 text-4xl group-hover:text-[var(--lv)]">{nome}</p>
               <p className="mt-2 text-base text-ink-2">
-                Il Consiglio regionale della {nome}: consiglieri, gruppi, atti e leggi della legislatura in corso.
+                Il Consiglio regionale {dellaRegione(nome)}: consiglieri, gruppi, atti e leggi della legislatura in corso.
               </p>
               <span className="mt-4 inline-block text-base font-semibold text-[var(--lv)] group-hover:underline">Apri il Consiglio regionale →</span>
             </div>

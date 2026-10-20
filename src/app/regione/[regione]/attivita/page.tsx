@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { consigliInChiaro, getConsiglio } from "@/lib/data";
-import { dataLunga, slugConsigliere } from "@/lib/format";
+import { dataLunga, dellaRegione, slugConsigliere } from "@/lib/format";
 import { AttiFeed } from "@/components/AttiFeed";
 import { SPIEGAZIONE_TIPI } from "@/components/consiglio";
 import { FontiNote } from "@/components/ui";
@@ -21,8 +21,8 @@ export async function generateMetadata({ params }: PageProps<"/regione/[regione]
   const cr = getConsiglio((await params).regione);
   return cr
     ? {
-        title: `Cosa fanno i consiglieri regionali della ${cr.nome}`,
-        description: `Interrogazioni, mozioni, proposte di legge e question time presentati dai consiglieri regionali della ${cr.nome}.`,
+        title: `Cosa fanno i consiglieri regionali ${dellaRegione(cr.nome)}`,
+        description: `Interrogazioni, mozioni, proposte di legge e question time presentati dai consiglieri regionali ${dellaRegione(cr.nome)}.`,
       }
     : {};
 }
@@ -44,7 +44,7 @@ export default async function AttivitaPage({ params }: PageProps<"/regione/[regi
         attiva="attivita"
         condividi={{
           path: `/regione/${cr.slug}/attivita/`,
-          testo: `${consiglio.atti.length} interrogazioni, mozioni e proposte di legge del Consiglio regionale della ${cr.nome}, con chi le ha firmate. Cerca per tema o per comune.`,
+          testo: `${consiglio.atti.length} interrogazioni, mozioni e proposte di legge del Consiglio regionale ${dellaRegione(cr.nome)}, con chi le ha firmate. Cerca per tema o per comune.`,
         }}
       />
 

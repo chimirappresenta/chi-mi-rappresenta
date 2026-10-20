@@ -2,6 +2,7 @@ import "server-only";
 import { nomeTipo } from "./data";
 import { SITE_URL } from "./sito";
 import type { Atto, ConsiglioInChiaro, Legge } from "./types";
+import { dellaRegione } from "./format";
 
 export type VoceFeed = { titolo: string; link: string; data: string; descrizione: string; guid: string };
 
@@ -12,7 +13,7 @@ export const vocePerAtto = (cr: ConsiglioInChiaro, a: Atto, prefisso = ""): Voce
   titolo: `${prefisso}${nomeTipo(cr, a.tipo)} n. ${a.numero}: ${a.titolo}`,
   link: a.url ?? `${SITE_URL}/regione/${cr.slug}/attivita/`,
   data: a.data,
-  descrizione: `Presentata da ${a.firmatari.map((f) => f.nome).join(", ")} nel Consiglio regionale della ${cr.nome}.`,
+  descrizione: `Presentata da ${a.firmatari.map((f) => f.nome).join(", ")} nel Consiglio regionale ${dellaRegione(cr.nome)}.`,
   guid: `atto-${a.id}`,
 });
 
