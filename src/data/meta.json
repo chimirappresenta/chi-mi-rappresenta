@@ -188,6 +188,27 @@
    "nome": "Circoscrizione di elezione dei consiglieri regionali (elezioni 2025)",
    "ente": "Wikipedia (verificato a mano)",
    "url": "https://it.wikipedia.org/wiki/Elezioni_regionali_in_Puglia_del_2025"
+  },
+  {
+   "id": "molise-cr",
+   "nome": "Consiglieri e gruppi consiliari",
+   "ente": "Consiglio regionale del Molise",
+   "url": "https://consiglio.regione.molise.it/13_legislatura",
+   "raccolto": "2026-10-20"
+  },
+  {
+   "id": "molise-giunta",
+   "nome": "La Giunta regionale",
+   "ente": "Regione Molise",
+   "url": "https://www.regione.molise.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/15989",
+   "raccolto": "2026-10-20"
+  },
+  {
+   "id": "molise-atti",
+   "nome": "Atti di indirizzo approvati, proposte di legge e leggi regionali",
+   "ente": "Consiglio regionale del Molise",
+   "url": "https://consiglioweb.regione.molise.it/atti.php",
+   "raccolto": "2026-10-20"
   }
  ],
  "avvisi": [
@@ -750,6 +771,358 @@
    "intestazione": "Legge regionale 23 maggio 2024, n. 9",
    "oggetto": "Disposizioni urgenti per la copertura del disavanzo del servizio sanitario regionale risultante dal conto economico al quarto trimestre 2023",
    "url": "http://www2.consiglio.regione.abruzzo.it/leggi_tv/abruzzo_lr/2024/lr24009.htm"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2026-10",
+   "intestazione": "Legge regionale 6 ottobre 2026, n. 10",
+   "oggetto": "Disposizioni per la proroga delle graduatorie dei concorsi pubblici per assunzioni a tempo indeterminato e determinato nell'Azienda sanitaria regionale del Molise - ASREM",
+   "url": "https://consiglio.regione.molise.it/node/26933"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2026-9",
+   "intestazione": "Legge regionale 6 ottobre 2026, n. 9",
+   "oggetto": "Elezioni regionali del 25 e 26 giugno 2023 per il rinnovo del Presidente della Giunta regionale e del Consiglio regionale: riconoscimento della legittimità di debito fuori bilancio ai sensi dell’articolo 73, comma 1, lettera e), del decreto legislativo 23 giugno 2011, n. 118",
+   "url": "https://consiglio.regione.molise.it/node/26932"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2026-8",
+   "intestazione": "Legge regionale 29 maggio 2026, n. 8",
+   "oggetto": "Bilancio di previsione della Regione Molise 2026-2028",
+   "url": "https://consiglio.regione.molise.it/node/26775"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2026-7",
+   "intestazione": "Legge regionale 26 maggio 2026, n. 7",
+   "oggetto": "Legge di stabilità regionale 2026",
+   "url": "https://consiglio.regione.molise.it/node/26774"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2026-6",
+   "intestazione": "Legge regionale 8 maggio 2026, n. 6",
+   "oggetto": "Riconoscimento della legittimità del debito fuori bilancio ai sensi dell’art. 73, comma 1, lett. a) del D.lgs. 23 giugno 2011, n. 118. Decreti ingiuntivi n. 167/2002 e n. 30/2003 emessi dal Tribunale di Larino (Sez. Distaccata di Termoli), confermati dalle sentenze n. 127/2005 e n. 84/2006 Tribunale di Larino, nonché sentenze di ottemperanza TAR Molise n. 395/2025 e n. 398/2025 e nomina del Direttore del Servizio Risorse Finanziarie, Bilancio e Ragioneria Generale della Regione Molise quale Commissario ad acta",
+   "url": "https://consiglio.regione.molise.it/node/26757"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2026-5",
+   "intestazione": "Legge regionale 30 marzo 2026, n. 5",
+   "oggetto": "Istituzione giornata regionale in memoria di Rodolfo De Moulins",
+   "url": "https://consiglio.regione.molise.it/node/26705"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2026-4",
+   "intestazione": "Legge regionale 30 marzo 2026, n. 4",
+   "oggetto": "Istituzione giornata regionale dello studente",
+   "url": "https://consiglio.regione.molise.it/node/26704"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2026-3",
+   "intestazione": "Legge regionale 30 marzo 2026, n. 3",
+   "oggetto": "Disposizioni per la salvaguardia e la valorizzazione dei dialetti della Regione Molise",
+   "url": "https://consiglio.regione.molise.it/node/26703"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2026-2",
+   "intestazione": "Legge regionale 27 febbraio 2026, n. 2",
+   "oggetto": "Valorizzazione e promozione dei presepi molisani",
+   "url": "https://consiglio.regione.molise.it/node/26702"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2026-1",
+   "intestazione": "Legge regionale 27 febbraio 2026, n. 1",
+   "oggetto": "Istituzione del garante regionale dei diritti delle persone con disabilità",
+   "url": "https://consiglio.regione.molise.it/node/26701"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2025-20",
+   "intestazione": "Legge regionale 23 dicembre 2025, n. 20",
+   "oggetto": "Autorizzazione all'esercizio provvisorio del bilancio di previsione della Regione Molise per l'anno 2026",
+   "url": "https://consiglio.regione.molise.it/node/26569"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2025-19",
+   "intestazione": "Legge regionale 23 dicembre 2025, n. 19",
+   "oggetto": "Rendiconto generale della Regione Molise per l'esercizio finanziario 2024",
+   "url": "https://consiglio.regione.molise.it/node/26568"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2025-18",
+   "intestazione": "Legge regionale 23 dicembre 2025, n. 18",
+   "oggetto": "Rendiconto generale della Regione Molise per l'esercizio finanziario 2023",
+   "url": "https://consiglio.regione.molise.it/node/26567"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2025-17",
+   "intestazione": "Legge regionale 16 dicembre 2025, n. 17",
+   "oggetto": "Assestamento del bilancio di previsione 2025 - 2027",
+   "url": "https://consiglio.regione.molise.it/node/26566"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2025-16",
+   "intestazione": "Legge regionale 5 dicembre 2025, n. 16",
+   "oggetto": "Riconoscimento della legittimità di debito fuori bilancio ai sensi dell'art. 73, comma 1, lett. e), del D.Lgs 23 giugno 2011, n. 118, per il pagamento di un indennizzo per attività professionale resa da avvocato del libero foro per il patrocinio svolto in vari procedimenti penali a tutela degli interessi civili della Regione Molise quale parte offesa, incarichi conferiti con : DGR 7 agosto 2015, n. 437 (Tribunale di Campobasso, R.G.N.R. n. 3051/2013, n. 3307/2013, n. 2742/2013, n. 4291/2012, n.1724/2013, n. 2743/2013, n. 2851/2013, n. 2337/2013), DGR 12 novembre 2015, n. 619 (Tribunale di Campobasso R.G.N.R. 2854/2013), DGR 14 dicembre 2015, n. 698 (Tribunale di Campobasso R.G.N.R. 4290/2012), DGR 5 maggio 2016, n. 197 (Tribunale di Campobasso R.G.N.R. 4157/2013), DGR 5 maggio 2016, n. 195 (Tribunale di Campobasso R.G.N.R. 2527/2013)",
+   "url": "https://consiglio.regione.molise.it/node/26543"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2025-15",
+   "intestazione": "Legge regionale 5 dicembre 2025, n. 15",
+   "oggetto": "Riconoscimento della legittimità di debito fuori bilancio ai sensi dell'art. 73, comma 1, lett. e), del D.Lgs 23 giugno 2011, n. 118, per il pagamento di un indennizzo per attività professionale resa da avvocato del libero foro per il patrocinio svolto nel procedimento dinanzi al Tribunale di Campobasso R.G. n. 1017/2019, incarico conferito con deliberazione di Giunta regionale del 2 aprile 2019, n. 103",
+   "url": "https://consiglio.regione.molise.it/node/26542"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2025-14",
+   "intestazione": "Legge regionale 5 dicembre 2025, n. 14",
+   "oggetto": "Riconoscimento della legittimità di debito fuori bilancio ai sensi dell'art. 73, comma 1, lett. e), del D.Lgs 23 giugno 2011, n. 118, per il pagamento di un indennizzo per attività professionale resa da avvocato del libero foro per la costituzione di parte civile nel procedimento penale R.G.N.R. n. 1414/2012, R.G. GIP n. 3299/2012",
+   "url": "https://consiglio.regione.molise.it/node/26541"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2025-13",
+   "intestazione": "Legge regionale 14 novembre 2025, n. 13",
+   "oggetto": "Disposizioni legislative per il riconoscimento e il sostegno del caregiver familiare",
+   "url": "https://consiglio.regione.molise.it/node/26491"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2025-12",
+   "intestazione": "Legge regionale 14 novembre 2025, n. 12",
+   "oggetto": "Promozione e valorizzazione dell'invecchiamento attivo e della buona salute",
+   "url": "https://consiglio.regione.molise.it/node/26490"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2025-11",
+   "intestazione": "Legge regionale 14 novembre 2025, n. 11",
+   "oggetto": "Istituzione del garante regionale per i diritti delle persone anziane",
+   "url": "https://consiglio.regione.molise.it/node/26489"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2025-10",
+   "intestazione": "Legge regionale 23 ottobre 2025, n. 10",
+   "oggetto": "Ulteriori disposizioni per la proroga delle graduatorie dei concorsi pubblici per assunzioni a tempo indeterminato nell'Azienda sanitaria regionale del Molise",
+   "url": "https://consiglio.regione.molise.it/node/26434"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2025-8",
+   "intestazione": "Legge regionale 24 settembre 2025, n. 8",
+   "oggetto": "Disposizioni urgenti in materia di formazione professionale e mercato del lavoro per l’attuazione del Piano Nazionale di Ripresa e Resilienza (PNRR). Modifiche alla legge regionale 30 marzo 1995, n. 10 (Nuovo ordinamento della formazione professionale)",
+   "url": "https://consiglio.regione.molise.it/node/26386"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2025-7",
+   "intestazione": "Legge regionale 24 settembre 2025, n. 7",
+   "oggetto": "Abrogazione della legge regionale 27 dicembre 2024, n. 11 (Rendiconto generale della Regione Molise per l'esercizio finanziario 2023)",
+   "url": "https://consiglio.regione.molise.it/node/26385"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2025-6",
+   "intestazione": "Legge regionale 30 maggio 2025, n. 6",
+   "oggetto": "Semplificazione amministrativa in materia di sanità pubblica. Abolizione del certificato medico per assenza scolastica",
+   "url": "https://consiglio.regione.molise.it/node/26223"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2025-5",
+   "intestazione": "Legge regionale 30 maggio 2025, n. 5",
+   "oggetto": "Modifiche al regolamento regionale 26 gennaio 2004, n. 1 (Regolamento applicativo della legge regionale n. 30/2002, ai sensi dell'art. 13, comma 1, lett.a))",
+   "url": "https://consiglio.regione.molise.it/node/26222"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2025-1",
+   "intestazione": "Legge regionale 18 marzo 2025, n. 1",
+   "oggetto": "Disposizioni in materia di agricoltura sociale",
+   "url": "https://consiglio.regione.molise.it/node/26099"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2024-14",
+   "intestazione": "Legge regionale 27 dicembre 2024, n. 14",
+   "oggetto": "Autorizzazione all’esercizio provvisorio del bilancio di previsione della Regione Molise per l’anno 2025",
+   "url": "https://consiglio.regione.molise.it/node/25965"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2024-13",
+   "intestazione": "Legge regionale 27 dicembre 2024, n. 13",
+   "oggetto": "Riconoscimento della legittimità del debito fuori bilancio ai sensi dell’articolo 73, comma 1, lettera a), del decreto legislativo 23 giugno 2011, n. 118 – Decreto ingiuntivo n.385/2019 (n.1330/19 R.G. Tribunale di Campobasso",
+   "url": "https://consiglio.regione.molise.it/node/25964"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2024-12",
+   "intestazione": "Legge regionale 27 dicembre 2024, n. 12",
+   "oggetto": "Riconoscimento della legittimità di debito fuori bilancio ai sensi dell’articolo 73, comma 1, lett. e), del d.lgs. 23 giugno 2011, n. 118, per il pagamento di un indennizzo per attività professionale resa da avvocato del libero foro per la rappresentanza e difesa della Regione Molise nei procedimenti innanzi a: TAR Molise, rg n. 16/2010, sentenza n. 992/2011; C. Stato, rg n. 4192/2012, sentenza n. 1462/2013; C. Stato rg nn. 6319-6320-6321/2010, ordinanze nn. 371-4197-4901/2010; TAR Molise rg n. 212/2004, sentenza n. 186/2011; C. Stato rg n. 8412/2011, sentenza n. 3867/2017; TAR Lazio rg n. 8693/2012, sentenza n. 9868/2013; TAR Molise rg n. 496/2007, sentenza 603/2013; TAR Molise rg n. 497/2007, sentenza n. 604/2013; Tar Molise rg n. 498/2007, sentenza n. 605/2013",
+   "url": "https://consiglio.regione.molise.it/node/25963"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2024-11",
+   "intestazione": "Legge regionale 27 dicembre 2024, n. 11",
+   "oggetto": "Rendiconto generale della Regione Molise per l'esercizio finanziario 2023",
+   "url": "https://consiglio.regione.molise.it/node/25962"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2024-10",
+   "intestazione": "Legge regionale 19 dicembre 2024, n. 10",
+   "oggetto": "Assestamento del bilancio di previsione 2024 - 2026",
+   "url": "https://consiglio.regione.molise.it/node/25954"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2024-8",
+   "intestazione": "Legge regionale 5 dicembre 2024, n. 8",
+   "oggetto": "Riconoscimento della legittimità di debito fuori bilancio ai sensi dell’articolo 73, comma 1, lett. e), del d.lgs. 23 giugno 2011, n. 118, per il pagamento di un indennizzo per attività professionale resa da avvocato del libero foro per la rappresentanza e difesa della Regione Molise nei procedimenti innanzi a: Tribunale di Campobasso r.g. n. 1149/1993, sent. 23 giugno 2000, n. 327; Corte d’appello di Campobasso r.g. 1/2001, sentenza 23 agosto 2005, n. 222; Tribunale di Campobasso r.g. 1154/1993, sentenza (parziale) 10 maggio 2001, n. 298 e sentenza (definitiva) 16 gennaio 2003, n. 22; Tribunale di Campobasso r.g. 1187/1993, sentenza 18 aprile 2002, n. 224; Tribunale di Campobasso r.g. 1153/1993, sentenza 15 aprile 2002, n. 217",
+   "url": "https://consiglio.regione.molise.it/node/25910"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2024-7",
+   "intestazione": "Legge regionale 7 novembre 2024, n. 7",
+   "oggetto": "Riconoscimento della legittimità di debito fuori bilancio ai sensi dell'art. 73, comma 1, lett. e), del d.lgs 23 giugno 2011, n. 118, per il pagamento di un indennizzo per attività professionale resa da avvocato del libero foro per la costituzione di parte civile nel procedimento penale r.g.n.r. 1001/2014 mod. 21, n. 1249/2014 R.G. GIP",
+   "url": "https://consiglio.regione.molise.it/node/25843"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2024-6",
+   "intestazione": "Legge regionale 24 ottobre 2024, n. 6",
+   "oggetto": "Disposizioni per la proroga delle graduatorie dei concorsi pubblici per le assunzioni a tempo indeterminato della Regione Molise, degli enti strumentali ed agenzie regionali e dell'Azienda sanitaria regionale del Molise",
+   "url": "https://consiglio.regione.molise.it/node/25814"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2024-5",
+   "intestazione": "Legge regionale 17 luglio 2024, n. 5",
+   "oggetto": "Rendiconto generale della Regione Molise per l'esercizio finanziario 2021",
+   "url": "https://consiglio.regione.molise.it/node/25708"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2024-4",
+   "intestazione": "Legge regionale 14 giugno 2024, n. 4",
+   "oggetto": "Abrogazione della legge regionale 31 dicembre 2022, n. 27 (Rendiconto generale della Regione Molise per l'esercizio finanziario 2021) e della legge regionale 28 dicembre 2023, n. 9 (Rendiconto generale della Regione Molise per l'esercizio finanziario 2022). Abrogazione degli articoli 2 e 3 della legge regionale 19 settembre 2023, n. 4 (Modifica dell'articolo 12 della legge regionale 30 dicembre 2020, n. 17 \"Rendiconto generale della Regione Molise per l'esercizio finanziario 2019\" e modifiche della legge regionale 31 dicembre 2022, n. 27 \"Rendiconto generale della Regione Molise per l'esercizio finanziario 2021\")",
+   "url": "https://consiglio.regione.molise.it/node/25589"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2024-3",
+   "intestazione": "Legge regionale 21 maggio 2024, n. 3",
+   "oggetto": "Modifiche della legge regionale 29 dicembre 2021, n. 8 (Rendiconto generale della Regione Molise per l'esercizio finanziario 2020) in ottemperanza alla sentenza della Corte costituzionale 24 gennaio 2024, n. 39 pubblicata nella Gazzetta ufficiale 13 marzo 2024, n. 11",
+   "url": "https://consiglio.regione.molise.it/node/25578"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2024-2",
+   "intestazione": "Legge regionale 29 aprile 2024, n. 2",
+   "oggetto": "Legge di stabilità regionale anno 2024",
+   "url": "https://consiglio.regione.molise.it/node/25530"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2024-1",
+   "intestazione": "Legge regionale 29 aprile 2024, n. 1",
+   "oggetto": "Bilancio di previsione della Regione Molise 2024 - 2026",
+   "url": "https://consiglio.regione.molise.it/node/25529"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2023-11",
+   "intestazione": "Legge regionale 29 dicembre 2023, n. 11",
+   "oggetto": "Riconoscimento della legittimità di debito fuori bilancio ai sensi dell’art. 73, comma 1, lett. e) del d.lgs. 23.06.2011, n. 118, per il pagamento del compenso da attività professionale resa da avvocato del libero foro nella controversia tributaria R.G. n. 14081/2014 dinanzi alla Corte di Cassazione",
+   "url": "https://consiglio.regione.molise.it/node/25344"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2023-10",
+   "intestazione": "Legge regionale 29 dicembre 2023, n. 10",
+   "oggetto": "Assestamento del bilancio di previsione della Regione Molise 2023 - 2025",
+   "url": "https://consiglio.regione.molise.it/node/25343"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2023-9",
+   "intestazione": "Legge regionale 28 dicembre 2023, n. 9",
+   "oggetto": "Rendiconto generale della Regione Molise per l'esercizio finanziario 2022",
+   "url": "https://consiglio.regione.molise.it/node/25342"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2023-7",
+   "intestazione": "Legge regionale 15 dicembre 2023, n. 7",
+   "oggetto": "Legge di stabilità regionale 2023",
+   "url": "https://consiglio.regione.molise.it/node/25332"
+  },
+  {
+   "regione": "Molise",
+   "slug": "molise",
+   "id": "2023-4",
+   "intestazione": "Legge regionale 19 settembre 2023, n. 4",
+   "oggetto": "Modifica dell'articolo 12 della legge regionale 30 dicembre 2020, n. 17 (Rendiconto generale della Regione Molise per l'esercizio finanziario 2019) e modifiche della legge regionale 31 dicembre 2022, n. 27 (Rendiconto generale della Regione Molise per l'esercizio finanziario 2021)",
+   "url": "https://consiglio.regione.molise.it/node/25123"
   }
  ]
 }

@@ -1,0 +1,29 @@
+{
+  "_nota": "Gruppi del Consiglio regionale del Molise (XIII legislatura), in ordine da sinistra a destra nell'emiciclo. coalizione: maggioranza (centrodestra, a sostegno del presidente Roberti) o opposizione (centrosinistra e M5S, coalizione di Gravina alle elezioni del 2023). nomiSito: nome del gruppo come scritto (in maiuscolo) sulla pagina dei gruppi del sito → nome da mostrare.",
+  "nomiSito": {
+    "GIORGIA MELONI - FRATELLI D'ITALIA": "Fratelli d'Italia",
+    "FORZA ITALIA - BERLUSCONI PER IL MOLISE": "Forza Italia",
+    "IL MOLISE CHE VOGLIAMO": "Il Molise che vogliamo",
+    "IL MOLISE IN BUONE MANI - NOI MODERATI": "Il Molise in buone mani - Noi Moderati",
+    "POPOLARI PER L'ITALIA": "Popolari per l'Italia",
+    "LEGA SALVINI - PREMIER": "Lega Salvini Premier",
+    "ROBERTI PESIDENTE - PER IL MOLISE": "Roberti Presidente - Per il Molise",
+    "PD - PARTITO DEMOCRATICO": "Partito Democratico",
+    "MOVIMENTO 5 STELLE": "Movimento 5 Stelle",
+    "COSTRUIRE DEMOCRAZIA": "Costruire Democrazia",
+    "GRAVINA PRESIDENTE": "Gravina Presidente"
+  },
+  "gruppi": {
+    "Fratelli d'Italia": { "sigla": "FdI", "coalizione": "maggioranza", "colore": "#2c4f96" },
+    "Lega Salvini Premier": { "sigla": "Lega", "coalizione": "maggioranza", "colore": "#1f9e9a" },
+    "Forza Italia": { "sigla": "FI", "coalizione": "maggioranza", "colore": "#2f7fd6" },
+    "Roberti Presidente - Per il Molise": { "sigla": "Roberti Pres.", "coalizione": "maggioranza", "colore": "#6b8fbf" },
+    "Il Molise che vogliamo": { "sigla": "Molise che vogliamo", "coalizione": "maggioranza", "colore": "#5aa0c8" },
+    "Il Molise in buone mani - Noi Moderati": { "sigla": "Noi Moderati", "coalizione": "maggioranza", "colore": "#8e7cc3" },
+    "Popolari per l'Italia": { "sigla": "Popolari", "coalizione": "maggioranza", "colore": "#b08a3c" },
+    "Costruire Democrazia": { "sigla": "Costruire Dem.", "coalizione": "opposizione", "colore": "#c0398a" },
+    "Gravina Presidente": { "sigla": "Gravina Pres.", "coalizione": "opposizione", "colore": "#f08a3c" },
+    "Partito Democratico": { "sigla": "PD", "coalizione": "opposizione", "colore": "#d6363b" },
+    "Movimento 5 Stelle": { "sigla": "M5S", "coalizione": "opposizione", "colore": "#e0b400" }
+  }
+}

@@ -8,9 +8,12 @@ export const slugConsigliere = (username: string) => username.toLowerCase().repl
 
 /**
  * Circoscrizione regionale di elezione, come si scrive in una frase. Le circoscrizioni sono indicate con le province che
- * comprendono: "Napoli" → "in provincia di Napoli"; "Catanzaro, Crotone e Vibo Valentia" → "nelle province di …".
+ * comprendono: "Napoli" → "in provincia di Napoli"; "Catanzaro, Crotone e Vibo Valentia" o "Campobasso e Isernia"
+ * (circoscrizione unica del Molise) → "nelle province di …".
  */
-export const piuProvince = (circ: string) => circ.includes(", ");
+/** Province il cui nome contiene già " e " (non sono due province). */
+const PROVINCE_CON_E = ["Pesaro e Urbino"];
+export const piuProvince = (circ: string) => circ.includes(", ") || (circ.includes(" e ") && !PROVINCE_CON_E.includes(circ));
 export const inCircoscrizione = (circ: string) => (piuProvince(circ) ? `nelle province di ${circ}` : `in provincia di ${circ}`);
 
 /** Articolo e preposizione per le regioni: "dell'Abruzzo", "del Molise", "della Campania". */

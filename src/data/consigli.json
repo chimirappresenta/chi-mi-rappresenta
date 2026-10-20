@@ -38304,5 +38304,3443 @@
     "url": "https://it.wikipedia.org/wiki/Elezioni_regionali_in_Puglia_del_2025"
    }
   }
+ },
+ "molise": {
+  "slug": "molise",
+  "codice": "14",
+  "nome": "Molise",
+  "elezione": "I consiglieri sono eletti in un'unica circoscrizione che comprende tutta la regione.",
+  "regione": {
+   "nome": "Molise",
+   "presidente": {
+    "nome": "Francesco Roberti",
+    "ruolo": "Presidente della Regione",
+    "dettaglio": "Gruppo: Roberti Presidente - Per il Molise (capogruppo)",
+    "email": "presidente.roberti@regione.molise.it",
+    "url": "https://www.regione.molise.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/19394",
+    "username": "roberti.fra",
+    "gruppo": "Roberti Presidente - Per il Molise",
+    "ruoloGruppo": "capogruppo"
+   },
+   "giunta": [
+    {
+     "nome": "Roberto Di Baggio",
+     "ruolo": "Vicepresidente e assessore",
+     "dettaglio": "Istruzione e formazione professionale, Politiche delle risorse umane, Tutela dell'ambiente e difesa del suolo",
+     "url": "https://www.regione.molise.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/22274"
+    },
+    {
+     "nome": "Gianluca Cefaratti",
+     "ruolo": "Assessore",
+     "dettaglio": "Bilancio, finanza e patrimonio, politiche del lavoro",
+     "url": "https://www.regione.molise.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/19395"
+    },
+    {
+     "nome": "Armandino D'Egidio",
+     "ruolo": "Assessore",
+     "dettaglio": "Sport, semplificazione dei procedimenti amministrativi agenda digitale",
+     "url": "https://www.regione.molise.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/22267"
+    },
+    {
+     "nome": "Michele Marone",
+     "ruolo": "Assessore",
+     "dettaglio": "Lavori pubblici; Viabilità ed Infrastrutture; Demanio regionale",
+     "url": "https://www.regione.molise.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/19396"
+    },
+    {
+     "nome": "Salvatore Micone",
+     "ruolo": "Assessore",
+     "dettaglio": "Transizione digitale, Politiche agricole e agroalimentari, sviluppo rurale, Pesca, Programmazione forestale, Marketing territoriale e sviluppo della montagna",
+     "url": "https://www.regione.molise.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/19404"
+    },
+    {
+     "nome": "Vincenzo Niro",
+     "ruolo": "Sottosegretario",
+     "url": "https://www.regione.molise.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/21168"
+    }
+   ],
+   "consiglieri": [
+    {
+     "nome": "Roberto Di Baggio",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Gruppo: Forza Italia",
+     "email": "cons.dibaggio@regione.molise.it",
+     "url": "https://consiglio.regione.molise.it/dibaggioXIII",
+     "circoscrizione": "Campobasso e Isernia",
+     "username": "di baggio.rob",
+     "gruppo": "Forza Italia"
+    },
+    {
+     "nome": "Nicola Cavaliere",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Gruppo: Forza Italia (capogruppo)",
+     "email": "cons.cavaliere@regione.molise.it",
+     "url": "https://consiglio.regione.molise.it/cavaliereXIII",
+     "circoscrizione": "Campobasso e Isernia",
+     "username": "cavaliere.nic",
+     "gruppo": "Forza Italia",
+     "ruoloGruppo": "capogruppo"
+    },
+    {
+     "nome": "Fabio Cofelice",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Gruppo: Il Molise in buone mani - Noi Moderati (capogruppo)",
+     "email": "cons.cofelice@regione.molise.it",
+     "url": "https://consiglio.regione.molise.it/cofeliceXIII",
+     "circoscrizione": "Campobasso e Isernia",
+     "username": "cofelice.fab",
+     "gruppo": "Il Molise in buone mani - Noi Moderati",
+     "ruoloGruppo": "capogruppo"
+    },
+    {
+     "nome": "Armandino D'Egidio",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Gruppo: Fratelli d'Italia (capogruppo)",
+     "email": "cons.degidio@regione.molise.it",
+     "url": "https://consiglio.regione.molise.it/degidioXIII",
+     "circoscrizione": "Campobasso e Isernia",
+     "username": "d egidio.arm",
+     "gruppo": "Fratelli d'Italia",
+     "ruoloGruppo": "capogruppo"
+    },
+    {
+     "nome": "Raimondo Fabrizio",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Gruppo: Il Molise che vogliamo",
+     "email": "cons.fabrizio@regione.molise.it",
+     "url": "https://consiglio.regione.molise.it/fabrizioXIII",
+     "circoscrizione": "Campobasso e Isernia",
+     "username": "fabrizio.rai",
+     "gruppo": "Il Molise che vogliamo"
+    },
+    {
+     "nome": "Vittorino Facciolla",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Gruppo: Partito Democratico",
+     "email": "vittorino.facciolla@regione.molise.it",
+     "url": "https://consiglio.regione.molise.it/facciollaXIII",
+     "circoscrizione": "Campobasso e Isernia",
+     "username": "facciolla.vit",
+     "gruppo": "Partito Democratico"
+    },
+    {
+     "nome": "Micaela Fanelli",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Gruppo: Partito Democratico",
+     "email": "cons.fanelli@regione.molise.it",
+     "url": "https://consiglio.regione.molise.it/fanelliXIII",
+     "circoscrizione": "Campobasso e Isernia",
+     "username": "fanelli.mic",
+     "gruppo": "Partito Democratico"
+    },
+    {
+     "nome": "Roberto Gravina",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Gruppo: Gravina Presidente (capogruppo)",
+     "email": "cons.gravina@regione.molise.it",
+     "url": "https://consiglio.regione.molise.it/gravinaXIII",
+     "username": "gravina.rob",
+     "gruppo": "Gravina Presidente",
+     "ruoloGruppo": "capogruppo"
+    },
+    {
+     "nome": "Andrea Greco",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Gruppo: Movimento 5 Stelle (capogruppo)",
+     "email": "cons.greco@regione.molise.it",
+     "url": "https://consiglio.regione.molise.it/grecoXIII",
+     "circoscrizione": "Campobasso e Isernia",
+     "username": "greco.and",
+     "gruppo": "Movimento 5 Stelle",
+     "ruoloGruppo": "capogruppo"
+    },
+    {
+     "nome": "Angelo Michele Iorio",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Gruppo: Fratelli d'Italia",
+     "email": "segr.gen.consiglio@regione.molise.it",
+     "url": "https://consiglio.regione.molise.it/iorioXIII",
+     "circoscrizione": "Campobasso e Isernia",
+     "username": "iorio.ang",
+     "gruppo": "Fratelli d'Italia"
+    },
+    {
+     "nome": "Andrea Di Lucente",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Gruppo: Forza Italia",
+     "email": "segr.gen.consiglio@regione.molise.it",
+     "url": "https://consiglio.regione.molise.it/dilucenteXIII",
+     "circoscrizione": "Campobasso e Isernia",
+     "username": "di lucente.and",
+     "gruppo": "Forza Italia"
+    },
+    {
+     "nome": "Salvatore Micone",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Gruppo: Fratelli d'Italia",
+     "email": "segr.gen.consiglio@regione.molise.it",
+     "url": "https://consiglio.regione.molise.it/miconeXIII",
+     "circoscrizione": "Campobasso e Isernia",
+     "username": "micone.sal",
+     "gruppo": "Fratelli d'Italia"
+    },
+    {
+     "nome": "Vincenzo Niro",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Gruppo: Popolari per l'Italia (capogruppo)",
+     "email": "segr.gen.consiglio@regione.molise.it",
+     "url": "https://consiglio.regione.molise.it/niroXIII",
+     "circoscrizione": "Campobasso e Isernia",
+     "username": "niro.vin",
+     "gruppo": "Popolari per l'Italia",
+     "ruoloGruppo": "capogruppo"
+    },
+    {
+     "nome": "Quintino Vincenzo Pallante",
+     "ruolo": "Presidente del Consiglio regionale",
+     "dettaglio": "Gruppo: Fratelli d'Italia",
+     "email": "presidenza.consiglio@regione.molise.it",
+     "url": "https://consiglio.regione.molise.it/pallanteXIII",
+     "circoscrizione": "Campobasso e Isernia",
+     "username": "pallante.qui",
+     "gruppo": "Fratelli d'Italia"
+    },
+    {
+     "nome": "Roberto Di Pardo",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Gruppo: Il Molise in buone mani - Noi Moderati",
+     "email": "cons.dipardo@regione.molise.it",
+     "url": "https://consiglio.regione.molise.it/dipardoXIII",
+     "circoscrizione": "Campobasso e Isernia",
+     "username": "di pardo.rob",
+     "gruppo": "Il Molise in buone mani - Noi Moderati"
+    },
+    {
+     "nome": "Stefania Passarelli",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Gruppo: Il Molise che vogliamo (capogruppo)",
+     "email": "cons.passarelli@regione.molise.it",
+     "url": "https://consiglio.regione.molise.it/passarelliXIII",
+     "circoscrizione": "Campobasso e Isernia",
+     "username": "passarelli.ste",
+     "gruppo": "Il Molise che vogliamo",
+     "ruoloGruppo": "capogruppo"
+    },
+    {
+     "nome": "Angelo Primiani",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Gruppo: Movimento 5 Stelle",
+     "email": "cons.primiani@regione.molise.it",
+     "url": "https://consiglio.regione.molise.it/primianiXIII",
+     "circoscrizione": "Campobasso e Isernia",
+     "username": "primiani.ang",
+     "gruppo": "Movimento 5 Stelle"
+    },
+    {
+     "nome": "Massimo Romano",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Gruppo: Costruire Democrazia (capogruppo)",
+     "email": "cons.romano@regione.molise.it",
+     "url": "https://consiglio.regione.molise.it/romanoXIII",
+     "circoscrizione": "Campobasso e Isernia",
+     "username": "romano.mas",
+     "gruppo": "Costruire Democrazia",
+     "ruoloGruppo": "capogruppo"
+    },
+    {
+     "nome": "Guido Massimo Sabusco",
+     "ruolo": "Consigliere regionale",
+     "dettaglio": "Gruppo: Lega Salvini Premier (capogruppo)",
+     "email": "cons.sabusco@regione.molise.it",
+     "url": "https://consiglio.regione.molise.it/sabuscoXIII",
+     "circoscrizione": "Campobasso e Isernia",
+     "username": "sabusco.gui",
+     "gruppo": "Lega Salvini Premier",
+     "ruoloGruppo": "capogruppo"
+    },
+    {
+     "nome": "Alessandra Salvatore",
+     "ruolo": "Consigliera regionale",
+     "dettaglio": "Gruppo: Partito Democratico (capogruppo)",
+     "email": "cons.salvatore@regione.molise.it",
+     "url": "https://consiglio.regione.molise.it/salvatoreXIII",
+     "circoscrizione": "Campobasso e Isernia",
+     "username": "salvatore.ale",
+     "gruppo": "Partito Democratico",
+     "ruoloGruppo": "capogruppo"
+    }
+   ],
+   "gruppi": [
+    {
+     "nome": "Fratelli d'Italia",
+     "sigla": "FdI",
+     "coalizione": "maggioranza",
+     "colore": "#2c4f96"
+    },
+    {
+     "nome": "Lega Salvini Premier",
+     "sigla": "Lega",
+     "coalizione": "maggioranza",
+     "colore": "#1f9e9a"
+    },
+    {
+     "nome": "Forza Italia",
+     "sigla": "FI",
+     "coalizione": "maggioranza",
+     "colore": "#2f7fd6"
+    },
+    {
+     "nome": "Roberti Presidente - Per il Molise",
+     "sigla": "Roberti Pres.",
+     "coalizione": "maggioranza",
+     "colore": "#6b8fbf"
+    },
+    {
+     "nome": "Il Molise che vogliamo",
+     "sigla": "Molise che vogliamo",
+     "coalizione": "maggioranza",
+     "colore": "#5aa0c8"
+    },
+    {
+     "nome": "Il Molise in buone mani - Noi Moderati",
+     "sigla": "Noi Moderati",
+     "coalizione": "maggioranza",
+     "colore": "#8e7cc3"
+    },
+    {
+     "nome": "Popolari per l'Italia",
+     "sigla": "Popolari",
+     "coalizione": "maggioranza",
+     "colore": "#b08a3c"
+    },
+    {
+     "nome": "Costruire Democrazia",
+     "sigla": "Costruire Dem.",
+     "coalizione": "opposizione",
+     "colore": "#c0398a"
+    },
+    {
+     "nome": "Gravina Presidente",
+     "sigla": "Gravina Pres.",
+     "coalizione": "opposizione",
+     "colore": "#f08a3c"
+    },
+    {
+     "nome": "Partito Democratico",
+     "sigla": "PD",
+     "coalizione": "opposizione",
+     "colore": "#d6363b"
+    },
+    {
+     "nome": "Movimento 5 Stelle",
+     "sigla": "M5S",
+     "coalizione": "opposizione",
+     "colore": "#e0b400"
+    }
+   ],
+   "contatti": {
+    "nome": "Regione Molise",
+    "pec": "regionemolise@cert.regione.molise.it",
+    "sito": "https://www.regione.molise.it"
+   },
+   "contattiConsiglio": {
+    "nome": "Consiglio Regionale del Molise",
+    "pec": "consiglioregionalemolise@cert.regione.molise.it",
+    "sito": "https://consiglio.regione.molise.it/"
+   }
+  },
+  "consiglio": {
+   "legislatura": "13",
+   "inizio": "2023-06-26",
+   "tipi": [
+    {
+     "id": "pdl",
+     "nome": "Proposta di legge",
+     "plurale": "Proposte di legge"
+    },
+    {
+     "id": "mozione",
+     "nome": "Mozione",
+     "plurale": "Mozioni"
+    },
+    {
+     "id": "odg",
+     "nome": "Ordine del giorno",
+     "plurale": "Ordini del giorno"
+    }
+   ],
+   "atti": [
+    {
+     "id": "pdl-102",
+     "tipo": "pdl",
+     "numero": 102,
+     "data": "2026-09-24",
+     "titolo": "Disposizioni per la proroga delle graduatorie dei concorsi pubblici per assunzioni a tempo indeterminato per i profili amministrativi nell’azienda sanitaria regionale del Molise – ASReM",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/PDL%20102.pdf"
+    },
+    {
+     "id": "pdl-100",
+     "tipo": "pdl",
+     "numero": 100,
+     "data": "2026-09-11",
+     "titolo": "Proposta di legge n. 100 (titolo nel testo allegato)",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/pdl%20100%20testo%20originario.pdf"
+    },
+    {
+     "id": "pdl-99",
+     "tipo": "pdl",
+     "numero": 99,
+     "data": "2026-09-11",
+     "titolo": "Proposta di legge n. 99 (titolo nel testo allegato)",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/pdl%2099%20testo%20originario.pdf"
+    },
+    {
+     "id": "pdl-98",
+     "tipo": "pdl",
+     "numero": 98,
+     "data": "2026-08-19",
+     "titolo": "Elezioni regionali del 25 e 26 giugno 2023 per il rinnovo del Presidente della Giunta regionale e del Consiglio regionale: Riconoscimento della legittimità di debito fuori bilancio ai sensi dell’articolo 73, comma 1, lettera e) del decreto legislativo n. 118/2011",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/PDL%2098.pdf"
+    },
+    {
+     "id": "pdl-95",
+     "tipo": "pdl",
+     "numero": 95,
+     "data": "2026-08-19",
+     "titolo": "Rendiconto generale della Regione Molise per l'esercizio finanziario 2025",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/PDL%2095.pdf"
+    },
+    {
+     "id": "pdl-97",
+     "tipo": "pdl",
+     "numero": 97,
+     "data": "2026-07-20",
+     "titolo": "Proposta di legge n. 97 (titolo nel testo allegato)",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/Pdl_contrasto_discriminazione_di_genere.pdf"
+    },
+    {
+     "id": "pdl-96",
+     "tipo": "pdl",
+     "numero": 96,
+     "data": "2026-07-02",
+     "titolo": "Istituzione del Catasto regionale delle aree industriali, produttive, artigianali e commerciali dismesse",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/PDL_%2Brelazione_catasto_regionale_aree_industriali_e_produttive_dismesse_v3.pdf"
+    },
+    {
+     "id": "pdl-84",
+     "tipo": "pdl",
+     "numero": 84,
+     "data": "2026-05-11",
+     "titolo": "Norme per la rigenerazione urbana, la riqualificazione, il riuso e il governo sostenibile del territorio",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/113%20allegato_A_proposta_di_legge_bilancio_2026-2028_Livello1.pdf"
+    },
+    {
+     "id": "pdl-93",
+     "tipo": "pdl",
+     "numero": 93,
+     "data": "2026-04-27",
+     "titolo": "Bilancio di Previsione della Regione Molise 2026-2028",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/113%20allegato_A_proposta_di_legge_bilancio_2026-2028_Livello1.pdf"
+    },
+    {
+     "id": "pdl-90",
+     "tipo": "pdl",
+     "numero": 90,
+     "data": "2026-04-08",
+     "titolo": "Riconoscimento della legittimità del debito fuori bilancio ai sensi dell’art. 73, comma 1, lett. a) del D.lgs. 23 giugno 2011, n. 118. Decreti ingiuntivi n. 167/2002 e n. 30/2003 emessi dal Tribunale di Larino (Sez. Distaccata di Termoli), confermati dalle sentenze n. 127/2005 e n. 84/2006 Tribunale di Larino, nonché sentenze di ottemperanza TAR Molise n. 395/2025 e n. 398/2025 e nomina del Direttore del Servizio Risorse Finanziarie, Bilancio e Ragioneria Generale della Regione Molise quale Commissario ad acta",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/PDL%2090%20ALL._B%29_Articolato_di_Legge.pdf"
+    },
+    {
+     "id": "mozione-651",
+     "tipo": "mozione",
+     "numero": 651,
+     "data": "2026-03-03",
+     "titolo": "Mozione, a firma dei consiglieri Passarelli, Iorio, Di Lucente, Micone, Di Pardo, Sabusco e Cofelice ad oggetto \"Impegno al Presidente della Giunta Regionale",
+     "esito": "approvata",
+     "esitoData": "3 marzo 2026",
+     "firmatari": [
+      {
+       "nome": "Stefania Passarelli",
+       "username": "passarelli.ste"
+      },
+      {
+       "nome": "Angelo Michele Iorio",
+       "username": "iorio.ang"
+      },
+      {
+       "nome": "Andrea Di Lucente",
+       "username": "di lucente.and"
+      },
+      {
+       "nome": "Salvatore Micone",
+       "username": "micone.sal"
+      },
+      {
+       "nome": "Roberto Di Pardo",
+       "username": "di pardo.rob"
+      },
+      {
+       "nome": "Guido Massimo Sabusco",
+       "username": "sabusco.gui"
+      },
+      {
+       "nome": "Fabio Cofelice",
+       "username": "cofelice.fab"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "mozione-650",
+     "tipo": "mozione",
+     "numero": 650,
+     "data": "2026-03-03",
+     "titolo": "Mozione, a firma dei consiglieri Roberti, Cofelice, Niro, Iorio, Di Lucente, Romano, Sabusco, Facciolla, Passarelli, Fanelli, D'Egidio, Pallante, Greco, Salvatore, Primiani, Micone, Gravina, Di Baggio e Di Pardo, ad oggetto \"Determinazioni ed azioni urgenti in merito al Piano Operativo Sanitario (POS) 2025-2028 e tutela dei servizi sanitari essenziali",
+     "esito": "approvata",
+     "esitoData": "3 marzo 2026",
+     "firmatari": [
+      {
+       "nome": "Roberti Francesco"
+      },
+      {
+       "nome": "Fabio Cofelice",
+       "username": "cofelice.fab"
+      },
+      {
+       "nome": "Vincenzo Niro",
+       "username": "niro.vin"
+      },
+      {
+       "nome": "Andrea Di Lucente",
+       "username": "di lucente.and"
+      },
+      {
+       "nome": "Massimo Romano",
+       "username": "romano.mas"
+      },
+      {
+       "nome": "Guido Massimo Sabusco",
+       "username": "sabusco.gui"
+      },
+      {
+       "nome": "Vittorino Facciolla",
+       "username": "facciolla.vit"
+      },
+      {
+       "nome": "Stefania Passarelli",
+       "username": "passarelli.ste"
+      },
+      {
+       "nome": "Micaela Fanelli",
+       "username": "fanelli.mic"
+      },
+      {
+       "nome": "Armandino D'Egidio",
+       "username": "d egidio.arm"
+      },
+      {
+       "nome": "Quintino Vincenzo Pallante",
+       "username": "pallante.qui"
+      },
+      {
+       "nome": "Andrea Greco",
+       "username": "greco.and"
+      },
+      {
+       "nome": "Alessandra Salvatore",
+       "username": "salvatore.ale"
+      },
+      {
+       "nome": "Angelo Primiani",
+       "username": "primiani.ang"
+      },
+      {
+       "nome": "Salvatore Micone",
+       "username": "micone.sal"
+      },
+      {
+       "nome": "Roberto Gravina",
+       "username": "gravina.rob"
+      },
+      {
+       "nome": "Roberto Di Baggio",
+       "username": "di baggio.rob"
+      },
+      {
+       "nome": "Roberto Di Pardo",
+       "username": "di pardo.rob"
+      },
+      {
+       "nome": "Angelo Michele Iorio",
+       "username": "iorio.ang"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "mozione-509",
+     "tipo": "mozione",
+     "numero": 509,
+     "data": "2026-03-03",
+     "titolo": "Mozione, a firma dei consiglieri Greco, Primiani, Salvatore, Gravina, Fanelli, Romano e Facciolla, ad oggetto «Proposta di rilancio e valorizzazione dell'Ospedale \"San Francesco Caracciolo\" di Agnone, quale presidio di area particolarmente disagiata, attraverso l'inserimento nella rete formativa UNIMOL, il rafforzamento dell'offerta sanitaria e la tutela dei servizi esistenti",
+     "esito": "approvata",
+     "esitoData": "3 marzo 2026",
+     "firmatari": [
+      {
+       "nome": "Andrea Greco",
+       "username": "greco.and"
+      },
+      {
+       "nome": "Angelo Primiani",
+       "username": "primiani.ang"
+      },
+      {
+       "nome": "Alessandra Salvatore",
+       "username": "salvatore.ale"
+      },
+      {
+       "nome": "Roberto Gravina",
+       "username": "gravina.rob"
+      },
+      {
+       "nome": "Micaela Fanelli",
+       "username": "fanelli.mic"
+      },
+      {
+       "nome": "Massimo Romano",
+       "username": "romano.mas"
+      },
+      {
+       "nome": "Vittorino Facciolla",
+       "username": "facciolla.vit"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "mozione-506",
+     "tipo": "mozione",
+     "numero": 506,
+     "data": "2026-03-03",
+     "titolo": "Mozione, a firma dei consiglieri Greco e Primiani, ad oggetto \"Criteri di reclutamento del personale medico e valorizzazione della stabilità professionale e territoriale nei presidi sanitari regionali",
+     "esito": "approvata",
+     "esitoData": "3 marzo 2026",
+     "firmatari": [
+      {
+       "nome": "Andrea Greco",
+       "username": "greco.and"
+      },
+      {
+       "nome": "Angelo Primiani",
+       "username": "primiani.ang"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "pdl-58",
+     "tipo": "pdl",
+     "numero": 58,
+     "data": "2026-02-11",
+     "titolo": "Disposizioni in materia di concessioni di grandi derivazioni a scopo idroelettrico in attuazione dell'art. 12 del Decreto Legislativo 16 marzo 1999, n. 79 così come modificato dal Decreto Legge 14 dicembre 2018, n. 135, convertito, con modificazioni, dalla Legge 11 febbraio 2019, n. 12 e così come modificato dalla legge 5 agosto 2022, n. 118.",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/PDL%20concessioni%20di%20grandi%20derivazioni.pdf"
+    },
+    {
+     "id": "pdl-88",
+     "tipo": "pdl",
+     "numero": 88,
+     "data": "2026-01-26",
+     "titolo": "Rendiconto generale della Regione Molise per l'esercizio finanziario 2023",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/34_Livello1.pdf"
+    },
+    {
+     "id": "pdl-87",
+     "tipo": "pdl",
+     "numero": 87,
+     "data": "2026-01-26",
+     "titolo": "Autorizzazione all’esercizio provvisorio del bilancio di previsione della Regione Molise per l’anno 2026",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/438%20PROPOSTA_DI_LEGGE_ESERCIZIO_PROVVISORIO_2026_Livello1_0.pdf"
+    },
+    {
+     "id": "pdl-85",
+     "tipo": "pdl",
+     "numero": 85,
+     "data": "2026-01-26",
+     "titolo": "Assestamento del bilancio di previsione 2025-2027",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/432%20Proposta_di_Legge_Livello1.pdf"
+    },
+    {
+     "id": "mozione-593",
+     "tipo": "mozione",
+     "numero": 593,
+     "data": "2025-12-02",
+     "titolo": "Mozione, a firma dei consiglieri Pallante, D'Egidio, Di Baggio, Sabusco, Cofelice, Salvatore, Niro, Cefaratti, Iorio, Fanelli, Di Lucente, Romano, Di Pardo, Gravina e Greco, ad oggetto \"Tutela dei lavoratori molisani coinvolti nei cambi di appalto delle attività di Back-Office e Quality di Enel Energia S.p.a.",
+     "esito": "approvata",
+     "esitoData": "2 dicembre 2025",
+     "firmatari": [
+      {
+       "nome": "Quintino Vincenzo Pallante",
+       "username": "pallante.qui"
+      },
+      {
+       "nome": "Armandino D'Egidio",
+       "username": "d egidio.arm"
+      },
+      {
+       "nome": "Roberto Di Baggio",
+       "username": "di baggio.rob"
+      },
+      {
+       "nome": "Guido Massimo Sabusco",
+       "username": "sabusco.gui"
+      },
+      {
+       "nome": "Fabio Cofelice",
+       "username": "cofelice.fab"
+      },
+      {
+       "nome": "Alessandra Salvatore",
+       "username": "salvatore.ale"
+      },
+      {
+       "nome": "Vincenzo Niro",
+       "username": "niro.vin"
+      },
+      {
+       "nome": "Cefaratti Gianluca"
+      },
+      {
+       "nome": "Angelo Michele Iorio",
+       "username": "iorio.ang"
+      },
+      {
+       "nome": "Micaela Fanelli",
+       "username": "fanelli.mic"
+      },
+      {
+       "nome": "Andrea Di Lucente",
+       "username": "di lucente.and"
+      },
+      {
+       "nome": "Massimo Romano",
+       "username": "romano.mas"
+      },
+      {
+       "nome": "Roberto Di Pardo",
+       "username": "di pardo.rob"
+      },
+      {
+       "nome": "Roberto Gravina",
+       "username": "gravina.rob"
+      },
+      {
+       "nome": "Andrea Greco",
+       "username": "greco.and"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "mozione-413",
+     "tipo": "mozione",
+     "numero": 413,
+     "data": "2025-11-25",
+     "titolo": "Mozione, a firma dei consiglieri Gravina, Primiani e Greco, ad oggetto \"Misure di sostegno alle imprese molisane colpite dai dazi e strategie per il rilancio dell’export regionale",
+     "esito": "approvata",
+     "esitoData": "25 novembre 2025",
+     "firmatari": [
+      {
+       "nome": "Roberto Gravina",
+       "username": "gravina.rob"
+      },
+      {
+       "nome": "Angelo Primiani",
+       "username": "primiani.ang"
+      },
+      {
+       "nome": "Andrea Greco",
+       "username": "greco.and"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "mozione-345",
+     "tipo": "mozione",
+     "numero": 345,
+     "data": "2025-11-25",
+     "titolo": "Mozione, a firma dei consiglieri Greco, Primiani e Gravina, ad oggetto \"Completamento della Fondo Valle Fresilia – Ripristino dei finanziamenti per il collegamento tra F.V. Trigno e F.V. Biferno",
+     "esito": "approvata",
+     "esitoData": "25 novembre 2025",
+     "firmatari": [
+      {
+       "nome": "Andrea Greco",
+       "username": "greco.and"
+      },
+      {
+       "nome": "Angelo Primiani",
+       "username": "primiani.ang"
+      },
+      {
+       "nome": "Roberto Gravina",
+       "username": "gravina.rob"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "pdl-81",
+     "tipo": "pdl",
+     "numero": 81,
+     "data": "2025-11-04",
+     "titolo": "Riconoscimento della legittimità di debito fuori bilancio ai sensi dell’art. 73, comma 1 lett. e), del d.lgs. 23 giugno 2011, n. 118, per il pagamento di un indennizzo per attività professionale resa da avvocato del libero foro per il patrocinio svolto in vari procedimenti penali a tutela degli interessi civili della Regione Molise quale parte offesa, incarichi conferiti con: D.G.R. 7 agosto 2015, n. 437 (Tribunale di Campobasso, R.G.N.R. n. 3051/2013, n. 3307/2013, n. 2742/2013, n. 4291/2012, n. 1724/2013, n. 2743/2013, n. 2851/2013, n. 2337/2013), D.G.R. 12 novembre 2015, n. 619 (Tribunale di Campobasso, R.G.N.R. 2854/2013), D.G.R.14 dicembre 2015, n. 698 (Tribunale di Campobasso, R.G.N.R. n. 4290/2012), D.G.R. 5 maggio 2016, n. 197 (Tribunale di Campobasso, R.G.N.R. n. 4157/2013), D.G.R. 5 maggio 2016, n. 195 (Tribunale di Campobasso, R.G.N.R. n. 2527/2013)",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/PDL%2081_1.pdf"
+    },
+    {
+     "id": "pdl-80",
+     "tipo": "pdl",
+     "numero": 80,
+     "data": "2025-11-04",
+     "titolo": "Riconoscimento della legittimità di debito fuori bilancio ai sensi dell’art. 73, comma 1 lett. e), del d.lgs. 23 giugno 2011, n. 118, per il pagamento di un indennizzo per attività professionale resa da avvocato del libero foro per il patrocinio svolto nel procedimento dinanzi al Tribunale di Campobasso r.g. 1017/2019, incarico conferito con deliberazione di Giunta regionale del 2 aprile 2019, n. 103",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/PDL%2080_1.pdf"
+    },
+    {
+     "id": "pdl-77",
+     "tipo": "pdl",
+     "numero": 77,
+     "data": "2025-11-03",
+     "titolo": "Istituzione dell’Osservatorio regionale sulla desertificazione bancaria.",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/pdl_osservatorio_desertif._bancaria.pdf"
+    },
+    {
+     "id": "pdl-37",
+     "tipo": "pdl",
+     "numero": 37,
+     "data": "2025-11-03",
+     "titolo": "Istituzione dell'Agenzia regionale per la Montagna e disposizioni per lo sviluppo delle zone montane",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/PDL%20Istituzione%20Agenzia%20regionale%20per%20la%20montagna_0.pdf"
+    },
+    {
+     "id": "pdl-78",
+     "tipo": "pdl",
+     "numero": 78,
+     "data": "2025-10-22",
+     "titolo": "Disposizioni per la proroga delle graduatorie dei concorsi pubblici per le assunzioni a tempo indeterminato della Regione Molise, degli Enti ed Agenzie regionali e dell’Agenzia Sanitaria Regionale del Molise",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/PDL_Graduatorie_2025.pdf"
+    },
+    {
+     "id": "mozione-305",
+     "tipo": "mozione",
+     "numero": 305,
+     "data": "2025-10-07",
+     "titolo": "Mozione, a firma dei consiglieri Greco e Primiani, ad oggetto \"Rifinanziamento del Fondo Nazionale per il Sostegno all'Accesso alle Abitazioni in Locazione",
+     "esito": "approvata",
+     "esitoData": "7 ottobre 2025",
+     "firmatari": [
+      {
+       "nome": "Andrea Greco",
+       "username": "greco.and"
+      },
+      {
+       "nome": "Angelo Primiani",
+       "username": "primiani.ang"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "odg-546",
+     "tipo": "odg",
+     "numero": 546,
+     "data": "2025-09-23",
+     "titolo": "Ordine del giorno, a firma dei consiglieri Pallante, Niro, Di Pardo, Di Lucente, Cavaliere, Iorio, Micone, Passarelli, Sabusco, Di Baggio, D'Egidio, Cefaratti e Cofelice, ad oggetto \"Medio Oriente: iniziative di pace",
+     "esito": "approvata",
+     "esitoData": "23 settembre 2025",
+     "firmatari": [
+      {
+       "nome": "Quintino Vincenzo Pallante",
+       "username": "pallante.qui"
+      },
+      {
+       "nome": "Vincenzo Niro",
+       "username": "niro.vin"
+      },
+      {
+       "nome": "Roberto Di Pardo",
+       "username": "di pardo.rob"
+      },
+      {
+       "nome": "Andrea Di Lucente",
+       "username": "di lucente.and"
+      },
+      {
+       "nome": "Nicola Cavaliere",
+       "username": "cavaliere.nic"
+      },
+      {
+       "nome": "Angelo Michele Iorio",
+       "username": "iorio.ang"
+      },
+      {
+       "nome": "Salvatore Micone",
+       "username": "micone.sal"
+      },
+      {
+       "nome": "Stefania Passarelli",
+       "username": "passarelli.ste"
+      },
+      {
+       "nome": "Guido Massimo Sabusco",
+       "username": "sabusco.gui"
+      },
+      {
+       "nome": "Roberto Di Baggio",
+       "username": "di baggio.rob"
+      },
+      {
+       "nome": "Armandino D'Egidio",
+       "username": "d egidio.arm"
+      },
+      {
+       "nome": "Cefaratti Gianluca"
+      },
+      {
+       "nome": "Fabio Cofelice",
+       "username": "cofelice.fab"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "mozione-541",
+     "tipo": "mozione",
+     "numero": 541,
+     "data": "2025-09-16",
+     "titolo": "Mozione, a firma dei consiglieri Pallante, Roberti, Di Lucente, Micone, Di Baggio, Niro, D'Egidio, Passarelli, Sabusco, Iorio, Di Pardo, Cavaliere, Gravina, Fanelli e Cofelice, ad oggetto \"Tutela dei lavoratori del servizio mensa del Responsible Research Hospital e salvaguardia dei livelli occupazionali",
+     "esito": "approvata",
+     "esitoData": "16 settembre 2025",
+     "firmatari": [
+      {
+       "nome": "Quintino Vincenzo Pallante",
+       "username": "pallante.qui"
+      },
+      {
+       "nome": "Roberti Francesco"
+      },
+      {
+       "nome": "Andrea Di Lucente",
+       "username": "di lucente.and"
+      },
+      {
+       "nome": "Salvatore Micone",
+       "username": "micone.sal"
+      },
+      {
+       "nome": "Roberto Di Baggio",
+       "username": "di baggio.rob"
+      },
+      {
+       "nome": "Vincenzo Niro",
+       "username": "niro.vin"
+      },
+      {
+       "nome": "Armandino D'Egidio",
+       "username": "d egidio.arm"
+      },
+      {
+       "nome": "Stefania Passarelli",
+       "username": "passarelli.ste"
+      },
+      {
+       "nome": "Guido Massimo Sabusco",
+       "username": "sabusco.gui"
+      },
+      {
+       "nome": "Angelo Michele Iorio",
+       "username": "iorio.ang"
+      },
+      {
+       "nome": "Roberto Di Pardo",
+       "username": "di pardo.rob"
+      },
+      {
+       "nome": "Nicola Cavaliere",
+       "username": "cavaliere.nic"
+      },
+      {
+       "nome": "Roberto Gravina",
+       "username": "gravina.rob"
+      },
+      {
+       "nome": "Micaela Fanelli",
+       "username": "fanelli.mic"
+      },
+      {
+       "nome": "Fabio Cofelice",
+       "username": "cofelice.fab"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "pdl-76",
+     "tipo": "pdl",
+     "numero": 76,
+     "data": "2025-09-03",
+     "titolo": "Abrogazione della legge regionale 27 dicembre 2024, n. 11 (Rendiconto generale della Regione Molise per l’esercizio finanziario 2023)",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/PDL%2076.pdf"
+    },
+    {
+     "id": "pdl-72",
+     "tipo": "pdl",
+     "numero": 72,
+     "data": "2025-09-03",
+     "titolo": "Rendiconto generale della Regione Molise per l’esercizio finanziario 2024",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/239%20Allegato_A_-_Proposta_di_legge.pdf"
+    },
+    {
+     "id": "mozione-417",
+     "tipo": "mozione",
+     "numero": 417,
+     "data": "2025-08-04",
+     "titolo": "Rafforzamento dei controlli ambientali e revisione delle autorizzazioni per impianti industriali nella Piana di Venafro alla luce dei risultati dello studio epidemiologico condotto dal CNR di Pisa",
+     "esito": "approvata",
+     "esitoData": "4 agosto 2025",
+     "firmatari": [
+      {
+       "nome": "Andrea Greco",
+       "username": "greco.and"
+      },
+      {
+       "nome": "Angelo Primiani",
+       "username": "primiani.ang"
+      },
+      {
+       "nome": "Roberto Gravina",
+       "username": "gravina.rob"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "mozione-375",
+     "tipo": "mozione",
+     "numero": 375,
+     "data": "2025-07-29",
+     "titolo": "Azioni volte alla prevenzione e controllo del fenomeno del randagismo",
+     "esito": "approvata",
+     "esitoData": "29 luglio 2025",
+     "firmatari": [
+      {
+       "nome": "Andrea Greco",
+       "username": "greco.and"
+      },
+      {
+       "nome": "Angelo Primiani",
+       "username": "primiani.ang"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "mozione-374",
+     "tipo": "mozione",
+     "numero": 374,
+     "data": "2025-07-29",
+     "titolo": "Interventi a sostegno del settore vitivinicolo",
+     "esito": "approvata",
+     "esitoData": "29 luglio 2025",
+     "firmatari": [
+      {
+       "nome": "Angelo Primiani",
+       "username": "primiani.ang"
+      },
+      {
+       "nome": "Andrea Greco",
+       "username": "greco.and"
+      },
+      {
+       "nome": "Roberto Gravina",
+       "username": "gravina.rob"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "mozione-366",
+     "tipo": "mozione",
+     "numero": 366,
+     "data": "2025-07-29",
+     "titolo": "3G S.p.A. - Criticità contratto lavoratori",
+     "esito": "approvata",
+     "esitoData": "29 luglio 2025",
+     "firmatari": [
+      {
+       "nome": "Angelo Primiani",
+       "username": "primiani.ang"
+      },
+      {
+       "nome": "Andrea Greco",
+       "username": "greco.and"
+      },
+      {
+       "nome": "Roberto Gravina",
+       "username": "gravina.rob"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "mozione-505",
+     "tipo": "mozione",
+     "numero": 505,
+     "data": "2025-07-15",
+     "titolo": "Impegno all'Assessore alle Infrastrutture ad intercedere presso ANAS Molise per urgenti soluzioni ai rallentamenti stradali causati dai lavori di consolidamento strutturale del viadotto \"S. Lucia\" (Ingotte) sulla SS 647 Dir B.",
+     "esito": "approvata",
+     "esitoData": "15 luglio 2025",
+     "firmatari": [
+      {
+       "nome": "Micaela Fanelli",
+       "username": "fanelli.mic"
+      },
+      {
+       "nome": "Alessandra Salvatore",
+       "username": "salvatore.ale"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "mozione-371",
+     "tipo": "mozione",
+     "numero": 371,
+     "data": "2025-07-15",
+     "titolo": "Digitalizzazione del buono per l’erogazione della terapia senza glutine",
+     "esito": "approvata",
+     "esitoData": "15 luglio 2025",
+     "firmatari": [
+      {
+       "nome": "Andrea Greco",
+       "username": "greco.and"
+      },
+      {
+       "nome": "Angelo Primiani",
+       "username": "primiani.ang"
+      },
+      {
+       "nome": "Roberto Gravina",
+       "username": "gravina.rob"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "mozione-365",
+     "tipo": "mozione",
+     "numero": 365,
+     "data": "2025-07-01",
+     "titolo": "Adempimenti previsti dalle leggi di Bilancio dello Stato 2024 e 2025. Impegni ad approvare in Consiglio regionale i relativi atti",
+     "esito": "approvata",
+     "esitoData": "1 luglio 2025",
+     "firmatari": [
+      {
+       "nome": "Micaela Fanelli",
+       "username": "fanelli.mic"
+      },
+      {
+       "nome": "Alessandra Salvatore",
+       "username": "salvatore.ale"
+      },
+      {
+       "nome": "Massimo Romano",
+       "username": "romano.mas"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "mozione-353",
+     "tipo": "mozione",
+     "numero": 353,
+     "data": "2025-07-01",
+     "titolo": "Utilizzo di un interprete della LIS (Lingua Italiana dei Segni), a supporto delle dirette del Consiglio regionale del Molise",
+     "esito": "approvata",
+     "esitoData": "1 luglio 2025",
+     "firmatari": [
+      {
+       "nome": "Roberto Di Baggio",
+       "username": "di baggio.rob"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "mozione-324",
+     "tipo": "mozione",
+     "numero": 324,
+     "data": "2025-07-01",
+     "titolo": "Regime fuori campo IVA delle prestazioni mutuali degli enti del Terzo Settore. Impegno al Presidente della Regione Molise",
+     "esito": "approvata",
+     "esitoData": "1 luglio 2025",
+     "firmatari": [
+      {
+       "nome": "Micaela Fanelli",
+       "username": "fanelli.mic"
+      },
+      {
+       "nome": "Alessandra Salvatore",
+       "username": "salvatore.ale"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "mozione-309",
+     "tipo": "mozione",
+     "numero": 309,
+     "data": "2025-07-01",
+     "titolo": "Taglio delle risorse per asili nido e mancato rispetto LEP da parte del Governo. Impegno al Presidente della Regione Molise",
+     "esito": "approvata",
+     "esitoData": "1 luglio 2025",
+     "firmatari": [
+      {
+       "nome": "Micaela Fanelli",
+       "username": "fanelli.mic"
+      },
+      {
+       "nome": "Alessandra Salvatore",
+       "username": "salvatore.ale"
+      },
+      {
+       "nome": "Vittorino Facciolla",
+       "username": "facciolla.vit"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "mozione-480",
+     "tipo": "mozione",
+     "numero": 480,
+     "data": "2025-06-10",
+     "titolo": "«Acquisizione a qualsiasi titolo, del complesso ex Cattolica di Campobasso e la realizzazione di un Polo sanitario integrato \"Cardarelli Responsible\"»",
+     "esito": "approvata",
+     "esitoData": "10 giugno 2025",
+     "firmatari": [
+      {
+       "nome": "Quintino Vincenzo Pallante",
+       "username": "pallante.qui"
+      },
+      {
+       "nome": "Stefania Passarelli",
+       "username": "passarelli.ste"
+      },
+      {
+       "nome": "Angelo Michele Iorio",
+       "username": "iorio.ang"
+      },
+      {
+       "nome": "Roberto Di Baggio",
+       "username": "di baggio.rob"
+      },
+      {
+       "nome": "Andrea Di Lucente",
+       "username": "di lucente.and"
+      },
+      {
+       "nome": "Roberto Di Pardo",
+       "username": "di pardo.rob"
+      },
+      {
+       "nome": "Vincenzo Niro",
+       "username": "niro.vin"
+      },
+      {
+       "nome": "Fabio Cofelice",
+       "username": "cofelice.fab"
+      },
+      {
+       "nome": "Salvatore Micone",
+       "username": "micone.sal"
+      },
+      {
+       "nome": "Guido Massimo Sabusco",
+       "username": "sabusco.gui"
+      },
+      {
+       "nome": "Armandino D'Egidio",
+       "username": "d egidio.arm"
+      },
+      {
+       "nome": "Cefaratti Gianluca"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "mozione-479",
+     "tipo": "mozione",
+     "numero": 479,
+     "data": "2025-06-10",
+     "titolo": "Impegno al Governo per sostenere ogni iniziativa volta al cessate il fuoco immediato e duraturo nei territori palestinesi e all'impegno diplomatico per il processo di pace",
+     "esito": "approvata",
+     "esitoData": "10 giugno 2025",
+     "firmatari": [
+      {
+       "nome": "Quintino Vincenzo Pallante",
+       "username": "pallante.qui"
+      },
+      {
+       "nome": "Micaela Fanelli",
+       "username": "fanelli.mic"
+      },
+      {
+       "nome": "Angelo Primiani",
+       "username": "primiani.ang"
+      },
+      {
+       "nome": "Salvatore Micone",
+       "username": "micone.sal"
+      },
+      {
+       "nome": "Fabio Cofelice",
+       "username": "cofelice.fab"
+      },
+      {
+       "nome": "Massimo Romano",
+       "username": "romano.mas"
+      },
+      {
+       "nome": "Roberto Gravina",
+       "username": "gravina.rob"
+      },
+      {
+       "nome": "Guido Massimo Sabusco",
+       "username": "sabusco.gui"
+      },
+      {
+       "nome": "Stefania Passarelli",
+       "username": "passarelli.ste"
+      },
+      {
+       "nome": "Roberto Di Pardo",
+       "username": "di pardo.rob"
+      },
+      {
+       "nome": "Vincenzo Niro",
+       "username": "niro.vin"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "mozione-465",
+     "tipo": "mozione",
+     "numero": 465,
+     "data": "2025-05-27",
+     "titolo": "Verifica sull'impiego di professionalità già attive in enti pubblici regionali per le assunzioni previste dalla GRIM Scarl",
+     "esito": "approvata",
+     "esitoData": "27 maggio 2025",
+     "firmatari": [
+      {
+       "nome": "Quintino Vincenzo Pallante",
+       "username": "pallante.qui"
+      },
+      {
+       "nome": "Fabio Cofelice",
+       "username": "cofelice.fab"
+      },
+      {
+       "nome": "Cefaratti Gianluca"
+      },
+      {
+       "nome": "Stefania Passarelli",
+       "username": "passarelli.ste"
+      },
+      {
+       "nome": "Armandino D'Egidio",
+       "username": "d egidio.arm"
+      },
+      {
+       "nome": "Guido Massimo Sabusco",
+       "username": "sabusco.gui"
+      },
+      {
+       "nome": "Roberto Di Baggio",
+       "username": "di baggio.rob"
+      },
+      {
+       "nome": "Roberto Di Pardo",
+       "username": "di pardo.rob"
+      },
+      {
+       "nome": "Salvatore Micone",
+       "username": "micone.sal"
+      },
+      {
+       "nome": "Vincenzo Niro",
+       "username": "niro.vin"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "mozione-454",
+     "tipo": "mozione",
+     "numero": 454,
+     "data": "2025-05-13",
+     "titolo": "Trasporto ferroviario in Molise",
+     "esito": "approvata",
+     "esitoData": "13 maggio 2025",
+     "firmatari": [
+      {
+       "nome": "Andrea Greco",
+       "username": "greco.and"
+      },
+      {
+       "nome": "Angelo Primiani",
+       "username": "primiani.ang"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "mozione-414",
+     "tipo": "mozione",
+     "numero": 414,
+     "data": "2025-05-13",
+     "titolo": "Trasporto ferroviario e rete ferroviaria in Molise",
+     "esito": "approvata",
+     "esitoData": "13 maggio 2025",
+     "firmatari": [
+      {
+       "nome": "Alessandra Salvatore",
+       "username": "salvatore.ale"
+      },
+      {
+       "nome": "Vittorino Facciolla",
+       "username": "facciolla.vit"
+      },
+      {
+       "nome": "Micaela Fanelli",
+       "username": "fanelli.mic"
+      },
+      {
+       "nome": "Roberto Gravina",
+       "username": "gravina.rob"
+      },
+      {
+       "nome": "Angelo Primiani",
+       "username": "primiani.ang"
+      },
+      {
+       "nome": "Massimo Romano",
+       "username": "romano.mas"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "pdl-65",
+     "tipo": "pdl",
+     "numero": 65,
+     "data": "2025-04-14",
+     "titolo": "Bilancio di Previsione pluriennale per il triennio 2025-2027",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/111%20Allegato_A_proposta_di_legge_bilancio_2025-2027.docx.pdf"
+    },
+    {
+     "id": "pdl-64",
+     "tipo": "pdl",
+     "numero": 64,
+     "data": "2025-04-14",
+     "titolo": "Legge di stabilità regionale anno 2025",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/110%20Proposta_Legge_di_stabilita_ver._09.04.25_.pdf"
+    },
+    {
+     "id": "pdl-63",
+     "tipo": "pdl",
+     "numero": 63,
+     "data": "2025-04-10",
+     "titolo": "Promozione della legalità e della cittadinanza responsabile",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/pdl_063_promozione_legalit.pdf"
+    },
+    {
+     "id": "mozione-397",
+     "tipo": "mozione",
+     "numero": 397,
+     "data": "2025-04-08",
+     "titolo": "Mozione, ad oggetto \"Promozione, Costituzione Consulta regionale per la legalità. Impegno alla Giunta della Regione Molise",
+     "esito": "approvata",
+     "esitoData": "8 aprile 2025",
+     "firmatari": [
+      {
+       "nome": "Micaela Fanelli",
+       "username": "fanelli.mic"
+      },
+      {
+       "nome": "Angelo Primiani",
+       "username": "primiani.ang"
+      },
+      {
+       "nome": "Andrea Greco",
+       "username": "greco.and"
+      },
+      {
+       "nome": "Roberto Gravina",
+       "username": "gravina.rob"
+      },
+      {
+       "nome": "Alessandra Salvatore",
+       "username": "salvatore.ale"
+      },
+      {
+       "nome": "Vittorino Facciolla",
+       "username": "facciolla.vit"
+      },
+      {
+       "nome": "Massimo Romano",
+       "username": "romano.mas"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "mozione-369",
+     "tipo": "mozione",
+     "numero": 369,
+     "data": "2025-02-12",
+     "titolo": "«Delibera del Consiglio regionale n. 36/2023 e delibera n. 68/2024 \"Determinazione delle modalità di ripiano del maggiore disavanzo di amministrazione realizzatosi a seguito delle risultanze di cui alla legge regionale 19 settembre 2023, n. 4 (modifiche alla L.R. n. 27/2022 \"Rendiconto generale della Regione Molise per l'esercizio finanziario 2021\") e di cui alla D.G.R. n. 289 del 25 settembre 2023 (Proposta di legge regionale \"Rendiconto generale della Regione Molise per l'esercizio finanziario 2022\"). Ulteriore determinazione»",
+     "esito": "approvata",
+     "esitoData": "12 febbraio 2025",
+     "firmatari": [
+      {
+       "nome": "Vincenzo Niro",
+       "username": "niro.vin"
+      },
+      {
+       "nome": "Salvatore Micone",
+       "username": "micone.sal"
+      },
+      {
+       "nome": "Roberto Di Baggio",
+       "username": "di baggio.rob"
+      },
+      {
+       "nome": "Quintino Vincenzo Pallante",
+       "username": "pallante.qui"
+      },
+      {
+       "nome": "Roberto Di Pardo",
+       "username": "di pardo.rob"
+      },
+      {
+       "nome": "Angelo Michele Iorio",
+       "username": "iorio.ang"
+      },
+      {
+       "nome": "Stefania Passarelli",
+       "username": "passarelli.ste"
+      },
+      {
+       "nome": "Fabio Cofelice",
+       "username": "cofelice.fab"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "pdl-57",
+     "tipo": "pdl",
+     "numero": 57,
+     "data": "2025-02-03",
+     "titolo": "«Modifiche alla legge regionale 5/12/2017, n. 20 (Gazzetta Uff. 06/12/2017 n. 67) concernente \"Norme per l'elezione del Consiglio regionale e del Presidente della Giunta regionale”»",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/Proposta_di_legge_regionale_-_modifiche_alla_l.r._20_2017-signed.pdf"
+    },
+    {
+     "id": "pdl-55",
+     "tipo": "pdl",
+     "numero": 55,
+     "data": "2025-02-03",
+     "titolo": "Istituzione Agenzia Regionale Trasporti Molise",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/pdl_-_istituzione_azienda_regionale_trasporti_molise.pdf"
+    },
+    {
+     "id": "mozione-332",
+     "tipo": "mozione",
+     "numero": 332,
+     "data": "2025-01-21",
+     "titolo": "Mozione, a firma dei consiglieri Greco e Primiani, ad oggetto \"Impegno per il tempestivo pagamento delle retribuzioni arretrate agli autisti del Trasporto Pubblico Locale (TPL)",
+     "esito": "approvata",
+     "esitoData": "21 gennaio 2025",
+     "firmatari": [
+      {
+       "nome": "Andrea Greco",
+       "username": "greco.and"
+      },
+      {
+       "nome": "Angelo Primiani",
+       "username": "primiani.ang"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "mozione-269",
+     "tipo": "mozione",
+     "numero": 269,
+     "data": "2025-01-21",
+     "titolo": "Mozione, a firma dei consiglieri Greco e Primiani, ad oggetto \"Impegno per l’apertura parziale al transito del Viadotto Sente-Longo durante i lavori di messa in sicurezza",
+     "esito": "approvata",
+     "esitoData": "21 gennaio 2025",
+     "firmatari": [
+      {
+       "nome": "Andrea Greco",
+       "username": "greco.and"
+      },
+      {
+       "nome": "Angelo Primiani",
+       "username": "primiani.ang"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "mozione-341",
+     "tipo": "mozione",
+     "numero": 341,
+     "data": "2025-01-14",
+     "titolo": "Politiche occupazionali giovanili. Impegni",
+     "esito": "approvata",
+     "esitoData": "14 gennaio 2025",
+     "firmatari": [
+      {
+       "nome": "Angelo Primiani",
+       "username": "primiani.ang"
+      },
+      {
+       "nome": "Andrea Greco",
+       "username": "greco.and"
+      },
+      {
+       "nome": "Roberto Gravina",
+       "username": "gravina.rob"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti-approvati/atto-33/8025-rg_0341_mozione_politiche_occupazionali_giovanili-20250319094700.pdf"
+    },
+    {
+     "id": "mozione-198",
+     "tipo": "mozione",
+     "numero": 198,
+     "data": "2025-01-14",
+     "titolo": "Prevenzione e lotta all'omofobia e alla transfobia",
+     "esito": "approvata",
+     "esitoData": "14 gennaio 2025",
+     "firmatari": [
+      {
+       "nome": "Angelo Primiani",
+       "username": "primiani.ang"
+      },
+      {
+       "nome": "Andrea Greco",
+       "username": "greco.and"
+      },
+      {
+       "nome": "Roberto Gravina",
+       "username": "gravina.rob"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti-approvati/atto-32/8022-rg_0198_mozione_omofobia-20250319094613.pdf"
+    },
+    {
+     "id": "pdl-54",
+     "tipo": "pdl",
+     "numero": 54,
+     "data": "2024-12-16",
+     "titolo": "Autorizzazione all’esercizio provvisorio del bilancio di previsione della Regione Molise per l’anno 2025",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/585%20DEF_PROPOSTA_DI_LEGGE_ESERCIZIO_PROVVISORIO_2025.pdf"
+    },
+    {
+     "id": "pdl-53",
+     "tipo": "pdl",
+     "numero": 53,
+     "data": "2024-12-11",
+     "titolo": "Assestamento del Bilancio di previsione 2024/2026",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/575%20Proposta_di_Legge.pdf"
+    },
+    {
+     "id": "odg-336",
+     "tipo": "odg",
+     "numero": 336,
+     "data": "2024-12-10",
+     "titolo": "«\"Vincitori della procedura concorsuale presso l'Amministrazione Regionale per il potenziamento dei Centri dell'Impiego ai sensi dell'art. 1, comma 258, della L. n. 145/2018\" Impegno al Presidente della Giunta regionale»",
+     "esito": "approvata",
+     "esitoData": "10 dicembre 2024",
+     "firmatari": [
+      {
+       "nome": "Quintino Vincenzo Pallante",
+       "username": "pallante.qui"
+      },
+      {
+       "nome": "Fabio Cofelice",
+       "username": "cofelice.fab"
+      },
+      {
+       "nome": "Stefania Passarelli",
+       "username": "passarelli.ste"
+      },
+      {
+       "nome": "Guido Massimo Sabusco",
+       "username": "sabusco.gui"
+      },
+      {
+       "nome": "Nicola Cavaliere",
+       "username": "cavaliere.nic"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "pdl-52",
+     "tipo": "pdl",
+     "numero": 52,
+     "data": "2024-12-09",
+     "titolo": "Rendiconto generale della Regione Molise per l'esercizio finanziario 2023",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/PDL%2052.pdf"
+    },
+    {
+     "id": "pdl-51",
+     "tipo": "pdl",
+     "numero": 51,
+     "data": "2024-12-09",
+     "titolo": "Riconoscimento della legittimità del debito fuori bilancio ai sensi dell’art. 73, comma 1 lettera a, del decreto legislativo 23 giugno 2011, n. 118 – Decreto ingiuntivo n.385/2019 (n.1330/19 R.G. Tribunale di Campobasso)",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/549%201-rev._allegato_proposta_di_legge.docx.pdf"
+    },
+    {
+     "id": "pdl-50",
+     "tipo": "pdl",
+     "numero": 50,
+     "data": "2024-11-26",
+     "titolo": "Riconoscimento della legittimità di debito fuori bilancio ai sensi dell’art. 73, comma 1, lett. e) del d.lgs. 23 giugno 2011, n. 118, per il pagamento di un indennizzo per attività professionale resa da avvocato del libero foro per la rappresentanza e difesa della Regione Molise nei procedimenti innanzi a: TAR Molise, rg n. 16/2010, sentenza n. 992/2011; C. Stato, rg n. 4192/2012, sentenza n. 1462/2013; C. Stato rg nn. 6319-6320-6321/2010, ordinanze nn. 371-4197- 4901/2010; TAR Molise rg n. 212/2004, sentenza n. 186/2011; C. Stato rg n. 8412/2011, sentenza n. 3867/2017; TAR Lazio rg n. 8693/2012, sentenza n. 9868/2013; TAR Molise rg n. 496/2007, sentenza 603/2013; TAR Molise rg n. 497/2007, sentenza n. 604/2013; Tar Molise rg n. 498/2007, sentenza n. 605/2013",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/525%20II.avv_colalillo_proposta_legge_rdfb.pdf"
+    },
+    {
+     "id": "pdl-49",
+     "tipo": "pdl",
+     "numero": 49,
+     "data": "2024-11-26",
+     "titolo": "Rendiconto generale della regione Molise per l'esercizio finanziario 2022",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/510%20PROPOSTA_DI_LEGGE_Allegato_a_legge_rendiconto_2022.pdf"
+    },
+    {
+     "id": "pdl-48",
+     "tipo": "pdl",
+     "numero": 48,
+     "data": "2024-11-21",
+     "titolo": "Proposta di legge n. 48 (titolo nel testo allegato)",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/node/25869"
+    },
+    {
+     "id": "mozione-185",
+     "tipo": "mozione",
+     "numero": 185,
+     "data": "2024-11-05",
+     "titolo": "Mozione, a firma dei consiglieri Fanelli, Salvatore e Facciolla, ad oggetto «Istituzione \"Commissione speciale sugli atti di bilancio regionali\". Impegno al Consiglio regionale»",
+     "esito": "approvata",
+     "esitoData": "5 novembre 2024",
+     "firmatari": [
+      {
+       "nome": "Micaela Fanelli",
+       "username": "fanelli.mic"
+      },
+      {
+       "nome": "Alessandra Salvatore",
+       "username": "salvatore.ale"
+      },
+      {
+       "nome": "Vittorino Facciolla",
+       "username": "facciolla.vit"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti-approvati/atto-30/8016-rg_0185_mozione_adempimenti_legge_213-23-20250319094404.pdf"
+    },
+    {
+     "id": "pdl-47",
+     "tipo": "pdl",
+     "numero": 47,
+     "data": "2024-11-04",
+     "titolo": "Proposta di legge regionale n. 47, di iniziativa della Giunta regionale, recante “Riconoscimento della legittimità di debito fuori bilancio ai sensi dell’art. 73, comma 1, lett. e) del d.lgs. 23 giugno 2011, n. 118, per il pagamento di un indennizzo per attività professionale resa da avvocato del libero foro per la rappresentanza e difesa della Regione Molise nei procedimenti innanzi a: Tribunale di Campobasso r.g. n. 1149/1993, sent. 23 giugno 2000, n. 327; Corte d’appello di Campobasso r.g. 1/2001, sentenza 23 agosto 2005, n. 222; Tribunale di Campobasso r.g. 1154/1993, sentenza (parziale) 10 maggio 2001, n. 298 e sentenza (definitiva) 16 gennaio 2003, n. 22; Tribunale di Campobasso r.g. 1187/1993, sentenza 18 aprile 2002, n. 224; Tribunale di Campobasso r.g. 1153/1993, sentenza 15 aprile 2002, n. 217”.",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/492%201_avv_giannone_antonio_proposta_legge_rdfb.docx.pdf"
+    },
+    {
+     "id": "pdl-43",
+     "tipo": "pdl",
+     "numero": 43,
+     "data": "2024-10-25",
+     "titolo": "Proposta di legge n. 43 (titolo nel testo allegato)",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/PDL%20-%20Coinvolgimento%20minori.pdf"
+    },
+    {
+     "id": "pdl-46",
+     "tipo": "pdl",
+     "numero": 46,
+     "data": "2024-10-24",
+     "titolo": "Disposizioni per la proroga delle graduatorie dei concorsi pubblici per le assunzioni a tempo indeterminato della Regione Molise, degli Enti ed Agenzie regionali e dell’Azienda sanitaria regionale del Molise",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/PDL_Graduatorie_ok.pdf"
+    },
+    {
+     "id": "mozione-222",
+     "tipo": "mozione",
+     "numero": 222,
+     "data": "2024-10-23",
+     "titolo": "Mozione, a firma dei consiglieri Salvatore, Facciolla, Fanelli, Gravina e Primiani, ad oggetto \"Perimetrazione ed individuazione della sede legale del Parco Nazionale del Matese",
+     "esito": "approvata",
+     "esitoData": "23 ottobre 2024",
+     "firmatari": [
+      {
+       "nome": "Alessandra Salvatore",
+       "username": "salvatore.ale"
+      },
+      {
+       "nome": "Vittorino Facciolla",
+       "username": "facciolla.vit"
+      },
+      {
+       "nome": "Micaela Fanelli",
+       "username": "fanelli.mic"
+      },
+      {
+       "nome": "Roberto Di Pardo",
+       "username": "di pardo.rob"
+      },
+      {
+       "nome": "Angelo Primiani",
+       "username": "primiani.ang"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti-approvati/atto-29/8013-rg_0222_mozione_parco_nazionale_matese-20250319094306.pdf"
+    },
+    {
+     "id": "pdl-45",
+     "tipo": "pdl",
+     "numero": 45,
+     "data": "2024-10-22",
+     "titolo": "Proposta di legge n. 45 (titolo nel testo allegato)",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/PDLDisposizioni_per_il_contenimento_e_la_riduzione_dell_inquinamento_acustico_nell_ambiente_esterno_e_nell_ambiente_abitativo.pdf"
+    },
+    {
+     "id": "pdl-44",
+     "tipo": "pdl",
+     "numero": 44,
+     "data": "2024-10-14",
+     "titolo": "Disciplina dei referendum abrogativi, consultivi, delle petizioni e dell'iniziativa legislativa",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/PDL_DISCIPLINA_REFERENDUM_F..pdf"
+    },
+    {
+     "id": "pdl-42",
+     "tipo": "pdl",
+     "numero": 42,
+     "data": "2024-10-03",
+     "titolo": "Promozione e sviluppo sostenibile di un sistema regionale di Comunità di energia rinnovabile (CER) in Molise per perseguire l’autoconsumo e l’autonomia energetica",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/2024-09-25_-_PDL_PROMOZIONE_ISTITUZIONE_COMUNITA__ENERGETICHE____1_.pdf"
+    },
+    {
+     "id": "pdl-41",
+     "tipo": "pdl",
+     "numero": 41,
+     "data": "2024-10-03",
+     "titolo": "Istituzione Parco Fluviale del Biferno",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/2024-09-25_-_PDL_Parco_Biferno-__1_.pdf"
+    },
+    {
+     "id": "pdl-39",
+     "tipo": "pdl",
+     "numero": 39,
+     "data": "2024-09-20",
+     "titolo": "«Revoca delle deliberazioni legislative n. 14 del 5 marzo 2024, ad oggetto “Proposta di legge regionale n. 10, di modifica statutaria, concernente “Modifiche alla legge regionale 18 aprile 2014, n. 10 (Statuto della Regione Molise)”. Approvazione con prima deliberazione” e n. 42 del 24 luglio 2024, avente ad oggetto: “Legge regionale concernente “Modifiche della legge regionale 18 aprile 2014, n. 10 (Statuto della Regione Molise”. Seconda deliberazione. Approvazione”».",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/Nota.pdf"
+    },
+    {
+     "id": "pdl-38",
+     "tipo": "pdl",
+     "numero": 38,
+     "data": "2024-09-20",
+     "titolo": "Semplificazione amministrativa in materia di sanità pubblica - Abolizione certificato medico per assenza scolastica",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/articolato.pdf"
+    },
+    {
+     "id": "pdl-34",
+     "tipo": "pdl",
+     "numero": 34,
+     "data": "2024-07-11",
+     "titolo": "Proposta di legge n. 34 (titolo nel testo allegato)",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/Proposta_di_modifica_di_Legge_Norme_in_materia_di_disciplina_e_classificazione_di_campeggi_villaggi_turistici_ed_aree_di_sosta_.pdf"
+    },
+    {
+     "id": "pdl-33",
+     "tipo": "pdl",
+     "numero": 33,
+     "data": "2024-07-05",
+     "titolo": "Proposta di legge n. 33 (titolo nel testo allegato)",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/PDL_Cammini.pdf"
+    },
+    {
+     "id": "pdl-32",
+     "tipo": "pdl",
+     "numero": 32,
+     "data": "2024-07-03",
+     "titolo": "Proposta di legge n. 32 (titolo nel testo allegato)",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/Copia_DocPrincipale_pdl_istituzione_del_garante_regionale_dei_diritti_delle_persone_con_disabilita.pdf"
+    },
+    {
+     "id": "pdl-30",
+     "tipo": "pdl",
+     "numero": 30,
+     "data": "2024-06-19",
+     "titolo": "Promozione della partecipazione, iniziativa e sostegno dei soggetti privati nella realizzazione di progetti a beneficio comune",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/PDLPromozione_della_partecipazione__dell_iniziativa_e_del_sostegno_dei_soggetti_privati_nella_realizzazione_di_progetti_a_beneficio_comune__1_.pdf"
+    },
+    {
+     "id": "pdl-29",
+     "tipo": "pdl",
+     "numero": 29,
+     "data": "2024-06-03",
+     "titolo": "Disciplina in materia funebre e cimiteriale",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/Copia_DocPrincipale_img-240529175637.pdf"
+    },
+    {
+     "id": "pdl-28",
+     "tipo": "pdl",
+     "numero": 28,
+     "data": "2024-06-03",
+     "titolo": "Disposizioni in materia di agricoltura sociale",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/PDL%20n_28.pdf"
+    },
+    {
+     "id": "pdl-27",
+     "tipo": "pdl",
+     "numero": 27,
+     "data": "2024-05-29",
+     "titolo": "Abrogazione della legge regionale 31 dicembre 2022, n. 27 (Rendiconto generale della Regione Molise per l'esercizio finanziario 2021) e della legge regionale 28 dicembre 2023, n. 9 (Rendiconto generale della Regione Molise per l'esercizio finanziario 2022). Abrogazione degli articoli 2 e 3 della legge regionale 19 settembre 2023, n. 4 (Modifica dell'articolo 12 della legge regionale 30 dicembre 2020, n. 17 \"Rendiconto generale della Regione Molise per l'esercizio finanziario 2019\" e modifiche della legge regionale 31 dicembre 2022, n. 27 \"Rendiconto generale della Regione Molise per l'esercizio finanziario 2021\")",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/Abrogazione_leggi_regionali.pdf"
+    },
+    {
+     "id": "mozione-208",
+     "tipo": "mozione",
+     "numero": 208,
+     "data": "2024-05-14",
+     "titolo": ": \"Azioni a tutela del comparto agricolo, delle filiere di eccellenza e del Made in Italy",
+     "esito": "approvata",
+     "esitoData": "14 maggio 2024",
+     "firmatari": [
+      {
+       "nome": "Stefania Passarelli",
+       "username": "passarelli.ste"
+      },
+      {
+       "nome": "Quintino Vincenzo Pallante",
+       "username": "pallante.qui"
+      },
+      {
+       "nome": "Roberto Di Pardo",
+       "username": "di pardo.rob"
+      },
+      {
+       "nome": "Armandino D'Egidio",
+       "username": "d egidio.arm"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti-approvati/atto-26/8009-atto_2024_038_del_14_05_2024_allegato-20250319094022.pdf"
+    },
+    {
+     "id": "mozione-183",
+     "tipo": "mozione",
+     "numero": 183,
+     "data": "2024-05-14",
+     "titolo": "Mozione, a firma dei consiglieri Salvatore, Facciolla e Fanelli, ad oggetto \"Tavolo ministeriale del 10 aprile 2024. Tutele dei lavoratori Albasan e di tutti i lavoratori dell'indotto (settore Servizi e Terziario)",
+     "esito": "approvata",
+     "esitoData": "14 maggio 2024",
+     "firmatari": [
+      {
+       "nome": "Alessandra Salvatore",
+       "username": "salvatore.ale"
+      },
+      {
+       "nome": "Vittorino Facciolla",
+       "username": "facciolla.vit"
+      },
+      {
+       "nome": "Micaela Fanelli",
+       "username": "fanelli.mic"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "mozione-176",
+     "tipo": "mozione",
+     "numero": 176,
+     "data": "2024-05-14",
+     "titolo": "Mozione, a firma del consigliere Romano, ad oggetto \"Stato di attuazione della situazione di crisi industriale complessa, nonchè per l'immediato pagamento delle spettanze dovute ai lavoratori selezionati dai Comuni per la realizzazione dei progetti di utilità diffusa e la proroga dei detti contratti",
+     "esito": "approvata",
+     "esitoData": "14 maggio 2024",
+     "firmatari": [
+      {
+       "nome": "Massimo Romano",
+       "username": "romano.mas"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "odg-163",
+     "tipo": "odg",
+     "numero": 163,
+     "data": "2024-05-14",
+     "titolo": "Ordine del Giorno a firma dei consiglieri Facciolla, Salvatore e Fanelli, ad oggetto \"Sostegno della Regione alla lotta dei produttori agricoli",
+     "esito": "approvata",
+     "esitoData": "14 maggio 2024",
+     "firmatari": [
+      {
+       "nome": "Vittorino Facciolla",
+       "username": "facciolla.vit"
+      },
+      {
+       "nome": "Alessandra Salvatore",
+       "username": "salvatore.ale"
+      },
+      {
+       "nome": "Micaela Fanelli",
+       "username": "fanelli.mic"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti-approvati/atto-31/8037-atto_2024_035_del_14_05_2024_allegato-20250319100337.pdf"
+    },
+    {
+     "id": "pdl-26",
+     "tipo": "pdl",
+     "numero": 26,
+     "data": "2024-05-13",
+     "titolo": "Rendiconto generale della Regione Molise per l'esercizio finanziario 2020",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/218%20Allegato_A_Proposta_di_Legge_rendiconto_2020.pdf"
+    },
+    {
+     "id": "pdl-25",
+     "tipo": "pdl",
+     "numero": 25,
+     "data": "2024-05-11",
+     "titolo": "Valorizzazione della cultura enogastronomica molisana - Istituzione del logo Ristorante tipico del Molise",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/Relazione_%2B_Proposta_di_Legge_.pdf"
+    },
+    {
+     "id": "pdl-24",
+     "tipo": "pdl",
+     "numero": 24,
+     "data": "2024-05-07",
+     "titolo": "Modifiche alla legge regionale 18 aprile 2014, n. 10 (Statuto della Regione Molise)",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/modifica_alla_l.r._10_-_2014_statuto_regione_molise.pdf"
+    },
+    {
+     "id": "pdl-23",
+     "tipo": "pdl",
+     "numero": 23,
+     "data": "2024-05-07",
+     "titolo": "Misure urgenti di tutela della biodiversità, del paesaggio e del territorio agro-silvo-pastorale",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/Proposta_di_Legge_Misure_urgenti_di_tutela_della_biodiversita_del_paesaggio_e_del_territorio_agro-silvo-pastorale_.pdf"
+    },
+    {
+     "id": "pdl-22",
+     "tipo": "pdl",
+     "numero": 22,
+     "data": "2024-05-07",
+     "titolo": "Legge di stabilità regionale anno 2024",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/ARTICOLATO.pdf"
+    },
+    {
+     "id": "pdl-21",
+     "tipo": "pdl",
+     "numero": 21,
+     "data": "2024-05-07",
+     "titolo": "Bilancio di previsione della Regione Molise 2024-2026",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/ALLEGATO_file_8.pdf"
+    },
+    {
+     "id": "pdl-20",
+     "tipo": "pdl",
+     "numero": 20,
+     "data": "2024-05-07",
+     "titolo": "Disciplina in materia funebre e cimiteriale",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/proposta_di_legge_cimiteriale.pdf"
+    },
+    {
+     "id": "mozione-177",
+     "tipo": "mozione",
+     "numero": 177,
+     "data": "2024-04-09",
+     "titolo": "Congedo paritario",
+     "esito": "approvata",
+     "esitoData": "9 aprile 2024",
+     "firmatari": [
+      {
+       "nome": "Alessandra Salvatore",
+       "username": "salvatore.ale"
+      },
+      {
+       "nome": "Vittorino Facciolla",
+       "username": "facciolla.vit"
+      },
+      {
+       "nome": "Micaela Fanelli",
+       "username": "fanelli.mic"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti-approvati/atto-22/7999-rg_0177_mozione_congedo_paritario-20250319093719.pdf"
+    },
+    {
+     "id": "mozione-165",
+     "tipo": "mozione",
+     "numero": 165,
+     "data": "2024-04-09",
+     "titolo": "Stanziamento di ulteriori finanziamenti necessari e sufficienti ad incrementare l'importo del fondo per gli interventi previsti dal bando per l'assegnazione di borse di studio, provvidenze e servizi per il diritto allo studio universitario A.A. 2023-2024",
+     "esito": "approvata",
+     "esitoData": "9 aprile 2024",
+     "firmatari": [
+      {
+       "nome": "Massimo Romano",
+       "username": "romano.mas"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti-approvati/atto-21/8019-rg_0165_mozione_ulteriori_stanziamenti_borse_studio.docx-20250319094518.pdf"
+    },
+    {
+     "id": "mozione-159",
+     "tipo": "mozione",
+     "numero": 159,
+     "data": "2024-04-09",
+     "titolo": "Alienazione quote azionarie di maggioranza Poste Italiane S.P.A. Impegno al Presidente della Regione",
+     "esito": "approvata",
+     "esitoData": "9 aprile 2024",
+     "firmatari": [
+      {
+       "nome": "Micaela Fanelli",
+       "username": "fanelli.mic"
+      },
+      {
+       "nome": "Alessandra Salvatore",
+       "username": "salvatore.ale"
+      },
+      {
+       "nome": "Vittorino Facciolla",
+       "username": "facciolla.vit"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti-approvati/atto-20/7996-rg_0159_mozione_poste_italiane_fin-20250319093633.pdf"
+    },
+    {
+     "id": "pdl-19",
+     "tipo": "pdl",
+     "numero": 19,
+     "data": "2024-03-22",
+     "titolo": "Misure urgenti per lo sviluppo dell'economia regionale e l'attrazione degli investimenti in settori avanzati dell'industria 4.0 - Istituzione del Distretto dell'Internet of Things",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/PDL%20N.19_0.pdf"
+    },
+    {
+     "id": "pdl-17",
+     "tipo": "pdl",
+     "numero": 17,
+     "data": "2024-03-22",
+     "titolo": "<< Interventi in favore del comparto audiovisivo e del cinema - Istituzione della \"Molise Film Commission\">>",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/PDL%20N.17.pdf"
+    },
+    {
+     "id": "mozione-168",
+     "tipo": "mozione",
+     "numero": 168,
+     "data": "2024-03-19",
+     "titolo": "«Inserimento della Questura di Campobasso tra quelle di \"particolare rilevanza\"»",
+     "esito": "approvata",
+     "esitoData": "19 marzo 2024",
+     "firmatari": [
+      {
+       "nome": "Alessandra Salvatore",
+       "username": "salvatore.ale"
+      },
+      {
+       "nome": "Vittorino Facciolla",
+       "username": "facciolla.vit"
+      },
+      {
+       "nome": "Micaela Fanelli",
+       "username": "fanelli.mic"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti-approvati/atto-19/7993-rg_0168_mozione_questura_di_cb-20250319093535.pdf"
+    },
+    {
+     "id": "mozione-152",
+     "tipo": "mozione",
+     "numero": 152,
+     "data": "2024-03-19",
+     "titolo": "Iniziative in merito alla crisi in Medio Oriente",
+     "esito": "approvata",
+     "esitoData": "19 marzo 2024",
+     "firmatari": [
+      {
+       "nome": "Vittorino Facciolla",
+       "username": "facciolla.vit"
+      },
+      {
+       "nome": "Alessandra Salvatore",
+       "username": "salvatore.ale"
+      },
+      {
+       "nome": "Micaela Fanelli",
+       "username": "fanelli.mic"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti-approvati/atto-18/7990-rg_0152_mozione_iniziative_crisi_in_medio_oriente-20250319093429.pdf"
+    },
+    {
+     "id": "mozione-103",
+     "tipo": "mozione",
+     "numero": 103,
+     "data": "2024-03-19",
+     "titolo": "Interventi corali, strutturali e capillari per la prevenzione ed il contrasto alla violenza ed alle discriminazioni di genere",
+     "esito": "approvata",
+     "esitoData": "19 marzo 2024",
+     "firmatari": [
+      {
+       "nome": "Alessandra Salvatore",
+       "username": "salvatore.ale"
+      },
+      {
+       "nome": "Vittorino Facciolla",
+       "username": "facciolla.vit"
+      },
+      {
+       "nome": "Micaela Fanelli",
+       "username": "fanelli.mic"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti-approvati/atto-17/7987-rg_0103_mozione_contrasto_violenza_di_genere-20250319093309.pdf"
+    },
+    {
+     "id": "mozione-102",
+     "tipo": "mozione",
+     "numero": 102,
+     "data": "2024-03-19",
+     "titolo": "Esenzione IRAP e tassa automobilistica OdV e APS",
+     "esito": "approvata",
+     "esitoData": "19 marzo 2024",
+     "firmatari": [
+      {
+       "nome": "Alessandra Salvatore",
+       "username": "salvatore.ale"
+      },
+      {
+       "nome": "Vittorino Facciolla",
+       "username": "facciolla.vit"
+      },
+      {
+       "nome": "Micaela Fanelli",
+       "username": "fanelli.mic"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti-approvati/atto-16/7982-atto_2024_017_del_19_03_2024_allegato-20250319093033.pdf"
+    },
+    {
+     "id": "pdl-18",
+     "tipo": "pdl",
+     "numero": 18,
+     "data": "2024-03-07",
+     "titolo": "Norme per la riduzione del rischio sismico e riordino delle funzioni in materia sismica",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/proposta_e_relazione_-_Legge__sismica.pdf"
+    },
+    {
+     "id": "mozione-164",
+     "tipo": "mozione",
+     "numero": 164,
+     "data": "2024-03-05",
+     "titolo": "«Delibera di Giunta regionale n. 48/2024 \"Indirizzi per la definizione e l'attuazione delle disposizioni di cui all'art.1, comma 460, della legge n. 213 del 30 dicembre 2023, recante 'Bilancio di previsione dello Stato per l'anno finanziario 2024 e bilancio pluriennale per il triennio 2024-2026'(Legge di bilancio 2024)\"»",
+     "esito": "approvata",
+     "esitoData": "5 marzo 2024",
+     "firmatari": [
+      {
+       "nome": "Micaela Fanelli",
+       "username": "fanelli.mic"
+      },
+      {
+       "nome": "Alessandra Salvatore",
+       "username": "salvatore.ale"
+      },
+      {
+       "nome": "Vittorino Facciolla",
+       "username": "facciolla.vit"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti-approvati/atto-15/7979-rg_0164_mozione_crediti_commerciali-20250319092716.pdf"
+    },
+    {
+     "id": "mozione-162",
+     "tipo": "mozione",
+     "numero": 162,
+     "data": "2024-02-27",
+     "titolo": "Sostegno candidatura città di Agnone a Capitale italiana della cultura 2026",
+     "esito": "approvata",
+     "esitoData": "27 febbraio 2024",
+     "firmatari": [
+      {
+       "nome": "Quintino Vincenzo Pallante",
+       "username": "pallante.qui"
+      },
+      {
+       "nome": "Andrea Greco",
+       "username": "greco.and"
+      },
+      {
+       "nome": "Stefania Passarelli",
+       "username": "passarelli.ste"
+      },
+      {
+       "nome": "Armandino D'Egidio",
+       "username": "d egidio.arm"
+      },
+      {
+       "nome": "Angelo Primiani",
+       "username": "primiani.ang"
+      },
+      {
+       "nome": "Vincenzo Niro",
+       "username": "niro.vin"
+      },
+      {
+       "nome": "Alessandra Salvatore",
+       "username": "salvatore.ale"
+      },
+      {
+       "nome": "Guido Massimo Sabusco",
+       "username": "sabusco.gui"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "odg-160",
+     "tipo": "odg",
+     "numero": 160,
+     "data": "2024-02-20",
+     "titolo": "Disposizioni per l'attuazione dell'autonomia differenziata delle regioni a Statuto Ordinario ai sensi dell'art. 116, Terzo comma, della Costituzione",
+     "esito": "approvata",
+     "esitoData": "20 febbraio 2024",
+     "firmatari": [
+      {
+       "nome": "Vincenzo Niro",
+       "username": "niro.vin"
+      },
+      {
+       "nome": "Salvatore Micone",
+       "username": "micone.sal"
+      },
+      {
+       "nome": "Roberto Di Pardo",
+       "username": "di pardo.rob"
+      },
+      {
+       "nome": "Angelo Michele Iorio",
+       "username": "iorio.ang"
+      },
+      {
+       "nome": "Roberto Di Baggio",
+       "username": "di baggio.rob"
+      },
+      {
+       "nome": "Stefania Passarelli",
+       "username": "passarelli.ste"
+      },
+      {
+       "nome": "Guido Massimo Sabusco",
+       "username": "sabusco.gui"
+      },
+      {
+       "nome": "Cefaratti Gianluca"
+      },
+      {
+       "nome": "Andrea Di Lucente",
+       "username": "di lucente.and"
+      },
+      {
+       "nome": "Armandino D'Egidio",
+       "username": "d egidio.arm"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti-approvati/atto-9/6738-rg0160_odg_trasmissione_autonomia_differenziata-20240311170514.pdf"
+    },
+    {
+     "id": "odg-158",
+     "tipo": "odg",
+     "numero": 158,
+     "data": "2024-02-14",
+     "titolo": "Modifiche al POS 23-25 per la rete dell'emergenza delle patologie tempo dipendenti",
+     "esito": "approvata",
+     "esitoData": "14 febbraio 2024",
+     "firmatari": [
+      {
+       "nome": "Roberto Di Pardo",
+       "username": "di pardo.rob"
+      },
+      {
+       "nome": "Vincenzo Niro",
+       "username": "niro.vin"
+      },
+      {
+       "nome": "Quintino Vincenzo Pallante",
+       "username": "pallante.qui"
+      },
+      {
+       "nome": "Fabio Cofelice",
+       "username": "cofelice.fab"
+      },
+      {
+       "nome": "Guido Massimo Sabusco",
+       "username": "sabusco.gui"
+      },
+      {
+       "nome": "Armandino D'Egidio",
+       "username": "d egidio.arm"
+      },
+      {
+       "nome": "Stefania Passarelli",
+       "username": "passarelli.ste"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti-approvati/atto-13/8042-rg_0158_odg_modifiche_pos_23-25-20250319100508.pdf"
+    },
+    {
+     "id": "odg-157",
+     "tipo": "odg",
+     "numero": 157,
+     "data": "2024-02-14",
+     "titolo": "Misure urgenti a sostegno delle imprese agricole per danni causati da attacchi di Peronospora",
+     "esito": "approvata",
+     "esitoData": "14 febbraio 2024",
+     "firmatari": [
+      {
+       "nome": "Vincenzo Niro",
+       "username": "niro.vin"
+      },
+      {
+       "nome": "Quintino Vincenzo Pallante",
+       "username": "pallante.qui"
+      },
+      {
+       "nome": "Roberto Di Pardo",
+       "username": "di pardo.rob"
+      },
+      {
+       "nome": "Fabio Cofelice",
+       "username": "cofelice.fab"
+      },
+      {
+       "nome": "Roberto Di Baggio",
+       "username": "di baggio.rob"
+      },
+      {
+       "nome": "Guido Massimo Sabusco",
+       "username": "sabusco.gui"
+      },
+      {
+       "nome": "Armandino D'Egidio",
+       "username": "d egidio.arm"
+      },
+      {
+       "nome": "Stefania Passarelli",
+       "username": "passarelli.ste"
+      },
+      {
+       "nome": "Roberto Gravina",
+       "username": "gravina.rob"
+      },
+      {
+       "nome": "Angelo Primiani",
+       "username": "primiani.ang"
+      },
+      {
+       "nome": "Alessandra Salvatore",
+       "username": "salvatore.ale"
+      },
+      {
+       "nome": "Vittorino Facciolla",
+       "username": "facciolla.vit"
+      },
+      {
+       "nome": "Micaela Fanelli",
+       "username": "fanelli.mic"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti-approvati/atto-12/8045-rg_0157_odg_attacchi_di_peronospora-20250319100628.pdf"
+    },
+    {
+     "id": "pdl-16",
+     "tipo": "pdl",
+     "numero": 16,
+     "data": "2024-02-01",
+     "titolo": "Disposizioni in materia di concessioni di grandi derivazioni a scopo idroelettrico in attuazione dell'articolo 12 del Decreto Legislativo 16 marzo 1999, n. 79 così come modificato dal Decreto Legge 14 dicembre 2018, n. 135 convertito con modificazioni dalla Legge 11 febbraio 2019, n. 12",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/PDL_Grandi_derivazioni.pdf"
+    },
+    {
+     "id": "mozione-107",
+     "tipo": "mozione",
+     "numero": 107,
+     "data": "2024-01-30",
+     "titolo": "«Revoca immediata della Deliberazione del Direttore Generale Asrem n. 923 del 21-11-2023 avente ad oggetto \"Conferimento incarico professionale di difesa della Asrem per la tutela dell'immagine e del buon nome dell'azienda e del management aziendale\"»",
+     "esito": "approvata",
+     "esitoData": "30 gennaio 2024",
+     "firmatari": [
+      {
+       "nome": "Massimo Romano",
+       "username": "romano.mas"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti.php"
+    },
+    {
+     "id": "mozione-133",
+     "tipo": "mozione",
+     "numero": 133,
+     "data": "2024-01-16",
+     "titolo": ": \"Misure a sostegno delle attività in regime di concessione demaniale marittima, fluviale e lacuale ad uso turistico - ricettivo",
+     "esito": "approvata",
+     "esitoData": "16 gennaio 2024",
+     "firmatari": [
+      {
+       "nome": "Quintino Vincenzo Pallante",
+       "username": "pallante.qui"
+      },
+      {
+       "nome": "Vincenzo Niro",
+       "username": "niro.vin"
+      },
+      {
+       "nome": "Salvatore Micone",
+       "username": "micone.sal"
+      },
+      {
+       "nome": "Nicola Cavaliere",
+       "username": "cavaliere.nic"
+      },
+      {
+       "nome": "Cefaratti Gianluca"
+      },
+      {
+       "nome": "Guido Massimo Sabusco",
+       "username": "sabusco.gui"
+      },
+      {
+       "nome": "Roberto Di Pardo",
+       "username": "di pardo.rob"
+      },
+      {
+       "nome": "Roberto Di Baggio",
+       "username": "di baggio.rob"
+      },
+      {
+       "nome": "Stefania Passarelli",
+       "username": "passarelli.ste"
+      },
+      {
+       "nome": "Fabio Cofelice",
+       "username": "cofelice.fab"
+      },
+      {
+       "nome": "Armandino D'Egidio",
+       "username": "d egidio.arm"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti-approvati/atto-7/6609-rg133_mozione_misure_sostegno_attivit_concessione_demaniale_marittima-20240212121632.pdf"
+    },
+    {
+     "id": "mozione-113",
+     "tipo": "mozione",
+     "numero": 113,
+     "data": "2023-12-28",
+     "titolo": "Prevista chiusura sala operativa compartimentale (SOC) dell'ANAS di Campobasso e ripristino della Direzione territoriale autonoma del Molise",
+     "esito": "approvata",
+     "esitoData": "28 dicembre 2023",
+     "firmatari": [
+      {
+       "nome": "Quintino Vincenzo Pallante",
+       "username": "pallante.qui"
+      },
+      {
+       "nome": "Guido Massimo Sabusco",
+       "username": "sabusco.gui"
+      },
+      {
+       "nome": "Alessandra Salvatore",
+       "username": "salvatore.ale"
+      },
+      {
+       "nome": "Stefania Passarelli",
+       "username": "passarelli.ste"
+      },
+      {
+       "nome": "Angelo Primiani",
+       "username": "primiani.ang"
+      },
+      {
+       "nome": "Cefaratti Gianluca"
+      },
+      {
+       "nome": "Fabio Cofelice",
+       "username": "cofelice.fab"
+      },
+      {
+       "nome": "Roberto Di Pardo",
+       "username": "di pardo.rob"
+      },
+      {
+       "nome": "Armandino D'Egidio",
+       "username": "d egidio.arm"
+      },
+      {
+       "nome": "Roberto Gravina",
+       "username": "gravina.rob"
+      },
+      {
+       "nome": "Nicola Cavaliere",
+       "username": "cavaliere.nic"
+      },
+      {
+       "nome": "Andrea Greco",
+       "username": "greco.and"
+      },
+      {
+       "nome": "Vincenzo Niro",
+       "username": "niro.vin"
+      },
+      {
+       "nome": "Micaela Fanelli",
+       "username": "fanelli.mic"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti-approvati/atto-6/6597-rg0113_mozione_anas-20240212113847.pdf"
+    },
+    {
+     "id": "pdl-15",
+     "tipo": "pdl",
+     "numero": 15,
+     "data": "2023-12-23",
+     "titolo": "Assestamento al bilancio di previsione della Regione Molise 2023-2025",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/proposta_di_legge_assestamento_2023-2025.pdf"
+    },
+    {
+     "id": "pdl-14",
+     "tipo": "pdl",
+     "numero": 14,
+     "data": "2023-12-19",
+     "titolo": "Autorizzazione all'esercizio provvisorio del bilancio di previsione della Regione Molise per l'anno 2024",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/385%20PROPOSTA_DI_LEGGE_ESERCIZIO_PROVVISORIO.pdf"
+    },
+    {
+     "id": "odg-118",
+     "tipo": "odg",
+     "numero": 118,
+     "data": "2023-12-12",
+     "titolo": "Ordine del Giorno collegato alla Legge regionale n. 12/2023, (Bilancio di previsione della Regione Molise 2023-2025), ad oggetto \"Prevenzione e contrasto violenza di genere",
+     "esito": "approvata",
+     "esitoData": "12 dicembre 2023",
+     "firmatari": [
+      {
+       "nome": "Alessandra Salvatore",
+       "username": "salvatore.ale"
+      },
+      {
+       "nome": "Micaela Fanelli",
+       "username": "fanelli.mic"
+      },
+      {
+       "nome": "Vittorino Facciolla",
+       "username": "facciolla.vit"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti-approvati/atto-4/6599-rg0118_odg_collegato_contrasto_violenza_di_genere-20240212114027.pdf"
+    },
+    {
+     "id": "pdl-13",
+     "tipo": "pdl",
+     "numero": 13,
+     "data": "2023-11-24",
+     "titolo": "Legge stabilità regionale 2023",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/proposta_legge_di_stabilita_regionale_2023.pdf"
+    },
+    {
+     "id": "pdl-12",
+     "tipo": "pdl",
+     "numero": 12,
+     "data": "2023-11-23",
+     "titolo": "Bilancio di previsione della Regione Molise 2023-2025",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/proposta_di_legge_bilancio_23-25.pdf"
+    },
+    {
+     "id": "pdl-11",
+     "tipo": "pdl",
+     "numero": 11,
+     "data": "2023-11-23",
+     "titolo": "Riconoscimento della legittimità di debito fuori bilancio ai sensi dell'art. 73, comma 1, lett. e) del d.lgs. 23.06.2011, n. 118, per il pagamento del compenso da attività professionale resa da avvocato del libero foro nella controversia tributaria R.G. n. 14081/2014 dinanzi alla Corte di Cassazione",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/350%20avv_libero_foro_riconoscimento_ldfb_testo_proposta_legge.docx.pdf"
+    },
+    {
+     "id": "pdl-10",
+     "tipo": "pdl",
+     "numero": 10,
+     "data": "2023-11-23",
+     "titolo": "Modifiche allo Statuto della Regione Molise, nel testo approvato con deliberazioni del Consiglio regionale n. 184 del 19 luglio 2010 e n. 35 del 22 febbraio 2011 e modificato, a norma dell'art. 17-bis della legge regionale 24 ottobre 2005, n. 36, con deliberazioni del Consiglio regionale n. 213 del 19 ottobre 2012 e n. 258 del 20 dicembre 2012\".",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/Relazione_%2B_statuto_modifica.pdf"
+    },
+    {
+     "id": "pdl-9",
+     "tipo": "pdl",
+     "numero": 9,
+     "data": "2023-11-23",
+     "titolo": "Adeguamento della disciplina dell'imposta sul reddito delle persone fisiche (IRPEF). Modifica alla legge regionale 25 luglio 2013 n. 9, come modificato dall'articolo 2, comma 1, della legge regionale 30 marzo 2022 n. 5",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/ADD._REGIONALE_ALL_IRPEF_2024_rev.pdf"
+    },
+    {
+     "id": "pdl-8",
+     "tipo": "pdl",
+     "numero": 8,
+     "data": "2023-11-23",
+     "titolo": "Rendiconto generale della Regione Molise per l'esercizio finanziario 2022",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/Legge_rendiconto_2022_.pdf"
+    },
+    {
+     "id": "mozione-33",
+     "tipo": "mozione",
+     "numero": 33,
+     "data": "2023-10-17",
+     "titolo": "Azioni urgenti per il monitoraggio e miglioramento delle performance sul Piano Regionale del Governo delle Liste di attesa",
+     "esito": "approvata",
+     "esitoData": "17 ottobre 2023",
+     "firmatari": [
+      {
+       "nome": "Andrea Greco",
+       "username": "greco.and"
+      },
+      {
+       "nome": "Angelo Primiani",
+       "username": "primiani.ang"
+      },
+      {
+       "nome": "Roberto Gravina",
+       "username": "gravina.rob"
+      },
+      {
+       "nome": "Massimo Romano",
+       "username": "romano.mas"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti-approvati/atto-3/6603-rg0033_mozione_liste_d_attesa-20240212120536.pdf"
+    },
+    {
+     "id": "mozione-29",
+     "tipo": "mozione",
+     "numero": 29,
+     "data": "2023-10-17",
+     "titolo": "Ripristino postazione 118 medicalizzata a Montenero di Bisaccia. Impegno al Presidente della Giunta regionale",
+     "esito": "approvata",
+     "esitoData": "17 ottobre 2023",
+     "firmatari": [
+      {
+       "nome": "Micaela Fanelli",
+       "username": "fanelli.mic"
+      },
+      {
+       "nome": "Alessandra Salvatore",
+       "username": "salvatore.ale"
+      },
+      {
+       "nome": "Vittorino Facciolla",
+       "username": "facciolla.vit"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti-approvati/atto-2/6605-rg0029_mozione_postazione_118_montenero-20240212121421.pdf"
+    },
+    {
+     "id": "mozione-28",
+     "tipo": "mozione",
+     "numero": 28,
+     "data": "2023-10-17",
+     "titolo": "Impianto idroelettrico di Pizzone II. Impegno al Presidente ed al Consiglio della Regione Molise",
+     "esito": "approvata",
+     "esitoData": "17 ottobre 2023",
+     "firmatari": [
+      {
+       "nome": "Alessandra Salvatore",
+       "username": "salvatore.ale"
+      },
+      {
+       "nome": "Micaela Fanelli",
+       "username": "fanelli.mic"
+      },
+      {
+       "nome": "Vittorino Facciolla",
+       "username": "facciolla.vit"
+      }
+     ],
+     "url": "https://consiglioweb.regione.molise.it/atti-approvati/atto-1/6607-rg0028_mozione_pizzone_ii-20240212121552.pdf"
+    },
+    {
+     "id": "pdl-7",
+     "tipo": "pdl",
+     "numero": 7,
+     "data": "2023-09-21",
+     "titolo": "Istituzione Commissione speciale Antimafia, anticorruzione, trasparenza e educazione alla legalità",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/PDL_Istituzione_Commissione_speciale.pdf"
+    },
+    {
+     "id": "pdl-5",
+     "tipo": "pdl",
+     "numero": 5,
+     "data": "2023-09-18",
+     "titolo": "Sostegno finanziario al sistema sanitario nazionale a decorrere dal 2023",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/PDL%20N.5.pdf"
+    },
+    {
+     "id": "pdl-4",
+     "tipo": "pdl",
+     "numero": 4,
+     "data": "2023-09-18",
+     "titolo": "Istituzione della Molise Film Commission",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/PDL%20Film%20Commission.PDF"
+    },
+    {
+     "id": "pdl-3",
+     "tipo": "pdl",
+     "numero": 3,
+     "data": "2023-09-15",
+     "titolo": "Istituzione di una Commissione consiliare di carattere temporaneo, di studio e approfondimento su appalti ASReM e contratti di accreditamento dei privati, dell'organizzazione del servizio sanitario regionale e del rispetto del Piano Regionale del Governo delle Liste di Attesa",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/PDL%20N.3.pdf"
+    },
+    {
+     "id": "pdl-2",
+     "tipo": "pdl",
+     "numero": 2,
+     "data": "2023-09-15",
+     "titolo": "Modifiche all'articolo 12 della legge regionale 30 dicembre 2020, n. 17 (Rendiconto generale della Regione Molise per l'esercizio finanziario 2019) e modifiche alla legge regionale 31 dicembre 2022, n. 27 (Rendiconto generale della Regione Molise per l'esercizio finanziario 2021)",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/PDL%202.pdf"
+    },
+    {
+     "id": "pdl-1",
+     "tipo": "pdl",
+     "numero": 1,
+     "data": "2023-09-15",
+     "titolo": "Dimezzamento delle indennità del Presidente e dei componenti della Giunta regionale e di quelle dei Consiglieri regionali, con impegno delle conseguenti economie per interventi a sostegno dei nuclei familiari con persone in condizioni di disabilità",
+     "firmatari": [],
+     "url": "https://consiglio.regione.molise.it/sites/consiglio.regione.molise.it/files/PDL%20001%20Riduzione%20indennit%C3%A0.PDF"
+    }
+   ],
+   "leggi": [
+    {
+     "id": "2026-10",
+     "numero": 10,
+     "data": "2026-10-06",
+     "intestazione": "Legge regionale 6 ottobre 2026, n. 10",
+     "oggetto": "Disposizioni per la proroga delle graduatorie dei concorsi pubblici per assunzioni a tempo indeterminato e determinato nell'Azienda sanitaria regionale del Molise - ASREM",
+     "url": "https://consiglio.regione.molise.it/node/26933"
+    },
+    {
+     "id": "2026-9",
+     "numero": 9,
+     "data": "2026-10-06",
+     "intestazione": "Legge regionale 6 ottobre 2026, n. 9",
+     "oggetto": "Elezioni regionali del 25 e 26 giugno 2023 per il rinnovo del Presidente della Giunta regionale e del Consiglio regionale: riconoscimento della legittimità di debito fuori bilancio ai sensi dell’articolo 73, comma 1, lettera e), del decreto legislativo 23 giugno 2011, n. 118",
+     "url": "https://consiglio.regione.molise.it/node/26932"
+    },
+    {
+     "id": "2026-8",
+     "numero": 8,
+     "data": "2026-05-29",
+     "intestazione": "Legge regionale 29 maggio 2026, n. 8",
+     "oggetto": "Bilancio di previsione della Regione Molise 2026-2028",
+     "url": "https://consiglio.regione.molise.it/node/26775"
+    },
+    {
+     "id": "2026-7",
+     "numero": 7,
+     "data": "2026-05-26",
+     "intestazione": "Legge regionale 26 maggio 2026, n. 7",
+     "oggetto": "Legge di stabilità regionale 2026",
+     "url": "https://consiglio.regione.molise.it/node/26774"
+    },
+    {
+     "id": "2026-6",
+     "numero": 6,
+     "data": "2026-05-08",
+     "intestazione": "Legge regionale 8 maggio 2026, n. 6",
+     "oggetto": "Riconoscimento della legittimità del debito fuori bilancio ai sensi dell’art. 73, comma 1, lett. a) del D.lgs. 23 giugno 2011, n. 118. Decreti ingiuntivi n. 167/2002 e n. 30/2003 emessi dal Tribunale di Larino (Sez. Distaccata di Termoli), confermati dalle sentenze n. 127/2005 e n. 84/2006 Tribunale di Larino, nonché sentenze di ottemperanza TAR Molise n. 395/2025 e n. 398/2025 e nomina del Direttore del Servizio Risorse Finanziarie, Bilancio e Ragioneria Generale della Regione Molise quale Commissario ad acta",
+     "url": "https://consiglio.regione.molise.it/node/26757"
+    },
+    {
+     "id": "2026-5",
+     "numero": 5,
+     "data": "2026-03-30",
+     "intestazione": "Legge regionale 30 marzo 2026, n. 5",
+     "oggetto": "Istituzione giornata regionale in memoria di Rodolfo De Moulins",
+     "url": "https://consiglio.regione.molise.it/node/26705"
+    },
+    {
+     "id": "2026-4",
+     "numero": 4,
+     "data": "2026-03-30",
+     "intestazione": "Legge regionale 30 marzo 2026, n. 4",
+     "oggetto": "Istituzione giornata regionale dello studente",
+     "url": "https://consiglio.regione.molise.it/node/26704"
+    },
+    {
+     "id": "2026-3",
+     "numero": 3,
+     "data": "2026-03-30",
+     "intestazione": "Legge regionale 30 marzo 2026, n. 3",
+     "oggetto": "Disposizioni per la salvaguardia e la valorizzazione dei dialetti della Regione Molise",
+     "url": "https://consiglio.regione.molise.it/node/26703"
+    },
+    {
+     "id": "2026-2",
+     "numero": 2,
+     "data": "2026-02-27",
+     "intestazione": "Legge regionale 27 febbraio 2026, n. 2",
+     "oggetto": "Valorizzazione e promozione dei presepi molisani",
+     "url": "https://consiglio.regione.molise.it/node/26702"
+    },
+    {
+     "id": "2026-1",
+     "numero": 1,
+     "data": "2026-02-27",
+     "intestazione": "Legge regionale 27 febbraio 2026, n. 1",
+     "oggetto": "Istituzione del garante regionale dei diritti delle persone con disabilità",
+     "url": "https://consiglio.regione.molise.it/node/26701"
+    },
+    {
+     "id": "2025-20",
+     "numero": 20,
+     "data": "2025-12-23",
+     "intestazione": "Legge regionale 23 dicembre 2025, n. 20",
+     "oggetto": "Autorizzazione all'esercizio provvisorio del bilancio di previsione della Regione Molise per l'anno 2026",
+     "url": "https://consiglio.regione.molise.it/node/26569"
+    },
+    {
+     "id": "2025-19",
+     "numero": 19,
+     "data": "2025-12-23",
+     "intestazione": "Legge regionale 23 dicembre 2025, n. 19",
+     "oggetto": "Rendiconto generale della Regione Molise per l'esercizio finanziario 2024",
+     "url": "https://consiglio.regione.molise.it/node/26568"
+    },
+    {
+     "id": "2025-18",
+     "numero": 18,
+     "data": "2025-12-23",
+     "intestazione": "Legge regionale 23 dicembre 2025, n. 18",
+     "oggetto": "Rendiconto generale della Regione Molise per l'esercizio finanziario 2023",
+     "url": "https://consiglio.regione.molise.it/node/26567"
+    },
+    {
+     "id": "2025-17",
+     "numero": 17,
+     "data": "2025-12-16",
+     "intestazione": "Legge regionale 16 dicembre 2025, n. 17",
+     "oggetto": "Assestamento del bilancio di previsione 2025 - 2027",
+     "url": "https://consiglio.regione.molise.it/node/26566"
+    },
+    {
+     "id": "2025-16",
+     "numero": 16,
+     "data": "2025-12-05",
+     "intestazione": "Legge regionale 5 dicembre 2025, n. 16",
+     "oggetto": "Riconoscimento della legittimità di debito fuori bilancio ai sensi dell'art. 73, comma 1, lett. e), del D.Lgs 23 giugno 2011, n. 118, per il pagamento di un indennizzo per attività professionale resa da avvocato del libero foro per il patrocinio svolto in vari procedimenti penali a tutela degli interessi civili della Regione Molise quale parte offesa, incarichi conferiti con : DGR 7 agosto 2015, n. 437 (Tribunale di Campobasso, R.G.N.R. n. 3051/2013, n. 3307/2013, n. 2742/2013, n. 4291/2012, n.1724/2013, n. 2743/2013, n. 2851/2013, n. 2337/2013), DGR 12 novembre 2015, n. 619 (Tribunale di Campobasso R.G.N.R. 2854/2013), DGR 14 dicembre 2015, n. 698 (Tribunale di Campobasso R.G.N.R. 4290/2012), DGR 5 maggio 2016, n. 197 (Tribunale di Campobasso R.G.N.R. 4157/2013), DGR 5 maggio 2016, n. 195 (Tribunale di Campobasso R.G.N.R. 2527/2013)",
+     "url": "https://consiglio.regione.molise.it/node/26543"
+    },
+    {
+     "id": "2025-15",
+     "numero": 15,
+     "data": "2025-12-05",
+     "intestazione": "Legge regionale 5 dicembre 2025, n. 15",
+     "oggetto": "Riconoscimento della legittimità di debito fuori bilancio ai sensi dell'art. 73, comma 1, lett. e), del D.Lgs 23 giugno 2011, n. 118, per il pagamento di un indennizzo per attività professionale resa da avvocato del libero foro per il patrocinio svolto nel procedimento dinanzi al Tribunale di Campobasso R.G. n. 1017/2019, incarico conferito con deliberazione di Giunta regionale del 2 aprile 2019, n. 103",
+     "url": "https://consiglio.regione.molise.it/node/26542"
+    },
+    {
+     "id": "2025-14",
+     "numero": 14,
+     "data": "2025-12-05",
+     "intestazione": "Legge regionale 5 dicembre 2025, n. 14",
+     "oggetto": "Riconoscimento della legittimità di debito fuori bilancio ai sensi dell'art. 73, comma 1, lett. e), del D.Lgs 23 giugno 2011, n. 118, per il pagamento di un indennizzo per attività professionale resa da avvocato del libero foro per la costituzione di parte civile nel procedimento penale R.G.N.R. n. 1414/2012, R.G. GIP n. 3299/2012",
+     "url": "https://consiglio.regione.molise.it/node/26541"
+    },
+    {
+     "id": "2025-13",
+     "numero": 13,
+     "data": "2025-11-14",
+     "intestazione": "Legge regionale 14 novembre 2025, n. 13",
+     "oggetto": "Disposizioni legislative per il riconoscimento e il sostegno del caregiver familiare",
+     "url": "https://consiglio.regione.molise.it/node/26491"
+    },
+    {
+     "id": "2025-12",
+     "numero": 12,
+     "data": "2025-11-14",
+     "intestazione": "Legge regionale 14 novembre 2025, n. 12",
+     "oggetto": "Promozione e valorizzazione dell'invecchiamento attivo e della buona salute",
+     "url": "https://consiglio.regione.molise.it/node/26490"
+    },
+    {
+     "id": "2025-11",
+     "numero": 11,
+     "data": "2025-11-14",
+     "intestazione": "Legge regionale 14 novembre 2025, n. 11",
+     "oggetto": "Istituzione del garante regionale per i diritti delle persone anziane",
+     "url": "https://consiglio.regione.molise.it/node/26489"
+    },
+    {
+     "id": "2025-10",
+     "numero": 10,
+     "data": "2025-10-23",
+     "intestazione": "Legge regionale 23 ottobre 2025, n. 10",
+     "oggetto": "Ulteriori disposizioni per la proroga delle graduatorie dei concorsi pubblici per assunzioni a tempo indeterminato nell'Azienda sanitaria regionale del Molise",
+     "url": "https://consiglio.regione.molise.it/node/26434"
+    },
+    {
+     "id": "2025-8",
+     "numero": 8,
+     "data": "2025-09-24",
+     "intestazione": "Legge regionale 24 settembre 2025, n. 8",
+     "oggetto": "Disposizioni urgenti in materia di formazione professionale e mercato del lavoro per l’attuazione del Piano Nazionale di Ripresa e Resilienza (PNRR). Modifiche alla legge regionale 30 marzo 1995, n. 10 (Nuovo ordinamento della formazione professionale)",
+     "url": "https://consiglio.regione.molise.it/node/26386"
+    },
+    {
+     "id": "2025-7",
+     "numero": 7,
+     "data": "2025-09-24",
+     "intestazione": "Legge regionale 24 settembre 2025, n. 7",
+     "oggetto": "Abrogazione della legge regionale 27 dicembre 2024, n. 11 (Rendiconto generale della Regione Molise per l'esercizio finanziario 2023)",
+     "url": "https://consiglio.regione.molise.it/node/26385"
+    },
+    {
+     "id": "2025-6",
+     "numero": 6,
+     "data": "2025-05-30",
+     "intestazione": "Legge regionale 30 maggio 2025, n. 6",
+     "oggetto": "Semplificazione amministrativa in materia di sanità pubblica. Abolizione del certificato medico per assenza scolastica",
+     "url": "https://consiglio.regione.molise.it/node/26223"
+    },
+    {
+     "id": "2025-5",
+     "numero": 5,
+     "data": "2025-05-30",
+     "intestazione": "Legge regionale 30 maggio 2025, n. 5",
+     "oggetto": "Modifiche al regolamento regionale 26 gennaio 2004, n. 1 (Regolamento applicativo della legge regionale n. 30/2002, ai sensi dell'art. 13, comma 1, lett.a))",
+     "url": "https://consiglio.regione.molise.it/node/26222"
+    },
+    {
+     "id": "2025-1",
+     "numero": 1,
+     "data": "2025-03-18",
+     "intestazione": "Legge regionale 18 marzo 2025, n. 1",
+     "oggetto": "Disposizioni in materia di agricoltura sociale",
+     "url": "https://consiglio.regione.molise.it/node/26099"
+    },
+    {
+     "id": "2024-14",
+     "numero": 14,
+     "data": "2024-12-27",
+     "intestazione": "Legge regionale 27 dicembre 2024, n. 14",
+     "oggetto": "Autorizzazione all’esercizio provvisorio del bilancio di previsione della Regione Molise per l’anno 2025",
+     "url": "https://consiglio.regione.molise.it/node/25965"
+    },
+    {
+     "id": "2024-13",
+     "numero": 13,
+     "data": "2024-12-27",
+     "intestazione": "Legge regionale 27 dicembre 2024, n. 13",
+     "oggetto": "Riconoscimento della legittimità del debito fuori bilancio ai sensi dell’articolo 73, comma 1, lettera a), del decreto legislativo 23 giugno 2011, n. 118 – Decreto ingiuntivo n.385/2019 (n.1330/19 R.G. Tribunale di Campobasso",
+     "url": "https://consiglio.regione.molise.it/node/25964"
+    },
+    {
+     "id": "2024-12",
+     "numero": 12,
+     "data": "2024-12-27",
+     "intestazione": "Legge regionale 27 dicembre 2024, n. 12",
+     "oggetto": "Riconoscimento della legittimità di debito fuori bilancio ai sensi dell’articolo 73, comma 1, lett. e), del d.lgs. 23 giugno 2011, n. 118, per il pagamento di un indennizzo per attività professionale resa da avvocato del libero foro per la rappresentanza e difesa della Regione Molise nei procedimenti innanzi a: TAR Molise, rg n. 16/2010, sentenza n. 992/2011; C. Stato, rg n. 4192/2012, sentenza n. 1462/2013; C. Stato rg nn. 6319-6320-6321/2010, ordinanze nn. 371-4197-4901/2010; TAR Molise rg n. 212/2004, sentenza n. 186/2011; C. Stato rg n. 8412/2011, sentenza n. 3867/2017; TAR Lazio rg n. 8693/2012, sentenza n. 9868/2013; TAR Molise rg n. 496/2007, sentenza 603/2013; TAR Molise rg n. 497/2007, sentenza n. 604/2013; Tar Molise rg n. 498/2007, sentenza n. 605/2013",
+     "url": "https://consiglio.regione.molise.it/node/25963"
+    },
+    {
+     "id": "2024-11",
+     "numero": 11,
+     "data": "2024-12-27",
+     "intestazione": "Legge regionale 27 dicembre 2024, n. 11",
+     "oggetto": "Rendiconto generale della Regione Molise per l'esercizio finanziario 2023",
+     "url": "https://consiglio.regione.molise.it/node/25962"
+    },
+    {
+     "id": "2024-10",
+     "numero": 10,
+     "data": "2024-12-19",
+     "intestazione": "Legge regionale 19 dicembre 2024, n. 10",
+     "oggetto": "Assestamento del bilancio di previsione 2024 - 2026",
+     "url": "https://consiglio.regione.molise.it/node/25954"
+    },
+    {
+     "id": "2024-8",
+     "numero": 8,
+     "data": "2024-12-05",
+     "intestazione": "Legge regionale 5 dicembre 2024, n. 8",
+     "oggetto": "Riconoscimento della legittimità di debito fuori bilancio ai sensi dell’articolo 73, comma 1, lett. e), del d.lgs. 23 giugno 2011, n. 118, per il pagamento di un indennizzo per attività professionale resa da avvocato del libero foro per la rappresentanza e difesa della Regione Molise nei procedimenti innanzi a: Tribunale di Campobasso r.g. n. 1149/1993, sent. 23 giugno 2000, n. 327; Corte d’appello di Campobasso r.g. 1/2001, sentenza 23 agosto 2005, n. 222; Tribunale di Campobasso r.g. 1154/1993, sentenza (parziale) 10 maggio 2001, n. 298 e sentenza (definitiva) 16 gennaio 2003, n. 22; Tribunale di Campobasso r.g. 1187/1993, sentenza 18 aprile 2002, n. 224; Tribunale di Campobasso r.g. 1153/1993, sentenza 15 aprile 2002, n. 217",
+     "url": "https://consiglio.regione.molise.it/node/25910"
+    },
+    {
+     "id": "2024-7",
+     "numero": 7,
+     "data": "2024-11-07",
+     "intestazione": "Legge regionale 7 novembre 2024, n. 7",
+     "oggetto": "Riconoscimento della legittimità di debito fuori bilancio ai sensi dell'art. 73, comma 1, lett. e), del d.lgs 23 giugno 2011, n. 118, per il pagamento di un indennizzo per attività professionale resa da avvocato del libero foro per la costituzione di parte civile nel procedimento penale r.g.n.r. 1001/2014 mod. 21, n. 1249/2014 R.G. GIP",
+     "url": "https://consiglio.regione.molise.it/node/25843"
+    },
+    {
+     "id": "2024-6",
+     "numero": 6,
+     "data": "2024-10-24",
+     "intestazione": "Legge regionale 24 ottobre 2024, n. 6",
+     "oggetto": "Disposizioni per la proroga delle graduatorie dei concorsi pubblici per le assunzioni a tempo indeterminato della Regione Molise, degli enti strumentali ed agenzie regionali e dell'Azienda sanitaria regionale del Molise",
+     "url": "https://consiglio.regione.molise.it/node/25814"
+    },
+    {
+     "id": "2024-5",
+     "numero": 5,
+     "data": "2024-07-17",
+     "intestazione": "Legge regionale 17 luglio 2024, n. 5",
+     "oggetto": "Rendiconto generale della Regione Molise per l'esercizio finanziario 2021",
+     "url": "https://consiglio.regione.molise.it/node/25708"
+    },
+    {
+     "id": "2024-4",
+     "numero": 4,
+     "data": "2024-06-14",
+     "intestazione": "Legge regionale 14 giugno 2024, n. 4",
+     "oggetto": "Abrogazione della legge regionale 31 dicembre 2022, n. 27 (Rendiconto generale della Regione Molise per l'esercizio finanziario 2021) e della legge regionale 28 dicembre 2023, n. 9 (Rendiconto generale della Regione Molise per l'esercizio finanziario 2022). Abrogazione degli articoli 2 e 3 della legge regionale 19 settembre 2023, n. 4 (Modifica dell'articolo 12 della legge regionale 30 dicembre 2020, n. 17 \"Rendiconto generale della Regione Molise per l'esercizio finanziario 2019\" e modifiche della legge regionale 31 dicembre 2022, n. 27 \"Rendiconto generale della Regione Molise per l'esercizio finanziario 2021\")",
+     "url": "https://consiglio.regione.molise.it/node/25589"
+    },
+    {
+     "id": "2024-3",
+     "numero": 3,
+     "data": "2024-05-21",
+     "intestazione": "Legge regionale 21 maggio 2024, n. 3",
+     "oggetto": "Modifiche della legge regionale 29 dicembre 2021, n. 8 (Rendiconto generale della Regione Molise per l'esercizio finanziario 2020) in ottemperanza alla sentenza della Corte costituzionale 24 gennaio 2024, n. 39 pubblicata nella Gazzetta ufficiale 13 marzo 2024, n. 11",
+     "url": "https://consiglio.regione.molise.it/node/25578"
+    },
+    {
+     "id": "2024-2",
+     "numero": 2,
+     "data": "2024-04-29",
+     "intestazione": "Legge regionale 29 aprile 2024, n. 2",
+     "oggetto": "Legge di stabilità regionale anno 2024",
+     "url": "https://consiglio.regione.molise.it/node/25530"
+    },
+    {
+     "id": "2024-1",
+     "numero": 1,
+     "data": "2024-04-29",
+     "intestazione": "Legge regionale 29 aprile 2024, n. 1",
+     "oggetto": "Bilancio di previsione della Regione Molise 2024 - 2026",
+     "url": "https://consiglio.regione.molise.it/node/25529"
+    },
+    {
+     "id": "2023-11",
+     "numero": 11,
+     "data": "2023-12-29",
+     "intestazione": "Legge regionale 29 dicembre 2023, n. 11",
+     "oggetto": "Riconoscimento della legittimità di debito fuori bilancio ai sensi dell’art. 73, comma 1, lett. e) del d.lgs. 23.06.2011, n. 118, per il pagamento del compenso da attività professionale resa da avvocato del libero foro nella controversia tributaria R.G. n. 14081/2014 dinanzi alla Corte di Cassazione",
+     "url": "https://consiglio.regione.molise.it/node/25344"
+    },
+    {
+     "id": "2023-10",
+     "numero": 10,
+     "data": "2023-12-29",
+     "intestazione": "Legge regionale 29 dicembre 2023, n. 10",
+     "oggetto": "Assestamento del bilancio di previsione della Regione Molise 2023 - 2025",
+     "url": "https://consiglio.regione.molise.it/node/25343"
+    },
+    {
+     "id": "2023-9",
+     "numero": 9,
+     "data": "2023-12-28",
+     "intestazione": "Legge regionale 28 dicembre 2023, n. 9",
+     "oggetto": "Rendiconto generale della Regione Molise per l'esercizio finanziario 2022",
+     "url": "https://consiglio.regione.molise.it/node/25342"
+    },
+    {
+     "id": "2023-7",
+     "numero": 7,
+     "data": "2023-12-15",
+     "intestazione": "Legge regionale 15 dicembre 2023, n. 7",
+     "oggetto": "Legge di stabilità regionale 2023",
+     "url": "https://consiglio.regione.molise.it/node/25332"
+    },
+    {
+     "id": "2023-4",
+     "numero": 4,
+     "data": "2023-09-19",
+     "intestazione": "Legge regionale 19 settembre 2023, n. 4",
+     "oggetto": "Modifica dell'articolo 12 della legge regionale 30 dicembre 2020, n. 17 (Rendiconto generale della Regione Molise per l'esercizio finanziario 2019) e modifiche della legge regionale 31 dicembre 2022, n. 27 (Rendiconto generale della Regione Molise per l'esercizio finanziario 2021)",
+     "url": "https://consiglio.regione.molise.it/node/25123"
+    }
+   ],
+   "attivita": {
+    "passarelli.ste": {
+     "totale": 16,
+     "primoFirmatario": 2,
+     "perTipo": {
+      "mozione": 11,
+      "odg": 5
+     }
+    },
+    "iorio.ang": {
+     "totale": 8,
+     "primoFirmatario": 0,
+     "perTipo": {
+      "mozione": 6,
+      "odg": 2
+     }
+    },
+    "di lucente.and": {
+     "totale": 7,
+     "primoFirmatario": 0,
+     "perTipo": {
+      "mozione": 5,
+      "odg": 2
+     }
+    },
+    "micone.sal": {
+     "totale": 10,
+     "primoFirmatario": 0,
+     "perTipo": {
+      "mozione": 8,
+      "odg": 2
+     }
+    },
+    "di pardo.rob": {
+     "totale": 16,
+     "primoFirmatario": 1,
+     "perTipo": {
+      "mozione": 12,
+      "odg": 4
+     }
+    },
+    "sabusco.gui": {
+     "totale": 15,
+     "primoFirmatario": 0,
+     "perTipo": {
+      "mozione": 10,
+      "odg": 5
+     }
+    },
+    "cofelice.fab": {
+     "totale": 14,
+     "primoFirmatario": 0,
+     "perTipo": {
+      "mozione": 10,
+      "odg": 4
+     }
+    },
+    "niro.vin": {
+     "totale": 14,
+     "primoFirmatario": 3,
+     "perTipo": {
+      "mozione": 10,
+      "odg": 4
+     }
+    },
+    "romano.mas": {
+     "totale": 11,
+     "primoFirmatario": 3,
+     "perTipo": {
+      "mozione": 11
+     }
+    },
+    "facciolla.vit": {
+     "totale": 20,
+     "primoFirmatario": 2,
+     "perTipo": {
+      "mozione": 17,
+      "odg": 3
+     }
+    },
+    "fanelli.mic": {
+     "totale": 27,
+     "primoFirmatario": 9,
+     "perTipo": {
+      "mozione": 24,
+      "odg": 3
+     }
+    },
+    "d egidio.arm": {
+     "totale": 13,
+     "primoFirmatario": 0,
+     "perTipo": {
+      "mozione": 9,
+      "odg": 4
+     }
+    },
+    "pallante.qui": {
+     "totale": 15,
+     "primoFirmatario": 10,
+     "perTipo": {
+      "mozione": 11,
+      "odg": 4
+     }
+    },
+    "greco.and": {
+     "totale": 21,
+     "primoFirmatario": 11,
+     "perTipo": {
+      "mozione": 21
+     }
+    },
+    "salvatore.ale": {
+     "totale": 26,
+     "primoFirmatario": 9,
+     "perTipo": {
+      "mozione": 23,
+      "odg": 3
+     }
+    },
+    "primiani.ang": {
+     "totale": 24,
+     "primoFirmatario": 4,
+     "perTipo": {
+      "mozione": 23,
+      "odg": 1
+     }
+    },
+    "gravina.rob": {
+     "totale": 18,
+     "primoFirmatario": 1,
+     "perTipo": {
+      "mozione": 17,
+      "odg": 1
+     }
+    },
+    "di baggio.rob": {
+     "totale": 11,
+     "primoFirmatario": 1,
+     "perTipo": {
+      "mozione": 8,
+      "odg": 3
+     }
+    },
+    "cavaliere.nic": {
+     "totale": 5,
+     "primoFirmatario": 0,
+     "perTipo": {
+      "odg": 2,
+      "mozione": 3
+     }
+    }
+   }
+  },
+  "fonti": {
+   "consiglieri": {
+    "id": "molise-cr",
+    "nome": "Consiglieri e gruppi consiliari",
+    "ente": "Consiglio regionale del Molise",
+    "url": "https://consiglio.regione.molise.it/13_legislatura",
+    "raccolto": "2026-10-20"
+   },
+   "giunta": {
+    "id": "molise-giunta",
+    "nome": "La Giunta regionale",
+    "ente": "Regione Molise",
+    "url": "https://www.regione.molise.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/15989",
+    "raccolto": "2026-10-20"
+   },
+   "atti": {
+    "id": "molise-atti",
+    "nome": "Atti di indirizzo approvati, proposte di legge e leggi regionali",
+    "ente": "Consiglio regionale del Molise",
+    "url": "https://consiglioweb.regione.molise.it/atti.php",
+    "raccolto": "2026-10-20"
+   }
+  }
  }
 }

@@ -2663,7 +2663,7 @@
    "codice": "14",
    "nome": "Molise",
    "slug": "molise",
-   "inChiaro": false,
+   "inChiaro": true,
    "presidente": {
     "nome": "Francesco Roberti",
     "ruolo": "Presidente della Regione",
