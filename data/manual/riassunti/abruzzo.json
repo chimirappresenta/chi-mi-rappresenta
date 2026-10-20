@@ -1,0 +1,145 @@
+{
+  "_nota": "Riassunti scritti con Claude (claude-opus-5-5) leggendo il testo ufficiale delle leggi (banca dati dei testi vigenti del Consiglio regionale dell'Abruzzo). Si possono correggere a mano: la pipeline non li sovrascrive.",
+  "leggi": {
+    "2026-28": {
+      "testo": "Dà alle aziende sanitarie (ASL) strumenti in più per avere liquidità e pagare i fornitori nei tempi previsti: oltre all'anticipo mensile basato sui fondi statali, la Regione può attivare un fondo rotativo da cui le ASL prendono soldi da restituire, con monitoraggio e rendiconto.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-27": {
+      "testo": "Assestamento del bilancio 2026-2028: aggiorna le cifre dopo la chiusura dei conti 2025. Tra gli interventi: contributi straordinari a CONI e Comitato paralimpico, la partecipazione all'Expo 2027 di Belgrado, la nascita della società 'Abruzzo Sport e Benessere', il finanziamento del progetto 'Valli della tecnologia', fondi per pagare debiti arretrati e per la sicurezza urbana.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-26": {
+      "testo": "Riconosce un debito fuori bilancio di circa 198.000 euro verso l'Automobile Club d'Italia per servizi già resi. Contiene anche contributi per cultura e sociale, tra cui 10.000 euro al Comune di Sulmona, e piccole modifiche ad altre leggi del 2026.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-25": {
+      "testo": "Corregge, su richiesta del Governo, la legge del 2022 sulle gare per le grandi concessioni d'acqua per produrre energia idroelettrica: aggiorna procedure, criteri e canoni minimi. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-24": {
+      "testo": "Regole per riutilizzare i beni confiscati alla criminalità organizzata in Abruzzo per scopi sociali, culturali ed economici: un piano regionale, l'assegnazione a enti locali, associazioni, cooperative sociali e start-up, il ruolo dell'Osservatorio regionale per la legalità e un fondo regionale dedicato, finanziato dal 2027.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-23": {
+      "testo": "Approva il rendiconto 2025 della Regione, cioè i conti definitivi dell'anno. Il risultato di amministrazione a fine 2025 è di circa 1 miliardo di euro, di cui circa 297 milioni accantonati e 628 milioni vincolati a usi già stabiliti. È un atto contabile obbligatorio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-22": {
+      "testo": "Istituisce il 'Premio Buccio di Ranallo' all'Aquila, dedicato al cronista aquilano del Trecento, per promuovere la cultura e la storia locale. La legge contiene anche altre misure: un sostegno alla ricerca sulla maculopatia di Stargardt (una malattia rara della vista), con 30.000 euro all'Università dell'Aquila, e il riconoscimento di un debito per un contenzioso.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-21": {
+      "testo": "Riconosce un debito fuori bilancio di circa 570.000 euro per la rimozione e lo smaltimento dei rifiuti abbandonati nell'impianto della ditta Terraverde Energy a Città Sant'Angelo. È un atto contabile per pagare un servizio già svolto.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-20": {
+      "testo": "Riconosce un debito di circa 4.300 euro verso ARPA Lombardia per l'uso dell'osservatorio sui rifiuti negli anni 2018-2020. Dà inoltre 30.000 euro al Comune di Spoltore per non interrompere i percorsi di autonomia e di vita in comune (cohousing) per persone con disabilità a Cappelle sul Tavo e Città Sant'Angelo, e proroga alcuni termini di leggi precedenti.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-19": {
+      "testo": "Riconosce un debito di circa 1 milione di euro verso Trenitalia per il servizio ferroviario regionale del 2015, mai impegnato in bilancio. Contiene anche altre misure: 46.000 euro all'ATER di Chieti per eliminare barriere architettoniche in un palazzo di case popolari a San Giovanni Teatino, il riconoscimento di un debito verso Abruzzo Progetti e la proroga della gestione del complesso sportivo 'Le Naiadi' di Pescara.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-18": {
+      "testo": "La Regione sostiene stabilmente i Premi Internazionali Flaiano, fondati nel 1973 per ricordare lo scrittore abruzzese Ennio Flaiano, con un contributo di 100.000 euro l'anno all'associazione che li organizza.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-17": {
+      "testo": "Istituisce il premio internazionale 'Celestino Award', dedicato a chi valorizza cammini e itinerari storici con valore culturale, religioso, turistico e naturalistico, come quelli legati alla figura di Celestino V. Spesa: 30.000 euro nel 2026.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-16": {
+      "testo": "Misure per la sicurezza urbana: un programma regionale con i Comuni, il controllo di vicinato, i 'referenti per la sicurezza' e un osservatorio regionale. Nasce il 'Bonus Sicurezza Abruzzo', che rimborsa fino al 50% della spesa a cittadini, condomini e piccole imprese per allarmi, videosorveglianza e porte blindate. Stanziati 500.000 euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-15": {
+      "testo": "Dal 2027 la Regione dà contributi alle case editrici abruzzesi che partecipano da sole, con un proprio stand, alle fiere del libro nazionali e internazionali, per far conoscere l'editoria regionale.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-14": {
+      "testo": "Sostiene le edicole come presìdi di informazione: i Comuni possono riconvertire i chioschi delle edicole chiuse, si incentiva l'apertura di nuove edicole nelle aree interne e nei piccoli Comuni e la loro modernizzazione, con agevolazioni per il suolo pubblico. Prevede 20.000 euro per i chioschi e 50.000 euro per il fondo regionale.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-13": {
+      "testo": "Legge che corregge una ventina di leggi regionali del 2024 e 2025 per rispondere ai rilievi del Governo e aggiunge altre modifiche su agricoltura, commercio e altri settori. Sono soprattutto correzioni tecniche, non nuovi interventi.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-12": {
+      "testo": "Modifica le regole del servizio idrico integrato: l'ambito unico regionale può essere diviso in sub-ambiti con gestori diversi per rendere il servizio più efficiente, il personale delle gestioni attuali viene tutelato nei cambi di gestore e si regola l'acqua per le imprese nelle aree industriali dell'ARAP. Spesa: 20.000 euro nel 2026.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-11": {
+      "testo": "Riconosce e tutela le dimore storiche (edifici e complessi di valore storico e artistico) e le residenze d'epoca usate come strutture ricettive: nascono un registro regionale, una rete delle dimore storiche e una commissione per riconoscere le residenze d'epoca, con iniziative con scuole e turismo. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-10": {
+      "testo": "La Regione aderisce come socio fondatore all'associazione 'Vie e Cammini di Francesco', che coordina i percorsi turistici e culturali ispirati a San Francesco d'Assisi. Spesa: 30.000 euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-9": {
+      "testo": "Nuove regole sulle aree dove si possono installare impianti per le energie rinnovabili (fotovoltaico, eolico): la Regione individua ulteriori aree idonee, ma esclude tra l'altro i terreni agricoli che hanno ricevuto finanziamenti pubblici e le zone da tutelare per salute, patrimonio culturale e paesaggio. Prevede un monitoraggio e sostituisce la legge precedente.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-8": {
+      "testo": "Tutela le persone con dolore pelvico cronico e malattie collegate: nascono un osservatorio regionale, un piano e una rete di centri per prevenzione e cura, e un registro regionale dei casi. Prevede campagne di informazione, con 20.000 euro nel 2026 per la sensibilizzazione.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-7": {
+      "testo": "Promuove la qualità dell'architettura e la rigenerazione urbana: concorsi di idee, progettazione partecipata per le scuole, un premio regionale per l'architettura e uno per la migliore tesi, e un fondo di rotazione da 2 milioni di euro l'anno. Contiene anche altre norme di bilancio, tra cui il riconoscimento di un debito fuori bilancio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-6": {
+      "testo": "Istituisce il Garante regionale dei diritti degli anziani, eletto dal Consiglio, che vigila sui diritti delle persone anziane (salute, assistenza, famiglia, inclusione) e collabora con istituzioni e associazioni. Riceve un'indennità pari al 20% di quella dei consiglieri regionali. Spesa: 12.000 euro nel 2026 e 20.000 euro l'anno dal 2027.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-5": {
+      "testo": "Promuove l'agricoltura sociale: le aziende agricole possono offrire servizi educativi, sociali e di inserimento lavorativo come 'fattorie sociali', iscritte in un elenco regionale e con un logo. Nascono un osservatorio regionale, controlli e sanzioni; i sostegni regionali partono dal 2027. La legge modifica inoltre diverse altre leggi regionali.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-4": {
+      "testo": "Istituisce l'Onorificenza 'Filomena Delli Castelli', da assegnare ogni anno a donne abruzzesi che si sono distinte in cultura, scienza, società, economia, sport o istituzioni (senza nuove spese). La legge contiene anche altre norme: un fondo per proteggere i conti regionali dagli effetti del disavanzo della sanità, il riconoscimento di un debito e il reintegro dei contributi per i danni della fauna selvatica.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-3": {
+      "testo": "Approva il bilancio di previsione della Regione per il 2026-2028: circa 5,6 miliardi di euro di entrate e altrettante spese nel 2026, 5,5 miliardi nel 2027 e nel 2028. Fissa anche i fondi di riserva, il fondo per i crediti difficili da riscuotere e quello per i contenziosi. È l'atto contabile che permette alla Regione di spendere.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-2": {
+      "testo": "Legge di stabilità 2026: accompagna il bilancio e stabilisce quali leggi regionali vengono finanziate nel triennio 2026-2028. Tra gli interventi: contributi per la Perdonanza Celestiniana dell'Aquila (50.000 euro), per la sede dell'Associazione Nazionale Alpini a Pratola Peligna (50.000 euro l'anno), per eventi sportivi, fiere e iniziative turistiche, oltre a misure per i conti della sanità.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-1": {
+      "testo": "Modifica la legge regionale del 2025 sulla qualità delle leggi: riscrive le regole sull'analisi dell'impatto della regolamentazione (AIR), cioè la valutazione preventiva degli effetti che una nuova legge può avere su cittadini, imprese e amministrazioni, confrontando soluzioni diverse. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    }
+  }
+}
