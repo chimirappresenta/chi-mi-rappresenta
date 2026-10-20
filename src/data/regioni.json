@@ -3213,7 +3213,7 @@
    "codice": "16",
    "nome": "Puglia",
    "slug": "puglia",
-   "inChiaro": false,
+   "inChiaro": true,
    "presidente": {
     "nome": "Antonio Decaro",
     "ruolo": "Presidente della Regione",

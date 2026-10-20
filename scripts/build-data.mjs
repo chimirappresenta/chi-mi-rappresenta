@@ -11,6 +11,7 @@ import { integrazioniRegioni } from "./regioni-integrazioni.mjs";
 import { campania } from "./consigli/campania.mjs";
 import { calabria } from "./consigli/calabria.mjs";
 import { abruzzo } from "./consigli/abruzzo.mjs";
+import { puglia } from "./consigli/puglia.mjs";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const RAW = path.join(ROOT, "data", "raw");
@@ -813,7 +814,7 @@ console.log("5/7 Consigli regionali in chiaro");
 const ammregTutte = csvObjects(await download("ammreg.csv", "https://dait.interno.gov.it/documenti/ammreg.csv"), 2);
 const ammregAggiornato = ammregTutte.length ? (fs.readFileSync(path.join(RAW, "ammreg.csv"), "utf8").match(/Aggiornato al (\d{2}\/\d{2}\/\d{4})/)?.[1]) : undefined;
 
-const CONSIGLI_IN_CHIARO = [campania, calabria, abruzzo];
+const CONSIGLI_IN_CHIARO = [campania, calabria, abruzzo, puglia];
 const codiciInChiaro = new Set(CONSIGLI_IN_CHIARO.map((m) => m.codice));
 let consigliPrima = {};
 try {

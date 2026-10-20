@@ -1,0 +1,13 @@
+{
+  "_nota": "Gruppi del Consiglio regionale della Puglia (XII legislatura), in ordine da sinistra a destra nell'emiciclo. coalizione: maggioranza (centrosinistra e M5S, a sostegno del presidente Decaro) o opposizione (centrodestra; nel Misto c'è Lobuono, candidato presidente del centrodestra). Prossima è il gruppo degli eletti nella lista Decaro Presidente. I nomi devono coincidere con quelli del sito consiglio.puglia.it.",
+  "gruppi": {
+    "Movimento 5 Stelle": { "sigla": "M5S", "coalizione": "maggioranza", "colore": "#e0b400" },
+    "Partito Democratico": { "sigla": "PD", "coalizione": "maggioranza", "colore": "#d6363b" },
+    "Prossima": { "sigla": "Prossima", "coalizione": "maggioranza", "colore": "#f08a3c" },
+    "Per la Puglia Decaro Candidato Presidente": { "sigla": "Per la Puglia", "coalizione": "maggioranza", "colore": "#c0398a" },
+    "Misto": { "sigla": "Misto", "coalizione": "opposizione", "colore": "#8a8f98" },
+    "Forza Italia": { "sigla": "FI", "coalizione": "opposizione", "colore": "#2f7fd6" },
+    "Lega Puglia": { "sigla": "Lega", "coalizione": "opposizione", "colore": "#1f9e9a" },
+    "Fratelli d'Italia": { "sigla": "FdI", "coalizione": "opposizione", "colore": "#2c4f96" }
+  }
+}
