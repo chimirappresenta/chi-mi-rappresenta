@@ -1,31 +1,31 @@
 import "server-only";
-import { consiglio, nomeTipo } from "./data";
+import { nomeTipo } from "./data";
 import { SITE_URL } from "./sito";
-import type { Atto, Legge } from "./types";
+import type { Atto, ConsiglioInChiaro, Legge } from "./types";
 
 export type VoceFeed = { titolo: string; link: string; data: string; descrizione: string; guid: string };
 
 const xml = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const rfc822 = (iso: string) => new Date(`${iso}T12:00:00Z`).toUTCString();
 
-export const vocePerAtto = (a: Atto, prefisso = ""): VoceFeed => ({
-  titolo: `${prefisso}${nomeTipo(a.tipo)} n. ${a.numero}: ${a.titolo}`,
-  link: a.url ?? `${SITE_URL}/regione/campania/attivita/`,
+export const vocePerAtto = (cr: ConsiglioInChiaro, a: Atto, prefisso = ""): VoceFeed => ({
+  titolo: `${prefisso}${nomeTipo(cr, a.tipo)} n. ${a.numero}: ${a.titolo}`,
+  link: a.url ?? `${SITE_URL}/regione/${cr.slug}/attivita/`,
   data: a.data,
-  descrizione: `Presentata da ${a.firmatari.map((f) => f.nome).join(", ")} nel Consiglio regionale della Campania.`,
+  descrizione: `Presentata da ${a.firmatari.map((f) => f.nome).join(", ")} nel Consiglio regionale della ${cr.nome}.`,
   guid: `atto-${a.id}`,
 });
 
-export const vocePerLegge = (l: Legge, prefisso = ""): VoceFeed => ({
+export const vocePerLegge = (cr: ConsiglioInChiaro, l: Legge, prefisso = ""): VoceFeed => ({
   titolo: `${prefisso}${l.intestazione}${l.oggetto ? `: ${l.oggetto}` : ""}`,
-  link: `${SITE_URL}/regione/campania/leggi/`,
+  link: `${SITE_URL}/regione/${cr.slug}/leggi/`,
   data: l.data,
   descrizione: l.riassunto?.testo ?? l.oggetto ?? l.intestazione,
   guid: `legge-${l.id}`,
 });
 
 /** Le nuove leggi regionali riguardano tutti: entrano in ogni feed. */
-export const vociLeggi = () => consiglio.leggi.map((l) => vocePerLegge(l, "Nuova legge regionale · "));
+export const vociLeggi = (cr: ConsiglioInChiaro) => cr.consiglio.leggi.map((l) => vocePerLegge(cr, l, "Nuova legge regionale · "));
 
 /** Documento RSS 2.0: si apre con qualsiasi lettore di notizie. */
 export function rss({ titolo, descrizione, link, self, voci }: { titolo: string; descrizione: string; link: string; self: string; voci: VoceFeed[] }) {

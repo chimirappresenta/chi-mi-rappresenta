@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { consiglio, regione, regioni } from "@/lib/data";
+import { consigliInChiaro, regioni } from "@/lib/data";
 import { Condividi } from "@/components/Condividi";
 import { stileLivello } from "@/components/ui";
 
@@ -13,7 +13,6 @@ export const metadata: Metadata = {
 const REPO = process.env.NEXT_PUBLIC_REPO_SEGNALAZIONI ?? "";
 
 export default function ConsigliInChiaroPage() {
-  const campania = regioni.find((r) => r.inChiaro);
   const inArrivo = regioni.filter((r) => !r.inChiaro);
   const cosa = [
     { icona: "🗂️", titolo: "Gli atti dei consiglieri", testo: "Interrogazioni, mozioni, proposte di legge: chi le ha firmate, su cosa e com'è andata." },
@@ -62,20 +61,22 @@ export default function ConsigliInChiaroPage() {
         </ul>
       </section>
 
-      {campania && (
+      {consigliInChiaro.length > 0 && (
         <section aria-labelledby="disponibile" className="mt-12">
           <h2 id="disponibile" className="display text-3xl sm:text-4xl">
             Già in chiaro
           </h2>
+          {consigliInChiaro.map(({ slug, nome, regione, consiglio }) => (
           <Link
-            href="/regione/campania/"
+            key={slug}
+            href={`/regione/${slug}/`}
             className="group mt-5 grid gap-6 rounded-[28px] border border-[var(--lv)] bg-surface p-6 hover:shadow-[0_20px_60px_-30px_rgba(20,34,31,0.35)] md:grid-cols-[minmax(0,1.4fr)_minmax(0,1fr)]"
           >
             <div>
               <span className="inline-flex rounded-full bg-[var(--lv-bg)] px-3 py-1 text-sm font-semibold text-[var(--lv)]">Disponibile</span>
-              <p className="display mt-3 text-4xl group-hover:text-[var(--lv)]">{campania.nome}</p>
+              <p className="display mt-3 text-4xl group-hover:text-[var(--lv)]">{nome}</p>
               <p className="mt-2 text-base text-ink-2">
-                Il Consiglio regionale della Campania: consiglieri, gruppi, atti e leggi della legislatura in corso.
+                Il Consiglio regionale della {nome}: consiglieri, gruppi, atti e leggi della legislatura in corso.
               </p>
               <span className="mt-4 inline-block text-base font-semibold text-[var(--lv)] group-hover:underline">Apri il Consiglio regionale →</span>
             </div>
@@ -94,6 +95,7 @@ export default function ConsigliInChiaroPage() {
               </div>
             </dl>
           </Link>
+          ))}
         </section>
       )}
 

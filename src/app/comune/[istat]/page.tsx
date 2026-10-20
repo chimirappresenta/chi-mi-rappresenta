@@ -4,7 +4,8 @@ import { notFound } from "next/navigation";
 import {
   circoscrizioneEuropea,
   citazioniDi,
-  consiglio,
+  consiglioDellaRegione,
+  consigliInChiaro,
   eurodeputatiDi,
   fonte,
   comuniDaPreparare,
@@ -13,7 +14,6 @@ import {
   mediaDellaRegione,
   parlamento,
   prossimeElezioni,
-  regione,
   regioniAggiornate,
   senatoriProporzionaliDi,
 } from "@/lib/data";
@@ -76,11 +76,12 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
   if (!c) notFound();
 
   const a = c.amministrazione;
-  // La Campania ha il Consiglio regionale "in chiaro" (atti, leggi, emiciclo); le altre regioni la versione essenziale.
+  // Le regioni con il Consiglio "in chiaro" hanno atti, leggi ed emiciclo; le altre la versione essenziale.
   const reg = getRegioneEssenziale(c.codiceRegione);
-  const inChiaro = !!reg?.inChiaro;
+  const cr = consiglioDellaRegione(c.codiceRegione);
+  const inChiaro = !!cr;
   const circ = c.circoscrizioneRegionale;
-  const consiglieriCirc = inChiaro ? regione.consiglieri.filter((x) => x.circoscrizione === circ) : [];
+  const consiglieriCirc = cr ? cr.regione.consiglieri.filter((x) => x.circoscrizione === circ) : [];
   const mediaRegione = mediaDellaRegione(c.codiceRegione);
   const circEuropea = circoscrizioneEuropea(c.codiceRegione);
   const eurodeputati = eurodeputatiDi(c.codiceRegione);
@@ -103,7 +104,7 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
     {
       id: "regione",
       etichetta: "Regione",
-      nome: (inChiaro ? regione.presidente?.nome : reg?.presidente?.nome) ?? "Dati in aggiornamento",
+      nome: (cr ? cr.regione.presidente?.nome : reg?.presidente?.nome) ?? "Dati in aggiornamento",
       ruolo: `Presidente della Regione ${c.regione}`,
       extra: inChiaro
         ? `${consiglieriCirc.length} consiglieri regionali eletti in provincia di ${c.provincia}`
@@ -140,11 +141,10 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
     c.contatti?.pec && { id: "comune", nome: `Comune di ${c.nome}`, pec: c.contatti.pec, descrizione: "Lavori, rifiuti, scuole, urbanistica, tributi locali" },
     c.asl?.pec && { id: "asl", nome: c.asl.nome, pec: c.asl.pec, descrizione: "Sanità: servizi, attese, controlli" },
     reg?.contatti?.pec && { id: "regione", nome: `Regione ${c.regione}`, pec: reg.contatti.pec, descrizione: "Sanità, trasporti, ambiente, fondi europei" },
-    inChiaro &&
-      regione.contattiConsiglio?.pec && {
+    cr?.regione.contattiConsiglio?.pec && {
       id: "consiglio",
-      nome: "Consiglio regionale della Campania",
-      pec: regione.contattiConsiglio.pec,
+      nome: `Consiglio regionale della ${cr.nome}`,
+      pec: cr.regione.contattiConsiglio.pec,
       descrizione: "Atti, leggi e spese del Consiglio",
     },
   ].filter((e): e is EnteAccesso => !!e);
@@ -422,17 +422,17 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
           </Livello>
 
           {/* 2. REGIONE */}
-          {inChiaro ? (
+          {cr ? (
           <Livello
             id="regione"
             numero={2}
-            titolo="Regione Campania"
+            titolo={`Regione ${cr.nome}`}
             sottotitolo="Decide su sanità, trasporti regionali, lavoro e formazione, ambiente e fondi europei."
-            fonti={[fonte("cr"), fonte("cr-atti"), fonte("giunta"), fonte("wiki-regionali")]}
+            fonti={[cr.fonti.consiglieri, cr.fonti.atti, cr.fonti.giunta, ...(cr.fonti.circoscrizioni ? [cr.fonti.circoscrizioni] : [])]}
           >
-            {regione.presidente && (
+            {cr.regione.presidente && (
               <Gruppo titolo="Presidente della Regione">
-                <PersonaRow p={regione.presidente} evidenza />
+                <PersonaRow p={cr.regione.presidente} evidenza />
               </Gruppo>
             )}
             <div>
@@ -442,12 +442,12 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
                 punto o un nome per vedere la scheda e scrivergli.
               </p>
               <div className="mt-3">
-                <EmicicloRemoto circoscrizione={circ} comune={c.nome} />
+                <EmicicloRemoto regione={{ slug: cr.slug, nome: cr.nome }} circoscrizione={circ} comune={c.nome} />
               </div>
             </div>
             <p className="text-sm text-ink-3">
-              Assessori regionali e tutti i {regione.consiglieri.length} consiglieri:{" "}
-              <Link href="/regione/campania/" className="text-accent underline">
+              Assessori regionali e tutti i {cr.regione.consiglieri.length} consiglieri:{" "}
+              <Link href={`/regione/${cr.slug}/`} className="text-accent underline">
                 Giunta e Consiglio regionale →
               </Link>
             </p>
@@ -460,14 +460,14 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
                     <LeggeCard key={l.id} legge={l} />
                   ))}
                   {citazioni.atti.slice(0, 5).map((x) => (
-                    <AttoRow key={x.id} atto={x} tipi={consiglio.tipi} />
+                    <AttoRow key={x.id} atto={x} tipi={cr.consiglio.tipi} regione={cr.slug} />
                   ))}
                 </div>
                 {citazioni.atti.length > 5 && (
                   <div className="mt-2">
                     <Espandibile titolo="Altri atti" conteggio={citazioni.atti.length - 5}>
                       {citazioni.atti.slice(5).map((x) => (
-                        <AttoRow key={x.id} atto={x} tipi={consiglio.tipi} />
+                        <AttoRow key={x.id} atto={x} tipi={cr.consiglio.tipi} regione={cr.slug} />
                       ))}
                     </Espandibile>
                   </div>
@@ -476,7 +476,7 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
             ) : (
               <p className="text-sm text-ink-3">
                 Nessun atto del Consiglio regionale cita {c.nome} nel titolo in questa legislatura.{" "}
-                <Link href="/regione/campania/attivita/" className="text-accent underline">
+                <Link href={`/regione/${cr.slug}/attivita/`} className="text-accent underline">
                   Vedi cosa fanno i consiglieri →
                 </Link>
               </p>
@@ -532,7 +532,7 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
             </Avviso>
             <p className="text-sm text-ink-3">
               Atti, leggi spiegate in parole semplici e la mappa dei consiglieri arriveranno anche per la {c.regione}: per ora sono
-              disponibili per la Campania.{" "}
+              disponibili per {consigliInChiaro.length === 1 ? `la ${consigliInChiaro[0].nome}` : consigliInChiaro.map((x) => x.nome).join(", ")}.{" "}
               <Link href="/consigli-in-chiaro/" className="text-accent underline">
                 Consigli regionali in chiaro →
               </Link>
@@ -676,7 +676,7 @@ export default async function ComunePage({ params }: PageProps<"/comune/[istat]"
               comune: c,
               sindaco: a?.sindaco,
               regione: { nome: c.regione, sito: reg?.contatti?.sito },
-              consiglieriRegionali: inChiaro
+              consiglieriRegionali: cr
                 ? { numero: consiglieriCirc.length, dove: `eletti in provincia di ${c.provincia}` }
                 : { numero: reg?.consiglieri.length ?? 0, dove: `della Regione ${c.regione}` },
               deputati: deputatiU,

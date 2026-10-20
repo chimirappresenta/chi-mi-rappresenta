@@ -118,7 +118,7 @@ export type Fonte = {
   raccolto?: string;
 };
 
-export type Meta = { generato: string; regione: string; fonti: Fonte[]; avvisi: string[] };
+export type Meta = { generato: string; fonti: Fonte[]; avvisi: string[] };
 
 export type TipoAtto = { id: string; nome: string; plurale: string };
 
@@ -159,6 +159,20 @@ export type Consiglio = {
   atti: Atto[];
   leggi: Legge[];
   attivita: Record<string, Attivita>;
+};
+
+/** Un Consiglio regionale "in chiaro", nel formato comune prodotto dai lettori in scripts/consigli/. */
+export type ConsiglioInChiaro = {
+  /** "campania": è anche l'indirizzo /regione/<slug>/ */
+  slug: string;
+  /** Codice ISTAT della regione ("15") */
+  codice: string;
+  nome: string;
+  /** Come sono eletti i consiglieri, in una frase. */
+  elezione?: string;
+  regione: Regione;
+  consiglio: Consiglio;
+  fonti: { consiglieri: Fonte; giunta: Fonte; atti: Fonte; circoscrizioni?: Fonte };
 };
 
 /** Voce minima per la ricerca lato client. */

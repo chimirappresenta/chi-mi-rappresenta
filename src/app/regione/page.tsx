@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { regione, regioni } from "@/lib/data";
+import { consiglioDellaRegione, regioni } from "@/lib/data";
 import { ComuneSearch } from "@/components/ComuneSearch";
 import { stileLivello } from "@/components/ui";
 
@@ -36,8 +36,9 @@ export default function RegioniPage() {
 
       <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4" style={stileLivello("regione")}>
         {regioni.map((r) => {
-          const presidente = r.inChiaro ? regione.presidente?.nome : r.presidente?.nome;
-          const consiglieri = r.inChiaro ? regione.consiglieri.length : r.consiglieri.length;
+          const cr = consiglioDellaRegione(r.codice);
+          const presidente = cr ? cr.regione.presidente?.nome : r.presidente?.nome;
+          const consiglieri = cr ? cr.regione.consiglieri.length : r.consiglieri.length;
           return (
             <li key={r.codice}>
               <Link

@@ -12,7 +12,7 @@ const norm = (s: string) =>
 
 const PAGINA = 30;
 
-export function AttiFeed({ atti, tipi }: { atti: Atto[]; tipi: TipoAtto[] }) {
+export function AttiFeed({ atti, tipi, regione }: { atti: Atto[]; tipi: TipoAtto[]; regione: string }) {
   const [tipo, setTipo] = useState<string | null>(null);
   const [q, setQ] = useState("");
   const [mostrati, setMostrati] = useState(PAGINA);
@@ -66,7 +66,7 @@ export function AttiFeed({ atti, tipi }: { atti: Atto[]; tipi: TipoAtto[] }) {
       </p>
       <div className="mt-2 divide-y divide-line rounded-2xl border border-line bg-surface">
         {filtrati.slice(0, mostrati).map((a) => (
-          <AttoRow key={a.id} atto={a} tipi={tipi} />
+          <AttoRow key={a.id} atto={a} tipi={tipi} regione={regione} />
         ))}
         {filtrati.length === 0 && <p className="px-4 py-6 text-center text-ink-3">Nessun atto trovato.</p>}
       </div>

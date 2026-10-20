@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { consiglio, fonte, regione } from "@/lib/data";
+import { notFound } from "next/navigation";
+import { consigliInChiaro, getConsiglio } from "@/lib/data";
 import { dataLunga, slugConsigliere } from "@/lib/format";
 import { AttiFeed } from "@/components/AttiFeed";
 import { SPIEGAZIONE_TIPI } from "@/components/consiglio";
@@ -10,12 +11,26 @@ import { Segui } from "@/components/Segui";
 import { stileLivello } from "@/components/ui";
 import { SITE_URL } from "@/lib/sito";
 
-export const metadata: Metadata = {
-  title: "Cosa fanno i consiglieri regionali della Campania",
-  description: "Interrogazioni, mozioni, proposte di legge e question time presentati dai consiglieri regionali della Campania.",
-};
+export const dynamicParams = false;
 
-export default function AttivitaPage() {
+export function generateStaticParams() {
+  return consigliInChiaro.map((cr) => ({ regione: cr.slug }));
+}
+
+export async function generateMetadata({ params }: PageProps<"/regione/[regione]/attivita">): Promise<Metadata> {
+  const cr = getConsiglio((await params).regione);
+  return cr
+    ? {
+        title: `Cosa fanno i consiglieri regionali della ${cr.nome}`,
+        description: `Interrogazioni, mozioni, proposte di legge e question time presentati dai consiglieri regionali della ${cr.nome}.`,
+      }
+    : {};
+}
+
+export default async function AttivitaPage({ params }: PageProps<"/regione/[regione]/attivita">) {
+  const cr = getConsiglio((await params).regione);
+  if (!cr) notFound();
+  const { regione, consiglio } = cr;
   const classifica = regione.consiglieri
     .map((c) => ({ c, s: consiglio.attivita[c.username] }))
     .sort((a, b) => (b.s?.primoFirmatario ?? 0) - (a.s?.primoFirmatario ?? 0) || (b.s?.totale ?? 0) - (a.s?.totale ?? 0));
@@ -23,12 +38,13 @@ export default function AttivitaPage() {
   return (
     <div className="contenitore py-8">
       <IntestazioneRegione
+        regione={cr.slug}
         titolo="Cosa fanno i consiglieri"
         intro={`Tutti gli atti presentati in Consiglio regionale dall'inizio della legislatura (${dataLunga(consiglio.inizio)}): ${consiglio.atti.length} in totale.`}
         attiva="attivita"
         condividi={{
-          path: "/regione/campania/attivita/",
-          testo: `${consiglio.atti.length} interrogazioni, mozioni e proposte di legge del Consiglio regionale della Campania, con chi le ha firmate. Cerca per tema o per comune.`,
+          path: `/regione/${cr.slug}/attivita/`,
+          testo: `${consiglio.atti.length} interrogazioni, mozioni e proposte di legge del Consiglio regionale della ${cr.nome}, con chi le ha firmate. Cerca per tema o per comune.`,
         }}
       />
 
@@ -37,14 +53,14 @@ export default function AttivitaPage() {
         <section>
           <h2 className="text-lg font-semibold">Tutti gli atti</h2>
           <div className="mt-3">
-            <AttiFeed atti={consiglio.atti} tipi={consiglio.tipi} />
+            <AttiFeed atti={consiglio.atti} tipi={consiglio.tipi} regione={cr.slug} />
           </div>
         </section>
 
         <aside className="space-y-6 xl:sticky xl:top-4">
           <div style={stileLivello("regione")}>
             <Segui
-              feed={`${SITE_URL}/regione/campania/feed.xml`}
+              feed={`${SITE_URL}/regione/${cr.slug}/feed.xml`}
               titolo="Segui il Consiglio regionale"
               testo="Ricevi un avviso per ogni nuovo atto dei consiglieri e ogni nuova legge regionale."
             />
@@ -86,7 +102,7 @@ export default function AttivitaPage() {
                   {classifica.map(({ c, s }) => (
                     <tr key={c.username}>
                       <td className="px-4 py-2">
-                        <Link href={`/regione/campania/consiglieri/${slugConsigliere(c.username)}/`} className="hover:text-accent hover:underline">
+                        <Link href={`/regione/${cr.slug}/consiglieri/${slugConsigliere(c.username)}/`} className="hover:text-accent hover:underline">
                           {c.nome}
                         </Link>
                       </td>
@@ -101,7 +117,7 @@ export default function AttivitaPage() {
           </section>
 
           <div className="overflow-hidden rounded-2xl border border-line bg-surface">
-            <FontiNote fonti={[fonte("cr-atti")]} />
+            <FontiNote fonti={[cr.fonti.atti]} />
           </div>
         </aside>
       </div>

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { attiDi, consiglio, fonte, getConsigliere, regione } from "@/lib/data";
+import { attiDi, consigliInChiaro, getConsigliere, getConsiglio } from "@/lib/data";
 import { AttiFeed } from "@/components/AttiFeed";
 import { Gruppo, FontiNote, PersonaRow } from "@/components/ui";
 import { IntestazioneRegione } from "@/components/IntestazioneRegione";
@@ -10,24 +10,33 @@ import { slugConsigliere } from "@/lib/format";
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return regione.consiglieri.map((c) => ({ slug: slugConsigliere(c.username) }));
+  return consigliInChiaro.flatMap((cr) => cr.regione.consiglieri.map((c) => ({ regione: cr.slug, slug: slugConsigliere(c.username) })));
 }
 
-export async function generateMetadata({ params }: PageProps<"/regione/campania/consiglieri/[slug]">): Promise<Metadata> {
-  const c = getConsigliere((await params).slug);
-  return c
+const trova = async (params: Promise<{ regione: string; slug: string }>) => {
+  const { regione, slug } = await params;
+  const cr = getConsiglio(regione);
+  const c = cr && getConsigliere(cr, slug);
+  return cr && c ? { cr, c } : undefined;
+};
+
+export async function generateMetadata({ params }: PageProps<"/regione/[regione]/consiglieri/[slug]">): Promise<Metadata> {
+  const t = await trova(params);
+  return t
     ? {
-        title: `${c.nome}, consigliere regionale`,
-        description: `Contatti, commissioni e atti presentati in Consiglio regionale della Campania da ${c.nome}.`,
+        title: `${t.c.nome}, consigliere regionale`,
+        description: `Contatti, commissioni e atti presentati in Consiglio regionale della ${t.cr.nome} da ${t.c.nome}.`,
       }
     : {};
 }
 
-export default async function ConsiglierePage({ params }: PageProps<"/regione/campania/consiglieri/[slug]">) {
-  const c = getConsigliere((await params).slug);
-  if (!c) notFound();
+export default async function ConsiglierePage({ params }: PageProps<"/regione/[regione]/consiglieri/[slug]">) {
+  const t = await trova(params);
+  if (!t) notFound();
+  const { cr, c } = t;
+  const { regione, consiglio } = cr;
 
-  const atti = attiDi(c.username);
+  const atti = attiDi(cr, c.username);
   const s = consiglio.attivita[c.username];
 
   const g = regione.gruppi.find((x) => x.nome === c.gruppo);
@@ -35,14 +44,15 @@ export default async function ConsiglierePage({ params }: PageProps<"/regione/ca
   return (
     <div className="contenitore py-8">
       <IntestazioneRegione
+        regione={cr.slug}
         titolo={c.nome}
         sottotitolo={`Consigliere regionale${c.circoscrizione ? ` · eletto nella circoscrizione di ${c.circoscrizione}` : " · subentrato dopo le elezioni"}`}
         intro={g ? `${g.nome}${c.ruoloGruppo ? ` (${c.ruoloGruppo})` : ""} · ${g.coalizione}` : (c.gruppo ?? "")}
         attiva={null}
-        indietro={{ href: "/regione/campania/", label: "Giunta e Consiglio regionale" }}
+        indietro={{ href: `/regione/${cr.slug}/`, label: "Giunta e Consiglio regionale" }}
         condividi={{
-          path: `/regione/campania/consiglieri/${slugConsigliere(c.username)}/`,
-          testo: `${c.nome}, consigliere regionale della Campania${g ? ` (${g.sigla})` : ""}: contatti e ${s?.primoFirmatario ?? 0} atti presentati in Consiglio regionale.`,
+          path: `/regione/${cr.slug}/consiglieri/${slugConsigliere(c.username)}/`,
+          testo: `${c.nome}, consigliere regionale della ${cr.nome}${g ? ` (${g.sigla})` : ""}: contatti e ${s?.primoFirmatario ?? 0} atti presentati in Consiglio regionale.`,
         }}
       />
 
@@ -74,7 +84,7 @@ export default async function ConsiglierePage({ params }: PageProps<"/regione/ca
             </dl>
           )}
           <div className="overflow-hidden rounded-2xl border border-line bg-surface">
-            <FontiNote fonti={[fonte("cr"), fonte("cr-atti")]} />
+            <FontiNote fonti={[cr.fonti.consiglieri, cr.fonti.atti]} />
           </div>
         </aside>
 
@@ -82,7 +92,7 @@ export default async function ConsiglierePage({ params }: PageProps<"/regione/ca
           <h2 className="text-lg font-semibold">Atti firmati</h2>
           {atti.length > 0 ? (
             <div className="mt-3">
-              <AttiFeed atti={atti} tipi={consiglio.tipi.filter((t) => s?.perTipo[t.id])} />
+              <AttiFeed atti={atti} tipi={consiglio.tipi.filter((t) => s?.perTipo[t.id])} regione={cr.slug} />
             </div>
           ) : (
             <p className="mt-2 text-ink-3">Nessun atto firmato finora in questa legislatura.</p>

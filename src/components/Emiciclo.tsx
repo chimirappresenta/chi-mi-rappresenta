@@ -15,6 +15,8 @@ export type ConsigliereEmiciclo = ConsigliereRegionale & {
 };
 
 type Props = {
+  /** Regione del Consiglio: per i link alle schede dei consiglieri. */
+  regione: { slug: string; nome: string };
   consiglieri: ConsigliereEmiciclo[];
   presidente?: (Persona & { gruppo?: string }) | null;
   gruppi: GruppoConsiliare[];
@@ -31,7 +33,7 @@ const norm = (s: string) =>
     .replace(/[̀-ͯ]/g, "")
     .toLowerCase();
 
-export function Emiciclo({ consiglieri, presidente, gruppi, tipi, circoscrizione, comune }: Props) {
+export function Emiciclo({ regione, consiglieri, presidente, gruppi, tipi, circoscrizione, comune }: Props) {
   const [q, setQ] = useState("");
   const [gruppiAttivi, setGruppiAttivi] = useState<Set<string>>(new Set());
   const [soloCirc, setSoloCirc] = useState(Boolean(circoscrizione));
@@ -228,19 +230,21 @@ export function Emiciclo({ consiglieri, presidente, gruppi, tipi, circoscrizione
         }}
         className="m-0 mt-auto max-h-[85vh] w-full max-w-none overflow-y-auto rounded-t-2xl border border-line bg-surface p-0 text-ink shadow-2xl backdrop:bg-black/40 sm:mt-0 sm:mr-0 sm:ml-auto sm:h-full sm:max-h-none sm:w-[440px] sm:rounded-none sm:rounded-l-2xl"
       >
-        {aperto && <SchedaConsigliere c={aperto} g={gruppo.get(aperto.gruppo ?? "")} tipi={tipi} comune={comune} onClose={() => setAperto(null)} />}
+        {aperto && <SchedaConsigliere regione={regione} c={aperto} g={gruppo.get(aperto.gruppo ?? "")} tipi={tipi} comune={comune} onClose={() => setAperto(null)} />}
       </dialog>
     </div>
   );
 }
 
 function SchedaConsigliere({
+  regione,
   c,
   g,
   tipi,
   comune,
   onClose,
 }: {
+  regione: { slug: string; nome: string };
   c: ConsigliereEmiciclo;
   g?: GruppoConsiliare;
   tipi: TipoAtto[];
@@ -345,9 +349,9 @@ function SchedaConsigliere({
         <div className="mt-3">
           <Condividi
             compatto
-            path={`/regione/campania/consiglieri/${c.slug}/`}
+            path={`/regione/${regione.slug}/consiglieri/${c.slug}/`}
             titolo={`${c.nome}, consigliere regionale`}
-            testo={`${c.nome}, consigliere regionale della Campania${g ? ` (${g.sigla})` : ""}: contatti e atti presentati in Consiglio regionale.`}
+            testo={`${c.nome}, consigliere regionale della ${regione.nome}${g ? ` (${g.sigla})` : ""}: contatti e atti presentati in Consiglio regionale.`}
           />
         </div>
       )}
@@ -355,7 +359,7 @@ function SchedaConsigliere({
       <div className="mt-3 flex flex-wrap gap-2">
         {c.slug && (
           <Link
-            href={`/regione/campania/consiglieri/${c.slug}/`}
+            href={`/regione/${regione.slug}/consiglieri/${c.slug}/`}
             className="rounded-xl bg-accent px-4 py-2 text-sm font-medium text-accent-ink hover:opacity-90"
           >
             Tutti gli atti e la scheda completa →

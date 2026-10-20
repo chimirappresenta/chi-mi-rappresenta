@@ -79,9 +79,11 @@ Senza queste variabili il modulo funziona lo stesso: mostra la segnalazione già
 
 ## Estendere ad altre regioni
 
-1. In `scripts/build-data.mjs`, rendere `REGIONE` configurabile.
-2. Aggiungere per la regione le fonti del consiglio e della giunta regionale (ogni regione ha il suo sito).
-3. Aggiungere i file manuali per circoscrizioni regionali, senatori uninominali ed eurodeputati.
+Tutte le regioni hanno già la versione essenziale (anagrafe del Ministero dell'Interno). Per portare un Consiglio regionale "in chiaro":
+
+1. Scrivere un modulo in `scripts/consigli/<regione>.mjs` sul modello di `campania.mjs`: legge il sito del Consiglio e restituisce consiglieri, giunta, atti e leggi nel formato comune, più codici IPA, circoscrizioni e fonti.
+2. Aggiungerlo a `CONSIGLI_IN_CHIARO` in `scripts/build-data.mjs`. Rete di sicurezza sugli atti, riassunti, comuni citati e conteggi sono uguali per tutte le regioni; i dati finiscono in `src/data/consigli.json`.
+3. Le pagine `/regione/<regione>/…` si generano da sole.
 
 ## Consiglio regionale in chiaro (fase 2)
 
@@ -90,7 +92,7 @@ Senza queste variabili il modulo funziona lo stesso: mostra la segnalazione già
 - `/regione/campania/attivita/`: tutti gli atti della legislatura (proposte di legge, interrogazioni, question time, mozioni, risoluzioni), con filtri, ricerca ed esito. Sotto, la tabella degli atti per consigliere.
 - `/regione/campania/consiglieri/<slug>/`: scheda di ogni consigliere, con contatti, commissioni e tutti i suoi atti.
 - `/regione/campania/leggi/`: le leggi approvate, con PDF ufficiale, relazione illustrativa e, se disponibile, un riassunto in parole semplici.
-- In ogni pagina comune: lo stesso emiciclo con evidenziati gli eletti nella provincia, più gli atti e le leggi che citano il comune nel titolo. Le pagine comune caricano i dati dell'emiciclo da `/dati/emiciclo.json`, generato una sola volta al build, così non li ripetono 550 volte.
+- In ogni pagina comune: lo stesso emiciclo con evidenziati gli eletti nella provincia, più gli atti e le leggi che citano il comune nel titolo. Le pagine comune caricano i dati dell'emiciclo da `/dati/<regione>/emiciclo.json`, generato una sola volta al build, così non li ripetono 550 volte.
 
 Gli atti vengono letti dalle viste del sito del Consiglio, che rispondono HTTP 404 ma con la pagina corretta: la pipeline lo accetta solo per queste pagine. I firmatari sono abbinati ai consiglieri confrontando le parole del nome.
 
@@ -100,11 +102,11 @@ Gli atti vengono letti dalle viste del sito del Consiglio, che rispondono HTTP 4
 
 1. Quando l'aggiornamento del lunedì trova una legge nuova senza spiegazione, apre su GitHub la segnalazione **"Leggi regionali da riassumere"** con l'elenco (arriva un'email a chi segue il repository).
 2. Si chiede a Claude di scrivere i riassunti delle leggi nuove: legge il testo ufficiale (i PDF scaricati in `data/raw/`) e scrive 2-4 frasi in italiano semplice (cosa cambia, per chi, quanti soldi).
-3. I riassunti vanno in `data/manual/riassunti-leggi.json` (si possono rileggere e correggere a mano), si rilancia `npm run data`, si pubblica e si chiude la segnalazione.
+3. I riassunti vanno in `data/manual/riassunti/<regione>.json`, un file per ogni Consiglio in chiaro (si possono rileggere e correggere a mano), si rilancia `npm run data`, si pubblica e si chiude la segnalazione.
 
 Finché una legge non ha la spiegazione, sul sito compare con il titolo ufficiale. Ogni spiegazione riporta la nota "Riassunto generato con l'AI dal testo ufficiale: fa fede la legge" e i link al testo.
 
-**In alternativa (facoltativo, a pagamento).** I riassunti delle leggi (`scripts/riassumi-leggi.mjs`) possono essere scritti in automatico da Claude via API se nei secrets del repository c'è `ANTHROPIC_API_KEY`; oggi la chiave non è configurata e lo script non parte. Lo script usa Claude (`claude-opus-5-5`): ricevono il PDF ufficiale e restituiscono 2-4 frasi in italiano semplice. Ogni legge viene riassunta una sola volta e il risultato finisce in `data/manual/riassunti-leggi.json`, che si può correggere a mano. Le chiamate hanno attivo il fallback lato server (`fallbacks: "default"`): se la richiesta viene rifiutata per un falso positivo dei filtri di sicurezza, il server riprova su un altro modello.
+**In alternativa (facoltativo, a pagamento).** I riassunti delle leggi (`scripts/riassumi-leggi.mjs`) possono essere scritti in automatico da Claude via API se nei secrets del repository c'è `ANTHROPIC_API_KEY`; oggi la chiave non è configurata e lo script non parte. Lo script usa Claude (`claude-opus-5-5`): ricevono il PDF ufficiale e restituiscono 2-4 frasi in italiano semplice. Ogni legge viene riassunta una sola volta e il risultato finisce in `data/manual/riassunti/<regione>.json`, che si può correggere a mano. Le chiamate hanno attivo il fallback lato server (`fallbacks: "default"`): se la richiesta viene rifiutata per un falso positivo dei filtri di sicurezza, il server riprova su un altro modello.
 
 ## Licenza
 

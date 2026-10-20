@@ -4,22 +4,19 @@ import path from "node:path";
 import elencoJson from "@/data/comuni-elenco.json";
 import statisticheJson from "@/data/statistiche.json";
 import regioniJson from "@/data/regioni.json";
-import regioneJson from "@/data/regione.json";
 import parlamentoJson from "@/data/parlamento.json";
 import europaJson from "@/data/europa.json";
 import metaJson from "@/data/meta.json";
-import consiglioJson from "@/data/consiglio.json";
+import consigliJson from "@/data/consigli.json";
 import { slugConsigliere } from "./format";
-import type { Atto, Comune, ComuneElenco, Consiglio, Europa, Fonte, Legge, Meta, NumeriComune, Parlamento, Persona, Regione, RegioneEssenziale } from "./types";
+import type { Atto, Comune, ComuneElenco, ConsiglioInChiaro, Europa, Fonte, Legge, Meta, NumeriComune, Parlamento, Persona, RegioneEssenziale } from "./types";
 
 // I JSON sono generati da scripts/build-data.mjs (npm run data).
 /** Elenco leggero di tutti i comuni: la scheda completa di ognuno sta in src/data/comuni/<istat>.json. */
 export const comuni = elencoJson as ComuneElenco[];
-export const regione = regioneJson as Regione;
 export const parlamento = parlamentoJson as Parlamento;
 export const europa = europaJson as Europa;
 export const meta = metaJson as Meta;
-export const consiglio = consiglioJson as Consiglio;
 
 const DIR_COMUNI = path.join(process.cwd(), "src", "data", "comuni");
 const schede = new Map<string, Comune | undefined>();
@@ -51,31 +48,42 @@ export const comuniDaPreparare = () => [...comuni].sort((a, b) => (b.abitanti ??
 
 export const fonte = (id: string) => meta.fonti.find((f) => f.id === id)!;
 
-const consigliereBySlug = new Map(regione.consiglieri.map((c) => [slugConsigliere(c.username), c]));
-export const getConsigliere = (slug: string) => consigliereBySlug.get(slug);
+/**
+ * Consigli regionali "in chiaro" (consiglieri, giunta, atti, leggi), per slug della regione. Ogni regione ha un lettore
+ * in scripts/consigli/ che produce lo stesso formato; le altre regioni hanno solo la versione essenziale (`regioni`).
+ */
+export const consigli = consigliJson as unknown as Record<string, ConsiglioInChiaro>;
+export const consigliInChiaro = Object.values(consigli);
+export const getConsiglio = (slug: string): ConsiglioInChiaro | undefined => consigli[slug];
+export const consiglioDellaRegione = (codiceRegione: string) => consigliInChiaro.find((c) => c.codice === codiceRegione);
 
-export const attiDi = (username: string) => consiglio.atti.filter((a) => a.firmatari.some((f) => f.username === username));
+const consiglieriBySlug = new Map(consigliInChiaro.map((cr) => [cr.slug, new Map(cr.regione.consiglieri.map((c) => [slugConsigliere(c.username), c]))]));
+export const getConsigliere = (cr: ConsiglioInChiaro, slug: string) => consiglieriBySlug.get(cr.slug)?.get(slug);
 
-const attoById = new Map(consiglio.atti.map((a) => [a.id, a]));
-const leggeById = new Map(consiglio.leggi.map((l) => [`legge-${l.id}`, l]));
+export const attiDi = (cr: ConsiglioInChiaro, username: string) => cr.consiglio.atti.filter((a) => a.firmatari.some((f) => f.username === username));
 
-/** Risolve le citazioni di un comune in atti e leggi, dal più recente. */
+const attoById = new Map<string, Atto>(consigliInChiaro.flatMap((cr) => cr.consiglio.atti.map((a) => [`${cr.slug}:${a.id}`, a] as const)));
+const leggeById = new Map<string, Legge>(consigliInChiaro.flatMap((cr) => cr.consiglio.leggi.map((l) => [`${cr.slug}:legge-${l.id}`, l] as const)));
+
+/** Risolve le citazioni di un comune in atti e leggi del Consiglio della sua regione, dal più recente. */
 export function citazioniDi(comune: Comune): { atti: Atto[]; leggi: Legge[] } {
+  const cr = consiglioDellaRegione(comune.codiceRegione);
+  if (!cr) return { atti: [], leggi: [] };
   return {
-    atti: comune.citazioni.flatMap((id) => attoById.get(id) ?? []),
-    leggi: comune.citazioni.flatMap((id) => leggeById.get(id) ?? []),
+    atti: comune.citazioni.flatMap((id) => attoById.get(`${cr.slug}:${id}`) ?? []),
+    leggi: comune.citazioni.flatMap((id) => leggeById.get(`${cr.slug}:${id}`) ?? []),
   };
 }
 
-export const nomeTipo = (id: string) => consiglio.tipi.find((t) => t.id === id)?.nome ?? id;
+export const nomeTipo = (cr: ConsiglioInChiaro, id: string) => cr.consiglio.tipi.find((t) => t.id === id)?.nome ?? id;
 
 /** Dati per l'emiciclo: ogni consigliere con slug, conteggi e ultimi 3 atti (per tenere leggera la pagina). */
-export function consiglieriPerEmiciclo() {
-  return regione.consiglieri.map((c) => ({
+export function consiglieriPerEmiciclo(cr: ConsiglioInChiaro) {
+  return cr.regione.consiglieri.map((c) => ({
     ...c,
     slug: slugConsigliere(c.username),
-    attivita: consiglio.attivita[c.username],
-    ultimiAtti: attiDi(c.username)
+    attivita: cr.consiglio.attivita[c.username],
+    ultimiAtti: attiDi(cr, c.username)
       .slice(0, 3)
       .map(({ id, tipo, data, titolo, url }) => ({ id, tipo, data, titolo, url })),
   }));
@@ -85,7 +93,7 @@ export function consiglieriPerEmiciclo() {
 const medie = (statisticheJson as { medieRegioni: Record<string, NumeriComune> }).medieRegioni;
 export const mediaDellaRegione = (codiceRegione: string): NumeriComune | undefined => medie[codiceRegione];
 
-/** Tutte le regioni in versione essenziale; la Campania ha in più i dati "in chiaro" (vedi `regione`). */
+/** Tutte le regioni in versione essenziale; quelle in chiaro hanno in più i dati di `consigli`. */
 const regioniDati = regioniJson as { aggiornato?: string; regioni: RegioneEssenziale[] };
 export const regioni = regioniDati.regioni;
 export const regioniAggiornate = regioniDati.aggiornato;

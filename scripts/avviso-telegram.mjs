@@ -59,7 +59,7 @@ if (tipo === "aggiornamento-errore") {
   const leggi = meta.leggiSenzaRiassunto ?? [];
   const righe = [cambiati === "si" ? "✅ <b>Dati aggiornati</b>: il sito si ripubblica da solo in qualche minuto." : "✅ <b>Aggiornamento fatto</b>: nessun dato cambiato."];
   if (leggi.length)
-    righe.push("", `🟡 <b>${leggi.length} ${leggi.length === 1 ? "legge regionale" : "leggi regionali"} da riassumere</b>`, elenco(leggi.map((l) => l.intestazione)), "Chiedi a Claude: «scrivi i riassunti delle leggi nuove».");
+    righe.push("", `🟡 <b>${leggi.length} ${leggi.length === 1 ? "legge regionale" : "leggi regionali"} da riassumere</b>`, elenco(leggi.map((l) => (l.regione ? `${l.regione}: ${l.intestazione}` : l.intestazione))), "Chiedi a Claude: «scrivi i riassunti delle leggi nuove».");
   if (nuovi.length) righe.push("", `🟡 <b>Avvisi nuovi da controllare</b>`, elenco(nuovi, 8));
   if (runUrl) righe.push("", `<a href="${html(runUrl)}">Dettagli</a>`);
   await invia(righe.join("\n"));

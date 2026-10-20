@@ -1,5 +1,5 @@
 import { ImageResponse } from "next/og";
-import { consiglio, getConsigliere, regione } from "@/lib/data";
+import { consigliInChiaro, getConsigliere, getConsiglio } from "@/lib/data";
 import { slugConsigliere } from "@/lib/format";
 import { OG_COLORI as C, OG_SIZE, OgEmiciclo, OgFrame, ogFonts } from "@/lib/og";
 
@@ -9,17 +9,19 @@ export const dynamic = "force-static";
 export const alt = "Scheda del consigliere regionale: gruppo, contatti e atti presentati";
 
 export function generateStaticParams() {
-  return regione.consiglieri.map((c) => ({ slug: slugConsigliere(c.username) }));
+  return consigliInChiaro.flatMap((cr) => cr.regione.consiglieri.map((c) => ({ regione: cr.slug, slug: slugConsigliere(c.username) })));
 }
 
-export default async function Image({ params }: { params: Promise<{ slug: string }> }) {
-  const c = getConsigliere((await params).slug)!;
+export default async function Image({ params }: { params: Promise<{ regione: string; slug: string }> }) {
+  const p = await params;
+  const { regione, consiglio, nome } = getConsiglio(p.regione)!;
+  const c = getConsigliere(getConsiglio(p.regione)!, p.slug)!;
   const g = regione.gruppi.find((x) => x.nome === c.gruppo);
   const s = consiglio.attivita[c.username];
 
   return new ImageResponse(
     (
-      <OgFrame etichetta="Consiglio regionale della Campania">
+      <OgFrame etichetta={`Consiglio regionale della ${nome}`}>
         <div style={{ display: "flex", width: "100%", alignItems: "center", gap: 48 }}>
           <div style={{ display: "flex", flexDirection: "column", flex: 1 }}>
             <div style={{ display: "flex", alignItems: "center", gap: 12, fontSize: 26, fontWeight: 600, color: C.ink2 }}>

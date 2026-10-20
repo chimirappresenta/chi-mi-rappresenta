@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { comuni, consiglieriPerEmiciclo, consiglio, meta, parlamento, regione, regioni, tuttiGliEurodeputati } from "@/lib/data";
+import { comuni, consiglieriPerEmiciclo, consiglioDellaRegione, getConsiglio, meta, parlamento, regioni, tuttiGliEurodeputati } from "@/lib/data";
 import { ComuneSearch } from "@/components/ComuneSearch";
 import { Condividi } from "@/components/Condividi";
 import { Emiciclo } from "@/components/Emiciclo";
@@ -46,7 +46,10 @@ const FAQ = [
 ];
 
 export default function Home() {
-  const consiglieriRegionali = regioni.reduce((n, r) => n + (r.inChiaro ? regione.consiglieri.length : r.consiglieri.length), 0);
+  const consiglieriRegionali = regioni.reduce((n, r) => n + (consiglioDellaRegione(r.codice)?.regione.consiglieri.length ?? r.consiglieri.length), 0);
+  // In vetrina: il primo Consiglio regionale in chiaro.
+  const vetrina = getConsiglio("campania")!;
+  const { regione, consiglio } = vetrina;
   const deputati = Object.values(parlamento.camera).flat().length;
   const senatori = Object.keys(parlamento.senato.uninominali).length + Object.values(parlamento.senato.proporzionale).flat().length;
   const sindaci = comuni.filter((c) => c.sindaco).length;
@@ -179,7 +182,7 @@ export default function Home() {
         <div className="grid items-center gap-8 rounded-[28px] border border-line bg-surface p-6 sm:p-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.2fr)]">
           <div>
             <p className="text-xs font-semibold tracking-wider text-[var(--lv-regione)] uppercase">Il primo Consiglio regionale in chiaro</p>
-            <h2 className="display mt-2 text-3xl sm:text-4xl">Campania: {regione.consiglieri.length} consiglieri. Tocca un punto.</h2>
+            <h2 className="display mt-2 text-3xl sm:text-4xl">{vetrina.nome}: {regione.consiglieri.length} consiglieri. Tocca un punto.</h2>
             <p className="mt-3 max-w-lg text-ink-2">
               Ogni punto è una persona, colorata per gruppo: apri la scheda per contatti, commissioni e atti. È il modello che
               vogliamo portare in tutte le regioni.
@@ -188,19 +191,19 @@ export default function Home() {
               Le regioni in arrivo →
             </Link>
             <div className="mt-6 grid max-w-md grid-cols-2 gap-3">
-              <Link href="/regione/campania/attivita/" className="group rounded-2xl bg-[var(--lv-regione-bg)] p-4 hover:opacity-90">
+              <Link href={`/regione/${vetrina.slug}/attivita/`} className="group rounded-2xl bg-[var(--lv-regione-bg)] p-4 hover:opacity-90">
                 <span className="block text-sm text-ink-2">Atti presentati</span>
                 <span className="display block text-4xl">{consiglio.atti.length}</span>
                 <span className="text-sm font-medium text-[var(--lv-regione)] group-hover:underline">Cosa fanno →</span>
               </Link>
-              <Link href="/regione/campania/leggi/" className="group rounded-2xl bg-[var(--lv-comune-bg)] p-4 hover:opacity-90">
+              <Link href={`/regione/${vetrina.slug}/leggi/`} className="group rounded-2xl bg-[var(--lv-comune-bg)] p-4 hover:opacity-90">
                 <span className="block text-sm text-ink-2">Leggi approvate</span>
                 <span className="display block text-4xl">{consiglio.leggi.length}</span>
                 <span className="text-sm font-medium text-[var(--lv-comune)] group-hover:underline">Spiegate semplici →</span>
               </Link>
             </div>
           </div>
-          <Emiciclo consiglieri={consiglieriPerEmiciclo()} presidente={regione.presidente} gruppi={regione.gruppi} tipi={consiglio.tipi} />
+          <Emiciclo regione={{ slug: vetrina.slug, nome: vetrina.nome }} consiglieri={consiglieriPerEmiciclo(vetrina)} presidente={regione.presidente} gruppi={regione.gruppi} tipi={consiglio.tipi} />
         </div>
       </section>
 

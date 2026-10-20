@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 import { notFound } from "next/navigation";
-import { getComune, getRegioneEssenziale, parlamento, regione } from "@/lib/data";
+import { consiglioDellaRegione, getComune, getRegioneEssenziale, parlamento } from "@/lib/data";
 import { OG_COLORI as C, OG_SIZE, OgEmiciclo, OgFrame, ogFonts } from "@/lib/og";
 
 export const size = OG_SIZE;
@@ -19,14 +19,14 @@ export default async function Image({ params }: { params: Promise<{ istat: strin
   const a = c.amministrazione;
   const circ = c.circoscrizioneRegionale;
   const reg = getRegioneEssenziale(c.codiceRegione);
-  const inChiaro = !!reg?.inChiaro;
-  const nCirc = inChiaro ? regione.consiglieri.filter((x) => x.circoscrizione === circ).length : 0;
+  const cr = consiglioDellaRegione(c.codiceRegione);
+  const nCirc = cr ? cr.regione.consiglieri.filter((x) => x.circoscrizione === circ).length : 0;
   const deputati = (c.collegi?.cameraU ?? []).flatMap((k) => (parlamento.camera[k] ?? []).map((p) => p.nome));
   const senatori = (c.collegi?.senatoU ?? []).flatMap((k) => parlamento.senato.uninominali[k]?.nome ?? []);
 
   const righe: [string, string][] = [
     ["Comune", a?.tipo === "commissariata" ? "Commissariato" : a?.sindaco ? `Sindaco ${a.sindaco.nome}` : "Dati in aggiornamento"],
-    ["Regione", inChiaro ? `${nCirc} consiglieri eletti in provincia` : reg?.presidente ? `Presidente ${reg.presidente.nome}` : c.regione],
+    ["Regione", cr ? `${nCirc} consiglieri eletti in provincia` : reg?.presidente ? `Presidente ${reg.presidente.nome}` : c.regione],
     ["Camera", deputati.join(", ") || "—"],
     ["Senato", senatori.join(", ") || "—"],
   ];
@@ -49,9 +49,9 @@ export default async function Image({ params }: { params: Promise<{ istat: strin
               ))}
             </div>
           </div>
-          {inChiaro && (
+          {cr && (
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-            <OgEmiciclo consiglieri={regione.consiglieri} gruppi={regione.gruppi} evidenzia={(x) => x.circoscrizione === circ} larghezza={420} />
+            <OgEmiciclo consiglieri={cr.regione.consiglieri} gruppi={cr.regione.gruppi} evidenzia={(x) => x.circoscrizione === circ} larghezza={420} />
             <div style={{ fontSize: 20, color: C.ink3, marginTop: 8 }}>Consiglio regionale · eletti in provincia</div>
           </div>
           )}

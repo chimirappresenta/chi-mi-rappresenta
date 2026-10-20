@@ -30,7 +30,8 @@ export function EsitoBadge({ atto }: { atto: Atto }) {
   );
 }
 
-export function AttoRow({ atto, tipi, mostraFirmatari = true }: { atto: Atto; tipi: TipoAtto[]; mostraFirmatari?: boolean }) {
+/** `regione`: slug del Consiglio a cui appartiene l'atto (per il link al primo firmatario). */
+export function AttoRow({ atto, tipi, regione, mostraFirmatari = true }: { atto: Atto; tipi: TipoAtto[]; regione: string; mostraFirmatari?: boolean }) {
   const tipo = tipi.find((t) => t.id === atto.tipo)?.nome ?? atto.tipo;
   const [primo, ...altri] = atto.firmatari;
   return (
@@ -54,7 +55,7 @@ export function AttoRow({ atto, tipi, mostraFirmatari = true }: { atto: Atto; ti
       {mostraFirmatari && primo && (
         <p className="mt-1 text-sm text-ink-3">
           {primo.username ? (
-            <Link href={`/regione/campania/consiglieri/${slugConsigliere(primo.username)}/`} className="text-ink-2 hover:text-accent hover:underline">
+            <Link href={`/regione/${regione}/consiglieri/${slugConsigliere(primo.username)}/`} className="text-ink-2 hover:text-accent hover:underline">
               {primo.nome}
             </Link>
           ) : (

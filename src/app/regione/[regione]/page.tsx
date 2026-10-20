@@ -1,25 +1,33 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { circoscrizioneEuropea, fonte, regioni, regioniAggiornate } from "@/lib/data";
+import { circoscrizioneEuropea, fonte, getConsiglio, regioni, regioniAggiornate } from "@/lib/data";
 import { Avviso, Espandibile, Gruppo, Livello, PersonaRow } from "@/components/ui";
 import { Condividi } from "@/components/Condividi";
 import { CopiaTesto } from "@/components/CopiaTesto";
 import { ComuneSearch } from "@/components/ComuneSearch";
+import { RegioneInChiaro } from "@/components/RegioneInChiaro";
 
-// Pagina essenziale di ogni regione. La Campania ha la sua pagina "in chiaro" in /regione/campania/.
+// Pagina di ogni regione: "in chiaro" (emiciclo, atti, leggi) se c'è il lettore del suo Consiglio, altrimenti essenziale.
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return regioni.filter((r) => !r.inChiaro).map((r) => ({ regione: r.slug }));
+  return regioni.map((r) => ({ regione: r.slug }));
 }
 
 const trova = async (params: Promise<{ regione: string }>) => {
   const { regione } = await params;
-  return regioni.find((r) => r.slug === regione && !r.inChiaro);
+  return regioni.find((r) => r.slug === regione);
 };
 
 export async function generateMetadata({ params }: PageProps<"/regione/[regione]">): Promise<Metadata> {
+  const { regione } = await params;
+  const cr = getConsiglio(regione);
+  if (cr)
+    return {
+      title: `Giunta e Consiglio regionale della ${cr.nome}`,
+      description: `Il Consiglio regionale della ${cr.nome} in un emiciclo: cerca ogni consigliere per nome o gruppo e apri la sua scheda.`,
+    };
   const r = await trova(params);
   return r
     ? {
@@ -30,6 +38,8 @@ export async function generateMetadata({ params }: PageProps<"/regione/[regione]
 }
 
 export default async function RegionePage({ params }: PageProps<"/regione/[regione]">) {
+  const cr = getConsiglio((await params).regione);
+  if (cr) return <RegioneInChiaro cr={cr} />;
   const r = await trova(params);
   if (!r) notFound();
   const circ = circoscrizioneEuropea(r.codice);

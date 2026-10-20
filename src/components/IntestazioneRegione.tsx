@@ -5,6 +5,7 @@ import { RegioneNav } from "./RegioneNav";
 
 /** Intestazione comune alle pagine della Regione: torna indietro, titolo, introduzione, condivisione e menu di sezione. */
 export function IntestazioneRegione({
+  regione,
   titolo,
   sottotitolo,
   intro,
@@ -12,6 +13,8 @@ export function IntestazioneRegione({
   indietro = { href: "/regione/", label: "Tutte le regioni" },
   condividi,
 }: {
+  /** Slug della regione in chiaro ("campania"). */
+  regione: string;
   titolo: string;
   sottotitolo?: ReactNode;
   intro: ReactNode;
@@ -34,7 +37,7 @@ export function IntestazioneRegione({
         </div>
         <Condividi path={condividi.path} titolo={titolo} testo={condividi.testo} />
       </header>
-      <RegioneNav attiva={attiva} />
+      <RegioneNav regione={regione} attiva={attiva} />
     </>
   );
 }

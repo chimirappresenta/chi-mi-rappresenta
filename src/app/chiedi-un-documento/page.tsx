@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { regione, regioni } from "@/lib/data";
+import { consigliInChiaro, regioni } from "@/lib/data";
 import { ComuneSearch } from "@/components/ComuneSearch";
 import { Condividi } from "@/components/Condividi";
 import { ChiediDocumento, type EnteAccesso } from "@/components/ChiediDocumento";
@@ -13,14 +13,16 @@ export const metadata: Metadata = {
 };
 
 export default function ChiediUnDocumentoPage() {
-  // Le 20 Regioni (PEC dall'IPA), più il Consiglio regionale della Campania.
+  // Le 20 Regioni (PEC dall'IPA), più i Consigli regionali in chiaro.
   const enti: EnteAccesso[] = [
     ...regioni.flatMap((r) =>
       r.contatti?.pec ? [{ id: r.slug, nome: `Regione ${r.nome}`, pec: r.contatti.pec, descrizione: "Sanità, trasporti, ambiente, fondi europei" }] : [],
     ),
-    ...(regione.contattiConsiglio?.pec
-      ? [{ id: "consiglio-campania", nome: "Consiglio regionale della Campania", pec: regione.contattiConsiglio.pec, descrizione: "Atti, leggi e spese del Consiglio" }]
-      : []),
+    ...consigliInChiaro.flatMap(({ slug, nome, regione }) =>
+      regione.contattiConsiglio?.pec
+        ? [{ id: `consiglio-${slug}`, nome: `Consiglio regionale della ${nome}`, pec: regione.contattiConsiglio.pec, descrizione: "Atti, leggi e spese del Consiglio" }]
+        : [],
+    ),
   ];
 
   return (

@@ -1,4 +1,4 @@
-import { citazioniDi, getComune, getRegioneEssenziale } from "@/lib/data";
+import { citazioniDi, consiglioDellaRegione, getComune } from "@/lib/data";
 import { rss, vociLeggi, vocePerAtto, vocePerLegge } from "@/lib/feed";
 import { SITE_URL } from "@/lib/sito";
 
@@ -13,15 +13,16 @@ export function generateStaticParams() {
 
 export async function GET(_req: Request, { params }: { params: Promise<{ istat: string }> }) {
   const c = getComune((await params).istat);
-  // il feed segue il Consiglio regionale "in chiaro": per ora solo i comuni campani
-  if (!c || !getRegioneEssenziale(c.codiceRegione)?.inChiaro) return new Response("Feed non disponibile per questo comune", { status: 404 });
+  // il feed segue il Consiglio regionale "in chiaro": solo per i comuni delle regioni che ce l'hanno
+  const cr = c && consiglioDellaRegione(c.codiceRegione);
+  if (!c || !cr) return new Response("Feed non disponibile per questo comune", { status: 404 });
   const { atti, leggi } = citazioniDi(c);
   const prefisso = `Parla di ${c.nome} · `;
   return rss({
     titolo: `${c.nome} in Regione · Chi mi rappresenta`,
-    descrizione: `Quando nel Consiglio regionale della Campania si parla di ${c.nome}, e le nuove leggi regionali.`,
+    descrizione: `Quando nel Consiglio regionale della ${cr.nome} si parla di ${c.nome}, e le nuove leggi regionali.`,
     link: `${SITE_URL}/comune/${c.istat}/`,
     self: `${SITE_URL}/comune/${c.istat}/feed.xml`,
-    voci: [...leggi.map((l) => vocePerLegge(l, prefisso)), ...atti.map((a) => vocePerAtto(a, prefisso)), ...vociLeggi()],
+    voci: [...leggi.map((l) => vocePerLegge(cr, l, prefisso)), ...atti.map((a) => vocePerAtto(cr, a, prefisso)), ...vociLeggi(cr)],
   });
 }

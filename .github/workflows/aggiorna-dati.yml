@@ -46,12 +46,12 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          node -e "const m=require('./src/data/meta.json'); const l=m.leggiSenzaRiassunto||[]; require('fs').writeFileSync('leggi-da-riassumere.md', l.map(x=>'- ['+x.intestazione+']('+x.url+')'+(x.oggetto?': '+x.oggetto:'')).join(String.fromCharCode(10)))"
+          node -e "const m=require('./src/data/meta.json'); const l=m.leggiSenzaRiassunto||[]; require('fs').writeFileSync('leggi-da-riassumere.md', l.map(x=>'- '+(x.regione?x.regione+': ':'')+'['+x.intestazione+']('+x.url+')'+(x.oggetto?': '+x.oggetto:'')).join(String.fromCharCode(10)))"
           if [ -s leggi-da-riassumere.md ]; then
             TITOLO="Leggi regionali da riassumere"
             APERTE=$(gh issue list --state open --search "\"$TITOLO\" in:title" --json number --jq 'length')
             if [ "$APERTE" = "0" ]; then
-              { echo "Ci sono leggi regionali nuove senza spiegazione in parole semplici:"; echo; cat leggi-da-riassumere.md; echo; echo "Scrivere i riassunti in data/manual/riassunti-leggi.json (vedi il README), poi chiudere questa segnalazione."; } > corpo.md
+              { echo "Ci sono leggi regionali nuove senza spiegazione in parole semplici:"; echo; cat leggi-da-riassumere.md; echo; echo "Scrivere i riassunti in data/manual/riassunti/<regione>.json (vedi il README), poi chiudere questa segnalazione."; } > corpo.md
               gh issue create --title "$TITOLO" --body-file corpo.md
             fi
           fi
