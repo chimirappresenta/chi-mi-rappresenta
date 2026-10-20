@@ -1,0 +1,180 @@
+{
+  "_nota": "Riassunti scritti con Claude (claude-opus-5-5) leggendo il testo ufficiale delle leggi (archivio del Consiglio regionale della Basilicata). Si possono correggere a mano: la pipeline non li sovrascrive.",
+  "leggi": {
+    "2026-35": {
+      "testo": "Assestamento del bilancio 2026-2028: aggiorna le cifre dopo la chiusura dei conti 2025 e ripiana il disavanzo. Tra le misure, un contributo fino a 550.000 euro al Comune di Ripacandida per le iniziative legate al titolo 'Vulture - Città italiana del vino 2026-2027'.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-34": {
+      "testo": "Nuova legge sulla tutela della fauna selvatica e sulla caccia, che sostituisce la precedente: piano faunistico-venatorio regionale, oasi e zone di protezione, zone di ripopolamento, aziende faunistico-venatorie, soccorso degli animali in difficoltà, divieto di uccellagione, regole per i cani da caccia, il calendario venatorio, i controlli e le sanzioni.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-33": {
+      "testo": "Rafforza la prevenzione dei tumori ereditari: le donne tra 40 e 44 anni possono far valutare dal medico di famiglia la loro storia familiare e, se serve, accedere prima allo screening mammografico. Prevede consulenza genetica e un programma di sorveglianza per pazienti e famiglie con mutazioni genetiche a rischio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-32": {
+      "testo": "Estende lo screening neonatale obbligatorio, già previsto per l'atrofia muscolare spinale (SMA), anche alla leucodistrofia metacromatica (MLD), una grave malattia genetica, con un test genetico sulla goccia di sangue raccolta alla nascita e la presa in carico dei bambini positivi.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-31": {
+      "testo": "Approva il rendiconto 2025 dell'Agenzia regionale per il lavoro e l'apprendimento (ARLAB), cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-30": {
+      "testo": "Riorganizza l'Avvocatura regionale, l'ufficio di avvocati che difende la Regione in tribunale: struttura, funzioni, compensi, regole per gli incarichi ad avvocati esterni e praticantato. Istituisce un Osservatorio del contenzioso che analizza le cause della Regione e propone come ridurle.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-29": {
+      "testo": "Nuova legge sull'apicoltura: un piano di interventi per il settore, limiti all'uso di prodotti fitosanitari durante la fioritura per proteggere le api, regole per apicoltori professionisti e familiari, per lo spostamento degli alveari e per l'apiturismo, tutela dell'ape italiana (Apis mellifera ligustica), un comitato apistico regionale, controlli e sanzioni.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-28": {
+      "testo": "Proroga fino al 31 dicembre 2026, in automatico, le graduatorie per l'assegnazione delle case popolari in scadenza tra gennaio 2025 e luglio 2026, e aggiorna le regole sul subentro nell'assegnazione degli alloggi. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-27": {
+      "testo": "Riforma la legge sul Parco urbano delle Cantine: diventano 'Parchi delle Cantine di rilevanza regionale - Paesaggi delle produzioni', pensati anche per recuperare aree urbane e periurbane degradate, nel rispetto delle norme ambientali. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-26": {
+      "testo": "Approva il rendiconto 2025 dell'Azienda regionale per il diritto allo studio universitario (ARDSU), cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-25": {
+      "testo": "Cambia i canoni per lo sfruttamento delle acque minerali: fissa un importo forfettario per l'acqua estratta e non imbottigliata (anche per uso industriale) e prevede sconti del 20% per l'acqua venduta in vetro e del 30% per il vetro con vuoto a rendere, per incentivare contenitori riutilizzabili.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-24": {
+      "testo": "Semplifica le autorizzazioni per le strutture sanitarie: entro 60 giorni la Giunta deve pubblicare l'elenco delle attività che non comportano rischi per la sicurezza dei pazienti, e quindi non richiedono la stessa autorizzazione delle altre. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-23": {
+      "testo": "La Regione aderisce alla 'rottamazione' prevista dallo Stato per i debiti verso la Regione affidati all'Agenzia delle Entrate-Riscossione tra il 2000 e il 2023 (tributi e altre somme): chi aderisce paga senza sanzioni e interessi, secondo le regole statali.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-22": {
+      "testo": "Approva il bilancio 2026-2028 dell'Agenzia lucana di sviluppo e innovazione in agricoltura (ALSIA) e le assegna fino a 6,18 milioni di euro l'anno per le spese di funzionamento.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-21": {
+      "testo": "Approva il bilancio 2026-2028 dell'Agenzia regionale per la protezione dell'ambiente (ARPAB) e le assegna fino a 7,55 milioni di euro l'anno per le spese di funzionamento.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-20": {
+      "testo": "Approva il rendiconto 2024 dell'Ente Parco naturale regionale del Vulture, cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-19": {
+      "testo": "Cambia le regole del Consiglio delle Autonomie Locali (CAL): il presidente è eletto con maggioranza di due terzi nelle prime due votazioni e poi a maggioranza semplice, anche con voto a distanza ma segreto, resta in carica dodici mesi e non può essere rieletto.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-18": {
+      "testo": "Modifica le regole per assegnare le case popolari: punti in più alle famiglie con un solo genitore e alle donne vittime di violenza seguite dai servizi sociali o dai centri antiviolenza, e la possibilità per i Comuni di riservare loro fino al 5% degli alloggi.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-17": {
+      "testo": "Indica alle ATER di Potenza e Matera di recuperare prima le case popolari sfitte esistenti, migliorandone sicurezza sismica, efficienza energetica e accessibilità, invece di costruirne di nuove: prima di nuove costruzioni devono fare una ricognizione degli alloggi non assegnati. L'obiettivo è dare risposte più rapide e consumare meno suolo.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-16": {
+      "testo": "Approva il bilancio 2026-2028 dell'Ente di governo per i rifiuti e le risorse idriche della Basilicata (EGRIB) e gli assegna fino a 1 milione di euro l'anno per le spese di funzionamento.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-15": {
+      "testo": "Approva il bilancio 2026-2028 dell'Ente Parco naturale regionale del Vulture e gli assegna fino a 450.000 euro l'anno per le spese di funzionamento.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-14": {
+      "testo": "Approva il bilancio 2026-2028 dell'Agenzia regionale per il lavoro e l'apprendimento (ARLAB) e le assegna fino a 4 milioni di euro l'anno per le spese di funzionamento.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-13": {
+      "testo": "Approva il bilancio 2026-2028 dell'Ente Parco di Gallipoli Cognato - Piccole Dolomiti Lucane e gli assegna fino a 450.000 euro l'anno per le spese di funzionamento.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-12": {
+      "testo": "Approva il bilancio 2026-2028 dell'Agenzia di Promozione Territoriale (APT), che si occupa di promozione turistica, e le assegna fino a 2,6 milioni di euro l'anno per le spese di funzionamento.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-11": {
+      "testo": "Autorizza la Regione a rinegoziare i mutui con Cassa Depositi e Prestiti: fino a fine 2027 paga quote di capitale molto ridotte (0,25% del debito residuo), liberando risorse per interventi sul territorio di fronte all'aumento dei costi energetici. La durata complessiva dei mutui non cambia.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-10": {
+      "testo": "Approva il bilancio di previsione della Regione per il 2026-2028: nel 2026 circa 4,9 miliardi di euro di entrate e altrettante spese di competenza. Fissa anche fondi di riserva, fondi speciali e l'uso delle quote accantonate e vincolate. È l'atto che permette alla Regione di incassare e spendere.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-9": {
+      "testo": "Legge di stabilità 2026: fissa per il 2026-2028 i fondi per le leggi regionali di spesa e per i programmi cofinanziati dall'Unione europea. Autorizza la Regione a sottoscrivere un aumento di capitale di 8 milioni di euro di Acquedotto Lucano, per sostenere gli investimenti del PNRR sul servizio idrico.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-8": {
+      "testo": "Approva il rendiconto 2024 della Regione, cioè i conti definitivi dell'anno. Il risultato di amministrazione a fine 2024 è di circa 621 milioni di euro, quasi tutto accantonato o vincolato a usi già stabiliti, con un piccolo disavanzo di circa 239.000 euro. È un atto contabile obbligatorio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-7": {
+      "testo": "Ridefinisce i confini del Parco naturale di Gallipoli Cognato - Piccole Dolomiti Lucane (comuni di Castelmezzano, Pietrapertosa, Accettura, Calciano, Oliveto Lucano e Cirigliano) e cambia il modo di nominare il presidente dell'Ente Parco, scelto dal Consiglio regionale tra cinque nomi indicati dalla Comunità del parco. Modifica anche altre due leggi regionali.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-6": {
+      "testo": "Piccola modifica all'articolo 22 del collegato alla legge di stabilità 2024: elimina il riferimento alle strutture nei territori meno serviti e abroga un comma. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-5": {
+      "testo": "Legge quadro sul Terzo settore lucano: riconosce il ruolo di associazioni e volontariato, istituisce una Consulta regionale del Terzo settore, un registro digitale dell'amministrazione condivisa e regole per la co-programmazione e la co-progettazione dei servizi tra enti pubblici e Terzo settore, con misure di sostegno al volontariato.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-4": {
+      "testo": "Proroga fino al 31 dicembre 2026 alcune misure urgenti del 2020-2021 per il turismo e le concessioni demaniali marittime.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-3": {
+      "testo": "Modifica le regole sui compensi dei consiglieri regionali: l'indennità differita per gli ex consiglieri (calcolata con il sistema contributivo, come una pensione) spetta a chi è stato eletto dalla XII legislatura in poi, invece che dalla X. Abroga anche un articolo della legge del 2017 sul contenimento dei costi della politica.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-2": {
+      "testo": "Consente alle aziende sanitarie lucane (ASP, ASM, Ospedale San Carlo e CROB di Rionero) di avviare sperimentazioni gestionali insieme a soggetti privati qualificati o del Terzo settore, escluse le prestazioni essenziali, per offrire servizi sanitari di eccellenza in modo più efficiente. I progetti devono essere autorizzati dalla Regione e coerenti con la programmazione sanitaria.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    },
+    "2026-1": {
+      "testo": "Istituisce il Centro regionale di monitoraggio sugli appalti pubblici, che controlla le gare della Regione, delle aziende sanitarie e degli enti regionali, soprattutto quelle con molta manodopera. Serve a garantire la qualità degli affidamenti, la sicurezza del lavoro e la tutela dei lavoratori quando un appalto passa a una nuova ditta. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+    }
+  }
+}

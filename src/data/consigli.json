@@ -55164,7 +55164,12 @@
      "data": "2026-10-13",
      "intestazione": "Legge regionale 13 ottobre 2026, n. 35",
      "oggetto": "Assestamento del bilancio di previsione finanziario per il triennio 2026-2028",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Assestamento del bilancio 2026-2028: aggiorna le cifre dopo la chiusura dei conti 2025 e ripiana il disavanzo. Tra le misure, un contributo fino a 550.000 euro al Comune di Ripacandida per le iniziative legate al titolo 'Vulture - Città italiana del vino 2026-2027'.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-34",
@@ -55172,7 +55177,12 @@
      "data": "2026-08-17",
      "intestazione": "Legge regionale 17 agosto 2026, n. 34",
      "oggetto": "Nuove norme per la protezione della fauna selvatica omeoterma e per il prelievo venatorio",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Nuova legge sulla tutela della fauna selvatica e sulla caccia, che sostituisce la precedente: piano faunistico-venatorio regionale, oasi e zone di protezione, zone di ripopolamento, aziende faunistico-venatorie, soccorso degli animali in difficoltà, divieto di uccellagione, regole per i cani da caccia, il calendario venatorio, i controlli e le sanzioni.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-33",
@@ -55180,7 +55190,12 @@
      "data": "2026-08-17",
      "intestazione": "Legge regionale 17 agosto 2026, n. 33",
      "oggetto": "Misure per il potenziamento dello screening di popolazione sui tumori eredo-familiari e istituzione del programma di valutazione del rischio per pazienti e famiglie con mutazioni genetiche",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Rafforza la prevenzione dei tumori ereditari: le donne tra 40 e 44 anni possono far valutare dal medico di famiglia la loro storia familiare e, se serve, accedere prima allo screening mammografico. Prevede consulenza genetica e un programma di sorveglianza per pazienti e famiglie con mutazioni genetiche a rischio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-32",
@@ -55188,7 +55203,12 @@
      "data": "2026-08-17",
      "intestazione": "Legge regionale 17 agosto 2026, n. 32",
      "oggetto": "Modifiche alla legge regionale 9 aprile 2025, n. 18 recante \"Obbligatorietà dello Screening neonatale per l’atrofia muscolare spinale – SMA”",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Estende lo screening neonatale obbligatorio, già previsto per l'atrofia muscolare spinale (SMA), anche alla leucodistrofia metacromatica (MLD), una grave malattia genetica, con un test genetico sulla goccia di sangue raccolta alla nascita e la presa in carico dei bambini positivi.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-31",
@@ -55196,7 +55216,12 @@
      "data": "2026-08-17",
      "intestazione": "Legge regionale 17 agosto 2026, n. 31",
      "oggetto": "Rendiconto generale per l’esercizio finanziario 2025 dell’Agenzia Regionale per il Lavoro e l’Apprendimento Basilicata (ARLAB)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il rendiconto 2025 dell'Agenzia regionale per il lavoro e l'apprendimento (ARLAB), cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-30",
@@ -55204,7 +55229,12 @@
      "data": "2026-08-17",
      "intestazione": "Legge regionale 17 agosto 2026, n. 30",
      "oggetto": "Disciplina dell’Avvocatura regionale",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Riorganizza l'Avvocatura regionale, l'ufficio di avvocati che difende la Regione in tribunale: struttura, funzioni, compensi, regole per gli incarichi ad avvocati esterni e praticantato. Istituisce un Osservatorio del contenzioso che analizza le cause della Regione e propone come ridurle.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-29",
@@ -55212,7 +55242,12 @@
      "data": "2026-08-17",
      "intestazione": "Legge regionale 17 agosto 2026, n. 29",
      "oggetto": "Valorizzazione e interventi a favore dell’apicoltura regionale",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Nuova legge sull'apicoltura: un piano di interventi per il settore, limiti all'uso di prodotti fitosanitari durante la fioritura per proteggere le api, regole per apicoltori professionisti e familiari, per lo spostamento degli alveari e per l'apiturismo, tutela dell'ape italiana (Apis mellifera ligustica), un comitato apistico regionale, controlli e sanzioni.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-28",
@@ -55220,7 +55255,12 @@
      "data": "2026-08-05",
      "intestazione": "Legge regionale 5 agosto 2026, n. 28",
      "oggetto": "Modifiche alla legge regionale 18 dicembre 2007, n. 24 (Norme per l’assegnazione e la gestione e la determinazione dei canoni di locazione degli alloggi di edilizia residenziale pubblica)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Proroga fino al 31 dicembre 2026, in automatico, le graduatorie per l'assegnazione delle case popolari in scadenza tra gennaio 2025 e luglio 2026, e aggiorna le regole sul subentro nell'assegnazione degli alloggi. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-27",
@@ -55228,7 +55268,12 @@
      "data": "2026-08-05",
      "intestazione": "Legge regionale 5 agosto 2026, n. 27",
      "oggetto": "Modifiche e integrazioni alla legge regionale 5 febbraio 2010, n. 12 (Istituzione del Parco Urbano delle Cantine di interesse regionale)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Riforma la legge sul Parco urbano delle Cantine: diventano 'Parchi delle Cantine di rilevanza regionale - Paesaggi delle produzioni', pensati anche per recuperare aree urbane e periurbane degradate, nel rispetto delle norme ambientali. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-26",
@@ -55236,7 +55281,12 @@
      "data": "2026-08-05",
      "intestazione": "Legge regionale 5 agosto 2026, n. 26",
      "oggetto": "Rendiconto per l’esercizio finanziario 2025 dell’Azienda regionale per il diritto allo studio universitario (ARDSU)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il rendiconto 2025 dell'Azienda regionale per il diritto allo studio universitario (ARDSU), cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-25",
@@ -55244,7 +55294,12 @@
      "data": "2026-08-05",
      "intestazione": "Legge regionale 5 agosto 2026, n. 25",
      "oggetto": "Modifiche e integrazioni alla Legge regionale 2 settembre 1996, n, 43 (Disciplina nella ricerca e coltivazione delle acque minerali e termali)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Cambia i canoni per lo sfruttamento delle acque minerali: fissa un importo forfettario per l'acqua estratta e non imbottigliata (anche per uso industriale) e prevede sconti del 20% per l'acqua venduta in vetro e del 30% per il vetro con vuoto a rendere, per incentivare contenitori riutilizzabili.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-24",
@@ -55252,7 +55307,12 @@
      "data": "2026-08-05",
      "intestazione": "Legge regionale 5 agosto 2026, n. 24",
      "oggetto": "Modifiche alla Legge regionale 5 aprile 2000, n. 28 (Norme in materia di autorizzazione delle strutture sanitarie pubbliche e private)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Semplifica le autorizzazioni per le strutture sanitarie: entro 60 giorni la Giunta deve pubblicare l'elenco delle attività che non comportano rischi per la sicurezza dei pazienti, e quindi non richiedono la stessa autorizzazione delle altre. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-23",
@@ -55260,7 +55320,12 @@
      "data": "2026-07-30",
      "intestazione": "Legge regionale 30 luglio 2026, n. 23",
      "oggetto": "Adesione della Regione Basilicata alla definizione agevolata dei carichi affidati all’agente della riscossione ai sensi dell’articolo 10-quinquies del decreto-legge 27 marzo 2026, n. 38 (Disposizioni urgenti in materia fiscale ed economica), convertito, con modificazioni, dall’articolo 1, comma 1, della legge 22 maggio 2026, n. 88",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "La Regione aderisce alla 'rottamazione' prevista dallo Stato per i debiti verso la Regione affidati all'Agenzia delle Entrate-Riscossione tra il 2000 e il 2023 (tributi e altre somme): chi aderisce paga senza sanzioni e interessi, secondo le regole statali.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-22",
@@ -55268,7 +55333,12 @@
      "data": "2026-07-01",
      "intestazione": "Legge regionale 1 luglio 2026, n. 22",
      "oggetto": "Bilancio di previsione finanziario per il triennio 2026-2028 dell’Agenzia Lucana di Sviluppo ed Innovazione in Agricoltura (ALSIA)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il bilancio 2026-2028 dell'Agenzia lucana di sviluppo e innovazione in agricoltura (ALSIA) e le assegna fino a 6,18 milioni di euro l'anno per le spese di funzionamento.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-21",
@@ -55276,7 +55346,12 @@
      "data": "2026-07-01",
      "intestazione": "Legge regionale 1 luglio 2026, n. 21",
      "oggetto": "Bilancio di previsione finanziario per il triennio 2026-2028 dell’Agenzia Regionale per la Protezione dell’Ambiente della Basilicata (ARPAB)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il bilancio 2026-2028 dell'Agenzia regionale per la protezione dell'ambiente (ARPAB) e le assegna fino a 7,55 milioni di euro l'anno per le spese di funzionamento.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-20",
@@ -55284,7 +55359,12 @@
      "data": "2026-07-01",
      "intestazione": "Legge regionale 1 luglio 2026, n. 20",
      "oggetto": "Rendiconto generale per l’esercizio finanziario 2024 del Parco naturale regionale del Vulture",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il rendiconto 2024 dell'Ente Parco naturale regionale del Vulture, cioè i suoi conti definitivi dell'anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-19",
@@ -55292,7 +55372,12 @@
      "data": "2026-05-29",
      "intestazione": "Legge regionale 29 maggio 2026, n. 19",
      "oggetto": "Modifica della legge regionale 21 aprile 2021, n. 13 - Istituzione del Consiglio per le Autonomie Locali (CAL)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Cambia le regole del Consiglio delle Autonomie Locali (CAL): il presidente è eletto con maggioranza di due terzi nelle prime due votazioni e poi a maggioranza semplice, anche con voto a distanza ma segreto, resta in carica dodici mesi e non può essere rieletto.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-18",
@@ -55300,7 +55385,12 @@
      "data": "2026-05-29",
      "intestazione": "Legge regionale 29 maggio 2026, n. 18",
      "oggetto": "Modifica della legge regionale 18 dicembre 2007, n. 24 (Norme per l’assegnazione la gestione e la determinazione dei canoni di locazione degli alloggi di edilizia residenziale pubblica)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Modifica le regole per assegnare le case popolari: punti in più alle famiglie con un solo genitore e alle donne vittime di violenza seguite dai servizi sociali o dai centri antiviolenza, e la possibilità per i Comuni di riservare loro fino al 5% degli alloggi.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-17",
@@ -55308,7 +55398,12 @@
      "data": "2026-05-29",
      "intestazione": "Legge regionale 29 maggio 2026, n. 17",
      "oggetto": "Indirizzi alle Aziende territoriali di edilizia residenziale (ATER) di Potenza e Matera di recupero del patrimonio edilizio esistente",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Indica alle ATER di Potenza e Matera di recuperare prima le case popolari sfitte esistenti, migliorandone sicurezza sismica, efficienza energetica e accessibilità, invece di costruirne di nuove: prima di nuove costruzioni devono fare una ricognizione degli alloggi non assegnati. L'obiettivo è dare risposte più rapide e consumare meno suolo.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-16",
@@ -55316,7 +55411,12 @@
      "data": "2026-05-27",
      "intestazione": "Legge regionale 27 maggio 2026, n. 16",
      "oggetto": "Bilancio di previsione finanziario per il triennio 2026-2028 dell’Ente di governo per i rifiuti e le risorse idriche della Basilicata (EGRIB)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il bilancio 2026-2028 dell'Ente di governo per i rifiuti e le risorse idriche della Basilicata (EGRIB) e gli assegna fino a 1 milione di euro l'anno per le spese di funzionamento.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-15",
@@ -55324,7 +55424,12 @@
      "data": "2026-05-27",
      "intestazione": "Legge regionale 27 maggio 2026, n. 15",
      "oggetto": "Bilancio di previsione finanziario per il triennio 2026-2028 dell’Ente di gestione del Parco Naturale regionale del Vulture",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il bilancio 2026-2028 dell'Ente Parco naturale regionale del Vulture e gli assegna fino a 450.000 euro l'anno per le spese di funzionamento.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-14",
@@ -55332,7 +55437,12 @@
      "data": "2026-05-27",
      "intestazione": "Legge regionale 27 maggio 2026, n. 14",
      "oggetto": "Bilancio di previsione finanziario per il triennio 2026-2028 dell’Agenzia Regionale per il Lavoro e l’Apprendimento Basilicata (ARLAB)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il bilancio 2026-2028 dell'Agenzia regionale per il lavoro e l'apprendimento (ARLAB) e le assegna fino a 4 milioni di euro l'anno per le spese di funzionamento.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-13",
@@ -55340,7 +55450,12 @@
      "data": "2026-05-27",
      "intestazione": "Legge regionale 27 maggio 2026, n. 13",
      "oggetto": "Bilancio di previsione finanziario per il triennio 2026-2028 dell’Ente di Gestione del Parco naturale di Gallipoli Cognato - Piccole Dolomiti Lucane",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il bilancio 2026-2028 dell'Ente Parco di Gallipoli Cognato - Piccole Dolomiti Lucane e gli assegna fino a 450.000 euro l'anno per le spese di funzionamento.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-12",
@@ -55348,7 +55463,12 @@
      "data": "2026-05-27",
      "intestazione": "Legge regionale 27 maggio 2026, n. 12",
      "oggetto": "Bilancio di previsione finanziario per il triennio 2026-2028 dell’Agenzia di Promozione Territoriale (APT)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il bilancio 2026-2028 dell'Agenzia di Promozione Territoriale (APT), che si occupa di promozione turistica, e le assegna fino a 2,6 milioni di euro l'anno per le spese di funzionamento.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-11",
@@ -55356,7 +55476,12 @@
      "data": "2026-05-22",
      "intestazione": "Legge regionale 22 maggio 2026, n. 11",
      "oggetto": "Autorizzazione alla rinegoziazione dei mutui in essere con Cassa Depositi e Prestiti S.p.A., ai sensi della Lettera-Circolare CDP del 29 aprile 2026",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Autorizza la Regione a rinegoziare i mutui con Cassa Depositi e Prestiti: fino a fine 2027 paga quote di capitale molto ridotte (0,25% del debito residuo), liberando risorse per interventi sul territorio di fronte all'aumento dei costi energetici. La durata complessiva dei mutui non cambia.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-10",
@@ -55364,7 +55489,12 @@
      "data": "2026-05-06",
      "intestazione": "Legge regionale 6 maggio 2026, n. 10",
      "oggetto": "Bilancio di previsione finanziario per il triennio 2026-2028 (1)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il bilancio di previsione della Regione per il 2026-2028: nel 2026 circa 4,9 miliardi di euro di entrate e altrettante spese di competenza. Fissa anche fondi di riserva, fondi speciali e l'uso delle quote accantonate e vincolate. È l'atto che permette alla Regione di incassare e spendere.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-9",
@@ -55372,7 +55502,12 @@
      "data": "2026-05-06",
      "intestazione": "Legge regionale 6 maggio 2026, n. 9",
      "oggetto": "Legge di stabilità regionale 2026 (1)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Legge di stabilità 2026: fissa per il 2026-2028 i fondi per le leggi regionali di spesa e per i programmi cofinanziati dall'Unione europea. Autorizza la Regione a sottoscrivere un aumento di capitale di 8 milioni di euro di Acquedotto Lucano, per sostenere gli investimenti del PNRR sul servizio idrico.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-8",
@@ -55380,7 +55515,12 @@
      "data": "2026-05-06",
      "intestazione": "Legge regionale 6 maggio 2026, n. 8",
      "oggetto": "Rendiconto generale della Regione Basilicata per l'esercizio finanziario 2024",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Approva il rendiconto 2024 della Regione, cioè i conti definitivi dell'anno. Il risultato di amministrazione a fine 2024 è di circa 621 milioni di euro, quasi tutto accantonato o vincolato a usi già stabiliti, con un piccolo disavanzo di circa 239.000 euro. È un atto contabile obbligatorio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-7",
@@ -55388,7 +55528,12 @@
      "data": "2026-04-28",
      "intestazione": "Legge regionale 28 aprile 2026, n. 7",
      "oggetto": "Modifica delle leggi regionali n. 47 del 1997, n. 2 del 1998, n. 28 del 2017 (1)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Ridefinisce i confini del Parco naturale di Gallipoli Cognato - Piccole Dolomiti Lucane (comuni di Castelmezzano, Pietrapertosa, Accettura, Calciano, Oliveto Lucano e Cirigliano) e cambia il modo di nominare il presidente dell'Ente Parco, scelto dal Consiglio regionale tra cinque nomi indicati dalla Comunità del parco. Modifica anche altre due leggi regionali.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-6",
@@ -55396,7 +55541,12 @@
      "data": "2026-03-24",
      "intestazione": "Legge regionale 24 marzo 2026, n. 6",
      "oggetto": "Modifiche all’articolo 22 della L.R. 5 aprile 2024, n. 14 (Collegato alla legge di stabilità regionale 2024)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Piccola modifica all'articolo 22 del collegato alla legge di stabilità 2024: elimina il riferimento alle strutture nei territori meno serviti e abroga un comma. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-5",
@@ -55404,7 +55554,12 @@
      "data": "2026-03-24",
      "intestazione": "Legge regionale 24 marzo 2026, n. 5",
      "oggetto": "Norme di sostegno e promozione degli Enti del Terzo Settore lucano",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Legge quadro sul Terzo settore lucano: riconosce il ruolo di associazioni e volontariato, istituisce una Consulta regionale del Terzo settore, un registro digitale dell'amministrazione condivisa e regole per la co-programmazione e la co-progettazione dei servizi tra enti pubblici e Terzo settore, con misure di sostegno al volontariato.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-4",
@@ -55412,7 +55567,12 @@
      "data": "2026-03-24",
      "intestazione": "Legge regionale 24 marzo 2026, n. 4",
      "oggetto": "Modifica all’articolo 8 della legge regionale 20 marzo 2020, n. 12 (Collegato alla legge di stabilità regionale 2020) come sostituito dall’articolo 2 della legge regionale 16 giugno 2021 n. 24 (Disposizioni urgenti in materia di settore turistico e di concessione demaniali marittime)",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Proroga fino al 31 dicembre 2026 alcune misure urgenti del 2020-2021 per il turismo e le concessioni demaniali marittime.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-3",
@@ -55420,7 +55580,12 @@
      "data": "2026-02-25",
      "intestazione": "Legge regionale 25 febbraio 2026, n. 3",
      "oggetto": "Modifiche alla legge regionale 29 ottobre 2002, n. 38 (Testo unico in materia di indennità di carica, di funzione, di rimborso spese, di missione, di fine mandato, di assegno vitalizio spettanti ai Consiglieri regionali della Regione Basilicata) e alla legge regionale 21 dicembre 2017, n. 37 (Contenimento dei costi della politica: diminuzione emolumenti Consiglieri regionali della Basilicata. Modifiche alla L.R. 29 ottobre 2002, n. 38 \"Testo unico in materia di indennità di carica, di funzione, di rimborso spese, di missione, di fine mandato, di assegno vitalizio spettanti ai Consiglieri regionali della Regione Basilicata\")",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Modifica le regole sui compensi dei consiglieri regionali: l'indennità differita per gli ex consiglieri (calcolata con il sistema contributivo, come una pensione) spetta a chi è stato eletto dalla XII legislatura in poi, invece che dalla X. Abroga anche un articolo della legge del 2017 sul contenimento dei costi della politica.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-2",
@@ -55428,7 +55593,12 @@
      "data": "2026-01-13",
      "intestazione": "Legge regionale 13 gennaio 2026, n. 2",
      "oggetto": "Disposizioni in materia di sperimentazioni gestionali in sanità",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Consente alle aziende sanitarie lucane (ASP, ASM, Ospedale San Carlo e CROB di Rionero) di avviare sperimentazioni gestionali insieme a soggetti privati qualificati o del Terzo settore, escluse le prestazioni essenziali, per offrire servizi sanitari di eccellenza in modo più efficiente. I progetti devono essere autorizzati dalla Regione e coerenti con la programmazione sanitaria.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2026-1",
@@ -55436,7 +55606,12 @@
      "data": "2026-01-13",
      "intestazione": "Legge regionale 13 gennaio 2026, n. 1",
      "oggetto": "Istituzione del Centro regionale di monitoraggio sugli appalti pubblici",
-     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi"
+     "url": "https://atticonsiglio.consiglio.basilicata.it/AD_Elenco_Leggi",
+     "riassunto": {
+      "testo": "Istituisce il Centro regionale di monitoraggio sugli appalti pubblici, che controlla le gare della Regione, delle aziende sanitarie e degli enti regionali, soprattutto quelle con molta manodopera. Serve a garantire la qualità degli affidamenti, la sicurezza del lavoro e la tutela dei lavoratori quando un appalto passa a una nuova ditta. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-20"
+     }
     },
     {
      "id": "2025-57",
