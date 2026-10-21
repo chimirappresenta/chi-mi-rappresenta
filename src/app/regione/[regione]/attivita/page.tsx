@@ -40,7 +40,12 @@ export default async function AttivitaPage({ params }: PageProps<"/regione/[regi
       <IntestazioneRegione
         regione={cr.slug}
         titolo="Cosa fanno i consiglieri"
-        intro={`Tutti gli atti presentati in Consiglio regionale dall'inizio della legislatura (${dataLunga(consiglio.inizio)}): ${consiglio.atti.length} in totale.`}
+        intro={
+          // il sito del Consiglio del Molise pubblica solo gli atti approvati e le proposte di legge, non tutti quelli presentati
+          cr.slug === "molise"
+            ? `Gli atti di indirizzo approvati (mozioni, ordini del giorno) e le proposte di legge pubblicati dal Consiglio regionale dall'inizio della legislatura (${dataLunga(consiglio.inizio)}): ${consiglio.atti.length} in totale.`
+            : `Tutti gli atti presentati in Consiglio regionale dall'inizio della legislatura (${dataLunga(consiglio.inizio)}): ${consiglio.atti.length} in totale.`
+        }
         attiva="attivita"
         condividi={{
           path: `/regione/${cr.slug}/attivita/`,

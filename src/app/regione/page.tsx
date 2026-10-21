@@ -6,7 +6,7 @@ import { stileLivello } from "@/components/ui";
 
 export const metadata: Metadata = {
   title: "Le Regioni: presidenti, giunte e consigli regionali",
-  description: "Le 20 regioni italiane: presidente, giunta e consiglieri regionali, con i contatti ufficiali. Per la Campania anche atti e leggi del Consiglio regionale.",
+  description: "Le 20 regioni italiane: presidente, giunta e consiglieri regionali, con i contatti ufficiali. Per le regioni del Sud anche atti e leggi del Consiglio regionale.",
 };
 
 export default function RegioniPage() {
@@ -69,7 +69,7 @@ export default function RegioniPage() {
       </ul>
       <p className="mt-8 max-w-3xl text-base text-ink-3">
         Presidenti, giunte e consiglieri vengono dall&apos;anagrafe degli amministratori regionali del Ministero dell&apos;Interno, che dopo
-        un&apos;elezione recente può essere incompleta. Per la Campania ci sono anche atti e leggi del Consiglio regionale: è il modello
+        un&apos;elezione recente può essere incompleta. Per le sei regioni del Sud ci sono anche atti e leggi del Consiglio regionale: è il modello
         che porteremo nelle altre regioni (vedi i{" "}
         <Link href="/consigli-in-chiaro/" className="text-accent underline">
           Consigli regionali in chiaro

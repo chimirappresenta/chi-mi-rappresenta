@@ -76,11 +76,12 @@ export default function FontiPage() {
               abbiniamo i comuni con il codice catastale, che non cambia.
             </li>
             <li>
-              <strong>Consiglieri regionali della Campania:</strong> la circoscrizione di
-              elezione non è pubblicata dal Consiglio regionale in formato
-              aperto. L&apos;abbiamo ricavata dai risultati delle regionali 2025
-              e verificata a mano. Per i consiglieri subentrati dopo le elezioni
-              è segnata come &quot;da verificare&quot;.
+              <strong>Circoscrizione dei consiglieri regionali (regioni in chiaro):</strong>
+              quando il Consiglio non la pubblica, l&apos;abbiamo ricavata dai
+              risultati delle elezioni regionali (Campania) o dalle schede di
+              Wikipedia (Puglia, Basilicata), verificandola a mano. Per i
+              consiglieri subentrati dopo le elezioni è segnata come &quot;da
+              verificare&quot;. In Molise la circoscrizione è unica.
             </li>
             <li>
               <strong>Senato:</strong> gli open data indicano la regione di
@@ -91,8 +92,12 @@ export default function FontiPage() {
               Monza). Le email vengono dalle schede ufficiali del Senato.
             </li>
             <li>
-              <strong>Atti del Consiglio regionale (Campania):</strong> sono quelli
-              elencati sul sito del Consiglio per la XII legislatura. Contare
+              <strong>Atti dei Consigli regionali:</strong> sono quelli elencati
+              sul sito di ogni Consiglio per la legislatura in corso. Il
+              Consiglio del Molise pubblica solo gli atti di indirizzo approvati
+              (mozioni, ordini del giorno) e le proposte di legge. Le leggi sono
+              spiegate con un riassunto scritto dall&apos;AI leggendo il testo
+              ufficiale, che resta l&apos;unico a fare fede. Contare
               gli atti di un consigliere non misura la qualità del suo lavoro.
               Gli atti &quot;che citano il tuo comune&quot; sono trovati
               cercando il nome del comune nel titolo: un atto può riguardarlo

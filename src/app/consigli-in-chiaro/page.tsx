@@ -5,10 +5,13 @@ import { Condividi } from "@/components/Condividi";
 import { stileLivello } from "@/components/ui";
 import { dellaRegione } from "@/lib/format";
 
+// "Abruzzo, Basilicata, … e Puglia": le regioni già in chiaro, in ordine alfabetico
+const nomiInChiaro = consigliInChiaro.map((c) => c.nome).sort((a, b) => a.localeCompare(b));
+const elencoInChiaro = nomiInChiaro.length > 1 ? `${nomiInChiaro.slice(0, -1).join(", ")} e ${nomiInChiaro.at(-1)}` : nomiInChiaro[0];
+
 export const metadata: Metadata = {
   title: "Consigli regionali in chiaro",
-  description:
-    "Atti dei consiglieri, leggi spiegate in parole semplici e mappa del Consiglio: la Campania è la prima regione in chiaro, le altre arriveranno una alla volta.",
+  description: `Atti dei consiglieri, leggi spiegate in parole semplici e mappa del Consiglio: ${elencoInChiaro} sono già in chiaro, le altre regioni arriveranno a gruppi.`,
 };
 
 const REPO = process.env.NEXT_PUBLIC_REPO_SEGNALAZIONI ?? "";
@@ -34,14 +37,14 @@ export default function ConsigliInChiaroPage() {
         <div>
           <h1 className="display text-4xl sm:text-5xl">Consigli regionali in chiaro</h1>
           <p className="mt-4 max-w-3xl text-lg text-ink-2">
-            Cosa fa davvero il Consiglio della tua regione? Lo raccontiamo con i dati ufficiali, in parole semplici. Siamo partiti dalla
-            Campania e aggiungeremo le altre regioni una alla volta.
+            Cosa fa davvero il Consiglio della tua regione? Lo raccontiamo con i dati ufficiali, in parole semplici. Siamo partiti dal
+            Sud: {elencoInChiaro} sono già in chiaro. Le altre regioni arriveranno a gruppi.
           </p>
         </div>
         <Condividi
           path="/consigli-in-chiaro/"
           titolo="Consigli regionali in chiaro"
-          testo="Atti dei consiglieri, leggi spiegate in parole semplici e mappa del Consiglio regionale: la Campania è la prima regione in chiaro."
+          testo={`Atti dei consiglieri, leggi spiegate in parole semplici e mappa del Consiglio regionale: ${elencoInChiaro} sono già in chiaro.`}
         />
       </header>
 
@@ -132,7 +135,7 @@ export default function ConsigliInChiaroPage() {
         <h2 className="text-xl font-semibold">Vuoi la tua regione prima delle altre?</h2>
         <p className="mt-2 max-w-3xl text-base text-ink-2">
           Diccelo: le regioni più richieste arriveranno per prime. Il progetto è aperto (licenza MIT): se sai programmare puoi anche
-          contribuire al &quot;lettore&quot; del Consiglio della tua regione, sul modello di quello della Campania.
+          contribuire al &quot;lettore&quot; del Consiglio della tua regione, sul modello di quelli già pronti.
         </p>
         {REPO && (
           <div className="mt-4 flex flex-wrap gap-3">

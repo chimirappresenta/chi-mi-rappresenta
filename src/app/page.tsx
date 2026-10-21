@@ -10,7 +10,7 @@ import { stileLivello, type LivelloId } from "@/components/ui";
 const FAQ = [
   {
     d: "È un sito dello Stato?",
-    r: "No. È un progetto civico indipendente. Usa solo dati pubblici ufficiali (Ministero dell'Interno, ISTAT, Ministero della Salute, Camera, Senato, Parlamento europeo e, per la Campania, il Consiglio regionale) e ogni dato rimanda alla sua fonte.",
+    r: "No. È un progetto civico indipendente. Usa solo dati pubblici ufficiali (Ministero dell'Interno, ISTAT, Ministero della Salute, Camera, Senato, Parlamento europeo e, per le regioni in chiaro, i Consigli regionali) e ogni dato rimanda alla sua fonte.",
   },
   {
     d: "Cosa fa e cosa non fa?",
@@ -21,12 +21,12 @@ const FAQ = [
     r: "Dai siti e dagli open data ufficiali, raccolti in automatico ogni settimana. La pagina Fonti elenca ogni fonte, la data di aggiornamento e i limiti noti.",
   },
   {
-    d: "Perché atti e leggi regionali solo per la Campania?",
-    r: "Comuni, Regioni, Parlamento ed Europa coprono tutta Italia. Il Consiglio regionale «in chiaro» (atti, leggi spiegate, mappa dei consiglieri) richiede di leggere il sito di ogni Consiglio, ognuno fatto in modo diverso: siamo partiti dalla Campania e aggiungeremo le altre regioni.",
+    d: "Perché atti e leggi regionali solo per alcune regioni?",
+    r: "Comuni, Regioni, Parlamento ed Europa coprono tutta Italia. Il Consiglio regionale «in chiaro» (atti, leggi spiegate, mappa dei consiglieri) richiede di leggere il sito di ogni Consiglio, ognuno fatto in modo diverso: siamo partiti dalle sei regioni del Sud (Abruzzo, Molise, Campania, Puglia, Basilicata e Calabria) e aggiungeremo le altre a gruppi.",
   },
   {
     d: "Come scrivo al mio consigliere regionale?",
-    r: "Cerca il tuo comune e apri la sezione Regione: trovi i consiglieri e il link al sito del Consiglio regionale con i loro contatti. Per la Campania c'è anche «Scrivi a…», che prepara una bozza di email dal tuo programma di posta. Il sito non invia e non salva nulla.",
+    r: "Cerca il tuo comune e apri la sezione Regione: trovi i consiglieri e il link al sito del Consiglio regionale con i loro contatti. Per le regioni in chiaro c'è anche «Scrivi a…», che prepara una bozza di email dal tuo programma di posta. Il sito non invia e non salva nulla.",
   },
   {
     d: "Chi c'è dietro?",
@@ -114,10 +114,10 @@ export default function Home() {
               testo: "Presidente, giunta e consiglieri delle 20 regioni.",
             },
             {
-              href: "/regione/campania/leggi/",
+              href: "/consigli-in-chiaro/",
               icona: "📜",
               titolo: "Capire cosa decide la Regione",
-              testo: "Le leggi spiegate in parole semplici (per ora in Campania).",
+              testo: "Le leggi spiegate in parole semplici (per ora nelle regioni del Sud).",
             },
             {
               href: "/chiedi-un-documento/",

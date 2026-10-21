@@ -40,7 +40,7 @@ const MENU_BASE = [
   { href: "/a-chi-rivolgersi/", label: "A chi mi rivolgo?", descrizione: "Strade, ASL, pensioni, treni: chi decide e a chi scrivere" },
   { href: "/chiedi-un-documento/", label: "Chiedi un documento", descrizione: "Contratti, spese, controlli: il diritto di sapere" },
   { href: "/regione/", label: "Regioni", descrizione: "Presidenti, giunte e consiglieri delle 20 regioni" },
-  { href: "/consigli-in-chiaro/", label: "Consigli regionali in chiaro", descrizione: "Atti, leggi e mappa del Consiglio: la Campania e le regioni in arrivo" },
+  { href: "/consigli-in-chiaro/", label: "Consigli regionali in chiaro", descrizione: "Atti, leggi e mappa del Consiglio: le regioni del Sud e le altre in arrivo" },
   { href: "/fonti/", label: "Fonti e metodo", descrizione: "Da dove vengono i dati e quanto sono aggiornati" },
 ];
 const MENU = specialeAttivo ? [MENU_BASE[0], VOCE_CARO_VITA, ...MENU_BASE.slice(1)] : MENU_BASE;

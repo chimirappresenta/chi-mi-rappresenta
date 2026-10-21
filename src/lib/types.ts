@@ -61,7 +61,7 @@ export type Comune = {
   codiceRegione: string;
   regione: string;
   regioneSlug: string;
-  /** Solo per la regione "in chiaro" (Campania): circoscrizione provinciale delle elezioni regionali. */
+  /** Solo per le regioni "in chiaro": circoscrizione delle elezioni regionali che comprende il comune. */
   circoscrizioneRegionale?: string;
   collegi: {
     cameraU: string[];
@@ -235,7 +235,7 @@ export type RegioneEssenziale = {
   codice: string;
   nome: string;
   slug: string;
-  /** true se c'è il Consiglio regionale "in chiaro" (atti, leggi, emiciclo): oggi solo la Campania. */
+  /** true se c'è il Consiglio regionale "in chiaro" (atti, leggi, emiciclo): oggi le sei regioni del Sud. */
   inChiaro: boolean;
   presidente: Persona | null;
   giunta: Persona[];
