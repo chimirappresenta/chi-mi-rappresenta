@@ -3,11 +3,31 @@
   "aggiornato": "2026-10-21",
   "chiuso": null,
   "temi": [
-    { "id": "bollette", "nome": "Carburanti, energia e bollette", "descrizione": "Prezzo del carburante, bonus gas, energia, tariffe di acqua e rifiuti." },
-    { "id": "trasporti", "nome": "Trasporti e pendolari", "descrizione": "Autobus, treni, biglietti, pedaggi, collegamenti per studenti e lavoratori." },
-    { "id": "agricoltura", "nome": "Agricoltura, allevamento e pesca", "descrizione": "Crisi del settore, prezzi pagati ai produttori, ristori, acqua per l'irrigazione." },
-    { "id": "casa", "nome": "Casa, affitti e studenti", "descrizione": "Case popolari, emergenza abitativa, affitti, borse di studio e residenze universitarie." },
-    { "id": "redditi", "nome": "Redditi, tasse e debiti", "descrizione": "Sostegno al reddito, povertà, usura e sovraindebitamento, tasse regionali." }
+    {
+      "id": "bollette",
+      "nome": "Carburanti, energia e bollette",
+      "descrizione": "Prezzo del carburante, bonus gas, energia, tariffe di acqua e rifiuti."
+    },
+    {
+      "id": "trasporti",
+      "nome": "Trasporti e pendolari",
+      "descrizione": "Autobus, treni, biglietti, pedaggi, collegamenti per studenti e lavoratori."
+    },
+    {
+      "id": "agricoltura",
+      "nome": "Agricoltura, allevamento e pesca",
+      "descrizione": "Crisi del settore, prezzi pagati ai produttori, ristori, acqua per l'irrigazione."
+    },
+    {
+      "id": "casa",
+      "nome": "Casa, affitti e studenti",
+      "descrizione": "Case popolari, emergenza abitativa, affitti, borse di studio e residenze universitarie."
+    },
+    {
+      "id": "redditi",
+      "nome": "Redditi, tasse e debiti",
+      "descrizione": "Sostegno al reddito, povertà, usura e sovraindebitamento, tasse regionali."
+    }
   ],
   "contesto": {
     "generale": [
@@ -15,37 +35,76 @@
         "titolo": "Autotrasportatori",
         "testo": "Da metà ottobre presìdi e blocchi di camionisti in tutto il Sud contro il prezzo del gasolio, sopra i 2,2 euro al litro. In diverse zone mancano carburante ai distributori e prodotti freschi nei supermercati.",
         "fonti": [
-          { "nome": "Il Post", "url": "https://www.ilpost.it/2026/10/16/proteste-autotrasportatori-sud-italia/" },
-          { "nome": "Euronews", "url": "https://it.euronews.com/2026/10/19/autotrasportatori-in-protesta-al-sud-contro-caro-carburanti-blocchi-stradali-e-supermercat" },
-          { "nome": "Il Sole 24 Ore", "url": "https://ilsole24ore.com/art/tir-protesta-mette-sotto-pressione-filiere-sud-merci-ferme-e-scaffali-vuoti-AJyn15nB" }
+          {
+            "nome": "Il Post",
+            "url": "https://www.ilpost.it/2026/10/16/proteste-autotrasportatori-sud-italia/"
+          },
+          {
+            "nome": "Euronews",
+            "url": "https://it.euronews.com/2026/10/19/autotrasportatori-in-protesta-al-sud-contro-caro-carburanti-blocchi-stradali-e-supermercat"
+          },
+          {
+            "nome": "Il Sole 24 Ore",
+            "url": "https://ilsole24ore.com/art/tir-protesta-mette-sotto-pressione-filiere-sud-merci-ferme-e-scaffali-vuoti-AJyn15nB"
+          }
         ]
       },
       {
         "titolo": "Il Governo",
         "testo": "Il ministero dei Trasporti ha annunciato 480 milioni di euro per il settore e ha convocato le associazioni il 27 ottobre. In Sicilia il fermo è stato revocato; in Campania, Calabria e Puglia i presìdi proseguono almeno fino a quella data.",
         "fonti": [
-          { "nome": "Sky TG24", "url": "https://tg24.sky.it/cronaca/2026/10/20/sciopero-autotrasportatori-protesta-tir-sud-italia" },
-          { "nome": "Gazzetta del Sud", "url": "https://calabria.gazzettadelsud.it/articoli/cronaca/2026/10/21/proteste-dei-tir-in-campania-blocchi-avanti-fino-al-tavolo-del-27-al-90-nelle-altre-regioni-del-sud-si-andra-avanti-con-i-blocchi-8d250365-2def-4dfe-abfe-55415751bce2/" },
-          { "nome": "L'Espresso", "url": "https://lespresso.it/c/attualita/2026/10/20/autotrasportatori-blocco-sciopero-presidio-caro-carburante-campania-calabria-molise-basilicata-puglia-siciili-supermercati/65389" }
+          {
+            "nome": "Sky TG24",
+            "url": "https://tg24.sky.it/cronaca/2026/10/20/sciopero-autotrasportatori-protesta-tir-sud-italia"
+          },
+          {
+            "nome": "Gazzetta del Sud",
+            "url": "https://calabria.gazzettadelsud.it/articoli/cronaca/2026/10/21/proteste-dei-tir-in-campania-blocchi-avanti-fino-al-tavolo-del-27-al-90-nelle-altre-regioni-del-sud-si-andra-avanti-con-i-blocchi-8d250365-2def-4dfe-abfe-55415751bce2/"
+          },
+          {
+            "nome": "L'Espresso",
+            "url": "https://lespresso.it/c/attualita/2026/10/20/autotrasportatori-blocco-sciopero-presidio-caro-carburante-campania-calabria-molise-basilicata-puglia-siciili-supermercati/65389"
+          }
         ]
       },
       {
         "titolo": "Agricoltori e pescatori",
         "testo": "Presìdi con i trattori in diverse regioni per il costo del gasolio e i prezzi bassi pagati ai produttori. Per il 22 ottobre è annunciato un fermo nazionale dei pescherecci.",
         "fonti": [
-          { "nome": "Avvenire", "url": "https://avvenire.it/attualita/il-gasolio-costa-troppo-camion-e-pescherecci-scelgono-di-fermarsi_114282" },
-          { "nome": "Il Post", "url": "https://www.ilpost.it/2026/10/20/pescatori-manfredonia-protesta-sciopero/" },
-          { "nome": "L'Indipendente", "url": "https://www.lindipendente.online/2026/10/14/autostrade-bloccate-e-presidi-al-sud-la-protesta-di-camion-e-trattori-si-allarga/" }
+          {
+            "nome": "Avvenire",
+            "url": "https://avvenire.it/attualita/il-gasolio-costa-troppo-camion-e-pescherecci-scelgono-di-fermarsi_114282"
+          },
+          {
+            "nome": "Il Post",
+            "url": "https://www.ilpost.it/2026/10/20/pescatori-manfredonia-protesta-sciopero/"
+          },
+          {
+            "nome": "L'Indipendente",
+            "url": "https://www.lindipendente.online/2026/10/14/autostrade-bloccate-e-presidi-al-sud-la-protesta-di-camion-e-trattori-si-allarga/"
+          }
         ]
       },
       {
         "titolo": "Studenti",
         "testo": "Universitari in tenda davanti agli atenei e a Montecitorio contro il caro affitti, scuole occupate in diverse città. Per il 30 ottobre è indetto uno sciopero generale dei sindacati di base.",
         "fonti": [
-          { "nome": "Skuola.net", "url": "https://www.skuola.net/news/universitari/caro-affitti-universitari-tenda-protesta-montecitorio-italia.html" },
-          { "nome": "Orizzonte Scuola", "url": "https://www.orizzontescuola.it/gli-studenti-universitari-piantano-le-tende-contro-caro-vita-e-alloggi-alle-stelle-udu-questo-paese-ci-costa-troppo/" },
-          { "nome": "Milano Post", "url": "https://www.milanopost.info/2026/10/19/proteste-e-scioperi-contro-il-caro-vita-le-date-delle-nuove-mobilitazioni-da-ottobre-a-novembre/" },
-          { "nome": "Teleclubitalia", "url": "https://www.teleclubitalia.it/napoli-proteste-studentesche-sciopero-nazionale-il-30-ottobre/" }
+          {
+            "nome": "Skuola.net",
+            "url": "https://www.skuola.net/news/universitari/caro-affitti-universitari-tenda-protesta-montecitorio-italia.html"
+          },
+          {
+            "nome": "Orizzonte Scuola",
+            "url": "https://www.orizzontescuola.it/gli-studenti-universitari-piantano-le-tende-contro-caro-vita-e-alloggi-alle-stelle-udu-questo-paese-ci-costa-troppo/"
+          },
+          {
+            "nome": "Milano Post",
+            "url": "https://www.milanopost.info/2026/10/19/proteste-e-scioperi-contro-il-caro-vita-le-date-delle-nuove-mobilitazioni-da-ottobre-a-novembre/"
+          },
+          {
+            "nome": "Teleclubitalia",
+            "url": "https://www.teleclubitalia.it/napoli-proteste-studentesche-sciopero-nazionale-il-30-ottobre/"
+          }
         ]
       }
     ],
@@ -56,28 +115,58 @@
             "titolo": "Caselli e porto",
             "testo": "Presìdi di camionisti ai caselli di Nola, Caianello, Caserta Sud, Avellino Est e Mercato San Severino e vicino agli interporti di Nola e Maddaloni-Marcianise, con chiusure temporanee del nodo tra A1 e A30. Il 19 ottobre è stato bloccato anche il varco Bausan del porto di Napoli.",
             "fonti": [
-              { "nome": "Il Mattino", "url": "https://www.ilmattino.it/napoli/cronaca/protesta_autotrasportatori_campania_diretta_cosa_sta_succedendo_quali_sono_le_strade_chiuse_svincoli-9839041.html" },
-              { "nome": "Napolitan", "url": "https://napolitan.it/2026/10/20/166536/protesta-autotrasportatori-campania-mappa-blocchi-20-ottobre-2026/" },
-              { "nome": "Metropolis", "url": "https://www.metropolisweb.it/2026/10/19/caro-carburanti-bloccato-dai-tir-il-varco-per-laccesso-al-porto-di-napoli/" },
-              { "nome": "Leggo", "url": "https://www.leggo.it/italia/cronache/19_ottobre_2026_protesta_tir_allarga_blocchi_autostrada_porto_appia_supermercati_vuoti_oggi-9834691.html" }
+              {
+                "nome": "Il Mattino",
+                "url": "https://www.ilmattino.it/napoli/cronaca/protesta_autotrasportatori_campania_diretta_cosa_sta_succedendo_quali_sono_le_strade_chiuse_svincoli-9839041.html"
+              },
+              {
+                "nome": "Napolitan",
+                "url": "https://napolitan.it/2026/10/20/166536/protesta-autotrasportatori-campania-mappa-blocchi-20-ottobre-2026/"
+              },
+              {
+                "nome": "Metropolis",
+                "url": "https://www.metropolisweb.it/2026/10/19/caro-carburanti-bloccato-dai-tir-il-varco-per-laccesso-al-porto-di-napoli/"
+              },
+              {
+                "nome": "Leggo",
+                "url": "https://www.leggo.it/italia/cronache/19_ottobre_2026_protesta_tir_allarga_blocchi_autostrada_porto_appia_supermercati_vuoti_oggi-9834691.html"
+              }
             ]
           },
           {
             "titolo": "Effetti e durata",
             "testo": "Scaffali vuoti nei reparti freschi e code ai distributori. I camionisti campani annunciano i presìdi almeno fino al 27 ottobre.",
             "fonti": [
-              { "nome": "ANSA", "url": "https://www.ansa.it/campania/notizie/2026/10/20/autotrasportatore-campania-blocchi-avanti-fino-al-27-ottobre_12c80c46-8b35-419e-85be-cb28f78cd209.html" },
-              { "nome": "LaPresse", "url": "https://www.lapresse.it/economia/2026/10/21/autotrasportatori-ancora-blocchi-al-sud-a-napoli-scaffali-vuoti-e-code-ai-benzinai-conftrasporto-proteste-non-piu-gestibili-la-diretta/" },
-              { "nome": "Fanpage", "url": "https://www.fanpage.it/napoli/supermercati-con-le-corsie-vuote-il-blocco-dei-camionisti-paralizza-la-campania-presidio-anche-al-porto-di-napoli/" }
+              {
+                "nome": "ANSA",
+                "url": "https://www.ansa.it/campania/notizie/2026/10/20/autotrasportatore-campania-blocchi-avanti-fino-al-27-ottobre_12c80c46-8b35-419e-85be-cb28f78cd209.html"
+              },
+              {
+                "nome": "LaPresse",
+                "url": "https://www.lapresse.it/economia/2026/10/21/autotrasportatori-ancora-blocchi-al-sud-a-napoli-scaffali-vuoti-e-code-ai-benzinai-conftrasporto-proteste-non-piu-gestibili-la-diretta/"
+              },
+              {
+                "nome": "Fanpage",
+                "url": "https://www.fanpage.it/napoli/supermercati-con-le-corsie-vuote-il-blocco-dei-camionisti-paralizza-la-campania-presidio-anche-al-porto-di-napoli/"
+              }
             ]
           },
           {
             "titolo": "Studenti",
             "testo": "A Napoli e in provincia oltre 25 scuole occupate e, dal 19 ottobre, una sede dell'Università L'Orientale: tra i motivi indicati, il caro vita e l'emergenza abitativa.",
             "fonti": [
-              { "nome": "Il Mattino", "url": "https://www.ilmattino.it/napoli/cronaca/gli_istituti_occupati_25_proteste_provincia_scuola_napli-9837558.html" },
-              { "nome": "Metropolis", "url": "https://www.metropolisweb.it/2026/10/19/protesta-degli-studenti-occupata-una-delle-sedi-dellorientale/" },
-              { "nome": "NapoliToday", "url": "https://www.napolitoday.it/cronaca/mappa-rivolta-scioperi-proteste-campania-ottobre-2026.html" }
+              {
+                "nome": "Il Mattino",
+                "url": "https://www.ilmattino.it/napoli/cronaca/gli_istituti_occupati_25_proteste_provincia_scuola_napli-9837558.html"
+              },
+              {
+                "nome": "Metropolis",
+                "url": "https://www.metropolisweb.it/2026/10/19/protesta-degli-studenti-occupata-una-delle-sedi-dellorientale/"
+              },
+              {
+                "nome": "NapoliToday",
+                "url": "https://www.napolitoday.it/cronaca/mappa-rivolta-scioperi-proteste-campania-ottobre-2026.html"
+              }
             ]
           }
         ],
@@ -86,18 +175,36 @@
             "titolo": "Fondo per il gasolio agricolo (annunciato)",
             "testo": "Il 21 ottobre il presidente Fico ha annunciato un fondo di circa 13 milioni di euro per il caro gasolio in agricoltura, con fondi europei FESR che devono ancora essere autorizzati dall'Unione europea.",
             "fonti": [
-              { "nome": "Sky TG24", "url": "https://tg24.sky.it/cronaca/2026/10/21/sciopero-autotrasportatori-proteste-italia-diretta" },
-              { "nome": "LaPresse", "url": "https://www.lapresse.it/economia/2026/10/21/autotrasportatori-ancora-blocchi-al-sud-a-napoli-scaffali-vuoti-e-code-ai-benzinai-conftrasporto-proteste-non-piu-gestibili-la-diretta/" },
-              { "nome": "Il Mattino", "url": "https://www.ilmattino.it/napoli/cronaca/protesta_autotrasportatori_campania_diretta_cosa_sta_succedendo_quali_sono_le_strade_chiuse_svincoli-9839041.html" }
+              {
+                "nome": "Sky TG24",
+                "url": "https://tg24.sky.it/cronaca/2026/10/21/sciopero-autotrasportatori-proteste-italia-diretta"
+              },
+              {
+                "nome": "LaPresse",
+                "url": "https://www.lapresse.it/economia/2026/10/21/autotrasportatori-ancora-blocchi-al-sud-a-napoli-scaffali-vuoti-e-code-ai-benzinai-conftrasporto-proteste-non-piu-gestibili-la-diretta/"
+              },
+              {
+                "nome": "Il Mattino",
+                "url": "https://www.ilmattino.it/napoli/cronaca/protesta_autotrasportatori_campania_diretta_cosa_sta_succedendo_quali_sono_le_strade_chiuse_svincoli-9839041.html"
+              }
             ]
           },
           {
             "titolo": "Richieste alla Regione",
             "testo": "Il gruppo PD in Consiglio ha presentato una mozione per un fondo regionale di emergenza di almeno 20 milioni per autotrasporto e agricoltura. Già a settembre i sindacati dei trasporti avevano chiesto alla Regione misure straordinarie per le imprese di trasporto.",
             "fonti": [
-              { "nome": "NTR24", "url": "https://www.ntr24.tv/2026/10/20/caro-gasolio-mozione-del-gruppo-pd-subito-un-fondo-di-emergenza-regionale/" },
-              { "nome": "NapoliToday", "url": "https://www.napolitoday.it/cronaca/gasolio-finanziamento-regione.html" },
-              { "nome": "FIT CISL Campania", "url": "https://campania.fitcisl.org/wp-content/uploads/2026/09/1252-CARO-CARBURANTI-NON-POSSONO-ESSERE-SEMPRE-I-LAVORATORI-I-CITTADINI-E-LE-AZIENDE-A-PAGARE-IL-CONTO-DELLE-CRISI-INTERNAZIONALI-.pdf" }
+              {
+                "nome": "NTR24",
+                "url": "https://www.ntr24.tv/2026/10/20/caro-gasolio-mozione-del-gruppo-pd-subito-un-fondo-di-emergenza-regionale/"
+              },
+              {
+                "nome": "NapoliToday",
+                "url": "https://www.napolitoday.it/cronaca/gasolio-finanziamento-regione.html"
+              },
+              {
+                "nome": "FIT CISL Campania",
+                "url": "https://campania.fitcisl.org/wp-content/uploads/2026/09/1252-CARO-CARBURANTI-NON-POSSONO-ESSERE-SEMPRE-I-LAVORATORI-I-CITTADINI-E-LE-AZIENDE-A-PAGARE-IL-CONTO-DELLE-CRISI-INTERNAZIONALI-.pdf"
+              }
             ]
           }
         ]
@@ -108,25 +215,46 @@
             "titolo": "Fermo degli autotrasportatori",
             "testo": "Dal 16 ottobre presìdi sulla statale 18 a Fuscaldo, sulla 534 a Sibari e sulla 106 a Cassano allo Ionio; il blocco sull'A2 a Falerna è stato tolto. Le associazioni annunciano di proseguire almeno fino al 27 ottobre.",
             "fonti": [
-              { "nome": "Gazzetta del Sud", "url": "https://cosenza.gazzettadelsud.it/articoli/cronaca/2026/10/19/protesta-dei-tir-attivato-un-nuovo-presidio-a-fuscaldo-pure-gli-studenti-di-scalea-in-piazza-4dacd234-5a47-482c-92f8-2011ef39eb32/" },
-              { "nome": "CalabriaNews24", "url": "https://www.calabrianews24.com/news/229551017478/protesta-tir-calabria-presidio-a-fuscaldo-e-a2-riaperta-a-falerna" },
-              { "nome": "Sky TG24", "url": "https://tg24.sky.it/cronaca/2026/10/20/sciopero-autotrasportatori-protesta-tir-sud-italia" }
+              {
+                "nome": "Gazzetta del Sud",
+                "url": "https://cosenza.gazzettadelsud.it/articoli/cronaca/2026/10/19/protesta-dei-tir-attivato-un-nuovo-presidio-a-fuscaldo-pure-gli-studenti-di-scalea-in-piazza-4dacd234-5a47-482c-92f8-2011ef39eb32/"
+              },
+              {
+                "nome": "CalabriaNews24",
+                "url": "https://www.calabrianews24.com/news/229551017478/protesta-tir-calabria-presidio-a-fuscaldo-e-a2-riaperta-a-falerna"
+              },
+              {
+                "nome": "Sky TG24",
+                "url": "https://tg24.sky.it/cronaca/2026/10/20/sciopero-autotrasportatori-protesta-tir-sud-italia"
+              }
             ]
           },
           {
             "titolo": "Pescatori e agricoltori",
             "testo": "Il 14 ottobre a Corigliano-Rossano, sulla statale 106, pescatori, agricoltori e allevatori in presidio insieme contro il caro gasolio.",
             "fonti": [
-              { "nome": "InformaCalabria", "url": "https://www.informacalabria.it/caro-vita-protesta-calabria-pescatori-agricoltori/" },
-              { "nome": "Soldionline", "url": "https://www.soldionline.it/senza-categoria/caro-gasolio-in-calabria-la-protesta-si-allarga-in-piazza-anche-i-pescatori" }
+              {
+                "nome": "InformaCalabria",
+                "url": "https://www.informacalabria.it/caro-vita-protesta-calabria-pescatori-agricoltori/"
+              },
+              {
+                "nome": "Soldionline",
+                "url": "https://www.soldionline.it/senza-categoria/caro-gasolio-in-calabria-la-protesta-si-allarga-in-piazza-anche-i-pescatori"
+              }
             ]
           },
           {
             "titolo": "Studenti",
             "testo": "Studenti in piazza accanto ai presìdi dei camionisti: a Cosenza contro il caro affitti, a Scalea con le scuole superiori.",
             "fonti": [
-              { "nome": "ANSA", "url": "https://ansa.it/calabria/notizie/2026/10/19/protesta-tir-ai-presidi-di-cosenza-anche-gli-studenti-contro-il-caro-affitti_6e0760be-df9c-4714-a2af-de3c90ed9f69.html" },
-              { "nome": "Gazzetta del Sud", "url": "https://cosenza.gazzettadelsud.it/articoli/cronaca/2026/10/19/protesta-dei-tir-attivato-un-nuovo-presidio-a-fuscaldo-pure-gli-studenti-di-scalea-in-piazza-4dacd234-5a47-482c-92f8-2011ef39eb32/" }
+              {
+                "nome": "ANSA",
+                "url": "https://ansa.it/calabria/notizie/2026/10/19/protesta-tir-ai-presidi-di-cosenza-anche-gli-studenti-contro-il-caro-affitti_6e0760be-df9c-4714-a2af-de3c90ed9f69.html"
+              },
+              {
+                "nome": "Gazzetta del Sud",
+                "url": "https://cosenza.gazzettadelsud.it/articoli/cronaca/2026/10/19/protesta-dei-tir-attivato-un-nuovo-presidio-a-fuscaldo-pure-gli-studenti-di-scalea-in-piazza-4dacd234-5a47-482c-92f8-2011ef39eb32/"
+              }
             ]
           }
         ],
@@ -135,19 +263,40 @@
             "titolo": "15 milioni contro il caro carburante",
             "testo": "La Regione ha stanziato 15 milioni: 10 per l'autotrasporto e 5 per l'agricoltura, con una legge regionale approvata a inizio ottobre e una delibera di Giunta del 14 ottobre. I criteri per distribuirli sono ancora da definire.",
             "fonti": [
-              { "nome": "Uomini e Trasporti", "url": "https://www.uominietrasporti.it/professione/ufficio-traffico/caro-gasolio-la-calabria-protesta-15-milioni-dalla-regione-domani-trattori-e-camion-alla-cittadella/" },
-              { "nome": "LaC News24", "url": "https://www.lacnews24.it/economia-e-lavoro/caro-carburanti-in-calabria-15-milioni-per-agricoltori-e-autotrasportatori-mercoledi-si-decide-come-distribuirli-lbq517a0" },
-              { "nome": "InformaCalabria", "url": "https://www.informacalabria.it/carburanti-dalla-regione-calabria-15-milioni-contro-i-rincari-occhiuto-facciamo-il-massimo/" },
-              { "nome": "Calabria Inchieste", "url": "https://www.calabriainchieste.it/2026/10/14/caro-gasolio-la-calabria-mette-sul-piatto-15-milioni-ossigeno-immediato-per-agricoltori-e-autotrasportatori/" }
+              {
+                "nome": "Uomini e Trasporti",
+                "url": "https://www.uominietrasporti.it/professione/ufficio-traffico/caro-gasolio-la-calabria-protesta-15-milioni-dalla-regione-domani-trattori-e-camion-alla-cittadella/"
+              },
+              {
+                "nome": "LaC News24",
+                "url": "https://www.lacnews24.it/economia-e-lavoro/caro-carburanti-in-calabria-15-milioni-per-agricoltori-e-autotrasportatori-mercoledi-si-decide-come-distribuirli-lbq517a0"
+              },
+              {
+                "nome": "InformaCalabria",
+                "url": "https://www.informacalabria.it/carburanti-dalla-regione-calabria-15-milioni-contro-i-rincari-occhiuto-facciamo-il-massimo/"
+              },
+              {
+                "nome": "Calabria Inchieste",
+                "url": "https://www.calabriainchieste.it/2026/10/14/caro-gasolio-la-calabria-mette-sul-piatto-15-milioni-ossigeno-immediato-per-agricoltori-e-autotrasportatori/"
+              }
             ]
           },
           {
             "titolo": "Incontri con chi protesta",
             "testo": "Le associazioni dei camionisti hanno presentato le loro richieste alla Regione e hanno confermato il fermo dopo l'incontro in Cittadella. Il 19 ottobre il presidente Occhiuto è andato al presidio di Falerna.",
             "fonti": [
-              { "nome": "ItaliaOggi", "url": "https://www.italiaoggi.it/economia-e-politica/fedralog-otto-richieste-alla-regione-calabria-per-scongiurare-il-fermo-lvr1xfde" },
-              { "nome": "Il Quotidiano del Sud", "url": "https://www.quotidianodelsud.it/calabria/cosenza/cronache/la-protesta/2026/10/20/caro-carburanti-occhiuto-al-presidio-dei-tir-a-falerna-in-calabria-si-protesta-con-dignita" },
-              { "nome": "Gazzetta del Sud", "url": "https://catanzaro.gazzettadelsud.it/articoli/cronaca/2026/10/20/al-fianco-di-chi-lavora-e-non-distrugge-occhiuto-incontra-agricoltori-e-autotrasportatori-49bb75d0-6e9c-43d6-8e4f-61c9cc889d06/" }
+              {
+                "nome": "ItaliaOggi",
+                "url": "https://www.italiaoggi.it/economia-e-politica/fedralog-otto-richieste-alla-regione-calabria-per-scongiurare-il-fermo-lvr1xfde"
+              },
+              {
+                "nome": "Il Quotidiano del Sud",
+                "url": "https://www.quotidianodelsud.it/calabria/cosenza/cronache/la-protesta/2026/10/20/caro-carburanti-occhiuto-al-presidio-dei-tir-a-falerna-in-calabria-si-protesta-con-dignita"
+              },
+              {
+                "nome": "Gazzetta del Sud",
+                "url": "https://catanzaro.gazzettadelsud.it/articoli/cronaca/2026/10/20/al-fianco-di-chi-lavora-e-non-distrugge-occhiuto-incontra-agricoltori-e-autotrasportatori-49bb75d0-6e9c-43d6-8e4f-61c9cc889d06/"
+              }
             ]
           }
         ]
@@ -158,19 +307,40 @@
             "titolo": "Dove è partita la protesta",
             "testo": "La protesta è partita dal Foggiano: dall'11-12 ottobre presidio di camionisti e agricoltori al casello A14 di Poggio Imperiale, poi presìdi a Brindisi, Lucera, Andria e Bari. A Taranto i cancelli della raffineria Eni sono stati bloccati per giorni, con distributori a secco.",
             "fonti": [
-              { "nome": "FoggiaToday", "url": "https://www.foggiatoday.it/economia/protesta-casello-a-14-poggio-imperiale-olivicoltori-autotrasportatori.html" },
-              { "nome": "Trans.info", "url": "https://trans.info/caro-gasolio-la-protesta-dei-camionisti-paralizza-il-sud-508825" },
-              { "nome": "L'Espresso", "url": "https://lespresso.it/c/attualita/2026/10/16/puglia-proteste-caro-carburante-aumenti-costi-autotrasportatori-agricoltori-olivicoltori-presidi-autostrade/65358" },
-              { "nome": "L'Indipendente", "url": "https://www.lindipendente.online/2026/10/14/autostrade-bloccate-e-presidi-al-sud-la-protesta-di-camion-e-trattori-si-allarga/" }
+              {
+                "nome": "FoggiaToday",
+                "url": "https://www.foggiatoday.it/economia/protesta-casello-a-14-poggio-imperiale-olivicoltori-autotrasportatori.html"
+              },
+              {
+                "nome": "Trans.info",
+                "url": "https://trans.info/caro-gasolio-la-protesta-dei-camionisti-paralizza-il-sud-508825"
+              },
+              {
+                "nome": "L'Espresso",
+                "url": "https://lespresso.it/c/attualita/2026/10/16/puglia-proteste-caro-carburante-aumenti-costi-autotrasportatori-agricoltori-olivicoltori-presidi-autostrade/65358"
+              },
+              {
+                "nome": "L'Indipendente",
+                "url": "https://www.lindipendente.online/2026/10/14/autostrade-bloccate-e-presidi-al-sud-la-protesta-di-camion-e-trattori-si-allarga/"
+              }
             ]
           },
           {
             "titolo": "Agricoltori e olivicoltori",
             "testo": "Il 14 ottobre migliaia di agricoltori in piazza a Bari con Coldiretti, che chiede lo stato di crisi del settore. Gli olivicoltori protestano per il forte calo del prezzo dell'olio all'ingrosso.",
             "fonti": [
-              { "nome": "RTM", "url": "https://www.rtmweb.it/agricoltura-pugliese-in-crisi-5mila-agricoltori-in-piazza-a-bari-la-regione-annuncia-30-milioni-di-euro-per-carburante-e-filiere/" },
-              { "nome": "Terra e Vita", "url": "https://terraevita.edagricole.it/attualita/puglia-in-arrivo-30-milioni-per-lagricoltura/" },
-              { "nome": "Il Post", "url": "https://www.ilpost.it/2026/10/15/olio-olivicoltori-puglia-proteste-bari/" }
+              {
+                "nome": "RTM",
+                "url": "https://www.rtmweb.it/agricoltura-pugliese-in-crisi-5mila-agricoltori-in-piazza-a-bari-la-regione-annuncia-30-milioni-di-euro-per-carburante-e-filiere/"
+              },
+              {
+                "nome": "Terra e Vita",
+                "url": "https://terraevita.edagricole.it/attualita/puglia-in-arrivo-30-milioni-per-lagricoltura/"
+              },
+              {
+                "nome": "Il Post",
+                "url": "https://www.ilpost.it/2026/10/15/olio-olivicoltori-puglia-proteste-bari/"
+              }
             ]
           }
         ],
@@ -179,9 +349,18 @@
             "titolo": "30 milioni per l'agricoltura (annunciati)",
             "testo": "Il 14 ottobre la Regione ha annunciato 30 milioni per l'agricoltura: 10 per il gasolio agricolo e 20 per le filiere. Criteri e tempi non sono ancora noti.",
             "fonti": [
-              { "nome": "Coldiretti Puglia", "url": "https://puglia.coldiretti.it/news/agricoltura-dalla-regione-30-milioni-durante-la-mobilitazione-dei-5000-agricoltori-10-milioni-per-il-carburante-e-20-milioni-per-le-filiere/" },
-              { "nome": "Terra e Vita", "url": "https://terraevita.edagricole.it/attualita/puglia-in-arrivo-30-milioni-per-lagricoltura/" },
-              { "nome": "Il Post", "url": "https://www.ilpost.it/2026/10/15/olio-olivicoltori-puglia-proteste-bari/" }
+              {
+                "nome": "Coldiretti Puglia",
+                "url": "https://puglia.coldiretti.it/news/agricoltura-dalla-regione-30-milioni-durante-la-mobilitazione-dei-5000-agricoltori-10-milioni-per-il-carburante-e-20-milioni-per-le-filiere/"
+              },
+              {
+                "nome": "Terra e Vita",
+                "url": "https://terraevita.edagricole.it/attualita/puglia-in-arrivo-30-milioni-per-lagricoltura/"
+              },
+              {
+                "nome": "Il Post",
+                "url": "https://www.ilpost.it/2026/10/15/olio-olivicoltori-puglia-proteste-bari/"
+              }
             ]
           }
         ]
@@ -192,10 +371,22 @@
             "titolo": "Presìdi e distributori",
             "testo": "Presìdi di camionisti agli ingressi di Potenza e nel Materano, sulle statali 106 e 653, senza blocchi completi della circolazione, e agricoltori in strada con i trattori. A metà ottobre molti distributori erano a secco a Potenza e Matera.",
             "fonti": [
-              { "nome": "Materalife", "url": "https://www.materalife.it/notizie/presidi-di-autotrasportatori-in-basilicata" },
-              { "nome": "Telenorba", "url": "https://telenorba.it/2026/10/15/allarme-carburante-anche-in-basilicata-distributori-a-secco-a-potenza-e-matera-code-e-disagi/" },
-              { "nome": "PotenzaNews", "url": "https://www.potenzanews.net/emergenza-carburanti-e-proteste-in-basilicata-trasporti-e-agricoltori-bloccano-la-regione/" },
-              { "nome": "Corriere di Puglia e Lucania", "url": "https://www.corrierepl.it/2026/10/17/basilicata-17-ottobre-2026-trattori-in-marcia/" }
+              {
+                "nome": "Materalife",
+                "url": "https://www.materalife.it/notizie/presidi-di-autotrasportatori-in-basilicata"
+              },
+              {
+                "nome": "Telenorba",
+                "url": "https://telenorba.it/2026/10/15/allarme-carburante-anche-in-basilicata-distributori-a-secco-a-potenza-e-matera-code-e-disagi/"
+              },
+              {
+                "nome": "PotenzaNews",
+                "url": "https://www.potenzanews.net/emergenza-carburanti-e-proteste-in-basilicata-trasporti-e-agricoltori-bloccano-la-regione/"
+              },
+              {
+                "nome": "Corriere di Puglia e Lucania",
+                "url": "https://www.corrierepl.it/2026/10/17/basilicata-17-ottobre-2026-trattori-in-marcia/"
+              }
             ]
           }
         ],
@@ -204,10 +395,22 @@
             "titolo": "7 milioni per autotrasporto e logistica (annunciati)",
             "testo": "Il 16 ottobre la Regione ha annunciato 7 milioni di euro per autotrasporto e logistica, insieme ad altri fondi per l'agricoltura. Criteri e tempi non sono ancora noti.",
             "fonti": [
-              { "nome": "Agenzia di stampa della Regione", "url": "https://agr.regione.basilicata.it/post/sette-milioni-contro-il-rincaro-carburanti" },
-              { "nome": "TRM", "url": "https://www.trmtv.it/attualita/economia/2026_10_16/578937.html" },
-              { "nome": "PotenzaNews", "url": "https://www.potenzanews.net/basilicata-pacchetto-da-oltre-10-milioni-contro-i-rincari-fondi-a-agricoltura-e-autotrasporto/" },
-              { "nome": "Materalife", "url": "https://www.materalife.it/notizie/basilicata-contro-il-caro-gasolio-aiuti-ad-agricoltura-e-autotrasporto" }
+              {
+                "nome": "Agenzia di stampa della Regione",
+                "url": "https://agr.regione.basilicata.it/post/sette-milioni-contro-il-rincaro-carburanti"
+              },
+              {
+                "nome": "TRM",
+                "url": "https://www.trmtv.it/attualita/economia/2026_10_16/578937.html"
+              },
+              {
+                "nome": "PotenzaNews",
+                "url": "https://www.potenzanews.net/basilicata-pacchetto-da-oltre-10-milioni-contro-i-rincari-fondi-a-agricoltura-e-autotrasporto/"
+              },
+              {
+                "nome": "Materalife",
+                "url": "https://www.materalife.it/notizie/basilicata-contro-il-caro-gasolio-aiuti-ad-agricoltura-e-autotrasporto"
+              }
             ]
           }
         ]
@@ -218,18 +421,36 @@
             "titolo": "Presìdi e corteo a Campobasso",
             "testo": "Presìdi di camionisti e agricoltori a Pietracatella, sulla statale 85 Venafrana tra Roccaravindola e Venafro e a Isernia Nord. Il 19 ottobre tir e trattori hanno sfilato nel centro di Campobasso, con gli studenti dell'istituto agrario.",
             "fonti": [
-              { "nome": "Primonumero", "url": "https://www.primonumero.it/2026/10/tir-e-trattori-invadono-il-centro-di-campobasso-anche-gli-studenti-in-piazza-scaffali-vuoti-nei-supermercati-video-e-foto/1530913223/" },
-              { "nome": "isNews", "url": "https://www.isnews.it/2026/10/19/caro-carburanti-il-molise-si-ferma-la-protesta-nellisernino-e-a-campobasso-video/" },
-              { "nome": "Primo Piano Molise", "url": "https://primopianomolise.it/attualita/158426/caro-gasolio-tir-e-trattori-in-strada-ormai-siamo-morti-che-camminano/" }
+              {
+                "nome": "Primonumero",
+                "url": "https://www.primonumero.it/2026/10/tir-e-trattori-invadono-il-centro-di-campobasso-anche-gli-studenti-in-piazza-scaffali-vuoti-nei-supermercati-video-e-foto/1530913223/"
+              },
+              {
+                "nome": "isNews",
+                "url": "https://www.isnews.it/2026/10/19/caro-carburanti-il-molise-si-ferma-la-protesta-nellisernino-e-a-campobasso-video/"
+              },
+              {
+                "nome": "Primo Piano Molise",
+                "url": "https://primopianomolise.it/attualita/158426/caro-gasolio-tir-e-trattori-in-strada-ormai-siamo-morti-che-camminano/"
+              }
             ]
           },
           {
             "titolo": "Effetti",
             "testo": "Distributori senza gasolio a Isernia e Campobasso, scaffali vuoti nei supermercati di Termoli. Il pastificio La Molisana ha fortemente ridotto la produzione.",
             "fonti": [
-              { "nome": "Primonumero", "url": "https://www.primonumero.it/2026/10/il-blocco-dei-tir-al-sud-non-si-ferma-scarseggiano-merci-e-carburanti-si-fermano-le-industrie-servizi-essenziali-a-rischio/1530913395" },
-              { "nome": "Il Nuovo Abruzzo e Molise", "url": "https://www.ilnuovoabruzzoemolise.it/news/cronaca/286259/protesta-carburanti-molise-in-tilt-benzina-finita-a-termoli-e-isernia-pure-l-edilizia-rischia-lo-stop.html" },
-              { "nome": "Sky TG24", "url": "https://tg24.sky.it/economia/2026/10/19/proteste-italia" }
+              {
+                "nome": "Primonumero",
+                "url": "https://www.primonumero.it/2026/10/il-blocco-dei-tir-al-sud-non-si-ferma-scarseggiano-merci-e-carburanti-si-fermano-le-industrie-servizi-essenziali-a-rischio/1530913395"
+              },
+              {
+                "nome": "Il Nuovo Abruzzo e Molise",
+                "url": "https://www.ilnuovoabruzzoemolise.it/news/cronaca/286259/protesta-carburanti-molise-in-tilt-benzina-finita-a-termoli-e-isernia-pure-l-edilizia-rischia-lo-stop.html"
+              },
+              {
+                "nome": "Sky TG24",
+                "url": "https://tg24.sky.it/economia/2026/10/19/proteste-italia"
+              }
             ]
           }
         ],
@@ -238,9 +459,18 @@
             "titolo": "Richieste portate a Roma",
             "testo": "Il presidente Roberti ha incontrato agricoltori e camionisti e ha detto che porterà le loro richieste alla Conferenza delle Regioni, proponendo tra l'altro di sospendere i versamenti contributivi degli agricoltori per sbloccare i pagamenti AGEA. Nelle fonti consultate non risultano ancora misure regionali approvate.",
             "fonti": [
-              { "nome": "isNews", "url": "https://www.isnews.it/2026/10/16/caro-carburante-roberti-incontra-agricoltori-e-autotrasportatori-portero-le-vostre-istanze-alla-conferenza-delle-regioni/" },
-              { "nome": "Molise Tabloid", "url": "https://www.molisetabloid.it/2026/10/16/sciopero-contro-caro-carburante-roberti-incontra-gli-autotrasportatori-portero-richieste-a-conferenza-regioni/" },
-              { "nome": "TermoliOnLine", "url": "https://termolionline.it/2026/10/lavoro-ed-economia/caro-carburante-roberti-sospendere-i-contributi-per-sbloccare-i-pagamenti-agea/" }
+              {
+                "nome": "isNews",
+                "url": "https://www.isnews.it/2026/10/16/caro-carburante-roberti-incontra-agricoltori-e-autotrasportatori-portero-le-vostre-istanze-alla-conferenza-delle-regioni/"
+              },
+              {
+                "nome": "Molise Tabloid",
+                "url": "https://www.molisetabloid.it/2026/10/16/sciopero-contro-caro-carburante-roberti-incontra-gli-autotrasportatori-portero-richieste-a-conferenza-regioni/"
+              },
+              {
+                "nome": "TermoliOnLine",
+                "url": "https://termolionline.it/2026/10/lavoro-ed-economia/caro-carburante-roberti-sospendere-i-contributi-per-sbloccare-i-pagamenti-agea/"
+              }
             ]
           }
         ]
@@ -251,9 +481,18 @@
             "titolo": "Trattori davanti al Consiglio regionale",
             "testo": "Il 21 ottobre Coldiretti Abruzzo ha portato i trattori davanti al Consiglio regionale all'Aquila: chiede uno sconto retroattivo sul gasolio agricolo usato da giugno a dicembre 2026.",
             "fonti": [
-              { "nome": "Abruzzo Speciale", "url": "https://www.abruzzospeciale.it/2026/10/21/trattori-in-piazza-allaquila-contro-il-caro-gasolio-gli-agricoltori-chiedono-sconti-retroattivi/" },
-              { "nome": "Terre Marsicane", "url": "https://www.terremarsicane.it/caro-gasolio-agricolo-coldiretti-abruzzo-protesta-davanti-allemiciclo-servono-risposte-concrete-per-le-imprese-agricole/" },
-              { "nome": "VastoWeb", "url": "https://vastoweb.com/2026/10/abruzzo/caro-gasolio-sit-in-davanti-la-regione-di-coldiretti-servono-risposte-concrete-per-le-imprese-agricole/" }
+              {
+                "nome": "Abruzzo Speciale",
+                "url": "https://www.abruzzospeciale.it/2026/10/21/trattori-in-piazza-allaquila-contro-il-caro-gasolio-gli-agricoltori-chiedono-sconti-retroattivi/"
+              },
+              {
+                "nome": "Terre Marsicane",
+                "url": "https://www.terremarsicane.it/caro-gasolio-agricolo-coldiretti-abruzzo-protesta-davanti-allemiciclo-servono-risposte-concrete-per-le-imprese-agricole/"
+              },
+              {
+                "nome": "VastoWeb",
+                "url": "https://vastoweb.com/2026/10/abruzzo/caro-gasolio-sit-in-davanti-la-regione-di-coldiretti-servono-risposte-concrete-per-le-imprese-agricole/"
+              }
             ]
           }
         ],
@@ -262,12 +501,420 @@
             "titolo": "Più carburante agricolo agevolato",
             "testo": "A settembre la Giunta ha aumentato del 50% il carburante agricolo agevolato per l'irrigazione: le domande si presentano sul portale AbruzzoFarmer entro il 15 dicembre 2026.",
             "fonti": [
-              { "nome": "ZonaLocale", "url": "https://www.zonalocale.it/2026/09/22/carburante-agr-agv-abr-maggior-del-50/" },
-              { "nome": "IlPescara", "url": "https://www.ilpescara.it/economia/carburante-agricolo-agevolato-abruzzo-maggiorazione-50.html" },
-              { "nome": "Abruzzo Popolare", "url": "https://www.abruzzopopolare.com/2026/09/21/carburante-agricolo-agevolato-coldiretti-abruzzo-soddisfazione-per-la-maggiorazione-del-50-accolta-la-nostra-richiesta/" }
+              {
+                "nome": "ZonaLocale",
+                "url": "https://www.zonalocale.it/2026/09/22/carburante-agr-agv-abr-maggior-del-50/"
+              },
+              {
+                "nome": "IlPescara",
+                "url": "https://www.ilpescara.it/economia/carburante-agricolo-agevolato-abruzzo-maggiorazione-50.html"
+              },
+              {
+                "nome": "Abruzzo Popolare",
+                "url": "https://www.abruzzopopolare.com/2026/09/21/carburante-agricolo-agevolato-coldiretti-abruzzo-soddisfazione-per-la-maggiorazione-del-50-accolta-la-nostra-richiesta/"
+              }
             ]
           }
         ]
+      },
+      "sicilia": {
+        "fatti": [
+          {
+            "titolo": "Fermo revocato",
+            "testo": "Dopo l'incontro con il ministro dei Trasporti del 20 ottobre, il Comitato trasportatori siciliani ha revocato il fermo dei camion, ma resta in stato di agitazione.",
+            "fonti": [
+              {
+                "nome": "Giornale di Sicilia",
+                "url": "https://palermo.gds.it/articoli/cronaca/2026/10/20/caro-gasolio-il-comitato-degli-autotrasportatori-sicilia-revoca-il-fermo-5b7be4d1-057c-4009-b883-ec474078d88f/"
+              },
+              {
+                "nome": "ANSA",
+                "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/20/in-sicilia-revocato-il-fermo-dei-tir.-rixi-da-oggi-disponibili-480-milioni_3a6127ff-0b4c-4c40-8785-32cfb644514b.html"
+              },
+              {
+                "nome": "Il Tempo",
+                "url": "https://www.iltempo.it/news/esteri/caro-carburanti-gli-autotrasportatori-siciliani-revocano-il-blocco/"
+              }
+            ]
+          }
+        ],
+        "regione": [
+          {
+            "titolo": "15 milioni per gli autotrasportatori",
+            "testo": "Con una legge regionale e un decreto la Regione ha messo a disposizione 15 milioni: rimborsa il 70% della spesa in più per il gasolio rispetto ai prezzi di febbraio 2026, per gli acquisti da marzo a dicembre. Le domande vanno presentate entro il 30 novembre 2026.",
+            "fonti": [
+              {
+                "nome": "Regione Siciliana",
+                "url": "https://www.regione.sicilia.it/la-regione-informa/caro-carburanti-pronti-15-milioni-euro-autotrasportatori"
+              },
+              {
+                "nome": "La Sicilia",
+                "url": "https://www.lasicilia.it/news/economia/3076602/caro-carburanti-in-sicilia-15-milioni-per-gli-autotrasportatori-come-ottenere-i-rimborsi-per-il-gasolio.html"
+              },
+              {
+                "nome": "Trans.info",
+                "url": "https://trans.info/it/caro-gasolio-15-milioni-di-aiuti-agli-autotrasportatori-505413"
+              }
+            ]
+          }
+        ]
+      },
+      "sardegna": {
+        "fatti": [
+          {
+            "titolo": "Il Sulcis in strada",
+            "testo": "Il 17 ottobre corteo da Carbonia a Villamassargia di agricoltori, pescatori, artigiani, commercianti e studenti contro il caro carburanti e il caro vita; a Villamassargia c'è un presidio permanente.",
+            "fonti": [
+              {
+                "nome": "Cagliari News",
+                "url": "https://cagliarinews.it/primo-piano/protesta-sulcis-17-ottobre-2026/"
+              },
+              {
+                "nome": "La Provincia del Sulcis Iglesiente",
+                "url": "https://www.laprovinciadelsulcisiglesiente.com/2026/10/nuova-manifestazione-di-protesta-questa-mattina-a-villamassargia-per-rivendicare-i-diritti-di-un-territorio-in-profonda-crisi-socio-economica/"
+              },
+              {
+                "nome": "Radio Sintony",
+                "url": "https://sintony.it/news/2026-10-17/caro-carburante-proteste-in-tutto-il-sud-italia-mobilitazione-anche-in-sardegna"
+              }
+            ]
+          }
+        ],
+        "regione": [
+          {
+            "titolo": "25 milioni per l'agricoltura, non ancora operativi",
+            "testo": "Con l'assestamento di bilancio di agosto la Regione ha stanziato fondi contro il caro carburanti, di cui 25 milioni per l'agricoltura. A ottobre le regole per distribuirli non erano ancora definite e le associazioni agricole chiedono di sbloccarli subito.",
+            "fonti": [
+              {
+                "nome": "SassariToday",
+                "url": "https://www.sassaritoday.it/economia/caro-gasolio-aziende-sarde-aiuti-latte-dermatite-nodulare.html"
+              },
+              {
+                "nome": "Alghero Notizie",
+                "url": "https://www.algheronotizie.com/contenuto/0/12/655032/caro-gasolio-il-psd-az-sollecita-la-regione-in-sospeso-25-milioni-per-il-comparto-agricolo"
+              },
+              {
+                "nome": "Ore12",
+                "url": "https://www.ore12.net/carburante-60-milioni-da-regione-contro-caro-prezzi-in-sardegna/"
+              }
+            ]
+          }
+        ]
+      },
+      "lazio": {
+        "fatti": [
+          {
+            "titolo": "Presìdi nel Frusinate e agricoltori sull'Aurelia",
+            "testo": "Presìdi di camionisti sull'A1 nel Frusinate e ai caselli di Anagni, Ferentino e Frosinone. Gli agricoltori protestano da fine settembre sulla via Aurelia, a Torrimpietra.",
+            "fonti": [
+              {
+                "nome": "Agenzia Nova",
+                "url": "https://www.agenzianova.com/news/protesta-degli-autotrasportatori-nel-lazio-contro-il-caro-carburante-presidi-sulla1-nellarea-del-frusinate/"
+              },
+              {
+                "nome": "RomaToday",
+                "url": "https://www.romatoday.it/economia/protesta-agricoltori-caro-carburante.html"
+              },
+              {
+                "nome": "Il Centro",
+                "url": "https://www.ilcentro.it/attualita/i-tir-in-protesta-chiudono-il-porto-di-napoli-primi-blocchi-stradali-nel-lazio-oc83p6d7"
+              }
+            ]
+          }
+        ],
+        "regione": [
+          {
+            "titolo": "Piano da 75 milioni",
+            "testo": "La Regione ha presentato un piano da 75 milioni contro il caro energia: 20 milioni per le famiglie e circa 55 per l'agricoltura, tra cui 10 milioni per abbassare il prezzo del gasolio agricolo di circa 25 centesimi al litro.",
+            "fonti": [
+              {
+                "nome": "Agenzia Nova",
+                "url": "https://www.agenzianova.com/news/famiglie-e-filiere-agricole-dala-regione-lazio-piano-da-75-milioni-contro-i-rincari-energetici/"
+              },
+              {
+                "nome": "Radio Colonna",
+                "url": "https://www.radiocolonna.it/economia/lazio-piano-da-75-milioni-contro-il-caro-energia-20-milioni-alle-famiglie-e-55-allagricoltura/"
+              },
+              {
+                "nome": "Affaritaliani",
+                "url": "https://www.affaritaliani.it/roma/caro-energia-il-lazio-schiera-75-milioni-aiuti-a-famiglie-e-agricoltura.html"
+              }
+            ]
+          }
+        ]
+      },
+      "toscana": {
+        "fatti": [
+          {
+            "titolo": "Agricoltori davanti al Consiglio regionale",
+            "testo": "Il 19 ottobre agricoltori, allevatori, floricoltori e pescatori con Coldiretti davanti al Consiglio regionale a Firenze contro il caro gasolio e fertilizzanti; dopo l'annuncio della Regione il presidio è stato sciolto.",
+            "fonti": [
+              {
+                "nome": "Corriere Toscano",
+                "url": "https://corrieretoscano.it/toscana/economia/caro-gasolio-12-milioni-dalla-regione-per-gli-agricoltori-e-coldiretti-scioglie-il-presidio/"
+              },
+              {
+                "nome": "Arezzo24",
+                "url": "https://www.arezzo24.net/notizie/economia/caro-gasolio-oltre-300-agricoltori-aretini-in-piazza-la-regione-annuncia-12-milioni-coldiretti-scioglie-il-presidio/"
+              },
+              {
+                "nome": "Sky TG24",
+                "url": "https://tg24.sky.it/cronaca/video/2026/10/19/contro-il-caro-gasolio-la-coldiretti-si-mobilita-a-firenze-1132923"
+              }
+            ]
+          }
+        ],
+        "regione": [
+          {
+            "titolo": "12 milioni per l'agricoltura (annunciati)",
+            "testo": "Il presidente Giani ha annunciato 12 milioni: circa 9 per il caro carburanti, 2 per i fertilizzanti e 500 mila euro per le assicurazioni agricole. L'aiuto sul gasolio richiede un'autorizzazione europea.",
+            "fonti": [
+              {
+                "nome": "Firenze Post",
+                "url": "https://www.firenzepost.it/2026/10/19/carburanti-giani-al-presidio-coldiretti-12-milioni-dalla-regione-toscana/"
+              },
+              {
+                "nome": "Grosseto Notizie",
+                "url": "https://www.grossetonotizie.com/2026/10/19/caro-carburanti-12-milioni-dalla-regione-coldiretti-scioglie-presidio/"
+              },
+              {
+                "nome": "Il Cittadino Online",
+                "url": "https://www.ilcittadinoonline.it/economia-e-politica/giani-carburanti-12-milioni-dalla-regione/"
+              }
+            ]
+          }
+        ]
+      },
+      "lombardia": {
+        "fatti": [
+          {
+            "titolo": "Studenti e disordini a Milano",
+            "testo": "Dopo il corteo studentesco del 16 ottobre (tra le richieste: decreto Scuola e caro affitti per i fuorisede), il 17 e 18 ottobre ci sono stati disordini e saccheggi nel centro di Milano, con oltre 200 fermati, in gran parte minorenni.",
+            "fonti": [
+              {
+                "nome": "Il Post",
+                "url": "https://www.ilpost.it/2026/10/18/proteste-ragazzi-milano-domenica/"
+              },
+              {
+                "nome": "Internazionale",
+                "url": "https://www.internazionale.it/notizie/annalisa-camilli/2026/10/20/le-rivolte-di-milano-sono-una-novita-assoluta"
+              },
+              {
+                "nome": "Sky TG24",
+                "url": "https://tg24.sky.it/cronaca/2026/10/19/milano-proteste-ultime-notizie-diretta"
+              }
+            ]
+          }
+        ],
+        "regione": [
+          {
+            "titolo": "15 milioni per le imprese agricole",
+            "testo": "Il 20 ottobre la Giunta ha approvato 15 milioni: 10 per un contributo straordinario sul gasolio agricolo, in proporzione ai consumi, e 5 per lo sviluppo rurale. Tempi e modalità di domanda non sono ancora noti.",
+            "fonti": [
+              {
+                "nome": "Agrapress",
+                "url": "https://www.agrapress.it/2026/10/lombardia-fontana-e-beduschi-15-milioni-di-euro-per-agricoltori-contro-caro-gasolio/"
+              },
+              {
+                "nome": "VareseNews",
+                "url": "https://www.varesenews.it/2026/10/caro-carburanti-e-costi-di-produzione-dalla-regione-lombardia-15-milioni-di-euro-per-le-imprese-agricole/2713657/"
+              },
+              {
+                "nome": "Cremona Sera",
+                "url": "https://cremonasera.it/cronaca/prezzi-coldiretti-bene-15-mln-da-regione-ma-ora-attuazione-della-misura-sia-rapida-dall-inizio-della-guerra-in-iran-costi-raddoppiati-per-gli-agricoltori-che-garantiscono-cibo-sano-e-sicuro"
+              }
+            ]
+          }
+        ]
+      },
+      "marche": {
+        "fatti": [
+          {
+            "titolo": "Pescatori fermi il 22 ottobre",
+            "testo": "Le marinerie di Ancona, San Benedetto del Tronto, Fano e Pesaro aderiscono al fermo della pesca del 22 ottobre contro il prezzo del gasolio.",
+            "fonti": [
+              {
+                "nome": "CentroPagina",
+                "url": "https://www.centropagina.it/ancona/caro-gasolio-marinerie-confermano-sciopero-22-ottobre-economia-pesca/"
+              },
+              {
+                "nome": "Gambero Rosso",
+                "url": "https://www.gamberorosso.it/notizie/attualita/pescatori-sciopero-22-ottobre-caro-gasolio"
+              },
+              {
+                "nome": "Avvenire",
+                "url": "https://www.avvenire.it/attualita/il-gasolio-costa-troppo-camion-e-pescherecci-scelgono-di-fermarsi_114282"
+              }
+            ]
+          }
+        ],
+        "regione": [
+          {
+            "titolo": "Oltre 6 milioni per la pesca",
+            "testo": "Il 14 ottobre la Regione ha presentato un contributo straordinario di oltre 6 milioni contro il caro carburante per i pescatori: il 60% entro il 31 dicembre 2026, il resto nei primi mesi del 2027.",
+            "fonti": [
+              {
+                "nome": "ANSA",
+                "url": "https://www.ansa.it/sito/notizie/economia/2026/10/14/caro-carburante-per-i-pescatori-nelle-marche-sei-milioni-dalla-regione_af53c3ab-43ac-4b7d-8e11-989f39592689.html"
+              },
+              {
+                "nome": "Soldionline",
+                "url": "https://www.soldionline.it/notizie/economia-politica/caro-gasolio-ai-pescatori-delle-marche-oltre-6-milioni-come-funziona"
+              }
+            ]
+          },
+          {
+            "titolo": "20 centesimi al litro sul gasolio agricolo (annunciati)",
+            "testo": "La Regione ha annunciato circa 3,8 milioni per rimborsare 20 centesimi per ogni litro di gasolio agricolo agevolato prelevato tra giugno e agosto 2026, pagati in automatico alle aziende.",
+            "fonti": [
+              {
+                "nome": "ANSA",
+                "url": "https://www.ansa.it/marche/notizie/2026/10/08/regione-marche-compensa-maggiori-costi-dei-carburanti-agricoli-20-centesimi-al-litro_78a179e0-5391-4372-a3f3-259e58d7d80a.html"
+              },
+              {
+                "nome": "Terra e Vita",
+                "url": "https://terraevita.edagricole.it/attualita/marche-38-milioni-per-il-gasolio-agricolo/"
+              },
+              {
+                "nome": "LaPresse",
+                "url": "https://www.lapresse.it/economia/2026/10/09/caro-carburanti-regione-marche-tende-mano-ad-agricoltori-misura-da-4-milioni/"
+              }
+            ]
+          }
+        ]
+      },
+      "umbria": {
+        "fatti": [
+          {
+            "titolo": "Richieste degli agricoltori",
+            "testo": "A metà ottobre Coldiretti Umbria ha consegnato alla Regione un documento con la richiesta di misure straordinarie contro il caro gasolio agricolo e di procedure più semplici per l'assegnazione del carburante agevolato.",
+            "fonti": [
+              {
+                "nome": "Corriere dell'Umbria",
+                "url": "https://www.corrieredellumbria.it/news/attualita/467124/caro-gasolio-agricolo-coldiretti-umbria-incontra-la-regione-chieste-misure-straordinarie-per-le-aziende.html"
+              },
+              {
+                "nome": "Perugia Tomorrow",
+                "url": "https://www.perugiatomorrow.it/2026/10/13/caro-gasolio-agricolo-coldiretti-umbria-chiede-interventi-urgenti-alla-regione/"
+              },
+              {
+                "nome": "Umbria 7",
+                "url": "https://umbria7.it/2026/10/gasolio-agricolo-le-imprese-non-possono-piu-sostenere-da-sole-il-peso-di-una-crescita-dei-costi/"
+              }
+            ]
+          }
+        ],
+        "regione": []
+      },
+      "piemonte": {
+        "fatti": [
+          {
+            "titolo": "Richieste degli agricoltori",
+            "testo": "Le associazioni agricole chiedono alla Regione un fondo che copra il 20% della spesa per il gasolio agricolo dei mesi estivi, non coperti dal credito d'imposta nazionale.",
+            "fonti": [
+              {
+                "nome": "AlessandriaNews",
+                "url": "https://alessandrianews.ilpiccolo.net/2026/10/11/gasolio-agricolo-piemonte-confagricoltura-aiuti-2026/"
+              },
+              {
+                "nome": "La Voce di Asti",
+                "url": "https://www.lavocediasti.it/2026/10/11/leggi-notizia/argomenti/agricoltura-7/articolo/caro-gasolio-e-crisi-idrica-gli-agricoltori-piemontesi-chiedono-aiuto-alla-regione.html"
+              },
+              {
+                "nome": "Unione Monregalese",
+                "url": "https://www.unionemonregalese.it/news/territorio/318931/gasolio-agricolo-alle-stelle-gli-agricoltori-piemontesi-chiedono-uno-sconto-del-20.html"
+              }
+            ]
+          }
+        ],
+        "regione": []
+      },
+      "liguria": {
+        "fatti": [
+          {
+            "titolo": "Pescherecci fermi in banchina",
+            "testo": "Con il gasolio per la pesca tra 1,30 e 1,70 euro al litro, diversi pescherecci liguri restano fermi in porto; le cooperative chiedono aiuti al Governo e alla Regione.",
+            "fonti": [
+              {
+                "nome": "ANSA",
+                "url": "https://www.ansa.it/liguria/notizie/2026/09/29/caro-gasolio-provoca-fermi-volontari-dei-pescherecci-in-liguria_40b21925-7a07-4f8f-b454-3d8341fc3824.html"
+              },
+              {
+                "nome": "Riviera Time",
+                "url": "https://www.rivieratime.news/gasolio-alle-stelle-pesca-ligure-in-ginocchio-legacoop-senza-aiuti-le-barche-resteranno-in-porto-subito-credito-dimposta-e-bando-emergenza/"
+              }
+            ]
+          }
+        ],
+        "regione": []
+      },
+      "friuli-venezia-giulia": {
+        "fatti": [],
+        "regione": [
+          {
+            "titolo": "10 milioni per il gasolio agricolo",
+            "testo": "Il 15 ottobre il Consiglio regionale ha approvato, nella manovra autunnale, 10 milioni contro il caro gasolio per le aziende agricole, con contributi da pagare entro fine 2026.",
+            "fonti": [
+              {
+                "nome": "DiarioFVG",
+                "url": "https://www.diariofvg.it/2026/10/16/caro-gasolio-regione-10-milioni-per-aziende-agricole-chi-puo-ottenere-contributi"
+              },
+              {
+                "nome": "PMI.it",
+                "url": "https://www.pmi.it/economia/finanziamenti/501385/caro-gasolio-agricolo-contributi-regionali.html"
+              }
+            ]
+          },
+          {
+            "titolo": "Aiuti per agricoltura e pesca approvati dall'UE",
+            "testo": "La Commissione europea ha approvato un regime regionale da 20 milioni per imprese agricole, della pesca e dell'acquacoltura colpite dai rincari, valido fino al 31 dicembre 2026.",
+            "fonti": [
+              {
+                "nome": "Commissione europea",
+                "url": "https://italy.representation.ec.europa.eu/notizie-ed-eventi/notizie/la-commissione-approva-20-mln-di-eur-di-aiuti-di-stato-le-imprese-agricole-della-pesca-e-2026-08-03_it"
+              },
+              {
+                "nome": "Pesceinrete",
+                "url": "https://www.pesceinrete.com/aiuti-pesca-friuli-venezia-giulia-20-milioni/"
+              }
+            ]
+          }
+        ]
+      },
+      "emilia-romagna": {
+        "fatti": [],
+        "regione": [
+          {
+            "titolo": "Più gasolio agricolo agevolato",
+            "testo": "La Regione concede alle aziende che hanno esaurito la loro quota un'integrazione straordinaria del gasolio agricolo agevolato: +20% per le domande presentate entro il 31 ottobre 2026 sul sistema regionale UMA.",
+            "fonti": [
+              {
+                "nome": "Regione Emilia-Romagna",
+                "url": "https://agricoltura.regione.emilia-romagna.it/aiuti-imprese/meccanizzazione-e-lavoro/uma/maggiorazione-assegnazione-carburante-agricolo-2026"
+              },
+              {
+                "nome": "Ravenna Notizie",
+                "url": "https://www.ravennanotizie.it/2026/07/28/gasolio-agricolo-ageevolato-dalla-regione-unintegrazione-straordinaria-per-le-imprese/616374"
+              },
+              {
+                "nome": "ParmaToday",
+                "url": "https://www.parmatoday.it/attualita/caldo-e-siccita-dalla-regione-piu-gasolio-agevolato-alle-aziende-agricole-bonus-fino-al-50.html"
+              }
+            ]
+          }
+        ]
+      },
+      "veneto": {
+        "fatti": [],
+        "regione": []
+      },
+      "trentino-alto-adige": {
+        "fatti": [],
+        "regione": []
+      },
+      "valle-d-aosta": {
+        "fatti": [],
+        "regione": []
       }
     }
   },

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { caroVita, regioniCaroVita } from "@/lib/caroVita";
-import { getConsiglio } from "@/lib/data";
+import { regioni as tutteLeRegioni } from "@/lib/data";
 import { dataLunga } from "@/lib/format";
 import { Condividi } from "@/components/Condividi";
 import { AvvisoArchivio, Fatti } from "@/components/CaroVita";
@@ -13,19 +13,31 @@ export const metadata: Metadata = {
 };
 
 export default function CaroVitaPage() {
-  const regioni = regioniCaroVita
-    .map((slug) => {
-      const cr = getConsiglio(slug)!;
-      const sel = caroVita.regioni[slug];
+  const regioni = tutteLeRegioni
+    .filter((r) => regioniCaroVita.includes(r.slug))
+    .map((r) => {
+      const sel = caroVita.regioni[r.slug];
       return {
-        slug,
-        nome: cr.nome,
-        leggi: Object.keys(sel.leggi).length,
-        atti: Object.keys(sel.atti).length,
-        annunci: caroVita.contesto.regioni[slug]?.regione ?? [],
+        slug: r.slug,
+        nome: r.nome,
+        // leggi e atti solo per le regioni con il Consiglio in chiaro
+        conteggio: sel ? { leggi: Object.keys(sel.leggi).length, atti: Object.keys(sel.atti).length } : null,
+        annunci: caroVita.contesto.regioni[r.slug]?.regione ?? [],
       };
     })
     .sort((a, b) => a.nome.localeCompare(b.nome));
+  const gruppi = [
+    {
+      titolo: "Regioni con il Consiglio in chiaro",
+      nota: "Notizie, misure della Regione e in più le leggi e gli atti del Consiglio regionale su questi temi.",
+      regioni: regioni.filter((r) => r.conteggio),
+    },
+    {
+      titolo: "Le altre regioni",
+      nota: "Notizie, misure della Regione e a chi rivolgersi. Leggi e atti del Consiglio arriveranno con i prossimi Consigli in chiaro.",
+      regioni: regioni.filter((r) => !r.conteggio),
+    },
+  ];
 
   return (
     <div className="contenitore py-8">
@@ -53,31 +65,37 @@ export default function CaroVitaPage() {
       </section>
 
       <h2 className="display mt-10 text-3xl">Scegli la tua regione</h2>
-      <ul className="mt-4 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-        {regioni.map((r) => (
-          <li key={r.slug}>
-            <Link
-              href={`/caro-vita/${r.slug}/`}
-              className="flex h-full flex-col rounded-[28px] border border-line bg-surface p-5 transition-colors hover:border-ink-3"
-            >
-              <span className="display text-2xl">{r.nome}</span>
-              <span className="mt-1 text-sm text-ink-3">
-                {r.leggi} {r.leggi === 1 ? "legge" : "leggi"} · {r.atti} atti in Consiglio
-              </span>
-              {r.annunci.length > 0 && (
-                <span className="mt-3 text-sm text-ink-2">
-                  <span className="font-semibold text-ink">La Regione: </span>
-                  {r.annunci.map((a) => a.titolo).join(" · ")}
-                </span>
-              )}
-              <span className="mt-auto pt-4 text-sm font-medium text-accent">Apri →</span>
-            </Link>
-          </li>
-        ))}
-      </ul>
+      {gruppi.map((g) => (
+        <section key={g.titolo} className="mt-6">
+          <h3 className="text-xs font-semibold tracking-wider text-ink-3 uppercase">{g.titolo}</h3>
+          <p className="mt-1 text-sm text-ink-3">{g.nota}</p>
+          <ul className="mt-3 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+            {g.regioni.map((r) => (
+              <li key={r.slug}>
+                <Link
+                  href={`/caro-vita/${r.slug}/`}
+                  className="flex h-full flex-col rounded-[28px] border border-line bg-surface p-5 transition-colors hover:border-ink-3"
+                >
+                  <span className="display text-2xl">{r.nome}</span>
+                  {r.conteggio && (
+                    <span className="mt-1 text-sm text-ink-3">
+                      {r.conteggio.leggi} {r.conteggio.leggi === 1 ? "legge" : "leggi"} · {r.conteggio.atti} atti in Consiglio
+                    </span>
+                  )}
+                  <span className="mt-3 text-sm text-ink-2">
+                    <span className="font-semibold text-ink">La Regione: </span>
+                    {r.annunci.length ? r.annunci.map((a) => a.titolo).join(" · ") : "nessuna misura specifica trovata nelle fonti"}
+                  </span>
+                  <span className="mt-auto pt-4 text-sm font-medium text-accent">Apri →</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
 
       <p className="mt-8 max-w-2xl text-sm text-ink-3">
-        Le altre regioni arriveranno insieme ai loro Consigli regionali in chiaro. Prezzo del carburante e accise sono decisioni nazionali: per
+        Prezzo del carburante e accise sono decisioni nazionali: per
         deputati e senatori del tuo collegio{" "}
         <Link href="/" className="underline underline-offset-2 hover:text-ink">
           cerca il tuo comune

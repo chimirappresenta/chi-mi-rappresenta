@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { caroVita, regioniCaroVita } from "@/lib/caroVita";
-import { getConsiglio } from "@/lib/data";
+import { getConsiglio, regioni } from "@/lib/data";
 import { dataLunga, dellaRegione, slugConsigliere } from "@/lib/format";
 import type { Atto, Legge } from "@/lib/types";
 import { AttoRow, LeggeCard } from "@/components/consiglio";
@@ -21,35 +21,44 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: PageProps<"/caro-vita/[regione]">): Promise<Metadata> {
-  const cr = getConsiglio((await params).regione);
-  return cr
+  const { regione } = await params;
+  const reg = regioni.find((r) => r.slug === regione);
+  return reg
     ? {
-        title: `Caro vita: cosa fa la Regione ${cr.nome}`,
-        description: `Le leggi e gli atti del Consiglio regionale ${dellaRegione(cr.nome)} su carburanti, bollette, trasporti, agricoltura, casa e redditi, spiegati in parole semplici.`,
+        title: `Caro vita: cosa fa la Regione ${reg.nome}`,
+        description: `Proteste e caro vita: cosa sta succedendo, cosa ha annunciato la Regione ${reg.nome}${
+          reg.inChiaro ? " e cosa ha fatto il Consiglio regionale su carburanti, trasporti, agricoltura, casa e redditi" : ""
+        }, con le fonti.`,
       }
     : {};
 }
 
 export default async function CaroVitaRegionePage({ params }: PageProps<"/caro-vita/[regione]">) {
-  const cr = getConsiglio((await params).regione);
-  const sel = cr && caroVita.regioni[cr.slug];
-  if (!cr || !sel) notFound();
-  const { consiglio } = cr;
-  const contesto = caroVita.contesto.regioni[cr.slug];
+  const slug = (await params).regione;
+  const reg = regioni.find((r) => r.slug === slug);
+  const contesto = caroVita.contesto.regioni[slug];
+  if (!reg || !contesto) notFound();
+  const nome = reg.nome;
+  // leggi e atti solo dove il Consiglio è in chiaro; altrove la pagina mostra notizie, annunci e a chi rivolgersi
+  const cr = getConsiglio(slug);
+  const sel = caroVita.regioni[slug];
+  const consiglio = cr && sel ? cr.consiglio : undefined;
 
   // dalla più recente, come nelle altre pagine del Consiglio
-  const temi = caroVita.temi
-    .map((t) => ({
-      ...t,
-      leggi: consiglio.leggi.filter((l) => sel.leggi[l.id] === t.id) as Legge[],
-      atti: consiglio.atti.filter((a) => sel.atti[a.id] === t.id).sort((a, b) => b.data.localeCompare(a.data)) as Atto[],
-    }))
-    // un tema senza leggi né atti non dice nulla: non lo mostriamo
-    .filter((t) => t.leggi.length + t.atti.length > 0);
+  const temi = consiglio
+    ? caroVita.temi
+        .map((t) => ({
+          ...t,
+          leggi: consiglio.leggi.filter((l) => sel.leggi[l.id] === t.id) as Legge[],
+          atti: consiglio.atti.filter((a) => sel.atti[a.id] === t.id).sort((a, b) => b.data.localeCompare(a.data)) as Atto[],
+        }))
+        // un tema senza leggi né atti non dice nulla: non lo mostriamo
+        .filter((t) => t.leggi.length + t.atti.length > 0)
+    : [];
 
   // chi ha firmato per primo più atti su questi temi
   const perConsigliere = new Map<string, { nome: string; username: string; n: number }>();
-  for (const a of consiglio.atti) {
+  for (const a of consiglio?.atti ?? []) {
     const primo = a.firmatari[0];
     if (!sel.atti[a.id] || !primo?.username) continue;
     const c = perConsigliere.get(primo.username) ?? { nome: primo.nome, username: primo.username, n: 0 };
@@ -58,10 +67,11 @@ export default async function CaroVitaRegionePage({ params }: PageProps<"/caro-v
   }
   const piuAttivi = [...perConsigliere.values()].sort((a, b) => b.n - a.n || a.nome.localeCompare(b.nome)).slice(0, 8);
   const gruppoDi = (username: string) => {
-    const c = cr.regione.consiglieri.find((x) => x.username === username);
-    return c?.gruppo ? cr.regione.gruppi.find((g) => g.nome === c.gruppo) : undefined;
+    const c = cr?.regione.consiglieri.find((x) => x.username === username);
+    return c?.gruppo ? cr?.regione.gruppi.find((g) => g.nome === c.gruppo) : undefined;
   };
 
+  const tipi = consiglio?.tipi ?? [];
   const totaleAtti = temi.reduce((n, t) => n + t.atti.length, 0);
   const totaleLeggi = temi.reduce((n, t) => n + t.leggi.length, 0);
 
@@ -72,30 +82,37 @@ export default async function CaroVitaRegionePage({ params }: PageProps<"/caro-v
         <Link href="/caro-vita/" className="hover:text-ink">
           ← Speciale caro vita
         </Link>
-        <Link href={`/regione/${cr.slug}/`} className="hover:text-ink">
-          Consiglio regionale {dellaRegione(cr.nome)}
+        <Link href={`/regione/${slug}/`} className="hover:text-ink">
+          {cr ? `Consiglio regionale ${dellaRegione(nome)}` : `Regione ${nome}: giunta e consiglieri`}
         </Link>
       </nav>
 
       <header className="mt-4 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
         <div>
           <p className="text-xs font-semibold tracking-wider text-accent uppercase">Speciale caro vita</p>
-          <h1 className="display mt-1.5 text-4xl sm:text-5xl">Cosa fa la Regione {cr.nome}</h1>
+          <h1 className="display mt-1.5 text-4xl sm:text-5xl">Cosa fa la Regione {nome}</h1>
           <p className="mt-3 max-w-2xl text-base text-ink-2">
-            Cosa sta succedendo, cosa ha annunciato la Regione e cosa ha fatto il Consiglio regionale dal {dataLunga(consiglio.inizio)}: {totaleLeggi}{" "}
-            {totaleLeggi === 1 ? "legge" : "leggi"} e {totaleAtti} atti, spiegati in parole semplici e con il link all&apos;atto ufficiale.
+            {consiglio ? (
+              <>
+                Cosa sta succedendo, cosa ha annunciato la Regione e cosa ha fatto il Consiglio regionale dal {dataLunga(consiglio.inizio)}:{" "}
+                {totaleLeggi} {totaleLeggi === 1 ? "legge" : "leggi"} e {totaleAtti} atti, spiegati in parole semplici e con il link all&apos;atto
+                ufficiale.
+              </>
+            ) : (
+              <>Cosa sta succedendo, cosa ha annunciato la Regione e a chi rivolgerti, con le fonti.</>
+            )}
           </p>
         </div>
         <Condividi
-          path={`/caro-vita/${cr.slug}/`}
-          titolo={`Caro vita: cosa fa la Regione ${cr.nome}`}
-          testo={`Caro vita: cosa sta succedendo e cosa hanno fatto Regione e Consiglio regionale ${dellaRegione(cr.nome)}, con le fonti.`}
+          path={`/caro-vita/${slug}/`}
+          titolo={`Caro vita: cosa fa la Regione ${nome}`}
+          testo={`Caro vita: cosa sta succedendo e cosa hanno fatto Regione e Consiglio regionale ${dellaRegione(nome)}, con le fonti.`}
         />
       </header>
 
       {/* Contesto: solo fatti verificati su più fonti. Il sito non prende posizione sulle proteste. */}
       <section className="mt-8 rounded-[28px] bg-surface-2 p-5 sm:p-6">
-        <h2 className="text-xs font-semibold tracking-wider text-ink-3 uppercase">Cosa sta succedendo in {cr.nome}</h2>
+        <h2 className="text-xs font-semibold tracking-wider text-ink-3 uppercase">Cosa sta succedendo in {nome}</h2>
         {contesto?.fatti.length ? (
           <Fatti fatti={contesto.fatti} />
         ) : (
@@ -107,16 +124,20 @@ export default async function CaroVitaRegionePage({ params }: PageProps<"/caro-v
         </details>
       </section>
 
-      {contesto?.regione.length ? (
-        <section className="mt-4 rounded-[28px] border border-line bg-surface p-5 sm:p-6">
-          <h2 className="text-xs font-semibold tracking-wider text-ink-3 uppercase">Cosa ha annunciato la Regione</h2>
-          <p className="mt-1 text-sm text-ink-3">
-            Decisioni e annunci della Giunta riportati dalla stampa. Finché non c&apos;è un atto approvato, sono annunci: qui sotto trovi le leggi
-            già in vigore.
-          </p>
-          <Fatti fatti={contesto.regione} />
-        </section>
-      ) : null}
+      <section className="mt-4 rounded-[28px] border border-line bg-surface p-5 sm:p-6">
+        <h2 className="text-xs font-semibold tracking-wider text-ink-3 uppercase">Cosa ha annunciato la Regione</h2>
+        {contesto.regione.length ? (
+          <>
+            <p className="mt-1 text-sm text-ink-3">
+              Decisioni e annunci della Regione riportati dalla stampa. Finché non c&apos;è un atto approvato, sono annunci
+              {consiglio ? ": qui sotto trovi le leggi già in vigore." : "."}
+            </p>
+            <Fatti fatti={contesto.regione} />
+          </>
+        ) : (
+          <p className="mt-2 text-sm text-ink-2">Nelle fonti che abbiamo consultato non risultano misure regionali specifiche annunciate in queste settimane.</p>
+        )}
+      </section>
 
       <p className="mt-3 text-xs text-ink-3">Notizie aggiornate al {dataLunga(caroVita.aggiornato)}. Ogni fatto è confermato da almeno due fonti.</p>
 
@@ -132,6 +153,28 @@ export default async function CaroVitaRegionePage({ params }: PageProps<"/caro-v
       </nav>
 
       <div className="mt-6 space-y-10">
+        {!consiglio && (
+          <section className="rounded-[28px] border border-dashed border-line p-5 sm:p-6">
+            <h2 className="display text-3xl">Il Consiglio regionale {dellaRegione(nome)} non è ancora in chiaro</h2>
+            <p className="mt-2 max-w-3xl text-sm text-ink-2">
+              Per questa regione non abbiamo ancora raccolto leggi e atti del Consiglio. Puoi già vedere presidente, giunta e consiglieri con i
+              contatti ufficiali{reg.consiglio && " e consultare il sito del Consiglio regionale"}.
+            </p>
+            <p className="mt-4 flex flex-wrap gap-2 text-sm">
+              <Link href={`/regione/${slug}/`} className="rounded-full bg-ink px-3.5 py-1.5 font-medium text-bg hover:opacity-90">
+                Giunta e consiglieri {dellaRegione(nome)} →
+              </Link>
+              {reg.consiglio && (
+                <a href={reg.consiglio.sito} target="_blank" rel="noreferrer" className="rounded-full border border-line px-3.5 py-1.5 text-ink-2 hover:border-ink-3">
+                  Sito del Consiglio regionale ↗
+                </a>
+              )}
+              <Link href="/consigli-in-chiaro/" className="rounded-full border border-line px-3.5 py-1.5 text-ink-2 hover:border-ink-3">
+                Quali regioni sono in chiaro
+              </Link>
+            </p>
+          </section>
+        )}
         {temi.map((t) => (
           <section key={t.id} id={t.id} className="scroll-mt-28">
             <h2 className="display text-3xl">{t.nome}</h2>
@@ -160,14 +203,14 @@ export default async function CaroVitaRegionePage({ params }: PageProps<"/caro-v
                 <p className="mt-1 text-sm text-ink-3">Interrogazioni, mozioni e proposte di legge dei consiglieri e della Giunta, dalla più recente.</p>
                 <div className="mt-2 divide-y divide-line overflow-hidden rounded-2xl border border-line bg-surface">
                   {t.atti.slice(0, PRIMI_ATTI).map((a) => (
-                    <AttoRow key={a.id} atto={a} tipi={consiglio.tipi} regione={cr.slug} />
+                    <AttoRow key={a.id} atto={a} tipi={tipi} regione={slug} />
                   ))}
                 </div>
                 {t.atti.length > PRIMI_ATTI && (
                   <div className="mt-2">
                     <Espandibile titolo="Atti precedenti" conteggio={t.atti.length - PRIMI_ATTI}>
                       {t.atti.slice(PRIMI_ATTI).map((a) => (
-                        <AttoRow key={a.id} atto={a} tipi={consiglio.tipi} regione={cr.slug} />
+                        <AttoRow key={a.id} atto={a} tipi={tipi} regione={slug} />
                       ))}
                     </Espandibile>
                   </div>
@@ -193,7 +236,7 @@ export default async function CaroVitaRegionePage({ params }: PageProps<"/caro-v
                 return (
                   <li key={c.username}>
                     <Link
-                      href={`/regione/${cr.slug}/consiglieri/${slugConsigliere(c.username)}/`}
+                      href={`/regione/${slug}/consiglieri/${slugConsigliere(c.username)}/`}
                       className="flex h-full items-center justify-between gap-3 rounded-2xl border border-line bg-surface px-4 py-3 hover:border-ink-3"
                     >
                       <span className="min-w-0">
@@ -218,20 +261,34 @@ export default async function CaroVitaRegionePage({ params }: PageProps<"/caro-v
           <h2 className="display text-3xl">Cosa puoi fare tu</h2>
           <div className="mt-4 grid gap-6 lg:grid-cols-2">
             <div>
-              <p className="font-semibold">Scrivi ai consiglieri eletti nella tua provincia</p>
-              <p className="mt-1 text-sm text-ink-2">
-                Cerca il tuo comune: trovi i consiglieri regionali della tua circoscrizione con i loro contatti istituzionali e un messaggio già
-                impostato da completare. Il sito non invia e non salva nulla: si apre il tuo programma di posta.
-              </p>
+              {consiglio ? (
+                <>
+                  <p className="font-semibold">Scrivi ai consiglieri eletti nella tua provincia</p>
+                  <p className="mt-1 text-sm text-ink-2">
+                    Cerca il tuo comune: trovi i consiglieri regionali della tua circoscrizione con i loro contatti istituzionali e un messaggio già
+                    impostato da completare. Il sito non invia e non salva nulla: si apre il tuo programma di posta.
+                  </p>
+                </>
+              ) : (
+                <>
+                  <p className="font-semibold">Trova chi ti rappresenta in Regione</p>
+                  <p className="mt-1 text-sm text-ink-2">
+                    Cerca il tuo comune: trovi presidente, giunta e consiglieri regionali, con il link ai contatti ufficiali, e chi ti rappresenta in
+                    Comune, in Parlamento e in Europa.
+                  </p>
+                </>
+              )}
               <div className="mt-3">
                 <ComuneSearch sezione="regione" />
               </div>
             </div>
             <div className="space-y-3 text-sm text-ink-2">
-              <p>
-                <span className="font-semibold text-ink">Chiedi a che punto è un atto.</span> Interrogazioni e mozioni hanno un primo firmatario:
-                puoi chiedergli se la Giunta ha risposto o se la mozione è stata votata.
-              </p>
+              {consiglio && (
+                <p>
+                  <span className="font-semibold text-ink">Chiedi a che punto è un atto.</span> Interrogazioni e mozioni hanno un primo firmatario:
+                  puoi chiedergli se la Giunta ha risposto o se la mozione è stata votata.
+                </p>
+              )}
               <p>
                 <span className="font-semibold text-ink">Chiedi come accedere ai fondi annunciati.</span> Per bandi e contributi regionali gli uffici
                 della Regione e le associazioni di categoria sanno indicare requisiti e scadenze.
@@ -253,7 +310,7 @@ export default async function CaroVitaRegionePage({ params }: PageProps<"/caro-v
         <p className="text-xs text-ink-3">
           Selezione di leggi e atti a cura della redazione, aggiornata al {dataLunga(caroVita.aggiornato)}. Ti sembra che manchi qualcosa? Segnalacelo.
         </p>
-        <FontiNote fonti={[cr.fonti.atti]} />
+        {cr && <FontiNote fonti={[cr.fonti.atti]} />}
       </div>
     </div>
   );

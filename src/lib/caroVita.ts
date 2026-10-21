@@ -20,7 +20,10 @@ type CaroVita = {
 };
 
 export const caroVita = caroVitaJson as unknown as CaroVita;
-export const regioniCaroVita = Object.keys(caroVita.regioni);
+/** Tutte le regioni dello speciale (il contesto c'è per tutte e 20). */
+export const regioniCaroVita = Object.keys(caroVita.contesto.regioni);
+/** Le regioni con il Consiglio in chiaro: solo per queste ci sono leggi e atti selezionati. */
+export const regioniConAtti = Object.keys(caroVita.regioni);
 export const specialeAttivo = !caroVita.chiuso;
 /** Voce di menu dello speciale, solo finché è attivo. */
 export const VOCE_CARO_VITA = {

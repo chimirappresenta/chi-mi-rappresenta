@@ -5,6 +5,8 @@ import fs from "node:fs";
 
 const cv = JSON.parse(fs.readFileSync("src/data/caro-vita.json", "utf8"));
 const consigli = JSON.parse(fs.readFileSync("src/data/consigli.json", "utf8"));
+// il contesto vale per tutte le 20 regioni; leggi e atti solo per quelle in chiaro
+const slugRegioni = new Set(JSON.parse(fs.readFileSync("src/data/regioni.json", "utf8")).regioni.map((r) => r.slug));
 const problemi = [];
 const data = /^\d{4}-\d{2}-\d{2}$/;
 
@@ -25,7 +27,7 @@ const controllaFatti = (fatti, dove) => {
 };
 controllaFatti(cv.contesto?.generale, "contesto generale");
 for (const [r, c] of Object.entries(cv.contesto?.regioni ?? {})) {
-  if (!consigli[r]) problemi.push(`contesto: regione sconosciuta ${r}`);
+  if (!slugRegioni.has(r)) problemi.push(`contesto: regione sconosciuta ${r}`);
   controllaFatti(c.fatti, `${r} – fatti`);
   controllaFatti(c.regione, `${r} – Regione`);
 }

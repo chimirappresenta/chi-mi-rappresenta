@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { caroVita, regioniCaroVita, specialeAttivo, type Fatto } from "@/lib/caroVita";
-import { getConsiglio } from "@/lib/data";
+import { regioni } from "@/lib/data";
 import { dataLunga } from "@/lib/format";
 
 /** Elenco di fatti con le loro fonti: solo cronaca verificata, nessun giudizio. */
@@ -31,7 +31,7 @@ export function Fatti({ fatti, colonne = 2 }: { fatti: Fatto[]; colonne?: 2 | 4 
 /** Richiamo allo speciale (home e pagine delle regioni coperte): sparisce da solo quando lo speciale è chiuso. */
 export function BannerCaroVita({ regione }: { regione?: string }) {
   if (!specialeAttivo || (regione && !regioniCaroVita.includes(regione))) return null;
-  const nomeRegione = regione && getConsiglio(regione)?.nome;
+  const nomeRegione = regione && regioni.find((r) => r.slug === regione)?.nome;
   return (
     <Link
       href={regione ? `/caro-vita/${regione}/` : "/caro-vita/"}

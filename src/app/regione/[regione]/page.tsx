@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { circoscrizioneEuropea, fonte, getConsiglio, regioni, regioniAggiornate } from "@/lib/data";
 import { Avviso, Espandibile, Gruppo, Livello, PersonaRow } from "@/components/ui";
+import { BannerCaroVita } from "@/components/CaroVita";
 import { Condividi } from "@/components/Condividi";
 import { CopiaTesto } from "@/components/CopiaTesto";
 import { ComuneSearch } from "@/components/ComuneSearch";
@@ -71,6 +72,9 @@ export default async function RegionePage({ params }: PageProps<"/regione/[regio
           testo={`Chi governa la Regione ${r.nome}: presidente, giunta e consiglieri regionali, con i contatti ufficiali.`}
         />
       </header>
+      <div className="mt-6">
+        <BannerCaroVita regione={r.slug} />
+      </div>
 
       <div className="mt-8 grid items-start gap-6 xl:grid-cols-[minmax(0,1.6fr)_minmax(0,1fr)]">
         <Livello
