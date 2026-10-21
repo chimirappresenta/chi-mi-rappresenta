@@ -1,0 +1,31 @@
+{
+  "_nota": "Gruppi del Consiglio regionale della Sardegna (XVII legislatura), in ordine da sinistra a destra nell'emiciclo. coalizione: maggioranza (campo largo a sostegno della presidente Todde) o opposizione (centrodestra). Misto senza coalizione. slugSito: indirizzo della pagina del gruppo sul sito del Consiglio (gruppi-consiliari/<slug>) → nome da mostrare; alcuni gruppi hanno due indirizzi.",
+  "slugSito": {
+    "gruppo-alleanza-verdi-e-sinistra": "Alleanza Verdi e Sinistra",
+    "gruppo-sinistra-futura": "Sinistra Futura",
+    "gruppo-movimento-5-stelle": "Movimento 5 Stelle",
+    "gruppo-partito-democratico": "Partito Democratico - Progressisti",
+    "gruppo-uniti-per-alessandra-todde": "Uniti per Todde - Cantiere Riformista",
+    "gruppo-orizzonte-comune": "Orizzonte Comune",
+    "gruppo-misto": "Misto",
+    "gruppo-sardegna-al-centro-20venti": "Sardegna al Centro 20Venti",
+    "gruppo-riformatori-sardi": "Riformatori Sardi",
+    "gruppo-riformatorisardi": "Riformatori Sardi",
+    "gruppo-forza-italia-berlusconi": "Forza Italia",
+    "gruppo-fratelli-ditalia": "Fratelli d'Italia",
+    "gruppo-fratelli-d-italia": "Fratelli d'Italia"
+  },
+  "gruppi": {
+    "Alleanza Verdi e Sinistra": { "sigla": "AVS", "coalizione": "maggioranza", "colore": "#3f9b4f" },
+    "Sinistra Futura": { "sigla": "Sin. Futura", "coalizione": "maggioranza", "colore": "#e86a8f" },
+    "Movimento 5 Stelle": { "sigla": "M5S", "coalizione": "maggioranza", "colore": "#e0b400" },
+    "Partito Democratico - Progressisti": { "sigla": "PD", "coalizione": "maggioranza", "colore": "#d6363b" },
+    "Uniti per Todde - Cantiere Riformista": { "sigla": "Uniti per Todde", "coalizione": "maggioranza", "colore": "#f08a3c" },
+    "Orizzonte Comune": { "sigla": "Orizzonte Comune", "coalizione": "maggioranza", "colore": "#c0398a" },
+    "Misto": { "sigla": "Misto", "colore": "#8a8f98" },
+    "Sardegna al Centro 20Venti": { "sigla": "Sard. al Centro", "coalizione": "opposizione", "colore": "#8e7cc3" },
+    "Riformatori Sardi": { "sigla": "Riformatori", "coalizione": "opposizione", "colore": "#6b8fbf" },
+    "Forza Italia": { "sigla": "FI", "coalizione": "opposizione", "colore": "#2f7fd6" },
+    "Fratelli d'Italia": { "sigla": "FdI", "coalizione": "opposizione", "colore": "#2c4f96" }
+  }
+}

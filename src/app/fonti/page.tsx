@@ -79,9 +79,14 @@ export default function FontiPage() {
               <strong>Circoscrizione dei consiglieri regionali (regioni in chiaro):</strong>
               quando il Consiglio non la pubblica, l&apos;abbiamo ricavata dai
               risultati delle elezioni regionali (Campania) o dalle schede di
-              Wikipedia (Puglia, Basilicata), verificandola a mano. Per i
-              consiglieri subentrati dopo le elezioni è segnata come &quot;da
-              verificare&quot;. In Molise la circoscrizione è unica.
+              Wikipedia (Puglia, Basilicata, Lombardia, Sardegna), verificandola
+              a mano. In Sicilia il collegio è indicato nella scheda di ogni
+              deputato dell&apos;ARS; chi è eletto nel listino del presidente
+              risulta &quot;nella lista regionale&quot;. In Sardegna le
+              circoscrizioni seguono le otto vecchie province: il comune viene
+              abbinato alla sua. Per i consiglieri subentrati dopo le elezioni
+              è segnata come &quot;da verificare&quot;. In Molise la
+              circoscrizione è unica.
             </li>
             <li>
               <strong>Senato:</strong> gli open data indicano la regione di
@@ -112,8 +117,8 @@ export default function FontiPage() {
             </li>
             <li>
               <strong>Riassunti delle leggi:</strong> sono generati con un
-              modello di intelligenza artificiale (Claude) a partire dal PDF
-              ufficiale, e indicati come tali. Per le leggi di bilancio, molto
+              modello di intelligenza artificiale (Claude) a partire dal testo
+              ufficiale (PDF o banca dati del Consiglio), e indicati come tali. Per le leggi di bilancio, molto
               lunghe, il riassunto si basa sugli articoli e non sulle tabelle
               allegate. Possono contenere imprecisioni: fa fede il testo della
               legge, sempre linkato.

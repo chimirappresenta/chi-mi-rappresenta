@@ -235,7 +235,7 @@ export type RegioneEssenziale = {
   codice: string;
   nome: string;
   slug: string;
-  /** true se c'è il Consiglio regionale "in chiaro" (atti, leggi, emiciclo): oggi le sei regioni del Sud. */
+  /** true se c'è il Consiglio regionale "in chiaro" (atti, leggi, emiciclo): oggi le sei regioni del Sud, Sicilia, Sardegna e Lombardia. */
   inChiaro: boolean;
   presidente: Persona | null;
   giunta: Persona[];

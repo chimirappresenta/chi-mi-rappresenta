@@ -1,0 +1,27 @@
+{
+  "_nota": "Gruppi parlamentari dell'Assemblea regionale siciliana (XVIII legislatura), in ordine da sinistra a destra nell'emiciclo. coalizione: maggioranza (centrodestra, a sostegno del presidente Schifani) o opposizione (PD, M5S, Controcorrente, Sud chiama Nord). Democrazia Cristiana e Misto senza coalizione: collocazione da verificare dopo le vicende del 2025. nomiSito: nome del gruppo come scritto sulle pagine dei deputati → nome da mostrare.",
+  "nomiSito": {
+    "Partito Democratico XVIII Legislatura": "Partito Democratico",
+    "Movimento 5 Stelle": "Movimento 5 Stelle",
+    "Controcorrente - Ismaele La Vardera Presidente": "Controcorrente",
+    "Sud chiama Nord per le autonomie": "Sud chiama Nord",
+    "Misto": "Misto",
+    "Democrazia Cristiana": "Democrazia Cristiana",
+    "Popolari e Autonomisti": "Popolari e Autonomisti",
+    "Prima l'Italia - Lega Salvini Premier": "Lega - Prima l'Italia",
+    "Forza Italia all'ARS": "Forza Italia",
+    "Fratelli d'Italia XVIII Legislatura": "Fratelli d'Italia"
+  },
+  "gruppi": {
+    "Partito Democratico": { "sigla": "PD", "coalizione": "opposizione", "colore": "#d6363b" },
+    "Movimento 5 Stelle": { "sigla": "M5S", "coalizione": "opposizione", "colore": "#e0b400" },
+    "Controcorrente": { "sigla": "Controcorrente", "coalizione": "opposizione", "colore": "#f08a3c" },
+    "Sud chiama Nord": { "sigla": "ScN", "coalizione": "opposizione", "colore": "#c0398a" },
+    "Misto": { "sigla": "Misto", "colore": "#8a8f98" },
+    "Democrazia Cristiana": { "sigla": "DC", "colore": "#5aa0c8" },
+    "Popolari e Autonomisti": { "sigla": "Pop. Aut.", "coalizione": "maggioranza", "colore": "#6b8fbf" },
+    "Lega - Prima l'Italia": { "sigla": "Lega", "coalizione": "maggioranza", "colore": "#1f9e9a" },
+    "Forza Italia": { "sigla": "FI", "coalizione": "maggioranza", "colore": "#2f7fd6" },
+    "Fratelli d'Italia": { "sigla": "FdI", "coalizione": "maggioranza", "colore": "#2c4f96" }
+  }
+}

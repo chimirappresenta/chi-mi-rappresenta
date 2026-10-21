@@ -1,0 +1,33 @@
+{
+  "_nota": "Gruppi del Consiglio regionale della Lombardia (XII legislatura), in ordine da sinistra a destra nell'emiciclo. coalizione: maggioranza (centrodestra, a sostegno del presidente Fontana) o opposizione (centrosinistra e M5S; Lombardia Migliore è il gruppo nato dalla lista Moratti). Futuro Nazionale e Misto senza coalizione: collocazione da verificare. nomiSito: nome del gruppo come scritto negli open data del Consiglio (in maiuscolo) → nome da mostrare.",
+  "nomiSito": {
+    "ALLEANZA VERDI E SINISTRA E RETI CIVICHE": "Alleanza Verdi e Sinistra e Reti Civiche",
+    "MOVIMENTO 5 STELLE": "Movimento 5 Stelle",
+    "PARTITO DEMOCRATICO - LOMBARDIA DEMOCRATICA E PROGRESSISTA": "Partito Democratico",
+    "PATTO CIVICO": "Patto Civico",
+    "ITALIA VIVA - RENEW EUROPE": "Italia Viva - Renew Europe",
+    "LOMBARDIA MIGLIORE": "Lombardia Migliore",
+    "MISTO": "Misto",
+    "FUTURO NAZIONALE - VANNACCI": "Futuro Nazionale - Vannacci",
+    "NOI MODERATI - RINASCIMENTO SGARBI - FONTANA PRESIDENTE": "Noi Moderati - Rinascimento Sgarbi",
+    "LOMBARDIA IDEALE - FONTANA PRESIDENTE": "Lombardia Ideale - Fontana Presidente",
+    "FORZA ITALIA BERLUSCONI PER FONTANA - PARTITO POPOLARE EUROPEO": "Forza Italia",
+    "LEGA - LEGA LOMBARDA SALVINI": "Lega - Lega Lombarda Salvini",
+    "FRATELLI D'ITALIA": "Fratelli d'Italia"
+  },
+  "gruppi": {
+    "Alleanza Verdi e Sinistra e Reti Civiche": { "sigla": "AVS", "coalizione": "opposizione", "colore": "#3f9b4f" },
+    "Movimento 5 Stelle": { "sigla": "M5S", "coalizione": "opposizione", "colore": "#e0b400" },
+    "Partito Democratico": { "sigla": "PD", "coalizione": "opposizione", "colore": "#d6363b" },
+    "Patto Civico": { "sigla": "Patto Civico", "coalizione": "opposizione", "colore": "#f08a3c" },
+    "Italia Viva - Renew Europe": { "sigla": "IV", "coalizione": "opposizione", "colore": "#c0398a" },
+    "Lombardia Migliore": { "sigla": "Lomb. Migliore", "coalizione": "opposizione", "colore": "#3b6fd1" },
+    "Misto": { "sigla": "Misto", "colore": "#8a8f98" },
+    "Futuro Nazionale - Vannacci": { "sigla": "Futuro Naz.", "colore": "#6a4c93" },
+    "Noi Moderati - Rinascimento Sgarbi": { "sigla": "Noi Moderati", "coalizione": "maggioranza", "colore": "#8e7cc3" },
+    "Lombardia Ideale - Fontana Presidente": { "sigla": "Lomb. Ideale", "coalizione": "maggioranza", "colore": "#6b8fbf" },
+    "Forza Italia": { "sigla": "FI", "coalizione": "maggioranza", "colore": "#2f7fd6" },
+    "Lega - Lega Lombarda Salvini": { "sigla": "Lega", "coalizione": "maggioranza", "colore": "#1f9e9a" },
+    "Fratelli d'Italia": { "sigla": "FdI", "coalizione": "maggioranza", "colore": "#2c4f96" }
+  }
+}

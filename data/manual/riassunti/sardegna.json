@@ -1,0 +1,405 @@
+{
+  "_nota": "Riassunti scritti con Claude (claude-opus-5-5) leggendo il testo ufficiale delle leggi (PDF pubblicati dal Consiglio regionale della Sardegna). Si possono correggere a mano: la pipeline non li sovrascrive.",
+  "leggi": {
+    "2026-24": {
+      "testo": "Stanzia 300 mila euro per l'agenzia ARGEA, che deve fare i controlli necessari a convalidare le superfici a \"pratiche locali tradizionali\" (pascoli tradizionali) ai fini degli aiuti della Politica agricola comune.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-23": {
+      "testo": "Proroga ancora, fino al 28 febbraio 2027, la validità delle graduatorie dei concorsi già prorogate a inizio 2026. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-22": {
+      "testo": "Chiarisce che il divieto di cumulare i compensi per incarichi legati al mandato elettivo, previsto dalla legge di stabilità 2017, riguarda solo gli incarichi in enti locali e regionali per i quali la carica elettiva è un requisito per la nomina.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-21": {
+      "testo": "Tutela bambini e ragazzi con diabete di tipo 1 a scuola e nello sport: formazione del personale, una rete diabetologica pediatrica con un centro di riferimento regionale, presa in carico globale e un comitato di coordinamento. Stanzia circa 1,2 milioni di euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-20": {
+      "testo": "Variazioni di bilancio con molte misure. Contro il caro carburanti e fertilizzanti legato alla crisi in Medio Oriente stanzia 50 milioni di euro di contributi a fondo perduto per i maggiori costi da marzo a dicembre 2026: 20 milioni per autotrasporto e trasporto marittimo, 25 per le aziende agricole e 5 per pesca e acquacoltura. Prevede anche 20 milioni di euro per nuove case e ospedali di comunità, fondi a enti locali, trasporti, scuola, sport e cultura, agricoltura, industria, ambiente, turismo e lavoro, il programma \"Vivi la Sardegna\" e il riconoscimento di debiti fuori bilancio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-19": {
+      "testo": "Contributo di 15 milioni di euro l'anno, dal 2026 al 2028, ai comuni sardi (escluso Cagliari, già finanziato a parte) per ridurre i costi della raccolta dei rifiuti, ripartito in base alla popolazione.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-18": {
+      "testo": "Assestamento del bilancio 2026-2028: aggiorna i conti con i risultati del 2025, copre il disavanzo provvisorio delle aziende sanitarie e riconosce debiti fuori bilancio. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-17": {
+      "testo": "Proroga dal 31 luglio al 31 agosto 2026 la validità delle graduatorie dei concorsi prevista dalla legge regionale n. 3 del 2026. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-16": {
+      "testo": "Approva il rendiconto 2025, cioè i conti consuntivi della Regione Sardegna, e il rendiconto consolidato con gli enti regionali. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-15": {
+      "testo": "Modifica la legge sulle ferrovie turistiche: la Giunta approva nuove linee guida per lo statuto della Fondazione Trenino verde, con gli assessori al turismo e agli enti locali nella sua giunta esecutiva, e vengono abrogati gli articoli sugli organi della Fondazione.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-14": {
+      "testo": "Nuova legge sulla protezione civile regionale: compiti di Regione e comuni, colonna mobile, sistemi di allerta, piani di emergenza, rete radio, stato di mobilitazione ed emergenze di rilievo regionale, ordinanze e misure per tornare alla normalità.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-13": {
+      "testo": "Rilancia la coltivazione del mandorlo: tutela delle varietà autoctone sarde, un piano triennale e contributi per nuovi impianti e per recuperare i mandorleti esistenti. Stanzia circa 5,1 milioni di euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-12": {
+      "testo": "Precisa che i fondi annuali ai gruppi del Consiglio regionale per il personale coprono anche i costi per la sicurezza sul lavoro e la sorveglianza sanitaria.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-11": {
+      "testo": "Modifica la legge sul comparto unico Regione-enti locali: i criteri per la mobilità del personale tra Regione ed enti sono decisi dalla Giunta sentiti i sindacati.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-10": {
+      "testo": "Tutela il pagamento dei professionisti (tecnici, progettisti) che presentano pratiche alla pubblica amministrazione per conto di privati: prima di chiudere il procedimento l'ente acquisisce la dichiarazione del professionista sul compenso ricevuto. Serve anche a contrastare l'evasione fiscale.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-9": {
+      "testo": "Regole per la qualità del lavoro negli appalti pubblici in Sardegna: premi nelle gare per le imprese che garantiscono sicurezza e stabilità dei lavoratori, contrasto al dumping contrattuale e paga minima di 9 euro lordi l'ora nei contratti applicati. Istituisce un comitato regionale di monitoraggio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-8": {
+      "testo": "Istituisce il Reddito di studio (REST): un sussidio mensile per chi non ha completato gli studi e vuole conseguire un titolo di studio più alto. Crea un fondo regionale apposito con 3 milioni di euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-7": {
+      "testo": "Contributi alle famiglie per far partecipare i figli ai centri estivi quando le scuole sono chiuse, per contrastare le disuguaglianze e aiutare a conciliare lavoro e famiglia. Stanzia fino a 3 milioni di euro l'anno.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-6": {
+      "testo": "Legge sull'intelligenza artificiale in Sardegna: un sistema di governo regionale con Sardegna Ricerche, un hub e un osservatorio regionali, regole per l'uso dell'IA nella pubblica amministrazione e in sanità, sicurezza informatica, formazione e sostegno alle imprese.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-5": {
+      "testo": "Conclude il trasferimento in proprietà di aree e alloggi assegnati a Gairo, Cardedu e Osini dopo l'alluvione del 1951, che non erano mai stati formalmente intestati agli aventi diritto: elenco degli aventi diritto, pubblicità e passaggio di proprietà.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-4": {
+      "testo": "Regole per la gestione e la valorizzazione delle ferrovie turistiche della Sardegna (come il Trenino verde): gestione delle linee, circolazione dei treni storici e dei ferrocicli, sicurezza e organi della Fondazione Trenino verde storico della Sardegna.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-3": {
+      "testo": "Permette agli enti e alle agenzie regionali di aumentare, con fondi propri, le risorse per le posizioni e le progressioni di carriera del personale e proroga la validità delle graduatorie dei concorsi.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-2": {
+      "testo": "Approva il bilancio di previsione della Regione per il 2026-2028: circa 12,6 miliardi di euro di entrate e spese di competenza nel 2026. È l'atto contabile che autorizza la Regione a incassare e spendere.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-1": {
+      "testo": "Legge di stabilità 2026, con misure in molti settori: sanità e politiche sociali, istruzione, cultura e sport, agricoltura, lavoro, enti locali, lavori pubblici e sistema idrico, trasporti, ambiente, industria e digitale, turismo e contrasto allo spopolamento.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-36": {
+      "testo": "Proroga fino al 31 dicembre 2026 la validità di alcune graduatorie dei concorsi dell'agenzia agricola LAORE in scadenza a fine 2025.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-35": {
+      "testo": "Vincola a interventi sociali e per gli enti locali i 570 milioni di euro versati dallo Stato nel 2025 in base all'accordo sulla finanza pubblica del 5 dicembre 2025, distribuendoli tra il 2026 e il 2028.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-34": {
+      "testo": "Autorizza la Regione a spendere in \"esercizio provvisorio\", cioè in attesa che sia approvato il bilancio 2026: vale per il mese di gennaio 2026.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-31": {
+      "testo": "Modifica la legge del 2024 sulle aree idonee e non idonee agli impianti di energia rinnovabile: se un progetto ricade sia in aree idonee sia in aree non idonee prevale la non idoneità, salvo per fotovoltaico e accumuli nelle zone industriali e per gli impianti per l'autoconsumo o le comunità energetiche.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-30": {
+      "testo": "Aggiorna i requisiti per lavorare come interprete della lingua dei segni italiana (LIS) e della LIS tattile, adeguandoli alla normativa nazionale.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-29": {
+      "testo": "Corregge la classificazione contabile di uno stanziamento di 30 milioni di euro previsto dalla legge di stabilità 2025. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-28": {
+      "testo": "Attua il comparto unico di contrattazione per il personale della Regione e degli enti locali sardi e istituisce l'ARAN Sardegna, l'agenzia che tratta i contratti di lavoro con i sindacati.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-27": {
+      "testo": "Stanzia 2 milioni di euro nel 2025 come cofinanziamento regionale per il rimborso dei libri di testo.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-26": {
+      "testo": "Fissa tempi e procedure con cui il servizio sanitario regionale assiste le persone che chiedono il suicidio medicalmente assistito nei casi ammessi dalla sentenza della Corte costituzionale n. 242 del 2019: istituisce una commissione multidisciplinare che verifica i requisiti e prevede che le prestazioni siano gratuite.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-25": {
+      "testo": "Aggiorna la legge regionale sulla formazione professionale ai principi del piano nazionale \"Nuove competenze - Transizioni\", collegato al PNRR.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-24": {
+      "testo": "Assestamento del bilancio 2025-2027 con molte misure: aggiorna i conti con i risultati del 2024, copre il disavanzo delle aziende sanitarie, interviene contro la dermatite nodulare dei bovini e su sanità, agricoltura, lavori pubblici, ambiente, protezione civile, lavoro e turismo, e riconosce debiti fuori bilancio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-23": {
+      "testo": "Modifica le regole sul personale del gruppo misto del Consiglio regionale, sull'indennità dei sindaci e sulla composizione degli uffici di gabinetto degli assessori.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-22": {
+      "testo": "Aiuti straordinari agli allevatori colpiti dagli abbattimenti dovuti ai focolai di dermatite nodulare contagiosa dei bovini: 18,2 milioni di euro nel 2025 per ricostituire le mandrie e far ripartire le aziende.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-21": {
+      "testo": "Approva il rendiconto 2024, cioè i conti consuntivi della Regione Sardegna, e il rendiconto consolidato con gli enti regionali. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-20": {
+      "testo": "Misure straordinarie contro l'emergenza idrica: rafforza il ruolo dell'Ente acque della Sardegna (ENAS) nella gestione dei rischi delle dighe e stanzia fondi per superare la crisi idrica nel nord-ovest dell'isola.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-19": {
+      "testo": "Esonera i gruppi di azione locale (GAL e FLAG) e gli altri enti con finalità pubbliche che attuano programmi di sviluppo dall'obbligo di presentare garanzie finanziarie per ricevere i fondi.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-18": {
+      "testo": "Coordina le norme regionali su urbanistica ed edilizia con il decreto nazionale \"salva casa\" del 2024: permesso di costruire in deroga ai piani urbanistici, interventi fatti con un titolo poi annullato, abrogazione di norme superate.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-17": {
+      "testo": "Modifica gli indennizzi agli apicoltori: non più solo per la perdita di arnie, ma per i danni alle produzioni apistiche, calcolati sugli alveari censiti. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-16": {
+      "testo": "Disciplina il noleggio con conducente (NCC) in attuazione della legge nazionale e integra la legge regionale sul trasporto pubblico locale.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-15": {
+      "testo": "Proroga fino al 31 dicembre 2025 alcune misure urgenti sull'assistenza primaria (medici di base e continuità assistenziale) in attesa delle nuove assegnazioni delle sedi. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-14": {
+      "testo": "Proroga fino al 31 dicembre 2026 la validità di alcune graduatorie di concorsi dell'ARPAS e delle aziende sanitarie.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-13": {
+      "testo": "Approva il bilancio di previsione della Regione per il 2025-2027: circa 12,3 miliardi di euro di entrate e spese di competenza nel 2025. È l'atto contabile che autorizza la Regione a incassare e spendere.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-12": {
+      "testo": "Legge di stabilità 2025, con misure in molti settori: sanità e politiche sociali, istruzione e ricerca, agricoltura e pesca, lavoro, enti locali, lavori pubblici e sistema idrico, trasporti, ambiente, industria e digitale, turismo, cultura e sport.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-11": {
+      "testo": "Modifica i criteri per concedere l'Indennità regionale per la fibromialgia (IRF) alle persone con questa malattia.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-10": {
+      "testo": "Riapre i termini per i comuni che chiedono di passare a un'altra provincia nel riordino territoriale e rinvia le elezioni degli organi delle province e delle città metropolitane, prorogando gli amministratori straordinari.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-9": {
+      "testo": "Autorizza la Regione a spendere in \"esercizio provvisorio\", cioè in attesa che sia approvato il bilancio 2025: lo proroga fino al 30 aprile 2025.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-8": {
+      "testo": "Riorganizza in via urgente il servizio sanitario regionale modificando la riforma del 2020: adeguamento delle aziende sanitarie e loro commissariamento, norme sul personale e abrogazioni.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-7": {
+      "testo": "Permette ai consorzi di bonifica, su delega della Regione o degli enti locali, di eseguire la manutenzione straordinaria delle lagune e degli stagni usati per la pesca (compendi ittici).",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-6": {
+      "testo": "Autorizza la Regione a spendere in \"esercizio provvisorio\", cioè in attesa che sia approvato il bilancio 2025: lo proroga fino al 31 marzo 2025.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-5": {
+      "testo": "Modifica le regole sui fondi e sul funzionamento dei gruppi del Consiglio regionale e sulla cessazione anticipata dei contratti del loro personale.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-4": {
+      "testo": "Tutela la flora autoctona della Sardegna: elenchi delle specie protette, divieti di raccolta e sanzioni, una commissione tecnico-scientifica, centri per la conservazione della biodiversità e un piano di censimento.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-3": {
+      "testo": "Nei nuovi comuni capoluogo di provincia nati dal riordino del 2024 la sede di segreteria comunale non viene riclassificata: resta la classe attuale ai fini della nomina del segretario.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-2": {
+      "testo": "Proroga fino al 30 giugno 2025, in attesa delle nuove assegnazioni delle sedi, le misure urgenti sull'assistenza primaria e sulla continuità assistenziale. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-1": {
+      "testo": "Autorizza la Regione a spendere in \"esercizio provvisorio\", cioè in attesa che sia approvato il bilancio 2025: lo proroga fino al 28 febbraio 2025.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-25": {
+      "testo": "Contributi fino a 3.000 euro l'anno per l'affitto degli studenti universitari fuori sede, sia in Sardegna sia fuori dall'isola.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-24": {
+      "testo": "Promuove un Gruppo europeo di cooperazione territoriale (GECT) tra isole del Mediterraneo (Sardegna, Sicilia, Corsica, Baleari e isole greche) per affrontare insieme gli svantaggi dell'insularità. Stanzia 200 mila euro l'anno.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-23": {
+      "testo": "Promuove la Macroregione del Mediterraneo occidentale con Corsica e Baleari, su temi come trasporti, identità culturale e linguistica e sviluppo economico. Stanzia 100 mila euro l'anno.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-22": {
+      "testo": "Elimina l'indennità prevista per i dirigenti esterni dell'amministrazione regionale revocati dall'incarico e abroga la legge n. 15 del 2024 sullo stesso tema.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-21": {
+      "testo": "Autorizza la Regione a spendere in \"esercizio provvisorio\", cioè in attesa che sia approvato il bilancio 2025: vale per il mese di gennaio 2025.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-20": {
+      "testo": "Individua le aree idonee, non idonee e ordinarie per installare impianti di energia rinnovabile in Sardegna e semplifica le autorizzazioni, con l'obiettivo di conciliare la transizione energetica con la tutela del paesaggio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-19": {
+      "testo": "Corregge la legge di variazione del bilancio di novembre 2024, tra l'altro sugli importi delle borse di studio per le scuole di specializzazione sanitarie non mediche.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-18": {
+      "testo": "Variazioni di bilancio con molte misure: circa 162 milioni di euro per coprire le perdite del servizio sanitario regionale, fondi per il PNRR in sanità, enti locali, agricoltura e pesca, ambiente, protezione civile, turismo e lavoro, e riconoscimento di debiti fuori bilancio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-17": {
+      "testo": "Modifica le regole sui cantieri comunali per l'occupazione finanziati dalla Regione.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-16": {
+      "testo": "Approva il rendiconto 2023, cioè i conti consuntivi della Regione Sardegna, e il rendiconto consolidato con gli enti regionali. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-15": {
+      "testo": "Stabilisce che l'indennità per i direttori generali esterni revocati non spetta a chi, dopo la revoca, riprende il proprio posto di lavoro a tempo indeterminato che aveva conservato. È stata poi abrogata dalla legge regionale n. 22 del 2024.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-14": {
+      "testo": "Stanzia 1,3 milioni di euro per la campagna di immunizzazione dei neonati contro il virus respiratorio sinciziale (VRS), causa di bronchioliti, nel primo anno di vita.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-13": {
+      "testo": "Assestamento del bilancio 2024-2026 con molte misure: liste d'attesa in sanità, lavori pubblici, aree industriali ed energia, protezione civile, siccità, ambiente, cantieri per il lavoro, sostegno sociale, lingua sarda, commercio e turismo, passaggio generazionale nell'artigianato.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-12": {
+      "testo": "Permette alle aziende sanitarie di usare fondi propri per non interrompere i progetti di assistenza primaria e continuità assistenziale (guardia medica) fino al 31 dicembre 2024.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-11": {
+      "testo": "Permette al sindaco di prorogare fino a sei mesi l'incarico del capitano della compagnia barracellare scaduto, in caso di emergenze come la campagna antincendio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-10": {
+      "testo": "Proroga al 31 dicembre 2025 la validità delle graduatorie dei concorsi della Regione, delle sue agenzie e delle aziende sanitarie in scadenza entro il 2024. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-9": {
+      "testo": "Norme transitorie per completare il riordino delle province e delle città metropolitane sarde previsto dalla riforma del 2021, con fondi per avviare i nuovi enti.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-8": {
+      "testo": "Modifica le regole sui contributi ai gruppi del Consiglio regionale e sull'autonomia di bilancio del Consiglio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-7": {
+      "testo": "Aiuti agli enti locali con i conti in difficoltà, in particolare per debiti dovuti a espropri, sentenze o transazioni.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-6": {
+      "testo": "Stanzia 1,4 milioni di euro per la protezione civile nel 2024: 500 mila euro per il supporto dei Vigili del fuoco alla campagna antincendio e 900 mila per il salvamento a mare.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-5": {
+      "testo": "Misure urgenti per il paesaggio: per un massimo di diciotto mesi vieta nuovi impianti di produzione e accumulo di energia rinnovabile in molte aree, in attesa del piano regionale di sviluppo e dell'aggiornamento del piano paesaggistico. Contiene anche norme sull'Agenzia regionale dell'energia.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-4": {
+      "testo": "Rinvia le elezioni dei presidenti e dei consigli provinciali, da indire in un'unica tornata entro il 30 aprile 2025, dopo il riordino delle province.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    }
+  }
+}

@@ -22,7 +22,7 @@ const FAQ = [
   },
   {
     d: "Perché atti e leggi regionali solo per alcune regioni?",
-    r: "Comuni, Regioni, Parlamento ed Europa coprono tutta Italia. Il Consiglio regionale «in chiaro» (atti, leggi spiegate, mappa dei consiglieri) richiede di leggere il sito di ogni Consiglio, ognuno fatto in modo diverso: siamo partiti dalle sei regioni del Sud (Abruzzo, Molise, Campania, Puglia, Basilicata e Calabria) e aggiungeremo le altre a gruppi.",
+    r: "Comuni, Regioni, Parlamento ed Europa coprono tutta Italia. Il Consiglio regionale «in chiaro» (atti, leggi spiegate, mappa dei consiglieri) richiede di leggere il sito di ogni Consiglio, ognuno fatto in modo diverso: siamo partiti dalle regioni del Sud (Abruzzo, Molise, Campania, Puglia, Basilicata e Calabria), dalle Isole (Sicilia e Sardegna) e dalla Lombardia, e aggiungeremo le altre a gruppi.",
   },
   {
     d: "Come scrivo al mio consigliere regionale?",
@@ -117,7 +117,7 @@ export default function Home() {
               href: "/consigli-in-chiaro/",
               icona: "📜",
               titolo: "Capire cosa decide la Regione",
-              testo: "Le leggi spiegate in parole semplici (per ora nelle regioni del Sud).",
+              testo: "Le leggi spiegate in parole semplici (per ora al Sud, nelle Isole e in Lombardia).",
             },
             {
               href: "/chiedi-un-documento/",

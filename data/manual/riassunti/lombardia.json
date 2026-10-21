@@ -1,0 +1,385 @@
+{
+  "_nota": "Riassunti scritti con Claude (claude-opus-5-5) leggendo il testo ufficiale delle leggi (banca dati NormeLombardia del Consiglio regionale della Lombardia). Si possono correggere a mano: la pipeline non li sovrascrive.",
+  "leggi": {
+    "2026-24": {
+      "testo": "Nuove regole per la gestione dei boschi e dei terreni agro-silvo-pastorali. Nascono gli ambiti di gestione forestale sostenibile (AGFS): i proprietari, riuniti in assemblea, affidano la gestione a un unico soggetto, e la Regione può intervenire sui terreni abbandonati o di proprietari irreperibili. Sono previsti contributi e pagamenti per i servizi ecosistemici delle foreste (acqua, biodiversità, difesa dal dissesto). Stanziamenti fino a 250 mila euro l'anno.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-23": {
+      "testo": "Interventi contro l'obesità, riconosciuta come malattia cronica dalla legge nazionale del 2025. Istituisce un tavolo regionale permanente, un percorso di prevenzione, diagnosi e cura per i pazienti, campagne di sensibilizzazione e un aiuto per l'accesso alle terapie per le persone in condizione di fragilità. Stanzia fino a 1 milione di euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-22": {
+      "testo": "Assestamento del bilancio 2026-2028: aggiorna i conti con i risultati del 2025 e contiene molte altre misure. Tra queste: fondi per gli investimenti dei comuni, misure per la sanità lombarda, nuove regole per la pesca sportiva (libretto digitale delle catture, contributi, un tavolo regionale), un fondo contro l'evasione dei tributi regionali, un fondo per le tecnologie strategiche e contributi a enti e parrocchie del territorio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-21": {
+      "testo": "Approva il rendiconto 2025, cioè i conti consuntivi della Regione: stanziamenti finali di circa 49 miliardi di euro, a fronte dei 43 miliardi previsti a inizio anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-20": {
+      "testo": "Fissa le regole per il personale delle segreterie politiche: quelle del presidente, degli assessori e dei sottosegretari, dell'Ufficio di presidenza e dei gruppi del Consiglio. Stabilisce i compiti di responsabili, coordinatori e addetti, il loro stipendio con riferimento ai contratti pubblici e un tetto: la spesa non può superare quella del 2022.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-19": {
+      "testo": "Permette ai cittadini italiani senza dimora e senza assistenza sanitaria di iscriversi alle liste delle ASST, anche su segnalazione dei servizi sociali. Così possono scegliere un medico di famiglia o un pediatra e avere le prestazioni garantite dai LEA. Prevede campagne informative e una cabina di regia. Stanzia fino a 500 mila euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-17": {
+      "testo": "Legge di semplificazione che modifica molte leggi regionali. Tocca, tra l'altro, la tutela del suolo agricolo, la pesca, le attività di estetista e acconciatore, il commercio, i trasporti, i territori montani e la sanità: per esempio introduce regole sulla pulizia degli impianti di aerazione e sui crematori mobili per animali. Sopprime alcuni organismi non più attivi. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-16": {
+      "testo": "Nuove regole per autorizzare le linee e gli impianti elettrici di distribuzione, cioè quelli che non fanno parte della rete nazionale. Prevede un'autorizzazione unica, una procedura abbreviata, l'autocertificazione o l'attività libera per gli interventi minori, oltre a regole su indennizzi, controlli e sanzioni. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-15": {
+      "testo": "Piccole modifiche a diverse leggi regionali: accordi di programmazione negoziata, turismo, attività produttive, energia, case popolari ed edilizia. Per esempio, le variazioni degli impegni economici negli accordi locali non sono più considerate modifiche sostanziali, purché non costino di più alla Regione. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-14": {
+      "testo": "Ratifica un atto aggiuntivo, firmato il 27 maggio 2026, all'intesa del 2017 tra Lombardia e Piemonte sulla vigilanza dell'Associazione Irrigazione Est Sesia, il consorzio di irrigazione che opera tra le due regioni. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-13": {
+      "testo": "Testo unico che riunisce in una sola legge le norme regionali sulla disabilità e sulla cura. Comprende il diritto alla vita indipendente (progetto di vita personalizzato, budget di progetto, assistente personale), il lavoro delle assistenti familiari (badanti), con sportelli, registri e formazione, e il sostegno ai caregiver familiari.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-12": {
+      "testo": "Contro il disagio giovanile e le dipendenze digitali, la Regione sostiene corsi di educazione digitale nelle scuole, soprattutto medie, con l'Ufficio scolastico regionale e il Corecom. Alla fine gli studenti ricevono un \"patentino digitale\". Istituisce anche un \"Patentino day\". Stanzia fino a 200 mila euro l'anno.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-11": {
+      "testo": "Regole per costruire e ampliare i data center in Lombardia. Dà priorità alle aree industriali dismesse e agli impianti efficienti (energia rinnovabile, recupero del calore, poco consumo d'acqua), con premi e procedure più rapide per chi rispetta questi criteri. Istituisce una cabina di regia per il monitoraggio. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-9": {
+      "testo": "Valorizza i mulini storici costruiti prima del 1948: contributi per recuperarli, farli conoscere e aprirli al pubblico, anche per produrre energia rinnovabile. Istituisce la Settimana regionale dei mulini storici. Stanzia fino a 100 mila euro l'anno.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-8": {
+      "testo": "Testo unico sui simboli della Regione: stemma (una croce curvilinea argentata su campo verde, la cosiddetta rosa camuna), gonfalone, bandiera, festa regionale lombarda e regole per usarli. Disciplina anche l'onorificenza del Consiglio regionale: chi la può proporre e come viene conferita o revocata.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-7": {
+      "testo": "Nuova legge sull'artigianato, che sostituisce le norme precedenti. Definisce chi è artigiano e i requisiti dell'impresa artigiana, regola l'iscrizione all'albo presso le Camere di commercio e crea il marchio \"Qualità artigiana\". Prevede aiuti per il credito, la digitalizzazione, il passaggio dell'impresa ai giovani e le produzioni tipiche.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-6": {
+      "testo": "Per proteggere il lago di Garda dall'arrivo di organismi estranei dannosi per i pesci, obbliga a sanificare e trattare con vernice antivegetativa scafi e motori di navi e barche da diporto che arrivano da altri laghi o fiumi, con un certificato di avvenuta pulizia. Chi non lo fa rischia fino a 2.066 euro di sanzione (la metà per i piccoli natanti). Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-5": {
+      "testo": "Regole sulla protezione dei lavoratori esposti all'amianto e ad altre fibre pericolose: come scegliere, provare, usare e mantenere le maschere e gli altri dispositivi di protezione delle vie respiratorie, e l'addestramento necessario. I controlli spettano alle ATS. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-4": {
+      "testo": "Regole per i corsi su salute e sicurezza nei luoghi di lavoro: crea un elenco regionale dei soggetti che possono fare formazione, fissa come devono svolgersi i corsi e prevede sanzioni per chi non rispetta le regole. L'obiettivo è prevenire infortuni e malattie professionali.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-3": {
+      "testo": "Promuove l'\"ideale sportivo\" (rispetto delle regole, lealtà, inclusione) e il volontariato nello sport. Istituisce una giornata regionale, sostiene esperienze di volontariato e formazione nelle associazioni sportive dilettantistiche e la promozione delle Olimpiadi Milano Cortina 2026. Stanzia fino a 5 milioni di euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-2": {
+      "testo": "Aggiorna la legge regionale sui trasporti: mobilità condivisa, biglietti digitali e integrazione delle tariffe, sicurezza a bordo, regole per taxi e noleggio con conducente, clausola sociale per i lavoratori quando cambia il gestore, porti dei Navigli e idrosuperfici. Contiene anche norme sul demanio del lago di Garda.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-1": {
+      "testo": "Il comune di Lirio viene incorporato nel comune di Montalto Pavese, in provincia di Pavia. La Regione rimborsa fino a 7.526 euro per le spese del referendum.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-21": {
+      "testo": "Approva il bilancio di previsione della Regione per il 2026-2028: circa 43,9 miliardi di euro di entrate e spese di competenza nel 2026. È l'atto contabile che autorizza la Regione a incassare e spendere.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-20": {
+      "testo": "Legge di stabilità 2026: rifinanzia le leggi regionali di spesa per il 2026-2028 e prevede altre misure, tra cui interventi per la sanità e i ticket, un fondo \"Start up radar Lombardia\" per l'innovazione tra start-up e imprese, aiuti per le case popolari e fondi per gli investimenti dei comuni.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-19": {
+      "testo": "Modifiche a varie leggi regionali. Tra le novità: contributi anche alle unioni di comuni, regole su agricoltura e caccia, nuove sanzioni, norme sulle case popolari (anche alloggi in permuta) e aiuti per autisti e personale del trasporto pubblico vittime di aggressioni.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-18": {
+      "testo": "Legge di semplificazione che modifica molte leggi regionali: agricoltura, caccia, commercio, istruzione e formazione, energia e cultura. Sulle case popolari, permette ai comuni di chiedere che alloggi non assegnati o molto degradati smettano di essere case popolari, destinando al servizio abitativo altri alloggi al loro posto. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-17": {
+      "testo": "Contro la povertà sanitaria, favorisce il recupero e la donazione di farmaci non scaduti e di altri prodotti sanitari invenduti o inutilizzati, attraverso accordi con farmacie e associazioni e contributi agli enti del Terzo settore. Istituisce un osservatorio regionale. Stanzia fino a 150 mila euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-16": {
+      "testo": "Modifica la legge sulla caccia per individuare i valichi montani attraversati dalle rotte degli uccelli migratori, dove la caccia è vietata, e regola la fase di transizione in attesa della loro individuazione. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-15": {
+      "testo": "Tutela il paesaggio della pianura lombarda e i prati stabili, i prati mai arati tipici della tradizione agricola. Prevede campagne di comunicazione, una giornata regionale e una consulta dedicata. Stanzia fino a 100 mila euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-14": {
+      "testo": "Allarga i confini del Parco regionale Nord Milano nel comune di Cinisello Balsamo, includendo aree che facevano parte del parco locale \"Grugnotorto Villoresi e Brianza Centrale\". Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-13": {
+      "testo": "Assestamento del bilancio 2025-2027: aggiorna i conti con i risultati del 2024, modifica alcune tasse e disposizioni finanziarie regionali e recepisce gli impegni presi con il Governo.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-12": {
+      "testo": "Approva il rendiconto 2024, cioè i conti consuntivi della Regione: stanziamenti finali di circa 46,6 miliardi di euro, a fronte dei 41,1 miliardi previsti a inizio anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-11": {
+      "testo": "Legge regionale sul clima: punta alla neutralità carbonica e all'adattamento ai cambiamenti climatici. Prevede un piano regionale energia-ambiente-clima, misure per le energie rinnovabili e per decarbonizzare gli edifici, patti territoriali di sostenibilità, aiuti ai comuni e un Comitato regionale per il clima.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-10": {
+      "testo": "Promuove e tutela la liuteria cremonese, patrimonio immateriale UNESCO, insieme alla Camera di commercio di Cremona-Mantova-Pavia: azioni contro le contraffazioni, promozione degli strumenti fatti a Cremona e un rapporto annuale sul mercato. Stanzia fino a 100 mila euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-9": {
+      "testo": "Interventi per chi soffre di dolore pelvico cronico, come endometriosi e vulvodinia: una rete regionale di centri per diagnosi e cura, misure di sostegno ai trattamenti e campagne informative con le associazioni. Stanzia fino a 100 mila euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-8": {
+      "testo": "Legge di semplificazione: tocca procedimenti amministrativi, commercio, fiere, sanità ed edilizia. Introduce anche regole sulle valutazioni ambientali degli impianti di energia rinnovabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-7": {
+      "testo": "Legge di semplificazione che modifica molte leggi regionali. Tra l'altro cambia la procedura con cui un comune chiede di passare a un'altra provincia (delibera a maggioranza assoluta del consiglio comunale, con possibile referendum consultivo), introduce programmi sperimentali di consegna di materiale sanitario con i droni e misure temporanee per le aree colpite da calamità naturali. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-5": {
+      "testo": "Sostiene la musica amatoriale lombarda: bande, cori, fanfare e gruppi folcloristici. Crea un elenco regionale dei complessi musicali, una Settimana della musica lombarda e il riconoscimento di \"Borgo custode del patrimonio musicale\". Stanzia fino a 350 mila euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-4": {
+      "testo": "Interventi per prevenire e risolvere il sovraindebitamento di famiglie e piccole imprese: informazione e formazione, assistenza per uscire dai debiti, misure di sostegno, una cabina di regia e un osservatorio regionale. Stanzia fino a 400 mila euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-3": {
+      "testo": "Contro il disagio giovanile nelle città, la Regione dà contributi a progetti di \"educativa di strada\": educatori che incontrano i ragazzi nei luoghi che frequentano. Stanzia 100 mila euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-2": {
+      "testo": "Aggiorna la legge regionale contro bullismo e cyberbullismo per contrastare anche le bande giovanili, le cosiddette \"baby gang\", con azioni sperimentali e protocolli d'intesa con l'Ufficio scolastico regionale e le altre istituzioni competenti. Stanzia fino a 450 mila euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-1": {
+      "testo": "Introduce l'indennità differita per i consiglieri regionali eletti dal 2023 in poi: un assegno calcolato con il metodo contributivo, che spetta dopo almeno cinque anni di mandato e dai 65 anni di età. È finanziata con trattenute sull'indennità dei consiglieri che scelgono di aderire; chi non aderisce entro 90 giorni vi rinuncia.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-23": {
+      "testo": "Approva il bilancio di previsione della Regione per il 2025-2027: circa 43 miliardi di euro di entrate e spese di competenza nel 2025. È l'atto contabile che autorizza la Regione a incassare e spendere.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-22": {
+      "testo": "Legge di stabilità 2025: rifinanzia le leggi regionali di spesa per il 2025-2027, autorizza nuove spese e investimenti pubblici, riconosce debiti fuori bilancio e modifica alcune norme sui tributi regionali.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-21": {
+      "testo": "Collegato al bilancio 2025 con varie misure: una targa per le scuole di sci e alpinismo attive da almeno quarant'anni e modifiche a leggi su bonifica dell'amianto, funzioni degli enti locali, ispezioni negli impianti a rischio di incidente rilevante, rifiuti e istruzione, con stanziamenti fino a 2 milioni di euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-20": {
+      "testo": "Legge di semplificazione che modifica molte leggi regionali: agricoltura, caccia, commercio, turismo, sport, sanità, ambiente e urbanistica. Contiene anche misure contro la peste suina africana e abroga norme superate.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-19": {
+      "testo": "Scambio di territori tra i comuni di Locate di Triulzi e Pieve Emanuele, nella Città metropolitana di Milano: circa 4,8 ettari passano a Pieve Emanuele e 7,4 ettari a Locate di Triulzi. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-18": {
+      "testo": "Istituisce la figura di garanzia per i diritti delle persone anziane: le funzioni sono affidate al Garante regionale per la tutela dei minori e delle fragilità, che può ricevere segnalazioni e intervenire a tutela degli anziani.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-17": {
+      "testo": "Promuove il turismo equestre: aggiunge le ippovie, cioè i percorsi a cavallo, alla rete escursionistica della Lombardia, con una sezione dedicata. Stanzia fino a 500 mila euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-16": {
+      "testo": "Allarga i confini del Parco regionale della Valle del Lambro nei comuni di Arcore, Concorezzo, Macherio e Villasanta. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-15": {
+      "testo": "Regole per localizzare i grandi poli della logistica (magazzini e centri di distribuzione di rilevanza sovracomunale): criteri per scegliere le aree, priorità alle aree dismesse e attenzione a consumo di suolo, traffico e ambiente, con un'intesa tra Regione, province e comuni. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-14": {
+      "testo": "Assestamento del bilancio 2024-2026: aggiorna i conti con i risultati del 2023, riconosce debiti fuori bilancio e contiene altre misure, tra cui norme sui ticket sanitari, agricoltura e caccia.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-13": {
+      "testo": "Approva il rendiconto 2023, cioè i conti consuntivi della Regione: stanziamenti finali di circa 42,6 miliardi di euro, a fronte dei 37,9 miliardi previsti a inizio anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-12": {
+      "testo": "Riforma i mercati all'ingrosso: i comuni possono istituirne di nuovi con il parere vincolante della Regione. Modifica anche altre leggi su commercio, turismo, agricoltura, parchi e urbanistica. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-11": {
+      "testo": "Legge di semplificazione che modifica molte leggi regionali: programmazione negoziata, agricoltura e sviluppo locale, commercio (tra cui le medie strutture di vendita), caccia, sport, scuole di musica, cimiteri per animali da compagnia, sanità e ambiente.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-10": {
+      "testo": "Fissa la formazione minima per chi lavora nel soccorso sanitario prima dell'ospedale, guida le ambulanze o lavora nelle centrali operative del 118. Regola anche l'affidamento del trasporto sanitario d'urgenza agli enti del Terzo settore. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-9": {
+      "testo": "Sostiene i lombardi che vivono all'estero e le loro comunità: contributi alle associazioni, iniziative per chi vuole rientrare, una consulta regionale e una giornata celebrativa. Sostituisce la legge del 1985. Stanzia fino a 250 mila euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-8": {
+      "testo": "Riconosce l'ortoterapia e aggiunge agli orti urbani e didattici gli orti riabilitativo-terapeutici, pensati per anziani, persone con disabilità o in difficoltà. Stanzia fino a 150 mila euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-7": {
+      "testo": "Allarga il Parco regionale del Monte Barro (comuni di Garlate e Valmadrera) e il Parco di Montevecchia e della Valle del Curone, includendo aree del parco locale \"Monte di Brianza\" e i monumenti naturali Sass Negher e Sasso di Preguda. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-6": {
+      "testo": "Circa 8,7 ettari passano dal comune di Bergamo al comune di Orio al Serio. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-5": {
+      "testo": "Modifica le regole sull'affidamento dei servizi di trasporto pubblico locale: se un ente competente non rispetta la normativa sugli affidamenti e per questo lo Stato taglia i fondi alla Regione, la Regione riduce di pari importo la quota del fondo trasporti destinata a quell'ente. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-4": {
+      "testo": "Sposta i termini entro cui i comuni devono adeguare i piani urbanistici (PGT) alle regole regionali contro il consumo di suolo, per evitare che i piani di molti comuni scadano tutti insieme. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-3": {
+      "testo": "Sostiene la nascita dei distretti del cibo, che uniscono imprese agricole e alimentari di uno stesso territorio per uno sviluppo sostenibile, meno spreco e più qualità. Istituisce una consulta dei distretti. Stanzia fino a 150 mila euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-2": {
+      "testo": "Circa 5.900 metri quadrati passano dal comune di Borgo Virgilio al comune di Bagnolo San Vito, in provincia di Mantova. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-1": {
+      "testo": "Istituisce lo psicologo delle cure primarie: un servizio di supporto psicologico vicino ai cittadini, che lavora con medici di famiglia e pediatri. Prevede un osservatorio per il monitoraggio e attività di prevenzione. Stanzia circa 3,7 milioni di euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-11": {
+      "testo": "Approva il bilancio di previsione della Regione per il 2024-2026: circa 41,1 miliardi di euro di entrate e spese di competenza nel 2024. È l'atto contabile che autorizza la Regione a incassare e spendere.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-10": {
+      "testo": "I comuni di Ronago e Uggiate-Trevano, in provincia di Como, si fondono in un unico comune chiamato Uggiate con Ronago. La Regione rimborsa fino a 13.288 euro per le spese del referendum.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-9": {
+      "testo": "Legge di stabilità 2024: rifinanzia le leggi regionali di spesa per il 2024-2026, autorizza nuove spese, sostiene il sistema delle imprese lombarde e modifica alcune norme sui tributi regionali.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-8": {
+      "testo": "Regola la bruciatura di residui vegetali (sterpaglie, potature) nel luogo di produzione, per rispettare le norme europee sulla qualità dell'aria. Modifica anche altre leggi su energia, trasporti e attività produttive.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-7": {
+      "testo": "Permette a vivai e aziende florovivaistiche di vendere una gamma più ampia di prodotti, come addobbi e decorazioni per le feste, e regola i controlli fitosanitari sulle vendite a distanza. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-6": {
+      "testo": "Sostiene i musei d'impresa: le aziende lombarde che creano un museo sulla propria storia possono ricevere contributi. Stanzia fino a 350 mila euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-5": {
+      "testo": "Il comune di Albaredo Arnaboldi viene incorporato in quello di Campospinoso, in provincia di Pavia, che prende il nome di Campospinoso Albaredo. La Regione rimborsa fino a 3.795 euro per il referendum.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-4": {
+      "testo": "Legge di semplificazione che modifica molte leggi regionali: controlli interni, turismo, agricoltura, caccia, sanità, trasporti, energia e concessioni minerarie. Introduce anche regole sulle attività subacquee e sulle immersioni.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-3": {
+      "testo": "Affida ai comuni le procedure di bonifica dei siti contaminati che si trovano interamente nel loro territorio, come previsto da un decreto nazionale del 2023. La Regione mantiene compiti di indirizzo, supporto e intervento sostitutivo. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-2": {
+      "testo": "Assestamento del bilancio 2023-2025: aggiorna i conti con i risultati del 2022 e contiene altre misure, tra cui la proroga dei contratti del servizio ferroviario, i distretti biologici, regole sulla caccia con richiami vivi e interventi contro una pianta acquatica invasiva.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-1": {
+      "testo": "Approva il rendiconto 2022, cioè i conti consuntivi della Regione: stanziamenti finali di circa 41,9 miliardi di euro, a fronte dei 35,3 miliardi previsti a inizio anno. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    }
+  }
+}

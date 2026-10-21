@@ -14,6 +14,9 @@ import { abruzzo } from "./consigli/abruzzo.mjs";
 import { puglia } from "./consigli/puglia.mjs";
 import { molise } from "./consigli/molise.mjs";
 import { basilicata } from "./consigli/basilicata.mjs";
+import { lombardia } from "./consigli/lombardia.mjs";
+import { sicilia } from "./consigli/sicilia.mjs";
+import { sardegna } from "./consigli/sardegna.mjs";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const RAW = path.join(ROOT, "data", "raw");
@@ -64,7 +67,9 @@ const raccolto = (file) => {
  * Scarica una fonte in data/raw (o la rilegge da lì). `richiesta`: funzione che prepara una richiesta diversa da un semplice GET
  * (per esempio un modulo POST con cookie e codice di sicurezza): viene chiamata solo se il file va scaricato davvero.
  */
-async function download(name, url, { binary = false, headers = {}, accetta404 = false, richiesta } = {}) {
+// pulisci: trasforma il testo prima di salvarlo in cache (es. togliere script iniettati nelle pagine della fonte,
+// che l'antivirus altrimenti svuota nel file).
+async function download(name, url, { binary = false, headers = {}, accetta404 = false, richiesta, pulisci } = {}) {
   const file = path.join(RAW, name);
   if (!REFRESH && fs.existsSync(file)) return binary ? fs.readFileSync(file) : fs.readFileSync(file, "utf8");
   console.log(`  ↓ ${name}`);
@@ -102,6 +107,11 @@ async function download(name, url, { binary = false, headers = {}, accetta404 = 
       return binary ? fs.readFileSync(copia) : fs.readFileSync(copia, "utf8");
     }
     throw new Error(`${url} → ${errore ?? `HTTP ${res?.status}`}`);
+  }
+  if (pulisci) {
+    const text = pulisci(buf.toString("utf8"));
+    fs.writeFileSync(file, text);
+    return text;
   }
   fs.writeFileSync(file, buf);
   return binary ? buf : buf.toString("utf8");
@@ -816,7 +826,7 @@ console.log("5/7 Consigli regionali in chiaro");
 const ammregTutte = csvObjects(await download("ammreg.csv", "https://dait.interno.gov.it/documenti/ammreg.csv"), 2);
 const ammregAggiornato = ammregTutte.length ? (fs.readFileSync(path.join(RAW, "ammreg.csv"), "utf8").match(/Aggiornato al (\d{2}\/\d{2}\/\d{4})/)?.[1]) : undefined;
 
-const CONSIGLI_IN_CHIARO = [campania, calabria, abruzzo, puglia, molise, basilicata];
+const CONSIGLI_IN_CHIARO = [campania, calabria, abruzzo, puglia, molise, basilicata, sicilia, sardegna, lombardia];
 const codiciInChiaro = new Set(CONSIGLI_IN_CHIARO.map((m) => m.codice));
 let consigliPrima = {};
 try {
@@ -873,7 +883,10 @@ for (const modulo of CONSIGLI_IN_CHIARO) {
     warn(`${modulo.nome}: atti del Consiglio non letti dal sito e mantenuti dalla pubblicazione precedente (${perTipo.join(", ")})`);
   }
   // La stessa scheda può comparire su più pagine se nel frattempo ne arrivano di nuove: teniamo la prima.
-  const attiUnici = [...new Map(atti.map((a) => [a.id, a])).values()]
+  // Senza oggetto un atto non dice niente a chi legge (succede per qualche scheda incompleta della fonte).
+  const senzaOggetto = atti.filter((a) => !a.titolo?.trim());
+  for (const a of senzaOggetto) warnGruppo(`${modulo.nome}: atti senza oggetto nella fonte, non pubblicati`, a.id);
+  const attiUnici = [...new Map(atti.filter((a) => a.titolo?.trim()).map((a) => [a.id, a])).values()]
     .filter((a) => a.data >= consiglio.inizio)
     .sort((a, b) => b.data.localeCompare(a.data) || b.numero - a.numero);
   // Le proposte della Giunta, dei cittadini o degli enti locali non hanno un consigliere firmatario: non è un errore.
@@ -915,7 +928,16 @@ for (const modulo of CONSIGLI_IN_CHIARO) {
   for (const l of leggi) for (const istat of comuniCitati(l.oggetto ?? l.intestazione)) aggiungi(istat, `legge-${l.id}`);
 
   // Circoscrizione regionale di ogni comune (per mostrare i consiglieri eletti nella sua provincia).
-  for (const c of comuni) if (c.codiceRegione === modulo.codice && modulo.circoscrizioni?.[c.sigla]) circoscrizioneDiComune.set(c.istat, modulo.circoscrizioni[c.sigla]);
+  // Circoscrizione di ogni comune: per provincia (sigla → circoscrizione) o, dove le circoscrizioni non seguono le province attuali
+  // (Sardegna), comune per comune da un file curato a mano (data/manual/circoscrizioni-comuni/<regione>.json).
+  const fileCircComuni = path.join(MANUAL, "circoscrizioni-comuni", `${modulo.slug}.json`);
+  const circComuni = fs.existsSync(fileCircComuni) ? JSON.parse(fs.readFileSync(fileCircComuni, "utf8")).comuni : {};
+  for (const c of comuni) {
+    if (c.codiceRegione !== modulo.codice) continue;
+    const circ = circComuni[c.istat] ?? modulo.circoscrizioni?.[c.sigla];
+    if (circ) circoscrizioneDiComune.set(c.istat, circ);
+    else if (Object.keys(circComuni).length) warn(`${modulo.nome}: comune senza circoscrizione in ${path.relative(ROOT, fileCircComuni)}: ${c.nome} (${c.istat})`);
+  }
 
   // Conteggi per consigliere (primo firmatario o cofirmatario).
   const attivita = {};

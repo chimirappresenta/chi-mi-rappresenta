@@ -1147,6 +1147,113 @@
         "ir-38": "casa",
         "mo-6": "casa"
       }
+    },
+    "sicilia": {
+      "leggi": {
+        "2026-1": "casa",
+        "2026-21": "trasporti",
+        "2026-14": "trasporti",
+        "2025-29": "redditi",
+        "2025-26": "redditi",
+        "2024-28": "agricoltura",
+        "2024-20": "agricoltura",
+        "2022-18": "bollette",
+        "2025-32": "trasporti"
+      },
+      "atti": {
+        "mozione-384": "bollette",
+        "interrogazione-3226": "bollette",
+        "interrogazione-3104": "bollette",
+        "mozione-351": "bollette",
+        "interrogazione-3088": "bollette",
+        "interrogazione-3166": "bollette",
+        "mozione-300": "bollette",
+        "interpellanza-248": "bollette",
+        "interrogazione-3433": "bollette",
+        "interrogazione-2879": "bollette",
+        "mozione-355": "bollette",
+        "interrogazione-3199": "trasporti",
+        "interrogazione-2962": "trasporti",
+        "interrogazione-3019": "trasporti",
+        "interrogazione-2733": "trasporti",
+        "interrogazione-2665": "trasporti",
+        "interrogazione-2759": "trasporti",
+        "interrogazione-3684": "trasporti",
+        "mozione-294": "trasporti",
+        "mozione-356": "agricoltura",
+        "interrogazione-3121": "agricoltura",
+        "interrogazione-3316": "agricoltura",
+        "interrogazione-3105": "agricoltura",
+        "pdl-1171": "agricoltura",
+        "interrogazione-2671": "agricoltura",
+        "interrogazione-2410": "agricoltura",
+        "pdl-1160": "casa",
+        "interrogazione-2323": "casa",
+        "interrogazione-3292": "casa",
+        "interrogazione-3478": "casa",
+        "interrogazione-2339": "casa",
+        "pdl-1204": "casa",
+        "pdl-1144": "redditi",
+        "interrogazione-2604": "redditi"
+      }
+    },
+    "sardegna": {
+      "leggi": {
+        "2026-20": "bollette",
+        "2026-19": "bollette",
+        "2026-9": "redditi",
+        "2026-8": "redditi",
+        "2026-7": "redditi",
+        "2025-22": "agricoltura",
+        "2025-20": "agricoltura",
+        "2024-25": "casa"
+      },
+      "atti": {
+        "mozione-116": "bollette",
+        "mozione-108": "bollette",
+        "mozione-92": "trasporti",
+        "interrogazione-354": "trasporti",
+        "interrogazione-406": "agricoltura",
+        "mozione-133": "agricoltura",
+        "interrogazione-428": "agricoltura",
+        "interrogazione-317": "agricoltura",
+        "interrogazione-448": "agricoltura",
+        "mozione-75": "casa",
+        "interrogazione-326": "casa",
+        "mozione-125": "redditi"
+      }
+    },
+    "lombardia": {
+      "leggi": {
+        "2026-2": "trasporti",
+        "2025-20": "casa",
+        "2025-17": "redditi",
+        "2025-4": "redditi"
+      },
+      "atti": {
+        "pdl-214": "bollette",
+        "interrogazione-21182": "trasporti",
+        "mozione-491": "trasporti",
+        "interrogazione-21310": "trasporti",
+        "mozione-477": "trasporti",
+        "interrogazione-21185": "trasporti",
+        "interrogazione-21114": "trasporti",
+        "question-time-1313": "trasporti",
+        "interpellanza-4076": "trasporti",
+        "question-time-1322": "trasporti",
+        "mozione-468": "agricoltura",
+        "mozione-469": "agricoltura",
+        "mozione-473": "agricoltura",
+        "mozione-483": "agricoltura",
+        "question-time-1240": "agricoltura",
+        "interpellanza-5019": "agricoltura",
+        "interpellanza-5021": "casa",
+        "interrogazione-21086": "casa",
+        "mozione-433": "casa",
+        "mozione-516": "casa",
+        "interrogazione-21000": "casa",
+        "mozione-371": "casa"
+      }
     }
   }
 }

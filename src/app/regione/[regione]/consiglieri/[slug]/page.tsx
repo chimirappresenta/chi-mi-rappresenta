@@ -5,7 +5,7 @@ import { AttiFeed } from "@/components/AttiFeed";
 import { Gruppo, FontiNote, PersonaRow } from "@/components/ui";
 import { IntestazioneRegione } from "@/components/IntestazioneRegione";
 import { ScriviA } from "@/components/ScriviA";
-import { dellaRegione, slugConsigliere } from "@/lib/format";
+import { dellaRegione, LISTA_REGIONALE, slugConsigliere } from "@/lib/format";
 
 export const dynamicParams = false;
 
@@ -20,11 +20,15 @@ const trova = async (params: Promise<{ regione: string; slug: string }>) => {
   return cr && c ? { cr, c } : undefined;
 };
 
+/** "Consigliera regionale", "Deputata regionale" (all'ARS siciliana)…; per chi ha altri incarichi (presidenza) la forma base. */
+const qualifica = (ruolo: string | undefined, regione: string) =>
+  /^(Consiglier[ea]|Deputat[oa]) regionale$/.test(ruolo ?? "") ? ruolo! : regione === "sicilia" ? "Deputato regionale" : "Consigliere regionale";
+
 export async function generateMetadata({ params }: PageProps<"/regione/[regione]/consiglieri/[slug]">): Promise<Metadata> {
   const t = await trova(params);
   return t
     ? {
-        title: `${t.c.nome}, consigliere regionale`,
+        title: `${t.c.nome}, ${qualifica(t.c.ruolo, t.cr.slug).toLowerCase()}`,
         description: `Contatti, commissioni e atti presentati in Consiglio regionale ${dellaRegione(t.cr.nome)} da ${t.c.nome}.`,
       }
     : {};
@@ -40,19 +44,21 @@ export default async function ConsiglierePage({ params }: PageProps<"/regione/[r
   const s = consiglio.attivita[c.username];
 
   const g = regione.gruppi.find((x) => x.nome === c.gruppo);
+  const titolo = qualifica(c.ruolo, cr.slug);
+  const a = /^(Consigliera|Deputata)/.test(titolo) ? "a" : "o";
 
   return (
     <div className="contenitore py-8">
       <IntestazioneRegione
         regione={cr.slug}
         titolo={c.nome}
-        sottotitolo={`Consigliere regionale${c.circoscrizione ? ` · eletto nella circoscrizione di ${c.circoscrizione}` : c.circoscrizione === null ? " · subentrato dopo le elezioni" : " · eletto come candidato alla presidenza della Regione"}`}
+        sottotitolo={`${titolo}${c.circoscrizione ? ` · elett${a} ${c.circoscrizione === LISTA_REGIONALE ? "nella lista regionale" : `nella circoscrizione di ${c.circoscrizione}`}` : c.circoscrizione === null ? ` · subentrat${a} dopo le elezioni` : ` · elett${a} come candidat${a} alla presidenza della Regione`}`}
         intro={g ? `${g.nome}${c.ruoloGruppo ? ` (${c.ruoloGruppo})` : ""}${g.coalizione ? ` · ${g.coalizione}` : ""}` : (c.gruppo ?? "")}
         attiva={null}
         indietro={{ href: `/regione/${cr.slug}/`, label: "Giunta e Consiglio regionale" }}
         condividi={{
           path: `/regione/${cr.slug}/consiglieri/${slugConsigliere(c.username)}/`,
-          testo: `${c.nome}, consigliere regionale ${dellaRegione(cr.nome)}${g ? ` (${g.sigla})` : ""}: contatti e ${s?.primoFirmatario ?? 0} atti presentati in Consiglio regionale.`,
+          testo: `${c.nome}, ${titolo.toLowerCase()} ${dellaRegione(cr.nome)}${g ? ` (${g.sigla})` : ""}: contatti e ${s?.primoFirmatario ?? 0} atti presentati in Consiglio regionale.`,
         }}
       />
 

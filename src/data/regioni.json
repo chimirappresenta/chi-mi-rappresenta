@@ -1886,7 +1886,7 @@
    "codice": "03",
    "nome": "Lombardia",
    "slug": "lombardia",
-   "inChiaro": false,
+   "inChiaro": true,
    "presidente": {
     "nome": "Attilio Fontana",
     "ruolo": "Presidente della Regione",
@@ -3525,7 +3525,7 @@
    "codice": "20",
    "nome": "Sardegna",
    "slug": "sardegna",
-   "inChiaro": false,
+   "inChiaro": true,
    "presidente": {
     "nome": "Alessandra Todde",
     "ruolo": "Presidente della Regione",
@@ -3909,7 +3909,7 @@
    "codice": "19",
    "nome": "Sicilia",
    "slug": "sicilia",
-   "inChiaro": false,
+   "inChiaro": true,
    "presidente": {
     "nome": "Renato Schifani",
     "ruolo": "Presidente della Regione",

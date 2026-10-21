@@ -12,9 +12,20 @@ export const slugConsigliere = (username: string) => username.toLowerCase().repl
  * (circoscrizione unica del Molise) → "nelle province di …".
  */
 /** Province il cui nome contiene già " e " (non sono due province). */
-const PROVINCE_CON_E = ["Pesaro e Urbino"];
+const PROVINCE_CON_E = ["Pesaro e Urbino", "Monza e Brianza"];
+/** Circoscrizione di chi è eletto nella lista regionale collegata al presidente (Sicilia): vale per tutta la regione. */
+export const LISTA_REGIONALE = "Lista regionale";
 export const piuProvince = (circ: string) => circ.includes(", ") || (circ.includes(" e ") && !PROVINCE_CON_E.includes(circ));
-export const inCircoscrizione = (circ: string) => (piuProvince(circ) ? `nelle province di ${circ}` : `in provincia di ${circ}`);
+/** Circoscrizioni della Sardegna: le otto province precedenti al 2016, che non coincidono con quelle di oggi. */
+const CIRCOSCRIZIONI_STORICHE = ["Cagliari", "Sassari", "Nuoro", "Oristano", "Olbia-Tempio", "Ogliastra", "Medio Campidano", "Carbonia-Iglesias"];
+export const inCircoscrizione = (circ: string) =>
+  circ === LISTA_REGIONALE
+    ? "nella lista regionale"
+    : CIRCOSCRIZIONI_STORICHE.includes(circ)
+      ? `nella circoscrizione di ${circ}`
+      : piuProvince(circ)
+        ? `nelle province di ${circ}`
+        : `in provincia di ${circ}`;
 
 /** Articolo e preposizione per le regioni: "dell'Abruzzo", "del Molise", "della Campania". */
 const ARTICOLO_REGIONE: Record<string, "l'" | "il" | "la"> = {

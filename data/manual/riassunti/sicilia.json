@@ -1,0 +1,575 @@
+{
+  "_nota": "Riassunti scritti con Claude (claude-opus-5-5) leggendo il testo ufficiale delle leggi (banca dati ICARO dell'Assemblea regionale siciliana). Si possono correggere a mano: la pipeline non li sovrascrive.",
+  "leggi": {
+    "2026-32": {
+      "testo": "Riconosce e valorizza i cimiteri monumentali e storici della Sicilia come patrimonio culturale: definisce quali lo sono, prevede iniziative per farli conoscere e contributi per restaurarli. Stanzia 105 mila euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-30": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 10.480,98 euro (elenco di marzo 2026): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-29": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 673.713,52 euro (elenco di febbraio 2026): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-28": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 2.772,46 euro (elenco di gennaio 2026): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-27": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 213.138,63 euro (elenco di ottobre 2025): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile. Estende inoltre ai tributi e alle entrate della Regione la definizione agevolata (rottamazione) prevista dalla legge di bilancio statale 2026.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-26": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 197.802,71 euro (elenco di settembre 2025): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-25": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 204.506,05 euro (elenco di giugno 2025): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile. Corregge anche l'importo di una legge precedente sullo stesso tema.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-24": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 68.676,32 euro (elenco di maggio 2025): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-23": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 1.269.599,49 euro (elenco di marzo 2024): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-22": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 660.069,76 euro (elenco di settembre, ottobre, novembre e dicembre 2024): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-21": {
+      "testo": "Individua altre aree dove si possono installare impianti a energia rinnovabile (come siti industriali, cave dismesse e aree da bonificare), oltre a quelle fissate dallo Stato. Aggiunge 9 milioni di euro per il caro voli (contributi ai residenti e sconti sui biglietti aerei applicati dalle compagnie convenzionate), aiuti alle persone con disabilità e interventi urgenti dopo gli incendi.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-20": {
+      "testo": "Approva il rendiconto 2022, cioè i conti consuntivi della Regione, nella versione esaminata dalla Corte dei conti, insieme al rendiconto consolidato con gli enti regionali. È un atto contabile, approvato con anni di ritardo.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-19": {
+      "testo": "Riconosce come debito fuori bilancio circa 19,1 milioni di euro di pagamenti fatti dal cassiere della Regione nel 2022 e non ancora regolarizzati in contabilità (\"partite sospese\"). È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-18": {
+      "testo": "Approva il rendiconto 2021, cioè i conti consuntivi della Regione, nella versione esaminata dalla Corte dei conti, insieme al rendiconto consolidato con gli enti regionali. È un atto contabile, approvato con anni di ritardo.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-17": {
+      "testo": "Riconosce come debito fuori bilancio circa 25,2 milioni di euro di pagamenti fatti dal cassiere della Regione nel 2021 e non ancora regolarizzati in contabilità (\"partite sospese\"). È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-16": {
+      "testo": "Approva il rendiconto 2020, cioè i conti consuntivi della Regione, con le correzioni chieste dalla Corte dei conti nel giudizio di parificazione, insieme al rendiconto consolidato. È un atto contabile, approvato con anni di ritardo.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-15": {
+      "testo": "Riconosce come debito fuori bilancio circa 37,2 milioni di euro di pagamenti fatti dal cassiere della Regione nel 2020 e non ancora regolarizzati in contabilità (\"partite sospese\"). È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-14": {
+      "testo": "Misure su energia, imprese e agricoltura: nuove scadenze per i versamenti delle royalties sulle estrazioni di idrocarburi (a Regione e comuni), obbligo per i supermercati più grandi di installare eco-compattatori per le bottiglie di plastica, norme per l'agricoltura e fondi per i collegamenti aerei, compresi quelli dall'aeroporto di Comiso, contro gli svantaggi dell'insularità.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-13": {
+      "testo": "Legge con molte misure su personale ed enti locali. Tra l'altro fissa in 12 mesi il tempo massimo per pagare la liquidazione (TFS/TFR) ai dipendenti regionali che lasciano il servizio, interviene su comuni ed enti locali e prevede la circolazione gratuita sugli autobus extraurbani per il personale delle forze armate e delle forze di polizia.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-12": {
+      "testo": "Misure su lavoro, scuola, turismo, cultura, sport e spettacolo. Tra l'altro obbliga Regione e comuni a stipulare convenzioni per assumere persone con disabilità psichica, con il supporto dei servizi di salute mentale, e sostiene la Stamperia regionale Braille.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-11": {
+      "testo": "Misure su sanità e assistenza sociale. Tra l'altro fissa un tetto alle tariffe dei parcheggi degli ospedali pubblici (massimo 0,80 euro l'ora e 5 euro al giorno) con posti gratuiti per malati oncologici e dializzati, attiva il numero 116117 per le cure non urgenti e istituisce un fondo per le famiglie dei minori che devono fare un trapianto di organi fuori dalla Sicilia e un osservatorio sull'attività libero-professionale dei medici (ALPI).",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-10": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 4.049,90 euro (elenco di agosto 2025): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-9": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 263.906,37 euro (elenco di luglio 2025): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-8": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 348.787,70 euro (elenco di febbraio 2025): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-7": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 20.769,75 euro (elenco di gennaio 2025): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-6": {
+      "testo": "Adegua il bilancio regionale alla legge di bilancio statale 2026 e rimodula una spesa già prevista: 24 milioni di euro nel 2026 e 35 milioni nel 2027 al posto di 59 milioni tutti nel 2027.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-5": {
+      "testo": "Riconosce Comiso come \"Città della pace\". Istituisce un comitato che propone iniziative per diffondere la cultura della pace e una Settimana internazionale della pace.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-4": {
+      "testo": "Norme per gli enti locali: permessi dal lavoro e gettoni di presenza per gli amministratori comunali, presenza di donne e uomini nelle giunte comunali, misure per i comuni in dissesto, il \"tagliando antifrode\" e regole sul secondo turno delle elezioni comunali.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-3": {
+      "testo": "Interventi urgenti per i danni del maltempo del 19-21 gennaio 2026: più fondi per gli aiuti alle zone colpite e, da febbraio a maggio 2026, niente pedaggio sulla A18 ai caselli di Taormina, Giardini Naxos e Roccalumera.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-2": {
+      "testo": "Approva il bilancio di previsione della Regione siciliana per il 2026-2028: le entrate che la Regione prevede di incassare e le spese che è autorizzata a fare. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2026-1": {
+      "testo": "Legge di stabilità 2026-2028, con decine di misure. Tra queste: contributi alle imprese che assumono a tempo indeterminato o introducono il lavoro agile, incentivi agli investimenti privati, norme sul bollo auto, un fondo per l'editoria, misure contro le liste d'attesa in sanità, aiuti contro il disagio sociale, fondi per i comuni e un contributo di 3.000 euro per l'affitto alle famiglie di almeno tre persone con ISEE fino a 10.000 euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-32": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per circa 88.700 euro (aprile 2025) e contiene altre variazioni di bilancio, tra cui circa 12,3 milioni di euro contro il caro voli: contributi ai residenti e sconti sui biglietti aerei da e per la Sicilia.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-31": {
+      "testo": "Variazioni al bilancio 2025-2027 con molte misure: fondi per beni e parchi archeologici, protezione sociale, trasporti, continuità assistenziale nei piccoli comuni, rigenerazione urbana, forestazione, rifiuti e personale.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-30": {
+      "testo": "Modifica la legge regionale sulla formazione professionale: orienta i corsi verso competenze richieste dai settori in crescita (economia verde, economia del mare, innovazione tecnologica) e introduce strumenti premiali per gli enti di formazione.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-29": {
+      "testo": "Variazioni al bilancio 2025-2027: più fondi per la protezione civile e la crisi idrica, dissalatori, dighe, contributi ai comuni per i costi dei rifiuti, lotta alla povertà, videosorveglianza urbana e riduzione delle liste d'attesa in sanità.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-28": {
+      "testo": "La Gazzetta Ufficiale della Regione siciliana (GURS) diventa solo digitale: regole su validità degli atti pubblicati, periodicità, consultazione gratuita e costi. Modifica anche altre leggi regionali.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-26": {
+      "testo": "Variazioni urgenti al bilancio 2025-2027: aiuti contro l'indigenza e l'emergenza alimentare, un fondo per la progettazione, impianti per i rifiuti, interventi per la crisi idrica, norme sulle tariffe e sull'addizionale comunale e una borsa di studio intitolata a Sara Campanella.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-25": {
+      "testo": "Il comune di Tripi, in provincia di Messina, cambia nome in \"Tripi - Abakainon\", come deciso dal referendum. Modifica anche una norma sui comuni in dissesto finanziario.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-24": {
+      "testo": "Interventi per proteggere e sostenere minori, genitori e giovani adulti che vogliono allontanarsi da famiglie legate alla criminalità organizzata (\"liberi di scegliere\"): équipe di specialisti, percorsi di studio e lavoro, centri di aggregazione e collaborazione con il volontariato.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-23": {
+      "testo": "Norme sulla sanità: garantisce la continuità delle cure palliative a domicilio e nelle strutture, obbliga le aziende sanitarie a creare, dove mancano, aree dedicate all'interruzione volontaria di gravidanza nei reparti di ginecologia e modifica altre leggi sanitarie.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-22": {
+      "testo": "Misure su edilizia e personale: modifica norme urbanistiche, interviene su alcune categorie di personale regionale e sui direttori dei parchi regionali.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-21": {
+      "testo": "Correzioni a due leggi del gennaio 2025: cambia la destinazione di alcuni finanziamenti a opere locali e modifica le norme sul bollo auto. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-20": {
+      "testo": "Misure per le imprese: accelera la liquidazione dei vecchi consorzi ASI per le aree industriali, monitora l'uso dei rottami metallici e sostiene le imprese che favoriscono la genitorialità e l'inclusione o che tutelano l'ambiente.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-19": {
+      "testo": "Regole sul noleggio con conducente (NCC): le prenotazioni si possono fare anche con app e strumenti digitali e il servizio può partire o arrivare fuori provincia. Contiene anche norme sul trasporto pubblico locale.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-18": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 147.518,06 euro (elenco di agosto 2024): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-17": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 297.889,03 euro (elenco di luglio 2024): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-16": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 68.248,98 euro (elenco di giugno 2024): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-15": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 75.618,80 euro (elenco di maggio 2024): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-14": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 72.164,28 euro (elenco di aprile 2024): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-13": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 145.152,90 euro (elenco di marzo 2024): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-12": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 34.575,40 euro (elenco di febbraio 2024): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-11": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 15.003,09 euro (elenco di gennaio 2024): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-10": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 299.932,77 euro (elenco di novembre e dicembre 2023): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-9": {
+      "testo": "Proroga i termini per completare progetti finanziati con contributi pubblici e modifica norme su contributi per turismo e sport, consorzi fidi, liquidazione dei consorzi ASI e lavoro a tempo determinato.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-8": {
+      "testo": "Modifica le regole sulle progressioni di carriera del personale regionale non dirigente: metà dei posti è riservata a chi ha il titolo di studio richiesto e l'esperienza prevista.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-6": {
+      "testo": "Nuova legge sulle strutture turistico-ricettive: definisce e classifica alberghi, alberghi diffusi, B&B, agriturismi, campeggi, case vacanze, ostelli, rifugi, marina resort e locazioni turistiche, con obblighi di comunicazione dei dati, codice identificativo, controlli e sanzioni.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-5": {
+      "testo": "Modifiche a diverse leggi regionali e disposizioni finanziarie, tra cui fondi per le celebrazioni dei settant'anni della Conferenza di Messina e Taormina, primo passo verso la Comunità europea.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-4": {
+      "testo": "Dal 2025 una quota del 35% del tributo regionale per il conferimento dei rifiuti in discarica va ai comuni che ospitano le discariche. Modifica anche una legge di bilancio del 2025.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-3": {
+      "testo": "Legge con decine di contributi straordinari: riqualificazione urbana, scuolabus, promozione turistica, agricoltura, beni culturali, sanità, servizi sociali, ambiente, energia e acqua, impianti sportivi, sicurezza stradale, emittenti televisive locali, il centenario di Andrea Camilleri e defibrillatori per i piccoli comuni.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-2": {
+      "testo": "Approva il bilancio di previsione della Regione siciliana per il 2025-2027: le entrate che la Regione prevede di incassare e le spese che è autorizzata a fare. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2025-1": {
+      "testo": "Legge di stabilità 2025-2027: misure per attrarre investimenti, bollo auto, agricoltura e siccità, carenza di medici, fondi agli enti locali, personale regionale, lavoratori socialmente utili, protezione civile, depuratori, forestazione e ausili sportivi per atleti con disabilità.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-28": {
+      "testo": "Variazioni al bilancio 2024-2026 contro la crisi idrica e la siccità: reti idriche (Agrigento, Caltanissetta), dissalatori per le isole minori, opere irrigue, aiuti agli agricoltori e agli apicoltori. Contiene anche aiuti all'imprenditoria giovanile e femminile, il prestito d'onore per gli universitari e fondi per i treni regionali.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-27": {
+      "testo": "Modifica la legge urbanistica regionale del 2020 e recepisce norme statali sull'edilizia (tra cui il decreto \"salva casa\" del 2024): regole su riqualificazione urbana, contenimento del consumo di suolo e ampliamento di edifici esistenti.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-26": {
+      "testo": "Crea un sistema regionale per prevenire e curare le dipendenze e ridurne i danni: un comitato di indirizzo, una rete regionale di servizi, équipe multidisciplinari, comunità terapeutiche, gruppi di auto-aiuto, prevenzione nelle scuole, reinserimento lavorativo e una giornata regionale contro la droga.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-25": {
+      "testo": "Interventi finanziari urgenti, con decine di misure: contributi ai comuni in difficoltà finanziaria o in dissesto, bonifiche, consorzi di bonifica, lavoratori forestali, fermo biologico della pesca e molti contributi a singoli enti e comuni.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-24": {
+      "testo": "Rinvia le elezioni dei presidenti e dei consigli dei liberi Consorzi comunali (le ex province) e delle Città metropolitane, fissandole in una domenica di dicembre 2024.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-23": {
+      "testo": "Misure per l'Azienda siciliana trasporti (AST) e varie disposizioni finanziarie: indennizzi ai produttori di foraggi e cereali, fondi per Siciliacque, contributi ai comuni per i costi dei rifiuti, crisi idrica in agricoltura e collegamenti con le isole minori.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-20": {
+      "testo": "Stanzia 10,4 milioni di euro per l'emergenza idrica e per gli allevatori colpiti dalla siccità, dopo la dichiarazione dello stato di crisi del febbraio 2024.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-19": {
+      "testo": "Riconosce e sostiene i consigli comunali dei ragazzi e delle ragazze, come forma di partecipazione dei giovani alla vita dei comuni: crea una rete regionale e una giornata dedicata.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-18": {
+      "testo": "Applica anche ai musei e ai luoghi della cultura della Regione le tariffe minime statali per l'uso degli spazi e la riproduzione delle immagini dei beni culturali.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-17": {
+      "testo": "Modifica il bilancio 2024-2026 per destinare 70 milioni di euro l'anno al ripiano del disavanzo regionale, in attuazione dell'accordo con lo Stato.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-16": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 90.440,88 euro (elenco di settembre 2023): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-15": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 30.291,92 euro (elenco di agosto 2023): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-14": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 27.403,50 euro (elenco di giugno 2023): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-13": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 86.050,35 euro (elenco di maggio 2023): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-12": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 88.838,35 euro (elenco di gennaio 2023): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-11": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 36.560,11 euro (elenco di dicembre 2022): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-10": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 54.771,43 euro (elenco di ottobre e novembre 2022): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-9": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 314.946,49 euro (elenco di settembre 2021): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-8": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 1.870.291,73 euro (elenco di febbraio e luglio 2022): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-7": {
+      "testo": "Disposizioni urgenti su turismo (classificazione delle strutture ricettive, accompagnatori turistici), fondo per lo spettacolo, attività di ottico, formazione professionale, enti locali e contributi a enti senza scopo di lucro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-6": {
+      "testo": "Riordina le regole sulle cave e sui materiali lapidei (come il marmo): autorizzazioni, subentro e rinnovo delle attività di cava, recupero ambientale. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-5": {
+      "testo": "Riconosce e sostiene il caregiver familiare, cioè chi assiste gratuitamente un familiare non autosufficiente: compiti di Regione, comuni e aziende sanitarie, una rete di sostegno e il riconoscimento delle competenze per trovare lavoro. Stanzia 500 mila euro.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-4": {
+      "testo": "Rende obbligatorio lo screening neonatale per l'atrofia muscolare spinale (SMA) su tutti i nati in Sicilia, per diagnosticarla presto e iniziare subito le terapie.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-3": {
+      "testo": "Legge con 140 articoli di misure varie e contributi: istruzione, servizi sociali, agricoltura, foraggi, beni culturali, la Fondazione Rinascita Belice, autismo, ricerca oncologica, contrasto al crack, sanità e riqualificazione urbana. Alcune norme sono state impugnate dal Governo davanti alla Corte costituzionale.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-2": {
+      "testo": "Approva il bilancio di previsione della Regione siciliana per il 2024-2026: le entrate che la Regione prevede di incassare e le spese che è autorizzata a fare. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2024-1": {
+      "testo": "Legge di stabilità 2024-2026: fondi ai comuni e alle unioni di comuni, personale regionale, lavoratori socialmente utili ed ex PIP, forestazione e antincendio, viabilità rurale, Sicilia Regione europea della gastronomia 2025, borghi marinari e dissalazione nelle isole minori. Alcune norme sono state impugnate dal Governo.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-25": {
+      "testo": "Disposizioni finanziarie varie: manutenzione dei fiumi, fondo regionale per la disabilità e la non autosufficienza, chiusura della liquidazione di Resais, società partecipate e un fondo per abbattere gli interessi sui mutui per la prima casa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-24": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 131.932,87 euro (elenco di marzo 2023): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-23": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 45.670,00 euro (elenco di aprile 2023): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-22": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 14.530,40 euro (elenco di febbraio 2023): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-21": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 22.207,74 euro: spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-20": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 13.622,82 euro (elenco di giugno 2021): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-19": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 21.701,62 euro (elenco di aprile 2021): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-18": {
+      "testo": "Istituisce il servizio di psicologia delle cure primarie e lo psicologo delle cure primarie, che lavora con i medici di famiglia per offrire un primo supporto psicologico vicino ai cittadini.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-17": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 236,66 euro (elenco di maggio 2021): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-16": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 3.955,39 euro (elenco di agosto 2021): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-15": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 2.516,46 euro (elenco di marzo 2021): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-14": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 751,85 euro (elenco di agosto 2022): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-13": {
+      "testo": "Riconosce debiti fuori bilancio della Regione per 329,88 euro (elenco di novembre 2022): spese per beni e servizi fatte senza il preventivo impegno di spesa, che la legge autorizza a pagare indicandone la copertura. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-12": {
+      "testo": "Recepisce in Sicilia il nuovo codice nazionale degli appalti pubblici (2023) e aggiunge regole proprie: requisiti per i servizi tecnici, misure contro le infiltrazioni mafiose negli appalti e contributi ai comuni per l'ospitalità dei cani randagi.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-11": {
+      "testo": "Modifica la legge sullo sport, chiedendo il corso di primo soccorso sportivo con defibrillatore, e contiene disposizioni finanziarie e contributi.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-10": {
+      "testo": "Ratifica l'intesa tra Regioni e Province autonome che istituzionalizza la Conferenza delle Regioni.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-9": {
+      "testo": "Disposizioni finanziarie varie: parchi e riserve, Consorzio autostrade siciliane, enti locali, alloggi popolari, pesca, contributi a singoli comuni ed enti, bonifiche, incentivi per il fotovoltaico sulle case e l'istituzione del Garante regionale per i diritti e i doveri culturali.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-8": {
+      "testo": "Disposizioni finanziarie: personale ex Resais e SAS, forestazione, lavoratori ASU ed ex PIP, enti locali, voli di linea, consorzi di bonifica di Siracusa e Agrigento e regole per l'accesso al fondo regionale per lo spettacolo.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-7": {
+      "testo": "Aggiorna l'indennità annua di residenza per i farmacisti delle farmacie rurali: fino a 25 mila euro l'anno per quelle nei centri più piccoli.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-6": {
+      "testo": "Disposizioni transitorie sulle elezioni dei vertici dei liberi Consorzi comunali e delle Città metropolitane, in attesa della riforma che introduca l'elezione diretta.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-5": {
+      "testo": "Permette alle aziende ospedaliere universitarie di avviare selezioni interne per attribuire la qualifica di dirigente al personale medico e sanitario universitario di elevata professionalità già in servizio. Nessuna nuova spesa.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-4": {
+      "testo": "Sposta al 30 aprile 2023 la scadenza per pagare il bollo auto prevista da una legge del 2022 e modifica un finanziamento per l'aeroporto di Trapani Birgi.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-3": {
+      "testo": "Approva il bilancio di previsione della Regione siciliana per il 2023-2025: le entrate che la Regione prevede di incassare e le spese che è autorizzata a fare. È un atto contabile.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-2": {
+      "testo": "Legge di stabilità 2023-2025, con oltre cento articoli: fondi ai comuni e agli enti di area vasta, ARPA, forestazione, trasporti, sostegno al reddito e all'occupazione, cofinanziamento dei fondi europei, lavoratori ex Keller, autismo e programmazione sanitaria.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2023-1": {
+      "testo": "Autorizza l'esercizio provvisorio del bilancio 2023 fino al 28 febbraio 2023, cioè permette alla Regione di spendere in attesa dell'approvazione del bilancio.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2022-19": {
+      "testo": "Mette da parte le risorse per coprire il disavanzo emerso dopo la decisione della Corte dei conti del 3 dicembre 2022 sul rendiconto 2020 e proroga i contratti del personale sanitario assunto per l'emergenza Covid.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
+    "2022-18": {
+      "testo": "Variazioni al bilancio 2022-2024: contributi di 48 milioni di euro ai comuni e 4 milioni a ex province e Città metropolitane contro il caro bollette, più fondi per la sanità.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    }
+  }
+}

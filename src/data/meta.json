@@ -236,18 +236,95 @@
    "nome": "Circoscrizione di elezione dei consiglieri regionali (elezioni 2024)",
    "ente": "Wikipedia (verificato a mano)",
    "url": "https://it.wikipedia.org/wiki/Elezioni_regionali_in_Basilicata_del_2024"
+  },
+  {
+   "id": "sicilia-ars",
+   "nome": "Deputati della XVIII legislatura",
+   "ente": "Assemblea regionale siciliana",
+   "url": "https://www.ars.sicilia.it/xviii-legislatura",
+   "raccolto": "2026-10-21"
+  },
+  {
+   "id": "sicilia-giunta",
+   "nome": "Anagrafe degli amministratori regionali",
+   "ente": "Ministero dell'Interno",
+   "url": "https://dait.interno.gov.it/elezioni/open-data/amministratori-regionali",
+   "raccolto": "2026-10-21"
+  },
+  {
+   "id": "sicilia-atti",
+   "nome": "Banche dati ICARO: atti parlamentari e leggi regionali",
+   "ente": "Assemblea regionale siciliana",
+   "url": "https://dati.ars.sicilia.it/home/cerca/235.jsp",
+   "raccolto": "2026-10-21"
+  },
+  {
+   "id": "sardegna-cr",
+   "nome": "Consiglieri regionali",
+   "ente": "Consiglio regionale della Sardegna",
+   "url": "https://www.consregsardegna.it/xvii-legislatura/consiglieri/schede-biografiche/",
+   "raccolto": "2026-10-21"
+  },
+  {
+   "id": "sardegna-giunta",
+   "nome": "Composizione della Giunta regionale",
+   "ente": "Regione Autonoma della Sardegna",
+   "url": "https://www.regione.sardegna.it/la-regione/giunta",
+   "raccolto": "2026-10-21"
+  },
+  {
+   "id": "sardegna-atti",
+   "nome": "Atti consiliari e leggi regionali",
+   "ente": "Consiglio regionale della Sardegna",
+   "url": "https://www.consregsardegna.it/xvii-legislatura/attivita/",
+   "raccolto": "2026-10-21"
+  },
+  {
+   "id": "sardegna-circoscrizioni",
+   "nome": "Circoscrizione di elezione dei consiglieri regionali (elezioni 2024)",
+   "ente": "Wikipedia (verificato a mano)",
+   "url": "https://it.wikipedia.org/wiki/Elezioni_regionali_in_Sardegna_del_2024"
+  },
+  {
+   "id": "lombardia-cr",
+   "nome": "Consiglieri e gruppi (open data)",
+   "ente": "Consiglio regionale della Lombardia",
+   "url": "https://www.consiglio.regione.lombardia.it/wps/portal/crl/home/istituzione/I-Consiglieri/elenco-consiglieri",
+   "raccolto": "2026-10-21"
+  },
+  {
+   "id": "lombardia-giunta",
+   "nome": "Anagrafe degli amministratori regionali",
+   "ente": "Ministero dell'Interno",
+   "url": "https://dait.interno.gov.it/elezioni/open-data/amministratori-regionali",
+   "raccolto": "2026-10-21"
+  },
+  {
+   "id": "lombardia-atti",
+   "nome": "Atti di indirizzo e controllo, progetti di legge e leggi",
+   "ente": "Consiglio regionale della Lombardia",
+   "url": "https://www.consiglio.regione.lombardia.it/wps/portal/crl/home/leggi-e-banche-dati/Atti-di-indirizzo-e-controllo",
+   "raccolto": "2026-10-21"
+  },
+  {
+   "id": "lombardia-circoscrizioni",
+   "nome": "Circoscrizione di elezione dei consiglieri regionali (elezioni 2023)",
+   "ente": "Wikipedia (verificato a mano)",
+   "url": "https://it.wikipedia.org/wiki/Elezioni_regionali_in_Lombardia_del_2023"
   }
  ],
  "avvisi": [
   "Comuni del Ministero dell'Interno non trovati nell'elenco ISTAT (fusioni recenti?): 3 (MURISENGO MONFERRATO (AL), CASTEGNERO NANTO (VI), VALLECROSIA AL MARE (IM))",
   "Comuni senza contatti nell'IPA: 4 (Caines (021014), Castegnero (024027), Lirio (018082), Nanto (024071))",
   "Senato LOMBARDIA - U06: eletto nel 2022 Silvio Berlusconi, oggi Adriano Galliani (elezione suppletiva o subentro)",
-  "Fonti non raggiungibili: usata la copia scaricata in precedenza: 1 (camera-deputati-italia.json)",
   "Senatori senza email in data/manual/senatori-email.json: 4 (Maurizio Gasparri, Dario Parrini, Roberto Maria Ferdinando Scarpinato, Ignazio Zullo)",
   "Abruzzo: firmatari non riconosciuti tra i consiglieri: Rossi, Marsilio, Rossi M.",
   "Puglia: firmatari non riconosciuti tra i consiglieri: Città Metropolitana di Bari, Eugenio Di Sciascio",
   "Molise: firmatari non riconosciuti tra i consiglieri: Roberti Francesco, Cefaratti Gianluca",
   "Basilicata: firmatari non riconosciuti tra i consiglieri: Galealla A., Merra D.",
+  "Sicilia: firmatari non riconosciuti tra i consiglieri: Riccardo Antonio Gallo, Alessandro Porto, Salvatore Giuffrida, Martina Ardizzone, Giuseppe Sebastiano Catania, Michele Mancuso, Davide Maria Vasta, Nicolò Catania, Anthony Emanuele Barbagallo",
+  "Sardegna: firmatari non riconosciuti tra i consiglieri: Meloni, Pianu, Spano, Solinas",
+  "Lombardia: firmatari non riconosciuti tra i consiglieri: Giorgio Bontempi, Giuseppe De Bernardi Martignoni, Filippo Bongiovanni",
   "Comunali del 17/05/2026: tornata nuova, aggiungerla a TORNATE in scripts/elezioni.mjs",
   "Elezioni politiche 2022: nessun dato per 11 comuni (Bardello con Malgesso e Bregano, Calliano Monferrato, Campospinoso Albaredo, Grana Monferrato, Montagna sulla strada del vino, Montemagno Monferrato, Moransengo-Tonengo, Popoli Terme, …)",
   "Elezioni comunali 26/05/2019: 17 comuni non riconosciuti (CARCERI (VENETO), MONTECOPIOLO (MARCHE), GRANA (PIEMONTE), ALBAREDO ARNABOLDI (LOMBARDIA), CAMPOSPINOSO (LOMBARDIA), MONTEMAGNO (PIEMONTE), …)",
@@ -256,17 +333,10 @@
   "Elezioni comunali 12/06/2022: 1 comuni non riconosciuti (BARDELLO (LOMBARDIA))",
   "Elezioni comunali 24/05/2026: 1 comuni non riconosciuti (CASTEGNERO NANTO (VENETO))",
   "Elezioni politiche 2022: 19 comuni non riconosciuti (CALLIANO (PIEMONTE 2), GRANA (PIEMONTE 2), MONTEMAGNO (PIEMONTE 2), MORANSENGO (PIEMONTE 2), TONENGO (PIEMONTE 2), BARDELLO (LOMBARDIA 2), …)",
+  "Sicilia: atti senza oggetto nella fonte, non pubblicati: 3 (interrogazione-3524, risoluzione-13, pdl-824)",
+  "Lombardia: eletti nel 2023 non più in carica (subentrati altri): 19 (Marco Alparone, Franco Lucente, Maria Carmela Rozza, Gianluca Marco Comazzi, Carmelo Salvatore Ferraro, Vittorio Sgarbi, Paolo Franco, Lara Magoni, …)",
   "Comuni senza amministratori nell'anagrafe del Ministero: 19 (Aci Catena (087003), Castegnero (024027), Faenza (039010), Gioia Sannitica (061041), Grimacco (030045), Lirio (018082), Marigliano (063043), Mazzarino (085009), …)",
   "Comuni senza collegio ISTAT: 6 (Bardello con Malgesso e Bregano (012144), Moransengo-Tonengo (005122), Santa Caterina d'Este (028108), Setteville (025075), Sovizzo (024128), Uggiate con Ronago (013256))"
  ],
- "leggiSenzaRiassunto": [
-  {
-   "regione": "Calabria",
-   "slug": "calabria",
-   "id": "2026-32",
-   "intestazione": "Legge regionale 7 ottobre 2026, n. 32",
-   "oggetto": "Assestamento del bilancio di previsione della regione Calabria per gli anni 2026-2028",
-   "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=32&anno=2026"
-  }
- ]
+ "leggiSenzaRiassunto": []
 }
