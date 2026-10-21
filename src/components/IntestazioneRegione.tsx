@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
+import { BannerCaroVita } from "./CaroVita";
 import { Condividi } from "./Condividi";
 import { RegioneNav } from "./RegioneNav";
 
@@ -38,6 +39,9 @@ export function IntestazioneRegione({
         <Condividi path={condividi.path} titolo={titolo} testo={condividi.testo} />
       </header>
       <RegioneNav regione={regione} attiva={attiva} />
+      <div className="mt-4">
+        <BannerCaroVita regione={regione} />
+      </div>
     </>
   );
 }

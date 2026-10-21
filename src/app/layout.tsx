@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Geist, Instrument_Serif } from "next/font/google";
 import { Logo } from "@/components/Logo";
 import { MenuMobile } from "@/components/MenuMobile";
+import { specialeAttivo, VOCE_CARO_VITA } from "@/lib/caroVita";
 import Script from "next/script";
 import { SITE_URL } from "@/lib/sito";
 import { UMAMI_DOMINI, UMAMI_WEBSITE_ID } from "@/lib/traccia";
@@ -34,7 +35,7 @@ export const metadata: Metadata = {
 };
 
 // Voci principali, in ordine di importanza per chi visita il sito.
-const MENU = [
+const MENU_BASE = [
   { href: "/", label: "Cerca il tuo comune", descrizione: "Chi ti rappresenta, dal sindaco all'Europa" },
   { href: "/a-chi-rivolgersi/", label: "A chi mi rivolgo?", descrizione: "Strade, ASL, pensioni, treni: chi decide e a chi scrivere" },
   { href: "/chiedi-un-documento/", label: "Chiedi un documento", descrizione: "Contratti, spese, controlli: il diritto di sapere" },
@@ -42,6 +43,7 @@ const MENU = [
   { href: "/consigli-in-chiaro/", label: "Consigli regionali in chiaro", descrizione: "Atti, leggi e mappa del Consiglio: la Campania e le regioni in arrivo" },
   { href: "/fonti/", label: "Fonti e metodo", descrizione: "Da dove vengono i dati e quanto sono aggiornati" },
 ];
+const MENU = specialeAttivo ? [MENU_BASE[0], VOCE_CARO_VITA, ...MENU_BASE.slice(1)] : MENU_BASE;
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
@@ -64,7 +66,13 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             </Link>
             <div className="flex items-center gap-2">
               <nav aria-label="Principale" className="hidden items-center gap-0.5 text-sm xl:flex">
-                {MENU.slice(1, 5).map((m) => (
+                {specialeAttivo && (
+                  <Link href={VOCE_CARO_VITA.href} className="flex items-center gap-1.5 rounded-full px-3 py-2 font-semibold whitespace-nowrap text-accent hover:bg-surface">
+                    <span className="size-1.5 rounded-full bg-accent" aria-hidden />
+                    Caro vita
+                  </Link>
+                )}
+                {MENU_BASE.slice(1, 5).map((m) => (
                   <Link key={m.href} href={m.href} className="rounded-full px-3 py-2 whitespace-nowrap text-ink-2 hover:bg-surface hover:text-ink">
                     {m.label}
                   </Link>

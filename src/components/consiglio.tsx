@@ -62,7 +62,7 @@ export function AttoRow({ atto, tipi, regione, mostraFirmatari = true }: { atto:
           ) : (
             primo.nome
           )}
-          {altri.length > 0 && ` e altri ${altri.length}`}
+          {altri.length > 0 && (altri.length === 1 ? " e un altro" : ` e altri ${altri.length}`)}
         </p>
       )}
       {atto.commissione && <p className="mt-0.5 text-xs text-ink-3">Commissione: {atto.commissione}</p>}

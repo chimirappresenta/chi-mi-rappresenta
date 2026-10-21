@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { comuni, consiglieriPerEmiciclo, consiglioDellaRegione, getConsiglio, meta, parlamento, regioni, tuttiGliEurodeputati } from "@/lib/data";
 import { ComuneSearch } from "@/components/ComuneSearch";
+import { BannerCaroVita } from "@/components/CaroVita";
 import { Condividi } from "@/components/Condividi";
 import { Emiciclo } from "@/components/Emiciclo";
 import { ILLUSTRAZIONE } from "@/components/Illustrazioni";
@@ -81,6 +82,9 @@ export default function Home() {
           className="mx-auto mt-8 max-w-2xl scroll-mt-28 rounded-[24px] border border-line bg-surface p-3 text-left shadow-[0_30px_60px_-40px_rgba(20,34,31,0.45)]"
         >
           <ComuneSearch autoFocus />
+        </div>
+        <div className="mx-auto mt-6 max-w-2xl text-left">
+          <BannerCaroVita />
         </div>
       </section>
 
