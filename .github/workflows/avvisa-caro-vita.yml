@@ -1,0 +1,36 @@
+name: Avviso speciale caro vita
+
+# Avviso su Telegram dall'aggiornamento automatico dello speciale caro vita.
+# Lo avvia l'attività programmata di Claude (gh workflow run) a fine aggiornamento: così i segreti di Telegram restano su GitHub.
+
+on:
+  workflow_dispatch:
+    inputs:
+      esito:
+        description: "ok (aggiornato e pubblicato), nulla (nessuna novità), errore"
+        required: true
+        default: ok
+      messaggio:
+        description: "Cosa è cambiato, in poche righe"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+jobs:
+  avviso:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: scripts
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/avviso-telegram.mjs caro-vita
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          ESITO: ${{ inputs.esito }}
+          MESSAGGIO: ${{ inputs.messaggio }}

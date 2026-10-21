@@ -1,8 +1,10 @@
-// Avvisi privati su Telegram dalle automazioni di GitHub (aggiornamento del lunedì, segnalazioni aperte su GitHub).
+// Avvisi privati su Telegram dalle automazioni di GitHub (aggiornamento del lunedì, segnalazioni aperte su GitHub,
+// aggiornamento automatico dello speciale caro vita).
 // Uso:
 //   node scripts/avviso-telegram.mjs aggiornamento-ok <meta-prima.json> <dati-cambiati: si|no>
 //   node scripts/avviso-telegram.mjs aggiornamento-errore
 //   node scripts/avviso-telegram.mjs segnalazione        (titolo, autore e link dalle variabili ISSUE_*)
+//   node scripts/avviso-telegram.mjs caro-vita           (esito e testo dalle variabili ESITO e MESSAGGIO)
 // Variabili: TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID (secrets del repository), RUN_URL (link al registro dell'esecuzione).
 // Senza token o chat non fa nulla.
 
@@ -76,6 +78,17 @@ if (tipo === "aggiornamento-errore") {
       `<a href="${html(process.env.ISSUE_URL)}">Apri la segnalazione</a>`,
     ].join("\n"),
   );
+} else if (tipo === "caro-vita") {
+  const titolo = {
+    ok: "✅ <b>Speciale caro vita aggiornato</b>: il sito si ripubblica da solo in qualche minuto.",
+    nulla: "⚪ <b>Speciale caro vita</b>: controllato, nessuna novità verificata. Niente da pubblicare.",
+    errore: "🔴 <b>Speciale caro vita non aggiornato</b>: il sito resta com'era. Chiedi a Claude di controllare.",
+  }[process.env.ESITO] ?? `Speciale caro vita: ${html(process.env.ESITO)}`;
+  const testo = (process.env.MESSAGGIO ?? "").trim();
+  const righe = [titolo];
+  if (testo) righe.push("", html(testo.slice(0, 3000)));
+  righe.push("", `<a href="https://chimirappresenta.com/caro-vita/">Apri lo speciale</a>`);
+  await invia(righe.join("\n"));
 } else {
   console.error(`Tipo di avviso sconosciuto: ${tipo}`);
   process.exitCode = 1;
