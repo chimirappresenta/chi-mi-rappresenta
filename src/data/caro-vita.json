@@ -924,6 +924,8 @@
         "2026-2": "redditi"
       },
       "atti": {
+        "mozione-81": "bollette",
+        "mozione-79": "bollette",
         "interrogazione-118": "trasporti",
         "risoluzione-51": "trasporti",
         "risoluzione-50": "trasporti",
@@ -951,6 +953,7 @@
     },
     "calabria": {
       "leggi": {
+        "2026-32": "bollette",
         "2026-14": "casa",
         "2026-11": "casa",
         "2026-10": "casa"

@@ -3345,15 +3345,6 @@
     "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d308620_19"
    }
   ],
-  "CALABRIA - U05": [
-   {
-    "nome": "Fabio Roscioli",
-    "ruolo": "Deputato eletto nel collegio della tua zona",
-    "url": "https://www.camera.it/deputati/elenco/19-309360",
-    "modulo": "https://scrivi.camera.it/scrivi?dest=deputato&id_aul=309360",
-    "fonteUrl": "https://dati.camera.it/ocd/deputato.rdf/d309360_19"
-   }
-  ],
   "VENETO 2 - U01": [
    {
     "nome": "Alberto Di Rubba",
@@ -4649,7 +4640,7 @@
    ],
    "TOSCANA": [
     {
-     "nome": "Claudio Borghi",
+     "nome": "Claudio Borghi Aquilini",
      "ruolo": "Senatore eletto con le liste dei partiti",
      "url": "https://www.senato.it/composizione/senatori/elenco-alfabetico/scheda-attivita?did=33070",
      "email": "claudio.borghi@senato.it",

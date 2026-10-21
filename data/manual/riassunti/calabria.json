@@ -1,6 +1,11 @@
 {
   "_nota": "Riassunti scritti con Claude (claude-opus-5-5) leggendo il testo ufficiale delle leggi (testo pubblicato dal Consiglio regionale della Calabria). Si possono correggere a mano: la pipeline non li sovrascrive.",
   "leggi": {
+    "2026-32": {
+      "testo": "Assestamento del bilancio 2026-2028: aggiorna i conti dopo la chiusura del 2025 e usa l'avanzo disponibile. Tra le misure, fino a 15 milioni di euro di contributi a fondo perduto alle imprese per l'aumento del costo del carburante nel 2026 (settori, importi e criteri li decide la Giunta), il pagamento di somme dovute per sentenze e 3 milioni alle aziende sanitarie per la formazione del personale.",
+      "modello": "claude-opus-5-5",
+      "generato": "2026-10-21"
+    },
     "2026-31": {
       "testo": "Il Consiglio ha avviato l'abrogazione della legge n. 9 del 2026 (quella che modifica lo Statuto su assessori e sottosegretari), approvandola in prima lettura. Per questo il referendum confermativo già indetto su quella legge viene sospeso e, se l'abrogazione sarà approvata definitivamente, annullato. Se invece non passa in seconda lettura, il referendum torna valido.",
       "modello": "claude-opus-5-5",

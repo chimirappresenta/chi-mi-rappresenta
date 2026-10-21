@@ -326,6 +326,7 @@
       "Sanità e Sicurezza Sociale",
       "Istruzione e Cultura",
       "Trasparenza",
+      "Anticamorra e Beni Confiscati",
       "Condizione della donna"
      ],
      "url": "https://www.cr.campania.it/scheda-personale/consigliere/Fele%20Palmira%20?username=FELE.PAL&id_tipo_carica=7",
@@ -700,7 +701,6 @@
       "Sanità e Sicurezza Sociale (segretario)",
       "Affari istituzionali",
       "Urbanistica",
-      "Anticamorra e Beni Confiscati",
       "Emergenza Bradisismo"
      ],
      "url": "https://www.cr.campania.it/scheda-personale/consigliere/Pisacane%20Raffaele%20Maria?username=PISACANE.RAF&id_tipo_carica=7",
@@ -1089,6 +1089,104 @@
     }
    ],
    "atti": [
+    {
+     "id": "mozione-81",
+     "tipo": "mozione",
+     "numero": 81,
+     "data": "2026-10-20",
+     "titolo": "Caro gasolio, crisi dell'autotrasporto e dell'agricoltura campana. Misure immediate di liquidità, Fondo regionale di emergenza, interventi sulla fiscalità regionale e piano per la logistica delle aree interne",
+     "firmatari": [
+      {
+       "nome": "Maurizio Petracca",
+       "username": "PETRACCA.MAU"
+      },
+      {
+       "nome": "Francesca Amirante",
+       "username": "AMIRANTE.FRA"
+      },
+      {
+       "nome": "Carmela Fiola",
+       "username": "FIOLA.CAR"
+      },
+      {
+       "nome": "Giorgio Zinno",
+       "username": "ZINNO.GIO"
+      },
+      {
+       "nome": "Massimiliano Manfredi",
+       "username": "MANFREDI.MAS"
+      },
+      {
+       "nome": "Corrado Matera",
+       "username": "MATERA.COR"
+      },
+      {
+       "nome": "Loredana Raia",
+       "username": "RAIA.LOR"
+      },
+      {
+       "nome": "Marco Villano",
+       "username": "VILLANO.MAR"
+      },
+      {
+       "nome": "Francesco Picarone",
+       "username": "PICARONE.FRA"
+      },
+      {
+       "nome": "Salvatore Madonna",
+       "username": "MADONNA.SAL"
+      }
+     ],
+     "url": "https://www.cr.campania.it/scheda-personale/consigliere/attivita-consigliere/mozioni/dettaglio-documento?id=36162"
+    },
+    {
+     "id": "mozione-80",
+     "tipo": "mozione",
+     "numero": 80,
+     "data": "2026-10-19",
+     "titolo": "Vertenza Barilla di Marcianise - Tutela della continuità produttiva e occupazionale dello stabilimento",
+     "firmatari": [
+      {
+       "nome": "Rosario Andreozzi",
+       "username": "ANDREOZZI.ROS"
+      },
+      {
+       "nome": "Carlo Ceparano",
+       "username": "CEPARANO.CAR"
+      }
+     ],
+     "url": "https://www.cr.campania.it/scheda-personale/consigliere/attivita-consigliere/mozioni/dettaglio-documento?id=36161"
+    },
+    {
+     "id": "mozione-79",
+     "tipo": "mozione",
+     "numero": 79,
+     "data": "2026-10-19",
+     "titolo": "Emergenza caro - carburanti, sostegno urgente alle imprese di autotrasporto e al comparto agricolo della Campania. Istituzione di un fondo regionale straordinario e misure a tutela dell'intero territorio regionale, con particolare riferimento alle aree interne e ai comuni della fascia costiera, e filiere produttive",
+     "firmatari": [
+      {
+       "nome": "Pellegrino Mastella",
+       "username": "MASTELLA.PEL"
+      },
+      {
+       "nome": "Ciro Buonajuto",
+       "username": "BUONAJUTO.CIR"
+      },
+      {
+       "nome": "Giuseppe Barra",
+       "username": "BARRA.GIU"
+      },
+      {
+       "nome": "Pietro Smarrazzo",
+       "username": "SMARRAZZO.PIE"
+      },
+      {
+       "nome": "Vincenzo Alaia",
+       "username": "ALAIA.VIN"
+      }
+     ],
+     "url": "https://www.cr.campania.it/scheda-personale/consigliere/attivita-consigliere/mozioni/dettaglio-documento?id=36160"
+    },
     {
      "id": "interrogazione-131",
      "tipo": "interrogazione",
@@ -4232,6 +4330,10 @@
       {
        "nome": "Mimì Minella",
        "username": "MINELLA.MIM"
+      },
+      {
+       "nome": "Giovanni Maria Cuofano",
+       "username": "CUOFANO.GIO"
       }
      ],
      "url": "https://www.cr.campania.it/scheda-personale/consigliere/attivita-consigliere/progetti-legge/dettaglio-documento?id=35581"
@@ -8185,97 +8287,154 @@
     }
    ],
    "attivita": {
-    "CEPARANO.CAR": {
-     "totale": 31,
-     "primoFirmatario": 17,
-     "perTipo": {
-      "interrogazione": 12,
-      "mozione": 12,
-      "pdl": 6,
-      "question-time": 1
-     }
-    },
-    "VILLANO.MAR": {
-     "totale": 16,
-     "primoFirmatario": 3,
-     "perTipo": {
-      "pdl": 12,
-      "mozione": 4
-     }
-    },
-    "PICARONE.FRA": {
-     "totale": 18,
+    "PETRACCA.MAU": {
+     "totale": 20,
      "primoFirmatario": 5,
      "perTipo": {
-      "pdl": 12,
-      "mozione": 5,
-      "risoluzione": 1
+      "mozione": 7,
+      "pdl": 13
      }
     },
     "AMIRANTE.FRA": {
-     "totale": 18,
+     "totale": 19,
      "primoFirmatario": 1,
      "perTipo": {
+      "mozione": 6,
       "pdl": 12,
-      "mozione": 5,
       "risoluzione": 1
      }
     },
     "FIOLA.CAR": {
-     "totale": 18,
+     "totale": 19,
      "primoFirmatario": 3,
      "perTipo": {
-      "pdl": 12,
-      "mozione": 6
-     }
-    },
-    "MADONNA.SAL": {
-     "totale": 17,
-     "primoFirmatario": 0,
-     "perTipo": {
-      "pdl": 12,
-      "mozione": 5
-     }
-    },
-    "MATERA.COR": {
-     "totale": 17,
-     "primoFirmatario": 4,
-     "perTipo": {
-      "pdl": 14,
-      "mozione": 3
-     }
-    },
-    "PETRACCA.MAU": {
-     "totale": 19,
-     "primoFirmatario": 4,
-     "perTipo": {
-      "pdl": 13,
-      "mozione": 6
-     }
-    },
-    "RAIA.LOR": {
-     "totale": 17,
-     "primoFirmatario": 2,
-     "perTipo": {
-      "pdl": 13,
-      "mozione": 4
+      "mozione": 7,
+      "pdl": 12
      }
     },
     "ZINNO.GIO": {
-     "totale": 16,
+     "totale": 17,
      "primoFirmatario": 0,
      "perTipo": {
-      "pdl": 12,
-      "mozione": 4
+      "mozione": 5,
+      "pdl": 12
      }
     },
     "MANFREDI.MAS": {
-     "totale": 20,
+     "totale": 21,
      "primoFirmatario": 3,
      "perTipo": {
+      "mozione": 6,
       "pdl": 14,
-      "mozione": 5,
       "risoluzione": 1
+     }
+    },
+    "MATERA.COR": {
+     "totale": 18,
+     "primoFirmatario": 4,
+     "perTipo": {
+      "mozione": 4,
+      "pdl": 14
+     }
+    },
+    "RAIA.LOR": {
+     "totale": 18,
+     "primoFirmatario": 2,
+     "perTipo": {
+      "mozione": 5,
+      "pdl": 13
+     }
+    },
+    "VILLANO.MAR": {
+     "totale": 17,
+     "primoFirmatario": 3,
+     "perTipo": {
+      "mozione": 5,
+      "pdl": 12
+     }
+    },
+    "PICARONE.FRA": {
+     "totale": 19,
+     "primoFirmatario": 5,
+     "perTipo": {
+      "mozione": 6,
+      "pdl": 12,
+      "risoluzione": 1
+     }
+    },
+    "MADONNA.SAL": {
+     "totale": 18,
+     "primoFirmatario": 0,
+     "perTipo": {
+      "mozione": 6,
+      "pdl": 12
+     }
+    },
+    "ANDREOZZI.ROS": {
+     "totale": 24,
+     "primoFirmatario": 12,
+     "perTipo": {
+      "mozione": 13,
+      "interrogazione": 3,
+      "risoluzione": 3,
+      "pdl": 5
+     }
+    },
+    "CEPARANO.CAR": {
+     "totale": 32,
+     "primoFirmatario": 17,
+     "perTipo": {
+      "mozione": 13,
+      "interrogazione": 12,
+      "pdl": 6,
+      "question-time": 1
+     }
+    },
+    "MASTELLA.PEL": {
+     "totale": 16,
+     "primoFirmatario": 9,
+     "perTipo": {
+      "mozione": 7,
+      "pdl": 5,
+      "interrogazione": 4
+     }
+    },
+    "BUONAJUTO.CIR": {
+     "totale": 11,
+     "primoFirmatario": 0,
+     "perTipo": {
+      "mozione": 4,
+      "pdl": 6,
+      "interrogazione": 1
+     }
+    },
+    "BARRA.GIU": {
+     "totale": 7,
+     "primoFirmatario": 1,
+     "perTipo": {
+      "mozione": 4,
+      "pdl": 2,
+      "interrogazione": 1
+     }
+    },
+    "SMARRAZZO.PIE": {
+     "totale": 7,
+     "primoFirmatario": 3,
+     "perTipo": {
+      "mozione": 3,
+      "pdl": 1,
+      "interrogazione": 2,
+      "question-time": 1
+     }
+    },
+    "ALAIA.VIN": {
+     "totale": 12,
+     "primoFirmatario": 1,
+     "perTipo": {
+      "mozione": 5,
+      "risoluzione": 3,
+      "pdl": 3,
+      "interrogazione": 1
      }
     },
     "ODIERNA.SEB": {
@@ -8413,16 +8572,6 @@
       "mozione": 5
      }
     },
-    "ANDREOZZI.ROS": {
-     "totale": 23,
-     "primoFirmatario": 11,
-     "perTipo": {
-      "interrogazione": 3,
-      "risoluzione": 3,
-      "mozione": 12,
-      "pdl": 5
-     }
-    },
     "FLOCCO.SAL": {
      "totale": 19,
      "primoFirmatario": 1,
@@ -8430,16 +8579,6 @@
       "risoluzione": 1,
       "pdl": 10,
       "mozione": 8
-     }
-    },
-    "ALAIA.VIN": {
-     "totale": 11,
-     "primoFirmatario": 1,
-     "perTipo": {
-      "risoluzione": 3,
-      "pdl": 3,
-      "mozione": 4,
-      "interrogazione": 1
      }
     },
     "SAIELLO.GEN": {
@@ -8560,24 +8699,6 @@
       "pdl": 1
      }
     },
-    "BARRA.GIU": {
-     "totale": 6,
-     "primoFirmatario": 1,
-     "perTipo": {
-      "pdl": 2,
-      "mozione": 3,
-      "interrogazione": 1
-     }
-    },
-    "BUONAJUTO.CIR": {
-     "totale": 10,
-     "primoFirmatario": 0,
-     "perTipo": {
-      "pdl": 6,
-      "mozione": 3,
-      "interrogazione": 1
-     }
-    },
     "DERRICO.DAV": {
      "totale": 14,
      "primoFirmatario": 8,
@@ -8623,25 +8744,6 @@
       "interrogazione": 8
      }
     },
-    "MASTELLA.PEL": {
-     "totale": 15,
-     "primoFirmatario": 8,
-     "perTipo": {
-      "pdl": 5,
-      "mozione": 6,
-      "interrogazione": 4
-     }
-    },
-    "SMARRAZZO.PIE": {
-     "totale": 6,
-     "primoFirmatario": 3,
-     "perTipo": {
-      "pdl": 1,
-      "mozione": 2,
-      "interrogazione": 2,
-      "question-time": 1
-     }
-    },
     "VIGNATI.ELE": {
      "totale": 22,
      "primoFirmatario": 2,
@@ -8662,10 +8764,10 @@
      }
     },
     "CUOFANO.GIO": {
-     "totale": 6,
+     "totale": 7,
      "primoFirmatario": 0,
      "perTipo": {
-      "pdl": 3,
+      "pdl": 4,
       "mozione": 3
      }
     }
@@ -8677,21 +8779,21 @@
     "nome": "Consiglieri regionali",
     "ente": "Consiglio regionale della Campania",
     "url": "https://www.cr.campania.it/consiglio-regionale/consiglieri",
-    "raccolto": "2026-10-19"
+    "raccolto": "2026-10-21"
    },
    "giunta": {
     "id": "giunta",
     "nome": "La Giunta regionale",
     "ente": "Regione Campania",
     "url": "https://www.regione.campania.it/regione/la-giunta-regionale",
-    "raccolto": "2026-10-19"
+    "raccolto": "2026-10-21"
    },
    "atti": {
     "id": "cr-atti",
     "nome": "Attività dei consiglieri e leggi regionali",
     "ente": "Consiglio regionale della Campania",
     "url": "https://www.cr.campania.it/leggi-progetti/leggi-regolamenti",
-    "raccolto": "2026-10-19"
+    "raccolto": "2026-10-21"
    },
    "circoscrizioni": {
     "id": "wiki-regionali",
@@ -8851,12 +8953,12 @@
     {
      "nome": "Pierluigi Caputo",
      "ruolo": "Consigliere regionale",
-     "dettaglio": "Gruppo: Occhiuto Presidente (capogruppo)",
+     "dettaglio": "Gruppo: Forza Italia (capogruppo)",
      "email": "pierluigi.caputo@consrc.it",
      "url": "https://www.consiglioregionale.calabria.it/portale/Istituzione/Consiglieri/Consigliere/294",
      "circoscrizione": "Cosenza",
      "username": "caputo.pie",
-     "gruppo": "Occhiuto Presidente",
+     "gruppo": "Forza Italia",
      "ruoloGruppo": "capogruppo"
     },
     {
@@ -9016,7 +9118,7 @@
     {
      "nome": "Emanuele Ionà",
      "ruolo": "Consigliere regionale",
-     "dettaglio": "Gruppo: Occhiuto Presidente",
+     "dettaglio": "Gruppo: Occhiuto Presidente (capogruppo)",
      "email": "emanuele.iona@consrc.it",
      "commissioni": [
       "Giunta delle Elezioni",
@@ -9026,7 +9128,8 @@
      "url": "https://www.consiglioregionale.calabria.it/portale/Istituzione/Consiglieri/Consigliere/313",
      "circoscrizione": "Catanzaro, Crotone e Vibo Valentia",
      "username": "iona.ema",
-     "gruppo": "Occhiuto Presidente"
+     "gruppo": "Occhiuto Presidente",
+     "ruoloGruppo": "capogruppo"
     },
     {
      "nome": "Ferdinando Laghi",
@@ -9291,6 +9394,35 @@
     }
    ],
    "atti": [
+    {
+     "id": "interrogazione-215",
+     "tipo": "interrogazione",
+     "numero": 215,
+     "data": "2026-10-20",
+     "titolo": "Avviso pubblico “Un passo in più” (PR Calabria FESR FSE+ 2021-2027 – Azione 4.k.1) – criteri di accesso, funzionamento della piattaforma informatica, modalità di rendicontazione e integrazione delle risorse per il finanziamento delle domande ammissibili.",
+     "firmatari": [
+      {
+       "nome": "Filomena Greco",
+       "username": "greco.fil"
+      }
+     ],
+     "url": "https://www.consiglioregionale.calabria.it/portale/BancheDati/SindacatoIspettivo/DettaglioIIM?numero=215&tipo=INTERROGAZIONE&leg=13&titolo=Avviso%20pubblico%20%E2%80%9CUn%20passo%20in%20pi%C3%B9%E2%80%9D%20(PR%20Calabria%20FESR%20FSE+%202021-2027%20%E2%80%93%20Azione%204.k.1)%20%E2%80%93%20criteri%20di%20accesso,%20funzionamento%20della%20piattaforma%20informatica,%20modalit%C3%A0%20di%20rendicontazione%20e%20integrazione%20delle%20risorse%20per%20il%20finanziamento%20delle%20domande%20ammissibili."
+    },
+    {
+     "id": "pdl-132",
+     "tipo": "pdl",
+     "numero": 132,
+     "data": "2026-10-20",
+     "titolo": "Disposizioni per la promozione e l'integrazione degli interventi di musicoterapia nei percorsi sanitari, sociosanitari, sociali, educativi e assistenziali",
+     "commissione": "3ª Commissione",
+     "firmatari": [
+      {
+       "nome": "Ernesto Francesco Alecci",
+       "username": "alecci.ern"
+      }
+     ],
+     "url": "https://www.consiglioregionale.calabria.it/pl13/132.pdf"
+    },
     {
      "id": "interrogazione-214",
      "tipo": "interrogazione",
@@ -9830,6 +9962,14 @@
       {
        "nome": "Elisabetta Santoianni",
        "username": "santoianni.eli"
+      },
+      {
+       "nome": "Filomena Greco",
+       "username": "greco.fil"
+      },
+      {
+       "nome": "Rosellina Madeo",
+       "username": "madeo.ros"
       }
      ],
      "url": "https://www.consiglioregionale.calabria.it/pl13/123.pdf"
@@ -16266,6 +16406,16 @@
    ],
    "leggi": [
     {
+     "id": "2026-32",
+     "numero": 32,
+     "data": "2026-10-07",
+     "intestazione": "Legge regionale 7 ottobre 2026, n. 32",
+     "oggetto": "Assestamento del bilancio di previsione della regione Calabria per gli anni 2026-2028",
+     "url": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=32&anno=2026",
+     "pdf": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=32&anno=2026",
+     "testo": "https://www.consiglioregionale.calabria.it/bdf/api/BDF?numero=32&anno=2026&tipo=TXT"
+    },
+    {
      "id": "2026-31",
      "numero": 31,
      "data": "2026-10-07",
@@ -16852,13 +17002,23 @@
     }
    ],
    "attivita": {
-    "alecci.ern": {
-     "totale": 63,
-     "primoFirmatario": 52,
+    "greco.fil": {
+     "totale": 40,
+     "primoFirmatario": 20,
      "perTipo": {
+      "interrogazione": 10,
+      "mozione": 18,
+      "pdl": 11,
+      "question-time": 1
+     }
+    },
+    "alecci.ern": {
+     "totale": 64,
+     "primoFirmatario": 53,
+     "perTipo": {
+      "pdl": 8,
       "interrogazione": 37,
-      "mozione": 19,
-      "pdl": 7
+      "mozione": 19
      }
     },
     "barbuto.eli": {
@@ -16954,23 +17114,13 @@
      }
     },
     "madeo.ros": {
-     "totale": 43,
+     "totale": 44,
      "primoFirmatario": 28,
      "perTipo": {
       "mozione": 13,
+      "pdl": 5,
       "interrogazione": 22,
-      "pdl": 4,
       "question-time": 4
-     }
-    },
-    "greco.fil": {
-     "totale": 38,
-     "primoFirmatario": 19,
-     "perTipo": {
-      "mozione": 18,
-      "pdl": 10,
-      "question-time": 1,
-      "interrogazione": 9
      }
     },
     "caputo.pie": {
@@ -17115,21 +17265,21 @@
     "nome": "Consiglieri regionali",
     "ente": "Consiglio regionale della Calabria",
     "url": "https://www.consiglioregionale.calabria.it/portale/Istituzione/Consiglieri/Consiglieri",
-    "raccolto": "2026-10-20"
+    "raccolto": "2026-10-21"
    },
    "giunta": {
     "id": "calabria-giunta",
     "nome": "La Giunta regionale",
     "ente": "Regione Calabria",
     "url": "https://www.regione.calabria.it/la-regione/la-giunta-regionale/",
-    "raccolto": "2026-10-20"
+    "raccolto": "2026-10-21"
    },
    "atti": {
     "id": "calabria-atti",
     "nome": "Atti dei consiglieri e leggi regionali (open data)",
     "ente": "Consiglio regionale della Calabria",
     "url": "https://www.consiglioregionale.calabria.it/portale/BancheDati/OpenData/OpenData",
-    "raccolto": "2026-10-20"
+    "raccolto": "2026-10-21"
    },
    "circoscrizioni": {
     "id": "calabria-circoscrizioni",
@@ -17643,8 +17793,8 @@
      "titolo": "Indizione di nuova consultazione referendaria consultiva in ordine al processo di fusione dei Comuni di Pescara, Montesilvano e Spoltore, ai sensi della L.R. n. 44/2007, in ragione del decorso di un termine superiore a dieci anni dall'avvio dell'iter legislativo originario",
      "firmatari": [
       {
-       "nome": "Leonardo D'Addazio",
-       "username": "d addazio.leo"
+       "nome": "Luca De Renzis",
+       "username": "de renzis.luc"
       }
      ],
      "url": "https://www.consiglio.regione.abruzzo.it/node/241130"
@@ -17852,6 +18002,8 @@
      "numero": 162,
      "data": "2026-09-10",
      "titolo": "Disposizioni per il riconoscimento e la valorizzazione della Festa dell'Uva di Mosciano Sant'Angelo e delle tradizioni della cultura rurale e contadina abruzzese",
+     "esito": "approvata",
+     "esitoData": "legge regionale n. 33/2026",
      "commissione": "Quinta Commissione",
      "firmatari": [
       {
@@ -18157,6 +18309,8 @@
      "numero": 152,
      "data": "2026-07-29",
      "titolo": "Riconoscimento della legittimità del debito fuori bilancio derivante dall’acquisizione di beni e servizi in assenza del preventivo impegno di spesa, ai sensi dell’art. 73 comma 1 lett. e) del D. Lgs. 23 giugno 2011 n. 118, in favore di Formez PA",
+     "esito": "approvata",
+     "esitoData": "legge regionale n. 29/2026",
      "commissione": "Prima Commissione",
      "firmatari": [
       {
@@ -18497,6 +18651,8 @@
      "numero": 141,
      "data": "2026-06-26",
      "titolo": "Istituzione della Giornata Regionale della Protezione civile in memoria di don Orione",
+     "esito": "approvata",
+     "esitoData": "legge regionale n. 32/2026",
      "commissione": "Quinta Commissione",
      "firmatari": [
       {
@@ -18623,6 +18779,8 @@
      "numero": 135,
      "data": "2026-06-11",
      "titolo": "Valorizzazione della figura di Corradino D'Ascanio e promozione della Vespa quale simbolo dell'ingegno abruzzese e italiano",
+     "esito": "approvata",
+     "esitoData": "legge regionale n. 31/2026",
      "commissione": "Quinta Commissione",
      "firmatari": [
       {
@@ -19026,6 +19184,8 @@
      "numero": 123,
      "data": "2026-04-23",
      "titolo": "Disposizioni per la valorizzazione dei luoghi della lotta partigiana e della guerra di Liberazione, tramite l'istituzione di Parchi della Memoria storica della Resistenza.",
+     "esito": "approvata",
+     "esitoData": "legge regionale n. 30/2026",
      "commissione": "Quinta Commissione",
      "firmatari": [
       {
@@ -26351,13 +26511,12 @@
       "interrogazione": 1
      }
     },
-    "d addazio.leo": {
-     "totale": 12,
-     "primoFirmatario": 9,
+    "de renzis.luc": {
+     "totale": 3,
+     "primoFirmatario": 1,
      "perTipo": {
-      "risoluzione": 5,
-      "pdl": 5,
-      "mozione": 2
+      "risoluzione": 1,
+      "pdl": 2
      }
     },
     "mannetti.car": {
@@ -26524,6 +26683,15 @@
       "risoluzione": 10
      }
     },
+    "d addazio.leo": {
+     "totale": 11,
+     "primoFirmatario": 8,
+     "perTipo": {
+      "pdl": 5,
+      "risoluzione": 4,
+      "mozione": 2
+     }
+    },
     "la porta.ant": {
      "totale": 3,
      "primoFirmatario": 1,
@@ -26570,13 +26738,6 @@
       "risoluzione": 1
      }
     },
-    "de renzis.luc": {
-     "totale": 2,
-     "primoFirmatario": 0,
-     "perTipo": {
-      "pdl": 2
-     }
-    },
     "prospero.fra": {
      "totale": 6,
      "primoFirmatario": 6,
@@ -26607,21 +26768,21 @@
     "nome": "Consiglieri e gruppi consiliari",
     "ente": "Consiglio regionale dell'Abruzzo",
     "url": "https://www.consiglio.regione.abruzzo.it/contenuti/consiglieri-xii-legislatura",
-    "raccolto": "2026-10-20"
+    "raccolto": "2026-10-21"
    },
    "giunta": {
     "id": "abruzzo-giunta",
     "nome": "La Giunta regionale",
     "ente": "Regione Abruzzo",
     "url": "https://www.regione.abruzzo.it/giunta",
-    "raccolto": "2026-10-20"
+    "raccolto": "2026-10-21"
    },
    "atti": {
     "id": "abruzzo-atti",
     "nome": "Documenti politici, progetti di legge (IterLegis) e leggi regionali",
     "ente": "Consiglio regionale dell'Abruzzo",
     "url": "https://www.consiglio.regione.abruzzo.it/documenti-politici-elenco",
-    "raccolto": "2026-10-20"
+    "raccolto": "2026-10-21"
    }
   }
  },
@@ -27450,6 +27611,98 @@
     }
    ],
    "atti": [
+    {
+     "id": "mozione-109",
+     "tipo": "mozione",
+     "numero": 109,
+     "data": "2026-10-20",
+     "titolo": "Istituzione di un Piano regionale di monitoraggio e censimento del lupo in Puglia",
+     "firmatari": [
+      {
+       "nome": "Tommaso Scatigna",
+       "username": "scatigna.tom"
+      }
+     ],
+     "url": "https://giac.consiglio.puglia.it/web/timeline/2765"
+    },
+    {
+     "id": "mozione-108",
+     "tipo": "mozione",
+     "numero": 108,
+     "data": "2026-10-20",
+     "titolo": "Iniziative urgenti presso il Governo italiano e nelle sedi diplomatiche internazionali per scongiurare l'esecuzione della condanna a morte di Najmeh Amini, giovane cittadina iraniana, e tutelare i...",
+     "firmatari": [
+      {
+       "nome": "Antonio Paolo Scalera",
+       "username": "scalera.ant"
+      },
+      {
+       "nome": "Luigi Lobuono",
+       "username": "lobuono.lui"
+      },
+      {
+       "nome": "Massimiliano Di Cuia",
+       "username": "di cuia.mas"
+      },
+      {
+       "nome": "Anna Carmela Minuto",
+       "username": "minuto.ann"
+      },
+      {
+       "nome": "Renato Perrini",
+       "username": "perrini.ren"
+      },
+      {
+       "nome": "Andrea Ferri",
+       "username": "ferri.and"
+      },
+      {
+       "nome": "Antonia Spina",
+       "username": "spina.ant"
+      },
+      {
+       "nome": "Marcello Lanotte",
+       "username": "lanotte.mar"
+      },
+      {
+       "nome": "Paride Mazzotta",
+       "username": "mazzotta.par"
+      },
+      {
+       "nome": "Paolo Soccorso Dell'Erba",
+       "username": "dell erba.pao"
+      },
+      {
+       "nome": "Antonio Scianaro",
+       "username": "scianaro.ant"
+      },
+      {
+       "nome": "Luigi Caroli",
+       "username": "caroli.lui"
+      },
+      {
+       "nome": "Tommaso Scatigna",
+       "username": "scatigna.tom"
+      },
+      {
+       "nome": "Paolo Pagliaro",
+       "username": "pagliaro.pao"
+      },
+      {
+       "nome": "Giovanni De Leonardis",
+       "username": "de leonardis.gio"
+      },
+      {
+       "nome": "Nicola Gatta",
+       "username": "gatta.nic"
+      },
+      {
+       "nome": "Fabio Saverio Romito",
+       "username": "romito.fab"
+      }
+     ],
+     "url": "https://giac.consiglio.puglia.it/web/timeline/2764"
+    },
     {
      "id": "pdl-251",
      "tipo": "pdl",
@@ -38204,22 +38457,156 @@
     }
    ],
    "attivita": {
-    "di cuia.mas": {
-     "totale": 22,
+    "scatigna.tom": {
+     "totale": 67,
      "primoFirmatario": 11,
      "perTipo": {
+      "mozione": 25,
       "interrogazione": 10,
-      "pdl": 3,
-      "mozione": 9
+      "pdl": 32
      }
     },
     "scalera.ant": {
-     "totale": 73,
-     "primoFirmatario": 67,
+     "totale": 74,
+     "primoFirmatario": 68,
      "perTipo": {
+      "mozione": 23,
       "interrogazione": 23,
-      "pdl": 28,
-      "mozione": 22
+      "pdl": 28
+     }
+    },
+    "lobuono.lui": {
+     "totale": 10,
+     "primoFirmatario": 6,
+     "perTipo": {
+      "mozione": 3,
+      "interrogazione": 4,
+      "pdl": 3
+     }
+    },
+    "di cuia.mas": {
+     "totale": 23,
+     "primoFirmatario": 11,
+     "perTipo": {
+      "mozione": 10,
+      "interrogazione": 10,
+      "pdl": 3
+     }
+    },
+    "minuto.ann": {
+     "totale": 16,
+     "primoFirmatario": 3,
+     "perTipo": {
+      "mozione": 12,
+      "interrogazione": 2,
+      "pdl": 2
+     }
+    },
+    "perrini.ren": {
+     "totale": 94,
+     "primoFirmatario": 38,
+     "perTipo": {
+      "mozione": 27,
+      "interrogazione": 34,
+      "pdl": 33
+     }
+    },
+    "ferri.and": {
+     "totale": 61,
+     "primoFirmatario": 0,
+     "perTipo": {
+      "mozione": 24,
+      "interrogazione": 6,
+      "pdl": 31
+     }
+    },
+    "spina.ant": {
+     "totale": 62,
+     "primoFirmatario": 0,
+     "perTipo": {
+      "mozione": 24,
+      "interrogazione": 6,
+      "pdl": 32
+     }
+    },
+    "lanotte.mar": {
+     "totale": 16,
+     "primoFirmatario": 3,
+     "perTipo": {
+      "mozione": 11,
+      "pdl": 3,
+      "interrogazione": 2
+     }
+    },
+    "mazzotta.par": {
+     "totale": 24,
+     "primoFirmatario": 15,
+     "perTipo": {
+      "mozione": 14,
+      "pdl": 5,
+      "interrogazione": 5
+     }
+    },
+    "dell erba.pao": {
+     "totale": 13,
+     "primoFirmatario": 0,
+     "perTipo": {
+      "mozione": 10,
+      "pdl": 2,
+      "interrogazione": 1
+     }
+    },
+    "scianaro.ant": {
+     "totale": 62,
+     "primoFirmatario": 0,
+     "perTipo": {
+      "mozione": 24,
+      "interrogazione": 6,
+      "pdl": 32
+     }
+    },
+    "caroli.lui": {
+     "totale": 63,
+     "primoFirmatario": 4,
+     "perTipo": {
+      "mozione": 24,
+      "interrogazione": 7,
+      "pdl": 32
+     }
+    },
+    "pagliaro.pao": {
+     "totale": 68,
+     "primoFirmatario": 46,
+     "perTipo": {
+      "mozione": 26,
+      "interrogazione": 7,
+      "pdl": 35
+     }
+    },
+    "de leonardis.gio": {
+     "totale": 65,
+     "primoFirmatario": 3,
+     "perTipo": {
+      "mozione": 24,
+      "interrogazione": 9,
+      "pdl": 32
+     }
+    },
+    "gatta.nic": {
+     "totale": 63,
+     "primoFirmatario": 3,
+     "perTipo": {
+      "mozione": 24,
+      "interrogazione": 6,
+      "pdl": 33
+     }
+    },
+    "romito.fab": {
+     "totale": 25,
+     "primoFirmatario": 17,
+     "perTipo": {
+      "mozione": 8,
+      "pdl": 17
      }
     },
     "tutolo.ant": {
@@ -38230,92 +38617,11 @@
       "pdl": 3
      }
     },
-    "perrini.ren": {
-     "totale": 93,
-     "primoFirmatario": 38,
-     "perTipo": {
-      "interrogazione": 34,
-      "mozione": 26,
-      "pdl": 33
-     }
-    },
-    "pagliaro.pao": {
-     "totale": 67,
-     "primoFirmatario": 46,
-     "perTipo": {
-      "mozione": 25,
-      "interrogazione": 7,
-      "pdl": 35
-     }
-    },
     "basile.cat": {
      "totale": 60,
      "primoFirmatario": 0,
      "perTipo": {
       "mozione": 22,
-      "interrogazione": 6,
-      "pdl": 32
-     }
-    },
-    "caroli.lui": {
-     "totale": 62,
-     "primoFirmatario": 4,
-     "perTipo": {
-      "mozione": 23,
-      "interrogazione": 7,
-      "pdl": 32
-     }
-    },
-    "de leonardis.gio": {
-     "totale": 64,
-     "primoFirmatario": 3,
-     "perTipo": {
-      "mozione": 23,
-      "interrogazione": 9,
-      "pdl": 32
-     }
-    },
-    "ferri.and": {
-     "totale": 60,
-     "primoFirmatario": 0,
-     "perTipo": {
-      "mozione": 23,
-      "interrogazione": 6,
-      "pdl": 31
-     }
-    },
-    "gatta.nic": {
-     "totale": 62,
-     "primoFirmatario": 3,
-     "perTipo": {
-      "mozione": 23,
-      "interrogazione": 6,
-      "pdl": 33
-     }
-    },
-    "scatigna.tom": {
-     "totale": 65,
-     "primoFirmatario": 10,
-     "perTipo": {
-      "mozione": 23,
-      "interrogazione": 10,
-      "pdl": 32
-     }
-    },
-    "scianaro.ant": {
-     "totale": 61,
-     "primoFirmatario": 0,
-     "perTipo": {
-      "mozione": 23,
-      "interrogazione": 6,
-      "pdl": 32
-     }
-    },
-    "spina.ant": {
-     "totale": 61,
-     "primoFirmatario": 0,
-     "perTipo": {
-      "mozione": 23,
       "interrogazione": 6,
       "pdl": 32
      }
@@ -38490,33 +38796,6 @@
       "pdl": 1
      }
     },
-    "lobuono.lui": {
-     "totale": 9,
-     "primoFirmatario": 6,
-     "perTipo": {
-      "mozione": 2,
-      "interrogazione": 4,
-      "pdl": 3
-     }
-    },
-    "lanotte.mar": {
-     "totale": 15,
-     "primoFirmatario": 3,
-     "perTipo": {
-      "mozione": 10,
-      "pdl": 3,
-      "interrogazione": 2
-     }
-    },
-    "minuto.ann": {
-     "totale": 15,
-     "primoFirmatario": 3,
-     "perTipo": {
-      "interrogazione": 2,
-      "pdl": 2,
-      "mozione": 11
-     }
-    },
     "cera.nap": {
      "totale": 14,
      "primoFirmatario": 8,
@@ -38542,23 +38821,6 @@
       "mozione": 8
      }
     },
-    "romito.fab": {
-     "totale": 24,
-     "primoFirmatario": 17,
-     "perTipo": {
-      "pdl": 17,
-      "mozione": 7
-     }
-    },
-    "mazzotta.par": {
-     "totale": 23,
-     "primoFirmatario": 15,
-     "perTipo": {
-      "mozione": 13,
-      "pdl": 5,
-      "interrogazione": 5
-     }
-    },
     "piemontese.raf": {
      "totale": 3,
      "primoFirmatario": 1,
@@ -38572,15 +38834,6 @@
      "perTipo": {
       "mozione": 1,
       "pdl": 1
-     }
-    },
-    "dell erba.pao": {
-     "totale": 12,
-     "primoFirmatario": 0,
-     "perTipo": {
-      "pdl": 2,
-      "mozione": 9,
-      "interrogazione": 1
      }
     },
     "de blasi.gia": {
@@ -38621,21 +38874,21 @@
     "nome": "Consiglieri regionali",
     "ente": "Consiglio regionale della Puglia",
     "url": "https://www.consiglio.puglia.it/consiglieri-2026",
-    "raccolto": "2026-10-20"
+    "raccolto": "2026-10-21"
    },
    "giunta": {
     "id": "puglia-giunta",
     "nome": "La Giunta regionale",
     "ente": "Regione Puglia",
     "url": "https://www.regione.puglia.it/giunta",
-    "raccolto": "2026-10-20"
+    "raccolto": "2026-10-21"
    },
    "atti": {
     "id": "puglia-atti",
     "nome": "Atti consiliari e leggi regionali (GIAC)",
     "ente": "Consiglio regionale della Puglia",
     "url": "https://giac.consiglio.puglia.it/web/progetti-legge",
-    "raccolto": "2026-10-20"
+    "raccolto": "2026-10-21"
    },
    "circoscrizioni": {
     "id": "puglia-circoscrizioni",
@@ -42285,21 +42538,21 @@
     "nome": "Consiglieri e gruppi consiliari",
     "ente": "Consiglio regionale del Molise",
     "url": "https://consiglio.regione.molise.it/13_legislatura",
-    "raccolto": "2026-10-20"
+    "raccolto": "2026-10-21"
    },
    "giunta": {
     "id": "molise-giunta",
     "nome": "La Giunta regionale",
     "ente": "Regione Molise",
     "url": "https://www.regione.molise.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/15989",
-    "raccolto": "2026-10-20"
+    "raccolto": "2026-10-21"
    },
    "atti": {
     "id": "molise-atti",
     "nome": "Atti di indirizzo approvati, proposte di legge e leggi regionali",
     "ente": "Consiglio regionale del Molise",
     "url": "https://consiglioweb.regione.molise.it/atti.php",
-    "raccolto": "2026-10-20"
+    "raccolto": "2026-10-21"
    }
   }
  },
@@ -57397,21 +57650,21 @@
     "nome": "Consiglieri, gruppi e assessori",
     "ente": "Consiglio regionale della Basilicata",
     "url": "https://www.consiglio.basilicata.it/pagina_elenco.html?ref_type_id=10010&sub_menu_id=200418&section_id=200424",
-    "raccolto": "2026-10-20"
+    "raccolto": "2026-10-21"
    },
    "giunta": {
     "id": "basilicata-giunta",
     "nome": "Assessori regionali (sito del Consiglio)",
     "ente": "Consiglio regionale della Basilicata",
     "url": "https://www.consiglio.basilicata.it/pagina_elenco.html?ref_type_id=10010&sub_menu_id=200418&section_id=200424",
-    "raccolto": "2026-10-20"
+    "raccolto": "2026-10-21"
    },
    "atti": {
     "id": "basilicata-atti",
     "nome": "Atti dell'Assemblea e leggi regionali",
     "ente": "Consiglio regionale della Basilicata",
     "url": "https://atticonsiglio.consiglio.basilicata.it/",
-    "raccolto": "2026-10-20"
+    "raccolto": "2026-10-21"
    },
    "circoscrizioni": {
     "id": "basilicata-circoscrizioni",
