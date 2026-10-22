@@ -582,8 +582,8 @@
         ],
         "regione": [
           {
-            "titolo": "25 milioni per l'agricoltura, non ancora operativi",
-            "testo": "Con l'assestamento di bilancio di agosto la Regione ha stanziato fondi contro il caro carburanti, di cui 25 milioni per l'agricoltura. A ottobre le regole per distribuirli non erano ancora definite e le associazioni agricole chiedono di sbloccarli subito.",
+            "titolo": "25 milioni per l'agricoltura, stanziati ma non ancora distribuiti",
+            "testo": "La legge regionale del 21 settembre (variazioni di bilancio) ha stanziato 50 milioni contro il caro carburanti e fertilizzanti, di cui 25 per le aziende agricole: la trovi qui sotto tra le leggi. A ottobre le regole per distribuire i fondi non erano ancora definite e le associazioni agricole chiedono di sbloccarli subito.",
             "fonti": [
               {
                 "nome": "SassariToday",
@@ -1194,7 +1194,12 @@
         "interrogazione-2339": "casa",
         "pdl-1204": "casa",
         "pdl-1144": "redditi",
-        "interrogazione-2604": "redditi"
+        "interrogazione-2604": "redditi",
+        "interrogazione-3795": "agricoltura",
+        "interrogazione-3623": "agricoltura",
+        "interrogazione-2074": "agricoltura",
+        "pdl-5030": "agricoltura",
+        "pdl-971": "redditi"
       }
     },
     "sardegna": {
@@ -1220,7 +1225,10 @@
         "interrogazione-448": "agricoltura",
         "mozione-75": "casa",
         "interrogazione-326": "casa",
-        "mozione-125": "redditi"
+        "mozione-125": "redditi",
+        "pdl-235": "agricoltura",
+        "pdl-124": "agricoltura",
+        "mozione-72": "agricoltura"
       }
     },
     "lombardia": {
