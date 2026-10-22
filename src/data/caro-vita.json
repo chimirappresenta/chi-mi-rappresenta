@@ -1,6 +1,6 @@
 {
   "_nota": "Speciale caro vita. 'contesto': fatti verificati su almeno due fonti indipendenti (nessun giudizio). 'regioni': selezione curata a mano di leggi e atti, con gli id di src/data/consigli.json. Si può correggere a mano.",
-  "aggiornato": "2026-10-21",
+  "aggiornato": "2026-10-22",
   "chiuso": null,
   "temi": [
     {
@@ -33,51 +33,63 @@
     "generale": [
       {
         "titolo": "Autotrasportatori",
-        "testo": "Da metà ottobre presìdi e blocchi di camionisti in tutto il Sud contro il prezzo del gasolio, sopra i 2,2 euro al litro. In diverse zone mancano carburante ai distributori e prodotti freschi nei supermercati.",
+        "testo": "Da metà ottobre presìdi e blocchi di camionisti al Sud contro il prezzo del gasolio, con distributori a secco e scaffali vuoti in diverse zone. In Sicilia il fermo è stato revocato; in Campania e Calabria i presìdi proseguono almeno fino al 27 ottobre.",
         "fonti": [
           {
             "nome": "Il Post",
             "url": "https://www.ilpost.it/2026/10/16/proteste-autotrasportatori-sud-italia/"
           },
           {
-            "nome": "Euronews",
-            "url": "https://it.euronews.com/2026/10/19/autotrasportatori-in-protesta-al-sud-contro-caro-carburanti-blocchi-stradali-e-supermercat"
-          },
-          {
             "nome": "Il Sole 24 Ore",
             "url": "https://ilsole24ore.com/art/tir-protesta-mette-sotto-pressione-filiere-sud-merci-ferme-e-scaffali-vuoti-AJyn15nB"
+          },
+          {
+            "nome": "LaC News24",
+            "url": "https://www.lacnews24.it/economia-e-lavoro/autotrasportatori-fermi-in-calabria-nessuna-retromarcia-sciopero-fino-al-27-ottobre-e-otto-richieste-al-governo-fwjpuhzd"
+          },
+          {
+            "nome": "TrasportoEuropa",
+            "url": "https://www.trasportoeuropa.it/notizie/autotrasporto/proseguono-i-presidi-dellautotrasporto-le-associazioni-chiedono-lintervento-dellinterno"
           }
         ]
       },
       {
         "titolo": "Il Governo",
-        "testo": "Il ministero dei Trasporti ha annunciato 480 milioni di euro per il settore e ha convocato le associazioni il 27 ottobre. In Sicilia il fermo è stato revocato; in Campania, Calabria e Puglia i presìdi proseguono almeno fino a quella data.",
+        "testo": "Il 22 ottobre il Consiglio dei ministri ha esaminato un decreto contro il caro gasolio: secondo le anticipazioni sblocca circa 430 milioni di crediti d'imposta già previsti per l'autotrasporto e aggiunge aiuti per camionisti e agricoltori. Il 27 ottobre è in programma il tavolo al ministero dei Trasporti con le associazioni.",
         "fonti": [
           {
+            "nome": "Il Giornale",
+            "url": "https://www.ilgiornale.it/news/interni/oggi-il-cdm-contro-il-caro-carburanti-sbloccati-oltre-500-milioni-per-lautotrasporto-ecco-le-misure-sul-tavolo/"
+          },
+          {
+            "nome": "Calabria 7",
+            "url": "https://calabria7.news/economia-e-lavoro/caro-gasolio-il-governo-prepara-gli-aiuti-a-tir-e-agricoltori-430-milioni-da-sbloccare-e-nuovi-fondi-in-arrivo/"
+          },
+          {
+            "nome": "Tgcom24",
+            "url": "https://www.tgcom24.mediaset.it/cronaca/protesta-autotrasportatori-gasolio-consiglio-dei-ministri_117992966-202602k.shtml"
+          },
+          {
             "nome": "Sky TG24",
-            "url": "https://tg24.sky.it/cronaca/2026/10/20/sciopero-autotrasportatori-protesta-tir-sud-italia"
-          },
-          {
-            "nome": "Gazzetta del Sud",
-            "url": "https://calabria.gazzettadelsud.it/articoli/cronaca/2026/10/21/proteste-dei-tir-in-campania-blocchi-avanti-fino-al-tavolo-del-27-al-90-nelle-altre-regioni-del-sud-si-andra-avanti-con-i-blocchi-8d250365-2def-4dfe-abfe-55415751bce2/"
-          },
-          {
-            "nome": "L'Espresso",
-            "url": "https://lespresso.it/c/attualita/2026/10/20/autotrasportatori-blocco-sciopero-presidio-caro-carburante-campania-calabria-molise-basilicata-puglia-siciili-supermercati/65389"
+            "url": "https://tg24.sky.it/cronaca/2026/10/15/caro-carburanti-governo-autotrasportatori-sciopero"
           }
         ]
       },
       {
         "titolo": "Agricoltori e pescatori",
-        "testo": "Presìdi con i trattori in diverse regioni per il costo del gasolio e i prezzi bassi pagati ai produttori. Per il 22 ottobre è annunciato un fermo nazionale dei pescherecci.",
+        "testo": "Il 22 ottobre pescherecci fermi in molti porti, soprattutto dell'Adriatico, contro il prezzo del gasolio, che per alcune imprese supera il 60% dei costi. Gli agricoltori proseguono i presìdi con i trattori in diverse regioni.",
         "fonti": [
           {
-            "nome": "Avvenire",
-            "url": "https://avvenire.it/attualita/il-gasolio-costa-troppo-camion-e-pescherecci-scelgono-di-fermarsi_114282"
+            "nome": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/22/la-protesta-si-estende-alla-pesca-pescherecci-fermi-in-numerosi-porti-in-adriatico_8f12eacf-33be-4266-9c22-85baaea6181f.html"
           },
           {
-            "nome": "Il Post",
-            "url": "https://www.ilpost.it/2026/10/20/pescatori-manfredonia-protesta-sciopero/"
+            "nome": "Il Fatto Quotidiano",
+            "url": "https://www.ilfattoquotidiano.it/2026/10/22/caro-gasolio-pesca-pescherecci-fermi-ancona-notizie/8546363/"
+          },
+          {
+            "nome": "Radio Norba",
+            "url": "https://radionorba.it/caro-gasolio-si-fermano-anche-i-pescherecci/"
           },
           {
             "nome": "L'Indipendente",
@@ -87,15 +99,19 @@
       },
       {
         "titolo": "Studenti",
-        "testo": "Universitari in tenda davanti agli atenei e a Montecitorio contro il caro affitti, scuole occupate in diverse città. Per il 30 ottobre è indetto uno sciopero generale dei sindacati di base.",
+        "testo": "Universitari in tenda contro il caro affitti in diverse città, tra cui Roma, Milano e Bari, e occupazioni di scuole e università, tra cui una sede della Federico II a Napoli. Il 30 ottobre è indetto uno sciopero generale dei sindacati di base.",
         "fonti": [
           {
-            "nome": "Skuola.net",
-            "url": "https://www.skuola.net/news/universitari/caro-affitti-universitari-tenda-protesta-montecitorio-italia.html"
+            "nome": "Notizie.it",
+            "url": "https://www.notizie.it/caro-affitti-studenti-tornano-tenda-milano-roma-protesta/"
           },
           {
-            "nome": "Orizzonte Scuola",
-            "url": "https://www.orizzontescuola.it/gli-studenti-universitari-piantano-le-tende-contro-caro-vita-e-alloggi-alle-stelle-udu-questo-paese-ci-costa-troppo/"
+            "nome": "Il Mattino",
+            "url": "https://www.ilmattino.it/napoli/cronaca/proteste_federico_ii_occupata_porta_di_massa-9839952.html"
+          },
+          {
+            "nome": "Il Fatto Quotidiano",
+            "url": "https://www.ilfattoquotidiano.it/2026/10/21/occupazione-federico-ii-napoli-studenti-carovita-notizie/8545694/"
           },
           {
             "nome": "Milano Post",
@@ -494,6 +510,20 @@
                 "url": "https://vastoweb.com/2026/10/abruzzo/caro-gasolio-sit-in-davanti-la-regione-di-coldiretti-servono-risposte-concrete-per-le-imprese-agricole/"
               }
             ]
+          },
+          {
+            "titolo": "Pescherecci fermi a Pescara",
+            "testo": "Il 22 ottobre tutta la flotta peschereccia di Pescara è rimasta in porto contro il caro gasolio.",
+            "fonti": [
+              {
+                "nome": "Abruzzo Speciale",
+                "url": "https://www.abruzzospeciale.it/2026/10/22/cresce-la-protesta-contro-il-caro-gasolio-pescherecci-fermi-a-pescara/"
+              },
+              {
+                "nome": "Marsica-Web",
+                "url": "https://www.marsica-web.it/2026/10/22/pescherecci-fermi-a-pescara-pronti-a-scioperi-piu-importanti-notizie/"
+              }
+            ]
           }
         ],
         "regione": [
@@ -730,20 +760,20 @@
       "marche": {
         "fatti": [
           {
-            "titolo": "Pescatori fermi il 22 ottobre",
-            "testo": "Le marinerie di Ancona, San Benedetto del Tronto, Fano e Pesaro aderiscono al fermo della pesca del 22 ottobre contro il prezzo del gasolio.",
+            "titolo": "Pescatori fermi",
+            "testo": "Il 22 ottobre le marinerie di Ancona, San Benedetto del Tronto, Fano e Pesaro sono rimaste in porto per il fermo della pesca contro il prezzo del gasolio.",
             "fonti": [
+              {
+                "nome": "Il Fatto Quotidiano",
+                "url": "https://www.ilfattoquotidiano.it/2026/10/22/caro-gasolio-pesca-pescherecci-fermi-ancona-notizie/8546363/"
+              },
+              {
+                "nome": "ANSA",
+                "url": "https://www.ansa.it/sito/notizie/cronaca/2026/10/22/la-protesta-si-estende-alla-pesca-pescherecci-fermi-in-numerosi-porti-in-adriatico_8f12eacf-33be-4266-9c22-85baaea6181f.html"
+              },
               {
                 "nome": "CentroPagina",
                 "url": "https://www.centropagina.it/ancona/caro-gasolio-marinerie-confermano-sciopero-22-ottobre-economia-pesca/"
-              },
-              {
-                "nome": "Gambero Rosso",
-                "url": "https://www.gamberorosso.it/notizie/attualita/pescatori-sciopero-22-ottobre-caro-gasolio"
-              },
-              {
-                "nome": "Avvenire",
-                "url": "https://www.avvenire.it/attualita/il-gasolio-costa-troppo-camion-e-pescherecci-scelgono-di-fermarsi_114282"
               }
             ]
           }
