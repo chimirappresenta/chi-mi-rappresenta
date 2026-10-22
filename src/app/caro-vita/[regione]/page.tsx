@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { caroVita, regioniCaroVita } from "@/lib/caroVita";
 import { getConsiglio, regioni } from "@/lib/data";
-import { dataLunga, dellaRegione, slugConsigliere } from "@/lib/format";
+import { dataLunga, dellaRegione } from "@/lib/format";
 import type { Atto, Legge } from "@/lib/types";
 import { AttoRow, LeggeCard } from "@/components/consiglio";
 import { ComuneSearch } from "@/components/ComuneSearch";
@@ -56,20 +56,6 @@ export default async function CaroVitaRegionePage({ params }: PageProps<"/caro-v
         .filter((t) => t.leggi.length + t.atti.length > 0)
     : [];
 
-  // chi ha firmato per primo più atti su questi temi
-  const perConsigliere = new Map<string, { nome: string; username: string; n: number }>();
-  for (const a of consiglio?.atti ?? []) {
-    const primo = a.firmatari[0];
-    if (!sel.atti[a.id] || !primo?.username) continue;
-    const c = perConsigliere.get(primo.username) ?? { nome: primo.nome, username: primo.username, n: 0 };
-    c.n++;
-    perConsigliere.set(primo.username, c);
-  }
-  const piuAttivi = [...perConsigliere.values()].sort((a, b) => b.n - a.n || a.nome.localeCompare(b.nome)).slice(0, 8);
-  const gruppoDi = (username: string) => {
-    const c = cr?.regione.consiglieri.find((x) => x.username === username);
-    return c?.gruppo ? cr?.regione.gruppi.find((g) => g.nome === c.gruppo) : undefined;
-  };
 
   const tipi = consiglio?.tipi ?? [];
   const totaleAtti = temi.reduce((n, t) => n + t.atti.length, 0);
@@ -223,39 +209,6 @@ export default async function CaroVitaRegionePage({ params }: PageProps<"/caro-v
             )}
           </section>
         ))}
-
-        {piuAttivi.length > 0 && (
-          <section>
-            <h2 className="display text-3xl">Chi ha presentato più atti su questi temi</h2>
-            <p className="mt-1 text-sm text-ink-3">
-              Conta gli atti in cui il consigliere è primo firmatario. Un numero alto non dice se le proposte sono buone: aiuta a sapere a chi chiedere.
-            </p>
-            <ol className="mt-3 grid gap-2 sm:grid-cols-2 lg:grid-cols-4">
-              {piuAttivi.map((c) => {
-                const g = gruppoDi(c.username);
-                return (
-                  <li key={c.username}>
-                    <Link
-                      href={`/regione/${slug}/consiglieri/${slugConsigliere(c.username)}/`}
-                      className="flex h-full items-center justify-between gap-3 rounded-2xl border border-line bg-surface px-4 py-3 hover:border-ink-3"
-                    >
-                      <span className="min-w-0">
-                        <span className="block font-medium">{c.nome}</span>
-                        {g && (
-                          <span className="mt-0.5 flex items-center gap-1.5 text-xs text-ink-3">
-                            <span aria-hidden className="size-2 shrink-0 rounded-full" style={{ background: g.colore }} />
-                            {g.nome}
-                          </span>
-                        )}
-                      </span>
-                      <span className="shrink-0 rounded-full bg-surface-2 px-2.5 py-0.5 text-sm font-semibold">{c.n}</span>
-                    </Link>
-                  </li>
-                );
-              })}
-            </ol>
-          </section>
-        )}
 
         <section id="cosa-puoi-fare" className="scroll-mt-28 rounded-[28px] bg-[var(--lv-regione-bg)] p-5 sm:p-6">
           <h2 className="display text-3xl">Cosa puoi fare tu</h2>

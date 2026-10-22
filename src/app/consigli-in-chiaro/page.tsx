@@ -37,7 +37,7 @@ export default function ConsigliInChiaroPage() {
         <div>
           <h1 className="display text-4xl sm:text-5xl">Consigli regionali in chiaro</h1>
           <p className="mt-4 max-w-3xl text-lg text-ink-2">
-            Cosa fa davvero il Consiglio della tua regione? Lo raccontiamo con i dati ufficiali, in parole semplici. Siamo partiti dal
+            Cosa fa il Consiglio della tua regione? Lo raccontiamo con i dati ufficiali, in parole semplici. Siamo partiti dal
             Sud: {elencoInChiaro} sono già in chiaro. Le altre regioni arriveranno a gruppi.
           </p>
         </div>

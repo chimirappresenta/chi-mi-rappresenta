@@ -191,7 +191,7 @@
           },
           {
             "titolo": "Richieste alla Regione",
-            "testo": "Il gruppo PD in Consiglio ha presentato una mozione per un fondo regionale di emergenza di almeno 20 milioni per autotrasporto e agricoltura. Già a settembre i sindacati dei trasporti avevano chiesto alla Regione misure straordinarie per le imprese di trasporto.",
+            "testo": "In Consiglio regionale è stata presentata una mozione per un fondo regionale di emergenza di almeno 20 milioni per autotrasporto e agricoltura. Già a settembre i sindacati dei trasporti avevano chiesto alla Regione misure straordinarie per le imprese di trasporto.",
             "fonti": [
               {
                 "nome": "NTR24",
@@ -457,7 +457,7 @@
         "regione": [
           {
             "titolo": "Richieste portate a Roma",
-            "testo": "Il presidente Roberti ha incontrato agricoltori e camionisti e ha detto che porterà le loro richieste alla Conferenza delle Regioni, proponendo tra l'altro di sospendere i versamenti contributivi degli agricoltori per sbloccare i pagamenti AGEA. Nelle fonti consultate non risultano ancora misure regionali approvate.",
+            "testo": "Il presidente Roberti ha incontrato agricoltori e camionisti e ha detto che porterà le loro richieste alla Conferenza delle Regioni, proponendo tra l'altro di sospendere i versamenti contributivi degli agricoltori per sbloccare i pagamenti AGEA. Al momento non risultano misure regionali approvate.",
             "fonti": [
               {
                 "nome": "isNews",
@@ -688,8 +688,8 @@
       "lombardia": {
         "fatti": [
           {
-            "titolo": "Studenti e disordini a Milano",
-            "testo": "Dopo il corteo studentesco del 16 ottobre (tra le richieste: decreto Scuola e caro affitti per i fuorisede), il 17 e 18 ottobre ci sono stati disordini e saccheggi nel centro di Milano, con oltre 200 fermati, in gran parte minorenni.",
+            "titolo": "Studenti in piazza a Milano",
+            "testo": "Il 16 ottobre corteo studentesco a Milano, con richieste sul decreto Scuola e sul caro affitti per i fuorisede. Nei due giorni successivi nel centro della città ci sono stati disordini, con oltre 200 fermati.",
             "fonti": [
               {
                 "nome": "Il Post",
