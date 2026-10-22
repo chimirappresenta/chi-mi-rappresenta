@@ -76,34 +76,60 @@ function Fonti({ fonti }: { fonti: Fatto["fonti"] }) {
   );
 }
 
-/** Misura della Regione con il percorso a tappe: annunciata → approvata → domande aperte. */
+/** Cosa succede dopo la tappa raggiunta, o cosa si può fare già adesso. */
+function passoSuccessivo(m: Fatto): { etichetta: string; testo: string } | null {
+  if (m.stato === "annunciata") return { etichetta: "Prossimo passo", testo: "l'approvazione con una delibera di Giunta o una legge." };
+  if (m.stato === "approvata")
+    return {
+      etichetta: "Prossimo passo",
+      testo:
+        m.accesso === "domanda"
+          ? "l'apertura delle domande."
+          : m.accesso === "automatico"
+            ? "l'avvio dei pagamenti, senza bisogno di domanda."
+            : "le regole per ottenerlo: con una domanda o in automatico.",
+    };
+  if (m.stato === "disponibile")
+    return m.accesso === "automatico"
+      ? { etichetta: "Pagamenti partiti", testo: "l'aiuto arriva senza domanda." }
+      : { etichetta: "Si può chiedere ora", testo: "dove e fino a quando è scritto qui sotto." };
+  return null;
+}
+
+/** Misura della Regione con la barra a tre tappe: annunciata → approvata → disponibile. */
 export function Misura({ misura }: { misura: Fatto }) {
   const raggiunta = TAPPE_MISURA.findIndex((t) => t.id === misura.stato);
+  const fatta = misura.stato === "disponibile" ? "bg-accent" : "bg-warn";
+  const colore = misura.stato === "disponibile" ? "text-accent" : "text-warn";
+  const passo = passoSuccessivo(misura);
   return (
     <li className="rounded-[22px] border border-line bg-surface p-4 sm:p-5">
-      <p className="text-lg font-semibold leading-snug">{misura.titolo}</p>
+      <p className="text-lg leading-snug font-semibold">{misura.titolo}</p>
       {misura.importo && <p className="text-sm font-semibold text-warn">{misura.importo}</p>}
-      <ol className="mt-4 mb-3 flex items-start" aria-label={`A che punto è: ${misura.stato ? nomeTappa(misura.stato, misura.accesso) : ""}`}>
-        {TAPPE_MISURA.map((t, i) => (
-          <li key={t.id} className={`flex items-start ${i > 0 ? "flex-1" : ""}`}>
-            {i > 0 && <span aria-hidden className={`mt-3.5 h-0.5 flex-1 ${i <= raggiunta ? "bg-warn" : "bg-line"}`} />}
-            <span className={`flex w-20 flex-col items-center gap-1.5 text-center text-xs font-semibold ${i <= raggiunta ? "text-warn" : "text-ink-3"}`}>
-              <span
-                aria-hidden
-                className={`grid size-7 place-items-center rounded-full border-2 text-sm ${i <= raggiunta ? "border-warn bg-warn text-white" : "border-line bg-surface"}`}
-              >
-                {i <= raggiunta ? "✓" : ""}
-              </span>
+      <div className="mt-4" role="img" aria-label={`A che punto è: ${misura.stato ? nomeTappa(misura.stato, misura.accesso) : ""}, tappa ${raggiunta + 1} di ${TAPPE_MISURA.length}`}>
+        <div aria-hidden className="grid grid-cols-3 gap-1.5">
+          {TAPPE_MISURA.map((t, i) => (
+            <span key={t.id} className={`h-2.5 rounded-full ${i <= raggiunta ? fatta : "bg-surface-2"}`} />
+          ))}
+        </div>
+        <div aria-hidden className="mt-1.5 grid grid-cols-3 gap-1.5 text-xs font-medium text-ink-3">
+          {TAPPE_MISURA.map((t, i) => (
+            <span key={t.id} className={i === raggiunta ? `font-bold ${colore}` : ""}>
+              {i === raggiunta && "● "}
               {nomeTappa(t.id, misura.accesso)}
-              {i === raggiunta && <span className="sr-only"> (tappa raggiunta)</span>}
             </span>
-          </li>
-        ))}
-      </ol>
-      <p className="mb-3 inline-flex items-center gap-1.5 rounded-full bg-surface-2 px-3 py-1 text-sm font-medium text-ink-2">
+          ))}
+        </div>
+      </div>
+      {passo && (
+        <p className="mt-3 border-l-[3px] border-line pl-2.5 text-sm text-ink-2">
+          <span className="font-semibold text-ink">{passo.etichetta}:</span> {passo.testo}
+        </p>
+      )}
+      <p className="mt-3 inline-flex items-center gap-1.5 rounded-full bg-surface-2 px-3 py-1 text-sm font-medium text-ink-2">
         <span aria-hidden>{COME_SI_OTTIENE[misura.accesso ?? "nd"].icona}</span> {COME_SI_OTTIENE[misura.accesso ?? "nd"].testo}
       </p>
-      <p className="text-sm text-ink-2">{misura.testo}</p>
+      <p className="mt-3 text-sm text-ink-2">{misura.testo}</p>
       <Fonti fonti={misura.fonti} />
     </li>
   );
