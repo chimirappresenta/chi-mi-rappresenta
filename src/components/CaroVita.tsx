@@ -83,7 +83,7 @@ export function Misura({ misura }: { misura: Fatto }) {
     <li className="rounded-[22px] border border-line bg-surface p-4 sm:p-5">
       <p className="text-lg font-semibold leading-snug">{misura.titolo}</p>
       {misura.importo && <p className="text-sm font-semibold text-warn">{misura.importo}</p>}
-      <ol className="mt-4 mb-3 flex max-w-xl items-start" aria-label={`A che punto è: ${misura.stato ? nomeTappa(misura.stato, misura.accesso) : ""}`}>
+      <ol className="mt-4 mb-3 flex items-start" aria-label={`A che punto è: ${misura.stato ? nomeTappa(misura.stato, misura.accesso) : ""}`}>
         {TAPPE_MISURA.map((t, i) => (
           <li key={t.id} className={`flex items-start ${i > 0 ? "flex-1" : ""}`}>
             {i > 0 && <span aria-hidden className={`mt-3.5 h-0.5 flex-1 ${i <= raggiunta ? "bg-warn" : "bg-line"}`} />}
