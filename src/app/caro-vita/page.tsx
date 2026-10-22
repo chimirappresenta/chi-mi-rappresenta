@@ -48,13 +48,13 @@ export default function CaroVitaPage() {
           <h1 className="display mt-1.5 text-4xl sm:text-5xl">Cosa fanno le Regioni</h1>
           <p className="mt-3 max-w-2xl text-base text-ink-2">
             Camionisti, agricoltori, pescatori e studenti protestano contro il caro vita. Qui trovi i fatti, con le fonti, e cosa hanno fatto
-            davvero Regioni e Consigli regionali: leggi in vigore, atti presentati e a chi rivolgerti.
+            Regioni e Consigli regionali: leggi in vigore, atti presentati e a chi rivolgerti.
           </p>
         </div>
         <Condividi
           path="/caro-vita/"
           titolo="Caro vita: cosa fanno le Regioni"
-          testo="Caro vita: cosa sta succedendo e cosa hanno fatto davvero Regioni e Consigli regionali, con le fonti."
+          testo="Caro vita: cosa sta succedendo e cosa hanno fatto Regioni e Consigli regionali, con le fonti."
         />
       </header>
 

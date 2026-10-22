@@ -29,5 +29,5 @@ export const specialeAttivo = !caroVita.chiuso;
 export const VOCE_CARO_VITA = {
   href: "/caro-vita/",
   label: "Speciale caro vita",
-  descrizione: "Proteste e caro vita: cosa fanno davvero Regioni e Consigli regionali",
+  descrizione: "Proteste e caro vita: cosa fanno Regioni e Consigli regionali",
 };

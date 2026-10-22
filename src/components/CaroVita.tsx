@@ -40,7 +40,7 @@ export function BannerCaroVita({ regione }: { regione?: string }) {
       <span>
         <span className="text-xs font-semibold tracking-wider text-accent uppercase">Speciale caro vita</span>
         <span className="mt-0.5 block font-semibold text-ink">
-          {nomeRegione ? `Proteste e caro vita: cosa fa la Regione ${nomeRegione}` : "Proteste e caro vita: cosa fanno davvero le Regioni"}
+          {nomeRegione ? `Proteste e caro vita: cosa fa la Regione ${nomeRegione}` : "Proteste e caro vita: cosa fanno le Regioni"}
         </span>
         <span className="block text-sm text-ink-2">I fatti con le fonti, le misure annunciate, le leggi e gli atti del Consiglio.</span>
       </span>
