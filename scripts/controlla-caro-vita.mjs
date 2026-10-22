@@ -23,6 +23,10 @@ const controllaFatti = (fatti, dove) => {
     const url = new Set((f.fonti ?? []).map((s) => s.url));
     if (url.size < 2) problemi.push(`${dove} – "${f.titolo}": servono almeno due fonti diverse`);
     for (const s of f.fonti ?? []) if (!s.nome || !/^https?:\/\//.test(s.url ?? "")) problemi.push(`${dove} – "${f.titolo}": fonte non valida`);
+    // misure della Regione: tappa raggiunta (facoltativa, solo per le misure con soldi o agevolazioni)
+    if (f.stato !== undefined && !["annunciata", "approvata", "aperta"].includes(f.stato))
+      problemi.push(`${dove} – "${f.titolo}": stato non valido (annunciata, approvata, aperta)`);
+    if (f.importo !== undefined && !f.stato) problemi.push(`${dove} – "${f.titolo}": importo senza stato`);
   }
 };
 controllaFatti(cv.contesto?.generale, "contesto generale");

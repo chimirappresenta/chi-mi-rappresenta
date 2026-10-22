@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { caroVita, regioniCaroVita, specialeAttivo, type Fatto } from "@/lib/caroVita";
+import { caroVita, regioniCaroVita, specialeAttivo, TAPPE_MISURA, type Fatto } from "@/lib/caroVita";
 import { regioni } from "@/lib/data";
 import { dataLunga } from "@/lib/format";
 
@@ -57,5 +57,67 @@ export function AvvisoArchivio() {
       <span className="font-semibold text-ink">Speciale chiuso il {dataLunga(caroVita.chiuso)}.</span> Le notizie si fermano a quella data;
       leggi e atti del Consiglio restano validi, ma per gli aggiornamenti consulta le pagine della tua Regione.
     </p>
+  );
+}
+
+function Fonti({ fonti }: { fonti: Fatto["fonti"] }) {
+  return (
+    <p className="mt-1.5 text-xs text-ink-3">
+      Fonti:{" "}
+      {fonti.map((s, i) => (
+        <span key={s.url}>
+          {i > 0 && " · "}
+          <a href={s.url} target="_blank" rel="noreferrer" className="underline underline-offset-2 hover:text-ink">
+            {s.nome}
+          </a>
+        </span>
+      ))}
+    </p>
+  );
+}
+
+/** Misura della Regione con il percorso a tappe: annunciata → approvata → domande aperte. */
+export function Misura({ misura }: { misura: Fatto }) {
+  const raggiunta = TAPPE_MISURA.findIndex((t) => t.id === misura.stato);
+  return (
+    <li className="rounded-[22px] border border-line bg-surface p-4 sm:p-5">
+      <p className="text-lg font-semibold leading-snug">{misura.titolo}</p>
+      {misura.importo && <p className="text-sm font-semibold text-warn">{misura.importo}</p>}
+      <ol className="mt-4 mb-3 flex items-start" aria-label={`A che punto è: ${TAPPE_MISURA[raggiunta]?.nome ?? ""}`}>
+        {TAPPE_MISURA.map((t, i) => (
+          <li key={t.id} className={`flex items-start ${i > 0 ? "flex-1" : ""}`}>
+            {i > 0 && <span aria-hidden className={`mt-3.5 h-0.5 flex-1 ${i <= raggiunta ? "bg-warn" : "bg-line"}`} />}
+            <span className={`flex w-20 flex-col items-center gap-1.5 text-center text-xs font-semibold ${i <= raggiunta ? "text-warn" : "text-ink-3"}`}>
+              <span
+                aria-hidden
+                className={`grid size-7 place-items-center rounded-full border-2 text-sm ${i <= raggiunta ? "border-warn bg-warn text-white" : "border-line bg-surface"}`}
+              >
+                {i <= raggiunta ? "✓" : ""}
+              </span>
+              {t.nome}
+              {i === raggiunta && <span className="sr-only"> (tappa raggiunta)</span>}
+            </span>
+          </li>
+        ))}
+      </ol>
+      <p className="text-sm text-ink-2">{misura.testo}</p>
+      <Fonti fonti={misura.fonti} />
+    </li>
+  );
+}
+
+/** Notizie come cronologia: un pallino per fatto, con le fonti. */
+export function Cronologia({ fatti }: { fatti: Fatto[] }) {
+  return (
+    <ul className="mt-4 space-y-5 border-l-2 border-line pl-5">
+      {fatti.map((f) => (
+        <li key={f.titolo} className="relative">
+          <span aria-hidden className="absolute top-1.5 -left-[27px] size-3 rounded-full border-2 border-ink-3 bg-bg" />
+          <p className="font-semibold">{f.titolo}</p>
+          <p className="mt-0.5 text-sm text-ink-2">{f.testo}</p>
+          <Fonti fonti={f.fonti} />
+        </li>
+      ))}
+    </ul>
   );
 }

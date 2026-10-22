@@ -188,7 +188,7 @@
         ],
         "regione": [
           {
-            "titolo": "Fondo per il gasolio agricolo (annunciato)",
+            "titolo": "Fondo per il gasolio agricolo",
             "testo": "Il 21 ottobre il presidente Fico ha annunciato un fondo di circa 13 milioni di euro per il caro gasolio in agricoltura, con fondi europei FESR che devono ancora essere autorizzati dall'Unione europea.",
             "fonti": [
               {
@@ -203,7 +203,9 @@
                 "nome": "Il Mattino",
                 "url": "https://www.ilmattino.it/napoli/cronaca/protesta_autotrasportatori_campania_diretta_cosa_sta_succedendo_quali_sono_le_strade_chiuse_svincoli-9839041.html"
               }
-            ]
+            ],
+            "stato": "annunciata",
+            "importo": "circa 13 milioni"
           },
           {
             "titolo": "Richieste alla Regione",
@@ -295,7 +297,9 @@
                 "nome": "Gazzetta del Sud",
                 "url": "https://calabria.gazzettadelsud.it/articoli/cronaca/2026/10/22/caro-gasolio-la-regione-calabria-raddoppia-i-fondi-agli-agricoltori-10-milioni-136aafd4-55e7-4f2b-8fdc-37ed55265da4/"
               }
-            ]
+            ],
+            "stato": "approvata",
+            "importo": "15 milioni, che salgono a 20"
           },
           {
             "titolo": "Incontri con chi protesta",
@@ -362,7 +366,7 @@
         ],
         "regione": [
           {
-            "titolo": "30 milioni per l'agricoltura (annunciati)",
+            "titolo": "30 milioni per l'agricoltura",
             "testo": "Il 14 ottobre la Regione ha annunciato 30 milioni per l'agricoltura: 10 per il gasolio agricolo e 20 per le filiere. Criteri e tempi non sono ancora noti.",
             "fonti": [
               {
@@ -377,7 +381,9 @@
                 "nome": "Il Post",
                 "url": "https://www.ilpost.it/2026/10/15/olio-olivicoltori-puglia-proteste-bari/"
               }
-            ]
+            ],
+            "stato": "annunciata",
+            "importo": "30 milioni"
           }
         ]
       },
@@ -408,7 +414,7 @@
         ],
         "regione": [
           {
-            "titolo": "7 milioni per autotrasporto e logistica (annunciati)",
+            "titolo": "7 milioni per autotrasporto e logistica",
             "testo": "Il 16 ottobre la Regione ha annunciato 7 milioni di euro per autotrasporto e logistica, insieme ad altri fondi per l'agricoltura. Criteri e tempi non sono ancora noti.",
             "fonti": [
               {
@@ -427,7 +433,9 @@
                 "nome": "Materalife",
                 "url": "https://www.materalife.it/notizie/basilicata-contro-il-caro-gasolio-aiuti-ad-agricoltura-e-autotrasporto"
               }
-            ]
+            ],
+            "stato": "annunciata",
+            "importo": "7 milioni"
           }
         ]
       },
@@ -543,7 +551,9 @@
                 "nome": "Abruzzo Popolare",
                 "url": "https://www.abruzzopopolare.com/2026/09/21/carburante-agricolo-agevolato-coldiretti-abruzzo-soddisfazione-per-la-maggiorazione-del-50-accolta-la-nostra-richiesta/"
               }
-            ]
+            ],
+            "stato": "aperta",
+            "importo": "+50% di carburante agevolato per l'irrigazione"
           }
         ]
       },
@@ -585,7 +595,9 @@
                 "nome": "Trans.info",
                 "url": "https://trans.info/it/caro-gasolio-15-milioni-di-aiuti-agli-autotrasportatori-505413"
               }
-            ]
+            ],
+            "stato": "aperta",
+            "importo": "15 milioni"
           },
           {
             "titolo": "Nuovi fondi per l'agricoltura",
@@ -603,7 +615,9 @@
                 "nome": "MessinaToday",
                 "url": "https://www.messinatoday.it/cronaca/regione-siciliana-agricoltura-caro-gasolio-cereali.html"
               }
-            ]
+            ],
+            "stato": "approvata",
+            "importo": "quasi 80 milioni"
           }
         ]
       },
@@ -630,7 +644,7 @@
         ],
         "regione": [
           {
-            "titolo": "25 milioni per l'agricoltura, stanziati ma non ancora distribuiti",
+            "titolo": "25 milioni per l'agricoltura",
             "testo": "La legge regionale del 21 settembre (variazioni di bilancio) ha stanziato 50 milioni contro il caro carburanti e fertilizzanti, di cui 25 per le aziende agricole: la trovi qui sotto tra le leggi. A ottobre le regole per distribuire i fondi non erano ancora definite e le associazioni agricole chiedono di sbloccarli subito.",
             "fonti": [
               {
@@ -645,7 +659,9 @@
                 "nome": "Ore12",
                 "url": "https://www.ore12.net/carburante-60-milioni-da-regione-contro-caro-prezzi-in-sardegna/"
               }
-            ]
+            ],
+            "stato": "approvata",
+            "importo": "25 milioni"
           }
         ]
       },
@@ -687,7 +703,9 @@
                 "nome": "Affaritaliani",
                 "url": "https://www.affaritaliani.it/roma/caro-energia-il-lazio-schiera-75-milioni-aiuti-a-famiglie-e-agricoltura.html"
               }
-            ]
+            ],
+            "stato": "annunciata",
+            "importo": "75 milioni"
           }
         ]
       },
@@ -714,7 +732,7 @@
         ],
         "regione": [
           {
-            "titolo": "12 milioni per l'agricoltura (annunciati)",
+            "titolo": "12 milioni per l'agricoltura",
             "testo": "Il presidente Giani ha annunciato 12 milioni: circa 9 per il caro carburanti, 2 per i fertilizzanti e 500 mila euro per le assicurazioni agricole. L'aiuto sul gasolio richiede un'autorizzazione europea.",
             "fonti": [
               {
@@ -729,7 +747,9 @@
                 "nome": "Il Cittadino Online",
                 "url": "https://www.ilcittadinoonline.it/economia-e-politica/giani-carburanti-12-milioni-dalla-regione/"
               }
-            ]
+            ],
+            "stato": "annunciata",
+            "importo": "12 milioni"
           }
         ]
       },
@@ -771,7 +791,9 @@
                 "nome": "Cremona Sera",
                 "url": "https://cremonasera.it/cronaca/prezzi-coldiretti-bene-15-mln-da-regione-ma-ora-attuazione-della-misura-sia-rapida-dall-inizio-della-guerra-in-iran-costi-raddoppiati-per-gli-agricoltori-che-garantiscono-cibo-sano-e-sicuro"
               }
-            ]
+            ],
+            "stato": "approvata",
+            "importo": "15 milioni"
           }
         ]
       },
@@ -809,10 +831,12 @@
                 "nome": "Soldionline",
                 "url": "https://www.soldionline.it/notizie/economia-politica/caro-gasolio-ai-pescatori-delle-marche-oltre-6-milioni-come-funziona"
               }
-            ]
+            ],
+            "stato": "annunciata",
+            "importo": "oltre 6 milioni"
           },
           {
-            "titolo": "20 centesimi al litro sul gasolio agricolo (annunciati)",
+            "titolo": "20 centesimi al litro sul gasolio agricolo",
             "testo": "La Regione ha annunciato circa 3,8 milioni per rimborsare 20 centesimi per ogni litro di gasolio agricolo agevolato prelevato tra giugno e agosto 2026, pagati in automatico alle aziende.",
             "fonti": [
               {
@@ -827,7 +851,9 @@
                 "nome": "LaPresse",
                 "url": "https://www.lapresse.it/economia/2026/10/09/caro-carburanti-regione-marche-tende-mano-ad-agricoltori-misura-da-4-milioni/"
               }
-            ]
+            ],
+            "stato": "annunciata",
+            "importo": "circa 3,8 milioni"
           }
         ]
       },
@@ -919,10 +945,12 @@
                 "nome": "DiarioFVG",
                 "url": "https://www.diariofvg.it/2026/10/16/caro-gasolio-regione-10-milioni-per-aziende-agricole-chi-puo-ottenere-contributi"
               }
-            ]
+            ],
+            "stato": "approvata",
+            "importo": "10,6 milioni"
           },
           {
-            "titolo": "Aiuti per agricoltura e pesca approvati dall'UE",
+            "titolo": "Aiuti per agricoltura e pesca",
             "testo": "La Commissione europea ha approvato un regime regionale da 20 milioni per imprese agricole, della pesca e dell'acquacoltura colpite dai rincari, valido fino al 31 dicembre 2026.",
             "fonti": [
               {
@@ -933,7 +961,9 @@
                 "nome": "Pesceinrete",
                 "url": "https://www.pesceinrete.com/aiuti-pesca-friuli-venezia-giulia-20-milioni/"
               }
-            ]
+            ],
+            "stato": "approvata",
+            "importo": "20 milioni"
           }
         ]
       },
@@ -956,7 +986,9 @@
                 "nome": "ParmaToday",
                 "url": "https://www.parmatoday.it/attualita/caldo-e-siccita-dalla-regione-piu-gasolio-agevolato-alle-aziende-agricole-bonus-fino-al-50.html"
               }
-            ]
+            ],
+            "stato": "aperta",
+            "importo": "+20% di gasolio agevolato"
           }
         ]
       },
@@ -983,7 +1015,7 @@
         ],
         "regione": [
           {
-            "titolo": "10 milioni per la pesca (annunciati)",
+            "titolo": "10 milioni per la pesca",
             "testo": "Il 22 ottobre la Regione ha annunciato 10 milioni di euro di fondi europei, statali e regionali (programma FEAMPA) per le imprese della pesca colpite dal caro gasolio: circa 6 milioni prima di Natale e il resto a marzo 2027.",
             "fonti": [
               {
@@ -998,7 +1030,9 @@
                 "nome": "VeneziaToday",
                 "url": "https://www.veneziatoday.it/economia/protesta-pescherecci-incontro-presidente-stefani.html"
               }
-            ]
+            ],
+            "stato": "annunciata",
+            "importo": "10 milioni"
           }
         ]
       },

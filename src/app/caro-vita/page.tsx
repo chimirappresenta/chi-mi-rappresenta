@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { caroVita, regioniCaroVita } from "@/lib/caroVita";
+import { TAPPE_MISURA, caroVita, regioniCaroVita } from "@/lib/caroVita";
 import { regioni as tutteLeRegioni } from "@/lib/data";
 import { dataLunga } from "@/lib/format";
 import { Condividi } from "@/components/Condividi";
@@ -82,10 +82,26 @@ export default function CaroVitaPage() {
                       {r.conteggio.leggi} {r.conteggio.leggi === 1 ? "legge" : "leggi"} · {r.conteggio.atti} atti in Consiglio
                     </span>
                   )}
-                  <span className="mt-3 text-sm text-ink-2">
-                    <span className="font-semibold text-ink">La Regione: </span>
-                    {r.annunci.length ? r.annunci.map((a) => a.titolo).join(" · ") : "nessuna misura specifica trovata nelle fonti"}
-                  </span>
+                  {r.annunci.some((a) => a.stato) ? (
+                    <ul className="mt-3 space-y-1.5 text-sm text-ink-2">
+                      {r.annunci
+                        .filter((a) => a.stato)
+                        .map((a) => (
+                          <li key={a.titolo} className="flex items-start justify-between gap-2">
+                            <span>{a.titolo}</span>
+                            <span
+                              className={`shrink-0 rounded-full px-2 py-0.5 text-xs font-semibold ${
+                                a.stato === "aperta" ? "bg-accent-soft text-accent" : "bg-warn-soft text-warn"
+                              }`}
+                            >
+                              {TAPPE_MISURA.find((t) => t.id === a.stato)?.nome}
+                            </span>
+                          </li>
+                        ))}
+                    </ul>
+                  ) : (
+                    <span className="mt-3 text-sm text-ink-3">Nessuna misura regionale trovata nelle fonti</span>
+                  )}
                   <span className="mt-auto pt-4 text-sm font-medium text-accent">Apri →</span>
                 </Link>
               </li>

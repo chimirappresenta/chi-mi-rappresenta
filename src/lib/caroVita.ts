@@ -2,7 +2,21 @@ import caroVitaJson from "@/data/caro-vita.json";
 
 export type FonteNotizia = { nome: string; url: string };
 /** Un fatto del contesto: verificato su almeno due fonti indipendenti. */
-export type Fatto = { titolo: string; testo: string; fonti: FonteNotizia[] };
+/** Tappe di una misura della Regione: annunciata → approvata (delibera o legge) → domande aperte. */
+export type StatoMisura = "annunciata" | "approvata" | "aperta";
+export const TAPPE_MISURA: { id: StatoMisura; nome: string }[] = [
+  { id: "annunciata", nome: "Annunciata" },
+  { id: "approvata", nome: "Approvata" },
+  { id: "aperta", nome: "Domande aperte" },
+];
+export type Fatto = {
+  titolo: string;
+  testo: string;
+  fonti: FonteNotizia[];
+  /** Solo per le misure della Regione con fondi o agevolazioni: a che punto sono. */
+  stato?: StatoMisura;
+  importo?: string;
+};
 export type TemaCaroVita = { id: string; nome: string; descrizione: string };
 
 type CaroVita = {
