@@ -55,23 +55,23 @@
       },
       {
         "titolo": "Il Governo",
-        "testo": "Il 22 ottobre il Consiglio dei ministri ha esaminato un decreto contro il caro gasolio: secondo le anticipazioni sblocca circa 430 milioni di crediti d'imposta già previsti per l'autotrasporto e aggiunge aiuti per camionisti e agricoltori. Il 27 ottobre è in programma il tavolo al ministero dei Trasporti con le associazioni.",
+        "testo": "Il 22 ottobre il Consiglio dei ministri ha approvato il decreto contro il caro gasolio: circa 105 milioni in più di crediti d'imposta per l'autotrasporto, la sospensione delle rate di leasing dei mezzi pesanti e aiuti per agricoltori e pescatori. Il 27 ottobre è in programma il tavolo al ministero dei Trasporti con le associazioni.",
         "fonti": [
           {
-            "nome": "Il Giornale",
-            "url": "https://www.ilgiornale.it/news/interni/oggi-il-cdm-contro-il-caro-carburanti-sbloccati-oltre-500-milioni-per-lautotrasporto-ecco-le-misure-sul-tavolo/"
+            "nome": "Il Fatto Quotidiano",
+            "url": "https://www.ilfattoquotidiano.it/2026/10/22/caro-gasolio-decreto-governo-autotrasporto-notizie/8546627/"
           },
           {
-            "nome": "Calabria 7",
-            "url": "https://calabria7.news/economia-e-lavoro/caro-gasolio-il-governo-prepara-gli-aiuti-a-tir-e-agricoltori-430-milioni-da-sbloccare-e-nuovi-fondi-in-arrivo/"
+            "nome": "Teleborsa",
+            "url": "https://teleborsa.ansa.it/notiziario/economia/autotrasporto-cdm-vara-decreto-aiuti-oltre-100-milioni-in-piu-contro-caro-gasolio/"
           },
           {
-            "nome": "Tgcom24",
-            "url": "https://www.tgcom24.mediaset.it/cronaca/protesta-autotrasportatori-gasolio-consiglio-dei-ministri_117992966-202602k.shtml"
+            "nome": "Automoto.it",
+            "url": "https://www.automoto.it/news/protesta-dei-tir-il-governo-approva-il-decreto-crediti-sul-gasolio-leasing-sospesi.html"
           },
           {
-            "nome": "Sky TG24",
-            "url": "https://tg24.sky.it/cronaca/2026/10/15/caro-carburanti-governo-autotrasportatori-sciopero"
+            "nome": "Milano Finanza",
+            "url": "https://www.milanofinanza.it/news/caro-gasolio-dal-governo-arriva-il-decreto-aiuti-per-autotrasporto-agricoltura-e-pesca-ecco-cosa-202610221316545315"
           }
         ]
       },
@@ -276,8 +276,8 @@
         ],
         "regione": [
           {
-            "titolo": "15 milioni contro il caro carburante",
-            "testo": "La Regione ha stanziato 15 milioni: 10 per l'autotrasporto e 5 per l'agricoltura, con una legge regionale approvata a inizio ottobre e una delibera di Giunta del 14 ottobre. I criteri per distribuirli sono ancora da definire.",
+            "titolo": "20 milioni contro il caro carburante",
+            "testo": "Con una legge regionale di inizio ottobre e una delibera di Giunta del 14 ottobre la Regione ha stanziato 15 milioni: 10 per l'autotrasporto e 5 per l'agricoltura. Il 22 ottobre il presidente Occhiuto ha annunciato che la quota per l'agricoltura sale a 10 milioni. I criteri per distribuire i fondi sono ancora da definire.",
             "fonti": [
               {
                 "nome": "Uomini e Trasporti",
@@ -288,12 +288,12 @@
                 "url": "https://www.lacnews24.it/economia-e-lavoro/caro-carburanti-in-calabria-15-milioni-per-agricoltori-e-autotrasportatori-mercoledi-si-decide-come-distribuirli-lbq517a0"
               },
               {
-                "nome": "InformaCalabria",
-                "url": "https://www.informacalabria.it/carburanti-dalla-regione-calabria-15-milioni-contro-i-rincari-occhiuto-facciamo-il-massimo/"
+                "nome": "ANSA",
+                "url": "https://www.ansa.it/calabria/notizie/2026/10/22/occhiuto-agli-agricoltori-fondo-regione-per-caro-carburanti-da-5-a-10-milioni_eded86d5-3362-4736-867a-be090afe575e.html"
               },
               {
-                "nome": "Calabria Inchieste",
-                "url": "https://www.calabriainchieste.it/2026/10/14/caro-gasolio-la-calabria-mette-sul-piatto-15-milioni-ossigeno-immediato-per-agricoltori-e-autotrasportatori/"
+                "nome": "Gazzetta del Sud",
+                "url": "https://calabria.gazzettadelsud.it/articoli/cronaca/2026/10/22/caro-gasolio-la-regione-calabria-raddoppia-i-fondi-agli-agricoltori-10-milioni-136aafd4-55e7-4f2b-8fdc-37ed55265da4/"
               }
             ]
           },
@@ -584,6 +584,24 @@
               {
                 "nome": "Trans.info",
                 "url": "https://trans.info/it/caro-gasolio-15-milioni-di-aiuti-agli-autotrasportatori-505413"
+              }
+            ]
+          },
+          {
+            "titolo": "Nuovi fondi per l'agricoltura",
+            "testo": "Il 22 ottobre l'Assemblea regionale ha approvato la legge di variazioni di bilancio, con quasi 80 milioni per l'agricoltura: tra le misure, aiuti contro il caro gasolio agricolo e fondi per i produttori di cereali. Ora servono i provvedimenti per distribuirli.",
+            "fonti": [
+              {
+                "nome": "Regione Siciliana",
+                "url": "https://www.regione.sicilia.it/la-regione-informa/ars-approva-variazioni-bilancio-schifani-risorse-imprese-famiglie-sviluppo-isola"
+              },
+              {
+                "nome": "Corriere Etneo",
+                "url": "https://www.corrieretneo.it/2026/10/22/agricoltura-siciliana-lars-approva-un-pacchetto-da-quasi-80-milioni-dal-caro-carburante-ai-cerealicoli/"
+              },
+              {
+                "nome": "MessinaToday",
+                "url": "https://www.messinatoday.it/cronaca/regione-siciliana-agricoltura-caro-gasolio-cereali.html"
               }
             ]
           }
@@ -882,16 +900,24 @@
         "fatti": [],
         "regione": [
           {
-            "titolo": "10 milioni per il gasolio agricolo",
-            "testo": "Il 15 ottobre il Consiglio regionale ha approvato, nella manovra autunnale, 10 milioni contro il caro gasolio per le aziende agricole, con contributi da pagare entro fine 2026.",
+            "titolo": "10,6 milioni per il gasolio agricolo",
+            "testo": "A metà ottobre il Consiglio regionale ha approvato, nella manovra autunnale, i fondi contro il caro gasolio per le aziende agricole. Il 22 ottobre la Giunta ha presentato le regole: 10,6 milioni assegnati in automatico, senza domanda, con l'obiettivo di pagarli entro fine 2026; gli importi per ettaro sono ancora da definire con le associazioni agricole.",
             "fonti": [
+              {
+                "nome": "ANSA",
+                "url": "https://www.ansa.it/friuliveneziagiulia/notizie/2026/10/22/caro-carburanti-da-regione-fvg-106-milioni-per-lagricoltura-entro-lanno_c9b1d7df-bfb8-4998-b27f-d21f228acfc0.html"
+              },
+              {
+                "nome": "Friuli Oggi",
+                "url": "https://www.friulioggi.it/friuli-venezia-giulia/caro-gasolio-regioneaiuti-agricoltori-contributi-automatici-entro-anno-22-ottobre-2026/"
+              },
+              {
+                "nome": "Trieste All News",
+                "url": "https://www.triesteallnews.it/2026/10/caro-carburanti-106-milioni-per-lagricoltura-dalla-regione/"
+              },
               {
                 "nome": "DiarioFVG",
                 "url": "https://www.diariofvg.it/2026/10/16/caro-gasolio-regione-10-milioni-per-aziende-agricole-chi-puo-ottenere-contributi"
-              },
-              {
-                "nome": "PMI.it",
-                "url": "https://www.pmi.it/economia/finanziamenti/501385/caro-gasolio-agricolo-contributi-regionali.html"
               }
             ]
           },
@@ -935,8 +961,46 @@
         ]
       },
       "veneto": {
-        "fatti": [],
-        "regione": []
+        "fatti": [
+          {
+            "titolo": "Pescherecci fermi a Chioggia e Caorle",
+            "testo": "Il 22 ottobre i pescherecci di Chioggia e Caorle sono rimasti in porto per il fermo nazionale della pesca contro il caro gasolio.",
+            "fonti": [
+              {
+                "nome": "La Nuova Venezia",
+                "url": "https://www.nuovavenezia.it/cronaca/chioggia-gasolio-caro-pescatori-sciopero-22-ottobre-lktx5ogu"
+              },
+              {
+                "nome": "VeneziaToday",
+                "url": "https://www.veneziatoday.it/economia/protesta-pescherecci-incontro-presidente-stefani.html"
+              },
+              {
+                "nome": "Chioggia Notizie",
+                "url": "https://www.chioggianotizie.it/cronaca/2026/10/22/news/caro-gasolio-e-crisi-della-pesca-leconomia-del-mare-sta-affondando-406420/"
+              }
+            ]
+          }
+        ],
+        "regione": [
+          {
+            "titolo": "10 milioni per la pesca (annunciati)",
+            "testo": "Il 22 ottobre la Regione ha annunciato 10 milioni di euro di fondi europei, statali e regionali (programma FEAMPA) per le imprese della pesca colpite dal caro gasolio: circa 6 milioni prima di Natale e il resto a marzo 2027.",
+            "fonti": [
+              {
+                "nome": "Chioggia Notizie",
+                "url": "https://www.chioggianotizie.it/cronaca/2026/10/22/news/crisi-della-pesca-la-regione-annuncia-10-milioni-per-il-caro-gasolio-406427/"
+              },
+              {
+                "nome": "La Piazza Web",
+                "url": "https://www.lapiazzaweb.it/news/attualita/807956/venezia-crisi-della-pesca-e-caro-gasolio-la-regione-annuncia-10-milioni-di-euro-per-salvare-le-imprese.html"
+              },
+              {
+                "nome": "VeneziaToday",
+                "url": "https://www.veneziatoday.it/economia/protesta-pescherecci-incontro-presidente-stefani.html"
+              }
+            ]
+          }
+        ]
       },
       "trentino-alto-adige": {
         "fatti": [],
