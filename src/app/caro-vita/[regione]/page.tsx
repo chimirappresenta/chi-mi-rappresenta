@@ -275,7 +275,7 @@ export default async function CaroVitaRegionePage({ params }: PageProps<"/caro-v
               Dall&apos;annuncio all&apos;aiuto: a che punto è ogni misura e come si ottiene. Un annuncio diventa un aiuto solo quando si può chiedere o arrivano i pagamenti.
             </p>
             {misure.length > 0 ? (
-              <ul className="mt-4 grid gap-3 lg:grid-cols-2">
+              <ul className={`mt-4 grid gap-3 ${misure.length > 1 ? "lg:grid-cols-2" : ""}`}>
                 {misure.map((m) => (
                   <Misura key={m.titolo} misura={m} />
                 ))}

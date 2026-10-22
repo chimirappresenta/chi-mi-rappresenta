@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { caroVita, nomeTappa, regioniCaroVita } from "@/lib/caroVita";
+import { caroVita, regioniCaroVita } from "@/lib/caroVita";
 import { regioni as tutteLeRegioni } from "@/lib/data";
 import { dataLunga } from "@/lib/format";
 import { Condividi } from "@/components/Condividi";
-import { AvvisoArchivio, Fatti } from "@/components/CaroVita";
+import { AvvisoArchivio, Fatti, TappaMini } from "@/components/CaroVita";
 
 export const metadata: Metadata = {
   title: "Caro vita: cosa fanno le Regioni",
@@ -65,6 +65,15 @@ export default function CaroVitaPage() {
       </section>
 
       <h2 className="display mt-10 text-3xl">Scegli la tua regione</h2>
+      <p className="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-ink-2">
+        <span>Accanto a ogni aiuto della Regione, a che punto è:</span>
+        <TappaMini stato="annunciata" />
+        <TappaMini stato="approvata" />
+        <span className="inline-flex items-center gap-1.5">
+          <TappaMini stato="disponibile" />
+          <span className="text-xs text-ink-3">(si può chiedere o i pagamenti sono partiti)</span>
+        </span>
+      </p>
       {gruppi.map((g) => (
         <section key={g.titolo} className="mt-6">
           <h3 className="text-xs font-semibold tracking-wider text-ink-3 uppercase">{g.titolo}</h3>
@@ -89,13 +98,7 @@ export default function CaroVitaPage() {
                         .map((a) => (
                           <li key={a.titolo} className="flex items-start justify-between gap-2">
                             <span>{a.titolo}</span>
-                            <span
-                              className={`shrink-0 rounded-full px-2 py-0.5 text-xs font-semibold ${
-                                a.stato === "disponibile" ? "bg-accent-soft text-accent" : "bg-warn-soft text-warn"
-                              }`}
-                            >
-                              {a.stato && nomeTappa(a.stato, a.accesso)}
-                            </span>
+                            {a.stato && <TappaMini stato={a.stato} accesso={a.accesso} />}
                           </li>
                         ))}
                     </ul>
