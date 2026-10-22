@@ -2,13 +2,26 @@ import caroVitaJson from "@/data/caro-vita.json";
 
 export type FonteNotizia = { nome: string; url: string };
 /** Un fatto del contesto: verificato su almeno due fonti indipendenti. */
-/** Tappe di una misura della Regione: annunciata → approvata (delibera o legge) → domande aperte. */
-export type StatoMisura = "annunciata" | "approvata" | "aperta";
+/**
+ * Tappe di una misura della Regione: annunciata → approvata (delibera o legge) → disponibile (si può chiedere o si
+ * sta già pagando). Come si ottiene (`accesso`): con una domanda o in automatico; se manca, non è ancora deciso.
+ */
+export type StatoMisura = "annunciata" | "approvata" | "disponibile";
+export type AccessoMisura = "domanda" | "automatico";
 export const TAPPE_MISURA: { id: StatoMisura; nome: string }[] = [
   { id: "annunciata", nome: "Annunciata" },
   { id: "approvata", nome: "Approvata" },
-  { id: "aperta", nome: "Domande aperte" },
+  { id: "disponibile", nome: "Disponibile" },
 ];
+/** Nome della tappa per una misura: l'ultima dice come si ottiene l'aiuto. */
+export const nomeTappa = (stato: StatoMisura, accesso?: AccessoMisura) =>
+  stato !== "disponibile" ? TAPPE_MISURA.find((t) => t.id === stato)!.nome : accesso === "domanda" ? "Domande aperte" : accesso === "automatico" ? "Pagamenti partiti" : "Disponibile";
+/** Come si ottiene l'aiuto, in una riga. */
+export const COME_SI_OTTIENE: Record<AccessoMisura | "nd", { icona: string; testo: string }> = {
+  domanda: { icona: "📝", testo: "Serve la domanda" },
+  automatico: { icona: "⚙️", testo: "Arriva in automatico, senza domanda" },
+  nd: { icona: "❔", testo: "Come si otterrà: non ancora deciso" },
+};
 export type Fatto = {
   titolo: string;
   testo: string;
@@ -16,6 +29,7 @@ export type Fatto = {
   /** Solo per le misure della Regione con fondi o agevolazioni: a che punto sono. */
   stato?: StatoMisura;
   importo?: string;
+  accesso?: AccessoMisura;
 };
 export type TemaCaroVita = { id: string; nome: string; descrizione: string };
 

@@ -552,8 +552,9 @@
                 "url": "https://www.abruzzopopolare.com/2026/09/21/carburante-agricolo-agevolato-coldiretti-abruzzo-soddisfazione-per-la-maggiorazione-del-50-accolta-la-nostra-richiesta/"
               }
             ],
-            "stato": "aperta",
-            "importo": "+50% di carburante agevolato per l'irrigazione"
+            "stato": "disponibile",
+            "importo": "+50% di carburante agevolato per l'irrigazione",
+            "accesso": "domanda"
           }
         ]
       },
@@ -596,8 +597,9 @@
                 "url": "https://trans.info/it/caro-gasolio-15-milioni-di-aiuti-agli-autotrasportatori-505413"
               }
             ],
-            "stato": "aperta",
-            "importo": "15 milioni"
+            "stato": "disponibile",
+            "importo": "15 milioni",
+            "accesso": "domanda"
           },
           {
             "titolo": "Nuovi fondi per l'agricoltura",
@@ -853,7 +855,8 @@
               }
             ],
             "stato": "annunciata",
-            "importo": "circa 3,8 milioni"
+            "importo": "circa 3,8 milioni",
+            "accesso": "automatico"
           }
         ]
       },
@@ -947,7 +950,8 @@
               }
             ],
             "stato": "approvata",
-            "importo": "10,6 milioni"
+            "importo": "10,6 milioni",
+            "accesso": "automatico"
           },
           {
             "titolo": "Aiuti per agricoltura e pesca",
@@ -987,8 +991,9 @@
                 "url": "https://www.parmatoday.it/attualita/caldo-e-siccita-dalla-regione-piu-gasolio-agevolato-alle-aziende-agricole-bonus-fino-al-50.html"
               }
             ],
-            "stato": "aperta",
-            "importo": "+20% di gasolio agevolato"
+            "stato": "disponibile",
+            "importo": "+20% di gasolio agevolato",
+            "accesso": "domanda"
           }
         ]
       },

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { TAPPE_MISURA, caroVita, regioniCaroVita } from "@/lib/caroVita";
+import { caroVita, nomeTappa, regioniCaroVita } from "@/lib/caroVita";
 import { regioni as tutteLeRegioni } from "@/lib/data";
 import { dataLunga } from "@/lib/format";
 import { Condividi } from "@/components/Condividi";
@@ -91,10 +91,10 @@ export default function CaroVitaPage() {
                             <span>{a.titolo}</span>
                             <span
                               className={`shrink-0 rounded-full px-2 py-0.5 text-xs font-semibold ${
-                                a.stato === "aperta" ? "bg-accent-soft text-accent" : "bg-warn-soft text-warn"
+                                a.stato === "disponibile" ? "bg-accent-soft text-accent" : "bg-warn-soft text-warn"
                               }`}
                             >
-                              {TAPPE_MISURA.find((t) => t.id === a.stato)?.nome}
+                              {a.stato && nomeTappa(a.stato, a.accesso)}
                             </span>
                           </li>
                         ))}

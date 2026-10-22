@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { caroVita, regioniCaroVita, specialeAttivo, TAPPE_MISURA, type Fatto } from "@/lib/caroVita";
+import { caroVita, COME_SI_OTTIENE, nomeTappa, regioniCaroVita, specialeAttivo, TAPPE_MISURA, type Fatto } from "@/lib/caroVita";
 import { regioni } from "@/lib/data";
 import { dataLunga } from "@/lib/format";
 
@@ -83,7 +83,7 @@ export function Misura({ misura }: { misura: Fatto }) {
     <li className="rounded-[22px] border border-line bg-surface p-4 sm:p-5">
       <p className="text-lg font-semibold leading-snug">{misura.titolo}</p>
       {misura.importo && <p className="text-sm font-semibold text-warn">{misura.importo}</p>}
-      <ol className="mt-4 mb-3 flex items-start" aria-label={`A che punto è: ${TAPPE_MISURA[raggiunta]?.nome ?? ""}`}>
+      <ol className="mt-4 mb-3 flex items-start" aria-label={`A che punto è: ${misura.stato ? nomeTappa(misura.stato, misura.accesso) : ""}`}>
         {TAPPE_MISURA.map((t, i) => (
           <li key={t.id} className={`flex items-start ${i > 0 ? "flex-1" : ""}`}>
             {i > 0 && <span aria-hidden className={`mt-3.5 h-0.5 flex-1 ${i <= raggiunta ? "bg-warn" : "bg-line"}`} />}
@@ -94,12 +94,15 @@ export function Misura({ misura }: { misura: Fatto }) {
               >
                 {i <= raggiunta ? "✓" : ""}
               </span>
-              {t.nome}
+              {nomeTappa(t.id, misura.accesso)}
               {i === raggiunta && <span className="sr-only"> (tappa raggiunta)</span>}
             </span>
           </li>
         ))}
       </ol>
+      <p className="mb-3 inline-flex items-center gap-1.5 rounded-full bg-surface-2 px-3 py-1 text-sm font-medium text-ink-2">
+        <span aria-hidden>{COME_SI_OTTIENE[misura.accesso ?? "nd"].icona}</span> {COME_SI_OTTIENE[misura.accesso ?? "nd"].testo}
+      </p>
       <p className="text-sm text-ink-2">{misura.testo}</p>
       <Fonti fonti={misura.fonti} />
     </li>

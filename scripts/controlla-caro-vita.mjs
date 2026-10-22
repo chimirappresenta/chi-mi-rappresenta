@@ -24,9 +24,11 @@ const controllaFatti = (fatti, dove) => {
     if (url.size < 2) problemi.push(`${dove} – "${f.titolo}": servono almeno due fonti diverse`);
     for (const s of f.fonti ?? []) if (!s.nome || !/^https?:\/\//.test(s.url ?? "")) problemi.push(`${dove} – "${f.titolo}": fonte non valida`);
     // misure della Regione: tappa raggiunta (facoltativa, solo per le misure con soldi o agevolazioni)
-    if (f.stato !== undefined && !["annunciata", "approvata", "aperta"].includes(f.stato))
-      problemi.push(`${dove} – "${f.titolo}": stato non valido (annunciata, approvata, aperta)`);
+    if (f.stato !== undefined && !["annunciata", "approvata", "disponibile"].includes(f.stato))
+      problemi.push(`${dove} – "${f.titolo}": stato non valido (annunciata, approvata, disponibile)`);
     if (f.importo !== undefined && !f.stato) problemi.push(`${dove} – "${f.titolo}": importo senza stato`);
+    if (f.accesso !== undefined && !["domanda", "automatico"].includes(f.accesso)) problemi.push(`${dove} – "${f.titolo}": accesso non valido (domanda, automatico)`);
+    if (f.stato === "disponibile" && !f.accesso) problemi.push(`${dove} – "${f.titolo}": misura disponibile senza accesso (domanda o automatico)`);
   }
 };
 controllaFatti(cv.contesto?.generale, "contesto generale");
