@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { caroVita, regioniCaroVita } from "@/lib/caroVita";
 import { getConsiglio, regioni } from "@/lib/data";
-import { dataLunga, dellaRegione } from "@/lib/format";
+import { dataLunga, dellaRegione, slugConsigliere } from "@/lib/format";
 import type { Atto, Legge } from "@/lib/types";
 import { AttoRow, LeggeCard } from "@/components/consiglio";
 import { ComuneSearch } from "@/components/ComuneSearch";
@@ -56,6 +56,22 @@ export default async function CaroVitaRegionePage({ params }: PageProps<"/caro-v
         .filter((t) => t.leggi.length + t.atti.length > 0)
     : [];
 
+  // chi ha presentato (primo firmatario) atti su questi temi: in ordine alfabetico per cognome, senza conteggi,
+  // perché una classifica premierebbe chi presenta più interrogazioni (di solito l'opposizione)
+  const firmatari = new Map<string, { nome: string; username: string }>();
+  for (const a of consiglio?.atti ?? []) {
+    const primo = a.firmatari[0];
+    if (sel?.atti[a.id] && primo?.username) firmatari.set(primo.username, { nome: primo.nome, username: primo.username });
+  }
+  // il cognome è la parte dell'identificativo prima del punto ("de-luca.cateno", "ALAIA.VIN"): vale anche per i cognomi composti
+  const cognome = (username: string) => username.split(".")[0].replace(/[-_]/g, " ");
+  const proponenti = [...firmatari.values()].sort(
+    (a, b) => cognome(a.username).localeCompare(cognome(b.username), "it", { sensitivity: "base" }) || a.nome.localeCompare(b.nome, "it"),
+  );
+  const gruppoDi = (username: string) => {
+    const c = cr?.regione.consiglieri.find((x) => x.username === username);
+    return c?.gruppo ? cr?.regione.gruppi.find((g) => g.nome === c.gruppo) : undefined;
+  };
 
   const tipi = consiglio?.tipi ?? [];
   const totaleAtti = temi.reduce((n, t) => n + t.atti.length, 0);
@@ -209,6 +225,37 @@ export default async function CaroVitaRegionePage({ params }: PageProps<"/caro-v
             )}
           </section>
         ))}
+
+        {proponenti.length > 0 && (
+          <section>
+            <h2 className="display text-3xl">Chi ha presentato atti su questi temi</h2>
+            <p className="mt-1 text-sm text-ink-3">
+              I consiglieri che hanno presentato per primi gli atti qui sopra, in ordine alfabetico. Puoi scrivere a chi ha presentato un atto per
+              chiedere a che punto è.
+            </p>
+            <ul className="mt-3 grid gap-2 sm:grid-cols-2 lg:grid-cols-4">
+              {proponenti.map((c) => {
+                const g = gruppoDi(c.username);
+                return (
+                  <li key={c.username}>
+                    <Link
+                      href={`/regione/${slug}/consiglieri/${slugConsigliere(c.username)}/`}
+                      className="flex h-full flex-col justify-center rounded-2xl border border-line bg-surface px-4 py-3 hover:border-ink-3"
+                    >
+                      <span className="font-medium">{c.nome}</span>
+                      {g && (
+                        <span className="mt-0.5 flex items-center gap-1.5 text-xs text-ink-3">
+                          <span aria-hidden className="size-2 shrink-0 rounded-full" style={{ background: g.colore }} />
+                          {g.nome}
+                        </span>
+                      )}
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+          </section>
+        )}
 
         <section id="cosa-puoi-fare" className="scroll-mt-28 rounded-[28px] bg-[var(--lv-regione-bg)] p-5 sm:p-6">
           <h2 className="display text-3xl">Cosa puoi fare tu</h2>
