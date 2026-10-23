@@ -1,6 +1,6 @@
 {
   "_nota": "Speciale caro vita. 'contesto': fatti verificati su almeno due fonti indipendenti (nessun giudizio). 'regioni': selezione curata a mano di leggi e atti, con gli id di src/data/consigli.json. Si può correggere a mano.",
-  "aggiornato": "2026-10-22",
+  "aggiornato": "2026-10-23",
   "chiuso": null,
   "temi": [
     {
@@ -33,23 +33,23 @@
     "generale": [
       {
         "titolo": "Autotrasportatori",
-        "testo": "Da metà ottobre presìdi e blocchi di camionisti al Sud contro il prezzo del gasolio, con distributori a secco e scaffali vuoti in diverse zone. In Sicilia il fermo è stato revocato; in Campania e Calabria i presìdi proseguono almeno fino al 27 ottobre.",
+        "testo": "Da metà ottobre presìdi e blocchi di camionisti al Sud contro il prezzo del gasolio, con distributori a secco e scaffali vuoti in diverse zone. Tra il 22 e il 23 ottobre il fermo è stato revocato in Sicilia e sospeso in Calabria e sono stati tolti i blocchi in Campania; il ritorno alla normalità di distributori e supermercati è lento.",
         "fonti": [
           {
-            "nome": "Il Post",
-            "url": "https://www.ilpost.it/2026/10/16/proteste-autotrasportatori-sud-italia/"
-          },
-          {
             "nome": "Il Sole 24 Ore",
-            "url": "https://ilsole24ore.com/art/tir-protesta-mette-sotto-pressione-filiere-sud-merci-ferme-e-scaffali-vuoti-AJyn15nB"
+            "url": "https://www.ilsole24ore.com/art/protesta-tir-rimossi-blocchi-stradali-anche-campania-AJe9nHsB"
           },
           {
-            "nome": "LaC News24",
-            "url": "https://www.lacnews24.it/economia-e-lavoro/autotrasportatori-fermi-in-calabria-nessuna-retromarcia-sciopero-fino-al-27-ottobre-e-otto-richieste-al-governo-fwjpuhzd"
+            "nome": "Sky TG24",
+            "url": "https://tg24.sky.it/cronaca/2026/10/22/sciopero-autotrasportatori-proteste-italia-diretta"
           },
           {
-            "nome": "TrasportoEuropa",
-            "url": "https://www.trasportoeuropa.it/notizie/autotrasporto/proseguono-i-presidi-dellautotrasporto-le-associazioni-chiedono-lintervento-dellinterno"
+            "nome": "Fanpage",
+            "url": "https://fanpage.it/napoli/live/sciopero-autotrasportatori-23-ottobre-a-napoli-riforniti-alcuni-distributori-di-benzina"
+          },
+          {
+            "nome": "Il Messaggero",
+            "url": "https://www.ilmessaggero.it/italia/supermercati_scaffali_vuoti_cosa_succede_oggi_proteste_tir_sud_italia-9836844.html"
           }
         ]
       },
@@ -151,19 +151,19 @@
           },
           {
             "titolo": "Effetti e durata",
-            "testo": "Scaffali vuoti nei reparti freschi e code ai distributori. I camionisti campani annunciano i presìdi almeno fino al 27 ottobre.",
+            "testo": "Nella notte tra il 22 e il 23 ottobre sono stati tolti i presìdi di camionisti e agricoltori sulle autostrade campane e al varco Bausan del porto di Napoli. Restano code ai distributori e scaffali in parte vuoti: il ritorno alla normalità è lento.",
             "fonti": [
               {
-                "nome": "ANSA",
-                "url": "https://www.ansa.it/campania/notizie/2026/10/20/autotrasportatore-campania-blocchi-avanti-fino-al-27-ottobre_12c80c46-8b35-419e-85be-cb28f78cd209.html"
+                "nome": "Il Sole 24 Ore",
+                "url": "https://www.ilsole24ore.com/art/protesta-tir-rimossi-blocchi-stradali-anche-campania-AJe9nHsB"
+              },
+              {
+                "nome": "Fanpage",
+                "url": "https://fanpage.it/napoli/live/sciopero-autotrasportatori-23-ottobre-a-napoli-riforniti-alcuni-distributori-di-benzina"
               },
               {
                 "nome": "LaPresse",
                 "url": "https://www.lapresse.it/economia/2026/10/21/autotrasportatori-ancora-blocchi-al-sud-a-napoli-scaffali-vuoti-e-code-ai-benzinai-conftrasporto-proteste-non-piu-gestibili-la-diretta/"
-              },
-              {
-                "nome": "Fanpage",
-                "url": "https://www.fanpage.it/napoli/supermercati-con-le-corsie-vuote-il-blocco-dei-camionisti-paralizza-la-campania-presidio-anche-al-porto-di-napoli/"
               }
             ]
           },
@@ -231,19 +231,19 @@
         "fatti": [
           {
             "titolo": "Fermo degli autotrasportatori",
-            "testo": "Dal 16 ottobre presìdi sulla statale 18 a Fuscaldo, sulla 534 a Sibari e sulla 106 a Cassano allo Ionio; il blocco sull'A2 a Falerna è stato tolto. Le associazioni annunciano di proseguire almeno fino al 27 ottobre.",
+            "testo": "Dal 16 ottobre presìdi di camionisti sulle statali 18, 534 e 106 e vicino all'A2. Il 22 ottobre la protesta degli autotrasportatori è stata sospesa e i presìdi si stanno sciogliendo.",
             "fonti": [
+              {
+                "nome": "Sky TG24",
+                "url": "https://tg24.sky.it/cronaca/2026/10/22/sciopero-autotrasportatori-proteste-italia-diretta"
+              },
+              {
+                "nome": "Il Sole 24 Ore",
+                "url": "https://www.ilsole24ore.com/art/protesta-tir-rimossi-blocchi-stradali-anche-campania-AJe9nHsB"
+              },
               {
                 "nome": "Gazzetta del Sud",
                 "url": "https://cosenza.gazzettadelsud.it/articoli/cronaca/2026/10/19/protesta-dei-tir-attivato-un-nuovo-presidio-a-fuscaldo-pure-gli-studenti-di-scalea-in-piazza-4dacd234-5a47-482c-92f8-2011ef39eb32/"
-              },
-              {
-                "nome": "CalabriaNews24",
-                "url": "https://www.calabrianews24.com/news/229551017478/protesta-tir-calabria-presidio-a-fuscaldo-e-a2-riaperta-a-falerna"
-              },
-              {
-                "nome": "Sky TG24",
-                "url": "https://tg24.sky.it/cronaca/2026/10/20/sciopero-autotrasportatori-protesta-tir-sud-italia"
               }
             ]
           },
