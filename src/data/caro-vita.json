@@ -1,6 +1,6 @@
 {
   "_nota": "Speciale caro vita. 'contesto': fatti verificati su almeno due fonti indipendenti (nessun giudizio). 'regioni': selezione curata a mano di leggi e atti, con gli id di src/data/consigli.json. Si può correggere a mano.",
-  "aggiornato": "2026-10-23",
+  "aggiornato": "2026-10-25",
   "chiuso": null,
   "temi": [
     {
@@ -55,23 +55,27 @@
       },
       {
         "titolo": "Il Governo",
-        "testo": "Il 22 ottobre il Consiglio dei ministri ha approvato il decreto contro il caro gasolio: circa 105 milioni in più di crediti d'imposta per l'autotrasporto, la sospensione delle rate di leasing dei mezzi pesanti e aiuti per agricoltori e pescatori. Il 27 ottobre è in programma il tavolo al ministero dei Trasporti con le associazioni.",
+        "testo": "Il decreto contro il caro gasolio, approvato il 22 ottobre, è in vigore dal 24 ottobre: circa 105 milioni in più di crediti d'imposta per l'autotrasporto, la sospensione delle rate di leasing dei mezzi pesanti, un contributo agli agricoltori del 20% della spesa per il gasolio dal 1° giugno al 15 ottobre (fino a 45 centesimi al litro) e aiuti per i pescatori. Il 27 ottobre è in programma il tavolo al ministero dei Trasporti con le associazioni.",
         "fonti": [
           {
-            "nome": "Il Fatto Quotidiano",
-            "url": "https://www.ilfattoquotidiano.it/2026/10/22/caro-gasolio-decreto-governo-autotrasporto-notizie/8546627/"
+            "nome": "TrasportoEuropa",
+            "url": "https://www.trasportoeuropa.it/notizie/autotrasporto/che-cosa-dice-il-decreto-del-23-ottobre-contro-il-caro-gasolio"
+          },
+          {
+            "nome": "PMI.it",
+            "url": "https://www.pmi.it/impresa/normativa/502177/decreto-autotrasporto.html"
           },
           {
             "nome": "Teleborsa",
             "url": "https://teleborsa.ansa.it/notiziario/economia/autotrasporto-cdm-vara-decreto-aiuti-oltre-100-milioni-in-piu-contro-caro-gasolio/"
           },
           {
-            "nome": "Automoto.it",
-            "url": "https://www.automoto.it/news/protesta-dei-tir-il-governo-approva-il-decreto-crediti-sul-gasolio-leasing-sospesi.html"
+            "nome": "Cuneodice",
+            "url": "https://www.cuneodice.it/attualita/cuneo-e-valli/gasolio-agricolo-60-milioni-di-euro-alle-aziende-italiane-aiuti-anche-in-piemonte_129131.html"
           },
           {
-            "nome": "Milano Finanza",
-            "url": "https://www.milanofinanza.it/news/caro-gasolio-dal-governo-arriva-il-decreto-aiuti-per-autotrasporto-agricoltura-e-pesca-ecco-cosa-202610221316545315"
+            "nome": "Unione Monregalese",
+            "url": "https://www.unionemonregalese.it/news/territorio/319575/gasolio-agricolo-60-milioni-per-le-imprese-ecco-come-funzionano-gli-aiuti.html"
           }
         ]
       },
@@ -646,24 +650,25 @@
         ],
         "regione": [
           {
-            "titolo": "25 milioni per l'agricoltura",
-            "testo": "La legge regionale del 21 settembre (variazioni di bilancio) ha stanziato 50 milioni contro il caro carburanti e fertilizzanti, di cui 25 per le aziende agricole: la trovi qui sotto tra le leggi. A ottobre le regole per distribuire i fondi non erano ancora definite e le associazioni agricole chiedono di sbloccarli subito.",
+            "titolo": "30 centesimi al litro sul gasolio agricolo",
+            "testo": "La legge regionale di variazioni di bilancio ha stanziato 25 milioni per le aziende agricole contro il caro carburanti: la trovi qui sotto tra le leggi. Il 23 ottobre la Giunta ha approvato le regole: 30 centesimi per ogni litro di gasolio agricolo acquistato dal 1° giugno al 31 dicembre 2026, con domande precompilate gestite dall'agenzia Laore. Prima di partire la delibera deve passare dalla commissione competente del Consiglio regionale.",
             "fonti": [
               {
-                "nome": "SassariToday",
-                "url": "https://www.sassaritoday.it/economia/caro-gasolio-aziende-sarde-aiuti-latte-dermatite-nodulare.html"
+                "nome": "L'Unione Sarda",
+                "url": "https://www.unionesarda.it/news-sardegna/caro-gasolio-dalla-regione-25-milioni-di-euro-per-le-imprese-agricole-w05hp5va"
               },
               {
-                "nome": "Alghero Notizie",
-                "url": "https://www.algheronotizie.com/contenuto/0/12/655032/caro-gasolio-il-psd-az-sollecita-la-regione-in-sospeso-25-milioni-per-il-comparto-agricolo"
+                "nome": "La Nuova Sardegna",
+                "url": "https://www.lanuovasardegna.it/regione/2026/10/23/news/caro-carburante-dalla-regione-aiuti-alle-aziende-agricole-sarde-arrivano-i-contributi-per-il-gasolio-1.100933479"
               },
               {
-                "nome": "Ore12",
-                "url": "https://www.ore12.net/carburante-60-milioni-da-regione-contro-caro-prezzi-in-sardegna/"
+                "nome": "CagliariToday",
+                "url": "https://www.cagliaritoday.it/economia/caro-carburante-agricolo-aiuti-regione-come-funziona-sovvenzione.html"
               }
             ],
             "stato": "approvata",
-            "importo": "25 milioni"
+            "importo": "25 milioni",
+            "accesso": "domanda"
           }
         ]
       },
@@ -881,7 +886,28 @@
             ]
           }
         ],
-        "regione": []
+        "regione": [
+          {
+            "titolo": "30 centesimi al litro sul gasolio agricolo",
+            "testo": "Il 24 ottobre la Regione ha annunciato circa 4,5 milioni per oltre 5.700 aziende agricole: 30 centesimi per ogni litro di gasolio acquistato da giugno a ottobre 2026. Serve una legge di variazione di bilancio, attesa in Consiglio regionale a novembre; la gestione sarà affidata a Sviluppumbria, con l'obiettivo di pagare entro dicembre.",
+            "fonti": [
+              {
+                "nome": "Corriere dell'Umbria",
+                "url": "https://www.corrieredellumbria.it/news/cronaca/467944/caro-gasolio-la-regione-stanzia-4-5-milioni-per-aiutare-oltre-cinquemila-aziende-agricole.html"
+              },
+              {
+                "nome": "Umbria 24",
+                "url": "https://www.umbria24.it/economia/agricoltura-regione-stanzia-45-milioni-per-il-caro-gasolio-contributi-entro-la-fine-dellanno/"
+              },
+              {
+                "nome": "PerugiaToday",
+                "url": "https://www.perugiatoday.it/economia/caro-gasolio-regione-umbria-milioni-agricoltura.html"
+              }
+            ],
+            "stato": "annunciata",
+            "importo": "circa 4,5 milioni"
+          }
+        ]
       },
       "piemonte": {
         "fatti": [
@@ -994,6 +1020,46 @@
             "stato": "disponibile",
             "importo": "+20% di gasolio agevolato",
             "accesso": "domanda"
+          },
+          {
+            "titolo": "Fino a 12 milioni per il gasolio agricolo",
+            "testo": "Nel pacchetto da quasi 35 milioni per agricoltura e pesca, la Regione ha annunciato fino a 12 milioni contro il caro gasolio delle aziende agricole, se saranno sbloccati i fondi europei per lo sviluppo rurale (FEASR). Altri fondi riguardano fertilizzanti, assicurazioni e filiere in crisi.",
+            "fonti": [
+              {
+                "nome": "Regione Emilia-Romagna",
+                "url": "https://agricoltura.regione.emilia-romagna.it/novita/notizie/2026/ottobre/caro-carburante-e-aumento-costi-quasi-35-milioni-per-supportare-imprese"
+              },
+              {
+                "nome": "BolognaToday",
+                "url": "https://www.bolognatoday.it/economia/emilia-romagna-35-milioni-agricoltura-pesca-acquacoltura.html"
+              },
+              {
+                "nome": "ParmaToday",
+                "url": "https://www.parmatoday.it/attualita/agricoltura-35-milioni-alle-imprese-fondi-contro-il-caro-gasolio-e-fertilizzanti.html"
+              }
+            ],
+            "stato": "annunciata",
+            "importo": "fino a 12 milioni"
+          },
+          {
+            "titolo": "6,6 milioni per la pesca",
+            "testo": "Per le imprese della pesca e dell'acquacoltura la Regione ha annunciato 6,6 milioni dal programma europeo FEAMPA contro il caro gasolio.",
+            "fonti": [
+              {
+                "nome": "Regione Emilia-Romagna",
+                "url": "https://agricoltura.regione.emilia-romagna.it/novita/notizie/2026/ottobre/caro-carburante-e-aumento-costi-quasi-35-milioni-per-supportare-imprese"
+              },
+              {
+                "nome": "BolognaToday",
+                "url": "https://www.bolognatoday.it/economia/emilia-romagna-35-milioni-agricoltura-pesca-acquacoltura.html"
+              },
+              {
+                "nome": "ParmaToday",
+                "url": "https://www.parmatoday.it/attualita/agricoltura-35-milioni-alle-imprese-fondi-contro-il-caro-gasolio-e-fertilizzanti.html"
+              }
+            ],
+            "stato": "annunciata",
+            "importo": "6,6 milioni"
           }
         ]
       },
