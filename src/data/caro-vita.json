@@ -1,6 +1,6 @@
 {
   "_nota": "Speciale caro vita. 'contesto': fatti verificati su almeno due fonti indipendenti (nessun giudizio). 'regioni': selezione curata a mano di leggi e atti, con gli id di src/data/consigli.json. Si può correggere a mano.",
-  "aggiornato": "2026-10-25",
+  "aggiornato": "2026-10-27",
   "chiuso": null,
   "temi": [
     {
@@ -55,7 +55,7 @@
       },
       {
         "titolo": "Il Governo",
-        "testo": "Il decreto contro il caro gasolio, approvato il 22 ottobre, è in vigore dal 24 ottobre: circa 105 milioni in più di crediti d'imposta per l'autotrasporto, la sospensione delle rate di leasing dei mezzi pesanti, un contributo agli agricoltori del 20% della spesa per il gasolio dal 1° giugno al 15 ottobre (fino a 45 centesimi al litro) e aiuti per i pescatori. Il 27 ottobre è in programma il tavolo al ministero dei Trasporti con le associazioni.",
+        "testo": "Il decreto contro il caro gasolio, approvato il 22 ottobre, è in vigore dal 24 ottobre: circa 105 milioni in più di crediti d'imposta per l'autotrasporto, la sospensione delle rate di leasing dei mezzi pesanti, un contributo agli agricoltori del 20% della spesa per il gasolio dal 1° giugno al 15 ottobre (fino a 45 centesimi al litro) e aiuti per i pescatori. Il 27 ottobre il ministero dei Trasporti incontra le associazioni nazionali dell'autotrasporto e il 28 le associazioni del Sud.",
         "fonti": [
           {
             "nome": "TrasportoEuropa",
@@ -76,6 +76,14 @@
           {
             "nome": "Unione Monregalese",
             "url": "https://www.unionemonregalese.it/news/territorio/319575/gasolio-agricolo-60-milioni-per-le-imprese-ecco-come-funzionano-gli-aiuti.html"
+          },
+          {
+            "nome": "Radio Azzurra",
+            "url": "https://www.radioazzurra.news/protesta-tir-fedralog-calabria-convocata-domani-al-mit-sul-tavolo-caro-gasolio-e-aiuti-alle-imprese/"
+          },
+          {
+            "nome": "Gazzetta del Sud",
+            "url": "https://calabria.gazzettadelsud.it/articoli/cronaca/2026/10/27/protesta-autotrasportatori-incontro-domani-al-mit-fedralog-conferma-lo-stato-di-agitazione-d790b808-8c4e-4510-8bdf-b2e8eaf8e7aa/"
           }
         ]
       },
@@ -235,7 +243,7 @@
         "fatti": [
           {
             "titolo": "Fermo degli autotrasportatori",
-            "testo": "Dal 16 ottobre presìdi di camionisti sulle statali 18, 534 e 106 e vicino all'A2. Il 22 ottobre la protesta degli autotrasportatori è stata sospesa e i presìdi si stanno sciogliendo.",
+            "testo": "Dal 16 ottobre presìdi di camionisti sulle statali 18, 534 e 106 e vicino all'A2. Il 22 ottobre la protesta è stata sospesa; Fedralog resta in stato di agitazione ed è convocata al ministero dei Trasporti il 28 ottobre.",
             "fonti": [
               {
                 "nome": "Sky TG24",
@@ -248,6 +256,14 @@
               {
                 "nome": "Gazzetta del Sud",
                 "url": "https://cosenza.gazzettadelsud.it/articoli/cronaca/2026/10/19/protesta-dei-tir-attivato-un-nuovo-presidio-a-fuscaldo-pure-gli-studenti-di-scalea-in-piazza-4dacd234-5a47-482c-92f8-2011ef39eb32/"
+              },
+              {
+                "nome": "CalabriaInforma",
+                "url": "https://www.calabriainforma.it/cronaca/2026/10/27/emergenza-caro-gasolio-e-sostegno-alle-imprese-domani-il-tavolo-a-roma-con-fedralog-resta-lo-stato-di-agitazione/61542/"
+              },
+              {
+                "nome": "InformaCalabria",
+                "url": "https://www.informacalabria.it/protesta-autotrasportatori-calabria-fedralog-mit-caro-gasolio-28-ottobre/"
               }
             ]
           },
@@ -928,9 +944,40 @@
                 "url": "https://www.unionemonregalese.it/news/territorio/318931/gasolio-agricolo-alle-stelle-gli-agricoltori-piemontesi-chiedono-uno-sconto-del-20.html"
               }
             ]
+          },
+          {
+            "titolo": "Agricoltori davanti al Consiglio regionale",
+            "testo": "Coldiretti Piemonte ha convocato per il 27 ottobre una mobilitazione davanti alla sede del Consiglio regionale a Torino contro il caro gasolio agricolo.",
+            "fonti": [
+              {
+                "nome": "Giornale La Voce",
+                "url": "https://www.giornalelavoce.it/news/attualita/749894/agricoltori-sul-piede-di-guerra-il-gasolio-costa-troppo-la-regione-prepara-8-milioni-per-fermare-la-crisi.html"
+              },
+              {
+                "nome": "Torino Plus",
+                "url": "https://www.torino.plus/2026/10/regione-piemonte-8-milioni-contro-il.html"
+              }
+            ]
           }
         ],
-        "regione": []
+        "regione": [
+          {
+            "titolo": "Fondo per il gasolio agricolo",
+            "stato": "annunciata",
+            "importo": "tra 7 e 8 milioni",
+            "testo": "La Regione prepara un intervento straordinario tra 7 e 8 milioni contro il caro gasolio agricolo, con fondi non spesi dei bandi per lo sviluppo rurale. Gli aiuti potrebbero arrivare all'inizio del 2027; criteri, modalità e tempi non sono ancora definiti.",
+            "fonti": [
+              {
+                "nome": "Giornale La Voce",
+                "url": "https://www.giornalelavoce.it/news/attualita/749894/agricoltori-sul-piede-di-guerra-il-gasolio-costa-troppo-la-regione-prepara-8-milioni-per-fermare-la-crisi.html"
+              },
+              {
+                "nome": "Torino Plus",
+                "url": "https://www.torino.plus/2026/10/regione-piemonte-8-milioni-contro-il.html"
+              }
+            ]
+          }
+        ]
       },
       "liguria": {
         "fatti": [
