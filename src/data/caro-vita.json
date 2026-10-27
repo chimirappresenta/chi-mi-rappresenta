@@ -947,33 +947,45 @@
           },
           {
             "titolo": "Agricoltori davanti al Consiglio regionale",
-            "testo": "Coldiretti Piemonte ha convocato per il 27 ottobre una mobilitazione davanti alla sede del Consiglio regionale a Torino contro il caro gasolio agricolo.",
+            "testo": "Il 27 ottobre agricoltori con Coldiretti in presidio davanti a Palazzo Lascaris, sede del Consiglio regionale a Torino, contro il caro gasolio: hanno presentato dieci richieste, tra cui un intervento sul prezzo del gasolio e sostegni per i fertilizzanti.",
             "fonti": [
               {
-                "nome": "Giornale La Voce",
-                "url": "https://www.giornalelavoce.it/news/attualita/749894/agricoltori-sul-piede-di-guerra-il-gasolio-costa-troppo-la-regione-prepara-8-milioni-per-fermare-la-crisi.html"
+                "nome": "TorinoSud",
+                "url": "https://www.torinosud.it/politica/torino-agricoltori-coldiretti-manifestazione-36230"
               },
               {
-                "nome": "Torino Plus",
-                "url": "https://www.torino.plus/2026/10/regione-piemonte-8-milioni-contro-il.html"
+                "nome": "La Voce di Alba",
+                "url": "https://www.lavocedialba.it/2026/10/27/leggi-notizia/argomenti/agricoltura-6/articolo/coldiretti-cuneo-in-4mila-per-difendere-il-reddito-degli-agricoltori-e-la-salute-dei-cittadini.html"
+              },
+              {
+                "nome": "Alessandria24",
+                "url": "https://www.alessandria24.com/2026/10/27/anche-coldiretti-alessandria-al-sit-in-davanti-al-palazzo-del-consiglio-regionale-per-la-sopravvivenza-dellagricoltura-piemontese/"
               }
             ]
           }
         ],
         "regione": [
           {
-            "titolo": "Fondo per il gasolio agricolo",
+            "titolo": "Primi 13 milioni per l'agricoltura",
             "stato": "annunciata",
-            "importo": "tra 7 e 8 milioni",
-            "testo": "La Regione prepara un intervento straordinario tra 7 e 8 milioni contro il caro gasolio agricolo, con fondi non spesi dei bandi per lo sviluppo rurale. Gli aiuti potrebbero arrivare all'inizio del 2027; criteri, modalità e tempi non sono ancora definiti.",
+            "importo": "13 milioni",
+            "testo": "Il 27 ottobre, durante il presidio degli agricoltori contro il caro gasolio, la Regione si è impegnata a stanziare i primi 13 milioni di euro. In precedenza si parlava di un intervento tra 7 e 8 milioni con fondi non spesi dello sviluppo rurale. Criteri, modalità e tempi non sono ancora definiti.",
             "fonti": [
+              {
+                "nome": "AlessandriaNews",
+                "url": "https://alessandrianews.ilpiccolo.net/2026/10/27/coldiretti-piemonte-agricoltori-protesta-13-milioni/"
+              },
+              {
+                "nome": "TorinoSud",
+                "url": "https://www.torinosud.it/politica/torino-agricoltori-coldiretti-manifestazione-36230"
+              },
+              {
+                "nome": "La Voce di Alba",
+                "url": "https://www.lavocedialba.it/2026/10/27/leggi-notizia/argomenti/agricoltura-6/articolo/coldiretti-cuneo-in-4mila-per-difendere-il-reddito-degli-agricoltori-e-la-salute-dei-cittadini.html"
+              },
               {
                 "nome": "Giornale La Voce",
                 "url": "https://www.giornalelavoce.it/news/attualita/749894/agricoltori-sul-piede-di-guerra-il-gasolio-costa-troppo-la-regione-prepara-8-milioni-per-fermare-la-crisi.html"
-              },
-              {
-                "nome": "Torino Plus",
-                "url": "https://www.torino.plus/2026/10/regione-piemonte-8-milioni-contro-il.html"
               }
             ]
           }
