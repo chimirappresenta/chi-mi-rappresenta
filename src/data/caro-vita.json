@@ -1,6 +1,6 @@
 {
   "_nota": "Speciale caro vita. 'contesto': fatti verificati su almeno due fonti indipendenti (nessun giudizio). 'regioni': selezione curata a mano di leggi e atti, con gli id di src/data/consigli.json. Si può correggere a mano.",
-  "aggiornato": "2026-10-28",
+  "aggiornato": "2026-10-29",
   "chiuso": null,
   "temi": [
     {
@@ -55,39 +55,23 @@
       },
       {
         "titolo": "Il Governo",
-        "testo": "Il decreto contro il caro gasolio, approvato il 22 ottobre, è in vigore dal 24 ottobre: circa 105 milioni in più di crediti d'imposta per l'autotrasporto, la sospensione delle rate di leasing dei mezzi pesanti, un contributo agli agricoltori del 20% della spesa per il gasolio dal 1° giugno al 15 ottobre (fino a 45 centesimi al litro) e aiuti per i pescatori. Il 28 ottobre al ministero dei Trasporti si è svolto un tavolo con le associazioni dell'autotrasporto di Calabria, Basilicata, Puglia, Molise e Campania.",
+        "testo": "Il decreto contro il caro gasolio è in vigore dal 24 ottobre: circa 105 milioni in più di crediti d'imposta per l'autotrasporto, la sospensione delle rate di leasing dei mezzi pesanti, aiuti per i pescatori e un contributo agli agricoltori del 20% della spesa per il gasolio dal 1° giugno al 15 ottobre (fino a 45 centesimi al litro): le domande si presentano ad AGEA, sul portale SIAN o tramite un CAA, dal 28 ottobre al 20 novembre. Al tavolo del 28 ottobre al ministero dei Trasporti con l'autotrasporto di Calabria, Basilicata, Puglia, Molise e Campania il Governo non ha annunciato nuovi fondi immediati.",
         "fonti": [
           {
-            "nome": "TrasportoEuropa",
-            "url": "https://www.trasportoeuropa.it/notizie/autotrasporto/che-cosa-dice-il-decreto-del-23-ottobre-contro-il-caro-gasolio"
+            "nome": "Fiscal Focus",
+            "url": "https://www.fiscal-focus.it/news-24/ore-13-26-carburanti-agricoli-domande-aperte-fino-al-20-novembre-per-il-contributo-del-20,3,189385"
           },
           {
-            "nome": "PMI.it",
-            "url": "https://www.pmi.it/impresa/normativa/502177/decreto-autotrasporto.html"
-          },
-          {
-            "nome": "Teleborsa",
-            "url": "https://teleborsa.ansa.it/notiziario/economia/autotrasporto-cdm-vara-decreto-aiuti-oltre-100-milioni-in-piu-contro-caro-gasolio/"
-          },
-          {
-            "nome": "Cuneodice",
-            "url": "https://www.cuneodice.it/attualita/cuneo-e-valli/gasolio-agricolo-60-milioni-di-euro-alle-aziende-italiane-aiuti-anche-in-piemonte_129131.html"
-          },
-          {
-            "nome": "Unione Monregalese",
-            "url": "https://www.unionemonregalese.it/news/territorio/319575/gasolio-agricolo-60-milioni-per-le-imprese-ecco-come-funzionano-gli-aiuti.html"
+            "nome": "IlPiacenza",
+            "url": "https://www.ilpiacenza.it/economia/contributo-carburante-agricolo-domande-dal-28-ottobre-al-20-novembre.html"
           },
           {
             "nome": "Gazzetta del Sud",
             "url": "https://calabria.gazzettadelsud.it/articoli/cronaca/2026/10/28/autotrasporto-confronto-tra-governo-e-regioni-del-sud-al-mit-fedralog-conferma-lo-stato-di-agitazione-c69ffbf5-97c0-47a2-860d-e8e6caf62da9/"
           },
           {
-            "nome": "ANSA",
-            "url": "https://www.ansa.it/calabria/notizie/2026/10/28/autotrasporto-fedralog-primi-passi-ma-stato-di-agitazione-resta_cf3cf1ba-1181-4cbd-bf8c-4de0092ec421.html"
-          },
-          {
-            "nome": "TEN TV",
-            "url": "https://www.tenonline.tv/news/attualita/autotrasporto-nuovo-confronto-al-mit-fedralog-vertenza-ancora-aperta/"
+            "nome": "Calabria 7",
+            "url": "https://calabria7.news/cronaca/caro-gasolio-niente-nuovi-fondi-immediati-autotrasportatori-in-agitazione-agricoltori-avanti-con-i-presidi/"
           }
         ]
       },
@@ -224,20 +208,20 @@
             "importo": "circa 13 milioni"
           },
           {
-            "titolo": "Richieste alla Regione",
-            "testo": "In Consiglio regionale è stata presentata una mozione per un fondo regionale di emergenza di almeno 20 milioni per autotrasporto e agricoltura. Già a settembre i sindacati dei trasporti avevano chiesto alla Regione misure straordinarie per le imprese di trasporto.",
+            "titolo": "Mozione approvata in Consiglio",
+            "testo": "Il 28 ottobre il Consiglio regionale ha approvato una mozione che chiede alla Giunta di istituire un fondo regionale straordinario per autotrasporto e agricoltura, con risorse da individuare nel bilancio, e misure per la liquidità delle imprese e un accesso più semplice al carburante agricolo agevolato.",
             "fonti": [
               {
-                "nome": "NTR24",
-                "url": "https://www.ntr24.tv/2026/10/20/caro-gasolio-mozione-del-gruppo-pd-subito-un-fondo-di-emergenza-regionale/"
+                "nome": "Il Portico",
+                "url": "https://www.ilportico.it/it/politica-22/caro-carburanti-approvata-la-mozione-in-regione-c-181551/article"
               },
               {
-                "nome": "NapoliToday",
-                "url": "https://www.napolitoday.it/cronaca/gasolio-finanziamento-regione.html"
+                "nome": "Edizione Caserta",
+                "url": "https://edizionecaserta.net/2026/10/28/caro-carburanti-campania-mozione-imprese/"
               },
               {
-                "nome": "FIT CISL Campania",
-                "url": "https://campania.fitcisl.org/wp-content/uploads/2026/09/1252-CARO-CARBURANTI-NON-POSSONO-ESSERE-SEMPRE-I-LAVORATORI-I-CITTADINI-E-LE-AZIENDE-A-PAGARE-IL-CONTO-DELLE-CRISI-INTERNAZIONALI-.pdf"
+                "nome": "BeneventoNews24",
+                "url": "https://www.beneventonews24.it/2026/10/28/caro-carburanti-p-mastella-fondo-straordinario-per-agricoltori-e-autotrasportatori-la-maggioranza-fa-fronte-comune/"
               }
             ]
           }
@@ -342,6 +326,24 @@
                 "url": "https://catanzaro.gazzettadelsud.it/articoli/cronaca/2026/10/20/al-fianco-di-chi-lavora-e-non-distrugge-occhiuto-incontra-agricoltori-e-autotrasportatori-49bb75d0-6e9c-43d6-8e4f-61c9cc889d06/"
               }
             ]
+          },
+          {
+            "titolo": "Consulta per l'autotrasporto",
+            "testo": "Il 28 ottobre la Giunta ha approvato un disegno di legge che istituisce una Consulta regionale dell'autotrasporto e della logistica, un organismo permanente di confronto tra Regione e associazioni di categoria. Ora deve essere esaminato dal Consiglio regionale.",
+            "fonti": [
+              {
+                "nome": "Regione Calabria",
+                "url": "https://www.regione.calabria.it/regione-ok-giunta-a-provvedimenti-in-tema-di-protezione-civile-transizione-digitale-trasporto-welfare-turismo-subacqueo-e-porto-di-gioia-tauro/"
+              },
+              {
+                "nome": "Giornale di Calabria",
+                "url": "https://www.giornaledicalabria.it/la-giunta-regionale-licenzia-il-ddl-per-listituzione-della-consulta-per-lautotrasporto/"
+              },
+              {
+                "nome": "Gazzetta del Sud",
+                "url": "https://calabria.gazzettadelsud.it/articoli/politica/2026/10/28/regione-calabria-la-giunta-approva-i-piani-di-emergenza-dighe-e-i-nuovi-provvedimenti-per-welfare-porti-e-digitalizzazione-c9ca0664-a93e-4258-a0b7-98a4dd768f66/"
+              }
+            ]
           }
         ]
       },
@@ -438,28 +440,24 @@
         ],
         "regione": [
           {
-            "titolo": "7 milioni per autotrasporto e logistica",
-            "testo": "Il 16 ottobre la Regione ha annunciato 7 milioni di euro per autotrasporto e logistica, insieme ad altri fondi per l'agricoltura. Criteri e tempi non sono ancora noti.",
+            "titolo": "17 milioni contro il caro carburanti",
+            "testo": "Il 28 ottobre la Giunta ha approvato due avvisi pubblici: 10 milioni per agricoltura, pesca e acquacoltura e 7 milioni per le altre imprese, con una parte dedicata all'autotrasporto. Le domande si potranno presentare dopo il via libera della Commissione europea dove serve e l'apertura dello sportello.",
             "fonti": [
               {
-                "nome": "Agenzia di stampa della Regione",
-                "url": "https://agr.regione.basilicata.it/post/sette-milioni-contro-il-rincaro-carburanti"
+                "nome": "Ufficio stampa Regione Basilicata",
+                "url": "https://ufficiostampabasilicata.it/2026/10/29/basilicata-caro-carburanti-17-milioni-per-imprese-e-trasporti/"
               },
               {
-                "nome": "TRM",
-                "url": "https://www.trmtv.it/attualita/economia/2026_10_16/578937.html"
+                "nome": "Antenna Sud",
+                "url": "https://www.antennasud.com/basilicata-caro-carburanti-17-milioni-per-imprese-e-trasporti/"
               },
               {
-                "nome": "PotenzaNews",
-                "url": "https://www.potenzanews.net/basilicata-pacchetto-da-oltre-10-milioni-contro-i-rincari-fondi-a-agricoltura-e-autotrasporto/"
-              },
-              {
-                "nome": "Materalife",
-                "url": "https://www.materalife.it/notizie/basilicata-contro-il-caro-gasolio-aiuti-ad-agricoltura-e-autotrasporto"
+                "nome": "SassiLive",
+                "url": "https://www.sassilive.it/economia/lavoro/caro-carburanti-regione-basilicata-17-milioni-di-euro-per-imprese-e-trasporti/"
               }
             ],
-            "stato": "annunciata",
-            "importo": "7 milioni"
+            "stato": "approvata",
+            "importo": "17 milioni"
           }
         ]
       },
@@ -579,6 +577,27 @@
             "stato": "disponibile",
             "importo": "+50% di carburante agevolato per l'irrigazione",
             "accesso": "domanda"
+          },
+          {
+            "titolo": "3 milioni per la pesca",
+            "stato": "annunciata",
+            "importo": "circa 3 milioni",
+            "accesso": "domanda",
+            "testo": "Il 22 ottobre l'assessore alla Pesca ha annunciato circa 3 milioni di euro, tra fondi europei FEAMPA e fondi regionali, per gli armatori colpiti dal caro gasolio: le domande sono già state presentate e i pagamenti sono attesi entro fine novembre.",
+            "fonti": [
+              {
+                "nome": "ANSA",
+                "url": "https://www.ansa.it/abruzzo/notizie/2026/10/22/caro-gasolio-assessore-abruzzo-ai-pescatori-ci-sono-tre-milioni_8a4953f7-ca6f-4cca-a4a9-d1123a365635.html"
+              },
+              {
+                "nome": "Abruzzo Speciale",
+                "url": "https://www.abruzzospeciale.it/2026/10/22/caro-gasolio-la-regione-rassicura-la-marineria-in-arrivo-3-milioni-di-euro-per-gli-armatori-abruzzesi/"
+              },
+              {
+                "nome": "Notizie d'Abruzzo",
+                "url": "https://www.notiziedabruzzo.it/politica-abruzzo/caro-gasolio-imprudente-3-milioni-di-euro-per-la-pesca-fondi-agli-armatori-entro-novembre.html"
+              }
+            ]
           }
         ]
       },
@@ -671,19 +690,23 @@
         "regione": [
           {
             "titolo": "30 centesimi al litro sul gasolio agricolo",
-            "testo": "La legge regionale di variazioni di bilancio ha stanziato 25 milioni per le aziende agricole contro il caro carburanti: la trovi qui sotto tra le leggi. Il 23 ottobre la Giunta ha approvato le regole: 30 centesimi per ogni litro di gasolio agricolo acquistato dal 1° giugno al 31 dicembre 2026, con domande precompilate gestite dall'agenzia Laore. Prima di partire la delibera deve passare dalla commissione competente del Consiglio regionale.",
+            "testo": "La legge regionale di variazioni di bilancio ha stanziato 25 milioni per le aziende agricole contro il caro carburanti: la trovi qui sotto tra le leggi. Il 23 ottobre la Giunta ha approvato le regole: 30 centesimi per ogni litro di gasolio agricolo acquistato dal 1° giugno al 31 dicembre 2026, calcolati sul 74% del carburante agevolato assegnato per il 2026. Il 28 ottobre la commissione competente del Consiglio regionale ha dato parere favorevole. Le domande saranno precompilate sul portale dell'agenzia Laore, da firmare digitalmente, dopo la pubblicazione del bando; l'obiettivo è pagare entro fine anno.",
             "fonti": [
               {
                 "nome": "L'Unione Sarda",
                 "url": "https://www.unionesarda.it/news-sardegna/caro-gasolio-dalla-regione-25-milioni-di-euro-per-le-imprese-agricole-w05hp5va"
               },
               {
-                "nome": "La Nuova Sardegna",
-                "url": "https://www.lanuovasardegna.it/regione/2026/10/23/news/caro-carburante-dalla-regione-aiuti-alle-aziende-agricole-sarde-arrivano-i-contributi-per-il-gasolio-1.100933479"
-              },
-              {
                 "nome": "CagliariToday",
                 "url": "https://www.cagliaritoday.it/economia/caro-carburante-agricolo-aiuti-regione-come-funziona-sovvenzione.html"
+              },
+              {
+                "nome": "LinkOristano",
+                "url": "https://www.linkoristano.it/2026/10/28/caro-carburanti-in-agricoltura-parere-favorevole-della-commissione-al-contributo-a-fondo-perduto-per-le-aziende/"
+              },
+              {
+                "nome": "Sardegna Notizie 24",
+                "url": "https://sardegnanotizie24.it/carburanti-agricoli-via-libera-della-commissione-al-contributo-di-25-milioni-per-le-imprese-sarde/"
               }
             ],
             "stato": "approvata",
@@ -753,6 +776,24 @@
               {
                 "nome": "Sky TG24",
                 "url": "https://tg24.sky.it/cronaca/video/2026/10/19/contro-il-caro-gasolio-la-coldiretti-si-mobilita-a-firenze-1132923"
+              }
+            ]
+          },
+          {
+            "titolo": "Trattori e tir in Valdichiana",
+            "testo": "Dal 26 ottobre agricoltori e autotrasportatori in presidio vicino al casello Valdichiana dell'A1, a Foiano della Chiana, contro il caro gasolio e i prezzi pagati ai produttori, senza bloccare l'autostrada.",
+            "fonti": [
+              {
+                "nome": "ANSA",
+                "url": "https://www.ansa.it/toscana/notizie/2026/10/26/caro-gasolio-protesta-con-trattori-e-tir-davanti-al-casello-valdichiana-della1_8ab73c50-a76f-47d1-9f34-b4813d05a1a0.html"
+              },
+              {
+                "nome": "Firenze Post",
+                "url": "https://www.firenzepost.it/2026/10/26/autostrada-a1-manifestazione-con-trattori-e-tir-fuori-dal-casello-valdichiana-le-richieste-di-agricoltori-e-camionisti/"
+              },
+              {
+                "nome": "Gazzetta di Siena",
+                "url": "https://www.gazzettadisiena.it/tir-e-trattori-in-protesta-al-casello-valdichiana/"
               }
             ]
           }
@@ -973,7 +1014,7 @@
             "titolo": "Primi 13 milioni per l'agricoltura",
             "stato": "annunciata",
             "importo": "13 milioni",
-            "testo": "Il 27 ottobre, durante il presidio degli agricoltori contro il caro gasolio, la Regione si è impegnata a stanziare i primi 13 milioni di euro. In precedenza si parlava di un intervento tra 7 e 8 milioni con fondi non spesi dello sviluppo rurale. Criteri, modalità e tempi non sono ancora definiti.",
+            "testo": "Il 27 ottobre, durante il presidio degli agricoltori contro il caro gasolio, la Regione si è impegnata a stanziare i primi 13 milioni di euro. Il 28 ottobre l'assessore all'Agricoltura ha annunciato che, dopo una modifica delle regole europee, il Piemonte potrà usare 8 milioni di fondi della PAC non spesi per il gasolio agricolo, con l'idea di compensare il carburante acquistato da giugno a ottobre. Criteri, modalità e tempi non sono ancora definiti.",
             "fonti": [
               {
                 "nome": "AlessandriaNews",
@@ -984,12 +1025,12 @@
                 "url": "https://www.torinosud.it/politica/torino-agricoltori-coldiretti-manifestazione-36230"
               },
               {
-                "nome": "La Voce di Alba",
-                "url": "https://www.lavocedialba.it/2026/10/27/leggi-notizia/argomenti/agricoltura-6/articolo/coldiretti-cuneo-in-4mila-per-difendere-il-reddito-degli-agricoltori-e-la-salute-dei-cittadini.html"
+                "nome": "Askanews",
+                "url": "https://askanews.it/2026/10/28/r-piemonte-8-mln-per-abbattere-costi-del-gasolio-agricolo/"
               },
               {
-                "nome": "Giornale La Voce",
-                "url": "https://www.giornalelavoce.it/news/attualita/749894/agricoltori-sul-piede-di-guerra-il-gasolio-costa-troppo-la-regione-prepara-8-milioni-per-fermare-la-crisi.html"
+                "nome": "La Sesia",
+                "url": "https://lasesia.vercelli.it/provincia/2026/10/28/news/gasolio-agricolo-otto-milioni-di-euro-in-piu-per-il-piemonte-130488/"
               }
             ]
           }
@@ -1490,7 +1531,8 @@
         "mozione-125": "redditi",
         "pdl-235": "agricoltura",
         "pdl-124": "agricoltura",
-        "mozione-72": "agricoltura"
+        "mozione-72": "agricoltura",
+        "mozione-134": "agricoltura"
       }
     },
     "lombardia": {
