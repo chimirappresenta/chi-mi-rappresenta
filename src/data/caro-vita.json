@@ -1,6 +1,6 @@
 {
   "_nota": "Speciale caro vita. 'contesto': fatti verificati su almeno due fonti indipendenti (nessun giudizio). 'regioni': selezione curata a mano di leggi e atti, con gli id di src/data/consigli.json. Si può correggere a mano.",
-  "aggiornato": "2026-10-29",
+  "aggiornato": "2026-10-30",
   "chiuso": null,
   "temi": [
     {
@@ -55,7 +55,7 @@
       },
       {
         "titolo": "Il Governo",
-        "testo": "Il decreto contro il caro gasolio è in vigore dal 24 ottobre: circa 105 milioni in più di crediti d'imposta per l'autotrasporto, la sospensione delle rate di leasing dei mezzi pesanti, aiuti per i pescatori e un contributo agli agricoltori del 20% della spesa per il gasolio dal 1° giugno al 15 ottobre (fino a 45 centesimi al litro): le domande si presentano ad AGEA, sul portale SIAN o tramite un CAA, dal 28 ottobre al 20 novembre. Al tavolo del 28 ottobre al ministero dei Trasporti con l'autotrasporto di Calabria, Basilicata, Puglia, Molise e Campania il Governo non ha annunciato nuovi fondi immediati.",
+        "testo": "Il decreto contro il caro gasolio è in vigore dal 24 ottobre: circa 105 milioni in più di crediti d'imposta per l'autotrasporto, la sospensione delle rate di leasing dei mezzi pesanti, aiuti per i pescatori e un contributo agli agricoltori del 20% della spesa per il gasolio dal 1° giugno al 15 ottobre (fino a 45 centesimi al litro): le domande si presentano ad AGEA, sul portale SIAN o tramite un CAA, dal 28 ottobre al 20 novembre. Dal 28 ottobre al 7 novembre l'accisa sul gasolio è ridotta di circa 4,9 centesimi al litro, Iva compresa. Al tavolo del 28 ottobre al ministero dei Trasporti con l'autotrasporto di Calabria, Basilicata, Puglia, Molise e Campania il Governo non ha annunciato nuovi fondi immediati.",
         "fonti": [
           {
             "nome": "Fiscal Focus",
@@ -72,6 +72,14 @@
           {
             "nome": "Calabria 7",
             "url": "https://calabria7.news/cronaca/caro-gasolio-niente-nuovi-fondi-immediati-autotrasportatori-in-agitazione-agricoltori-avanti-con-i-presidi/"
+          },
+          {
+            "nome": "QuiFinanza",
+            "url": "https://quifinanza.it/economia/taglio-accise-gasolio-sconto-7-novembre-2026/1021689/"
+          },
+          {
+            "nome": "Open",
+            "url": "https://www.open.online/2026/10/28/accise-taglio-gasolio-4-cent-7-novembre/"
           }
         ]
       },
@@ -287,7 +295,7 @@
         "regione": [
           {
             "titolo": "20 milioni contro il caro carburante",
-            "testo": "Con una legge regionale di inizio ottobre e una delibera di Giunta del 14 ottobre la Regione ha stanziato 15 milioni: 10 per l'autotrasporto e 5 per l'agricoltura. Il 22 ottobre il presidente Occhiuto ha annunciato che la quota per l'agricoltura sale a 10 milioni. I criteri per distribuire i fondi sono ancora da definire.",
+            "testo": "Con una legge regionale di inizio ottobre e una delibera di Giunta del 14 ottobre la Regione ha stanziato 15 milioni: 10 per l'autotrasporto e 5 per l'agricoltura. Il 22 ottobre il presidente Occhiuto ha annunciato che la quota per l'agricoltura sale a 10 milioni. Il 29 ottobre l'assessore all'Agricoltura ha detto che i fondi regionali per l'agricoltura saranno coordinati con i nuovi aiuti nazionali sul gasolio agricolo. I criteri per distribuire i fondi sono ancora da definire.",
             "fonti": [
               {
                 "nome": "Uomini e Trasporti",
@@ -304,6 +312,14 @@
               {
                 "nome": "Gazzetta del Sud",
                 "url": "https://calabria.gazzettadelsud.it/articoli/cronaca/2026/10/22/caro-gasolio-la-regione-calabria-raddoppia-i-fondi-agli-agricoltori-10-milioni-136aafd4-55e7-4f2b-8fdc-37ed55265da4/"
+              },
+              {
+                "nome": "ANSA",
+                "url": "https://www.ansa.it/calabria/notizie/2026/10/29/gasolio-agricolo-gallo-10-milioni-dalla-regione-e-altri-60-dal-ministero_38dad387-3f1c-40a3-9431-e0bd7e8e76de.html"
+              },
+              {
+                "nome": "Corriere della Calabria",
+                "url": "https://www.corrieredellacalabria.it/2026/10/29/gasolio-agricolo-gallo-ai-10-milioni-della-regione-si-aggiungono-altri-60-dal-ministero/"
               }
             ],
             "stato": "approvata",
