@@ -1,6 +1,6 @@
 {
   "_nota": "Speciale caro vita. 'contesto': fatti verificati su almeno due fonti indipendenti (nessun giudizio). 'regioni': selezione curata a mano di leggi e atti, con gli id di src/data/consigli.json. Si può correggere a mano.",
-  "aggiornato": "2026-10-30",
+  "aggiornato": "2026-11-04",
   "chiuso": null,
   "temi": [
     {
@@ -54,8 +54,8 @@
         ]
       },
       {
-        "titolo": "Il Governo",
-        "testo": "Il decreto contro il caro gasolio è in vigore dal 24 ottobre: circa 105 milioni in più di crediti d'imposta per l'autotrasporto, la sospensione delle rate di leasing dei mezzi pesanti, aiuti per i pescatori e un contributo agli agricoltori del 20% della spesa per il gasolio dal 1° giugno al 15 ottobre (fino a 45 centesimi al litro): le domande si presentano ad AGEA, sul portale SIAN o tramite un CAA, dal 28 ottobre al 20 novembre. Dal 28 ottobre al 7 novembre l'accisa sul gasolio è ridotta di circa 4,9 centesimi al litro, Iva compresa. Al tavolo del 28 ottobre al ministero dei Trasporti con l'autotrasporto di Calabria, Basilicata, Puglia, Molise e Campania il Governo non ha annunciato nuovi fondi immediati.",
+        "titolo": "Il Governo e i prezzi",
+        "testo": "Il decreto contro il caro gasolio è in vigore dal 24 ottobre: circa 105 milioni in più di crediti d'imposta per l'autotrasporto, la sospensione delle rate di leasing dei mezzi pesanti, aiuti per i pescatori e un contributo agli agricoltori del 20% della spesa per il gasolio dal 1° giugno al 15 ottobre (fino a 45 centesimi al litro): le domande si presentano ad AGEA, sul portale SIAN o tramite un CAA, dal 28 ottobre al 20 novembre. Dal 28 ottobre al 7 novembre l'accisa sul gasolio è ridotta di circa 4,9 centesimi al litro, Iva compresa. Al tavolo del 28 ottobre al ministero dei Trasporti con l'autotrasporto di Calabria, Basilicata, Puglia, Molise e Campania il Governo non ha annunciato nuovi fondi immediati. Dal 1° novembre IP e Tamoil non hanno rinnovato gli sconti straordinari, mentre Eni e Q8 proseguono con modalità legate all'andamento del mercato; al 1° novembre il gasolio self costa in media 2,241 euro al litro.",
         "fonti": [
           {
             "nome": "Fiscal Focus",
@@ -80,12 +80,24 @@
           {
             "nome": "Open",
             "url": "https://www.open.online/2026/10/28/accise-taglio-gasolio-4-cent-7-novembre/"
+          },
+          {
+            "nome": "SoldiOnline",
+            "url": "https://www.soldionline.it/notizie/forex-commodities/carburanti-in-calo-benzina-self-a-2010-euro-gasolio-a-2241"
+          },
+          {
+            "nome": "Energia Oltre",
+            "url": "https://energiaoltre.it/carburanti-finiti-gli-sconti-il-diesel-vola-oltre-224-euro-ecco-dove-si-paga-meno/"
+          },
+          {
+            "nome": "Today",
+            "url": "https://www.today.it/economia/carburanti-sconti-prezzi-stop-chi-dove-mappa.html"
           }
         ]
       },
       {
         "titolo": "Agricoltori e pescatori",
-        "testo": "Il 22 ottobre pescherecci fermi in molti porti, soprattutto dell'Adriatico, contro il prezzo del gasolio, che per alcune imprese supera il 60% dei costi. Gli agricoltori proseguono i presìdi con i trattori in diverse regioni.",
+        "testo": "Il 22 ottobre pescherecci fermi in molti porti, soprattutto dell'Adriatico, contro il prezzo del gasolio, che per alcune imprese supera il 60% dei costi. A fine ottobre gli agricoltori proseguivano i presìdi con i trattori in diverse regioni. Il 3 novembre Q8 Italia ha annunciato uno sconto del 20%, al netto dell'Iva, su gasolio e benzina per i propri clienti diretti di agricoltura e pesca, fino al 31 dicembre.",
         "fonti": [
           {
             "nome": "ANSA",
@@ -102,12 +114,28 @@
           {
             "nome": "L'Indipendente",
             "url": "https://www.lindipendente.online/2026/10/14/autostrade-bloccate-e-presidi-al-sud-la-protesta-di-camion-e-trattori-si-allarga/"
+          },
+          {
+            "nome": "Calabria 7",
+            "url": "https://calabria7.news/cronaca/caro-gasolio-niente-nuovi-fondi-immediati-autotrasportatori-in-agitazione-agricoltori-avanti-con-i-presidi/"
+          },
+          {
+            "nome": "Euronews",
+            "url": "https://it.euronews.com/2026/10/28/agricoltori-in-protesta-in-campania-sfilano-i-trattori-mentre-torna-il-taglio-delle-accise"
+          },
+          {
+            "nome": "ANSA",
+            "url": "https://www.ansa.it/sito/notizie/economia/2026/11/03/lollobrigida-grazie-a-q8-per-aver-accolto-richiesta-governo-sul-carburante_a1f14e34-4f44-4d4b-bbdb-4b315f6128bb.html"
+          },
+          {
+            "nome": "SoldiOnline",
+            "url": "https://www.soldionline.it/notizie/economia-politica/carburante-per-agricoltura-e-pesca-q8-taglia-del-20-fino-al-31-dicembre"
           }
         ]
       },
       {
-        "titolo": "Studenti",
-        "testo": "Universitari in tenda contro il caro affitti in diverse città, tra cui Roma, Milano e Bari, e occupazioni di scuole e università, tra cui una sede della Federico II a Napoli. Il 30 ottobre è indetto uno sciopero generale dei sindacati di base.",
+        "titolo": "Studenti e scioperi",
+        "testo": "Universitari in tenda contro il caro affitti in diverse città, tra cui Roma, Milano e Bari, e occupazioni di scuole e università, tra cui una sede della Federico II a Napoli. Il 30 ottobre sciopero generale dei sindacati di base contro il caro vita e le spese militari, con cortei in decine di città. Per il 20 novembre la CGIL ha indetto uno sciopero generale, nello stesso giorno di una mobilitazione europea degli studenti.",
         "fonti": [
           {
             "nome": "Notizie.it",
@@ -122,12 +150,20 @@
             "url": "https://www.ilfattoquotidiano.it/2026/10/21/occupazione-federico-ii-napoli-studenti-carovita-notizie/8545694/"
           },
           {
-            "nome": "Milano Post",
-            "url": "https://www.milanopost.info/2026/10/19/proteste-e-scioperi-contro-il-caro-vita-le-date-delle-nuove-mobilitazioni-da-ottobre-a-novembre/"
+            "nome": "Sky TG24",
+            "url": "https://tg24.sky.it/cronaca/2026/10/31/sciopero-generale-scontri-roma-torino"
           },
           {
-            "nome": "Teleclubitalia",
-            "url": "https://www.teleclubitalia.it/napoli-proteste-studentesche-sciopero-nazionale-il-30-ottobre/"
+            "nome": "Today",
+            "url": "https://www.today.it/attualita/scontri-cortei-sciopero-generale-oggi-30-ottobre-2026.html"
+          },
+          {
+            "nome": "Il Post",
+            "url": "https://www.ilpost.it/2026/10/18/cgil-indetto-sciopero-generale-20-novembre/"
+          },
+          {
+            "nome": "CGIL",
+            "url": "https://www.cgil.it/strumenti/scioperi-e-vertenze/cgil-proclamazione-sciopero-generale-per-il-giorno-20-novembre-2026-x0ylgq91"
           }
         ]
       }
@@ -294,8 +330,33 @@
         ],
         "regione": [
           {
-            "titolo": "20 milioni contro il caro carburante",
-            "testo": "Con una legge regionale di inizio ottobre e una delibera di Giunta del 14 ottobre la Regione ha stanziato 15 milioni: 10 per l'autotrasporto e 5 per l'agricoltura. Il 22 ottobre il presidente Occhiuto ha annunciato che la quota per l'agricoltura sale a 10 milioni. Il 29 ottobre l'assessore all'Agricoltura ha detto che i fondi regionali per l'agricoltura saranno coordinati con i nuovi aiuti nazionali sul gasolio agricolo. I criteri per distribuire i fondi sono ancora da definire.",
+            "titolo": "10 milioni per l'autotrasporto",
+            "testo": "Il 30 ottobre la Regione ha pubblicato l'avviso \"Caro carburante\" per le imprese di trasporto merci con sede in Calabria: rimborsa il 60% dell'aumento del prezzo medio del carburante rispetto a gennaio e febbraio 2026, per i consumi da marzo a settembre, fino a 300 mila euro per impresa e solo sopra i 500 euro. Le domande si presentano sulla piattaforma di Fincalabra dalle ore 10 del 4 novembre, in ordine di arrivo e fino a esaurimento dei fondi.",
+            "fonti": [
+              {
+                "nome": "ANSA",
+                "url": "https://www.ansa.it/calabria/notizie/2026/10/30/autotrasporto-calabrese-al-via-aiuti-al-settore-dalla-regione-10-milioni_4d3528f3-a5c6-4a4d-a649-d006cad2eb44.html"
+              },
+              {
+                "nome": "Gazzetta del Sud",
+                "url": "https://calabria.gazzettadelsud.it/articoli/politica/2026/10/30/caro-carburante-al-via-gli-aiuti-per-lautotrasporto-della-calabria-49503e32-01b4-4d92-b93f-4e65116738b2/"
+              },
+              {
+                "nome": "Calabria 7",
+                "url": "https://calabria7.news/economia-e-lavoro/caro-carburante-in-calabria-arrivano-10-milioni-per-gli-autotrasportatori-contributi-fino-a-300mila-euro/"
+              },
+              {
+                "nome": "Diario del Web",
+                "url": "https://diariodelweb.it/economia/trasporti/calabria-ristori-autotrasporto-carburante"
+              }
+            ],
+            "stato": "disponibile",
+            "importo": "10 milioni",
+            "accesso": "domanda"
+          },
+          {
+            "titolo": "10 milioni per il gasolio agricolo",
+            "testo": "Con una legge regionale di inizio ottobre e una delibera di Giunta del 14 ottobre la Regione ha stanziato 5 milioni per l'agricoltura. Il 22 ottobre il presidente Occhiuto ha annunciato che salgono a 10. Il 29 ottobre l'assessore all'Agricoltura ha detto che questi fondi saranno coordinati con i nuovi aiuti nazionali sul gasolio agricolo.",
             "fonti": [
               {
                 "nome": "Uomini e Trasporti",
@@ -323,25 +384,7 @@
               }
             ],
             "stato": "approvata",
-            "importo": "15 milioni, che salgono a 20"
-          },
-          {
-            "titolo": "Incontri con chi protesta",
-            "testo": "Le associazioni dei camionisti hanno presentato le loro richieste alla Regione e hanno confermato il fermo dopo l'incontro in Cittadella. Il 19 ottobre il presidente Occhiuto è andato al presidio di Falerna.",
-            "fonti": [
-              {
-                "nome": "ItaliaOggi",
-                "url": "https://www.italiaoggi.it/economia-e-politica/fedralog-otto-richieste-alla-regione-calabria-per-scongiurare-il-fermo-lvr1xfde"
-              },
-              {
-                "nome": "Il Quotidiano del Sud",
-                "url": "https://www.quotidianodelsud.it/calabria/cosenza/cronache/la-protesta/2026/10/20/caro-carburanti-occhiuto-al-presidio-dei-tir-a-falerna-in-calabria-si-protesta-con-dignita"
-              },
-              {
-                "nome": "Gazzetta del Sud",
-                "url": "https://catanzaro.gazzettadelsud.it/articoli/cronaca/2026/10/20/al-fianco-di-chi-lavora-e-non-distrugge-occhiuto-incontra-agricoltori-e-autotrasportatori-49bb75d0-6e9c-43d6-8e4f-61c9cc889d06/"
-              }
-            ]
+            "importo": "5 milioni, che salgono a 10"
           },
           {
             "titolo": "Consulta per l'autotrasporto",
@@ -534,6 +577,24 @@
                 "url": "https://termolionline.it/2026/10/lavoro-ed-economia/caro-carburante-roberti-sospendere-i-contributi-per-sbloccare-i-pagamenti-agea/"
               }
             ]
+          },
+          {
+            "titolo": "Mozione approvata in Consiglio",
+            "testo": "Il 5 ottobre il Consiglio regionale ha approvato una mozione che impegna il presidente a monitorare i prezzi dei carburanti, a chiedere misure nazionali più forti e a valutare un sostegno regionale alla rete dei distributori, compatibilmente con il bilancio.",
+            "fonti": [
+              {
+                "nome": "ANSA",
+                "url": "https://www.ansa.it/molise/notizie/2026/10/05/caro-carburante-consiglio-regionale-del-molise-approva-mozione-bipartisan_9614343d-77b9-4a3c-a685-6838979a8ffd.html"
+              },
+              {
+                "nome": "TermoliOnLine",
+                "url": "https://termolionline.it/2026/10/attualita/caro-carburanti-il-consiglio-regionale-approva-la-mozione-a-sostegno-di-famiglie-e-imprese/"
+              },
+              {
+                "nome": "Molise Network",
+                "url": "https://www.molisenetwork.net/2026/10/05/caro-carburanti-consiglio-regionale-mozione-molise/"
+              }
+            ]
           }
         ]
       },
@@ -679,6 +740,27 @@
             ],
             "stato": "approvata",
             "importo": "quasi 80 milioni"
+          },
+          {
+            "titolo": "15 milioni per agricoltura e pesca",
+            "testo": "A fine settembre l'Assemblea regionale ha dato il via libera ai decreti che attuano la legge regionale 13/2026: 10 milioni per aziende agricole e contoterzisti e 5 per la pesca. Modalità e termini delle domande sono affidati a un avviso del dipartimento regionale dell'Agricoltura.",
+            "fonti": [
+              {
+                "nome": "Regione Siciliana",
+                "url": "https://www.regione.sicilia.it/la-regione-informa/caro-carburanti-ok-dall-ars-ai-decreti-contributi-ad-agricoltori-pescatori"
+              },
+              {
+                "nome": "La Sicilia",
+                "url": "https://www.lasicilia.it/news/economia/3077843/caro-carburanti-via-libera-dell-ars-ai-contributi-15-milioni-per-agricoltori-e-pescatori.html"
+              },
+              {
+                "nome": "LiveSicilia",
+                "url": "https://livesicilia.it/caro-carburanti-dallars-via-libera-ai-contributi-per-agricoltori-e-pescatori/"
+              }
+            ],
+            "stato": "approvata",
+            "importo": "15 milioni",
+            "accesso": "domanda"
           }
         ]
       },
@@ -861,7 +943,7 @@
         "regione": [
           {
             "titolo": "15 milioni per le imprese agricole",
-            "testo": "Il 20 ottobre la Giunta ha approvato 15 milioni: 10 per un contributo straordinario sul gasolio agricolo, in proporzione ai consumi, e 5 per lo sviluppo rurale. Tempi e modalità di domanda non sono ancora noti.",
+            "testo": "Il 20 ottobre la Giunta ha approvato 15 milioni: 10 per un contributo straordinario sul gasolio agricolo, calcolato sui quantitativi di carburante agevolato registrati nel sistema regionale, e 5 per lo sviluppo rurale. Il 28 ottobre la commissione Agricoltura del Consiglio regionale ha approvato il progetto di legge; il voto finale in Aula è atteso il 17 novembre. Tempi e modalità di pagamento non sono ancora noti.",
             "fonti": [
               {
                 "nome": "Agrapress",
@@ -874,6 +956,14 @@
               {
                 "nome": "Cremona Sera",
                 "url": "https://cremonasera.it/cronaca/prezzi-coldiretti-bene-15-mln-da-regione-ma-ora-attuazione-della-misura-sia-rapida-dall-inizio-della-guerra-in-iran-costi-raddoppiati-per-gli-agricoltori-che-garantiscono-cibo-sano-e-sicuro"
+              },
+              {
+                "nome": "Valtellina News",
+                "url": "https://www.valtellinanews.it/lombardia-la-commissione-agricoltura-approva-la-proposta-di-legge-a-sostegno-delle-imprese-del-settore/37028/"
+              },
+              {
+                "nome": "VareseNews",
+                "url": "https://www.varesenews.it/2026/10/caro-carburanti-dalla-lombardia-15-milioni-per-sostenere-le-imprese-agricole/2722045/"
               }
             ],
             "stato": "approvata",
@@ -965,8 +1055,8 @@
         ],
         "regione": [
           {
-            "titolo": "30 centesimi al litro sul gasolio agricolo",
-            "testo": "Il 24 ottobre la Regione ha annunciato circa 4,5 milioni per oltre 5.700 aziende agricole: 30 centesimi per ogni litro di gasolio acquistato da giugno a ottobre 2026. Serve una legge di variazione di bilancio, attesa in Consiglio regionale a novembre; la gestione sarà affidata a Sviluppumbria, con l'obiettivo di pagare entro dicembre.",
+            "titolo": "4,5 milioni per il gasolio agricolo",
+            "testo": "Circa 4,5 milioni per oltre 5.700 aziende agricole, per il gasolio acquistato da giugno. La Giunta ha approvato il 30 ottobre il disegno di legge di variazione di bilancio; all'inizio di novembre è arrivato il via libera della commissione consiliare e il voto finale in Assemblea legislativa è previsto per il 5 novembre. La gestione sarà affidata a Sviluppumbria, con l'obiettivo di pagare entro dicembre.",
             "fonti": [
               {
                 "nome": "Corriere dell'Umbria",
@@ -979,6 +1069,18 @@
               {
                 "nome": "PerugiaToday",
                 "url": "https://www.perugiatoday.it/economia/caro-gasolio-regione-umbria-milioni-agricoltura.html"
+              },
+              {
+                "nome": "Umbria TV",
+                "url": "https://www.umbriatv.com/notizie/ambiente/agricoltura/caro-gasolio-agricolo-sbloccati-i-45-milioni-di-euro/"
+              },
+              {
+                "nome": "Perugia Tomorrow",
+                "url": "https://www.perugiatomorrow.it/2026/11/03/caro-gasolio-agricolo-lumbria-sblocca-45-milioni-per-le-imprese/"
+              },
+              {
+                "nome": "Corriere dell'Umbria",
+                "url": "https://www.corrieredellumbria.it/news/politica/468699/si-alla-manovrina-contro-il-caro-gasolio-e-per-i-fondi-ryanair.html"
               }
             ],
             "stato": "annunciata",
@@ -1067,6 +1169,20 @@
                 "url": "https://www.rivieratime.news/gasolio-alle-stelle-pesca-ligure-in-ginocchio-legacoop-senza-aiuti-le-barche-resteranno-in-porto-subito-credito-dimposta-e-bando-emergenza/"
               }
             ]
+          },
+          {
+            "titolo": "Richieste degli agricoltori",
+            "testo": "Il 22 ottobre Coldiretti Liguria ha chiesto alla Regione di individuare risorse e strumenti di sostegno contro il caro gasolio, insieme alle associazioni di categoria.",
+            "fonti": [
+              {
+                "nome": "Savonanews",
+                "url": "https://www.savonanews.it/2026/10/22/leggi-notizia/argomenti/regione-3/articolo/caro-gasolio-coldiretti-liguria-sottolinea-gli-aiuti-del-governo-ma-chiede-intervento-della-regione-1.html"
+              },
+              {
+                "nome": "Albenga Corsara",
+                "url": "https://www.albengacorsara.it/2026/10/22/caro-gasolio-coldiretti-liguria-aiuti-governo-intervento-regione"
+              }
+            ]
           }
         ],
         "regione": []
@@ -1122,7 +1238,7 @@
         "regione": [
           {
             "titolo": "Più gasolio agricolo agevolato",
-            "testo": "La Regione concede alle aziende che hanno esaurito la loro quota un'integrazione straordinaria del gasolio agricolo agevolato: +20% per le domande presentate entro il 31 ottobre 2026 sul sistema regionale UMA.",
+            "testo": "La Regione ha concesso alle aziende che avevano esaurito la loro quota un'integrazione straordinaria del gasolio agricolo agevolato sul sistema regionale UMA: l'ultima finestra, con +20%, era per le domande presentate entro il 31 ottobre 2026. Il termine è scaduto.",
             "fonti": [
               {
                 "nome": "Regione Emilia-Romagna",
@@ -1163,7 +1279,7 @@
           },
           {
             "titolo": "6,6 milioni per la pesca",
-            "testo": "Per le imprese della pesca e dell'acquacoltura la Regione ha annunciato 6,6 milioni dal programma europeo FEAMPA contro il caro gasolio.",
+            "testo": "Per le imprese della pesca e dell'acquacoltura la Regione ha messo a disposizione 6,6 milioni dal programma europeo FEAMPA contro il caro gasolio. La raccolta delle domande del bando si è conclusa a ottobre; dopo le istruttorie è previsto l'avvio dei pagamenti.",
             "fonti": [
               {
                 "nome": "Regione Emilia-Romagna",
@@ -1178,8 +1294,9 @@
                 "url": "https://www.parmatoday.it/attualita/agricoltura-35-milioni-alle-imprese-fondi-contro-il-caro-gasolio-e-fertilizzanti.html"
               }
             ],
-            "stato": "annunciata",
-            "importo": "6,6 milioni"
+            "stato": "approvata",
+            "importo": "6,6 milioni",
+            "accesso": "domanda"
           }
         ]
       },
@@ -1200,6 +1317,20 @@
               {
                 "nome": "Chioggia Notizie",
                 "url": "https://www.chioggianotizie.it/cronaca/2026/10/22/news/caro-gasolio-e-crisi-della-pesca-leconomia-del-mare-sta-affondando-406420/"
+              }
+            ]
+          },
+          {
+            "titolo": "Agricoltori e pescatori a Venezia",
+            "testo": "Il 23 ottobre agricoltori e pescatori con Coldiretti hanno manifestato a Venezia contro il caro gasolio.",
+            "fonti": [
+              {
+                "nome": "VeneziaToday",
+                "url": "https://www.veneziatoday.it/cronaca/manifestazione-coldiretti-caro-gasolio.html"
+              },
+              {
+                "nome": "TrevisoToday",
+                "url": "https://www.trevisotoday.it/attualita/coldiretti-caro-gasolio-sciopero-venezia-23-ottobre-2026.html"
               }
             ]
           }
@@ -1224,6 +1355,26 @@
             ],
             "stato": "annunciata",
             "importo": "10 milioni"
+          },
+          {
+            "titolo": "16,3 milioni per il credito agricolo",
+            "testo": "Il 23 ottobre l'assessore all'Agricoltura ha annunciato 16,3 milioni di euro per il credito alle aziende agricole, per dare liquidità alle imprese. Beneficiari e modalità non sono ancora noti.",
+            "fonti": [
+              {
+                "nome": "Rovigo.News",
+                "url": "https://www.rovigo.news/caro-carburanti-dalla-regione-veneto-oltre-26-milioni-per-agricoltura-e-pesca/"
+              },
+              {
+                "nome": "TrevisoToday",
+                "url": "https://www.trevisotoday.it/attualita/coldiretti-caro-gasolio-sciopero-venezia-23-ottobre-2026.html"
+              },
+              {
+                "nome": "La Piazza Web",
+                "url": "https://www.lapiazzaweb.it/news/attualita/808909/caro-carburanti-il-veneto-stanzia-oltre-26-milioni-per-agricoltura-e-pesca.html"
+              }
+            ],
+            "stato": "annunciata",
+            "importo": "16,3 milioni"
           }
         ]
       },
@@ -1580,7 +1731,9 @@
         "mozione-433": "casa",
         "mozione-516": "casa",
         "interrogazione-21000": "casa",
-        "mozione-371": "casa"
+        "mozione-371": "casa",
+        "question-time-1189": "agricoltura",
+        "mozione-258": "bollette"
       }
     }
   }
