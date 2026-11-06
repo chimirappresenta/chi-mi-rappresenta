@@ -1,6 +1,6 @@
 {
   "_nota": "Speciale caro vita. 'contesto': fatti verificati su almeno due fonti indipendenti (nessun giudizio). 'regioni': selezione curata a mano di leggi e atti, con gli id di src/data/consigli.json. Si può correggere a mano.",
-  "aggiornato": "2026-11-04",
+  "aggiornato": "2026-11-06",
   "chiuso": null,
   "temi": [
     {
@@ -233,7 +233,7 @@
         "regione": [
           {
             "titolo": "Fondo per il gasolio agricolo",
-            "testo": "Il 21 ottobre il presidente Fico ha annunciato un fondo di circa 13 milioni di euro per il caro gasolio in agricoltura, con fondi europei FESR che devono ancora essere autorizzati dall'Unione europea.",
+            "testo": "Il 21 ottobre il presidente Fico ha annunciato un fondo di circa 13 milioni di euro per il caro gasolio in agricoltura. Il 29 ottobre l'assessora all'Agricoltura ha indicato che i fondi vengono dal Complemento per lo sviluppo rurale (CSR) 2023-2027 e che il loro uso dipende dall'autorizzazione della Commissione europea.",
             "fonti": [
               {
                 "nome": "Sky TG24",
@@ -246,6 +246,14 @@
               {
                 "nome": "Il Mattino",
                 "url": "https://www.ilmattino.it/napoli/cronaca/protesta_autotrasportatori_campania_diretta_cosa_sta_succedendo_quali_sono_le_strade_chiuse_svincoli-9839041.html"
+              },
+              {
+                "nome": "PSR Campania Comunica",
+                "url": "https://psrcampaniacomunica.it/news/comunicati-stampa-2026/agricoltura-serluca-avanti-sullutilizzo-dei-13-milioni-del-csr-campania-contro-il-caro-gasolio-la-strada-e-concreta-e-i-primi-passi-sono-gia-in-corso/"
+              },
+              {
+                "nome": "NTR24",
+                "url": "https://www.ntr24.tv/2026/10/29/agricoltura-serluca-avanti-su-utilizzo-dei-13-milioni-del-csr-campania-contro-caro-gasolio-la-strada-e-concreta-e-i-primi-passi-sono-gia-in-corso/"
               }
             ],
             "stato": "annunciata",
@@ -562,7 +570,7 @@
         "regione": [
           {
             "titolo": "Richieste portate a Roma",
-            "testo": "Il presidente Roberti ha incontrato agricoltori e camionisti e ha detto che porterà le loro richieste alla Conferenza delle Regioni, proponendo tra l'altro di sospendere i versamenti contributivi degli agricoltori per sbloccare i pagamenti AGEA. Al momento non risultano misure regionali approvate.",
+            "testo": "Il presidente Roberti ha incontrato agricoltori e camionisti e ha detto che porterà le loro richieste alla Conferenza delle Regioni, proponendo tra l'altro di sospendere i versamenti contributivi degli agricoltori per sbloccare i pagamenti AGEA. Il 23 ottobre l'assessore all'Agricoltura ha detto che si stanno verificando ulteriori risorse regionali e ha proposto di usare i fondi non spesi del CSR, da verificare con la Commissione europea.",
             "fonti": [
               {
                 "nome": "isNews",
@@ -575,6 +583,14 @@
               {
                 "nome": "TermoliOnLine",
                 "url": "https://termolionline.it/2026/10/lavoro-ed-economia/caro-carburante-roberti-sospendere-i-contributi-per-sbloccare-i-pagamenti-agea/"
+              },
+              {
+                "nome": "isNews",
+                "url": "https://www.isnews.it/2026/10/23/caro-gasolio-60-milioni-per-lagricoltura-e-10-per-la-pesca-micone-un-sostegno-concreto-per-le-imprese/"
+              },
+              {
+                "nome": "Amolivenews",
+                "url": "https://www.amolivenews.it/2026/10/23/agricoltura-in-affanno-il-molise-guarda-agli-aiuti-del-governo-micone-al-lavoro-per-sostenere-le-imprese/"
               }
             ]
           },
@@ -675,6 +691,26 @@
                 "url": "https://www.notiziedabruzzo.it/politica-abruzzo/caro-gasolio-imprudente-3-milioni-di-euro-per-la-pesca-fondi-agli-armatori-entro-novembre.html"
               }
             ]
+          },
+          {
+            "titolo": "Circa 6 milioni per l'agricoltura",
+            "testo": "Il 21 ottobre il Consiglio regionale ha approvato, nella manovra di bilancio, circa 6 milioni: oltre 4 milioni alle aziende agricole come ristoro parziale del caro carburante e 1,8 milioni ai Consorzi di bonifica. Modalità e tempi non sono ancora noti.",
+            "stato": "approvata",
+            "importo": "circa 6 milioni",
+            "fonti": [
+              {
+                "nome": "AbruzzoWeb",
+                "url": "https://www.abruzzoweb.it/caro-carburanti-6-mln-per-imprese-agricole-da-consiglio-anche-165-mln-per-sociale-e-cultura/"
+              },
+              {
+                "nome": "Virtù Quotidiane",
+                "url": "https://www.virtuquotidiane.it/cronaca/caro-gasolio-sei-milioni-di-euro-dalla-regione-per-imprese-e-consorzio-di-bonifica.html"
+              },
+              {
+                "nome": "ZonaLocale",
+                "url": "https://www.zonalocale.it/2026/10/22/caro-gasolio-sei-mln-agr-abr-coldiret/"
+              }
+            ]
           }
         ]
       },
@@ -742,25 +778,25 @@
             "importo": "quasi 80 milioni"
           },
           {
-            "titolo": "15 milioni per agricoltura e pesca",
-            "testo": "A fine settembre l'Assemblea regionale ha dato il via libera ai decreti che attuano la legge regionale 13/2026: 10 milioni per aziende agricole e contoterzisti e 5 per la pesca. Modalità e termini delle domande sono affidati a un avviso del dipartimento regionale dell'Agricoltura.",
+            "titolo": "33 milioni per il carburante agricolo",
+            "testo": "Un decreto del dipartimento regionale dell'Agricoltura ha approvato l'avviso: 33 milioni per aziende agricole e imprese conto terzi, come ristoro dei costi sostenuti per il carburante dal 1° marzo al 31 ottobre 2026. Le domande si presentano online sul portale Uma Sicilia dal 9 al 30 novembre.",
+            "stato": "approvata",
+            "importo": "33 milioni",
+            "accesso": "domanda",
             "fonti": [
               {
-                "nome": "Regione Siciliana",
-                "url": "https://www.regione.sicilia.it/la-regione-informa/caro-carburanti-ok-dall-ars-ai-decreti-contributi-ad-agricoltori-pescatori"
-              },
-              {
-                "nome": "La Sicilia",
-                "url": "https://www.lasicilia.it/news/economia/3077843/caro-carburanti-via-libera-dell-ars-ai-contributi-15-milioni-per-agricoltori-e-pescatori.html"
-              },
-              {
                 "nome": "LiveSicilia",
-                "url": "https://livesicilia.it/caro-carburanti-dallars-via-libera-ai-contributi-per-agricoltori-e-pescatori/"
+                "url": "https://livesicilia.it/caro-carburante-aiuti-agricoltori-sicilia-domande/"
+              },
+              {
+                "nome": "Il Sicilia",
+                "url": "https://ilsicilia.it/caro-carburante-sammartino-in-arrivo-33milioni-per-le-aziende-agricole/"
+              },
+              {
+                "nome": "QdS",
+                "url": "https://qds.it/caro-carburante-arrivano-33-milioni-aziende-agricole-siciliane-via-domande/"
               }
-            ],
-            "stato": "approvata",
-            "importo": "15 milioni",
-            "accesso": "domanda"
+            ]
           }
         ]
       },
@@ -837,7 +873,7 @@
         "regione": [
           {
             "titolo": "Piano da 75 milioni",
-            "testo": "La Regione ha presentato un piano da 75 milioni contro il caro energia: 20 milioni per le famiglie e circa 55 per l'agricoltura, tra cui 10 milioni per abbassare il prezzo del gasolio agricolo di circa 25 centesimi al litro.",
+            "testo": "La Regione ha presentato un piano da 75 milioni contro il caro energia. Il 21 ottobre il Consiglio regionale ha approvato una legge che stanzia 30,8 milioni: 20,8 per le famiglie e 10 per le imprese agricole colpite dal rincaro del gasolio, con un contributo indicato in circa 25 centesimi al litro. Periodo di riferimento e massimali saranno stabiliti in seguito.",
             "fonti": [
               {
                 "nome": "Agenzia Nova",
@@ -850,10 +886,22 @@
               {
                 "nome": "Affaritaliani",
                 "url": "https://www.affaritaliani.it/roma/caro-energia-il-lazio-schiera-75-milioni-aiuti-a-famiglie-e-agricoltura.html"
+              },
+              {
+                "nome": "Consiglio regionale del Lazio",
+                "url": "https://www.consiglio.regione.lazio.it/consiglio-regionale/?vw=newsDettaglio&id=3697"
+              },
+              {
+                "nome": "Il Faro Online",
+                "url": "https://www.ilfaroonline.it/2026/10/21/lazio-approvate-le-leggi-su-sprechi-alimentari-e-aiuti-contro-il-caro-energia/655112"
+              },
+              {
+                "nome": "Regione Lazio",
+                "url": "https://www.regione.lazio.it/notizie/nuovo-piano-anti-rincari-aiuti-straordinari"
               }
             ],
-            "stato": "annunciata",
-            "importo": "75 milioni"
+            "stato": "approvata",
+            "importo": "30,8 milioni su 75"
           }
         ]
       },
@@ -1056,7 +1104,7 @@
         "regione": [
           {
             "titolo": "4,5 milioni per il gasolio agricolo",
-            "testo": "Circa 4,5 milioni per oltre 5.700 aziende agricole, per il gasolio acquistato da giugno. La Giunta ha approvato il 30 ottobre il disegno di legge di variazione di bilancio; all'inizio di novembre è arrivato il via libera della commissione consiliare e il voto finale in Assemblea legislativa è previsto per il 5 novembre. La gestione sarà affidata a Sviluppumbria, con l'obiettivo di pagare entro dicembre.",
+            "testo": "Il 5 novembre l'Assemblea legislativa ha approvato la variazione di bilancio con circa 4,5 milioni per oltre 5.700 aziende agricole, per il carburante acquistato dal 1° giugno al 30 novembre 2026. La gestione sarà affidata a Sviluppumbria, con l'obiettivo di pagare entro dicembre.",
             "fonti": [
               {
                 "nome": "Corriere dell'Umbria",
@@ -1081,9 +1129,21 @@
               {
                 "nome": "Corriere dell'Umbria",
                 "url": "https://www.corrieredellumbria.it/news/politica/468699/si-alla-manovrina-contro-il-caro-gasolio-e-per-i-fondi-ryanair.html"
+              },
+              {
+                "nome": "La Nazione",
+                "url": "https://www.lanazione.it/umbria/cronaca/regione-ok-a-variazione-bilancio-gasolio-5c7a81cf"
+              },
+              {
+                "nome": "Umbria 24",
+                "url": "https://www.umbria24.it/politica/dal-caro-gasolio-alla-prima-casa-fino-alla-cybersicurezza-in-consiglio-ok-alla-manovra-della-regione/"
+              },
+              {
+                "nome": "Umbria Domani",
+                "url": "https://www.umbriadomani.it/in-rilievo/assemblea-legislativa-dellumbria-45-milioni-a-sostegno-delle-imprese-agricole-per-i-costi-del-carburante-25-milioni-per-prima-casa-di-giovani-e-650mila-euro-per-aeroporto-350866/"
               }
             ],
-            "stato": "annunciata",
+            "stato": "approvata",
             "importo": "circa 4,5 milioni"
           }
         ]
