@@ -1,6 +1,6 @@
 {
   "_nota": "Speciale caro vita. 'contesto': fatti verificati su almeno due fonti indipendenti (nessun giudizio). 'regioni': selezione curata a mano di leggi e atti, con gli id di src/data/consigli.json. Si può correggere a mano.",
-  "aggiornato": "2026-11-06",
+  "aggiornato": "2026-11-08",
   "chiuso": null,
   "temi": [
     {
@@ -55,7 +55,7 @@
       },
       {
         "titolo": "Il Governo e i prezzi",
-        "testo": "Il decreto contro il caro gasolio è in vigore dal 24 ottobre: circa 105 milioni in più di crediti d'imposta per l'autotrasporto, la sospensione delle rate di leasing dei mezzi pesanti, aiuti per i pescatori e un contributo agli agricoltori del 20% della spesa per il gasolio dal 1° giugno al 15 ottobre (fino a 45 centesimi al litro): le domande si presentano ad AGEA, sul portale SIAN o tramite un CAA, dal 28 ottobre al 20 novembre. Dal 28 ottobre al 7 novembre l'accisa sul gasolio è ridotta di circa 4,9 centesimi al litro, Iva compresa. Al tavolo del 28 ottobre al ministero dei Trasporti con l'autotrasporto di Calabria, Basilicata, Puglia, Molise e Campania il Governo non ha annunciato nuovi fondi immediati. Dal 1° novembre IP e Tamoil non hanno rinnovato gli sconti straordinari, mentre Eni e Q8 proseguono con modalità legate all'andamento del mercato; al 1° novembre il gasolio self costa in media 2,241 euro al litro.",
+        "testo": "Il decreto contro il caro gasolio è in vigore dal 24 ottobre: circa 105 milioni in più di crediti d'imposta per l'autotrasporto, la sospensione delle rate di leasing dei mezzi pesanti, aiuti per i pescatori e un contributo agli agricoltori del 20% della spesa per il gasolio dal 1° giugno al 15 ottobre (fino a 45 centesimi al litro): le domande si presentano ad AGEA, sul portale SIAN o tramite un CAA, dal 28 ottobre al 20 novembre. La riduzione dell'accisa sul gasolio di circa 4,9 centesimi al litro, in vigore dal 28 ottobre, non è stata prorogata: dall'8 novembre si applica di nuovo l'accisa ordinaria. Al tavolo del 28 ottobre al ministero dei Trasporti con l'autotrasporto di Calabria, Basilicata, Puglia, Molise e Campania il Governo non ha annunciato nuovi fondi immediati. Dal 1° novembre IP e Tamoil non hanno rinnovato gli sconti straordinari, mentre Eni e Q8 proseguono con modalità legate all'andamento del mercato; al 1° novembre il gasolio self costa in media 2,241 euro al litro.",
         "fonti": [
           {
             "nome": "Fiscal Focus",
@@ -92,12 +92,24 @@
           {
             "nome": "Today",
             "url": "https://www.today.it/economia/carburanti-sconti-prezzi-stop-chi-dove-mappa.html"
+          },
+          {
+            "nome": "Il Sole 24 Ore",
+            "url": "https://www.ilsole24ore.com/art/gasolio-fine-taglio-accise-gazzetta-non-c-e-proroga-sconto-AJcvyI8B"
+          },
+          {
+            "nome": "Il Fatto Quotidiano",
+            "url": "https://www.ilfattoquotidiano.it/2026/11/07/accise-gasolio-scadenza-prezzi-notizie/8564288/"
+          },
+          {
+            "nome": "Tgcom24",
+            "url": "https://www.tgcom24.mediaset.it/economia/carburanti-scade-taglio-accise-gasolio_118712240-202602k.shtml"
           }
         ]
       },
       {
         "titolo": "Agricoltori e pescatori",
-        "testo": "Il 22 ottobre pescherecci fermi in molti porti, soprattutto dell'Adriatico, contro il prezzo del gasolio, che per alcune imprese supera il 60% dei costi. A fine ottobre gli agricoltori proseguivano i presìdi con i trattori in diverse regioni. Il 3 novembre Q8 Italia ha annunciato uno sconto del 20%, al netto dell'Iva, su gasolio e benzina per i propri clienti diretti di agricoltura e pesca, fino al 31 dicembre.",
+        "testo": "Il 22 ottobre pescherecci fermi in molti porti, soprattutto dell'Adriatico, contro il prezzo del gasolio, che per alcune imprese supera il 60% dei costi. A fine ottobre gli agricoltori proseguivano i presìdi con i trattori in diverse regioni. Il 3 novembre Q8 Italia ha annunciato uno sconto del 20%, al netto dell'Iva, su gasolio e benzina per i propri clienti diretti di agricoltura e pesca, fino al 31 dicembre. Per le imprese della pesca e dell'acquacoltura il contributo nazionale del decreto, pari al 10% della spesa per il carburante dal 1° giugno al 15 ottobre (10 milioni in tutto), si chiede online dal 2 al 16 novembre.",
         "fonti": [
           {
             "nome": "ANSA",
@@ -130,6 +142,18 @@
           {
             "nome": "SoldiOnline",
             "url": "https://www.soldionline.it/notizie/economia-politica/carburante-per-agricoltura-e-pesca-q8-taglia-del-20-fino-al-31-dicembre"
+          },
+          {
+            "nome": "ItaliaOggi",
+            "url": "https://www.italiaoggi.it/diritto-e-fisco/diritto-e-impresa/pesca-10-milioni-per-il-caro-gasolio-domande-dal-2-al-16-novembre-ldda9ctm"
+          },
+          {
+            "nome": "TermoliOnLine",
+            "url": "https://termolionline.it/2026/11/lavoro-ed-economia/pesca-i-dieci-milioni-contro-il-caro-carburante-da-domani-le-domande-contributi-fino-al-10/"
+          },
+          {
+            "nome": "Pesceinrete",
+            "url": "https://www.pesceinrete.com/carburante-pesca-2026-fondo-perduto-domande/"
           }
         ]
       },
@@ -824,7 +848,7 @@
         "regione": [
           {
             "titolo": "30 centesimi al litro sul gasolio agricolo",
-            "testo": "La legge regionale di variazioni di bilancio ha stanziato 25 milioni per le aziende agricole contro il caro carburanti: la trovi qui sotto tra le leggi. Il 23 ottobre la Giunta ha approvato le regole: 30 centesimi per ogni litro di gasolio agricolo acquistato dal 1° giugno al 31 dicembre 2026, calcolati sul 74% del carburante agevolato assegnato per il 2026. Il 28 ottobre la commissione competente del Consiglio regionale ha dato parere favorevole. Le domande saranno precompilate sul portale dell'agenzia Laore, da firmare digitalmente, dopo la pubblicazione del bando; l'obiettivo è pagare entro fine anno.",
+            "testo": "La legge regionale di variazioni di bilancio ha stanziato 25 milioni per le aziende agricole contro il caro carburanti: la trovi qui sotto tra le leggi. Il contributo è di 30 centesimi per ogni litro di gasolio agricolo acquistato dal 1° giugno al 31 dicembre 2026, calcolati sul 74% del carburante agevolato assegnato per il 2026. L'avviso è stato pubblicato: le domande, precompilate, si presentano online sul portale dell'agenzia Laore dal 5 al 20 novembre 2026; l'obiettivo è pagare entro fine anno.",
             "fonti": [
               {
                 "nome": "L'Unione Sarda",
@@ -841,9 +865,17 @@
               {
                 "nome": "Sardegna Notizie 24",
                 "url": "https://sardegnanotizie24.it/carburanti-agricoli-via-libera-della-commissione-al-contributo-di-25-milioni-per-le-imprese-sarde/"
+              },
+              {
+                "nome": "Agenzia Laore",
+                "url": "https://www.agenzialaore.it/"
+              },
+              {
+                "nome": "Confagricoltura Sardegna",
+                "url": "https://www.confagricoltura.sardegna.it/2026/11/03/pubblicato-lavviso-per-laiuto-straordinario-sul-carburante-agricolo-domande-dal-5-al-20-novembre/"
               }
             ],
-            "stato": "approvata",
+            "stato": "disponibile",
             "importo": "25 milioni",
             "accesso": "domanda"
           }
