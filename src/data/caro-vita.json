@@ -1,6 +1,6 @@
 {
   "_nota": "Speciale caro vita. 'contesto': fatti verificati su almeno due fonti indipendenti (nessun giudizio). 'regioni': selezione curata a mano di leggi e atti, con gli id di src/data/consigli.json. Si può correggere a mano.",
-  "aggiornato": "2026-11-08",
+  "aggiornato": "2026-11-12",
   "chiuso": null,
   "temi": [
     {
@@ -635,6 +635,26 @@
                 "url": "https://www.molisenetwork.net/2026/10/05/caro-carburanti-consiglio-regionale-mozione-molise/"
               }
             ]
+          },
+          {
+            "titolo": "1 milione per la pesca di Termoli",
+            "testo": "Il 23 ottobre il presidente Roberti ha annunciato che la Regione anticiperà circa 1 milione di euro per la marineria di Termoli, senza attendere i tempi dei fondi nazionali per la pesca. A inizio novembre, secondo Coldiretti, il contributo non era ancora stato pagato.",
+            "fonti": [
+              {
+                "nome": "ANSA",
+                "url": "https://www.ansa.it/molise/notizie/2026/10/23/roberti-anticiperemo-i-fondi-ministeriali-per-il-gasolio-ai-pescatori_bdc0e43b-acb7-4008-bc7d-5921eab5cd3d.html"
+              },
+              {
+                "nome": "isNews",
+                "url": "https://www.isnews.it/2026/11/05/caro-gasolio-attivo-lo-sportello-di-coldiretti-impresa-pesca-per-i-contributi-alla-marineria-termolese/"
+              },
+              {
+                "nome": "Molise Network",
+                "url": "https://www.molisenetwork.net/2026/11/05/caro-gasolio-sostegno-pescatori-coldiretti-molise-termoli/"
+              }
+            ],
+            "stato": "annunciata",
+            "importo": "circa 1 milione"
           }
         ]
       },
@@ -761,24 +781,28 @@
         ],
         "regione": [
           {
-            "titolo": "15 milioni per gli autotrasportatori",
-            "testo": "Con una legge regionale e un decreto la Regione ha messo a disposizione 15 milioni: rimborsa il 70% della spesa in più per il gasolio rispetto ai prezzi di febbraio 2026, per gli acquisti da marzo a dicembre. Le domande vanno presentate entro il 30 novembre 2026.",
+            "titolo": "30 milioni per gli autotrasportatori",
+            "testo": "La Regione rimborserà il 70% della spesa in più per il gasolio rispetto ai prezzi di febbraio 2026, per gli acquisti da marzo a dicembre. Ai primi 15 milioni la legge regionale del 22 ottobre, pubblicata il 3 novembre, ha aggiunto altri 15 milioni. Al 12 novembre l'avviso con la piattaforma per le domande non è ancora stato pubblicato; la scadenza annunciata è il 30 novembre 2026.",
             "fonti": [
               {
                 "nome": "Regione Siciliana",
                 "url": "https://www.regione.sicilia.it/la-regione-informa/caro-carburanti-pronti-15-milioni-euro-autotrasportatori"
               },
               {
-                "nome": "La Sicilia",
-                "url": "https://www.lasicilia.it/news/economia/3076602/caro-carburanti-in-sicilia-15-milioni-per-gli-autotrasportatori-come-ottenere-i-rimborsi-per-il-gasolio.html"
+                "nome": "Uomini e Trasporti",
+                "url": "https://www.uominietrasporti.it/professione/leggi-e-politica/sicilia-gli-aiuti-al-gasolio-raddoppiano-a-30-milioni-ma-il-bando-per-i-camion-e-ancora-fermo/"
               },
               {
-                "nome": "Trans.info",
-                "url": "https://trans.info/it/caro-gasolio-15-milioni-di-aiuti-agli-autotrasportatori-505413"
+                "nome": "Giornale di Sicilia",
+                "url": "https://palermo.gds.it/articoli/economia/2026/11/11/caro-carburanti-dallars-ars-ok-ai-30-milioni-52780419-aef3-4379-a32a-62511a8ec17b/"
+              },
+              {
+                "nome": "Tp24",
+                "url": "https://tp24.it/2026/11/09/trasporti/caro-gasolio-la-regione-aumenta-a-30-milioni-gli-aiuti-alle-imprese-il-bando-pero-e-fermo/241941"
               }
             ],
-            "stato": "disponibile",
-            "importo": "15 milioni",
+            "stato": "approvata",
+            "importo": "30 milioni",
             "accesso": "domanda"
           },
           {
@@ -803,8 +827,8 @@
           },
           {
             "titolo": "33 milioni per il carburante agricolo",
-            "testo": "Un decreto del dipartimento regionale dell'Agricoltura ha approvato l'avviso: 33 milioni per aziende agricole e imprese conto terzi, come ristoro dei costi sostenuti per il carburante dal 1° marzo al 31 ottobre 2026. Le domande si presentano online sul portale Uma Sicilia dal 9 al 30 novembre.",
-            "stato": "approvata",
+            "testo": "Un decreto del dipartimento regionale dell'Agricoltura ha approvato l'avviso: 33 milioni per aziende agricole e imprese conto terzi, come ristoro dei costi sostenuti per il carburante dal 1° marzo al 31 ottobre 2026. Le domande sono aperte: si presentano online sul portale Uma Sicilia fino al 30 novembre.",
+            "stato": "disponibile",
             "importo": "33 milioni",
             "accesso": "domanda",
             "fonti": [
@@ -819,6 +843,14 @@
               {
                 "nome": "QdS",
                 "url": "https://qds.it/caro-carburante-arrivano-33-milioni-aziende-agricole-siciliane-via-domande/"
+              },
+              {
+                "nome": "Tp24",
+                "url": "https://www.tp24.it/2026/11/06/dalla-regione/caro-carburante-dalla-regione-33-milioni-per-le-imprese-agricole-domande-da-9-novembre/241789"
+              },
+              {
+                "nome": "AgrigentoNotizie",
+                "url": "https://www.agrigentonotizie.it/economia/caro-carburante-fondi-aziende-agricole-quando-domande.html"
               }
             ]
           }
@@ -1284,7 +1316,7 @@
         "regione": [
           {
             "titolo": "10,6 milioni per il gasolio agricolo",
-            "testo": "A metà ottobre il Consiglio regionale ha approvato, nella manovra autunnale, i fondi contro il caro gasolio per le aziende agricole. Il 22 ottobre la Giunta ha presentato le regole: 10,6 milioni assegnati in automatico, senza domanda, con l'obiettivo di pagarli entro fine 2026; gli importi per ettaro sono ancora da definire con le associazioni agricole.",
+            "testo": "A metà ottobre il Consiglio regionale ha approvato, nella manovra autunnale, i fondi contro il caro gasolio per le aziende agricole. A inizio novembre la Giunta ha approvato le regole: 10,6 milioni, calcolati sulle superfici e sui tipi di coltura dichiarati nella domanda PAC, per circa 130 mila ettari. Non serve una nuova domanda; l'obiettivo è pagare entro il 31 dicembre 2026.",
             "fonti": [
               {
                 "nome": "ANSA",
@@ -1292,15 +1324,15 @@
               },
               {
                 "nome": "Friuli Oggi",
-                "url": "https://www.friulioggi.it/friuli-venezia-giulia/caro-gasolio-regioneaiuti-agricoltori-contributi-automatici-entro-anno-22-ottobre-2026/"
+                "url": "https://www.friulioggi.it/friuli-venezia-giulia/caro-gasolio-via-libera-contributi-agricoltori-come-funzionano-pagamenti-7-novembre-2026/"
+              },
+              {
+                "nome": "DiarioFVG",
+                "url": "https://www.diariofvg.it/2026/11/09/aiuti-agricoltura-caro-carburante-fvg"
               },
               {
                 "nome": "Trieste All News",
                 "url": "https://www.triesteallnews.it/2026/10/caro-carburanti-106-milioni-per-lagricoltura-dalla-regione/"
-              },
-              {
-                "nome": "DiarioFVG",
-                "url": "https://www.diariofvg.it/2026/10/16/caro-gasolio-regione-10-milioni-per-aziende-agricole-chi-puo-ottenere-contributi"
               }
             ],
             "stato": "approvata",
